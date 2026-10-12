@@ -34,7 +34,7 @@ Cinco situaciones de infonegocio donde esta skill pasa de "creo que vendimos bie
 
 **Qué le pasás.** El export de la encuesta (nota, NPS, preguntas abiertas), la asistencia a sesiones y las cuotas al día.
 
-**Qué te devuelve.** NPS por cohorte y por coach, los 3 temas de lo abierto con frases textuales, y el cruce: los detractores son, casi todos, alumnos que no tuvieron su sesión de onboarding. El problema no es falta de coaches: es la primera semana.
+**Qué te devuelve.** Primero limpia (duplicados, respuestas que no cruzan con la base, tasa de respuesta). Después, NPS con conteo, cada área con promedio y % que da 4 o 5, los 3 temas de lo abierto con frases por número de respuesta, y el cruce con la base: los detractores son, casi todos, alumnos que tardaron en entrar o no tuvieron su sesión de onboarding, y los que deben respondieron menos (el NPS real es peor). El problema no es falta de coaches: es la primera semana.
 
 **Por qué sirve.** Con datos de satisfacción, el servicio deja de ser una sensación y pasa a ser prioridad con argumentos.
 

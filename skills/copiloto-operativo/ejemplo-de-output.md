@@ -68,15 +68,15 @@ La regla aprobada es: [pegá la tabla]. Dueño del proceso: coordinación de ope
 
 **Copiloto:** Con lo que ya tienen alcanza para arrancar.
 
-| Opción | Qué hace | Costo extra | Contra |
+| Opción | Qué hace y su ventaja | Costo extra | Contra |
 |---|---|---|---|
-| **Stripe** (lo que ya pagan) | Los recordatorios y reintentos de pago de suscripciones y facturas, configurados desde Stripe | US$0 | Solo cubre lo que se cobra por Stripe, no las transferencias |
-| **Zapier gratis** | Planilla → aviso por mail o Slack cuando una cuota pasa a vencida | US$0 hasta unas 100 tareas por mes | Se queda corto si crece el volumen |
-| **n8n o Make** | Lo mismo, con más volumen y lógica | Desde unos US$10 a 25 por mes | Es una herramienta nueva para un equipo que nunca automatizó |
+| **Stripe** (lo que ya pagan) | Los recordatorios y reintentos de pago de suscripciones y facturas, configurados desde Stripe. Ventaja: ya está pago y no suma herramienta | US$0 | Solo cubre lo que se cobra por Stripe, no las transferencias |
+| **Zapier gratis** | Planilla → aviso por mail o Slack cuando una cuota pasa a vencida. Ventaja: el más fácil de mantener para un equipo que nunca automatizó | US$0 hasta unas 100 tareas por mes | Se queda corto si crece el volumen |
+| **n8n o Make** | Lo mismo, con más volumen y lógica. Ventaja: más barato por volumen y con ramas | Desde unos US$10 a 25 por mes | Es una herramienta nueva para un equipo que nunca automatizó |
 
-Costos orientativos: verificalos en la página oficial antes de decidir.
+Costos orientativos, relevados en octubre de 2026: verificalos en la página oficial antes de decidir.
 
-**Mi recomendación:** primero Stripe para las cuotas con tarjeta (cero costo y cero herramientas nuevas) y, para las transferencias, el mensaje del día 1 a mano durante un mes con la regla nueva. Si al mes son más de 20 avisos por semana, ahí se justifica automatizarlo; diseñalo con **Diseñador de Automatizaciones**.
+**Mi recomendación:** primero Stripe para las cuotas con tarjeta (cero costo y cero herramientas nuevas) y, para las transferencias, el mensaje del día 1 a mano durante un mes con la regla nueva. Si al mes son más de 20 avisos por semana *(umbral orientativo: es el punto en que hacerlo a mano pasa de una hora por semana)*, ahí se justifica automatizarlo; diseñalo con **Diseñador de Automatizaciones**.
 
 **Para confirmar**
 - Qué cuotas se cobran por Stripe y cuáles por transferencia (con el founder o quien concilia).

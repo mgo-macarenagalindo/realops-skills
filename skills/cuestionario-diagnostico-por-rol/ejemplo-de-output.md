@@ -25,14 +25,16 @@ El equipo pierde **27 horas por semana** pasando información a mano entre Whats
 
 ## Semáforo de los 6 Dolores Mortales del Backstage
 
-| # | Dolor | Estado | Evidencia clave | Roles que lo dicen | Según el founder |
-|---|---|---|---|---|---|
-| 1 | Reuniones eternas e ineficientes | MODERADO | No hay reuniones largas; hay una sola semanal que "se suspende seguido". Lo que se pierde es el traspaso de venta a servicio | Closer, coach | BAJO ("nos vemos poco, eso está bien") |
-| 2 | Información dispersa | CRÍTICO | "Está todo en el chat" en 5 de 7 respuestas. Dos planillas de alumnos distintas | Setter, closer, coach, asistente | MODERADO |
-| 3 | Fuga de datos y métricas | MODERADO | Cada rol mira un número distinto; nadie mira lo cobrado | Setter, closer | CRÍTICO ("no sé cuánto gano de verdad") |
-| 4 | Roles difusos | CRÍTICO | Cobros sin dueño: 3 roles responden distinto quién se ocupa. 5 de 7 no saben cómo se los mide | Coach, asistente, closer, setter | MODERADO |
-| 5 | Cultura del sobreesfuerzo | MODERADO | 22 h/sem fuera de horario. Coach con energía 4/10 | Coach, asistente | SIN EVIDENCIA (no se preguntó) |
-| 6 | Tareas manuales sin automatizar | CRÍTICO | 27 h/sem manuales; la carga doble de cada lead (WhatsApp + planilla) son 9 | Setter, asistente, closer | MODERADO |
+| # | Dolor | Estado | Orden (críticos por plata) | Evidencia clave | Roles que lo dicen | Según el founder |
+|---|---|---|---|---|---|---|
+| 1 | Reuniones eternas e ineficientes | MODERADO | — | No hay reuniones largas; hay una sola semanal que "se suspende seguido". Lo que se pierde es el traspaso de venta a servicio | Closer, coach | BAJO ("nos vemos poco, eso está bien") |
+| 2 | Información dispersa | CRÍTICO | **2** · frena ventas (el closer entra sin contexto), monto sin dato | "Está todo en el chat" en 5 de 7 respuestas. Dos planillas de alumnos distintas | Setter, closer, coach, asistente | MODERADO |
+| 3 | Fuga de datos y métricas | MODERADO | — | Cada rol mira un número distinto; nadie mira lo cobrado | Setter, closer | CRÍTICO ("no sé cuánto gano de verdad") |
+| 4 | Roles difusos | CRÍTICO | **1** · frena cobros (cuotas vencidas sin dueño), monto sin dato | Cobros sin dueño: 3 roles responden distinto quién se ocupa. 5 de 7 no saben cómo se los mide | Coach, asistente, closer, setter | MODERADO |
+| 5 | Cultura del sobreesfuerzo | MODERADO | — | 22 h/sem fuera de horario. Coach con energía 4/10 | Coach, asistente | SIN EVIDENCIA (no se preguntó) |
+| 6 | Tareas manuales sin automatizar | CRÍTICO | **3** · 27 h/sem, sin costo por hora | 27 h/sem manuales; la carga doble de cada lead (WhatsApp + planilla) son 9 | Setter, asistente, closer | MODERADO |
+
+**Orden de los críticos.** Ninguno tiene número de plata (nadie sabe cuánto hay vencido), así que van por lo que frenan: primero el cobro (#4), después la venta (#2), después las horas (#6). El monto vencido va a "Para confirmar": cuando aparezca, el #4 queda primero con número.
 
 **Lectura:** donde más se separan founder y equipo es en el dolor 4. Él ve un problema de números (3); el equipo ve que nadie sabe a quién le toca (4). Las dos cosas son ciertas, pero el orden importa: sin dueño de cobros, ningún tablero va a mostrar un cobrado confiable.
 
@@ -102,7 +104,7 @@ Si se duplicaran las ventas, lo primero que se rompe según el equipo: **la bien
 - Monto de cuotas vencidas: pedírselo a la asistente con acceso a la pasarela de pago.
 - Quién es hoy el dueño de cobros: decisión del founder.
 
-## Para el Diagnóstico Operativo
+## Para el Diagnóstico Operativo (en el orden de los críticos)
 
 1. **#4 · Cobros sin dueño** (CRÍTICO): 3 respuestas distintas a "quién se ocupa"; la coach cobra.
 2. **#2 · Información del cliente dispersa** (CRÍTICO): "está todo en el chat" en 5 de 7; dos planillas de alumnos.

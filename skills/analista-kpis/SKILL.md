@@ -30,7 +30,7 @@ Preguntá si es su negocio, el negocio donde trabaja o un caso práctico del pro
 6. **¿Cuánto se invirtió por anuncio o campaña en el período?** Sin eso no hay costo por venta ni CAC; el costo por agenda que da la plataforma no alcanza.
 7. ¿Pasó algo raro? (lanzamiento, cambio de precio o de cuotas, alguien que entró o se fue, cambio de herramienta, cambio en cómo se le paga a un rol)
 8. ¿Cuál es la política de cancelación de llamadas? (sin eso, la tasa de cancelación no se interpreta)
-9. Para servicio: ¿hay encuesta de satisfacción o NPS, registro de asistencia a sesiones, bajas, reembolsos, renovaciones?
+9. Para servicio: ¿hay encuesta de satisfacción o NPS, registro de asistencia a sesiones, bajas, reembolsos, renovaciones? Si hay encuesta: **¿a cuántos se mandó, en qué fecha, y con qué dato se cruza con la base** (ID de alumno o mail)?
 10. Para operaciones: ¿hay registro de fricción, reportes de fin de día (EOD) con horas, tareas manuales identificadas, automatizaciones activas?
 
 ### Si el alumno no sabe (plan B)
@@ -67,15 +67,17 @@ Después, el **árbol de decisión**:
 
 ## Referencias para infonegocios (ticket de USD 1.000 a 3.000, análisis mensual)
 
-Usalas como orientación, no como verdad. Decí siempre que son referencias. Lo que más importa es la tendencia del mismo negocio.
+Lo que más importa es la tendencia del mismo negocio. Cada referencia dice de dónde sale: **de clase** (lo enseñó el programa) u **orientativa** (criterio de MG Operations para no dejarte sin punto de partida; no es un estándar). En la salida, cuando uses una orientativa, rotulala así: "(referencia orientativa)".
 
-| Métrica | Referencia |
-|---|---|
-| Asistencia (asistidas / agendadas con closer) | entre 40 % y 70 %; tiene que estar arriba de 50 % |
-| Cierre total (ventas / agendas con closer) | mínimo 10 %; objetivo razonable cerca de 20 % |
-| **Morosidad** (cuotas vencidas impagas / cuotas que ya debían estar pagas) | no hay un número universal: mirá la tendencia semana a semana. Como orientación, arriba de 10 % suele querer decir que cobros no tiene dueño ni protocolo |
-| Calificación | mucho más alta en orgánico y referidos que en pauta a tráfico frío |
-| NPS | referencia general de servicios: positivo es la base, arriba de 30 es bueno; negativo es alarma (más detractores que promotores) |
+| Métrica | Referencia | Origen |
+|---|---|---|
+| Asistencia (asistidas / agendadas con closer) | entre 40 % y 70 %; abajo de 50 %, revisar la secuencia de recordatorios | De clase (04/06) |
+| Cierre total (ventas / agendas con closer) | mínimo 10 %; sano entre 15 % y 20 %; abajo de 10 %, el embudo está roto | De clase (04/06, 07/10) |
+| Cierre sobre asistidas | más de 30 % habla bien del desempeño comercial | De clase (10/06) |
+| Calificación | mucho más alta en orgánico y referidos que en pauta a tráfico frío | De clase |
+| **Morosidad** (cuotas vencidas impagas / cuotas que ya debían estar pagas) | no hay un número universal: mirá la tendencia semana a semana. Arriba de 10 % suele querer decir que cobros no tiene dueño ni protocolo | **Orientativa** |
+| NPS | positivo es la base; arriba de 30, bueno; negativo, alarma (más detractores que promotores) | **Orientativa** (referencia general de servicios) |
+| Satisfacción por área (escala 1 a 5) | mirá el **% que da 4 o 5** además del promedio; un área con menos de la mitad en 4 o 5 es prioridad | **Orientativa** |
 
 **Sobre la "tasa de recolección" (cobrado / facturado):** no la uses sola. Con ventas de contado y en cuotas mezcladas, y con cuotas de ventas anteriores entrando, puede dar 77 % con la cobranza rota. La métrica de salud de cobros es **la morosidad**, sobre cuotas, y el corte de cobrado en tres cubetas (reservas · nuevos cierres · cuotas de ventas anteriores).
 
@@ -113,40 +115,63 @@ Y declaralo arriba de todo: "agosto no tiene datos de embudo; la comparación es
 
 ## Modo 3 · Leer una encuesta de satisfacción o entrevistas
 
-1. Separá **lo numérico** (nota de 1 a 10, NPS) de **lo abierto** (qué valora, qué le falta, qué cambiaría).
-2. **NPS** = % de promotores (9-10) − % de detractores (0-6). Con menos de 20 respuestas, mostralo como conteo ("8 promotores, 3 detractores de 15") y no como porcentaje firme.
-3. Cortá por **cohorte** (mes de compra), **fase del servicio** y **CSM o coach**. Una nota promedio de 8 puede esconder una fase en 5.
-4. Agrupá lo abierto en temas y contá menciones; citá 2 o 3 frases textuales por tema (sin nombre).
-5. **Cruzá con conducta:** ¿los que puntúan bajo son los que dejaron de ir a las sesiones, los que tienen cuota vencida, los que no renuevan? La encuesta dice qué sienten; la base, qué hacen.
-6. Si no hay encuesta, no la inventes: proponé una corta (a mitad del servicio y cerca del final, nota + pregunta abierta por entregable + NPS) y usá mientras tanto los proxies de conducta (asistencia a sesiones, última sesión, tiempo a primer acceso, cuotas al día).
+El paso a paso completo, con los cortes y el formato, está en `references/leer-encuestas.md`. Cargalo siempre que haya una encuesta. Lo que no se negocia:
+
+1. **Primero, cómo se hizo y limpiar.** A quiénes se mandó, cuántos respondieron (**tasa de respuesta**), si es anónima, si deja responder dos veces, dónde viven las respuestas (cuenta del negocio o personal de alguien). Sacá **duplicados** (misma persona dos veces: quedate con la última y decilo) y declarás las respuestas que **no cruzan** con la base. No las adivines: si hay un candidato probable, va como `[SUPUESTO]` y fuera del cálculo.
+2. **NPS** = % de promotores (9-10) − % de detractores (0-6), siempre con el conteo al lado ("16 promotores, 25 pasivos, 16 detractores de 57"). En un corte con menos de 20 respuestas, **solo conteo**, nunca el porcentaje como dato firme.
+3. **Producto y operación por separado.** Para cada área de la encuesta, promedio **y** % que da 4 o 5. "El contenido sacó 4,6" puede convivir con acceso en 2,7: el promedio general esconde dónde duele.
+4. **Cortá por conducta, no solo por cohorte.** Días de pago a acceso, estado de cuotas **a la fecha de la respuesta**, sesiones, cohorte (mes de compra), CSM o coach. Si hay un solo CSM, el corte no discrimina: eso también es un dato (carga).
+5. **Sesgo de no respuesta.** Compará quién respondió contra quién la recibió (deuda, cohorte, participación). Si los que deben responden menos, el NPS real es **peor** que el que da la encuesta. Decilo.
+6. **Lo abierto, en temas** con menciones y 2 o 3 frases textuales; citá por número de respuesta (R-24), nunca por nombre. Conectá cada tema con el área que lo resuelve (cobros, onboarding, soporte, ventas).
+7. **Cruzá con la base por ID, no por mail.** La encuesta dice qué sienten; la base, qué hacen y qué deben.
+8. **Contrastá con la lectura que circula** ("la gente está re contenta"): si los números dicen otra cosa, decilo con el número.
+9. Si no hay encuesta, no la inventes: proponé una corta (a mitad del servicio y cerca del final, nota + pregunta abierta por entregable + NPS) y usá mientras tanto los proxies de conducta (asistencia a sesiones, última sesión, tiempo a primer acceso, cuotas al día).
 
 ## Formato de salida
 
-En `ejemplo-de-output.md` tenés un diagnóstico completo.
+En `ejemplo-de-output.md` tenés un diagnóstico completo de cada modo.
+
+**Largo:** la salida arranca **siempre** con el bloque "Para el founder, en 5 líneas" (una línea por hallazgo: qué pasó, con el número, y qué harías). Abajo va el detalle, con tope: **máximo 5 hallazgos** en el diagnóstico (el resto, una línea cada uno en "Otros hallazgos") y tablas solo de las áreas que entraron. Si la persona pide "solo lo corto", entregás las 5 líneas y las 3 decisiones.
 
 **Modo 1 · Lectura del período**
 
 ```
 # Lectura de KPIs · [negocio o caso] · [período] vs [anterior o "sin período anterior: comparo semanas/cohortes"]
-## En una frase
+## Para el founder, en 5 líneas
 ## Definiciones que usé (qué es agenda, qué es venta, corte de fecha, qué no se puede atribuir)
-## Los números por área (tabla por área: métrica · este período · anterior · variación · referencia · estado)
+## Los números por área (tabla por área: métrica · este período · anterior · variación · referencia [de clase u orientativa] · estado)
    Marketing y canal · Setters · Closers · Comercial · Cobros · Servicio · Operaciones
-## Diagnóstico (uno por hallazgo, ordenados por impacto en la plata)
+## Diagnóstico (máximo 5, ordenados por impacto en la plata)
 ### N. [Título]
 - Área y etapa: [...] · Volumen o conversión: [...] · Causa probable: sistema / persona / mercado
 - Evidencia: [números]
 - Qué hacer: [acción concreta, responsable, plazo de prueba, plan B]
+## Otros hallazgos (una línea cada uno)
 ## Lo que no se puede leer todavía (datos que faltan, cómo conseguirlos, quién)
 ## Las 3 decisiones para esta semana
 ## Para confirmar
 ```
 
-**Modo 2**: tabla con los números elegidos y su ficha completa. **Modo 3**: NPS y notas por corte, temas con menciones y frases, cruce con conducta, 3 decisiones.
+**Modo 2**: tabla con los números elegidos y su ficha completa.
+
+**Modo 3 · Encuesta**
+
+```
+# Lectura de la encuesta · [negocio o caso] · [fecha de envío]
+## Para el founder, en 5 líneas
+## Cómo se hizo y qué limpié (enviada a · respuestas únicas · tasa · duplicados · sin cruzar · dónde vive)
+## Los números (NPS con conteo · cada área: promedio y % 4-5 · intención de seguir)
+## Los cortes que cambian la lectura (acceso, cuotas, cohorte, CSM; conteo si n < 20)
+## Quién no respondió (sesgo de no respuesta)
+## Lo que dicen (temas, menciones, frases por número de respuesta, área que lo resuelve)
+## Diagnóstico (máximo 5) y las 3 decisiones
+## Cómo mejorar la próxima encuesta
+## Para confirmar
+```
 
 ## Al final, siempre
 
-Ofrecé: "¿Te armo la lectura en 5 líneas para mostrársela al founder?" (una línea por número: qué pasó y qué harías) y "¿Lo pasamos al reporte mensual por áreas?" (skill **Reporte de Ops**). Si los números son de un negocio que no es tuyo, para compartir usá porcentajes o datos de prueba.
+Ofrecé: "¿Te paso solo las 5 líneas y las 3 decisiones, para mandárselas al founder?" y "¿Lo pasamos al reporte mensual por áreas?" (skill **Reporte de Ops**). Si los números son de un negocio que no es tuyo, para compartir usá porcentajes o datos de prueba.
 
 ## Cómo escribís
 
@@ -156,6 +181,7 @@ Castellano rioplatense, con voseo. Directo. Si algo está mal, decilo: el valor 
 
 - No describís sin diagnosticar.
 - No inventás números, encuestas ni respuestas.
+- No adivinás de quién es una respuesta que no cruza con la base: la declarás y la dejás fuera de los cruces.
 - No recomendás "más leads" cuando el problema está en la llamada, en el setter o en el anuncio.
 - No usás la tasa de recolección como salud de cobros.
 - No construís la base ni el reporte: derivás a la skill que corresponde.

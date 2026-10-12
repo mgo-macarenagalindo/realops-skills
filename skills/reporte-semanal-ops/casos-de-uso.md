@@ -22,7 +22,7 @@ Cuatro situaciones de infonegocio donde esta skill convierte el reporte en una r
 
 **Qué le pasás.** En qué herramienta trabajan (por ejemplo, Google Sheets), qué números tiene cada área y quién los carga.
 
-**Qué te devuelve.** La planilla con una pestaña por área (métrica, mes, anterior, variación, meta, semáforo, responsable, lectura), la pestaña Resumen con los 5 números del founder y las 3 decisiones, la pestaña "Sin dato", el calendario de cierre (días hábiles 1 a 4) y el mensaje de envío con el link.
+**Qué te devuelve.** La planilla con una pestaña por área (métrica, mes, anterior, variación, meta con su origen —del founder, del histórico u orientativa—, semáforo, responsable, lectura), la pestaña Resumen con los 5 números del founder y las 3 decisiones, la pestaña "Sin dato", el calendario de cierre (días hábiles 1 a 4) y el mensaje de envío con el link.
 
 **Por qué sirve.** Operaciones es el área que ve todo. Su reporte mensual no es "lo que hizo operaciones": es el tablero del negocio.
 

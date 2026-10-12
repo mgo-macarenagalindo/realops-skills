@@ -141,14 +141,16 @@ El programa vende bien y el equipo tiene ganas: hubo 23 cierres en septiembre. E
 
 ## 2. Semáforo de los 6 dolores del backstage
 
-| Dolor | Estado | Lo que lo muestra |
-|---|---|---|
-| 1 · Reuniones eternas | BAJO | No aparece en las charlas |
-| 2 · Roles difusos | MODERADO | Nadie es dueño de cobrar |
-| 3 · Fuga de datos y métricas | CRÍTICO | Vendido y cobrado mezclados; canal de venta desconocido |
-| 4 · Información dispersa | MODERADO | Ventas en dos pestañas, cuentas a nombre de personas |
-| 5 · Cultura del sobreesfuerzo | sin evidencia suficiente | — |
-| 6 · Tareas manuales | MODERADO | Onboarding de 2 a 5 días hecho a mano |
+| Dolor | Estado | Orden | Lo que lo muestra |
+|---|---|---|---|
+| 1 · Reuniones eternas | BAJO | — | No aparece en las charlas |
+| 2 · Información dispersa | MODERADO | — | Ventas en dos pestañas, cuentas a nombre de personas |
+| 3 · Fuga de datos y métricas | CRÍTICO | 2 | Vendido y cobrado mezclados; canal de venta desconocido |
+| 4 · Roles difusos | CRÍTICO | 1 | Nadie es dueño de cobrar; el setter cobra por agenda |
+| 5 · Cultura del sobreesfuerzo | sin evidencia suficiente | — | — |
+| 6 · Tareas manuales | MODERADO | — | Onboarding de 2 a 5 días hecho a mano |
+
+**Crítico 1 · Roles difusos:** USD 7.150 en cuotas vencidas sin dueño, confirmados (cuello 1); además, la mitad de las llamadas de los closers son con gente que no califica (cuello 3). **Crítico 2 · Fuga de datos y métricas:** USD 7.200 en 4 ventas sin cobro rastreado (cuello 2): pueden haber entrado por transferencia, por eso pesa después de la plata confirmada. Los USD 4.000 de pauta (cuello 4) no suman: no se sabe si se pierden, se sabe que no se miden.
 
 ## 3. Cuellos de botella (uno de muestra)
 
@@ -160,7 +162,7 @@ A los setters se les paga por llamada agendada, no por llamada que puede cerrar.
 | Evidencia | 24 de 52 llamadas con personas fuera del perfil. "La mitad de mi día son llamadas que no sirven" — Closer |
 | Impacto | Alto · horas de closer y pauta perdidas |
 | Esfuerzo | Bajo · es una regla de pago |
-| Dolor del backstage | 2 · Roles difusos |
+| Dolor del backstage | 4 · Roles difusos |
 | Patrón | 10 · Incentivos desalineados |
 | Solución propuesta | Pagar por llamada calificada que se presenta; campo "¿califica?" obligatorio antes de agendar |
 

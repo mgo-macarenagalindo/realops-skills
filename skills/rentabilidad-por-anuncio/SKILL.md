@@ -76,13 +76,28 @@ Si hay calificación del closer, sumá el **% de agendas calificadas** por anunc
 Para cada anuncio, una de cuatro: **escalar · mantener · revisar · cortar**, con el motivo en una línea. Patrones a nombrar siempre:
 - **Llena la agenda y no vende:** muchas agendas, retorno bajo. Es el anuncio más peligroso, porque ocupa la agenda de los closers: decilo en horas de closer, no solo en dólares.
 - **Pocas agendas que cierran siempre:** el candidato a escalar que el ranking de leads esconde.
-- **Muestra chica:** con pocas ventas, la decisión es una señal, no una conclusión. Preguntá qué mínimo usa el negocio para decidir y, si no tiene, decí "muestra chica" y proponé cuánto tiempo más probar.
+- **Muestra chica:** con pocas ventas, la decisión es una señal, no una conclusión.
+
+**Cuánta muestra alcanza para decidir.** Si el negocio tiene un mínimo propio, usá el suyo. Si no lo tiene, **no lo dejes como pregunta abierta**: aplicá estos umbrales, rotulados en el informe como **criterio orientativo** (no salen de una clase; son una regla prudente para no escalar ni cortar por azar), y ofrecé dejarlos escritos como regla del negocio:
+
+| Decisión | Criterio orientativo |
+|---|---|
+| **Escalar fuerte** (subir más de 50 % el presupuesto) | 10 ventas atribuidas o más en el período, con retorno por encima del promedio de la cuenta |
+| **Escalar con prueba** | Menos de 10 ventas pero retorno por encima del promedio: subir de a 30-50 % por paso, revisar cada 4 semanas |
+| **Cortar sin esperar más muestra** | Cero ventas y cualquiera de estas dos: (a) al menos el **triple de llamadas asistidas con quien vende** de las que la cuenta necesita en promedio para una venta (si la cuenta cierra 1 de cada 4, cortar a las 12 asistidas sin venta); (b) un **gasto sin ventas de más del doble del CAC promedio** de la cuenta |
+| **Seguir probando** | Todo lo demás: se fija un plazo (4 semanas) y qué número cambia la decisión |
 
 Toda decisión lleva **plazo de prueba y plan B**.
 
-### Paso 5 · Cortes adicionales (si hay datos)
+### Paso 5 · ¿Falla el creativo o el público? (cortes adicionales)
 
 Por edad, género y país, para detectar segmentos ganadores (por ejemplo, un formato que funciona en un país y no en otro). Mínimo 3 a 5 creativos por campaña para poder comparar.
+
+**Si los cortes no vinieron, no te quedes en "falta el export".** Hacé las tres cosas:
+
+1. **Pedilos con instrucciones exactas.** En el Administrador de anuncios: nivel **Anuncios** → período del análisis → menú **Desglose** → **Por entrega** → **Edad**, después **Sexo**, después **País** (un export por corte) → **Exportar tabla** en CSV. Que incluya gasto, clientes potenciales y el evento de agenda. Es solo lectura: no hace falta dar acceso a la cuenta.
+2. **Mirá lo que el CRM ya te dice del público, sin Meta:** lo que el lead declaró en la aplicación (facturación, si tiene negocio, rol), el país por el prefijo del WhatsApp y, si hay, la edad del formulario. Compará esos perfiles entre anuncios.
+3. **Nombrá la confusión y diseñá la prueba que la separa.** Si un anuncio corre solo en un público distinto al resto (por ejemplo, el único en "Amplio" mientras los otros están en "Intereses"), creativo y público están mezclados y ningún export lo separa del todo. La prueba que sí lo separa, con presupuesto chico y plazo fijo: **el mejor creativo en el público dudoso** (si vende, el público sirve y el problema era el creativo) y, solo si hace falta, el creativo dudoso en el público bueno. Rotulá el resultado mientras tanto como "probable", no como "confirmado".
 
 ## Trabajo con el trafficker
 
@@ -109,6 +124,7 @@ En `ejemplo-de-output.md` tenés un análisis completo.
 ## Lo que no se puede atribuir
 ## Decisiones (anuncio · decisión · por qué · plazo · plan B)
 ## Para marketing (qué ángulos traen gente que compra)
+## ¿Creativo o público? (qué se sabe, qué se pidió y qué prueba lo separa)
 ## Lo que falta para leer mejor
 ```
 
@@ -127,3 +143,4 @@ Castellano rioplatense, con voseo. Números con punto de miles y coma decimal. D
 - No atribuís ventas sin UTM a un anuncio "por intuición".
 - No inventás datos que falten: van a "lo que falta para leer mejor".
 - No pedís accesos ni tokens a las cuentas publicitarias.
+- No dejás "el mínimo de ventas para decidir" como pregunta abierta: usás el del negocio o el criterio orientativo, rotulado.

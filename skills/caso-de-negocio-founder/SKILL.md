@@ -1,6 +1,6 @@
 ---
 name: caso-de-negocio-founder
-description: Costo Económico de No Cambiar (RealOps™). Cuantifica en plata lo que un infonegocio pierde por seguir como está, para que el founder que se resiste vea el número - horas del equipo × costo (o en horas y jornadas si no hay sueldos), tiempo del founder como costo de oportunidad, fugas de cobro con pérdida esperada por antigüedad, ventas perdidas, rotación y fallas de servicio, y riesgo como exposición aparte - con fórmulas a la vista, supuestos marcados, separación entre costo por mes, bolsa de una vez y riesgo, proyección neta a 6 meses en escenario conservador y probable, el hallazgo en 3 números, el costo de cambiar contra lo que se recupera y un pedido de sí o no. Usala cuando el founder dice que no hace falta, que siempre se hizo así o que no es prioridad, antes de pedir tiempo o plata para un sistema, o cuando necesitás números y no opiniones.
+description: Costo Económico de No Cambiar (RealOps™). Cuantifica en plata lo que un infonegocio pierde por seguir como está, para que el founder que se resiste vea el número - horas del equipo × costo (o en horas y jornadas si no hay sueldos), tiempo del founder como costo de oportunidad, fugas de cobro con pérdida esperada sacada del historial de la base (o de una tabla orientativa rotulada), ventas perdidas, rotación y fallas de servicio, y riesgo como exposición aparte - con fórmulas a la vista, supuestos marcados, separación entre costo por mes, bolsa de una vez y riesgo, proyección neta a 6 meses en escenario conservador y probable, el hallazgo en 3 números, el costo de cambiar contra lo que se recupera y un pedido de sí o no. Usala cuando el founder dice que no hace falta, que siempre se hizo así o que no es prioridad, antes de pedir tiempo o plata para un sistema, o cuando necesitás números y no opiniones.
 ---
 
 # Costo Económico de No Cambiar
@@ -39,10 +39,10 @@ Si a alguna le contesta "no lo sé", no frenás: vas al plan B.
 
 | Si no sabe… | Preguntas más fáciles | Si sigue sin dato |
 |---|---|---|
-| **Los sueldos** (casi nunca están, y en un caso práctico nunca) | ¿Es full time? ¿Cobra fijo o por comisión? | **Presentá el costo en horas**, no en plata: horas por mes, jornadas de 8 h y qué parte de un puesto full time es (horas por mes ÷ 160). Ejemplo: "15 horas por mes = 2 jornadas = el 9 % de un puesto". Si querés mostrar una cifra, que sea un rango marcado: **[SUPUESTO: valor hora de USD 6 a 10 para un rol administrativo, confirmalo con el founder]**, nunca un número solo |
+| **Los sueldos** (casi nunca están, y en un caso práctico nunca) | ¿Es full time? ¿Cobra fijo o por comisión? | **Presentá el costo en horas**, no en plata: horas por mes, jornadas de 8 h y qué parte de un puesto full time es (horas por mes ÷ 160, **referencia orientativa** de un puesto de 40 h por semana). Ejemplo: "15 horas por mes = 2 jornadas = el 9 % de un puesto". Si querés mostrar una cifra, que sea un rango marcado: **[ORIENTATIVO: valor hora de USD 6 a 10 para un rol administrativo, no sale de las clases; confirmalo con el founder]**, nunca un número solo |
 | **Las horas** | ¿Cuántas veces por semana pasa? ¿Cuánto tarda cada vez? | Una semana de registro antes de presentar (26/03). Mientras tanto, frecuencia × minutos de lo que recuerde, marcado como estimación |
-| **Cuánto vale una hora del founder** | ¿Cuánto cobra el negocio por mes? ¿Cuántas horas trabajás? ¿Cuánto cobrás por una hora de 1:1? | Ver "Tiempo del founder" abajo. Si no hay ningún dato: mostrá sus horas y **qué deja de hacer** con ellas (vender, crear, liderar), sin precio |
-| **Cuánto de lo vencido se va a cobrar** | ¿Cuántas cuotas atrasadas se terminaron cobrando el trimestre pasado? | Tabla de recupero por antigüedad de abajo, marcada como **[SUPUESTO: criterio de la skill, reemplazalo por el historial del negocio]** |
+| **Cuánto vale una hora del founder** | ¿Cuánto cobrás por una hora de 1:1 o de consultoría? ¿Cuántas ventas cerrás vos por semana? ¿Cuántas horas trabajás por mes? | Ver "Tiempo del founder" abajo. **Nunca supongas las horas totales del founder** para sacar su valor hora: si no hay ningún dato, su tiempo va **en horas en los dos escenarios**, con **qué deja de hacer** con ellas (vender, crear, liderar) y lo que le importa, sin precio. Sus horas totales van a "Qué falta medir" |
+| **Cuánto de lo vencido se va a cobrar** | ¿Cuántas cuotas atrasadas se terminaron cobrando el trimestre pasado? ¿La base tiene la fecha de vencimiento y la fecha de pago de cada cuota? | **Primero el historial** (ver "Recupero de lo vencido" abajo): si la base tiene vencimiento y fecha de pago, se saca de ahí aunque nadie sepa contestarlo. Si no hay historial, la **tabla orientativa** de abajo, rotulada **[ORIENTATIVO: tabla de recupero de la skill, reemplazala por el historial del negocio]** |
 | **La tasa de cierre o el ticket** | ¿Cuántas ventas sobre cuántas llamadas el mes pasado? ¿Cuánto se cobra en promedio por venta? | La del material o la del tablero; si no hay, **[SUPUESTO: …]** con la fuente más cercana |
 
 ## Paso 1 · Medir antes de calcular
@@ -53,16 +53,25 @@ Si no hay números, el primer entregable es medirlos: **una semana de registro**
 
 | # | Fuente | Fórmula | Tipo de número |
 |---|---|---|---|
-| 1 | **Horas del equipo** | horas por semana × 4,3 × valor hora del rol. Sin sueldos: horas por mes, jornadas y % de un puesto (horas ÷ 160) | Por mes |
+| 1 | **Horas del equipo** | horas por semana × 4,3 × valor hora del rol. Sin sueldos: horas por mes, jornadas y % de un puesto (horas ÷ 160, orientativo) | Por mes |
 | 2 | **Tiempo del founder** (costo de oportunidad) | horas por mes del founder en tareas que no son suyas × valor de una hora del founder | Por mes |
 | 3 | **Fugas de cobro** | Pérdida esperada = Σ (monto vencido × % que no se recupera según antigüedad) + comisiones pagadas de más + accesos dados sin pago | La bolsa vencida es de una vez; lo que se vence cada mes y lo que se paga de más, por mes |
 | 4 | **Ventas perdidas** | leads sin seguimiento × tasa de cierre × ticket cobrado · no-shows evitables × tasa de cierre × ticket · pauta en anuncios que no venden | Por mes |
 | 5 | **Rotación y fallas de servicio** | Reemplazar a alguien = horas de búsqueda y capacitación × valor hora + semanas de rampa con menos rendimiento. Reembolsos y bajas × lo que ese cliente iba a pagar | Por evento (y por mes si se repite) |
 | 6 | **Riesgo** | Exposición = impacto en plata si pasa. Si podés estimar la probabilidad: probabilidad × impacto. Sin probabilidad, la exposición sola, con un caso concreto | **Aparte**: no se suma al costo por mes |
 
-**Tiempo del founder: cuánto vale su hora.** Usá la más conservadora de las que tengas: (a) lo que cobra por una hora de 1:1 o de consultoría; (b) lo que genera una hora de venta suya (ventas que cierra por hora × ticket cobrado); (c) cobrado del mes ÷ horas que trabaja, solo como techo. Decí cuál usaste. Y sumá siempre la parte que no tiene precio: lo que deja de hacer (los en vivo, el contenido, vender) y lo que le importa (las vacaciones, dormir).
+**Tiempo del founder: cuánto vale su hora.** Usá la más conservadora de las que tengas: (a) lo que cobra por una hora de 1:1 o de consultoría; (b) lo que genera una hora de venta suya (ventas que cierra por hora × ticket cobrado); (c) cobrado del mes ÷ horas que trabaja, solo como techo y **solo si las horas son un dato** (nunca un supuesto). Decí cuál usaste. Si no hay ninguna, su tiempo va en horas. Y sumá siempre la parte que no tiene precio: lo que deja de hacer (los en vivo, el contenido, vender) y lo que le importa (las vacaciones, dormir).
 
-**Recupero de lo vencido por antigüedad** (criterio de la skill, reemplazalo por el historial del negocio cuando exista):
+**Recupero de lo vencido: primero el historial, después la tabla.**
+
+1. **Si la base tiene, por cuota, la fecha de vencimiento y la fecha de pago, sacá el recupero de ahí.** Tres lecturas:
+   - **Hasta cuándo se cobra:** de las cuotas que se pagaron tarde, ¿con cuántos días de atraso se pagó la que más tardó? Si ninguna se cobró después del día N, lo que ya pasó el día N **no se está recuperando solo**.
+   - **Desde cuándo:** agrupá por mes de vencimiento las atrasadas que se cobraron y las que siguen vencidas. Si hasta un mes se cobraba todo y desde ahí se acumulan, ese mes es el "desde cuándo" del hallazgo.
+   - **Qué % se recupera:** de las atrasadas de los últimos meses, cuántas se terminaron cobrando.
+   Si el historial cubre **menos de 3 meses** del comportamiento de hoy *(criterio orientativo)*, decilo al lado del número: la ventana es corta.
+2. **Si no hay historial**, usá la tabla orientativa:
+
+**Tabla orientativa de recupero por antigüedad** (criterio orientativo de la skill: no sale de las clases ni de datos del programa; reemplazala por el historial del negocio cuando exista):
 
 | Días de atraso | Se recupera | Se pierde |
 |---|---|---|
@@ -71,7 +80,7 @@ Si no hay números, el primer entregable es medirlos: **una semana de registro**
 | 61 a 90 | 50 % | 50 % |
 | Más de 90 | 25 % | 75 % |
 
-Así la bolsa vencida no se presenta entera como pérdida: se presenta la **pérdida esperada**, y la bolsa completa queda como "en riesgo".
+**Cómo se reparten en los escenarios:** en el **conservador** va la que dé **menos pérdida** (historial o tabla); en el **probable**, el **historial del negocio**. Si no hay historial, la tabla va en los dos. Así la bolsa vencida no se presenta entera como pérdida en el número principal: se presenta la **pérdida esperada**, y la bolsa completa queda como "en riesgo". Solo si el historial muestra que lo vencido no se está cobrando, el probable puede contarla casi entera, con la ventana del historial al lado.
 
 ### Tres tipos de número, que no se mezclan
 
@@ -89,13 +98,14 @@ Costo neto a 6 meses = costo por mes × 6
                      − lo que se recupera igual sin cambiar nada
 ```
 
-- **Lo que se recupera igual** se resta: cuotas que se terminan cobrando con el ritmo de hoy (usá la tabla de recupero o el historial), horas que se van a ahorrar por otra cosa que ya está en marcha.
+- **Lo que se recupera igual** se resta: cuotas que se terminan cobrando con el ritmo de hoy (el historial de la base o, si no hay, la tabla orientativa), horas que se van a ahorrar por otra cosa que ya está en marcha.
 - **Dos escenarios, conservador y probable.** Al founder se le muestra el **conservador** como número principal; el probable, como techo.
 - **Cada supuesto, visible al lado del número.** Una proyección lineal sin restar lo que se recupera es un número inflado.
+- **Si el probable es más de 3 veces el conservador** *(umbral orientativo)*, no lo muestres como número suelto: en la página del founder va el conservador, y el probable como "puede llegar a…" con **el dato que separa los dos escenarios y cómo se mide en una semana**. Un rango muy abierto sin explicación suena a número inventado.
 
 ## Paso 4 · El hallazgo, en 3 números
 
-Una métrica suelta no convence: **conectá tres números en una historia de plata** (29/09). Cada hallazgo responde **qué pasa · cuánto cuesta · desde cuándo · qué lo causa.**
+Una métrica suelta no convence: **conectá tres números en una historia de plata** (29/09). Cada hallazgo responde **qué pasa · cuánto cuesta · desde cuándo · qué lo causa.** El "desde cuándo" casi siempre está en la base: el mes en que el historial cambia (por ejemplo, desde cuándo las cuotas atrasadas dejaron de cobrarse).
 
 - KPI suelto: "La tasa de cancelación es 35 %."
 - Hallazgo: "De cada 10 agendas que vienen de anuncios, 4 se cancelan. Este mes fueron 48 agendas pagadas que no llegaron a la llamada: unos USD 1.900 de pauta que no se convirtieron en nada."
@@ -167,8 +177,9 @@ Castellano rioplatense, con voseo. La página para el founder, en su idioma: pla
 
 - No inventás números ni inflás estimaciones para que el caso cierre.
 - No sumás en un solo total el costo por mes, la bolsa vencida y el riesgo.
-- No presentás lo vencido como si todo fuera pérdida.
-- No ponés un valor hora inventado: o el dato, o horas, o un rango marcado.
+- No presentás lo vencido como si todo fuera pérdida en el número principal. En el probable, solo si el historial del negocio lo muestra.
+- No ponés un valor hora inventado: o el dato, o horas, o un rango marcado como orientativo. Tampoco suponés las horas del founder para valuar su tiempo.
+- No presentás como dato una referencia orientativa (la tabla de recupero, el rango de valor hora, los umbrales): va rotulada.
 - No armás un caso para culpar a una persona del equipo.
 - No ponés precio a un servicio: eso es la skill **Escritor de Propuestas**.
 - No proponés una herramienta como solución antes de mostrar el costo del problema.

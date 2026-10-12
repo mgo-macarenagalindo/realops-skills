@@ -37,7 +37,7 @@ Es lo normal la primera semana. Auditá con lo que hay y dejá cada hueco a la v
 - **Pistas que podés buscar sola:** campos con nombres de herramientas (`Contact ID`, `Stage FC`, `UTM`), campos "(auto)", columnas de "última modificación", vistas con nombres de disparo ("Para Zapier", "Nuevos para avisar") y descripciones de campos.
 - **Marcá el supuesto:** `[SUPUESTO: el campo Setter lo escribe la integración de Typeform, confirmalo con quien tenga acceso a Zapier]`.
 - **Lo que no pudiste ver va como "sin acceso", nunca como "no hay".** Ejemplo: la API de Airtable no muestra automatizaciones ni interfaces, y una base duplicada no siempre copia sus automatizaciones. Que la copia tenga 0 no prueba que la original tenga 0.
-- Cerrá con la lista **Para confirmar**, cada punto con a quién preguntárselo (founder, quien armó la base, administración, quien maneja la cuenta de Zapier).
+- Cerrá con la lista **Para confirmar**, cada punto con a quién preguntárselo (founder, quien armó la base, administración, quien maneja la cuenta de Zapier). Y si algo no se puede verificar con lo que hay, dejá cómo se verifica: quién, en qué cuenta, qué pantalla.
 
 ## Modo 1 · Auditoría completa
 
@@ -103,6 +103,23 @@ Red flags de automatizaciones que se revisan siempre:
 - **Dos automatizaciones que avisan lo mismo** o una tabla que alimenta a otra por dos caminos.
 - **Límites de la herramienta:** mensajes que superan el largo permitido y hacen fallar el paso, tareas del plan que se terminan a mitad de mes.
 - **Señales sin dueño:** un campo o una vista que claramente alimenta un automatismo, pero no aparece en ningún inventario. Si ningún Zap lo hace, es nativo o es algo que no relevaste: va a "Para confirmar".
+- **"En verde" no es "funcionó":** una corrida exitosa que terminó en un filtro ("no encontró al alumno") no hizo nada. Contá cuántas corridas **escribieron algo** sobre el total. Si alguien carga igual a mano "por las dudas", es la prueba de que nadie confía en el flujo.
+- **Disparador "nuevo o modificado":** cualquier corrección del registro lo vuelve a disparar y duplica filas afuera (una comisión dos veces, un aviso repetido).
+- **Datos que salen a cuentas de terceros:** un webhook o un escenario que manda datos de leads o alumnos a la cuenta de alguien que se fue o de una agencia que ya no trabaja con el negocio. Es riesgo de privacidad, no solo operativo, y suele tener fecha de baja que nadie leyó.
+- **Eventos que nadie escucha:** que el pago exitoso tenga tres automatizaciones y el pago rechazado ninguna. Revisá qué eventos importantes (rechazos, disputas, cancelaciones) solo le llegan a un mail.
+- **Mensajes automáticos con contenido viejo:** una bienvenida que manda a un grupo que no existe o promete algo que ya no se hace. Leé el texto, no solo el disparador.
+- **Lo que mide la publicidad:** si una automatización le manda eventos a Meta o Google, anotá **qué evento** (agenda, lead, compra) y en qué cuenta está. Si solo manda agendas, la plataforma optimiza para agendas, no para ventas.
+
+**Dos cruces que se hacen siempre con el inventario completo:**
+
+1. **Mapa por evento.** Agrupá las automatizaciones por el evento que las dispara ("entra un pago", "alguien agenda", "llega una aplicación"). Cuando un mismo evento dispara varias, en distintas plataformas o cuentas, es candidato a consolidar en un solo flujo ("5 en 1"). Mirá también al revés: el flujo que hace falta y no existe (lo que alguien copia a mano).
+2. **Campos con más de un escritor.** Para cada campo, quién lo escribe: qué automatizaciones y qué personas. Un campo con dos o más escritores se pisa ("se me des-paga la cuota"). Ese cruce es además la **trampa del rediseño**: si alguien convierte ese campo en fórmula, las automatizaciones que lo escriben empiezan a fallar. Se reconfiguran antes o en el mismo cambio.
+
+**Inventarios de segunda mano.** Cuando el inventario lo armó otra persona, o se reconstruyó con capturas, marcá la **confianza** de cada fila: **visto** (lo abrió quien audita) · **visto con el dueño** (por videollamada) · **reconstruido** (captura o relato, con "(¿?)") · **sin acceso**. Las filas reconstruidas no se dan por ciertas: cada una va a "Para confirmar" con la forma de verificarla (quién abre qué cuenta, qué pantalla mirar) y, si la cuenta es de alguien que se fue, con el pedido de Cowork de `references/inventario-automatizaciones.md` listo para cuando se recupere el acceso. **Plan B si el acceso no se recupera:** se trata la cuenta como perdida: se reconstruye el flujo en una cuenta del negocio, se prueba, y recién ahí se revoca y se borra el webhook desde la herramienta que lo envía (Calendly, Stripe, Typeform), que sí es del negocio.
+
+**El plan de la herramienta, con números.** Anotá el tope del plan (corridas, tareas u operaciones), el consumo del mes y **qué día se llegó al tope**, y qué dejó de pasar desde ese día (avisos, recordatorios, altas). El dato del plan sacalo de la facturación de la cuenta, no de memoria. Si la base está en un **plan gratis**, el informe trae siempre dos caminos: la **alternativa manual o de bajo consumo** (bajar la frecuencia de lo programado, reemplazar lo que se puede por una fórmula o una vista que alguien revisa a una hora fija, mover lo programado a una herramienta que ya se paga) y **cuándo conviene pagar** (criterio orientativo: cuando el consumo pasa el 80 % del tope dos meses seguidos, o cuando el corte afecta cobros, accesos o el alta de leads).
+
+**Si el plan propone consolidar o mover automatizaciones**, cualquier plataforma sirve si está justificada: decí por qué esa y no otra, con las ventajas de cada opción para este negocio (la comparación está en `references/inventario-automatizaciones.md`, sección 6). Para construirla, derivá a **Detective de Automatizaciones** o a la skill de la plataforma.
 
 ### 5. Tabla por tabla
 
@@ -185,11 +202,13 @@ En `ejemplo-de-output.md` tenés una auditoría completa.
 
 ```
 # Auditoría de base heredada · [negocio o caso] · [fecha]
-## En una frase
+## Para el founder, en 5 líneas (qué encontraste y qué proponés, una línea cada cosa)
 ## Antes de tocar (backup, accesos, dónde vive la base, plan)
 ## Inventarios que crucé (cuál, de cuándo, quién lo hizo, qué diferencias encontré)
 ## Cómo entra, viaja y sale la info (mapa de flujo por tabla)
-## Automatizaciones, webhooks y conexiones (tabla del inventario + red flags)
+## Automatizaciones, webhooks y conexiones (tabla del inventario con confianza de cada fila + red flags)
+## Mapa por evento y campos con más de un escritor
+## El plan de la herramienta (tope, consumo, qué se cortó; alternativa manual y cuándo pagar)
 ## Mapa de tablas y relaciones
 ## Informe por tabla: riesgo alto y medio (máximo 12 filas)
 ## Red flags
@@ -203,7 +222,7 @@ En `ejemplo-de-output.md` tenés una auditoría completa.
 
 ## Al final, siempre
 
-Ofrecé: "¿Te armo el resumen de 5 líneas para mostrarle al founder qué encontraste y qué proponés?" y recordá **documentar la arquitectura** (tablas, campos, tipos, relaciones y qué automatización depende de qué) antes de pasar a otra área. Sugerí escribir en la descripción de cada campo o vista que dispara algo: `⚠️ Lo usa [automatización]: no renombrar ni cambiar el filtro`.
+Ofrecé: "¿Te paso solo las 5 líneas y el plan, para mandárselo al founder?" y recordá **documentar la arquitectura** (tablas, campos, tipos, relaciones y qué automatización depende de qué) antes de pasar a otra área. Sugerí escribir en la descripción de cada campo o vista que dispara algo: `⚠️ Lo usa [automatización]: no renombrar ni cambiar el filtro`.
 
 ## Cómo escribís
 

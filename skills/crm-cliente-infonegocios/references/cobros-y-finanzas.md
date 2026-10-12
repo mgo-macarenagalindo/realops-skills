@@ -56,23 +56,33 @@ Cada movimiento: Tipo = Ingreso · Fecha = Fecha del pago · Monto = monto del m
   Comprobante · Origen = vínculo al registro que lo disparó
 ```
 
-Ojo con dos cosas: las automatizaciones nativas solo corren sobre registros nuevos, y cada corrida cuenta para el límite del plan.
+Ojo con dos cosas: las automatizaciones nativas solo corren sobre registros nuevos, y cada corrida cuenta para el límite del plan. **En Free** (100 corridas por mes según la página de Airtable relevada el 12/10/2026; verificá la de hoy), esta automatización suele no alcanzar: la alternativa manual está en `plan-free-airtable.md`.
 
-## 4. Cuotas esperadas: dos formas
+## 4. Cuotas esperadas: una fila por cuota (estándar)
 
-| | A · Columnas en el deal | B · Tabla Cuotas programadas (recomendada) |
-|---|---|---|
-| Cómo es | Campos "Fecha proyectada 2da cuota", "Monto 2da cuota"… hasta la 5ª en el deal | Una fila por cuota esperada, vinculada al deal |
-| Sirve si | Planes de hasta 5 cuotas, fijos, poco volumen | Cualquier plan, renegociaciones, más de 5 cuotas |
-| Morosidad | Fórmula larga de "próxima cuota" y un estado que se mueve a mano | Estado y días de atraso por fórmula, por cuota |
-| Proyección de caja | Una fórmula por mes (y se rompe al cambiar de año si el año está fijo) | Una vista agrupada por "Mes de vencimiento" |
-| Renegociar | Hay que reescribir varias columnas | Se cambia la fecha de la cuota y queda nota |
+**El estándar de RealOps™ es la tabla 🗓️ Cuotas programadas: una fila por cuota esperada, vinculada al deal.** Vale para cualquier plan (3, 6 o 12 cuotas), para renegociaciones y para proyectar caja.
 
-Si la base ya usa la forma A y funciona, no se rehace de golpe: se agrega la tabla B para los cierres nuevos y se migra lo abierto cuando haya tiempo. **Nunca** fórmulas de proyección con el año escrito adentro.
+| Qué resuelve | Cómo |
+|---|---|
+| Morosidad | Estado y días de atraso por fórmula, cuota por cuota |
+| Proyección de caja | Una vista agrupada por "Mes de vencimiento" (sin fórmulas por mes ni años escritos) |
+| Renegociar | Se cambia la fecha de esa cuota y queda nota |
+| Quién cobra | Responsable de cobro en cada cuota vencida |
+
+**Si heredás cuotas en columnas del deal** ("Fecha proyectada 2da cuota", "Monto 3ra cuota"… y fórmulas de proyección por mes): no se diseña nada nuevo así. Se migra sin romper:
+1. Creá Cuotas programadas y usala para **todos los cierres nuevos** desde hoy.
+2. Pasá las cuotas **abiertas** de los cierres viejos (una fila por columna con fecha y sin pago). Las ya pagadas no hace falta migrarlas: viven en Cuotas cobradas.
+3. Compará el total esperado del mes por las dos vías; cuando coincide, ocultá las columnas viejas como `[ARCHIVO]`.
+
+**Nunca** fórmulas de proyección con el año escrito adentro.
+
+**Cómo se crean las filas:** en un plan pago, una automatización al cargar el cierre en cuotas. En Free, a mano desde la vista de control "Cierres en cuotas sin cuotas programadas" (ver `plan-free-airtable.md`).
 
 ## 5. Esqueleto del protocolo de cuota vencida
 
 Acá se define **qué registra la base**; los mensajes y el paso a paso van en la skill **Constructor de SOP**, y la conciliación del mes en **Cierre de Mes Financiero**.
+
+> Los días (−3, 1, 7, 15) son la referencia de RealOps™ para infonegocios con cuotas mensuales; ajustalos al negocio.
 
 | Día | Qué pasa | Quién | Qué se registra |
 |---|---|---|---|

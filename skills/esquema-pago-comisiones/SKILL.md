@@ -36,6 +36,7 @@ Preguntá si es su negocio, el negocio donde trabaja o un caso práctico del pro
 - El variable tiene sentido en ventas porque vender caro es más difícil.
 - **Variable atado al cash collected, no a la facturación ni a la ganancia** (clase 29/06): es el número que el founder mira y que pagó el cliente de verdad.
 - Para el setter, algo que dependa de su trabajo y se pueda verificar: agendas que **asistieron** (y, si existe el campo, que el closer marcó como calificadas), más una parte del cash de las ventas que vinieron de sus agendas (con su UTM o su código en el evento).
+- **Antes de usar un campo como control de un pago, auditalo.** Un campo que carga la misma persona que cobra por él (el setter marcando "¿Calificado?") no controla nada. Revisá tres cosas, por persona: (a) **qué porcentaje marca cada valor** (si alguien pone "Sí" al 100 % de lo que pasa, el campo es decorativo); (b) **si contradice otro dato** (leads marcados calificados que declararon no cumplir el criterio escrito, o que el closer después cerró como "no califica"); (c) **si está vacío**. Si falla cualquiera, el bono no puede depender de ese campo: pasá el control a quien no cobra por él (el resultado que carga el closer) o a un criterio que se lea solo (el dato que el lead declaró en la aplicación). Decilo como hallazgo, con números.
 
 **Servicio (coaches y CSM):**
 - **No un porcentaje del ticket por sesión** (clase 04/05): si sube el precio del programa, gana más haciendo el mismo trabajo.
@@ -56,7 +57,8 @@ Preguntá si es su negocio, el negocio donde trabaja o un caso práctico del pro
 - **Alumno activo:** qué cuenta como activo (no pausado, no en mora de más de X días) y a qué fecha de corte.
 - **Caso de éxito validado:** quién lo valida y con qué evidencia.
 - **Persona que se va:** ¿cobra las cuotas que entren después de su salida?
-- **Transición entre esquemas:** cuando cambia la regla (por ejemplo, de "sobre lo vendido" a "sobre lo cobrado"), ¿qué pasa con las ventas cerradas antes del corte cuyas cuotas entran después? Sin una fecha de corte y una regla escrita, la misma venta paga dos veces (una por la regla vieja y otra por la nueva) o ninguna. Se escribe como cualquier otra regla: "Si la venta se cerró antes del [fecha de corte] y ya pagó comisión por lo vendido, entonces sus cuotas posteriores pagan 0" (o la alternativa que decida el founder). Es tan obligatoria como reserva, cuota y reembolso.
+- **Transición entre esquemas:** cuando cambia la regla (por ejemplo, de "sobre lo vendido" a "sobre lo cobrado"), ¿qué pasa con las ventas cerradas antes del corte cuyas cuotas entran después? Sin una fecha de corte y una regla escrita, la misma venta paga dos veces (una por la regla vieja y otra por la nueva) o ninguna. Se escribe como cualquier otra regla: "Si la venta se cerró antes del [fecha de corte] y ya pagó comisión por lo vendido, entonces sus cuotas posteriores pagan 0". Es tan obligatoria como reserva, cuota y reembolso.
+  - **No la dejes como pregunta abierta.** Mostrá las opciones y **recomendá una por defecto, rotulada como criterio orientativo**: la que (1) no deja a nadie con saldo negativo en su liquidación, (2) se calcula con una casilla y no con un saldo que hay que arrastrar mes a mes y (3) no le cambia al equipo lo que ya cobró. En el caso típico (se venía pagando sobre lo vendido) es "las ventas ya liquidadas por lo vendido no pagan sus cuotas posteriores; desde la fecha de corte, todo por lo cobrado". La alternativa ("adelanto" que se descuenta de las cuotas cuando entran) queda escrita para que el founder la elija si prefiere. Lo que se pagó **de más** (errores, duplicados) es una decisión aparte y también lleva recomendación por defecto.
 
 ## Modo 2 · De reglas a fórmula
 
@@ -71,6 +73,7 @@ Preguntá si es su negocio, el negocio donde trabaja o un caso práctico del pro
    - Buscá la misma venta cargada dos veces: mismo alumno, mismo monto o misma fecha en la base, o la misma venta en dos fuentes que se cruzan a mano (planilla vieja + base + chat). Las ventas cercanas a la fecha en que se migró de una fuente a otra son las primeras candidatas.
    - Si la encontrás, mirá también el estado de cobro de esa venta: una venta duplicada con cuotas vencidas pagó comisión dos veces sobre plata que no entró.
    - Si no podés confirmarlo sin la planilla, nombrá el candidato y qué hay que mirar para confirmarlo (`[A CONFIRMAR con quien arma la liquidación]`), sin darlo por hecho.
+   - **Dejá la confirmación lista para hacer, aunque la planilla no llegue:** dos preguntas cortas, ya redactadas, a quien liquidó ("¿cuántas ventas de [persona] pusiste en [mes] y de qué alumnos?") y a la persona cobrada ("¿cuántas ventas tuyas de [mes] te pagaron?"), más qué mirar en la planilla cuando aparezca (buscar el nombre del alumno candidato: si está dos veces, confirmado). Y separá lo que ya se puede decidir: el monto a corregir es el mismo sea cual sea la venta.
 7. **Para que lo corra un agente** (clase 01/09): con las reglas y el esquema de la base documentados, el cálculo mensual lo puede correr un agente. Lo que cambia cada mes (altas, bajas, gastos puntuales) se carga antes de correrlo. Para el cierre completo, skill **Cierre de Mes Financiero**.
 
 ## Límites
@@ -112,3 +115,5 @@ Castellano rioplatense, con voseo. Reglas cortas, una condición por línea. Sin
 - No pedís sueldos reales de personas identificables para un ejemplo: usás valores de prueba.
 - No llenás la columna "fórmula" de los casos de prueba sin haber corrido la base.
 - No explicás una diferencia que no cierra con una regla nueva sin antes buscar duplicados.
+- No dejás la transición entre esquemas ni lo pagado de más como pregunta abierta: recomendás una opción (criterio orientativo) y dejás la alternativa.
+- No usás como control de un bono un campo que carga quien cobra el bono sin auditarlo antes.

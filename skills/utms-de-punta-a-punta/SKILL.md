@@ -1,6 +1,6 @@
 ---
 name: utms-de-punta-a-punta
-description: UTMs de Punta a Punta (RealOps™). Arma la convención de UTMs de un infonegocio de lo más macro a lo más micro (source, medium, campaign, content) con una nomenclatura de utm_content que se entiende sin diccionario (formato-ángulo-gancho-versión), el brief para el trafficker con los parámetros dinámicos de Meta (nombre e ID de cada anuncio) para medir cada anuncio, el link de referido por alumno, el registro de links, la captura en agendas y formularios con campos ocultos (Calendly, GoHighLevel, Typeform, Tally, Airtable), el closer asignado desde el anfitrión, el mapeo a la base y la fórmula que traduce los códigos, aceptando el histórico. Usala cuando no sepas de dónde viene cada lead o cada venta, cuando la fuente se carga a mano, cuando las UTMs no aparecen en la base, cuando el utm_content dice "AD-03" y nadie sabe qué anuncio es o cuando vas a lanzar anuncios y querés métricas por anuncio.
+description: UTMs de Punta a Punta (RealOps™). Arma la convención de UTMs de un infonegocio de lo más macro a lo más micro (source, medium, campaign, content) con una nomenclatura de utm_content que se entiende sin diccionario (formato-ángulo-gancho-versión), el brief para el trafficker con los parámetros dinámicos de Meta (nombre e ID de cada anuncio) para medir cada anuncio, el link de referido por alumno, el registro de links, la captura en agendas y formularios con campos ocultos (Calendly, GoHighLevel, Typeform, Tally, Airtable), el closer asignado desde el anfitrión, el mapeo a la base y la fórmula que traduce los códigos, aceptando el histórico, con qué automatizar, la alternativa en plan gratis y GA4 + Clarity. Usala cuando no sepas de dónde viene cada lead o cada venta, cuando la fuente se carga a mano, cuando las UTMs no aparecen en la base, cuando el utm_content dice "AD-03" y nadie sabe qué anuncio es o cuando vas a lanzar anuncios y querés métricas por anuncio.
 ---
 
 # UTMs de Punta a Punta
@@ -52,7 +52,7 @@ De a una pregunta, y si no sabe, seguí con el plan B de abajo:
 
 `AD-03` no le dice nada a nadie: para saber qué anuncio es hay que abrir el administrador. Un buen `utm_content` se lee y ya sabés qué pieza es, en qué formato y qué versión. La regla:
 
-**`formato-angulo-gancho-version`**, hasta unos 30 caracteres.
+**`formato-angulo-gancho-version`**, hasta unos 30 caracteres (largo orientativo: que se lea entero en una columna de la base).
 
 | Parte | Qué es | Valores sugeridos |
 |---|---|---|
@@ -63,7 +63,7 @@ De a una pregunta, y si no sabe, seguí con el plan B de abajo:
 
 Ejemplos: `vid-testimonio-psico-v1` · `img-frase-vendehoras-v1` · `car-error-4errores-v2` · `vid-promesa-10k90dias-v3`.
 
-- **Si ya numeran los anuncios**, el número puede ir adelante para ordenar: `07-vid-promesa-10k90dias-v1`. Lo que no puede pasar es que el número sea lo único.
+- **El número no va en el `utm_content`** (convención de RealOps™, criterio cerrado). Si el equipo ya numera los anuncios ("el 07"), ese número vive en la **tabla de anuncios** como "código viejo" y en el nombre legible que muestra la fórmula ("07 · Promesa US$10K"), no en el link. Así el nombre es más corto, no hay dos formas de escribir lo mismo y nadie tiene que mantener una numeración a mano.
 - **Variación ≠ anuncio nuevo:** si Ezequiel hace "dos versiones más del mismo video", son `v2` y `v3` del mismo nombre, no `AD-08` y `AD-09`. Así después ves si el problema es la pieza o la variación.
 - **Orgánico, misma lógica:** `reel-error-cuotas-0310` (con fecha corta si se repite el tema), `yt-descripcion`, `yt-fijado`.
 - **El nombre del anuncio en el administrador = el `utm_content`.** Si el trafficker usa los parámetros dinámicos (abajo), esto es obligatorio: el nombre viaja solo al link.
@@ -83,7 +83,9 @@ Lo que se le pide, por escrito:
 4. **Checklist antes de publicar:** parámetros cargados, clic de prueba desde la vista previa del anuncio publicado, y el lead de prueba aparece en la base con los 5 datos.
 5. **Un aviso por cada anuncio nuevo o renombrado** (en el canal del equipo), así se agrega a la tabla de anuncios.
 
-El detalle (qué hace cada parámetro dinámico, `{{site_source_name}}` y `{{placement}}` si quieren separar Facebook de Instagram o feed de historias, formularios instantáneos de Meta que no pasan por un link, cuándo tardan en verse los cambios) está en **`references/pauta-y-trafficker.md`**. Leelo cuando haya pauta o cuando tengas que escribir el brief para el trafficker.
+**Los parámetros dinámicos de Meta cambian.** La lista de la skill está verificada al 12/10/2026 (son 8: nombre e ID de campaña, conjunto y anuncio, `{{site_source_name}}` y `{{placement}}`). Antes de cargarlos, quien publica los confirma en el administrador en un minuto (pasos en la referencia) y, después de publicar, se prueba con un clic real. Si algo no coincide, manda lo que muestra el administrador ese día.
+
+El detalle (qué hace cada parámetro dinámico, cómo ver la lista vigente en el administrador, `{{site_source_name}}` y `{{placement}}` si quieren separar Facebook de Instagram o feed de historias, formularios instantáneos de Meta que no pasan por un link, cuándo tardan en verse los cambios) está en **`references/pauta-y-trafficker.md`**. Leelo cuando haya pauta o cuando tengas que escribir el brief para el trafficker.
 
 Si no hay trafficker y los anuncios los sube el founder, el brief es el mismo: se lo das a él, en una página.
 
@@ -106,10 +108,43 @@ Si no hay trafficker y los anuncios los sube el founder, el brief es el mismo: s
    - Cómo se hace en cada una, y qué hacer con Google Forms, está en **`references/formularios-y-agendas.md`**. Leelo cuando la entrada sea un formulario.
 3. **Reserva o envío de prueba con el link con UTM** (no con el link común): si probás con el link sin UTM, Zapier no tiene parámetros para mapear (clase 22/06).
 4. **Creá las columnas** en la base: `utm_source`, `utm_medium`, `utm_campaign`, `utm_content` (texto) y, si hay pauta, `utm_term` y `ad_id`.
-5. **Mapeá** en Zapier (o n8n) cada parámetro de la prueba a su columna. Desde ahí funciona solo.
+5. **Mapeá** en la automatización (Zapier, Make, n8n o la integración nativa: ver "Con qué automatizar" abajo) cada parámetro de la prueba a su columna. Desde ahí funciona solo.
 6. **Closer desde el anfitrión, en el mismo Zap.** Cuando la llamada de venta se agenda en Calendly (o GoHighLevel), mapeá también el **mail del anfitrión del evento** (el closer asignado) a una columna, y una fórmula lo traduce al nombre del closer (clase 01/06). Así la llamada queda con canal, setter y closer sin que nadie cargue nada, y la tasa de cierre por closer se puede separar de la calidad del lead. Si la llamada queda sin anfitrión reconocido, la fórmula dice "Sin closer" y aparece en una vista de control.
 7. **Fórmula traductora:** convierte códigos en texto legible para que nadie lea siglas en el dashboard.
 8. **Reportá "Sin dato" como tal.** Si un registro llega sin UTM, el canal es `Sin dato`, no se adivina.
+
+## Con qué automatizar (y por qué)
+
+Cualquier plataforma sirve si está justificada. Elegí con quien paga y con quien lo va a mantener:
+
+| Opción | Ventaja competitiva | Cuándo conviene | Contra |
+|---|---|---|---|
+| **Sin automatización: formulario de Airtable** como aplicación | Los parámetros entran directo a la base (`prefill_` + `hide_`), sin intermediario ni tareas que contar | Plan gratis, pocos leads, el formulario puede vivir en Airtable | Diseño del formulario limitado; la agenda (Calendly) queda aparte |
+| **Integración nativa** (GoHighLevel, Calendly con su propia integración) | Nadie mantiene un Zap; lo soporta el proveedor | Si el negocio ya vive en esa herramienta | Mapea menos campos y a veces no pasa los parámetros: probalo |
+| **Zapier** | La más fácil de armar y de traspasar; más integraciones listas; el equipo suele conocerla | El equipo no es técnico y hay presupuesto | La más cara por volumen; el plan gratis solo hace Zaps de 2 pasos |
+| **Make** | Más barato por volumen y visual; permite ramas, filtros y búsquedas en un mismo escenario | Muchos leads, o un flujo con "buscar closer por mail" sin pagar Zapier | Curva un poco más larga; el plan gratis tiene pocos escenarios activos |
+| **n8n** | Autoalojado es gratis y sin límite de ejecuciones; control total de los datos | Hay alguien técnico que lo mantenga (o ya lo usan) | Si se cae el servidor, se cae el tracking; requiere mantenimiento |
+
+Decí siempre por qué elegiste una y qué cambiaría la decisión (por ejemplo: "Zapier porque Valeria ya lo usa; si pasan de 100 leads por mes, Make sale más barato").
+
+## Si usás el plan gratis de Airtable (o de la automatización)
+
+Se puede arrancar sin pagar. Lo que cambia y cuándo conviene pagar:
+
+- **Límites del plan gratis de Airtable** (verificados el 12/10/2026 en su centro de ayuda; pueden cambiar): **1.000 registros por base** y **1.000 llamadas a la API por mes por workspace**. Cada lead que escribe Zapier, Make o n8n gasta llamadas. Las fórmulas (`SWITCH`, `LOWER`, `TRIM`) funcionan igual en el plan gratis.
+- **Alternativa manual que funciona igual:**
+  1. Usá el **formulario de Airtable** como aplicación, con los links prellenados por canal (`prefill_utm_source=ig&hide_utm_source=true`…): las UTMs entran sin automatización.
+  2. Si la entrada es Calendly o Typeform sin automatización: **una vez por semana**, exportá las reservas o respuestas a CSV (verificá que el export traiga las columnas UTM) e importalas a la tabla con "Importar CSV" (agregar a tabla existente, mapeando columna por columna). 15 minutos por semana; el día fijo lo decide quien lo hace.
+  3. El closer desde el anfitrión: en el mismo CSV de Calendly viene el anfitrión; la fórmula de closer funciona igual.
+- **Cuándo conviene pagar** (umbrales orientativos): cuando la base pasa los 800 registros (antes de chocar con los 1.000), cuando la automatización se acerca a las llamadas o tareas del mes, cuando hace falta más de un paso (por ejemplo, "buscar el closer por mail"), o cuando la importación semanal se atrasa dos semanas seguidas. Si se atrasa, el dato ya no sirve para decidir: pagar es más barato que decidir a ciegas.
+
+## En la landing: Google Analytics y Microsoft Clarity
+
+Las mismas UTMs sirven para las métricas de la landing, sin configurar nada extra:
+
+- **Google Analytics (GA4)** lee las UTMs solo: origen, medio, campaña y contenido de cada sesión. Ahí ves cuántas visitas trae cada link y cuántas llegan a aplicar.
+- **Microsoft Clarity** permite filtrar grabaciones y mapas de calor por `utm_source`, `utm_medium` y `utm_campaign`. Ahí ves **cómo** se comporta en la página la gente de cada canal (si el tráfico de un anuncio no pasa del primer bloque, el problema es la promesa, no el formulario).
+- La base dice qué canal **vende**; GA4 y Clarity dicen qué pasa **antes** de aplicar. Las tres usan la misma convención: por eso un valor nuevo se agrega a la tabla antes de usarlo.
 
 ## El histórico que rompe la regla
 
@@ -148,7 +183,8 @@ En `ejemplo-de-output.md` tenés una convención completa.
 ## Nomenclatura de utm_content (regla + tabla de anuncios con código viejo, nuevo e ID)
 ## Brief para el trafficker (si hay pauta)
 ## Registro de links (tabla: uso · source · medium · campaign · content · responsable)
-## Cómo llega a la base (pasos + prueba, incluido el closer desde el anfitrión)
+## Cómo llega a la base (pasos + prueba, incluido el closer desde el anfitrión; con qué automatizar y por qué; alternativa manual si el plan es gratis)
+## En la landing (GA4 y Clarity con las mismas UTMs)
 ## Fórmulas (canal, anuncio, setter, closer, referido; aceptan el histórico)
 ## Lo que no medimos con UTM y cómo se lee
 ## Checklist de prueba

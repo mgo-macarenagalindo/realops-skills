@@ -11,7 +11,7 @@
 ## Cómo la revisé
 
 - **Link publicado**, abierto en el navegador en 390 px y en 1440 px.
-- **MCP de HighLevel** (lectura): contactos, oportunidades y calendario de los últimos 14 días.
+- **MCP de HighLevel** (lectura): contactos, oportunidades y calendario de los últimos 14 días. Prueba de conexión: devolvió el último contacto real de la subcuenta, con su etiqueta.
 - **Captura** de las estadísticas del funnel (el conector no trae vistas por página).
 - **No pude ver:** scroll ni clics (no hay Clarity ni Google Analytics instalados).
 
@@ -28,7 +28,7 @@ Funciona de punta a punta y no hay nada inventado. Pero en 14 días convirtió 2
 | Conversión de la página | 1,0 % | 4,1 % | 2,1 % |
 | Celular | 91 % | 84 % | 88 % |
 
-**Dónde se cae la gente:** el anuncio A trae casi el doble de visitas y convierte 4 veces menos. Su texto promete "subí tus precios esta semana con un mensaje"; la página habla de un programa de 6 meses. Es el punto 10 (anuncio = página). Sin datos de scroll no puedo confirmar en qué sección se van: instalar Clarity (punto 22).
+**Dónde se cae la gente:** el anuncio A trae casi el doble de visitas y convierte 4 veces menos. Su texto promete "subí tus precios esta semana con un mensaje"; la página habla de un programa de 6 meses. Es el punto 10 (anuncio = página). Sin datos de scroll no puedo confirmar en qué sección se van: instalar Clarity y Google Analytics (punto 22).
 
 ## Crítico
 
@@ -60,7 +60,7 @@ Funciona de punta a punta y no hay nada inventado. Pero en 14 días convirtió 2
 | 19 | Velocidad | ⚠️ | PageSpeed en celular: la imagen del hero pesa 2,4 MB | Comprimirla a menos de 300 KB |
 | 20 | Videos | ✅ | Link directo de la biblioteca de medios | — |
 | 21 | Gracias con un paso | ✅ | Botón de WhatsApp con mensaje precargado | — |
-| 22 | UTMs y medición | ⚠️ | Los UTMs llegan; no hay medición de scroll ni de clics | Instalar Microsoft Clarity (gratis) en el código de seguimiento del funnel |
+| 22 | UTMs y medición | ❌ | Los UTMs llegan; no hay Clarity ni Google Analytics: no se sabe hasta dónde baja la gente ni qué canal trae las visitas | Instalar las dos (gratis) en el código de seguimiento del funnel: Clarity para scroll, clics y grabaciones; Google Analytics para fuente y dispositivo |
 | 23 | Modo oscuro | ✅ | — | — |
 | 24 | Datos personales | ✅ | Aviso de privacidad debajo del calendario | — |
 | 25 | Dominio y candado | ✅ | `agenda.<dominio-del-cliente>` con https; el dominio está en la cuenta del cliente | — |
@@ -92,8 +92,8 @@ Ya está bien publicada: GoHighLevel del cliente, dominio del cliente.
 ## Después de publicar
 
 1. Cambios de arriba → reserva de prueba en la página publicada, con datos móviles y un link con UTMs.
-2. Clarity instalado desde hoy.
-3. **Volver a revisar con 7 días más o 100 visitas por anuncio**, comparando la conversión del anuncio A antes y después del cambio.
+2. Clarity y Google Analytics instalados desde hoy.
+3. **Revisión fija a los 7 días (21/10)**, comparando la conversión del anuncio A antes y después del cambio. Si alguna fuente no llega a 100 visitas *(criterio orientativo)*, se lee como señal y se vuelve a mirar el 28/10.
 
 ## Para confirmar
 

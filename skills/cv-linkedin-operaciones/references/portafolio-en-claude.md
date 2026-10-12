@@ -31,8 +31,10 @@ Si el **Revisor de Piezas de Portafolio** ya le dio la ficha de cada pieza, las 
 
 Según dónde trabajes:
 
-- **Claude (chat, claude.ai o la app)**: subí las capturas al chat para que Claude las vea y las describa, y pedile la página como **artefacto** (página HTML con diseño). Las imágenes que subís al chat no siempre se pueden incrustar en el artefacto: pedile la página con **marcos para cada captura** y, si las capturas no aparecen, publicá el portafolio pasando la estructura a la herramienta que uses para compartir (Notion, Gamma, Canva, Google Sites) y pegá ahí las imágenes.
-- **Claude Code o Cowork** (trabaja con archivos de tu compu): poné las capturas en una carpeta y pedile que las incruste en la página (así queda un solo archivo HTML que se abre en cualquier navegador). Después la podés publicar como artefacto o subir donde quieras.
+- **Claude (chat, claude.ai o la app)**: subí las capturas al chat para que Claude las vea y escriba las tarjetas, y pedile la página como **artefacto**. **Por defecto, la página sale con marcos para cada captura** (criterio orientativo): que una imagen subida al chat aparezca adentro de un artefacto publicado no está garantizado, y no conviene descubrirlo el día que mandás el link.
+  - **Prueba de 2 minutos (hacela una vez):** subí una captura y pedí "mostrá esta imagen en la primera tarjeta". Si la ves en la vista previa, publicá el artefacto y **abrí el link en una ventana privada** (o desde el celular sin sesión). Si ahí también se ve, podés usar las capturas incrustadas. Si no aparece en cualquiera de los dos pasos, plan B.
+  - **Plan B (siempre funciona):** dejá los marcos con el nombre del archivo, pasá la estructura a la herramienta donde vas a compartir (Notion, Gamma, Canva o Google Sites) y pegá ahí las capturas; o usá Claude Code o Cowork, que trabajan con los archivos de tu compu.
+- **Claude Code o Cowork** (trabaja con archivos de tu compu): poné las capturas en una carpeta y pedile que **las incruste dentro del archivo** (no que las linkee a la carpeta), así queda un solo HTML que se abre en cualquier navegador y en cualquier compu. Antes de compartirlo, mandátelo por mail y abrilo desde otro dispositivo: si se ven las capturas, está listo.
 
 Pedido modelo (completalo):
 
@@ -55,3 +57,4 @@ Después pedile ajustes de a uno ("la portada más corta", "las tarjetas en dos 
 - [ ] Se entiende en el celular.
 - [ ] Alguien de afuera del programa la miró y pudo decir en una frase qué hacés.
 - [ ] El link es de **solo lectura**.
+- [ ] Lo abriste en una ventana privada (o en otro dispositivo) y **se ven las capturas**.

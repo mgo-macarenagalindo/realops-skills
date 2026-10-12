@@ -4,6 +4,8 @@
 
 **La secuencia que te vuelve valiosa:** construir → analizar → accionar (clase 04/06). El tablero es el primer paso. Lo que se paga es llevarle al dueño **las 3 o 4 variables que de verdad mueven el negocio** y animarte a decir qué hay que cambiar.
 
+> **Las alarmas de este archivo son criterios orientativos de RealOps™** para saber dónde mirar primero. No son metas de la industria: después de 2 o 3 meses de datos, ajustalas a la historia del negocio.
+
 ---
 
 ## 1 · Campo por campo
@@ -11,20 +13,20 @@
 ### Agendas totales (por canal)
 - **Pregunta que responde:** ¿cuánto volumen de conversaciones de venta genera cada canal?
 - **Le sirve a:** marketing (dónde poner contenido o pauta), founder (si la agenda está llena o vacía).
-- **Cuándo mirarlo:** cada semana. **Alarma:** un canal que duplica agendas sin que suban las ventas; casi siempre es un anuncio o un setter que llena la agenda de gente que no puede comprar.
+- **Cuándo mirarlo:** cada semana. **Alarma (orientativa):** un canal que duplica agendas sin que suban las ventas; casi siempre es un anuncio o un setter que llena la agenda de gente que no puede comprar.
 - **Error típico:** celebrar la agenda llena. Una agenda llena de gente que no compra le roba horas a los closers.
 
 ### Asistidas · No show · Canceladas → Asistencia
 - **Pregunta:** ¿la gente que agenda llega a la llamada?
 - **Le sirve a:** líder comercial y operaciones (recordatorios), setters.
-- **Cuándo:** semanal. **Alarma:** debajo de 50 %, o una caída en un solo canal.
+- **Cuándo:** semanal. **Alarma (orientativa):** debajo de 50 %, o una caída en un solo canal.
 - **Cómo leerlo:** si cae en todos los canales a la vez, es del sistema (recordatorios, herramienta de agenda, zoom ocupado). Si cae en uno solo, es la calidad de ese canal o de quien agenda. Separar no-show de cancelación: el no-show se ataca con recordatorios; la cancelación, con política y confirmación.
 
 ### Cierres → Cierre sobre asistidas y cierre sobre agendas
 - **Pregunta:** sobre asistidas, ¿el closer cierra cuando tiene a la persona? Sobre agendas, ¿el canal y el setter traen gente que compra?
 - **Le sirve a:** líder comercial (closers), marketing y setters (canal).
 - **Cómo leerlo:** **miralos juntos.** Si sobre asistidas sube y sobre agendas baja, se abrió una "tijera": por ejemplo, el dueño tomó todas las llamadas, cierra mejor a quien se presenta pero no llega a sostener la asistencia. Mismo cambio, dos efectos.
-- **Alarma:** cierre sobre agendas debajo de 10 % en un canal con gasto.
+- **Alarma (orientativa):** cierre sobre agendas debajo de 10 % en un canal con gasto.
 
 ### Facturación USD vs Cash total USD
 - **Pregunta:** ¿lo que se vendió entra a la cuenta?
@@ -35,7 +37,7 @@
 ### Reservas · Nuevos cierres · Cuotas → Cash nuevo vs cuotas
 - **Pregunta:** ¿el negocio crece por adquisición o vive de la cartera?
 - **Le sirve a:** founder.
-- **Cómo leerlo:** si más de la mitad del cash viene de cuotas de ventas anteriores (y renovaciones) varios meses seguidos, el mes se ve sano pero la adquisición está frenada. La cartera se agota si no entra gente nueva y no se escala poniendo más plata.
+- **Cómo leerlo:** si más de la mitad del cash (umbral orientativo) viene de cuotas de ventas anteriores (y renovaciones) varios meses seguidos, el mes se ve sano pero la adquisición está frenada. La cartera se agota si no entra gente nueva y no se escala poniendo más plata.
 - **Error típico:** un mes "récord" que es cobranza de cuotas viejas, y una decisión de duplicar pauta tomada sobre ese número.
 
 ### Cash nuevo por agenda
@@ -53,12 +55,34 @@
 ### Sin canal
 - **Pregunta:** ¿podemos confiar en la atribución?
 - **Le sirve a:** operaciones.
-- **Alarma:** crece mes a mes, o pasa del 10 % de las agendas. Es tracking roto, no un canal.
+- **Alarma (orientativa):** crece mes a mes, o pasa del 10 % de las agendas. Es tracking roto, no un canal.
 
 ### Vista Vencidas (fuera de la tabla, pero va al lado)
 - **Pregunta:** ¿se cobran las cuotas? ¿quién debe y desde cuándo?
 - **Le sirve a:** quien cobra, founder.
 - **Cuándo:** cada lunes, con "vence en los próximos 7 días" al lado.
+
+---
+
+## 1b · Primer nivel de setters, servicio y operaciones
+
+Estos números no van en la tabla mes | canal (se leen por persona o al corte), pero el líder de cada área los pide al lado. Acá, lo que tenés que saber leer; el diagnóstico de causas es de **Analista de KPIs**.
+
+### Setters (desde el setting diario: una fila por setter y por día)
+- **Calificados sobre conversaciones** · *Pregunta:* ¿el setter filtra? · *Le sirve a:* líder comercial. · *Cómo leerlo:* si da casi 100 %, no está filtrando: todo "califica". Contrastalo con la calificación del closer.
+- **Agendados sobre calificados** · *Pregunta:* ¿convierte la conversación en llamada? · *Alarma (orientativa):* cae dos semanas seguidas.
+- **Agendados declarados contra oportunidades en el CRM** · *Pregunta:* ¿lo que reporta es lo que pasó? · *Alarma:* cualquier diferencia que se repite. Si el setter cobra por agenda, este es el número que se paga.
+- **Venta sobre agendadas por setter** · *Pregunta:* ¿las agendas de este setter compran? · *Cómo leerlo:* dos setters con las mismas agendas y ventas muy distintas = problema de calificación o de incentivo, no de volumen (caso E).
+
+### Servicio y cobros (al corte)
+- **% de cuotas vencidas** sobre las que ya debían estar pagas (no sobre todas) · *Le sirve a:* quien cobra, founder. · *Alarma (orientativa):* sube dos cortes seguidos. Al lado: cuántas vencidas no recibieron ningún aviso.
+- **Días entre el pago y el acceso** · *Le sirve a:* coordinación de servicio. · *Cómo leerlo:* mediana y máximo, no solo promedio. Si el máximo pasa lo que promete el closer, hay una promesa rota en cada venta.
+- **Clientes con cuota vencida que siguen con acceso** · *Le sirve a:* founder. · *Cómo leerlo:* si el control de accesos existe "para que no entre nadie sin pagar" y este número es alto, el control no está funcionando.
+
+### Operaciones (calidad del dato)
+- **Registros sin clave o en "Sin canal"** por tabla · *Alarma (orientativa):* más del 10 % o crece.
+- **Llamadas sin closer, deals sin oportunidad, cuotas sin responsable** · *Cómo leerlo:* cada uno vuelve aproximado un KPI; decí cuál.
+- **Días con reporte de fin de día cargado** por persona · *Cómo leerlo:* sin EOD, el setting diario y el "declarado contra CRM" no se pueden leer.
 
 ---
 

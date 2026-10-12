@@ -80,9 +80,11 @@ RealOps™, programa de operaciones para negocios digitales (2026) · Inglés in
 Orden: onboarding (el más fácil de entender) → CRM → tablero. Cada tarjeta con el rótulo **"Negocio real, anonimizado"**, captura de la copia con datos de prueba, problema, qué construiste, qué decidiste y resultado. El tablero dice "en prueba".
 
 Pedido para Claude:
-> Armame una página de portafolio con diseño, en una sola página HTML, para un perfil de operaciones en negocios digitales. Estilo sobrio y cálido, acento verde petróleo, legible en el celular. Portada: Romina Paz, Online Business Manager, "Saco al founder del medio de la operación", botón "Escribime" a romina.paz@mail.com. Tarjetas en este orden: [las 3 fichas]. Capturas adjuntas; si no se pueden incrustar, dejá un marco con el nombre del archivo. Cierre: busco un rol de OBM u Operations Coordinator, remoto. No inventes números, logos ni testimonios.
+> Armame una página de portafolio con diseño, en una sola página HTML, para un perfil de operaciones en negocios digitales. Estilo sobrio y cálido, acento verde petróleo, legible en el celular. Portada: Romina Paz, Online Business Manager, "Saco al founder del medio de la operación", botón "Escribime" a romina.paz@mail.com. Tarjetas en este orden: [las 3 fichas]. Dejá un marco por tarjeta con el nombre de la captura (`01-onboarding.png`, `02-crm-vencidas.png`, `03-tablero.png`). Cierre: busco un rol de OBM u Operations Coordinator, remoto. No inventes números, logos ni testimonios.
 
-Antes de publicar: el chequeo de la referencia (rótulos, capturas sin datos reales, mismos números que el CV, link de solo lectura).
+**Las capturas.** La página sale con marcos. Si querés las capturas adentro, hacé la prueba de 2 minutos: subí una, pedí que la muestre en la primera tarjeta, publicá y abrí el link en una ventana privada. Si se ve, sumá las otras dos; si no, pasá la página a Notion o Canva y pegá ahí las imágenes (o armala en Claude Code o Cowork con las capturas incrustadas en el archivo).
+
+Antes de publicar: el chequeo de la referencia (rótulos, capturas sin datos reales, mismos números que el CV, link de solo lectura, y que las capturas se vean abriéndolo en una ventana privada).
 
 ## Tu video de pantalla compartida · Onboarding automatizado (4 minutos)
 

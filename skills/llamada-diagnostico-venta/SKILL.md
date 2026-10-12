@@ -1,6 +1,6 @@
 ---
 name: llamada-diagnostico-venta
-description: Script de Ventas con Founders (RealOps™). Te arma el script para vender tu servicio de operaciones a un founder de infonegocio - el mensaje de setting para conseguir la llamada, la llamada de venta paso a paso (rapport, encuadre, problema, consecuencias, costo de no actuar, por qué ahora, presentación personalizada, precio, objeciones y cierre) o el proceso en dos llamadas (diagnóstico y propuesta) - sobre la estructura de los guiones de setting y closing que usa el equipo comercial de MG Operations. Te dice qué dolores tocar según el avatar B2B (founder que es el cuello de botella, números que no coinciden, equipo sin autonomía) con las preguntas para que los diga él, y practica con vos en un role-play donde Claude hace del founder. Usala cuando tengas una llamada con un posible cliente, cuando quieras escribir o revisar tu guion de venta, cuando no sepas qué preguntar o cuando quieras practicar las objeciones antes de escucharlas en vivo.
+description: Script de Ventas con Founders (RealOps™). Te arma el script para vender tu servicio de operaciones a un founder de infonegocio - el mensaje de setting para conseguir la llamada, la llamada de venta paso a paso (rapport, encuadre, problema, consecuencias, costo de no actuar, por qué ahora, presentación personalizada, precio, objeciones y cierre) o el proceso en dos llamadas (diagnóstico y propuesta) - sobre la estructura de los guiones de setting y closing que usa el equipo comercial de MG Operations. Te dice qué dolores tocar según el avatar B2B, con los 6 Dolores Mortales del Backstage numerados como en el Cuestionario de Diagnóstico Operativo, y las preguntas para que los diga él, y practica con vos en un role-play donde Claude hace del founder. Usala cuando tengas una llamada con un posible cliente, cuando quieras escribir o revisar tu guion de venta, cuando no sepas qué preguntar o cuando quieras practicar las objeciones antes de escucharlas en vivo.
 ---
 
 # Script de Ventas con Founders
@@ -49,15 +49,21 @@ Preparás la llamada **solo con lo que el founder dijo o es público.** Nunca es
 | Todavía no tenés la llamada | **A · Setting** (y después B o C) |
 | Tenés oferta y precio claros, y el proyecto se parece al de otros clientes | **B · Llamada de venta** (45-60 min, se cierra en la llamada) |
 | No tenés precio, el proyecto es a medida, o es tu primer cliente | **C · Dos llamadas** (diagnóstico 45 min, propuesta 20 min) |
+
+Las duraciones son **orientativas** (salen de los guiones del equipo comercial). El proceso en dos llamadas sí es del método (clase del 08/07).
 | Es el founder del negocio donde ya trabajás | **C**, con la llamada 1 más corta: ya conocés parte del recorrido |
 
 ## Qué dolores tocar
 
-El founder de infonegocio (avatar B2B) agenda por una de **tres puertas**: salir de la operativa para disfrutar, salir de la operativa para crecer, u ordenar los números para decidir. Debajo casi siempre hay alguno de **cinco dolores**: todo depende de él · caos normalizado · equipo sin autonomía · datos dispersos que no coinciden · no puede crecer sin romperse. El detalle, con cómo suena cada uno y la pregunta para que lo diga él, está en `references/dolores-avatar-b2b.md`.
+El founder de infonegocio (avatar B2B) agenda por una de **tres puertas**: salir de la operativa para disfrutar, salir de la operativa para crecer, u ordenar los números para decidir. Debajo casi siempre hay alguno de los **6 Dolores Mortales del Backstage**, con la numeración oficial del Cuestionario de Diagnóstico Operativo:
+
+1 · Reuniones eternas e ineficientes · 2 · Información dispersa · 3 · Fuga de datos y métricas · 4 · Roles difusos · 5 · Cultura del sobreesfuerzo · 6 · Tareas manuales sin automatizar
+
+Nombralos **siempre con su número**: lo que escuchás en la venta pasa directo al diagnóstico si el founder te contrata. "Todo depende de mí" y "no puedo crecer sin romperme" son síntomas que cruzan varios (sobre todo 4, 1 y 5). El detalle, con cómo suena cada uno en boca del founder, la pregunta para que lo diga él y qué puerta lleva a cuáles, está en `references/dolores-avatar-b2b.md`.
 
 Reglas para tocar el dolor:
 
-- **Hipótesis antes, pregunta en la llamada.** Con lo que sabés, elegí 2 o 3 dolores probables y escribí la pregunta que lo haría aparecer. No afirmes el dolor: preguntalo.
+- **Hipótesis antes, pregunta en la llamada.** Con lo que sabés, elegí 2 o 3 dolores probables (con su número) y escribí la pregunta que lo haría aparecer. No afirmes el dolor: preguntalo.
 - **El dolor vale cuando lo dice él.** Anotá sus frases textuales: van al resumen, a la propuesta y al precio.
 - **Del problema a la consecuencia, y de la consecuencia al costo.** "No sé cuánto cobré" es un problema; "pago comisiones de más" es la consecuencia; "cuánto por mes" es el costo. El precio se compara con ese costo.
 - **Preguntas de negocio, no de herramientas.** "¿Usás Airtable?" no te posiciona. "¿Ese número es lo vendido o lo cobrado?" sí.
@@ -66,7 +72,16 @@ Reglas para tocar el dolor:
 
 **Tomamos:** rapport corto y sin amiguismo · encuadre que permite decir que no · consecuencias en el negocio y en lo personal · costo de no actuar y por qué ahora · recapitulación con sus palabras · presentación solo de lo que responde a lo que dijo · reconfirmación ("¿por qué te sirve?") · precio una vez y silencio · objeciones con **clarifico → empatizo → direcciono** · pedir la decisión.
 
-**Dejamos afuera:** descuentos "si pagás ahora" o precios que bajan en la llamada · urgencia inventada ("solo por hoy", "te quedás sin lugar") · dramatizar un dolor que el founder no dijo · casos, clientes o resultados que no tenés · presionar a quien no califica · prometer resultados de facturación (se prometen sistemas funcionando).
+**Dejamos afuera** (criterio de RealOps™ para alumnos que recién empiezan a vender; no se vuelve a discutir en cada script):
+
+| Táctica de los guiones históricos | Qué hacemos en su lugar | Por qué |
+|---|---|---|
+| Descuento "si pagás en la llamada" o precio que baja en vivo | Un solo precio. Si querés un descuento, que esté **escrito en tu oferta antes de la llamada**, con su condición real (por ejemplo, pago contado) y igual para todos. Uno así se puede decir; uno inventado en vivo, no | Un precio que cambia en la llamada le dice al founder que "el precio no es el precio", y quien recién empieza lo usa para tapar la incomodidad del silencio. Es la misma regla de la Analista de Calls de Venta: un descuento solo es bandera roja si no está aprobado |
+| Urgencia inventada ("solo por hoy", "te quedás sin lugar") | Urgencia **solo si es verdadera**: cupos reales, una fecha real de arranque o de aumento que ya está en tu oferta. Si no existe, la urgencia es la del founder ("¿por qué ahora y no en tres meses?") | Si el founder descubre que el cupo no era real, perdiste la confianza, que es lo que vendés |
+| Dramatizar un dolor que el founder no dijo | Devolverle **sus** palabras en la recapitulación | El dolor vale cuando lo dice él |
+| Casos, clientes o resultados que no tenés | Lo que sí hiciste, dicho como lo que es | Nunca se inventa un cliente |
+| Presionar a quien no califica | Descalificar con respeto | Una llamada cortada a tiempo es una buena llamada |
+| Prometer resultados de facturación | Prometer sistemas funcionando | Es lo que controlás |
 
 ## Banco de objeciones
 
@@ -105,12 +120,12 @@ Para cada una: qué suele haber detrás y una respuesta posible. Siempre con la 
 
 ## Formato de salida
 
-En `ejemplo-de-output.md` tenés uno completo (script C, llamada 1, con role-play).
+En `ejemplo-de-output.md` tenés dos completos: script C (llamada 1, con role-play) y script B (llamada de venta en una sola llamada, con role-play del precio).
 
 ```
 # Script [A setting / B venta / C llamada 1 o 2] · [negocio o caso] · [fecha]
 ## Lo que sabemos antes de entrar (solo lo que dijo el founder o es público)
-## Los dolores probables (hipótesis → pregunta para que lo diga él)
+## Los dolores probables (# del Dolor Mortal · hipótesis → pregunta para que lo diga él)
 ## El script (tabla: bloque · minuto · qué decís o preguntás)
 ## Las 3 preguntas que no te podés olvidar
 ## Qué mostrás en pantalla (y qué no)

@@ -1,6 +1,6 @@
 ---
 name: entrevista-founder-guiada
-description: Entrevista Guiada al Founder (RealOps™). Convierte el Cuestionario de Diagnóstico Operativo RealOps™ (contexto del negocio, los 6 Dolores Mortales del Backstage y visión) en una hora de conversación grabada con el founder, con las preguntas imprescindibles marcadas por bloque y el techo operativo. Con la transcripción devuelve el relevamiento ordenado para el Diagnóstico Operativo, con números y su fuente, citas, semáforo preliminar según el founder, accesos, decisiones pendientes y contradicciones con el equipo. Trae modo ensayo para casos prácticos (Claude hace de founder solo con el material del caso) y versión escrita si el founder prefiere escribir. Usala cuando necesites sacarle la información al founder en una sola llamada. Al equipo no lo entrevista: para eso está el Cuestionario de Diagnóstico por Rol.
+description: Entrevista Guiada al Founder (RealOps™). Convierte el Cuestionario de Diagnóstico Operativo RealOps™ (contexto del negocio, los 6 Dolores Mortales del Backstage y visión) en una hora de conversación grabada con el founder, con las 20 imprescindibles y las 10 innegociables marcadas por bloque, controles de reloj y el techo operativo. Con la transcripción devuelve el relevamiento ordenado para el Diagnóstico Operativo, con números y su fuente, citas, semáforo preliminar según el founder, accesos, decisiones pendientes y contradicciones con el equipo. Trae modo ensayo para casos prácticos (Claude hace de founder solo con el material del caso) y versión escrita si el founder prefiere escribir. Usala cuando necesites sacarle la información al founder en una sola llamada. Al equipo no lo entrevista: para eso está el Cuestionario de Diagnóstico por Rol.
 ---
 
 # Entrevista Guiada al Founder
@@ -22,9 +22,9 @@ El cuestionario completo es para el **dueño o líder**. Esta skill lo convierte
 
 El cuestionario base pide aplicarlo "al dueño + al menos 2 o 3 miembros clave para cruzar percepciones": las dos skills son las dos mitades. Acá no armás preguntas para el equipo.
 
-Los 6 dolores, con la numeración del cuestionario: **#1** Reuniones eternas e ineficientes · **#2** Información dispersa · **#3** Fuga de datos y métricas · **#4** Roles difusos · **#5** Cultura del sobreesfuerzo · **#6** Tareas manuales sin automatizar.
+Los 6 dolores, con la numeración del cuestionario, que es la **oficial de RealOps™**: **#1** Reuniones eternas e ineficientes · **#2** Información dispersa · **#3** Fuga de datos y métricas · **#4** Roles difusos · **#5** Cultura del sobreesfuerzo · **#6** Tareas manuales sin automatizar. Usala en el guion, en el semáforo preliminar y en el resumen. Si el template de Diagnóstico Operativo que tengas trae el semáforo con #2 Roles difusos y #4 Información dispersa, pasá por nombre y quedate con esta numeración.
 
-En `references/cuestionario-completo.md` están las 58 preguntas del cuestionario base, en orden, con cuáles son imprescindibles en la entrevista. Cargalo para la versión escrita o cuando el alumno quiera ver de dónde sale cada pregunta.
+En `references/cuestionario-completo.md` están las 58 preguntas del cuestionario base, en orden, con cuáles son imprescindibles (★) e innegociables (N) en la entrevista. Cargalo para la versión escrita o cuando el alumno quiera ver de dónde sale cada pregunta.
 
 ## Para qué no es
 
@@ -59,7 +59,7 @@ Preguntas guía más chicas, ejemplos típicos y, si igual no hay dato, un supue
 | **2 · Qué vende y cómo** | ¿Curso, mentoría grupal, 1 a 1, membresía? · ¿Cuánto paga la gente y en cuántas cuotas? · ¿Habla con alguien antes de pagar? | Mentoría de 3 a 6 meses, US$1.500 a US$5.000, en cuotas, por llamada; o curso por lanzamiento | [SUPUESTO: high ticket por llamada con cuotas, confirmalo con el founder]. El bloque de contexto lo valida en los primeros 10 minutos |
 | **3 · Tu rol** | ¿Te contrataron por proyecto o sos parte del equipo? · ¿Qué te pidieron que resuelvas? | Operaciones que entra a ordenar, consultora externa, alguien del equipo que asume el rol | [SUPUESTO: operativo que hace el diagnóstico, confirmalo con el founder] |
 | **4 · Respuestas del equipo** | ¿Mandaste algún cuestionario? · ¿Tenés el grupo de WhatsApp o notas de 1 a 1? | Nada todavía, o mensajes sueltos | Se prepara igual. Recomendá correr el Cuestionario por Rol después y cruzar |
-| **5 · Tiempo y formato** | ¿Te dio una hora o "un ratito"? · ¿Contesta audios o mails largos? | 30 a 60 minutos; casi ninguno escribe | 60 minutos, conversación. Con 30: solo las ★. Si prefiere escribir: versión escrita |
+| **5 · Tiempo y formato** | ¿Te dio una hora o "un ratito"? · ¿Contesta audios o mails largos? | 30 a 60 minutos; casi ninguno escribe | 60 minutos, conversación. Con 30: solo las 10 innegociables (N) y el cierre. Si prefiere escribir: versión escrita |
 
 ## Modo 1 · Preparar la entrevista
 
@@ -71,63 +71,82 @@ Preguntas guía más chicas, ejemplos típicos y, si igual no hay dato, un supue
 
 ### El guion · 60 minutos en el orden del cuestionario
 
-El orden es el del cuestionario base: primero el contexto, después los 6 dolores, al final la visión. **★ = imprescindible.** Con 60 minutos hacés todas las ★ y las "si sobra" que entren. Con 30, solo las ★. **Tope: 4 preguntas hechas por bloque**, contando las ★ (las repreguntas tipo "contame un ejemplo" no cuentan). En el contexto las 4 ★ ya llenan el tope: sus "si sobra" van a la lista "Para confirmar" por escrito.
+El orden es el del cuestionario base: primero el contexto, después los 6 dolores, al final la visión.
 
-| Bloque | Min | ★ | Si sobra |
-|---|---|---|---|
-| 0 · Apertura | 2 | — (permiso para grabar y para qué es la hora) | — |
-| 1 · Contexto del negocio | 10 | 4 | 2 |
-| 2 · Dolor #1 Reuniones y comunicación | 5 | 2 | 1 |
-| 3 · Dolor #2 Información dispersa | 5 | 2 | 1 |
-| 4 · Dolor #3 Datos y métricas | 7 | 2 | 2 |
-| 5 · Dolor #4 Roles difusos | 7 | 2 | 2 |
-| 6 · Dolor #5 Sobreesfuerzo | 5 | 2 | 1 |
-| 7 · Dolor #6 Tareas manuales y herramientas | 6 | 2 | 1 |
-| 8 · Visión y techo operativo | 8 | 3 | 1 |
-| 9 · Cierre | 5 | 1 (más accesos y decisiones) | 1 |
-| **Total** | **60** | **20** | |
+- **N = innegociable.** Son 10, una o dos por bloque, y salen sí o sí, aunque el founder se extienda. Cada bloque **arranca por su N**.
+- **★ = imprescindible.** Son 20 (las 10 N incluidas). Con 60 minutos y un founder concreto, entran todas.
+- **Si sobra:** solo si el bloque terminó antes de su minuto.
+
+Veinte ★ en 60 minutos son unos 2,5 minutos por pregunta: alcanza con un founder concreto, no con uno que se extiende. Por eso las N.
+
+| Tiempo que te da | Qué hacés |
+|---|---|
+| 60 minutos | Las 10 N, las otras 10 ★ y las "si sobra" que entren |
+| 45 minutos | Las 10 N y las ★ que entren; las ★ que quedan, por escrito en "Para confirmar" |
+| 30 minutos | Solo las 10 N y el cierre (accesos y decisiones) |
+| Menos de 30 | Reprogramá o mandá la versión escrita con las N marcadas |
+
+**Controles de reloj** (orientativos): al **minuto 12** terminaste el contexto · al **29**, datos y métricas · al **47** arrancás visión · al **55**, el cierre. Si llegás a un control con más de 3 minutos de atraso, desde ahí hacés **solo las N** de cada bloque y las demás ★ pasan a la lista escrita. Si en el control siguiente ya estás en hora, volvés a las ★. El cierre no se saltea nunca: sin accesos ni decisiones con fecha, la hora no rinde.
+
+**Tope: 4 preguntas hechas por bloque** (orientativo), contando las ★ (las repreguntas tipo "contame un ejemplo" no cuentan). En el contexto las 4 ★ ya llenan el tope: sus "si sobra" van a la lista "Para confirmar" por escrito.
+
+*Cuáles son las 10 N es criterio orientativo de la skill: una por dolor (para que el semáforo preliminar no quede sin evidencia), facturación y objetivo del contexto, techo operativo y la "una cosa" de la visión. Los minutos por bloque también son orientativos.*
+
+| Bloque | Min | Acumulado | N | ★ (con las N) | Si sobra |
+|---|---|---|---|---|---|
+| 0 · Apertura | 2 | 2 | — | — (permiso para grabar y para qué es la hora) | — |
+| 1 · Contexto del negocio | 10 | 12 | 2 | 4 | 2 |
+| 2 · Dolor #1 Reuniones y comunicación | 5 | 17 | 1 | 2 | 1 |
+| 3 · Dolor #2 Información dispersa | 5 | 22 | 1 | 2 | 1 |
+| 4 · Dolor #3 Datos y métricas | 7 | 29 | 1 | 2 | 2 |
+| 5 · Dolor #4 Roles difusos | 7 | 36 | 1 | 2 | 2 |
+| 6 · Dolor #5 Sobreesfuerzo | 5 | 41 | 1 | 2 | 1 |
+| 7 · Dolor #6 Tareas manuales y herramientas | 6 | 47 | 1 | 2 | 1 |
+| 8 · Visión y techo operativo | 8 | 55 | 2 | 3 | 1 |
+| 9 · Cierre | 5 | 60 | — (accesos y decisiones van siempre) | 1 | 1 |
+| **Total** | **60** | | **10** | **20** | |
 
 **1 · Contexto del negocio** (sección 1)
-- ★ ¿Qué vendés y cómo es la escalera? Productos, precios y nivel de acompañamiento. (1 · 5)
-- ★ ¿Cuánto facturaron en cada uno de los últimos 3 meses? ¿Y cuál es la meta a 6 meses? (4) *Siempre se pregunta, aunque dé vergüenza. Si no sabe, "sin dato" es un hallazgo.*
-- ★ ¿Quién trabaja hoy y en qué rol? (3)
-- ★ ¿Cuál es el objetivo de crecimiento ahora: escalar ventas, retener, lanzar, delegar? (6)
+- **N1** ★ ¿Cuánto facturaron en cada uno de los últimos 3 meses? ¿Y cuál es la meta a 6 meses? (4) *Siempre se pregunta, aunque dé vergüenza. Si no sabe, "sin dato" es un hallazgo.*
+- **N2** ★ ¿Cuál es el objetivo de crecimiento ahora: escalar ventas, retener, lanzar, delegar? (6)
+- ★ ¿Qué vendés y cómo es la escalera? Productos, precios y nivel de acompañamiento. (1 · 5) *Si ya lo sabés por la ficha, confirmalo en una frase.*
+- ★ ¿Quién trabaja hoy y en qué rol? (3) *Ídem.*
 - Si sobra: ¿Hubo algún intento previo de ordenar la operación? ¿Qué pasó? (7) · ¿Cuánto tarda un cliente en convertirse en caso de éxito? (contexto de la oferta)
 
 **2 · Dolor #1 · Reuniones y comunicación** (sección 2)
+- **N3** ★ ¿Qué información se pierde o llega tarde entre áreas? Contame la última vez. (12)
 - ★ ¿Tenés visibilidad de lo que pasa en cada área sin tener que preguntar? (13)
-- ★ ¿Qué información se pierde o llega tarde entre áreas? Contame la última vez. (12)
 - Si sobra: ¿Cómo se reporta el trabajo del día? ¿Hay EOD? (10)
 
 **3 · Dolor #2 · Información dispersa** (sección 3)
-- ★ ¿Hay un lugar donde esté la información clave del negocio, o está repartida? (17)
+- **N4** ★ ¿Hay un lugar donde esté la información clave del negocio, o está repartida? (17)
 - ★ Las decisiones importantes, ¿quedan escritas en algún lado o se pierden en conversaciones? (18)
 - Si sobra: ¿Qué procesos críticos están documentados? (19)
 
 **4 · Dolor #3 · Datos y métricas** (sección 4)
-- ★ De lo que facturaron, ¿cuánto entró de verdad (cash collected)? ¿Cómo lo diferencian y cómo cierran el mes? (23)
+- **N5** ★ De lo que facturaron, ¿cuánto entró de verdad (cash collected)? ¿Cómo lo diferencian y cómo cierran el mes? (23)
 - ★ Si te pregunto "¿cómo estamos este mes?", ¿cuánto tardás en tener un número confiable? (24)
 - Si sobra: ¿Confiás en los números que ves? ¿Por qué? (25) · ¿Qué querés ver todos los días, cada semana y cada mes? (26; clase del 30/07: el tablero es para el CEO)
 
 **5 · Dolor #4 · Roles difusos** (sección 5)
-- ★ ¿Qué tareas hacés vos que podrías delegar? Si te vas dos semanas sin teléfono, ¿qué se frena? (35 · 34)
+- **N6** ★ ¿Qué tareas hacés vos que podrías delegar? Si te vas dos semanas sin teléfono, ¿qué se frena? (35 · 34)
 - ★ ¿Cada persona sabe de qué es responsable y cómo se la mide? ¿Hay KPIs por rol? (28 · 31)
 - Si sobra: ¿Cómo entra alguien nuevo al equipo? (33) · ¿Cómo y cada cuánto das feedback? (32)
 
 **6 · Dolor #5 · Sobreesfuerzo** (sección 6)
 - ★ ¿Se va gente del equipo? ¿Cada cuánto y por qué? (38)
-- ★ ¿Qué parte del tiempo del equipo se va en apagar incendios y qué parte en lo planificado? (41)
+- **N7** ★ ¿Qué parte del tiempo del equipo se va en apagar incendios y qué parte en lo planificado? (41)
 - Si sobra: ¿Se normalizó responder a cualquier hora? ¿Vos también? (37)
 
 **7 · Dolor #6 · Tareas manuales y herramientas** (sección 7)
-- ★ ¿Dónde vive la venta, el cobro, el cliente y el trabajo del equipo? ¿Hay herramientas que se pisan? (45 · 46)
+- **N8** ★ ¿Dónde vive la venta, el cobro, el cliente y el trabajo del equipo? ¿Hay herramientas que se pisan? (45 · 46)
 - ★ ¿Qué pagás que no se usa, o se usa al 10 %? (47)
 - Si sobra: ¿Hay automatizaciones? ¿Funcionan? (49)
 
 **8 · Visión y techo operativo** (sección 8 + techo del Diagnóstico Operativo)
+- **N9** ★ Si pudieras cambiar UNA sola cosa de la operación mañana, ¿cuál sería? (53)
+- **N10** ★ **Techo operativo:** si mañana duplicaras las ventas, ¿qué es lo primero que se rompe?
 - ★ ¿Cuáles son los 3 problemas operativos que más friccionan el día a día? (51)
-- ★ Si pudieras cambiar UNA sola cosa de la operación mañana, ¿cuál sería? (53)
-- ★ **Techo operativo:** si mañana duplicaras las ventas, ¿qué es lo primero que se rompe?
 - Si sobra: Contame paso a paso qué pasa desde que alguien paga hasta su primera sesión. (56)
 
 **9 · Cierre** (últimos 5 minutos)
@@ -162,11 +181,11 @@ En el guion, marcá al lado de cada pregunta la evidencia que tenés como **"Par
 2. **Pedí el ejemplo.** "Contame la última vez que pasó."
 3. **No propongas soluciones.** Anotalas para después: si proponés en el minuto 10, el resto de la hora es una discusión sobre tu idea.
 4. **Parking lot:** si se va por las ramas, "lo anoto y lo vemos al final".
-5. **El reloj manda:** si un bloque se pasa, saltá a las ★ del siguiente. Las "si sobra" se recuperan por escrito.
+5. **El reloj manda:** cada bloque arranca por su N. Si un bloque se pasa, saltá a la N del siguiente. Si llegás atrasado a un control de reloj, desde ahí solo N. Las ★ y "si sobra" que no entraron se recuperan por escrito, en un solo mensaje.
 
 ### Versión escrita (si el founder prefiere escribir)
 
-Entregá el cuestionario completo de `references/cuestionario-completo.md` con su encabezado (responsable, negocio, quién responde, fecha, 40 a 60 minutos) y sus instrucciones: leer cada sección antes de responder, "no aplica" con una línea de por qué. Marcá las ★ como "si solo tenés 20 minutos, respondé estas". El modo 2 ordena las respuestas igual que una transcripción.
+Entregá el cuestionario completo de `references/cuestionario-completo.md` con su encabezado (responsable, negocio, quién responde, fecha, 40 a 60 minutos) y sus instrucciones: leer cada sección antes de responder, "no aplica" con una línea de por qué. Marcá las N como "si solo tenés 15 minutos, respondé estas 10" y las ★ como "si tenés 30, sumá estas". El modo 2 ordena las respuestas igual que una transcripción.
 
 ## Modo ensayo · caso práctico sin founder
 
@@ -174,9 +193,9 @@ Para practicar la entrevista antes de hacerla con un founder de verdad.
 
 1. **Vos hacés de founder**, respondiendo **solo con el material del caso** (ficha y brief; y lo que el founder escribió de su puño en los mensajes, si el caso los trae). Hablás en primera persona y con su tono.
 2. **Lo que el material no dice, el founder no lo sabe**: "eso no lo tengo", "tendría que fijarme", "eso lo ve [rol]". No inventás números, ni siquiera "razonables". Ese "no sé" es exactamente el hallazgo que la entrevista tiene que sacar.
-3. **El alumno pregunta de a una**, con su guion. Si hace una pregunta cerrada que delata, el founder responde como lo haría alguien a la defensiva, y al final se lo señalás.
+3. **El alumno pregunta de a una**, con su guion. Llevá el reloj del ensayo (cada respuesta del founder suma minutos según su largo) y avisá en los controles si va atrasado. Si hace una pregunta cerrada que delata, el founder responde como lo haría alguien a la defensiva, y al final se lo señalás.
 4. **Al terminar:** devolvés la transcripción rotulada **"ENSAYO · caso práctico · el founder es simulado"** y corrés el **modo 2** sobre ella con el mismo rótulo.
-5. **Feedback al alumno** (máximo 5 puntos): qué ★ quedaron sin hacer, dónde delató la conclusión, si preguntó facturado y cobrado por separado, si pidió los accesos con nivel y argumentos, si cerró las decisiones con fecha.
+5. **Feedback al alumno** (máximo 5 puntos): si salieron las 10 N y qué ★ quedaron sin hacer, si respetó los controles de reloj, dónde delató la conclusión, si preguntó facturado y cobrado por separado, si pidió los accesos con nivel y argumentos, si cerró las decisiones con fecha.
 
 ## Modo 2 · Ordenar la transcripción
 
@@ -199,7 +218,8 @@ En `ejemplo-de-output.md` tenés un resumen completo.
 ```
 # Entrevista con el founder · [negocio o caso] · preparación
 ## Mensaje del día anterior (los temas, no las preguntas)
-## El guion (bloques 0 a 9 con minutos, ★ y "si sobra"; "Para contrastar" donde haya evidencia)
+## El guion (bloques 0 a 9 con minutos y acumulado, N, ★ y "si sobra"; "Para contrastar" donde haya evidencia)
+## Controles de reloj (minuto 12 · 29 · 47 · 55) y qué se hace si vas atrasado
 ## Accesos a pedir (herramienta · nivel · para qué)
 ## Decisiones que probablemente aparezcan
 ## Para confirmar (supuestos, si los hubo)

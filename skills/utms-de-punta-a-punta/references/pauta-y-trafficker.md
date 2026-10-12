@@ -14,7 +14,18 @@ Trackear es parte de publicar, no una tarea aparte: un anuncio sin parámetros e
 
 ## Parámetros dinámicos de Meta
 
-Meta reemplaza estos valores al momento del clic. Se cargan en el campo **"Parámetros de URL"** del anuncio (sección Destino / Seguimiento), no pegados en la URL del sitio web.
+Meta reemplaza estos valores al momento del clic. Se cargan en el campo **"Parámetros de URL"** del anuncio (sección Seguimiento, al final de la configuración del anuncio), no pegados en la URL del sitio web.
+
+> **Verificado el 12/10/2026** contra guías públicas de herramientas de tracking: Meta admite 8 parámetros dinámicos, los de la tabla. La lista la mantiene Meta y puede cambiar, igual que los nombres de los botones.
+
+### Cómo ver la lista vigente en el administrador (1 minuto)
+
+1. En el administrador de anuncios, abrí un anuncio (o creá uno en borrador) y bajá hasta **Seguimiento**.
+2. Al lado de **Parámetros de URL**, tocá **"Crear un parámetro de URL"** (en inglés, *Build a URL parameter*). Se abre un armador.
+3. En cada campo (fuente, medio, nombre de campaña, contenido) el desplegable muestra los **parámetros dinámicos disponibles hoy**. Si alguno de la plantilla no aparece, usá el que muestra el desplegable para ese dato.
+4. Guardá y mirá el texto que quedó en el campo: tiene que parecerse a la plantilla de abajo.
+
+**Plan B** si no encontrás el botón (Meta cambia la pantalla seguido): pegá la plantilla directo en el campo de texto de Parámetros de URL, publicá y hacé **un clic real desde el anuncio activo**. Si en la base llega `{{ad.name}}` literal (con llaves) o vacío, ese parámetro no está vigente: avisá en el canal del equipo y reemplazalo por el que muestre el armador.
 
 | Parámetro dinámico | Qué devuelve | Para qué |
 |---|---|---|
@@ -34,7 +45,7 @@ utm_source=fb&utm_medium=ads&utm_campaign={{campaign.name}}&utm_term={{adset.nam
 
 Cuidado con esto:
 - **Los nombres viajan tal cual.** Si el anuncio se llama `AD-07 · Video 'Facturá US$10K'`, al link llega con espacios, mayúsculas y símbolos codificados. Por eso los nombres siguen la convención (minúsculas, guiones, sin acentos ni símbolos).
-- **Renombrar cambia el `utm_content` de los clics nuevos, no de los viejos.** Por eso existe el `ad_id` y la tabla de anuncios.
+- **Renombrar no cambia los clics viejos, y puede que tampoco los nuevos enseguida.** Algunas guías indican que Meta toma el nombre al publicar, así que un anuncio renombrado podría seguir mandando el nombre anterior hasta que se vuelva a publicar. Después de renombrar, verificá con un clic real qué llega. Por eso existe el `ad_id` (no cambia) y la tabla de anuncios.
 - **La lista exacta de parámetros dinámicos la mantiene Meta** y puede cambiar: verificá en el administrador al momento de cargarlos.
 - **Se completan solo con clics reales del anuncio publicado**, no en la vista previa del editor. La prueba se hace con un clic desde el anuncio activo (o pidiéndole a alguien del equipo que entre).
 - **Al duplicar un anuncio**, los parámetros se copian. Bien. Pero cambiale el nombre: dos anuncios con el mismo nombre solo se separan por `ad_id`.
@@ -77,4 +88,4 @@ Brief de tracking · [negocio] · desde [fecha]
 
 - Vista "Pauta sin anuncio": leads con `utm_medium = ads` y `ad_id` vacío. Si aparecen, hay un anuncio sin parámetros: se le avisa al trafficker con el nombre.
 - Vista "Anuncios nuevos": `ad_id` que no está en la tabla de anuncios. Se agrega la fila.
-- Meta de tracking: más de 9 de cada 10 leads de pauta con `ad_id`.
+- Meta de tracking (orientativa): más de 9 de cada 10 leads de pauta con `ad_id`.

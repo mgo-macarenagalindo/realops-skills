@@ -17,30 +17,32 @@ El pedido se arma **desde el valor para el negocio, no desde la necesidad person
 
 Si tiene todos los datos, no sobre-preguntes: armá el pedido. Si dice "no lo sé", plan B (abajo).
 
-## La estructura del pedido (C.L.A.R.O.)
+## La estructura del pedido: **Pedido por valor**
 
-Es la estructura de la clase con invitada del 03/07, con lo que Macarena enseña sobre negociar por valor (29/06). Se monta sobre la estructura base de la skill (rapport, para qué, rol, preguntas, "y").
+Es la estructura de Macarena, armada con lo que enseña sobre negociar un rol por valor (29/06), convencer al founder con datos (29/09), primero el contexto y después la propuesta (25/05) y el nombre correcto del rol (28/05). Se monta sobre la estructura base de la skill (rapport, para qué, rol, preguntas, "y"). Son **cinco pasos, en este orden**, y la regla que los ordena es una sola: **primero el dolor del otro, después tu número**.
 
-| Letra | Qué es | Cómo se arma |
+| Paso | Qué es | Cómo se arma |
 |---|---|---|
-| **C · Contexto** | Tu historia, lo que entregaste, el valor | La evidencia medida. No "trabajo mucho": "en tres meses armé la base de cobros; hoy muestra US$X vencidos que antes nadie veía" |
-| **L · Lo que pido** | Concreto | Una frase con número o con decisiones: "pasar a Coordinación de Operaciones, con estas dos decisiones a mi cargo" |
-| **A · Autonomía** | Co-crear la solución con el otro | Dos formas de decir que sí (abajo): la conversación pasa de "sí o no" a "cuál" |
-| **R · Recursos** | Los datos que lo respaldan | KPIs, resultados, lo que cobrás hoy a un cliente nuevo (si es honorario). **Valor, no horas.** El rol con su nombre correcto (operaciones, no asistencia) |
-| **O · cOndiciones de satisfacción** | Tu línea | Tu mínimo, tu plan B real y la fecha en que se revisa si queda en "más adelante". Se define antes y **no se dice** |
+| **1 · El dolor** | Lo que le duele al founder (o al cliente) y hacia dónde quiere ir | La lista de dolores operativos que ves en el negocio (pagos desordenados, información perdida en WhatsApp, procesos sin definir, trabajo manual), conectada con su visión ("irme dos semanas", "escalar sin sumar gente"). Con sus palabras, si las tenés. Esto va **antes** de hablar de vos |
+| **2 · Lo que ya resolviste, en plata** | La evidencia de tu valor | **Hallazgos, no KPIs**: no "trabajo mucho" sino "en tres meses armé la base de cobros; hoy muestra US$X vencidos que antes nadie veía". Y el **costo de oportunidad**: cuánto le cuesta al negocio no cambiar (horas, reembolsos, plata que se pierde). **Valor, no horas** |
+| **3 · El pedido, en una frase** | Concreto, con el nombre correcto del rol | Una frase con un título, un número o 1 a 3 decisiones: "pasar a Coordinación de Operaciones, con estas dos decisiones a mi cargo". El rol con su nombre (operaciones, no asistencia; account manager, no "ayudo con clientes"): saber cómo se llama lo que hacés te ayuda a negociar |
+| **4 · Dos formas de decir que sí** | Una propuesta concreta, en dos versiones | Una sola opción es "sí o no"; dos es "cuál". Ver abajo |
+| **5 · Tu línea** | Lo que definís antes y **no decís** | Tu mínimo, tu plan B real y la fecha en que se revisa si queda en "más adelante" |
 
 **Un "no" rechaza una propuesta, no tu capacidad.**
 
 ### Dos formas de decir que sí
 
-Una sola opción es "sí o no"; dos es "cuál". Que **difieran de verdad** (no solo en el ritmo): por ejemplo, una con más alcance y más paga, y otra con **menos alcance** por la misma paga.
+Que **difieran de verdad** (no solo en el ritmo): por ejemplo, una con más alcance y más paga, y otra con **menos alcance** por la misma paga.
 
 - **Fijo + variable + proyectos aparte.** Fijo por el soporte diario, variable atado al **cash collected** (el número que el founder sí mira, no la ganancia) y los proyectos de sistemas cotizados por separado, para que el fijo no termine cubriendo todo.
-- **Escalonado.** Una parte ahora y otra en una fecha, atada a un resultado medible.
+- **Escalonado.** Una parte ahora y otra en una fecha, atada a un resultado medible. Si el negocio recién arranca, la versión de Macarena (04/05): **variable al arrancar y fijo cuando se estabiliza**, acordado desde el principio.
 - **Menos alcance por la misma paga.** Si no hay plata, se saca trabajo: qué deja de hacer (y quién lo hace).
 - **Autoridad ahora, paga con fecha.** Ver "pedido de autoridad".
 
 ### Cuánto pedir (para que el número no salga de la nada)
+
+> **Criterio orientativo.** Estas cuentas no salen de las clases: son una forma prudente de llegar a un número defendible. Rotulalas así en el entregable ("cuenta orientativa") y ajustalas con la Tabla de Precios de tu Servicio si la tenés.
 
 - **Ajuste de sueldo por alcance nuevo.** El criterio: la proporción del trabajo nuevo. Horas por semana de tareas fuera del rol original ÷ horas totales, aplicado a la diferencia entre lo que cobra y lo que vale ese rol. Ejemplo: 12 de 40 horas son de coordinación (30 %) → el pedido es que ese 30 % se pague como coordinación. Si no puede medir las horas, el porcentaje va como [SUPUESTO] y se mide una semana antes de la reunión. Para el valor de un rol o un servicio, derivá a **Tabla de Precios de tu Servicio**. Nunca cifras "de mercado" inventadas.
 - **Porcentaje del variable.** (1) Atalo a un número que la persona mueve y que el founder ya mira (cash collected, o algo más chico y propio, como lo recuperado de cuotas vencidas). (2) Cuenta al revés: cuánto querés que sume con los números de hoy ÷ el número base = el porcentaje (quiere US$300 y el cash es US$30.000 → 1 %). (3) Mostrá la cuenta con el número de hoy. (4) Sin datos, va como [SUPUESTO] con la cuenta escrita. Para el esquema completo: **Esquema de Pago y Comisiones**.
@@ -74,11 +76,11 @@ Preguntas guía, un ejemplo y, si igual no sale, **[SUPUESTO: …, confirmalo co
 ## Qué agrega al formato de salida
 
 ```
-## Tu línea (para vos, no se dice): mínimo · plan B · fecha de revisión
-## C · Contexto (la evidencia)
-## L · El pedido, en una frase
-## A · Dos formas de decir que sí
-## R · Los datos que lo respaldan (y los dolores que resolvés)
-## El guion de 5 minutos (con la estructura base: rapport, para qué, rol, pedido, pregunta)
+## Tu línea (paso 5, para vos, no se dice): mínimo · plan B · fecha de revisión
+## 1 · El dolor (lo que le duele al founder y hacia dónde quiere ir)
+## 2 · Lo que ya resolviste, en plata (hallazgos y costo de oportunidad)
+## 3 · El pedido, en una frase (con el nombre correcto del rol)
+## 4 · Dos formas de decir que sí
+## El guion corto (con la estructura base: rapport, para qué, rol, dolor, evidencia, pedido, pregunta; duración orientativa: 5 a 10 minutos de habla tuya)
 ## Si te dice… (no hay presupuesto · más adelante · es parte de tu trabajo)
 ```

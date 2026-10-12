@@ -1,11 +1,33 @@
 # Ejemplo de output · CRM de Cliente para Infonegocios
 
-> Datos ficticios. **Estudio Norte**: mentoría de 4 meses de marca personal para arquitectos. USD 2.400 en un pago o 4 cuotas de USD 650; reserva de USD 200 para congelar precio. Al terminar, se ofrece un mastermind de 6 meses (upsell). También vende un taller grabado de USD 27 por checkout. Cobra por Stripe (USD), transferencia en pesos argentinos y transferencia en pesos mexicanos. Equipo: 2 setters (DM de Instagram), 2 closers, 2 coaches, 1 persona de administración y la founder. Hoy: GoHighLevel para los DM, una planilla por closer y una planilla de cobros.
+> Datos ficticios. **Estudio Norte**: mentoría de 4 meses de marca personal para arquitectos. USD 2.400 en un pago o 4 cuotas de USD 650; reserva de USD 200 para congelar precio. Al terminar, se ofrece un mastermind de 6 meses (upsell). También vende un taller grabado de USD 27 por checkout. Cobra por Stripe (USD), transferencia en pesos argentinos y transferencia en pesos mexicanos. Equipo: 2 setters (DM de Instagram), 2 closers, 2 coaches, 1 persona de administración y la founder. Hoy: GoHighLevel para los DM, una planilla por closer y una planilla de cobros. Airtable recién creado, en plan Free, en una cuenta del negocio.
 
 ---
 
 # CRM de Cliente · Estudio Norte
-Herramienta: Airtable · Módulos: setting, agendas, ventas y cobros, clientes, equipo · Punto de partida: planillas + export de GoHighLevel
+Herramienta: Airtable (Free) · Módulos: setting, agendas, ventas y cobros, clientes, equipo · Punto de partida: planillas + export de GoHighLevel
+
+## Resumen en una página
+
+**El núcleo**
+```
+📲 Setting diario (2 setters)      📇 Leads (desde GoHighLevel)
+☎️ Oportunidades ──< 💰 Deals + Reservas ──< 🗓️ Cuotas programadas ──1:1── 💵 Cuotas cobradas
+                           └── 👥 Clientes          👨🏻‍💻 Equipo (vinculado en todo)
+```
+**Qué cambia:** las planillas de cada closer pasan a Oportunidades y Deals · los cobros salen de la planilla y se dividen en Deals (reserva, pago completo, cuota 1) y Cuotas (2 a 4, una fila por cuota) · los setters reportan sus cuatro números por formulario cada día · closers, setters y coaches pasan a ser una tabla de Equipo.
+
+**Los números que prueban el diseño (en tu copia):** un cierre en 4 cuotas da facturación 2.600 y cash 650 · una reserva da facturación vacía · el cobrado del mes = cash nuevo + cash de cuotas, y no coincide con lo facturado.
+
+**Decisiones abiertas (la founder):** comisión sobre cobrado o vendido · quién suspende el acceso y a los cuántos días · comisión del upsell al mastermind.
+
+**Esta semana:** 1) armar Equipo, Oportunidades y Deals con 10 registros de prueba · 2) formulario del setting diario · 3) pasar las cuotas abiertas a Cuotas programadas.
+
+**Free:** hoy alcanza (unos 450 registros proyectados al cuarto mes). Cuotas programadas, alta de clientes y Finanzas se hacen a mano desde vistas de control (unos 40 minutos por semana). Revisar el plan cuando la proyección pase los 800 registros.
+
+¿Va este resumen? Con el OK, bajo al detalle.
+
+---
 
 ## 0. Qué queda, qué cambia, qué se suma
 
@@ -20,7 +42,8 @@ Herramienta: Airtable · Módulos: setting, agendas, ventas y cobros, clientes, 
 ## 1. Mapa de módulos y tablas
 
 ```
-📲 Leads ──< ☎️ Oportunidades ──< 💰 Deals + Reservas ──< 🗓️ Cuotas programadas ──1:1── 💵 Cuotas cobradas
+📲 Setting diario (un setter, un día)
+📇 Leads ──< ☎️ Oportunidades ──< 💰 Deals + Reservas ──< 🗓️ Cuotas programadas ──1:1── 💵 Cuotas cobradas
                                          └── 👥 Clientes ──< 🗣️ Sesiones · 🤩 Onboarding
 🛒 Ventas directas
 Deals · Cuotas cobradas · Ventas directas ──> 🪙 Finanzas ──> 🏦 Cuentas
@@ -29,7 +52,8 @@ Deals · Cuotas cobradas · Ventas directas ──> 🪙 Finanzas ──> 🏦 C
 
 | Tabla | Una fila = |
 |---|---|
-| Leads | una persona que respondió un DM o comentó |
+| Setting diario | un setter en un día (contactados, conversaciones, calificados, agendados) |
+| Leads | una persona que respondió un DM o comentó (opcional; acá se lleva porque GoHighLevel la exporta) |
 | Oportunidades | una llamada de venta agendada (con su reagenda) |
 | Deals + Reservas | una reserva, un cierre o un upsell |
 | Cuotas programadas | una cuota que se espera (de la 2ª a la 4ª) |
@@ -68,6 +92,8 @@ Deals · Cuotas cobradas · Ventas directas ──> 🪙 Finanzas ──> 🏦 C
 **Renovación al mastermind:** Apto (desde 45 días antes del fin, si la salud es Buena o mejor) · Ofrecida · Renovó · No renovó.
 
 ## 3. Campos por tabla (los que cambian algo; el resto, estándar)
+
+**Setting diario** (formulario al cierre del día): Setter (vínculo) · Fecha · Contactados · Conversaciones · Calificados · Agendados con closer · Seguimientos · Energía y bloqueos · Tasa de calificación y de agenda (fórmulas) · Clave persona | mes.
 
 **Leads**: Nombre · Instagram · WhatsApp · Canal de entrada (Inbound IG · Outbound · Anuncio DM · Referido · Sin canal) · Setter (vínculo → Equipo, solo activos) · Estado de setting · Calificación del setter (Cumple · No cumple + motivo) · Próximo seguimiento · Notas para el closer · ID de GoHighLevel.
 
@@ -137,6 +163,8 @@ Pesos argentinos y mexicanos: monto real en el bloque financiero; USD con el tip
 
 ## 6. Alertas y esqueleto de cuota vencida
 
+> Plazos orientativos de RealOps™: ajustalos con la founder.
+
 - Lead nuevo sin contactar en 24 h → setter; si el setter está inactivo, coordinación.
 - Oportunidad sin closer 24 h antes de la llamada → setter.
 - Pago cargado sin acreditar en 48 h → administración.
@@ -150,12 +178,16 @@ Pesos argentinos y mexicanos: monto real en el bloque financiero; USD con el tip
 - Administración acredita todos los días a las 10.
 - Cuando alguien se va: inactivo en Equipo el mismo día y se reasignan sus leads, oportunidades y clientes.
 
-## 8. Lo que se automatiza después
+## 8. Lo que se automatiza después (y qué se hace a mano mientras esté en Free)
 
-- Cierre en cuotas → crear las Cuotas programadas.
-- Deal o cuota → movimientos en Finanzas (uno por método).
-- Cierre acreditado → alta en Clientes y aviso al coach.
-- Stripe del taller → Ventas directas.
+| Automatización | Mientras esté en Free |
+|---|---|
+| Cierre en cuotas → crear las Cuotas programadas | Vista "Cierres en cuotas sin cuotas programadas": administración duplica y ajusta (1 minuto por cuota) |
+| Deal o cuota → movimientos en Finanzas (uno por método) | Finanzas solo para egresos; ingresos desde vistas de Deals y Cuotas cobradas por mes y método |
+| Cierre acreditado → alta en Clientes y aviso al coach | Vista "Acreditados sin cliente" |
+| Stripe del taller → Ventas directas | Importación de CSV de Stripe una vez por semana |
+
+**Cuándo pagar (criterio orientativo):** si la proyección pasa el 80 % de los registros del plan, si hacen falta más de 5 editores o si lo manual supera 2 horas por semana. Hoy no pasa ninguno. Límites relevados el 12/10/2026: verificá los de hoy.
 
 ## Decisiones del negocio que la base no resuelve
 

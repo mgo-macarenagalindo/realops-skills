@@ -142,6 +142,7 @@ No hubo: la oferta, el precio fuera de la página y la marca vinieron confirmado
 - Sin menú, sin footer con redes. Todo lo clickeable lleva al calendario.
 - El calendario aparece dos veces (hero y final); el botón del hero en el celular hace scroll al calendario.
 - Testimonios en video: subidos a la biblioteca de medios del constructor o a un servicio que dé un link directo, para que se reproduzcan sin sacar a la persona de la página.
+- **Medición:** Microsoft Clarity (grabaciones y mapas de calor) y Google Analytics con el evento "llamada agendada"; los UTM del anuncio pasan al calendario. La instalación, con Revisor de Landing y Publicación.
 - **Momentos de movimiento (dos, no más):** los 3 pasos del mecanismo aparecen de a uno al hacer scroll; los números del paso grande "cuentan" al entrar en pantalla. El Constructor los busca en 21st.dev (categorías *Steppers* o *Timelines*).
 
 ---

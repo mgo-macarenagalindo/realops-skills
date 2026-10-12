@@ -51,6 +51,13 @@ Cuando varios closers usan la misma cuenta de videollamadas o la misma grabadora
 
 En los dos casos, el prompt recibe como datos de entrada el ID de la llamada y el closer **del CRM**, no los adivina de la transcripción (en una cuenta compartida, el nombre que figura en la grabación puede ser el de otro).
 
+### Dónde se guardan los documentos (nunca un [PENDIENTE])
+
+Los informes van a una carpeta **a nombre de una cuenta del negocio**, nunca de una persona. Si esa carpeta no existe o es de alguien que no está, no la dejes como hueco: escribí el **paso 0** con todo lo necesario para crearla y un plan B para no frenar la automatización.
+
+- **Paso 0 · Carpeta:** nombre ("Informes de venta"), dónde (Drive de la cuenta del negocio, o unidad compartida si la tienen), quién la crea (el founder o quien administra las cuentas) y con qué fecha, y permisos (closers: lector solo de la carpeta; coordinación y founder: editor). La cuenta conectada a la automatización es la del negocio.
+- **Plan B mientras no existe** (criterio orientativo): el paso de IA escribe igual los campos en la base y el informe completo en un campo de texto largo del registro (`Informe (texto)`). El aviso lleva el link al registro en vez del link al documento. Cuando la carpeta existe, se activa el paso de crear documento y no cambia nada más.
+
 ### Paso 3 · Mapeo de salidas
 
 Tabla de campo de salida → marcador del documento → campo de la base → ¿va al aviso corto?
@@ -58,6 +65,11 @@ Tabla de campo de salida → marcador del documento → campo de la base → ¿v
 ### Paso 4 · El aviso corto
 
 Va por **el canal que ya usa el equipo**: mail, Slack, Discord, un grupo de WhatsApp o un comentario en el registro del CRM. **Máximo 4 líneas + el link** al documento completo. Los avisos tienen límite de caracteres (en Discord, si se pasa, el paso falla entero; en un mail, el asunto tiene que decir de qué llamada es). Si hay casos que requieren otro mensaje (renovación, cliente en riesgo), se separan con rutas.
+
+**Si el equipo vive en WhatsApp** (criterio orientativo, para no dejarlo como pregunta abierta):
+- **Por defecto, mail** (o el canal que ya tengan conectado): no suma herramientas ni costo, y deja registro. Se le avisa al equipo que los informes llegan por ahí.
+- **Al grupo de WhatsApp, no:** ninguna automatización escribe de forma oficial en un grupo, y los datos de un lead no deberían quedar en un chat donde está todo el equipo.
+- **WhatsApp individual a cada closer** solo si se cumple una de estas: después de 2 semanas los avisos por mail no se leen (el closer llega a la llamada de seguimiento sin haber abierto el informe), o el founder lo pide. Requiere sumar un proveedor de la API oficial de WhatsApp Business (con número del negocio, plantilla aprobada y costo por mensaje) o un conector equivalente en Zapier, Make o n8n. Presentá el costo y las ventajas y que decida el founder; mientras tanto sigue el mail.
 
 ### Paso 5 · Prueba
 

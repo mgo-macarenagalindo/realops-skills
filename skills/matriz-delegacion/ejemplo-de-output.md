@@ -79,7 +79,7 @@ Dentro de cada semana, prioridad A (lo que más horas libera con menos riesgo) p
 
 ## Supuestos a validar
 
-Ninguno: el registro es de una semana completa, anotado al terminar cada bloque. Si hubiera sido parcial, acá irían las horas estimadas como rango ("1 a 3 veces por semana = 0,5 a 1,5 h"), con "Supuesto a validar con <rol>". Y si el registro hubiera cubierto menos de la mitad del rol, la skill habría ofrecido simular el resto de la semana con el copiloto, en un bloque "(simulado)" que no entra en el pedido.
+Ninguno: el registro es de una semana completa, anotado al terminar cada bloque. Si hubiera sido parcial, acá irían las horas estimadas como rango ("1 a 3 veces por semana = 0,5 a 1,5 h"): el piso, lo que se vio en el material; el máximo, una referencia orientativa rotulada como tal; todo con "Supuesto a validar con <rol>". Y si el registro hubiera cubierto menos de la mitad del rol, la skill habría ofrecido simular el resto de la semana con el copiloto (por defecto, la versión corta con los 5 bloques más grandes), en un bloque "(simulado)" que no entra en el pedido.
 
 ---
 

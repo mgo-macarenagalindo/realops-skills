@@ -1,6 +1,8 @@
 # Ejemplo de output · Script de Ventas con Founders
 
-> Datos ficticios. Sofía Benítez es operativa estratégica y ofreció diagnósticos sin cargo en sus redes. Le respondió Martín, dueño de "Guitarra en 90 días", un programa online de USD 900 (pago único o 3 cuotas) que vende por llamada, con un setter y él mismo cerrando. Su mensaje: "estoy tapado de llamadas y no sé si me conviene contratar un closer". Sofía todavía no tiene precio cerrado: la skill elige el **script C** (dos llamadas). Primero el mensaje de setting que usó, después la llamada 1 y el role-play. Las respuestas de Sofía en el role-play son de ella: Claude esperó cada una.
+> Datos ficticios. Dos ejemplos: primero el script C (sin precio) y, al final, el script B (con precio, venta en una llamada).
+>
+> Sofía Benítez es operativa estratégica y ofreció diagnósticos sin cargo en sus redes. Le respondió Martín, dueño de "Guitarra en 90 días", un programa online de USD 900 (pago único o 3 cuotas) que vende por llamada, con un setter y él mismo cerrando. Su mensaje: "estoy tapado de llamadas y no sé si me conviene contratar un closer". Sofía todavía no tiene precio cerrado: la skill elige el **script C** (dos llamadas). Primero el mensaje de setting que usó, después la llamada 1 y el role-play. Las respuestas de Sofía en el role-play son de ella: Claude esperó cada una.
 
 ---
 
@@ -27,11 +29,11 @@ Solo lo que Martín dijo o es público:
 
 ## Los dolores probables (hipótesis → pregunta para que lo diga él)
 
-| Dolor probable (avatar B2B) | Por qué lo sospechamos | Pregunta |
+| # · Dolor Mortal probable | Por qué lo sospechamos | Pregunta |
 |---|---|---|
-| Todo depende de él | Cierra él todas las llamadas | "Si te vas dos semanas, ¿qué se cae primero?" |
-| Datos que no se miran | "La mitad no compra", sin saber por qué | "De las 15, ¿cuántas son de gente que no podía comprar? ¿Cuántas no vienen?" |
-| No puede crecer sin romperse | Quiere sumar un closer para crecer | "Si mañana duplicás las agendas, ¿quién las atiende y qué se rompe?" |
+| 4 · Roles difusos (todo depende de él) | Cierra él todas las llamadas | "Si te vas dos semanas, ¿qué se cae primero?" |
+| 3 · Fuga de datos y métricas | "La mitad no compra", sin saber por qué | "De las 15, ¿cuántas son de gente que no podía comprar? ¿Cuántas no vienen?" |
+| 5 · Cultura del sobreesfuerzo (no puede crecer sin romperse) | Quiere sumar un closer para crecer | "Si mañana duplicás las agendas, ¿quién las atiende y qué se rompe?" |
 
 ## El script
 
@@ -99,3 +101,59 @@ Llamada 2 el **lunes 20/10 a las 18**, 20 minutos.
 | Preguntas de negocio | 4 de 5 | Llevá escrita la de "¿cuánto está cobrado?": es la que más te cuesta |
 | Calma y autoridad | 3 de 5 | Sacá "veo si te puedo ayudar" del encuadre; practicalo en voz alta tres veces |
 | Cierre y agenda de la llamada 2 | 2 → 4 de 5 | La segunda vez resumiste y pediste día y hora. Hacelo siempre antes de cortar |
+
+---
+
+# Script B · Llamada de venta (una sola llamada) · Escuela de Cerámica Online · martes 21/10, 16:00 · 50 minutos
+
+> Datos ficticios. Tres meses después, Sofía ya tiene oferta y precio: **"Operación en orden", proyecto de 3 meses en 3 fases (diagnóstico, implementación, optimización), USD 1.800 en 3 pagos de 600, el primero al arrancar.** Ya lo vendió dos veces a negocios parecidos. Le escribió Lorena, dueña de una escuela de cerámica online con 4 personas en el equipo: "cada cierre de mes es un parto, no sé cuánto entró". Como la oferta es clara y el proyecto se parece a los anteriores, la skill elige el **script B**. Extracto: los bloques clave y el role-play del precio.
+
+## Los dolores probables
+
+| # · Dolor Mortal | Lo que dijo | Pregunta para que lo diga ella |
+|---|---|---|
+| 3 · Fuga de datos y métricas | "No sé cuánto entró" | "¿El número que mirás a fin de mes es lo vendido o lo cobrado?" |
+| 6 · Tareas manuales sin automatizar | "Cada cierre de mes es un parto" | "¿Quién arma el cierre, con qué y cuántas horas le lleva?" |
+
+## El script (bloques clave)
+
+| # | Bloque | Qué decís o preguntás |
+|---|---|---|
+| 2 | Encuadre | "La idea es entender cómo funciona hoy la escuela y ver si lo mío te sirve. Si te sirve, te cuento cómo trabajo y cuánto sale. Si no, te lo digo y te dejo por dónde empezar. ¿Te parece?" |
+| 3 | Direccionamiento | "¿Qué te hizo escribirme justo este mes?" |
+| 6 | Consecuencias | "¿Y eso cómo le pega a la escuela? ¿Y a vos?" |
+| 8 | Recapitulación | "Entonces: querés saber cuánto entra sin esperar al cierre, te frena que todo está en tres planillas, y eso te cuesta [sus palabras]. ¿Es así?" |
+| 10 | Costo de no actuar | "Si en seis meses seguís igual, ¿qué pasa?" |
+| 13 | Presentación (3 fases, cada una atada a lo que dijo) | "Me dijiste 'no sé cuánto entró': en la fase 2 queda un tablero con vendido contra cobrado. Me dijiste 'el cierre es un parto': el cierre sale de la base, no de tres planillas." |
+| 16 | Precio | "La inversión es USD 1.800, en 3 pagos de 600; el primero cuando arrancamos." Y silencio. |
+| 17 | Objeciones | Clarifico → empatizo → direcciono |
+
+## Role-play · el precio
+
+**Claude (como Lorena):** Mmm. Es bastante. ¿No hay algo más chico?
+
+*(Claude espera.)*
+
+**Sofía:** Sí, entiendo, igual si te sirve te lo puedo dejar en 1.500 si arrancamos esta semana…
+
+**Devolución.**
+- ⚠️ Bajaste el precio en vivo sin que ella lo pidiera de verdad. Eso le dice que el precio no es el precio, y no está en tu oferta escrita.
+- ✏️ Reescrita (clarifico → empatizo → direcciono): **"¿Bastante comparado con qué? … Tiene sentido mirarlo. Me dijiste que el cierre te lleva dos días por mes. ¿Querés que veamos qué parte del proyecto empieza a devolverte esos días?"** Y si de verdad necesita algo más chico: "Puedo achicar el alcance, no el precio: la fase 1 sola, el diagnóstico, con precio cerrado."
+
+**Claude (como Lorena):** Ok… ¿y cuándo arrancaríamos?
+
+*(Claude espera.)*
+
+**Sofía:** El lunes 27 te llega el cuestionario y el jueves 30 a las 17 tenemos la primera reunión. ¿Te sirve?
+
+**Devolución.**
+- ✅ Próximo paso con día y hora, sin volver a explicar el precio.
+
+## Puntaje
+
+| Qué | Puntaje | Para la próxima |
+|---|---|---|
+| Preguntas de negocio | 4 de 5 | La de vendido contra cobrado te salió natural |
+| Calma y autoridad | 3 de 5 | El silencio después del número: contá hasta cinco antes de hablar |
+| Cómo pasó el precio | 2 → 4 de 5 | La segunda vez no lo tocaste y fuiste al arranque concreto |
+

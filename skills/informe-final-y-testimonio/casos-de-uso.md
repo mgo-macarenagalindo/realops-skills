@@ -44,8 +44,8 @@ Cuatro situaciones donde esta skill convierte un proyecto terminado en un caso d
 
 **La situación.** Hiciste el proyecto con el caso práctico del programa, como si fueras consultor externo. No hubo cliente, ni encuesta, ni "después" real.
 
-**Qué le pasás.** La propuesta que armaste, el diagnóstico del caso y tu copia de la base, si construiste algo ahí.
+**Qué le pasás.** La propuesta que armaste, el diagnóstico del caso y tu copia de la base. Si todavía no construiste nada ahí, la skill te guía para construir al menos una vista antes de cerrar (por ejemplo, "Avisos para hoy" en las cuotas vencidas) y contar: funciona con el plan gratis de Airtable o, si no lo usás, con una planilla de Google Sheets.
 
-**Qué te devuelve.** El informe completo en modo práctica: el antes con los números del caso; el después medido en tu copia de la base o calculado aplicando la regla nueva a los mismos datos (mostrando qué habría cambiado, no solo que la regla existe), y lo que depende del tiempo como meta, aparte y con "Supuesto a validar con <rol>". Suma las fricciones de adopción de cada rol, simuladas con el copiloto y rotuladas (sin puntajes inventados), y el testimonio como apéndice de una línea: en un caso práctico no se inventa.
+**Qué te devuelve.** El informe completo en modo práctica: el antes con los números del caso; el después medido en tu copia de la base (al menos una fila "medido en práctica") o calculado aplicando la regla nueva a los mismos datos (mostrando qué habría cambiado, no solo que la regla existe), y lo que depende del tiempo como meta, aparte y con "Supuesto a validar con <rol>". Suma las fricciones de adopción de cada rol, simuladas con el copiloto y rotuladas (sin puntajes inventados), y el testimonio como apéndice de una línea: en un caso práctico no se inventa.
 
 **Por qué sirve.** Sale una pieza de portafolio honesta y entera, no una plantilla llena de huecos.

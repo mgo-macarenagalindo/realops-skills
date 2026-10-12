@@ -1,6 +1,6 @@
 ---
 name: auditoria-operativa-infonegocio
-description: Auditoría Operativa de Infonegocio (RealOps™). Diagnostica la operación de un infonegocio (programas online, membresías, mentorías, high ticket con setters y closers) y devuelve dos piezas. 1) El Mapa de Diagnóstico Operativo, de trabajo: de 6 a 8 cuellos de botella con evidencia, catálogo de 10 patrones, tabla por closer que separa el efecto del lead, matriz impacto por esfuerzo, plan de prioridades, bloqueantes y los 3 primeros movimientos. 2) El Informe de Diagnóstico Operativo para entregar al founder, con la estructura de los templates de RealOps™: resumen ejecutivo, semáforo de los 6 dolores del backstage, cuellos con solución, radiografía por área, techo operativo, plan por prioridades con estado y bloqueante, cronograma, tareas del equipo y nota final. Usala cuando pidas una auditoría o un diagnóstico operativo, arranques con un negocio nuevo, necesites saber qué está roto y por dónde empezar, o tengas que presentarle el diagnóstico al founder.
+description: Auditoría Operativa de Infonegocio (RealOps™). Diagnostica la operación de un infonegocio (programas, membresías, mentorías, high ticket con setters y closers) y devuelve dos piezas. 1) El Mapa de Diagnóstico Operativo, de trabajo: 6 a 8 cuellos de botella con evidencia, catálogo de 10 patrones, tabla por closer que separa el efecto del lead, matriz impacto por esfuerzo, plan de prioridades, bloqueantes y los 3 primeros movimientos. 2) El Informe de Diagnóstico Operativo para entregar al founder, con la estructura de RealOps™: resumen ejecutivo, semáforo de los 6 dolores del backstage con los críticos ordenados por plata, los 6 cuellos que más pesan con su solución, radiografía por área, techo operativo, plan de 6 prioridades con estado y bloqueante, cronograma, tareas del equipo y nota final. Usala cuando pidas una auditoría o diagnóstico operativo, arranques con un negocio nuevo, necesites saber qué está roto y por dónde empezar, o tengas que presentarle el diagnóstico al founder.
 ---
 
 # Auditoría Operativa de Infonegocio
@@ -51,7 +51,7 @@ Si la persona ya te pasó información, ordenala vos y pedí solo lo que falte.
 "No lo sé" es una respuesta normal. No frenes el diagnóstico:
 
 1. Hacé 2 o 3 preguntas más fáciles. Ejemplo: si no sabe cuánto factura, "¿cuántas ventas hubo el mes pasado y a qué precio?"; si no sabe si hay herramientas sin uso, "¿qué débitos automáticos aparecen en la tarjeta del negocio?".
-2. Mostrá un ejemplo de cómo se ve el dato en otro infonegocio ("en una mentoría de 6 meses, lo típico es que entre el 70 y el 80 % de lo vendido en el mes").
+2. Mostrá un ejemplo de cómo se ve el dato en otro infonegocio ("en una mentoría de 6 meses, lo típico es que entre el 70 y el 80 % de lo vendido en el mes"; referencia orientativa, no es un dato del negocio).
 3. Si igual no sale, separá:
    - **Números:** nunca se suponen. Van como **"sin dato"**, y que falte también es un hallazgo.
    - **Contexto** (quién decide, cómo se reparte el trabajo, qué se prometió): podés proponer un supuesto marcado **[SUPUESTO: …, confirmalo con <rol>]**. El supuesto es tuyo, no de la persona: nunca lo escribas como hecho.
@@ -86,17 +86,45 @@ Si la persona ya te pasó información, ordenala vos y pedí solo lo que falte.
    10. **Incentivos del equipo desalineados**: lo que se paga premia otra cosa que lo que el negocio necesita (bono por agenda y no por venta o por llamada calificada, comisión sobre lo vendido cuando el acuerdo dice lo cobrado, metas que empujan a descontar).
    Si algo no entra en ninguno, etiquetalo como "Cuello específico de este negocio". No lo fuerces. Un cuello puede tener dos patrones: el principal va primero.
 5. **Puntuá cada cuello** en impacto y esfuerzo (Alto / Medio / Bajo), con una línea de por qué.
-6. **Elegí los cuellos del cuerpo: entre 6 y 8.** Si encontraste más, los de menor impacto van al **Anexo · Otros hallazgos**, con una línea de evidencia cada uno. Un mapa de 12 cuellos no se lee; uno de 7 se decide. Si dos hallazgos tienen la misma causa (por ejemplo, la rueda de leads a nombre de alguien que se fue y la clave pública en Notion), juntalos en un solo cuello.
+6. **Elegí los cuellos del cuerpo: entre 6 y 8** (tope orientativo). Si encontraste más, los de menor impacto van al **Anexo · Otros hallazgos**, con una línea de evidencia cada uno. Un mapa de 12 cuellos no se lee; uno de 7 se decide. Si dos hallazgos tienen la misma causa (por ejemplo, la rueda de leads a nombre de alguien que se fue y la clave pública en Notion), juntalos en un solo cuello.
 7. **Armá la matriz** con los cuellos del cuerpo.
-8. **Armá el plan de prioridades** usando como esqueleto estas seis, **reordenadas según la matriz**, no según la lista:
+8. **Armá el plan de prioridades** con **estas seis, siempre seis** (son las del Diagnóstico Operativo de RealOps™; si un template trae siete vinculadas a módulos del programa, se usan estas seis sin módulos), **reordenadas según la matriz**, no según la lista:
    1. Comunicación interna, roles y reporte
    2. CRM comercial y tablero de ventas
    3. Gestión financiera (facturado contra cobrado, cuotas, comisiones)
    4. Sistema de servicio y onboarding del cliente (renovaciones incluidas)
    5. Gestión del trabajo centralizada
    6. Documentación de procesos (SOPs)
+   Si un tema no entra en ninguna (por ejemplo, la pauta o los accesos), va adentro de la prioridad más cercana: accesos en la 1, atribución en la 2. No se agrega una séptima.
 9. **Separá lo que depende de otros**: por área (dirección, servicio, comercial y marketing, administración), entre 3 y 7 tareas concretas por área. Son los bloqueantes y van explícitos.
 10. **Cerrá con 3 movimientos para esta semana**, concretos. "Mejorar la comunicación" no es un movimiento; "crear el canal #ventas-cerradas y pedir que cada cierre se reporte ahí con monto y cuotas" sí.
+
+## Los 6 dolores y el semáforo
+
+Los **6 Dolores Mortales del Backstage** se numeran **siempre** como en el Cuestionario de Diagnóstico Operativo, que es la numeración oficial de RealOps™:
+
+| # | Dolor |
+|---|---|
+| 1 | Reuniones eternas e ineficientes |
+| 2 | Información dispersa |
+| 3 | Fuga de datos y métricas |
+| 4 | Roles difusos |
+| 5 | Cultura del sobreesfuerzo |
+| 6 | Tareas manuales sin automatizar |
+
+Algunas versiones del template de Diagnóstico Operativo traen el semáforo con #2 Roles difusos y #4 Información dispersa. No los copies así: pasá **por nombre** y usá esta numeración en el semáforo, en cada cuello ("Dolor del backstage") y en la tabla final "Cómo se conecta todo".
+
+**Criterio del semáforo** (el mismo del Cuestionario de Diagnóstico por Rol):
+- **CRÍTICO:** lo muestran 3 fuentes o roles o más (umbral orientativo), **o** hay un número que muestra impacto (horas, plata, clientes), **o** frena una venta, un cobro o un acceso.
+- **MODERADO:** aparece en 1 o 2 fuentes, o hay proceso y se cumple a medias.
+- **BAJO:** funciona y nada lo contradice.
+- **SIN EVIDENCIA:** no hay con qué evaluarlo. Se dice, no se pinta.
+
+**Si casi todo sale CRÍTICO, el criterio no se afloja: se ordenan los críticos del 1 al N por impacto en plata.**
+1. Impacto en plata = la plata por mes que ese dolor traba o hace perder, con el número del mapa: cobros trabados, plata pagada de más, pauta que no vende, ventas frenadas. Se suma lo de todos los cuellos vinculados a ese dolor (cada cuello se cuenta en su dolor principal, para no sumarlo dos veces).
+2. Los críticos con número de plata van primero, de mayor a menor. La plata **confirmada** (cuotas vencidas, comisiones pagadas de más, pauta con cero ventas) pesa antes que la plata **sin rastrear** (ventas sin cobro identificado: pueden haber entrado). Lo que solo "no se mide" no suma.
+3. Los críticos sin número de plata van después: primero el que frena plata (venta, cobro o pago), después un acceso, después horas. Si empatan, el que el founder nombra como problema. *Criterio orientativo.*
+4. El orden de los críticos es un insumo de la matriz, no la reemplaza: si el CRÍTICO 1 es de esfuerzo alto, el plan puede arrancar por un CRÍTICO 2 de esfuerzo bajo, y el informe lo explica en una línea.
 
 ## Reglas que no negociás
 
@@ -143,6 +171,7 @@ Ofrecé: "¿Armamos el **Informe de Diagnóstico Operativo** para entregarle al 
 1. Leé `references/informe-founder.md` y seguí esa estructura, sección por sección.
 2. Antes de escribirlo, pedí lo que el informe necesita y el mapa no tiene: nombre de quien lo firma y su rol, período del servicio o plazo del plan (por ejemplo, 90 días), fecha de entrega y, si las hay, fechas ya acordadas. Si no las tiene, usá [SUPUESTO: plan a 90 días desde el DD/MM, confirmalo con el founder] y seguí.
 3. El informe no repite el mapa: lo traduce. Sin comentarios internos, sin lenguaje crudo, con las citas atribuidas al rol y no a la persona cuando el documento va a circular por el equipo.
+4. **Largo del informe:** los **6 cuellos de mayor impacto** van con su tabla completa; los demás cuellos del mapa van en **"Otros cuellos detectados", una línea cada uno** (título, dolor y por qué espera). El plan lleva **6 prioridades**. El semáforo, con la numeración oficial y los críticos ordenados por plata.
 
 Si los datos son de un negocio real, recordale: antes de compartirlo afuera (Circle, portafolio), sacar el nombre del negocio, de clientes y de personas, y pasar montos a porcentajes o rangos. Si es un caso práctico de RealOps™, se puede mostrar tal cual, rotulado como caso de práctica.
 

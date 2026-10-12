@@ -46,7 +46,7 @@ Cinco situaciones de infonegocio donde los números del mes dejan de contarse a 
 
 **Qué le pasás.** Las dos tablas y cómo se carga cada una.
 
-**Qué te devuelve.** La regla para no contar dos veces la primera cuota (todo el cash sale de Pagos, con un campo que separa "nuevo cierre" de "cuota anterior"), la fila "Sin canal" para que la plata vieja entre al mes, la validación contra el banco y, si la base está en el plan gratuito, el plan B sin automatizaciones.
+**Qué te devuelve.** La regla para no contar dos veces la primera cuota (todo el cash sale de Pagos, con un campo que separa "nuevo cierre" de "cuota anterior"), la fila "Sin canal" para que la plata vieja entre al mes, la validación contra el banco y, si la base está en el plan gratuito, la alternativa manual (pegar las claves una vez por semana desde una vista de control) y cuándo conviene pagar.
 
 **Por qué sirve.** Un tablero que da distinto que el banco pierde la confianza del founder en una semana.
 
@@ -58,6 +58,6 @@ Cinco situaciones de infonegocio donde los números del mes dejan de contarse a 
 
 **Qué le pasás.** Lo que el founder preguntó en la última reunión y la tabla del mes.
 
-**Qué te devuelve.** Para qué sirve cada dato, a quién le sirve y cuándo prende una alarma; tres casos de uso para ese negocio (por ejemplo, la reunión de los lunes con el tablero abierto, la decisión de pauta por costo por venta y la pregunta "¿crecimos o cobramos cuotas?"), y cómo presentárselo: una frase, tres números, una decisión.
+**Qué te devuelve.** Para qué sirve cada dato, a quién le sirve y cuándo prende una alarma (orientativa); el primer nivel de setters, servicio y operaciones si ellos también miran; tres casos de uso para ese negocio (por ejemplo, la reunión de los lunes con el tablero abierto, la decisión de pauta por costo por venta y la pregunta "¿crecimos o cobramos cuotas?"), y cómo presentárselo: una frase, tres números, una decisión.
 
 **Por qué sirve.** El dueño no paga por un tablero: paga por las decisiones que toma con él. Construir, analizar, accionar.

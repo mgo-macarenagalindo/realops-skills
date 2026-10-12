@@ -34,7 +34,7 @@ Cuatro situaciones donde esta skill pone en palabras, en pantalla y en video el 
 
 **Qué le pasás.** Las fichas de cada pieza (del Revisor de Piezas de Portafolio) y las capturas de la copia con datos de prueba.
 
-**Qué te devuelve.** La estructura de la página (portada, una tarjeta por pieza con captura, problema, qué construiste y resultado, cierre), el pedido listo para que Claude la diseñe como artefacto o como archivo HTML, y el chequeo antes de publicarla.
+**Qué te devuelve.** La estructura de la página (portada, una tarjeta por pieza con captura, problema, qué construiste y resultado, cierre), el pedido listo para que Claude la diseñe como artefacto o como archivo HTML, una prueba de 2 minutos para saber si tus capturas se pueden incrustar (y el plan B si no), y el chequeo antes de publicarla.
 
 **Por qué sirve.** Un link con diseño, que se entiende en 10 segundos, abre más conversaciones que tres PDFs adjuntos.
 

@@ -80,6 +80,7 @@ Después de las cinco, preguntá:
 - ¿Cuánto te llevó armar la pieza más grande (el CRM, el diagnóstico)? ¿Cuántas horas por semana le podés dar a un cliente?
 - Ejemplos: diagnóstico 1 semana; base o CRM 2 a 3 semanas; rutina y traspaso 1 semana.
 - Supuesto por defecto: **[SUPUESTO: 6 semanas en total (1 + 2 + 2 + 1), confirmalo con el tiempo que te llevó a vos]**. Nunca pongas semanas sin esa marca si la persona no las dio.
+- **Los plazos se empujan a medir antes de mandar** (ver "Medir los plazos en 5 minutos"): un "Cómo trabajo" con plazo en rango convence más que uno sin plazo.
 
 **Plataforma (no sabe dónde la van a encontrar)**
 - ¿Dónde está hoy la gente que conoce a founders como tu Persona (ex compañeros, comunidades, LinkedIn)? ¿Qué te sale más natural: escribir, hablar en video o conversar uno a uno?
@@ -127,13 +128,27 @@ Después de las cinco, preguntá:
 
 Además, entregá aparte (no va en la página): las respuestas de los Cinco Ps en una tabla, para que la persona las revise cada trimestre, y la lista **"Para confirmar"** si quedó algún supuesto. Antes de mandar el offer doc a un founder, cada [SUPUESTO] se confirma o se cambia por la respuesta real.
 
-**La versión limpia.** El borrador con marcas es para trabajar, no para mandar. Cuando la persona confirme los supuestos (o te diga cuáles no puede confirmar todavía), entregá la **versión limpia**: la misma página sin ninguna marca [SUPUESTO], sin notas al margen, sin la tabla de los Cinco Ps ni "Para confirmar". Lo confirmado pasa como dato. Lo que no se pudo confirmar se saca o se reemplaza por una fórmula honesta que no promete nada ("los plazos se definen en la propuesta, según tu equipo"). Nunca dejes en la versión limpia algo que no se confirmó escrito como hecho.
+### Medir los plazos en 5 minutos (antes de la versión limpia)
+
+Un founder que lee "Cómo trabajo" quiere saber **cuánto tarda**. Por eso, si la persona no confirmó los plazos, **antes de entregar la versión limpia** hacé este ejercicio con ella. No es obligatorio que el doc lleve plazos, pero la skill empuja a medirlos *(criterio orientativo de la biblioteca)*:
+
+1. **Horas por paso en lo que ya hizo.** Para cada paso del método: "¿Cuántas horas te llevó en el caso (o en tu trabajo)?" Si no lo midió, que lo reconstruya: fechas de creación y última edición de sus archivos, el historial del documento o de la base, cuántas tardes o fines de semana le dedicó.
+2. **Ajuste por negocio real** *(orientativo)*: en un negocio real se suma relevar al equipo y esperar decisiones del founder. Multiplicá las horas por **1,5 a 2**.
+3. **Horas por semana que le puede dar a un cliente.** Total ajustado ÷ horas por semana = semanas. Redondeá hacia arriba y escribilo como **rango** ("entre 6 y 8 semanas"), nunca como un número exacto.
+4. **Que lo confirme.** Si dice que el rango es razonable, pasa a la versión limpia como dato. Si no, el rango queda como supuesto y se usa la fórmula honesta de abajo.
+
+**La versión limpia.** El borrador con marcas es para trabajar, no para mandar. Cuando la persona confirme los supuestos (o te diga cuáles no puede confirmar todavía), entregá la **versión limpia**: la misma página sin ninguna marca [SUPUESTO], sin notas al margen, sin la tabla de los Cinco Ps ni "Para confirmar". Lo confirmado pasa como dato. Lo que no se pudo confirmar se saca o se reemplaza por una fórmula honesta que no promete nada. Nunca dejes en la versión limpia algo que no se confirmó escrito como hecho.
+
+Para los plazos, en este orden de preferencia:
+1. **Plazo confirmado en rango** (lo mejor): "Entre 6 y 8 semanas. El plazo exacto va en la propuesta, según el tamaño de tu equipo." Si se puede, con la semana aproximada de cada paso.
+2. **Sin plazo total, pero con orden y primer hito con fecha** (si midió solo el primer paso): "El diagnóstico te lo entrego en la primera semana; el resto del plazo va en la propuesta, según lo que encontremos."
+3. **Fórmula honesta** (solo si no pudo medir nada): "Los plazos se definen en la propuesta, según tu equipo." En ese caso, decile que es lo primero que conviene medir en su próximo trabajo y dejalo anotado aparte.
 
 ## Al final, siempre
 
 - Hacé el **test de una frase**: "Si alguien de afuera lee tu offer doc, ¿puede decir en una frase qué hacés y para quién?" Proponé que se lo muestre a alguien fuera del programa.
 - Ofrecé dos versiones de la frase "Yo ayudo a": una para la bio y una para decir en voz alta.
-- Si quedaron supuestos, ofrecé: **"Confirmame estos supuestos y te devuelvo la versión limpia, sin marcas, lista para mandar."** Si ya están todos confirmados, entregala directamente.
+- Si quedaron supuestos, ofrecé: **"Confirmame estos supuestos y te devuelvo la versión limpia, sin marcas, lista para mandar."** Si ya están todos confirmados, entregala directamente. Si lo que falta son los plazos, proponé primero el ejercicio "Medir los plazos en 5 minutos".
 - Si va a mostrar casos de un negocio real, recordale la skill Revisor de Piezas de Portafolio.
 
 ## Cómo escribís

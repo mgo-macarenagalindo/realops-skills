@@ -135,7 +135,7 @@ Estado: VENTA
 |---|---|---|---|---|
 | Venta 1 | VENTA · 6 datos | VENTA · 6 datos | — | — |
 | Venta 2 | VENTA · FALTA: objetivo a 6 meses | VENTA · sin objetivo | El handoff real no avisaba que faltaba | Hallazgo del proceso: el closer no lo preguntó en la llamada |
-| Venta 3 | **RESERVA** · no dar accesos | VENTA | El real la mandó como venta | **Hallazgo para el negocio:** es el mismo error que ya pasó dos veces. Revisar si esa persona tiene accesos hoy |
+| Venta 3 | **RESERVA** · no dar accesos | VENTA | El real la mandó como venta | **Hallazgo para el negocio:** es el mismo error que ya pasó dos veces. Chequeo que lo cierra: Coordinación busca a esa persona en la plataforma (2 minutos); si tiene acceso, se pausa hasta que pague el saldo (recomendado, criterio orientativo; aprueba el founder). La skill ya trae la validación que lo evita (título RESERVA) |
 
 Ninguna diferencia quedó sin explicar, así que la skill se da por buena. Si alguna no se hubiera podido explicar, se resolvía antes de compartirla.
 

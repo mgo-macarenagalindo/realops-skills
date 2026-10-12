@@ -46,6 +46,6 @@ Cuatro situaciones donde esta skill convierte a los clientes que ya tenés en m�
 
 **Qué le pasás.** El informe final, tus horas disponibles, tu valor hora (o las tres preguntas para calcularlo) y lo que cobraste por mes en el proyecto.
 
-**Qué te devuelve.** Primero, la conversación para renegociar las condiciones de pago antes de proponer. Después, la propuesta de una página con dos opciones (auditoría mensual u operar el sistema de retención), con el precio calculado con la regla (piso × 1,5, ancla del proyecto, redondeo) y sin variable hasta que los pagos lleguen en fecha.
+**Qué te devuelve.** Primero, la conversación para renegociar las condiciones de pago antes de proponer. Después, la propuesta de una página con dos opciones (auditoría mensual u operar el sistema de retención), con el precio calculado con la regla (piso × 1,5, ancla del proyecto rotulada como orientativa, redondeo) y sin variable hasta que los pagos lleguen en fecha.
 
 **Por qué sirve.** "Seguir dándote una mano" sin alcance ni condiciones es la forma más rápida de trabajar gratis.

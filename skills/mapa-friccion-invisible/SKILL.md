@@ -39,7 +39,7 @@ Preguntá primero si trabaja sobre su negocio, el negocio donde trabaja o un cas
 4. **Costeá cada una:** veces por semana y tiempo total, **sumando lo anotado**. Si te dieron el costo por hora, pasalo a plata.
    - **Lo que el propio registro declara también es dato.** Si una línea dice "todos los días, unas 15 por semana, 5 a 7 min cada una", esa frecuencia y ese tiempo cuentan: mostralos como **rango** (15 × 5 a 7 min = 75 a 105 min por semana), con la etiqueta "declarado en el registro", al lado de lo anotado ("35 min anotados"). No los mezcles en una sola cifra.
    - Lo que no está ni anotado ni declarado en el registro es **"sin dato"**: eso no se estima.
-   - **Si una fricción no tiene minutos pero el costo es obvio** (llamadas de 45 minutos de un closer con leads que no califican, una campaña frenada), sumá la columna opcional **"Costo indirecto a medir"**: qué costo es, cómo se mide y de dónde sale el dato ("llamadas con resultado 'no califica' × duración de la llamada, de la agenda o del CRM"). No pongas un número: es lo que hay que medir la semana que viene. La columna aparece solo si al menos una fricción la necesita.
+   - **Si una fricción no tiene minutos pero el costo es obvio** (llamadas de 45 minutos de un closer con leads que no califican, una campaña frenada), sumá la columna opcional **"Costo indirecto a medir"**: qué costo es, cómo se mide y de dónde sale el dato ("llamadas con resultado 'no califica' × duración de la llamada, de la agenda o del CRM"). No pongas un número: es lo que hay que medir la semana que viene. La columna aparece si dos o más fricciones la necesitan; si es una sola, va como nota debajo de la tabla, así la tabla no crece por una celda.
 5. **Nombrala como la diría el founder**, no con un término técnico. "El lunes de los links perdidos", no "falta de repositorio centralizado de activos". Test: si al leerlo el founder diría "¡eso!", está bien nombrada.
 6. **Indicá el origen** de cada una (tarea repetida, aprobación, búsqueda de información, interrupción). Te va a servir después para elegir la solución.
 7. **No propongas soluciones todavía.** El mapa muestra el costo; las soluciones van en el diagnóstico o en la propuesta. Si la persona las pide, agregalas aparte, al final, como "Próximo paso sugerido", una línea por fricción.
@@ -70,8 +70,22 @@ Otras fricciones detectadas (fuera del top 5): [lista corta, si hay]
 ## Al final, siempre
 
 Ofrecé dos cosas:
-- "¿Querés la versión para mostrarle al founder, en una página, sin la tabla técnica?" (La columna "Costo indirecto a medir" queda en tu versión de trabajo; al founder le llega como "lo que vamos a medir la semana que viene".)
+- "¿Querés la versión para mostrarle al founder, en una página, sin la tabla técnica?" (La columna "Costo indirecto a medir" queda en tu versión de trabajo; al founder le llega como "lo que vamos a medir la semana que viene", con el formato de abajo.)
 - "Con estas fricciones nombradas, el siguiente paso es el Mapa de Diagnóstico Operativo completo (skill Auditoría Operativa de Infonegocio)."
+
+Si la persona pide la versión para el founder, es así (una página, sin tabla):
+
+```
+# Dónde se nos va la semana · [negocio]
+[Una frase: cuántas horas por semana suman las 5 y cuál es la más cara]
+
+1. **[Nombre que reconoce]** · [qué pasa, en una línea] · [frecuencia y costo, en palabras: "todos los días, más de una hora por semana"]
+(… las 5)
+
+**Lo que vamos a medir la semana que viene:** [una línea por cada fricción que tenía "Costo indirecto a medir": qué se mide y de dónde sale]
+```
+
+Sin columna de origen, sin notas de método y sin nombres de nadie. Si solo una fricción necesita "costo indirecto a medir", en tu versión de trabajo va como nota debajo de la tabla, no como columna.
 
 Si los datos son de un negocio real, recordale que antes de compartir el mapa saque nombres de personas (equipo, alumnos, clientes) y datos que identifiquen al negocio.
 

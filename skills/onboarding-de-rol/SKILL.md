@@ -28,7 +28,7 @@ Preguntá si es su negocio, el negocio donde trabaja o un caso práctico del pro
 1. ¿Qué rol entra? ¿Es reemplazo o rol nuevo? Si es reemplazo: ¿se cerró la salida de quien se fue? (Si no sabés, lo tomo como pendiente.)
 2. ¿Existe el descriptor de cargo? (Si no, sugerí armarlo primero con la skill **Descriptor de Cargo por Responsabilidades**, o lo esbozamos en 5 líneas.)
 3. ¿Qué materiales existen hoy? Guion, oferta escrita, video del servicio, grabaciones de llamadas, casos de éxito, SOPs, wiki.
-4. ¿Quién acompaña a la persona nueva? (Un rol que la guíe y evalúe el role-play.)
+4. ¿Quién acompaña a la persona nueva? (Un rol que la guíe y evalúe el role-play.) Si hay dudas sobre quién, lo decido con datos (ver "Quién acompaña").
 5. ¿Qué herramientas va a usar y qué parte de cada una necesita ver?
 6. ¿Cuándo arranca y cuándo tiene que estar atendiendo sola? Si todavía no hay fecha, armo el plan en **días relativos** ("día 1", "día 5 hábil", "3 días hábiles antes del día 1") y dejo `[A DEFINIR: fecha de arranque]`. Cuando haya fecha, se reemplaza y listo.
 
@@ -44,7 +44,28 @@ El orden es:
 
 En el plan, la salida pendiente va como la primera fila de "Antes del día 1", con fecha límite y responsable.
 
+## Quién acompaña (criterio orientativo)
+
+No se elige por antigüedad ni por quién tiene tiempo: **se elige con los datos del KPI del rol**, porque la persona nueva va a copiar lo que vea.
+
+1. **Mirá los resultados de cada candidato** en lo que el rol tiene que lograr (por ejemplo, en setters: cuántas de sus agendas cumplen el criterio de calificación y cuántas terminan en venta), con un dato objetivo y no con un campo que cada uno carga a su manera.
+2. **Si uno lo hace bien en todo, acompaña ese.**
+3. **Si nadie lo hace bien en todo, se parte el acompañamiento:** acompaña en lo que más pesa (las llamadas, la atención) quien tiene mejores resultados, y **coordinación revisa la parte que nadie hace bien** (por ejemplo, la carga de datos) en los días acompañado y solo.
+4. **El criterio único se escribe y se comunica a todo el equipo antes del día 1**, no solo a la persona nueva: si no, aprende el vicio de quien la acompaña.
+
+Esto no se deja como pregunta abierta: el plan sale con la elección hecha y con los datos que la justifican, y el founder la puede cambiar antes del día 1.
+
+## Si el esquema de pago del rol está en duda (criterio orientativo)
+
+El onboarding no se frena por eso, pero **la persona nueva tiene que saber cómo cobra antes del día 1**. Entonces:
+
+- **Proponé el esquema por defecto más prudente:** el que premia lo que el rol tiene que lograr y no la cantidad (por ejemplo, en setters, el bono por agenda **que cumple el criterio objetivo y se presenta**, en lugar de por cualquier agenda). Rotulalo como criterio orientativo y derivá el diseño a **Esquema de Pago y Comisiones**.
+- **Elegí KPIs que sirvan con cualquier esquema** (calidad de lo que entrega, asistencia, ventas de sus agendas): así la revisión a 30 días no depende de la decisión.
+- Va en el plan como **"Decisiones por defecto"**, con fecha límite para que el founder la cambie (antes del día 1). Nunca como pregunta sin respuesta.
+
 ## El plan de 10 días hábiles
+
+> Los plazos (10 días hábiles, revisión a 30 días) y el corte de "2 o más a mejorar" del role-play son **criterio orientativo**: ajustalos al rol y al ritmo del negocio. Lo que no se ajusta es el orden y que nadie atiende sin role-play aprobado.
 
 Adaptalo al rol. La estructura es siempre la misma: **estudiar → escuchar → preguntar → practicar → acompañado → solo.**
 
@@ -96,6 +117,7 @@ Acompaña: [rol] · Arranca: [fecha o A DEFINIR] · Atiende solo desde: [fecha o
 ## Checklist de entrada (tabla: herramienta · cuenta · nivel de acceso · vista · cuándo se da)
 ## Checklist de salida
 ## Revisión a los 30 días (KPIs del descriptor, con el chequeo de que se miden igual para todos)
+## Decisiones por defecto (quién acompaña, esquema de pago u otras que el founder no tomó: qué se eligió · con qué dato · hasta cuándo se puede cambiar)
 ```
 
 ## Al final, siempre
@@ -113,3 +135,4 @@ Castellano rioplatense, con voseo. El plan, en imperativo y con días concretos.
 - No inventás materiales: si falta el guion o los casos de éxito, va en "lo que hay que preparar antes".
 - No das asesoramiento laboral (contratos, impuestos, legislación).
 - No salteás el role-play porque "hay apuro": es lo que protege a los clientes.
+- No dejás decisiones como preguntas abiertas al final: si el founder no decidió algo que el plan necesita, elegís la opción más prudente, la rotulás como criterio orientativo y le ponés fecha para cambiarla.

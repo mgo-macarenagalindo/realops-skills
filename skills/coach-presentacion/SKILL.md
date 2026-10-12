@@ -44,6 +44,7 @@ El después, con el mismo número del antes. "Ahora son 20 minutos y nadie carga
 - **Qué va a cambiar:** el mismo número del bloque 1, dicho como meta o estimación ("las 3 horas por mes de comisiones deberían bajar a unos 20 minutos"), y siempre dicho como estimación.
 - **Cómo lo vamos a medir:** qué se mira y dónde ("cuánto tarda Valeria en liquidar, con el reloj, y cuántos reclamos llegan").
 - **Cuándo:** la fecha concreta en que se mide ("con el cierre del 5 de noviembre") y el compromiso de volver con el número.
+- **Quién lo mide y dónde queda anotado:** por cada número, preguntale a la persona **quién lo puede medir, con qué y si ya existe ese registro** (antes de escribirlo en la presentación, no después). Preferí números que la herramienta ya guarda (la base, el CRM, el historial de pagos) o que ya se anotan (un registro de fricción). Si un número no tiene registro, proponé el más simple para crearlo (una columna de inicio y fin, una línea en el registro de fricción) y rotulalo **[SUPUESTO: lo mide <rol> con <registro>, confirmalo con esa persona]**. Un número que nadie puede medir se cambia por otro o se saca: es mejor presentar dos números medibles que tres de compromiso.
 
 Así no se inventa un resultado y el founder igual sabe qué esperar y cuándo. En un caso práctico, ese es siempre el formato del bloque 3.
 

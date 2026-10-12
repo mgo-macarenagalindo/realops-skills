@@ -1,6 +1,6 @@
 ---
 name: cuestionario-diagnostico-por-rol
-description: Cuestionario de Diagnóstico por Rol (RealOps™). Arma la versión para el equipo del Cuestionario de Diagnóstico Operativo RealOps™: una encuesta corta por rol (setter, closer, CSM o coach, marketing, coordinación o asistente, externos) con una pregunta por cada uno de los 6 Dolores Mortales del Backstage, una de visión y preguntas propias del rol, rotadas según lo que sospecha el founder. Cuando llegan las respuestas, las cruza entre roles (y con la entrevista al founder, si la hiciste) y devuelve el semáforo de los 6 dolores, los cuellos de botella con citas y la radiografía por área, en el formato del Diagnóstico Operativo. Usala cuando arranques un diagnóstico y quieras escuchar al equipo sin llenar la agenda de reuniones, o cuando tengas respuestas de una encuesta interna para leer. Al founder no lo encuesta: para él está la Entrevista Guiada al Founder.
+description: Cuestionario de Diagnóstico por Rol (RealOps™). Arma la versión para el equipo del Cuestionario de Diagnóstico Operativo RealOps™: una encuesta corta por rol (setter, closer, CSM o coach, marketing, coordinación o asistente, externos) con una pregunta por cada uno de los 6 Dolores Mortales del Backstage, una de visión y preguntas propias del rol, rotadas según lo que sospecha el founder. Cuando llegan las respuestas, las cruza entre roles (y con la entrevista al founder, si la hiciste) y devuelve el semáforo de los 6 dolores (críticos ordenados por la plata que traban), los cuellos de botella con citas y la radiografía por área, en el formato del Diagnóstico Operativo. Marca las 10 preguntas innegociables. Usala cuando arranques un diagnóstico y quieras escuchar al equipo sin llenar la agenda de reuniones, o cuando tengas respuestas de una encuesta interna para leer. Al founder no lo encuesta: para él está la Entrevista Guiada al Founder.
 ---
 
 # Cuestionario de Diagnóstico por Rol
@@ -35,6 +35,8 @@ Los 6 dolores, con la numeración del cuestionario:
 | 5 | Cultura del sobreesfuerzo | Horas, trabajo fuera de horario, tareas reactivas, desgaste |
 | 6 | Tareas manuales sin automatizar | Lo repetitivo, las herramientas que se superponen o no se usan |
 
+**Esta es la numeración oficial de RealOps™** y la usás en todo: cuestionario, semáforo, cuellos y lista final. Si el alumno trabaja sobre el template de Diagnóstico Operativo y su semáforo trae otro orden (en una versión aparecen #2 Roles difusos y #4 Información dispersa), pasá los dolores **por nombre, no por número**, y dejá el semáforo con este orden.
+
 En `references/banco-de-preguntas.md` tenés todas las preguntas del cuestionario base reescritas para el equipo, ordenadas por dolor, con su número original. Cargalo cuando tengas que rotar preguntas o cuando el alumno quiera ver de dónde sale cada una.
 
 ## Sobre qué negocio trabajamos
@@ -63,6 +65,8 @@ De a una pregunta. Si la persona dice "no sé", pasá al plan B de esa pregunta 
 
 "No sé" no frena el cuestionario. Primero preguntas guía más chicas, después ejemplos típicos de infonegocio y, si igual no sabe, un supuesto rotulado **[SUPUESTO: …, confirmalo con <rol>]** y seguís. El cuestionario sale completo, sin `[completar]`, y todos los supuestos van juntos al final en la lista **"Para confirmar"**.
 
+Los montos y rangos de la columna "respuestas típicas" son **orientativos**: sirven para destrabar, no son datos del negocio.
+
 | Pregunta | Preguntas guía (de a una) | Respuestas típicas en infonegocio | Si igual no sabe |
 |---|---|---|---|
 | **2 · Qué vende y cómo** | ¿Qué compra la gente: curso, mentoría grupal, 1 a 1, membresía? · ¿Cuánto paga y en cuántas cuotas? · ¿Antes de pagar habla con alguien del equipo? | Mentoría grupal de 3 a 6 meses, US$1.500 a US$5.000, en 2 o 3 cuotas, por llamada (aplicación → setter → closer). O curso de US$100 a US$500 en lanzamiento | [SUPUESTO: high ticket por llamada, con cuotas, confirmalo con el founder]. Las preguntas sirven en los dos modelos |
@@ -74,13 +78,31 @@ En el modo 2, si un rol responde "no sé", **no es un hueco del informe: es un d
 
 ## Modo 1 · Armar el cuestionario
 
-Cada persona responde **10 preguntas, unos 15 a 20 minutos**:
+Cada persona responde **10 preguntas, unos 15 a 20 minutos** (tiempo orientativo: medilo vos con cronómetro):
 
 - **7 comunes, iguales para todos los roles** (para poder comparar): una por cada dolor y una de visión.
 - **3 propias de su rol** (sección 9 del cuestionario base, ampliada).
 - **Opcionales: hasta 2, siempre al final**, nunca en el medio.
 
-**Datos de control** (no cuentan como preguntas): rol (desplegable), horas que trabaja por semana para el negocio (número) y energía con su carga de trabajo del 1 al 10.
+**Datos de control** (no cuentan como preguntas, pero son **obligatorios** en el formulario): rol (desplegable), horas que trabaja por semana para el negocio (número) y energía con su carga de trabajo del 1 al 10. Sin ellos la tabla de números del modo 2 sale vacía.
+
+### Las 10 innegociables
+
+Si el founder pide acortar el cuestionario, o el alumno quiere sacar algo, **estas 10 no se tocan**. Lo único que se puede sacar son las 2 preguntas de rol que rotan y las opcionales.
+
+| # | Innegociable | Por qué |
+|---|---|---|
+| N1 a N6 | Las comunes 1 a 6, **una por dolor** (se puede cambiar la versión por una alternativa del mismo dolor, nunca sacar el dolor) | Sin una pregunta por dolor, el semáforo no se puede llenar |
+| N7 | La común 7 · visión | Es lo que el equipo cambiaría: alimenta la prioridad y la devolución al equipo |
+| N8 | La ★ de su rol | Es la más diagnóstica de cada rol |
+| N9 | Horas por semana (dato de control) | Sin ella no hay tabla de números ni techo operativo |
+| N10 | Energía del 1 al 10 (dato de control) | Es la única señal de desgaste que da cada rol en un número |
+
+Para **externos**, las 5 de su versión corta son todas innegociables.
+
+*Criterio orientativo: la selección sale de lo mínimo que el semáforo y la tabla de números necesitan para llenarse.*
+
+Si rotás la común 5 por la 41 ("apagar incendios", en porcentaje), la columna "fuera de horario" de la tabla de números queda como "no se preguntó (común 5 rotada)": no se completa con otra cosa.
 
 ### Las 7 comunes · una por dolor + visión
 
@@ -160,7 +182,7 @@ Las respuestas van a una planilla o vista que **solo ve quien diagnostica**. Si 
 
 Te pueden llegar respuestas de formulario, transcripciones de 1 a 1, el resumen de la Entrevista Guiada al Founder, o todo junto. Leelas vos: no pidas resúmenes.
 
-**Mínimo para cruzar: tres roles distintos.** Con menos, devolvé lo que dice cada uno y avisá que no hay triangulación.
+**Mínimo para cruzar: tres roles distintos** (umbral orientativo). Con menos, devolvé lo que dice cada uno y avisá que no hay triangulación.
 
 **Si es un ensayo** (respuestas simuladas): el título lo dice, cada cita lleva "(simulada)" y la lista final se rotula "para practicar, no es evidencia". Lo que sí es evidencia del caso (mensajes, registros, la base) se cruza igual y se cita con su fuente.
 
@@ -180,10 +202,18 @@ Cada dolor recibe un estado, con estos criterios (no a ojo):
 
 | Estado | Criterio |
 |---|---|
-| **CRÍTICO** | Lo mencionan 3 roles o más, **o** hay un número que muestra impacto (horas, plata, clientes afectados), **o** frena una venta, un cobro o un acceso |
+| **CRÍTICO** | Lo mencionan 3 roles o más (umbral orientativo), **o** hay un número que muestra impacto (horas, plata, clientes afectados), **o** frena una venta, un cobro o un acceso |
 | **MODERADO** | Lo mencionan 1 o 2 roles, o existe pero funciona a medias (hay proceso, no se cumple) |
 | **BAJO** | Los roles dicen que funciona y nada en los datos lo contradice |
 | **SIN EVIDENCIA** | La pregunta de ese dolor no se hizo o nadie la respondió. Se dice, no se adivina |
+
+**Si casi todo sale CRÍTICO** (pasa seguido en un negocio desordenado), el criterio no se afloja: **se ordenan los críticos del 1 al N por impacto en plata** y la columna "Orden" del semáforo lo muestra.
+
+1. **Impacto en plata** = la plata por mes que ese dolor traba o hace perder, con el número que da la evidencia: cobros trabados, plata pagada de más, pauta que no vende, ventas frenadas. Si sale de una cuenta (por ejemplo, "tengo como 20 en la misma" × el valor de la cuota), mostrá la cuenta y rotulala "estimación desde lo que dijo [rol], verificar en [herramienta]".
+2. **Los críticos con número de plata van primero**, de mayor a menor.
+3. **Los críticos sin número de plata van después**, en este orden: primero el que frena plata (una venta, un cobro o un pago), después el que frena un acceso, después el que se mide en horas (más horas primero). Si dos quedan en el mismo grupo, primero el que mencionan más roles; si empatan, el que el founder nombra como problema. *Criterio orientativo.* El monto que falta va a "Para confirmar".
+
+El orden de los críticos es el que lee la skill Auditoría Operativa de Infonegocio para el plan: el CRÍTICO 1 es lo primero que se ataca, salvo que la matriz impacto × esfuerzo diga otra cosa.
 
 Si tenés la entrevista al founder, sumá la columna **"Según el founder"**: la diferencia entre lo que él ve y lo que ve el equipo es un hallazgo en sí mismo.
 
@@ -204,6 +234,19 @@ Con el formato del Diagnóstico Operativo, uno por cada problema concreto (no un
 - **Para el techo operativo**: lo que el equipo dice que se rompería primero si se duplicaran las ventas (sale de las preguntas de dolor 4 y 5).
 - **Lo que no se puede afirmar**: si un dato viene de una sola persona, decilo.
 
+**Si la tabla de números sale vacía o casi vacía** (pasa en los ensayos, porque los casos casi no traen horas, y en encuestas donde la gente salteó los números):
+
+1. No la completes. Cada celda vacía dice "sin dato" y, si es un ensayo, lo que sí trae el material (por ejemplo, minutos anotados en un registro de fricción) va con su fuente.
+2. Las **señales sin número** van aparte, rotuladas como señal: mensajes de trabajo enviados de noche, "no doy abasto". Sirven para el semáforo del dolor 5, no para la tabla.
+3. Proponé la **mini-ronda de 3 números**: un mensaje corto a cada rol, un minuto, con la misma promesa de lectura que el cuestionario. "¿Cuántas horas trabajaste para el negocio la semana pasada? ¿Cuántas fueron fuera de tu horario? ¿Tu energía con la carga, del 1 al 10?" Con eso la tabla se llena sin repetir el cuestionario.
+
+**Cómo comprobar el modo 2 con un equipo real** (el ensayo no lo reemplaza):
+
+- Con las primeras **3 respuestas de roles distintos**, corré el cruce aunque falten otras: así ves temprano si alguna pregunta no se entiende (respuestas de una palabra, "no sé" en todos los roles).
+- Revisá que **cada dolor tenga al menos una respuesta con ejemplo concreto**. Si un dolor tiene solo "sí" o "no", esa pregunta se reescribe para la próxima ronda.
+- Revisá que **la tabla de números tenga horas y energía de cada rol**. Si no, mini-ronda.
+- Antes de mandar el informe, chequeá que **ninguna cita de un rol de una sola persona** llegue a la versión para el founder.
+
 ## Formato de salida
 
 En `ejemplo-de-output.md` tenés un cruce completo.
@@ -214,7 +257,8 @@ En `ejemplo-de-output.md` tenés un cruce completo.
 # Cuestionario por rol · [negocio o caso]
 ## Mensaje de envío al equipo (y el de externos, aparte)
 ## Datos de control
-## Las 7 comunes (pregunta · dolor · formato)
+## Las 7 comunes (pregunta · dolor · formato · innegociable)
+## Las 10 innegociables (y qué se puede sacar si piden acortar)
 ## Preguntas por rol (3 cada una + opcionales; externos en versión corta)
 ## Qué sospecha cubre cada pregunta (sospecha · preguntas · roles)
 ## Cómo se carga (formulario 1 equipo con ramificación por rol · formulario 2 externos)
@@ -227,8 +271,8 @@ En `ejemplo-de-output.md` tenés un cruce completo.
 ```
 # Diagnóstico por rol · [negocio o caso] · [n] respuestas de [n] roles
 ## En una frase
-## Los números (rol · horas/sem · fuera de horario · horas manuales · energía 1-10)
-## Semáforo de los 6 Dolores Mortales del Backstage (dolor · estado · evidencia clave · roles · según el founder)
+## Los números (rol · horas/sem · fuera de horario · horas manuales · energía 1-10; señales sin número aparte)
+## Semáforo de los 6 Dolores Mortales del Backstage (# oficial · dolor · estado · orden de los críticos por plata · evidencia clave · roles · según el founder)
 ## Cuellos de botella (nombre · vinculado a · descripción con citas · impacto · pista)
 ## Radiografía por área (funciona · falla · falta)
 ## Cuellos de botella por rol (2 o 3 por rol, con cita)
@@ -236,7 +280,7 @@ En `ejemplo-de-output.md` tenés un cruce completo.
 ## Para el techo operativo
 ## Lo que no se puede afirmar todavía
 ## Para confirmar
-## Para el Diagnóstico Operativo (lista lista para pegar)
+## Para el Diagnóstico Operativo (lista lista para pegar, en el orden de los críticos)
 ```
 
 ## Al final, siempre
@@ -255,7 +299,7 @@ Castellano rioplatense, con voseo. Las preguntas, en tono de curiosidad, no de c
 - No encuestás al founder: para él está la Entrevista Guiada al Founder.
 - No inventás respuestas ni completás huecos. "Sin respuesta" es un dato. La única excepción es el ensayo, rotulado como tal y atado al material del caso.
 - No dejás el cuestionario a medias porque el alumno no sabe algo: usás el plan B y rotulás el supuesto.
-- No sacás un dolor del cuestionario para hacer lugar: cambiás una pregunta por otra del mismo dolor.
+- No sacás un dolor del cuestionario para hacer lugar: cambiás una pregunta por otra del mismo dolor. Y no sacás ninguna de las 10 innegociables.
 - No ponés nombres de personas en el informe: roles.
 - No hacés el plan de acción ni el cronograma: eso es el Diagnóstico Operativo (skill **Auditoría Operativa de Infonegocio**).
 - No usás las respuestas para evaluar a una persona: el cuestionario mira el sistema.

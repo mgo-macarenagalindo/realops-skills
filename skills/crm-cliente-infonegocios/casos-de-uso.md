@@ -10,7 +10,7 @@ Cuatro situaciones de infonegocio donde esta skill te arma el CRM con la estruct
 
 **Qué le pasás.** Los encabezados de cada planilla (o el export), cómo se vende, cómo se paga a cada rol.
 
-**Qué te devuelve.** Leads de setting vinculados a Oportunidades, Deals + Reservas con facturación y cash separados, Equipo con los porcentajes de comisión (nada de nombres en las fórmulas), las dos calificaciones (setter y closer) para medir el filtro del setting, y la tabla "qué queda, qué cambia" para dejar las planillas.
+**Qué te devuelve.** Primero, una versión de una página con el núcleo y las decisiones abiertas. Después, el setting diario de cada setter (contactados, conversaciones, calificados y agendados, por formulario), el detalle por lead si GoHighLevel lo exporta, Oportunidades con el setter vinculado, Deals + Reservas con facturación y cash separados, Equipo con los porcentajes de comisión (nada de nombres en las fórmulas), las dos calificaciones (setter y closer) para medir el filtro del setting, y la tabla "qué queda, qué cambia" para dejar las planillas.
 
 **Por qué sirve.** Una sola fuente de verdad termina la discusión de comisiones y muestra qué setter y qué canal venden. Es la Actividad 12 del programa.
 
@@ -34,9 +34,9 @@ Cuatro situaciones de infonegocio donde esta skill te arma el CRM con la estruct
 
 **Qué le pasás.** Todos los tipos de cobro que tienen (reserva, completo, cuotas, upsell, checkout), las cuentas donde entra la plata y de quién es cada una.
 
-**Qué te devuelve.** Dónde va cada tipo de cobro, los dos bloques de dinero (USD para KPIs, moneda real para conciliar), Cuotas programadas con estado y días de atraso por fórmula, Finanzas generada por automatización (un movimiento por método) y el esqueleto del protocolo de vencida, con la decisión que falta tomar marcada.
+**Qué te devuelve.** Dónde va cada tipo de cobro, los dos bloques de dinero (USD para KPIs, moneda real para conciliar), Cuotas programadas (una fila por cuota, el estándar) con estado y días de atraso por fórmula, Finanzas generada por automatización (un movimiento por método) y el esqueleto del protocolo de vencida, con la decisión que falta tomar marcada. Si la base está en el plan Free, qué se hace a mano en lugar de cada automatización y cuándo conviene pagar.
 
-**Por qué sirve.** Es el dolor número uno de un negocio que vende en cuotas, y ningún CRM genérico lo trae. Es la Actividad 15.
+**Por qué sirve.** Es el dolor más común de un negocio que vende en cuotas, y ningún CRM genérico lo trae. Es la Actividad 15.
 
 ---
 

@@ -99,6 +99,8 @@ D0 a D7 con responsables, segmentos (reserva, compra adicional, referido) y el g
 ### 7. Puntos de control, alertas y encuestas
 Tabla: cuándo · qué se mira · en riesgo si · qué se hace · quién. Incluí micro-objetivo de cada mes, asistencia, impago (con quién lo lleva), encuestas en la cantidad que pide la duración y retrospectiva mensual si es grupal (secciones 4 y 5).
 
+**Las encuestas salen listas para pegar en Google Forms** (o el formulario que use el negocio): el texto de cada pregunta, el tipo de pregunta y la configuración, adaptados a los entregables del servicio. Usá los textos de `references/plantillas-del-journey.md` (sección 4b) y cambiá solo los nombres de los entregables y del objetivo.
+
 ### 8. Offboarding y renovación
 Encuesta final, cierre contra el punto A, renovación o continuidad (solo si existe; si no, decisión del founder; para armar la oferta, skill **Retención, Upsells y LTV**), referidos y testimonio, mail de salida, estado en el CRM (sección 6).
 
@@ -120,9 +122,11 @@ Name,Section/Column,Description,Priority,Día relativo,Responsable,Recurrencia
 - **Section/Column:** "Setup al duplicar" (renombrar, cargar datos del CRM, asignar responsables, recalcular fechas), una sección por fase, "Offboarding y renovación".
 - **Description:** qué se hace, criterio de terminado y el SOP (o "SOP pendiente"). Si depende de una hipótesis, decilo.
 - **Priority:** High · Medium · Low. **Día relativo:** D0, D7, D30 o un rango (D1-D3). **Responsable:** rol, nunca nombre.
-- **Recurrencia:** vacío si es única. Si se repite (seguimiento quincenal, retrospectiva mensual, chequeo semanal de asistencia):
-  - **Hasta 12 repeticiones:** una fila por cada una (D15, D30, D45…), con el número en el nombre ("Seguimiento quincenal 3 de 12"). Así cada una tiene su fecha y su check. Es lo más seguro, porque los importadores de CSV no crean tareas repetitivas.
-  - **Más de 12, o tareas sin fin (chequeo semanal):** una sola fila con la regla en Recurrencia ("cada 7 días desde D7 hasta D180") y la indicación de **configurar la repetición a mano** en el gestor después de importar. Verificá en la ayuda de tu herramienta cómo se configura.
+- **Recurrencia:** vacío si es única. Si se repite (seguimiento quincenal, retrospectiva mensual), el **corte es 6 repeticiones** (*criterio orientativo de RealOps: mantiene la plantilla corta y legible, y 6 cubre 3 meses de quincenales o 6 meses de mensuales*):
+  - **Hasta 6 repeticiones:** una fila por cada una (D30, D60…), con el número en el nombre ("Retrospectiva mensual 3 de 6"). Así cada una tiene su fecha y su check.
+  - **Más de 6:** una sola fila con la regla en Recurrencia ("cada 15 días desde D15 hasta D180 · 12 veces") y en la descripción **"Configurar la repetición en el gestor al importar"**: los importadores de CSV no crean tareas repetitivas. Asana y ClickUp tienen tareas repetitivas; en Notion se hace con una plantilla de la base que se repite. Verificá en la ayuda de tu herramienta cómo se configura hoy.
+  - **Si el gestor no tiene tareas repetitivas** (una planilla, un tablero simple): las primeras 6 filas y una fila `[CHECK] Cargar las repeticiones 7 a 12` el día de la sexta. La plantilla sigue corta y nada se pierde.
+- **Lo que se mira para todos los clientes juntos no va en la plantilla por cliente.** El chequeo semanal de asistencia o de cuotas vencidas es una **rutina del equipo** sobre una vista de la base ("más de 21 días sin asistir"), no una tarea en el proyecto de cada cliente: si no, son 26 tareas por cliente. En la plantilla queda solo la **acción** cuando ese cliente está en riesgo (`[ALERTA]`). La rutina va en "Puntos de control" con su responsable.
 - Textos con comas, entre comillas dobles.
 
 Al importar, el gestor te deja decidir qué hacer con cada columna (Día relativo, Responsable y Recurrencia como campos personalizados).
@@ -141,7 +145,7 @@ En `ejemplo-de-output.md` tenés un journey completo.
 ## 4. Las fases (tabla + reparto en el tiempo + variaciones)
 ## 5. Compromisos del cliente
 ## 6. Onboarding D0 a D7 + guion de la llamada
-## 7. Puntos de control, alertas y encuestas
+## 7. Puntos de control, alertas y encuestas (+ encuestas listas para Google Forms)
 ## 8. Offboarding y renovación
 ## 9. Lo que ve el cliente (mapa visual sin tareas internas)
 ## 10. El mapa en una vista (Mermaid) y tres acciones

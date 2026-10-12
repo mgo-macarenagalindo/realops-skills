@@ -22,7 +22,7 @@ Tres situaciones de infonegocio donde elegir herramientas sin criterio sale caro
 
 **Qué le pasás.** Cuántas ejecuciones reales tienen por mes, qué automatizaciones corren y quién las mantiene.
 
-**Qué te devuelve.** La comparación por ejecuciones reales y por quién lo va a mantener, con la decisión en una línea y el disparador de revisión.
+**Qué te devuelve.** La comparación por ejecuciones reales y por quién lo va a mantener, con la ventaja competitiva de cada opción (Zapier, Make, n8n o lo nativo de cada herramienta), la decisión en una línea y el disparador de revisión.
 
 **Por qué sirve.** La decisión deja de ser "me gusta más esta" y pasa a ser una cuenta.
 
@@ -34,6 +34,6 @@ Tres situaciones de infonegocio donde elegir herramientas sin criterio sale caro
 
 **Qué le pasás.** El material del caso y el diagnóstico que hiciste en la Actividad 1.
 
-**Qué te devuelve.** La pieza completa: stack por función, costo mensual (con precios marcados a verificar), alternativas descartadas, lo que no se cambia y cuándo revisar.
+**Qué te devuelve.** La pieza completa: stack por función, costo mensual con precios verificados y fechados (o rotulados como referencia si no se pudieron verificar), alternativas descartadas, lo que no se cambia y cuándo revisar. Si el caso comparte claves por el chat, te recomienda un gestor de contraseñas por defecto; si usa Airtable gratis, te enseña a estirarlo a mano y te dice cuándo conviene pagar.
 
 **Por qué sirve.** Es la Actividad 4. En una entrevista, poder decir por qué elegiste cada herramienta vale más que saber usarlas todas.

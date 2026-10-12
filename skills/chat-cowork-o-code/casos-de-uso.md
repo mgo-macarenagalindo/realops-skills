@@ -10,7 +10,7 @@ Tres situaciones de infonegocio donde elegir bien la superficie te ahorra horas 
 
 **Qué le pasás.** La lista de tareas y qué tenés instalado.
 
-**Qué te devuelve.** La tabla: el mensaje al founder en el chat; el Zap en Cowork con Chrome guiándote en la pantalla; las 12 llamadas en un proyecto (pegando las transcripciones, no subiendo PDFs); el reporte del lunes en Claude Code porque se repite y tiene que recordar el formato. Cada pedido reescrito con los 4 elementos.
+**Qué te devuelve.** La tabla: el mensaje al founder en el chat; el Zap en Cowork con Chrome guiándote en la pantalla; las 12 llamadas en un proyecto (pegando las transcripciones, no subiendo PDFs); el reporte del lunes en Claude Code porque se repite y tiene que recordar el formato. Cada pedido reescrito con los 4 elementos y, debajo, la skill de la biblioteca que conviene, con su nombre y su carpeta para encontrarla aunque cambie de nombre.
 
 **Por qué sirve.** Dejás de hacer todo en el mismo chat eterno.
 
@@ -46,6 +46,6 @@ Tres situaciones de infonegocio donde elegir bien la superficie te ahorra horas 
 
 **Qué le pasás.** Las tareas de la semana y "no sé qué tengo".
 
-**Qué te devuelve.** La mini guía de 3 pasos para revisarlo en 5 minutos y, mientras tanto, la tabla "si no tenés X, hacé Y": cada tarea con la superficie ideal y la alternativa con lo que seguro tenés. Si vas a pegar datos de un cliente real, te dice qué columnas pegar y cuáles borrar.
+**Qué te devuelve.** La mini guía de 3 pasos para revisarlo en 5 minutos (con un plan B si los menús cambiaron de nombre: el centro de ayuda oficial o una captura de tu pantalla) y, mientras tanto, la tabla "si no tenés X, hacé Y": cada tarea con la superficie ideal y la alternativa con lo que seguro tenés. Si vas a pegar datos de un cliente real, te dice qué columnas pegar y cuáles borrar.
 
 **Por qué sirve.** No te frena no saber qué plan tenés: arrancás igual y cambiás de superficie cuando lo confirmás.

@@ -1,6 +1,6 @@
 # Ejemplo de output · Constructor de SOP de Infonegocio
 
-> Datos ficticios. Programa grupal de marketing para nutricionistas, 6 meses, vendido por llamada. El SOP sale después de una entrevista de 10 preguntas. Abajo del SOP, la fila para la librería y el resumen para el founder.
+> Datos ficticios. Programa grupal de marketing para nutricionistas, 6 meses, vendido por llamada. El SOP sale después de una entrevista de 11 preguntas. Abajo del SOP, la fila para la librería y el resumen para el founder. Al final, una variante en formato corto para procesos simples.
 
 ---
 
@@ -244,3 +244,36 @@ Para: Dirección · De: Lucía Ferrer · Operaciones · Fecha: 14/10 · Estado d
 **Qué viene después.** Automatizar la habilitación de módulos con el pago acreditado.
 
 Lucía Ferrer · Operaciones
+
+---
+
+# Variante en formato corto
+
+> Para procesos de 4 pasos o menos, sin pasos automáticos, sin decisiones abiertas y sin mensajes al cliente (criterio orientativo de la skill). Entra en una pantalla. Datos ficticios.
+
+# SOP · Alta de un integrante nuevo en el grupo del equipo · Proceso
+
+**Owner del proceso:** Coordinación de servicio · **Se dispara cuando:** Dirección confirma por escrito que entra alguien al equipo · **Frecuencia:** por evento · **Meta de tiempo:** el mismo día · **Duración:** 10 minutos · **Herramientas:** WhatsApp del negocio, wiki del equipo · **Última actualización:** 14/10 · **Estado:** Aprobado
+
+*Formato corto: son 4 pasos manuales, sin automatizaciones, sin decisiones abiertas y sin mensajes al cliente. ¿Lo querés en formato completo?*
+
+**Objetivo:** que la persona nueva esté en el grupo correcto, sepa las reglas y encuentre la wiki desde el primer día.
+
+| Paso | Responsable | Cuándo | Tarea | Detalle | Precauciones |
+|---|---|---|---|---|---|
+| 1 | Coordinación de servicio | Al recibir la confirmación | Sumar a la persona al grupo del equipo | Abrí el grupo desde el WhatsApp del negocio · Tocá "Añadir participante" · Buscá el número que mandó Dirección | Si el número no está agendado, agendalo con nombre + rol ("Ana · Setter") antes de sumarlo |
+| 2 | Coordinación de servicio | Apenas entra | Fijar el mensaje de bienvenida con las reglas | Copiá la plantilla "Bienvenida al equipo" de la wiki · Pegala en el grupo · Fijala 7 días | Nunca pegues claves en el grupo: las claves se piden al dueño de cada cuenta |
+| 3 | Coordinación de servicio | Mismo día | Mandarle el link de la wiki por privado | Copiá [link a la wiki] · Mandalo por privado con "Empezá por la página Primera semana" | Si no puede abrirla, revisá que la wiki esté compartida con su mail |
+| 4 | Coordinación de servicio | Mismo día | Registrar el alta | Entrá a la wiki → página "Equipo" · Sumá nombre, rol y fecha de ingreso | Si falta el rol, preguntalo a Dirección antes de cargar |
+
+**Cuando algo sale mal**
+
+| Si pasa esto | Hacé esto | Avisale a |
+|---|---|---|
+| El número no tiene WhatsApp | Pedile a Dirección otro número o un mail | Dirección |
+| La persona ya estaba en el grupo con otro número | Sacá el número viejo y dejá uno solo | Nadie |
+| Dirección no confirmó el rol | No la sumes todavía; preguntá el rol | Dirección |
+
+**Cómo sabés que salió bien:** el mismo día la persona está en el grupo, tiene la bienvenida fijada y figura en la página "Equipo" de la wiki.
+
+**Checklist:** [ ] En el grupo · [ ] Bienvenida fijada · [ ] Link de la wiki enviado · [ ] Alta registrada

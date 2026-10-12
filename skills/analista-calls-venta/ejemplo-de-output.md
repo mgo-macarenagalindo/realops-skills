@@ -112,7 +112,9 @@ Pedile a Joaquín que lea su feedback: si no coincide con lo que vivió en la ll
 
 **Top 3 de objeciones:** tiempo (3 de 5), socio (2 de 5), confianza (1 de 5), cada una con su frase y su respuesta para practicar.
 
-**Banco de frases del mercado:** "sin pedirle favores a nadie" y "no me sale hablar de plata" aparecen en 3 de 5 llamadas. Los 2 leads que no calificaban vinieron del mismo anuncio.
+**Para marketing en 3 líneas:** "sin pedirle favores a nadie" aparece en 3 de 5 llamadas. Los 2 leads que no calificaban vinieron del mismo anuncio ("Llená tu agenda en 30 días"). El detalle va en el banco de frases, aparte.
+
+*(Después del entregable 1 viene, separado y con su propio título, el **entregable 2 · Banco de frases del mercado**, de una página, para reenviarlo tal cual a quien escribe los anuncios. Como en este ejemplo nadie pidió nada para marketing, la skill lo ofrece en una línea al final: "¿Querés el banco de frases del mercado aparte, para marketing?")*
 
 **Comparación por closer (conductas):**
 

@@ -1,6 +1,6 @@
 ---
 name: debug-automatizaciones
-description: Detective de Automatizaciones (RealOps™). Tres modos para las automatizaciones que ya existen en Zapier, Make, n8n, GoHighLevel o Airtable - INVENTARIO (qué corre, qué hace cada una en lenguaje de negocio, disparador, pasos, datos que lee y escribe, cuentas, dueño, consumo y riesgo, con un prompt de solo lectura para relevar cada plataforma), SIMPLIFICAR (juntar varias en una, cambiar consultas por webhooks, apagar duplicadas y zombies, o reemplazar varias por un agente de IA, con criterio de cuándo conviene y cuándo no) y DIAGNOSTICAR una que falla, no dispara, duplica o dice éxito sin dato, con un árbol de preguntas probado en casos reales. Devuelve el informe, el plan de cambios o la causa con evidencia, el arreglo, la prueba y el registro del incidente. Usala cuando heredás automatizaciones, nadie sabe qué corre, se gastan muchas tareas, querés ordenar o migrar, o algo se rompió, aunque no tengas acceso al historial.
+description: Detective de Automatizaciones (RealOps™). Tres modos para las automatizaciones que ya existen en Zapier, Make, n8n, GoHighLevel o Airtable - INVENTARIO (qué corre, qué hace cada una en lenguaje de negocio, disparador, pasos, datos que lee y escribe, cuentas y webhooks, dueño, consumo y riesgo, con un prompt de solo lectura para relevar cada plataforma), SIMPLIFICAR (agrupar por evento y juntar 5 en 1, cambiar consultas por webhooks, apagar duplicadas y zombies, o reemplazar varias por un agente de IA, con criterio de cuándo conviene y cuándo no) y DIAGNOSTICAR una que falla, no dispara, duplica o dice éxito sin dato, con un árbol de preguntas probado en casos reales. Devuelve el informe, el plan de cambios o la causa con evidencia, el arreglo, la prueba y el registro del incidente. Usala cuando heredás automatizaciones, nadie sabe qué corre, se gastan muchas tareas, querés ordenar o migrar, o algo se rompió, aunque no tengas acceso al historial.
 ---
 
 # Detective de Automatizaciones
@@ -35,9 +35,11 @@ Cargá el archivo de referencia del modo cuando arranques. Si te falta un dato d
 2. **Relevamiento de solo lectura:** con el prompt para Cowork o con la lista de pantallas de la referencia. Regla dura: no se apaga, prende, edita, prueba ni reproduce nada. Las direcciones de webhook y las claves no se copian: se anota que existen.
 3. **Una ficha por automatización** (formato abajo). Lo que no se pudo ver va como **"sin acceso"**, nunca supuesto como hecho.
 4. **Mapa de cuentas:** cada cuenta y cada conexión, a nombre de quién, si esa persona sigue y quién recibe los avisos de error.
-5. **Consumo:** cuánto gasta cada una por mes (tareas, operaciones, ejecuciones, corridas) y cuánto del plan se lleva.
-6. **Hallazgos** en tres niveles: 🔴 crítico (falla en silencio, cuenta de alguien que se fue, daño a clientes), 🟡 atención, 🟢 menor. Cada hallazgo con evidencia.
-7. **Cruzá con los datos:** si una automatización "reparte en rueda" o "avisa cada venta", contrastalo con la base (cuántos registros, a quién, desde cuándo). Si no cierra, es un hallazgo.
+5. **Consumo:** cuánto gasta cada una por mes (tareas, operaciones, ejecuciones, corridas) y cuánto del plan se lleva. Si hay un plan gratis con tope (Airtable Free, Zapier Free, Make Free), mirá **si ya se cortó algún mes** y a quién le llegó el aviso.
+6. **Mapa de eventos y webhooks:** por cada **evento de negocio** (entra un lead, alguien agenda, entra un pago, se cierra una venta, se da un acceso), qué automatizaciones lo escuchan, en qué plataforma y en qué cuenta. Relevá también **del lado del origen**: los webhooks registrados en Stripe, Calendly, Typeform o el CRM (a qué plataforma mandan, qué eventos, quién los creó). Ahí aparecen las cuentas que nadie nombra: el Make de alguien que se fue, el de una agencia que ya no trabaja con el negocio, un Zapier gratis del founder.
+7. **Campos con más de una mano:** los campos que escriben dos o más automatizaciones, o una automatización y una persona. Son los que "se des-pagan solos" y los que se rompen si alguien los pasa a fórmula.
+8. **Hallazgos** en tres niveles: 🔴 crítico (falla en silencio, corre "en verde" sin hacer nada, se corta por el tope del plan sin que nadie vea el aviso, cuenta de alguien que se fue, datos de clientes que salen a una cuenta de terceros, daño a clientes), 🟡 atención, 🟢 menor. Cada hallazgo con evidencia.
+9. **Cruzá con los datos:** si una automatización "reparte en rueda" o "avisa cada venta", contrastalo con la base (cuántos registros, a quién, desde cuándo). Si no cierra, es un hallazgo.
 
 Las automatizaciones **sin documentar** que salen del inventario se documentan con **Constructor de SOP de Infonegocio** (modo automatización). Si el inventario es parte de auditar una base heredada, coordiná con **Auditor de Base Heredada**.
 
@@ -50,6 +52,8 @@ Cuándo se dispara: [evento, vista u horario exacto]
 Pasos: [1. app · acción · 2. …, con filtros y rutas]
 Datos que lee: [tabla · campos · vista] · Datos que escribe: [tabla · campos]
 Otras apps y canales: [mail, WhatsApp, Discord, formulario…]
+Eventos y webhooks: [qué evento escucha · a qué plataforma manda (sin la dirección completa) · quién lo creó]
+Dónde quedan los datos: [base, planilla o Drive · a nombre de quién · ¿datos de clientes en una cuenta ajena?]
 Cuenta dueña y conexiones: [a nombre de quién · ¿sigue en el equipo?]
 Dueño (rol que la mantiene): [rol, o "nadie" como hallazgo]
 Estado y uso: [encendida/apagada · corridas en 30 días · errores · tareas por mes]
@@ -66,11 +70,13 @@ Riesgo si se rompe: [qué deja de pasar y quién se entera]
 
 Cargá `references/simplificar.md`. En corto:
 
-1. **Agrupá el inventario** por disparador (¿cuántas arrancan con lo mismo?) y por destino (¿cuántas escriben o avisan en el mismo lugar?).
+1. **Agrupá el inventario por evento de negocio**, no por plataforma: "entra un pago" puede disparar cinco automatizaciones en tres herramientas y tres cuentas. Ese es el **"5 en 1"** típico, y no se ve mirando una plataforma por vez. Después agrupá por destino (¿cuántas escriben o avisan en el mismo lugar?).
 2. **Buscá los seis patrones:** duplicadas (dos hacen lo mismo) · variantes (una por programa, por calendario o por closer) · consultas que podrían ser webhooks · cadenas (A dispara B que dispara C) · zombies (encendidas y sin correr en 60 días) · trabajo de criterio repartido en muchas reglas (candidato a agente de IA).
 3. **Para cada grupo, decidí** con la tabla de criterio de la referencia: juntar, cambiar el disparador, apagar, pasar a un agente o **dejar como está**. Dejar como está es una respuesta válida: no se junta lo que tiene dueños, horarios o riesgos distintos.
-4. **Plan de cambios en tandas**, de menos a más riesgo, con antes y después (cantidad, consumo por mes, puntos de falla), quién lo hace y cómo se prueba.
-5. **La regla del corte:** construir la nueva → probar en un canal o una base de prueba → activar la nueva y apagar las viejas **en el mismo momento** → mirar las ejecuciones la primera semana → borrar las viejas recién después de un mes sin problemas. Nunca las dos prendidas.
+4. **Elegí dónde vive cada pieza nueva** con la tabla de ventajas de cada plataforma (Airtable nativa, Zapier, Make, n8n, GoHighLevel) de la referencia: se acepta cualquiera **bien justificada**, y siempre se muestran las ventajas competitivas de cada opción para ese caso (costo con el volumen real, quién la mantiene, control de errores, IA, curva de aprendizaje). Siempre en una cuenta del negocio.
+5. **Dos órdenes que no se negocian:** (a) **migrar primero, revocar después**: si una automatización de entrada vive en la cuenta de alguien que se va, sacarle el acceso antes de migrarla corta la entrada de leads o de pagos; (b) **un campo, una mano**: la pieza nueva es la única que escribe cada campo, y si un campo pasa a fórmula, las automatizaciones que lo escribían se reconfiguran **en el mismo cambio**.
+6. **Plan de cambios en tandas**, de menos a más riesgo, con antes y después (cantidad, consumo por mes, puntos de falla), quién lo hace y cómo se prueba.
+7. **La regla del corte:** construir la nueva → probar en un canal o una base de prueba → activar la nueva y apagar las viejas **en el mismo momento** → mirar las ejecuciones la primera semana → borrar las viejas recién después de un mes sin problemas. Nunca las dos prendidas.
 
 ---
 
@@ -81,6 +87,8 @@ Trabajás con un árbol de preguntas, de la causa más común a la más rara, y 
 La mayoría de las fallas no son "un bug de Zapier". Son detalles de configuración que se repiten en todos los negocios: el disparador mira la vista equivocada, el filtro compara "Élite" con "Elite", llega el código de un registro en vez del nombre, o el registro de prueba no tenía el campo nuevo.
 
 Sale de casos resueltos en vivo en las clases del 13/04, 14/05, 06/05, 07/05, 29/07, 25/06, 22/06, 01/07 y 10/08.
+
+**Sobre los números:** los que llevan fecha de clase salen de los casos resueltos. Los demás umbrales (60 días para un zombie, 40 % de las tareas en una sola, 70 % y 80 % del plan, 48 horas, 7 días, un mes antes de borrar) son **orientativos**: sirven para decidir rápido, y se ajustan al negocio.
 
 ## Primero: ¿está haciendo daño ahora?
 
@@ -143,7 +151,7 @@ Recorrelo en orden, desde la rama del síntoma. En cada pregunta, pedí la evide
 3. **¿El disparador mira la vista correcta?** Desde Airtable, tiene que apuntar a la **vista filtrada para esa automatización**, no a la grilla general (06/05).
 4. **¿Es el tipo de disparador correcto?** Si el dato que importa se carga **después** de crear el registro, el disparador es "cuando se actualiza", no "cuando se crea" (15/06).
 5. **¿Usuario u organización?** Con más de un closer o más de un evento de Calendly, el disparador va a nivel organización y sin filtros por evento (01/07).
-6. **¿Se acabaron las tareas del plan?** Mirá el consumo del mes.
+6. **¿Se acabaron las tareas o las corridas del plan?** Mirá el consumo del mes y si hay días seguidos **sin ninguna corrida** en varias automatizaciones a la vez: es la firma de un corte por tope. En Airtable el tope es para todo el workspace, así que se frenan **todas** las de la base juntas hasta el mes siguiente, y el aviso le llega por mail a una persona (buscalo en su casilla). Ver "Plan gratis de Airtable", abajo.
 7. **¿Es un disparador programado?** Revisá día y frecuencia: "Daily" manda también el fin de semana; "Weekly" con lunes a viernes, no (06/05). Para probar uno programado, ponelo a pocos minutos.
 
 ### Rama B · Corre con error
@@ -159,6 +167,7 @@ Recorrelo en orden, desde la rama del síntoma. En cada pregunta, pedí la evide
 2. **¿Buscar registro (`Find Record`) devuelve lo que creés?** Un límite de vista mal puesto procesa uno solo (22/06).
 3. **¿El destino tarda?** Notion puede tardar en reconocer una conexión nueva: esperá antes de dar el arreglo por fallido (14/05).
 4. **¿Está escribiendo en otro registro?** Buscá por fecha de modificación en el destino.
+5. **¿Un filtro o una búsqueda termina la corrida sin hacer nada?** En Make y en Zapier, una corrida que se frena en un filtro o en una búsqueda sin resultado figura como éxito (o "filtrada"), sin aviso. **Contá corridas contra registros realmente actualizados:** si no cierran, ahí está. Típico: buscar al cliente **por mail** cuando pagó con otro mail. Arreglo: buscar por un ID (el ID de cliente de la pasarela guardado en la base) y una rama "no encontrado" que avise a una persona con el dato para cargarlo.
 
 ### Rama D · El dato llega mal o vacío
 
@@ -175,7 +184,8 @@ Recorrelo en orden, desde la rama del síntoma. En cada pregunta, pedí la evide
 1. **¿Se dispara a sí misma?** Si el flujo actualiza el mismo registro que lo dispara, es un **bucle**. Apagala y agregá una condición o un campo "procesado" (25/06).
 2. **¿Una persona disparó dos veces?** Corré una prueba controlada: si el error no se repite, la causa vino de afuera (alguien editó dos veces) (13/04).
 3. **¿Reprogramaciones de Calendly?** Calendly toma la reprogramación como evento nuevo y crea otro registro. Solución práctica: que los closers reprogramen desde el calendario, o un paso que busque antes de crear (01/07).
-4. **¿Hay dos automatizaciones haciendo lo mismo?** Típico en GoHighLevel: no avisa si una nueva pisa a otra. Auditá las existentes (09/04).
+4. **¿Hay dos automatizaciones haciendo lo mismo?** Típico en GoHighLevel: no avisa si una nueva pisa a otra. Auditá las existentes (09/04). También pasa entre plataformas: dos que escuchan el mismo evento, cada una con su propia lógica (dos contadores de "rueda" que no coinciden).
+5. **¿El disparador es "nuevo **o modificado**"?** Cada corrección del registro vuelve a disparar: una fila de más en la planilla de comisiones por cada edición. Usá "nuevo", o una casilla "procesado" que la automatización marque.
 
 ### Rama F · Personas y cuentas
 
@@ -193,6 +203,18 @@ Con esta rama, el arreglo tiene siempre dos partes: **reparar lo que ya salió m
 ### Si nada de esto explica la falla
 
 Pedí una ejecución fallida completa (entrada y salida de cada paso) y compará paso por paso contra una ejecución que funcionó. Si sigue sin aparecer, decilo: "no lo puedo confirmar con esto; lo siguiente es [prueba concreta]". No inventes causas.
+
+## Plan gratis de Airtable: la alternativa manual y cuándo pagar
+
+El plan Free tiene un tope de corridas por mes (100 al relevar en octubre de 2026; **orientativo**, confirmalo en la página de planes). Cuando se llega, se frenan todas las automatizaciones del workspace hasta el mes siguiente, y una corrida que falla también cuenta.
+
+**Primero, bajar el consumo sin pagar:**
+1. Lo que es un **estado calculable** (vencida, atrasada, sin contactar) pasa a **fórmula + vista**: no gasta corridas. Ojo con la regla "un campo, una mano" de arriba.
+2. Las programadas que corren varias veces por día pasan a **una por día**, o a un **resumen diario** (una corrida para todos los casos, no una por registro).
+3. **Alternativa manual** para lo que no entra: una vista "Para hoy" que la persona responsable abre a una hora fija, el mensaje listo para copiar en un campo (o un botón `wa.me` con el texto armado) y una casilla "Avisado" con fecha.
+4. Lo que une herramientas puede vivir en Make o n8n, que no gasta corridas de Airtable.
+
+**Cuándo conviene pagar (criterio orientativo):** si aun así el consumo pasa del 80 % del tope dos meses seguidos; si lo manual lleva más de una hora por semana; si el corte ya tocó clientes o plata (un acceso tarde, un recordatorio de cuota que no salió); o si hay que escribirle automáticamente a alumnos o leads (en el Free, el mail de Airtable solo llega a colaboradores). Compará el plan pago (cobra por persona) contra sumar Make o n8n. Los números están en `references/simplificar.md`.
 
 ## Después del arreglo
 
@@ -212,6 +234,8 @@ En `ejemplo-de-output.md` tenés un diagnóstico completo (ejemplo 1) y un inven
 # Inventario de automatizaciones · [negocio o caso] · [fecha]
 ## Resumen (cuántas, en qué plataformas, encendidas/apagadas, consumo del mes, 3 hallazgos principales)
 ## Mapa de cuentas y conexiones (cuenta · a nombre de quién · ¿sigue? · quién recibe los errores)
+## Mapa de eventos y webhooks (evento de negocio · qué lo escucha · plataforma · cuenta)
+## Campos con más de una mano
 ## Fichas, una por automatización (formato de ficha)
 ## Lo que corre a mano y debería estar en el inventario (opcional: tareas repetidas sin automatizar)
 ## Hallazgos 🔴 🟡 🟢 (con evidencia)
@@ -225,7 +249,8 @@ En `ejemplo-de-output.md` tenés un diagnóstico completo (ejemplo 1) y un inven
 ## Antes y después (cantidad · consumo por mes · puntos de falla · cuentas)
 ## Grupos encontrados (patrón · cuáles · decisión: juntar / cambiar disparador / apagar / agente / dejar · por qué)
 ## Diseño de cada pieza nueva (en una frase + qué reemplaza; el detalle, con Diseñador de Automatizaciones)
-## Plan de corte en tandas (orden · qué se activa · qué se apaga · cómo se prueba · responsable · fecha)
+## Dónde vive cada pieza nueva (ventajas de cada plataforma para este caso · la elegida y por qué · en qué cuenta)
+## Plan de corte en tandas (orden · qué se activa · qué se apaga · cómo se prueba · responsable · fecha; migrar antes de revocar)
 ## Lo que NO se junta y por qué
 ## Para confirmar
 ```

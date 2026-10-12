@@ -22,7 +22,7 @@ Cuatro situaciones donde esta skill te saca del "no sé cuánto cobrar". Persona
 
 **Qué le pasás.** Qué modalidades querés ofrecer (un sprint de 1 o 2 semanas, un proyecto de 1, 2 o 3 meses, un fee mensual), tus horas estimadas y a qué tipo de negocio apuntás. Si no sabés cuánto querés ganar o no tenés un número, te propone un supuesto a la vista y te lo pregunta de otra forma.
 
-**Qué te devuelve.** La tabla por modalidad con alcance, duración, precio, forma de pago y piso, contrastada con los pisos que se dieron en clase, lo mínimo que va por escrito en cada contrato y una frase por modalidad para decirlo sin pedir perdón.
+**Qué te devuelve.** La tabla por modalidad con alcance, duración, precio, forma de pago y piso, contrastada con la tabla única de pisos armada con las clases (criterio orientativo), lo mínimo que va por escrito en cada contrato y una frase por modalidad para decirlo sin pedir perdón.
 
 **Por qué sirve.** El precio se decide antes de la llamada, con calma. No en vivo, con nervios.
 

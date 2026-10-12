@@ -18,6 +18,8 @@
 
 Tu número inicial era US$600: por debajo de tu piso. **Te propongo US$1.600**, en dos pagos (50 % al arrancar, 50 % al empezar la fase 3): son US$24,60 por hora para vos y el 15 % de lo que el cliente deja de perder en un año. El opcional de capacitación, US$250 aparte. Si decirlo en voz alta te da vergüenza, probablemente está bien.
 
+**Contraste con los pisos de clase (orientativo):** son 2 meses; el piso que se dio en clase es no menos de US$500 por mes (US$1.000 para 2 meses). US$1.600 queda arriba del piso y muy por debajo del valor: está bien ubicado. (El piso de clase también dice "mínimo 3 meses" para un proyecto: acá es un proyecto cerrado más corto porque el alcance entra en 8 semanas; si el founder quiere sumar cosas, se cotiza como fase aparte.)
+
 ---
 
 # Propuesta de Servicio | Yoga en Casa
@@ -147,3 +149,39 @@ Así como nos comprometemos a entregar en tiempo y forma, necesitamos que los ac
 | 31 bajas por mes por cobro fallido (sale de 2 meses de datos) | La founder, con el reporte de la plataforma de pagos | Kick-off |
 | US$8 la hora del equipo de soporte | La founder | Antes de presentar |
 | La plataforma de membresía permite pausar accesos automáticamente | Soporte de la plataforma | Semana 1 |
+
+---
+
+# Cómo cambia con los otros modelos (versiones cortas)
+
+> Mismo formato, solo las secciones que cambian. Datos ficticios.
+
+## Modelo B · Consultoría con mentoring
+
+**Para quién:** "Estudio Norte", dos socias que venden asesoría contable a empresas chicas, con 14 servicios en su menú y ventas solo por referidos. No necesitan construir todavía: necesitan saber qué venden y a quién. Ellas implementan; vos guiás.
+
+**Cuenta del precio (para vos):** 10 sesiones de 90 min + preparación y devoluciones = 30 h; +30 % = 39 h × US$25 [SUPUESTO: valor hora de práctica] = **piso US$975**. Valor: si cierran 2 clientes más por mes con un servicio ancla de US$400 por mes, son ~US$9.600 por año (estimación). **Precio: US$1.500**, en tres cuotas mensuales. Contraste orientativo con los pisos de clase: 3 meses × US$500 = US$1.500, en el piso, no debajo.
+
+**Lo que cambia en la propuesta:**
+- **Alcance por línea de trabajo** (no por fase): 1) Propuesta de valor y cliente ideal · 2) Servicios ancla: de 14 a 3, con precio · 3) Sistema comercial mínimo: guion de llamada, seguimiento en una planilla y un mensaje para pedir referidos · 4) Centralización básica: una carpeta y un tablero de clientes.
+- Cada línea con **Objetivo · Entregables · Relevancia para Estudio Norte** (por ejemplo, servicios ancla: "dejar de cotizar a medida cada vez y poder decir el precio en la primera llamada").
+- **Metodología:** 10 semanas; una sesión de 90 minutos por semana con las dos socias; tarea entre sesiones (ellas implementan); revisión escrita de lo que entregan en 48 h hábiles.
+- **Qué no incluye:** branding, redes, la ejecución de la prospección, armar el sistema por ellas.
+- **Cómo se mide el éxito:** servicios ancla con precio publicados · guion usado en las llamadas · seguimiento al día · pedido de referidos enviado a toda la cartera.
+- **Inversión:** US$1.500 en tres pagos (el primero al arrancar).
+
+## Modelo C · Equipo integrado (plan estratégico)
+
+**Para quién:** "Academia Ritmo", programa de producción musical de US$1.200 que factura unos US$25.000 por mes. El founder quiere **consolidar US$40.000 por mes** y te invitó a entrar al equipo con un socio comercial. Pasa las tres condiciones del C para un cliente nuevo: objetivo con número, invitación a sumarse y 6 meses posibles. (Si ya hubieras trabajado con él, esto iría por **Retención, Upsells y LTV**.)
+
+**Cuenta del precio (para vos):** fijo = 40 h por mes × US$25 [SUPUESTO] × 1,3 = **US$1.300 por mes de piso**; contraste orientativo con la clase (no menos de US$400 a 500 por mes): arriba. Variable por tramos sobre el **cash collected** del mes, para crecer cuando el negocio crece. Para el detalle de los tramos, **Esquema de Pago y Comisiones**.
+
+**Lo que cambia en la propuesta:**
+- **Título:** "Plan estratégico · Consolidar US$40.000 por mes".
+- **Quiénes somos** (siempre en C): vos (operaciones y sistemas) y el socio (comercial), con el porqué de este proyecto.
+- **Alcance por área:** Sistemas y gestión de proyectos · Comercial · Servicio · Finanzas, con lo que se hace en cada una.
+- **Quién lidera cada frente:** sistemas, servicio y finanzas, vos; comercial, el socio.
+- **Metodología:** mínimo 6 meses, con balance en el mes 3 y al final; reunión semanal de 45 minutos con el founder y retro mensual con el equipo.
+- **Cómo se mide el éxito:** cash collected mensual · tasa de cierre · cuotas vencidas · procesos documentados · reporte semanal al día.
+- **Inversión:** **US$1.500 de fijo mensual** + variable por tramos de cash collected (por ejemplo: 0 % hasta US$25.000; 3 % de lo que pase de US$25.000; 5 % de lo que pase de US$35.000) [SUPUESTO: porcentajes de ejemplo; se definen con **Esquema de Pago y Comisiones**]. La pauta publicitaria va aparte.
+

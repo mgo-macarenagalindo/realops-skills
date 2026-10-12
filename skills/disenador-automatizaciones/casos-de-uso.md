@@ -12,7 +12,7 @@ Cuatro situaciones de infonegocio donde esta skill te evita armar el flujo equiv
 
 **Qué te devuelve.** La spec en n8n (la spec hace de SOP): webhook de la agenda → buscar contacto por mail → crear o actualizar → oportunidad en etapa Agenda con el ID de la cita (así una reprogramación no duplica) → aviso al closer por el canal que ya usan. Con el flujo de errores asignado, el costo en ejecuciones y la guía nodo por nodo.
 
-**Por qué sirve.** Es chica, se prueba en una tarde y ahorra más de 6 horas por mes. Es la Actividad 13 del programa.
+**Por qué sirve.** Es chica, se prueba en una tarde y ahorra más de 6 horas por mes. Es la Actividad 13 del programa: ahí se acepta n8n o cualquier otra plataforma bien justificada, y la skill te deja escrita la comparación de ventajas (costo, control, escalabilidad, autoalojado, IA y curva) para que la defiendas en tu portafolio.
 
 ---
 
@@ -22,7 +22,7 @@ Cuatro situaciones de infonegocio donde esta skill te evita armar el flujo equiv
 
 **Qué le pasás.** El plan de Airtable, cuántas cuotas vencen por mes y por dónde se avisa el equipo.
 
-**Qué te devuelve.** La decisión con números: el responsable, la tarea y el escalado a 7 y 15 días van con **automatizaciones nativas de Airtable** (todo pasa adentro de la base). El aviso al alumno por mail depende del plan (en el gratis, el mail solo llega a colaboradores), así que te muestra las dos salidas: mensaje listo para WhatsApp desde una interfaz, o un flujo diario en n8n que gasta 30 ejecuciones por mes.
+**Qué te devuelve.** La decisión con números: el responsable, la tarea y el escalado a 7 y 15 días van con **automatizaciones nativas de Airtable** (todo pasa adentro de la base). El aviso al alumno por mail depende del plan (en el gratis, el mail solo llega a colaboradores), así que te muestra las dos salidas: mensaje listo para WhatsApp desde una interfaz, o un flujo diario en n8n que gasta 30 ejecuciones por mes. Si se quedan en el plan gratis, te enseña la alternativa manual (vista "Para hoy" + resumen diario + botón de WhatsApp) y te dice cuándo conviene pagar.
 
 **Por qué sirve.** Te enseña a no sumar una herramienta cuando la base ya alcanza, y a ver el límite del plan antes de que te frene.
 

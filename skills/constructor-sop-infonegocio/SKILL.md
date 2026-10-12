@@ -1,6 +1,6 @@
 ---
 name: constructor-sop-infonegocio
-description: Constructor de SOP de Infonegocio (RealOps™). Te entrevista sobre un proceso o un protocolo, una pregunta por vez, y devuelve el SOP con el formato de los templates de RealOps™ (paso, responsable o plataforma, tipo manual o automático, cuándo, tarea, detalle, objetivo y precauciones), listo para pegar en un documento o en una planilla. Incluye owner por rol, chequeo de que el owner tenga los accesos, decisiones pendientes marcadas [DECIDIR] con quién aprueba, mensajes al cliente, tabla de excepciones, criterio de éxito, checklist y diagrama en Mermaid. Cierra con un resumen de una página para el founder (decisiones, accesos y cómo se mide) y la fila para la librería de SOPs. Usala para documentar, delegar o sistematizar onboarding de alumnos, cuota vencida, handoff de venta a servicio, EODs, cierre de mes o una automatización.
+description: Constructor de SOP de Infonegocio (RealOps™). Te entrevista sobre un proceso o un protocolo, una pregunta por vez, y devuelve el SOP con el formato de los templates de RealOps™ (paso, responsable o plataforma, tipo manual o automático, cuándo, tarea, detalle, objetivo y precauciones), listo para pegar en un documento o en una planilla (formato corto si el proceso es simple). Documenta también los pasos automáticos y cómo verificar que corrieron. Incluye owner por rol, chequeo de que el owner tenga los accesos, decisiones pendientes marcadas [DECIDIR] con quién aprueba, mensajes al cliente, tabla de excepciones, criterio de éxito, checklist y diagrama en Mermaid. Cierra con un resumen de una página para el founder (decisiones, accesos y cómo se mide) y la fila para la librería de SOPs. Usala para documentar, delegar o sistematizar onboarding de alumnos, cuota vencida, handoff de venta a servicio, EODs, cierre de mes o una automatización.
 ---
 
 # Constructor de SOP de Infonegocio
@@ -52,15 +52,16 @@ Una pregunta por vez. Usá la respuesta anterior para hacer la siguiente. En est
 3. "¿Quién lo hace hoy? ¿Y quién debería hacerlo?" (Si te da un nombre, preguntá el rol.)
 4. **"¿Ese rol tiene hoy los accesos para hacerlo?"** Recorré con la persona cada herramienta que el proceso toca y preguntá si el owner propuesto entra con su propio usuario. Si no, anotalo: es un bloqueante del SOP, no un detalle.
 5. "Contámelo como se lo contarías a alguien que entra mañana. Todo seguido, sin ordenar."
-6. **Vos ordenás** y le devolvés los pasos numerados, con quién o qué herramienta hace cada uno y si es manual o automático, para que confirme.
-7. "¿Qué sale mal normalmente? ¿Qué pasa cuando el cliente no responde, cuando falta un dato, cuando el pago no entra?"
-8. "¿Hay algo que hoy nadie decidió?" (quién habla con el cliente, a los cuántos días se pausa, quién aprueba una excepción)
-9. "¿Qué mensajes le llegan al cliente en este proceso? ¿Están escritos?"
-10. "¿Cómo sabés que salió bien? ¿En cuánto tiempo tiene que estar terminado todo?"
+6. **"¿Alguna parte la hace sola una herramienta?"** (un formulario que carga datos, un Zapier, un n8n, un Make, un mail automático, un reparto de agenda). Por cada automatismo preguntá: qué lo dispara, qué hace, **en qué cuenta vive** (¿del negocio o personal de alguien?) y **cómo se ve que corrió**. Muchas veces la persona no sabe que algo es automático: si un dato "aparece solo", es un paso automático.
+7. **Vos ordenás** y le devolvés los pasos numerados, con quién o qué herramienta hace cada uno y si es manual o automático, para que confirme. Los automáticos van como subpasos del paso humano o del evento que los dispara (1.A, 1.B…).
+8. "¿Qué sale mal normalmente? ¿Qué pasa cuando el cliente no responde, cuando falta un dato, cuando el pago no entra?"
+9. "¿Hay algo que hoy nadie decidió?" (quién habla con el cliente, a los cuántos días se pausa, quién aprueba una excepción)
+10. "¿Qué mensajes le llegan al cliente en este proceso? ¿Están escritos?"
+11. "¿Cómo sabés que salió bien? ¿En cuánto tiempo tiene que estar terminado todo?"
 
 Si entre dos pasos hay un salto, señalalo: "Entre el paso 3 y el 4 falta algo: ¿qué pasa con el acceso a la comunidad?". Ese hueco es exactamente lo que rompe los SOPs.
 
-Si la persona te pega todo de una (un audio transcripto, un documento viejo, una planilla de pasos), no repitas las preguntas: ordená y preguntá solo lo que falta. Las preguntas 4, 8 y 9 hacelas igual si el material no las responde.
+Si la persona te pega todo de una (un audio transcripto, un documento viejo, una planilla de pasos), no repitas las preguntas: ordená y preguntá solo lo que falta. Las preguntas 4, 6, 9 y 10 hacelas igual si el material no las responde.
 
 ## Cuando el negocio no decidió algo: [DECIDIR]
 
@@ -91,15 +92,24 @@ En un protocolo casi siempre falta una decisión (quién cobra, cuándo se pausa
 2. **Una tarea = una acción con un resultado.** Si la tarea tiene un "y", son dos pasos. El detalle puede tener varias instrucciones, cada una con su verbo.
 3. **Cada instrucción empieza con un verbo en imperativo y dice dónde se hace.** "Entrá a la base de Cuotas y filtrá por Estado = Vencida", no "revisar las cuotas".
 4. **Sin ambigüedad.** "Revisar que esté todo bien" no es un paso. "Verificá que el pago figure como acreditado en la pasarela" sí.
-5. **Los pasos automáticos también van**, numerados como subpasos (2.A, 2.B), con la herramienta como responsable y la forma de verificar que corrieron. Si el automático falla, alguien humano tiene que enterarse: eso va en sus precauciones.
+5. **Los pasos automáticos también van**, numerados como subpasos (2.A, 2.B), con la herramienta como responsable y la forma de verificar que corrieron. Cada subpaso automático lleva tres cosas: **qué hace exactamente** (qué tabla, qué campo, a quién le manda qué), **cómo se verifica** (dónde mira el humano y qué tiene que ver) y **qué hace el humano si no corrió** (el paso manual que lo reemplaza y a quién avisa). Si la automatización vive en una cuenta personal o de alguien que ya no está, marcalo con ⚠ en "Antes de empezar" y en las decisiones: es un riesgo del proceso, no un detalle técnico.
 6. **La tabla de excepciones no es opcional.** Mínimo tres filas. Es justo la parte por la que después vienen a preguntarte.
 7. **Si el proceso le habla al cliente, los mensajes van escritos** en la sección "Mensajes al cliente", listos para copiar. "Mandale la bienvenida" sin texto no es un paso.
 8. **Fecha de última actualización y estado, siempre.**
-9. **Credenciales: se nombran, nunca se escriben.** "Cuenta de la pasarela de pago (dueño: Administración; la clave está en el gestor de contraseñas)". Nunca una clave, un link privado de un formulario ni un mail personal en el documento: los links van como [link a …] para que el negocio los complete.
+9. **Credenciales: se nombran, nunca se escriben.** "Cuenta de la pasarela de pago (dueño: Administración; la clave está en el gestor de contraseñas)". Nunca una clave, un link privado de un formulario ni un mail personal en el documento: los links van como [link a …] para que el negocio los complete. Si el negocio todavía no tiene gestor de contraseñas, escribí "la clave la tiene <rol dueño de la cuenta>: pedísela a él" y sumá a "Lo que cambiaría" pasar las claves a un gestor (elegir cuál es decisión del negocio; la skill Stack elegido y justificado trae una recomendación por defecto).
+
+## Formato completo o formato corto
+
+**Criterio orientativo** (no es una regla de las clases, es el que usa la skill por defecto):
+
+- **Formato corto** si el proceso cumple las cuatro: **4 pasos o menos**, **sin pasos automáticos**, **sin [DECIDIR] abiertos** y **sin mensajes al cliente**. Va solo la tabla de pasos **con la columna "Detalle" y una columna "Precauciones"**, más "Cuando algo sale mal" (mínimo 3 filas), "Cómo sabés que salió bien" y la checklist. Sin la sección "Los pasos" ni el diagrama (salvo que lo pida). Entra en una pantalla.
+- **Formato completo** en cualquier otro caso: tabla resumen + detalle por paso. Un proceso con automatizaciones, decisiones abiertas o mensajes al cliente necesita el detalle, aunque sea corto.
+
+Decí cuál usaste y por qué en una línea arriba del SOP, y ofrecé el otro ("¿Lo querés en formato completo, con el detalle de cada paso?"). Si dudás, completo.
 
 ## Formato de salida
 
-En `ejemplo-de-output.md` tenés un SOP completo de ejemplo. Es el mismo formato que usan los templates de procesos de RealOps™: una tabla resumen que se puede pegar en una planilla, y el detalle paso por paso para el documento.
+En `ejemplo-de-output.md` tenés un SOP completo de ejemplo y, al final, uno en formato corto. Es el mismo formato que usan los templates de procesos de RealOps™: una tabla resumen que se puede pegar en una planilla, y el detalle paso por paso para el documento.
 
 ```
 # SOP · [Nombre] · [Proceso / Protocolo]
@@ -151,11 +161,13 @@ Este SOP describe cómo [acción] para lograr [resultado].
 
 El diagrama va en Mermaid (`flowchart TD`), con las decisiones como rombos y los [DECIDIR] marcados. Decile que lo puede pegar en Notion escribiendo `/code` y eligiendo Mermaid, o en cualquier editor que lea Mermaid.
 
+**Formato corto:** el mismo encabezado y objetivo; después, una sola tabla: Paso · Responsable / Plataforma · Cuándo · Tarea · Detalle (instrucciones con verbo, separadas por " · ") · Precauciones. Y debajo, "Cuando algo sale mal", "Cómo sabés que salió bien" y la checklist.
+
 **Para una planilla:** si la persona trabaja los procesos en una planilla, la tabla "Resumen de pasos" va con estas columnas, en este orden: Paso N° · Responsable (owner) / Plataforma · Tipo de tarea · Cuándo · Tarea · Detalle de la tarea · Objetivo. Y arriba de todo, en una fila: nombre del proceso y owner.
 
 ## Modo automatización
 
-Si lo que hay que documentar es una automatización que ya corre (en n8n, Zapier o Make), sumá estas secciones:
+Si lo que hay que documentar es una automatización que ya corre (en n8n, Zapier, Make o la herramienta que use el negocio), sumá estas secciones. Si la automatización es **una parte** de un proceso más grande (por ejemplo, el reparto automático de leads dentro del proceso de entrada de leads), van en el mismo SOP, en una sección **"La automatización por dentro"** después de "Los pasos":
 
 - **Qué la dispara** y **qué toca** (cada herramienta y cada tabla o campo que modifica).
 - **Credenciales que usa**: cuál, de qué cuenta, dónde vive. Nunca la clave. Si la cuenta es personal de alguien, marcalo con ⚠.

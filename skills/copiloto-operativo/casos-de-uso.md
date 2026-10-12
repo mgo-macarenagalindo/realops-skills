@@ -1,6 +1,6 @@
 # Casos de uso · Copiloto Operativo
 
-Cinco situaciones donde esta skill te ahorra la hora de pensar sola o solo, buscar en Google o preguntar en la comunidad. Negocios y nombres ficticios.
+Seis situaciones donde esta skill te ahorra la hora de pensar sola o solo, buscar en Google o preguntar en la comunidad. Negocios y nombres ficticios.
 
 ---
 
@@ -10,7 +10,7 @@ Cinco situaciones donde esta skill te ahorra la hora de pensar sola o solo, busc
 
 **Qué le pasás.** Solo la pregunta. Si querés que la aterrice, cuántas automatizaciones tienen hoy y cuánto pagan de Zapier.
 
-**Qué te devuelve.** Qué es cada una en una frase, cuándo conviene cada una, costo aproximado (con la aclaración de verificarlo en la página oficial), las alternativas (Make, las automatizaciones nativas de Airtable) y qué skill usar para diseñar la automatización. Sin pedirte contexto si la pregunta es general.
+**Qué te devuelve.** Qué es cada una en una frase, la ventaja competitiva de cada una (y qué resignás), costo aproximado en rango y con fecha (con la aclaración de verificarlo en la página oficial), las alternativas (Make, las automatizaciones nativas de Airtable) y qué skill usar para diseñar la automatización. No te casa con ninguna marca: cualquiera sirve si queda justificada para tu caso. Sin pedirte contexto si la pregunta es general.
 
 **Por qué sirve.** Llegás a la reunión con el founder sabiendo qué decir y cuánto cuesta, sin fanatismo por ninguna herramienta.
 
@@ -61,3 +61,15 @@ Cinco situaciones donde esta skill te ahorra la hora de pensar sola o solo, busc
 **Qué te devuelve.** Una matriz con horas por mes, riesgo de error y si conviene eliminar antes de automatizar; una sola recomendación para empezar, con qué herramienta (dentro de lo que el negocio ya paga, si se puede) y la lista "Para confirmar".
 
 **Por qué sirve.** Automatizás lo que más horas libera, no lo que más molesta. Eso se defiende en una reunión.
+
+---
+
+## 6. "Estamos en el plan gratis de Airtable y no quieren pagar"
+
+**La situación.** Armaste la base de cobros en el plan gratis y la automatización del aviso de cuota vencida ya no corre: llegaste al tope del mes.
+
+**Qué le pasás.** Qué hace la base, cuántos registros y automatizaciones tiene y cuántas personas la editan.
+
+**Qué te devuelve.** Cómo cubrir a mano lo que el plan gratis no trae (una vista "vence hoy" que alguien revisa a hora fija, con el paso escrito en el SOP; backups en CSV; carga por formulario), y la señal concreta (orientativa) a partir de la cual conviene pagar, con el argumento en horas o en plata para llevarle al founder.
+
+**Por qué sirve.** No te quedás trabado por presupuesto, y cuando pidas el plan pago lo pedís con un número.

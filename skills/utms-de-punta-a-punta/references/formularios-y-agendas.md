@@ -16,9 +16,9 @@ La regla en todas: **el nombre del parámetro en el link y el nombre del campo t
 
 ## Formulario y después agenda
 
-Cuando el lead llena una aplicación (Typeform, Tally) y después agenda (Calendly):
+Es el recorrido que usa RealOps™: **después de aplicar, el lead agenda directo** (la redirección final del formulario lo lleva a la agenda, sin esperar a que alguien le escriba). Cuando el lead llena una aplicación (Typeform, Tally) y después agenda (Calendly):
 - **La UTM se guarda en la aplicación**, que es donde nace el lead. La agenda se vincula por mail.
-- Si querés que la agenda también la tenga, en la redirección final del formulario agregá los campos ocultos al link de Calendly (`?utm_source={utm_source}&...` usando la opción de "recall" de la herramienta).
+- Para que la agenda también la tenga, en la redirección final del formulario agregá los campos ocultos al link de Calendly (`?utm_source={utm_source}&...` usando la opción de "recall" de la herramienta). Así la reserva queda con el mismo origen que la aplicación aunque nadie cruce por mail.
 
 ## El closer desde el anfitrión
 

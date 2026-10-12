@@ -120,7 +120,7 @@ Cerrá con la lista **"Para confirmar"**.
 2. Revisá cada pieza con los pasos 1 a 5 (si son muchas, de a una o dos por vuelta, empezando por la que la persona quiera mostrar primero).
 3. **Orden sugerido para mostrarlas**: de la más fuerte a la menos fuerte, y **la primera siempre la que mejor se entiende en 10 segundos** (suele ser el diagnóstico o el dashboard).
 4. **Con una sola pieza**, el orden no aplica: decíselo y sugerí **cuál conviene hacer después** para que la historia cierre (por ejemplo: con el diagnóstico, la siguiente que más suma es el CRM o el dashboard, porque muestran que además de detectar, construís).
-5. Para el portafolio armado (actividad 30), usá también la rúbrica de la 30.
+5. Para el portafolio armado (actividad 30), usá también la rúbrica de la 30. Pedí la consigna que tiene la persona: si pide otra cantidad de piezas o es una evaluación de cierre, la rúbrica se ajusta a esa consigna (está explicado en la referencia); si no la tiene a mano, usá la vigente (8 piezas + offer doc + propuesta).
 
 ## Formato de salida
 

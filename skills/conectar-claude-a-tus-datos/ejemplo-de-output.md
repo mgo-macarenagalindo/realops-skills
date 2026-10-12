@@ -1,20 +1,20 @@
 # Ejemplo de output · Claude Conectado a tus Datos
 
-> Datos ficticios. Caso práctico: **Mentoría Cierre Claro**, programa de 3 meses de ventas para coaches, vendido por llamada. CRM en Airtable (base "CRM Ventas": Contactos, Oportunidades, Llamadas, Cobros), cobros por Stripe y agenda en Calendly. Las aplicaciones entran por GoHighLevel. La persona es asistente de operaciones, editora de la base, y trabaja en la app de escritorio de Claude y en Claude Code.
+> Datos ficticios. Caso práctico: **Mentoría Cierre Firme**, programa de 3 meses de ventas para coaches, vendido por llamada. CRM en Airtable (base "CRM Ventas": Contactos, Oportunidades, Llamadas, Cobros), cobros por Stripe y agenda en Calendly. Las aplicaciones entran por GoHighLevel. La persona es asistente de operaciones, editora de la base, y trabaja en la app de escritorio de Claude y en Claude Code.
 
 **Lo que contó la persona:** cada lunes el founder pregunta cuántas oportunidades quedaron abiertas, cuánto se cobró y qué fuente trae más ventas. Hoy exporta CSV de Airtable y de Stripe y arma la respuesta a mano. Adjuntó el export de Oportunidades y Cobros del 30/09. Encontró en GitHub "un MCP de GoHighLevel" y quiere saber si lo puede instalar.
 
 ---
 
-# Claude + Airtable, Stripe y GoHighLevel · Mentoría Cierre Claro
+# Claude + Airtable, Stripe y GoHighLevel · Mentoría Cierre Firme
 
 ## Qué conectamos y por qué este camino
 
 | Plataforma | Escalón | Por qué | Descartado |
 |---|---|---|---|
 | Airtable | 1 · conector oficial | Está en el directorio de Claude; lo único que necesitás es preguntar | MCP en Claude Code: no hace falta todavía |
-| Stripe | 2 · servidor remoto oficial de Stripe | No lo ves en tu directorio; Stripe publica su propio servidor. Se agrega como conector personalizado con login de Stripe | Clave secreta completa: nunca |
-| Calendly | 5 · puente que ya existe | Un Zap ya pasa cada agenda a la tabla Llamadas. Preguntarle a Airtable alcanza | Buscar un servidor de Calendly: no suma nada hoy |
+| Stripe | 1 · conector oficial del directorio de Claude (documentado por Stripe el 12/10/2026; verificá que lo veas en tu directorio) | Login de Stripe (OAuth): en la pantalla de permisos elegís primero el **sandbox** y después la cuenta real, con permisos de lectura | Clave secreta completa o restringida sin etiqueta "Agent": Stripe deja de aceptarlas el 31/10/2026 |
+| Calendly | 5 · puente que ya existe | Un Zap ya pasa cada agenda a la tabla Llamadas. Preguntarle a Airtable alcanza. Por qué Zapier y no otro: ya está pagado, lo mantiene quien arma las automatizaciones y son 60 agendas por mes (con mucho más volumen, Make o n8n saldrían más baratos) | Buscar un servidor de Calendly: no suma nada hoy |
 | GoHighLevel | 4 · comunidad → **no se instala** | Ver la ficha | — |
 
 ## Ficha de seguridad · el "MCP de GoHighLevel" de GitHub
@@ -32,7 +32,8 @@
 ## Checklist de conexión
 
 - [ ] **Airtable:** conector activado. Al autorizar, **solo la base CRM Ventas**. Si te pide token: `claude-crm-lectura`, con `data.records:read` y `schema.bases:read`
-- [ ] **Stripe:** conector personalizado con la dirección del servidor oficial que figura en la documentación de Stripe. Login con un usuario de Stripe del negocio con rol de **solo lectura**; si pide clave, una clave restringida de lectura, probada primero en modo de prueba
+- [ ] **Stripe:** conector oficial desde el directorio de Claude (en Claude Code, `https://mcp.stripe.com`). Login con un usuario de Stripe del negocio; en los permisos, primero el **sandbox** y una pregunta de prueba ("listame los últimos 5 pagos"), después la cuenta real. Si alguna herramienta pide clave, una **clave de agente** con permisos de lectura, nunca la clave secreta
+- [ ] Activada la aprobación de herramientas en Claude: el servidor de Stripe también puede escribir (reembolsos, links de pago)
 - [ ] Ningún token quedó en un chat, documento, captura ni archivo de configuración compartido
 - [ ] Claude lista bien las 4 tablas de Airtable y los objetos de Stripe (clientes, cobros, suscripciones)
 - [ ] Las 3 primeras preguntas verificadas (tabla de abajo)
@@ -88,7 +89,7 @@ Estás conectado a mi base de Airtable "CRM Ventas" y a la cuenta de Stripe del 
 > Wiki operativa · Sistemas · Claude + datos
 
 - **Responsable:** operaciones.
-- **Conexiones:** conector oficial de Airtable (solo la base CRM Ventas, lectura) y servidor oficial de Stripe como conector personalizado (usuario de solo lectura).
+- **Conexiones:** conector oficial de Airtable (solo la base CRM Ventas, lectura) y conector oficial de Stripe (usuario del negocio, permisos de lectura). Verificados el 12/10/2026: revisar en la próxima actualización de la wiki.
 - **Dónde viven las credenciales:** solo en la configuración de cada conexión.
 - **Cuentas:** las dos son del negocio. Si alguna pasa a la cuenta personal de alguien, se revisa esta página.
 - **Claude puede:** leer y armar resúmenes y listas.

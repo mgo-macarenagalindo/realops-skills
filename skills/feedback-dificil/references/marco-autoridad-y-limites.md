@@ -8,6 +8,8 @@ Como en una llamada de venta: el marco es **quién lleva la conversación y haci
 
 **El marco se setea en los primeros dos minutos**: el para qué de la reunión, tu rol dicho en voz alta y la estructura de lo que van a hablar. Después, cada vez que te lo quieran llevar, volvés a él.
 
+> Los tiempos que aparecen en las frases (20 minutos de reunión, dos semanas de prueba, un video de 5 minutos) son **orientativos**: ajustalos al negocio.
+
 ## Modo 3 · Marco y autoridad
 
 ### Preguntas (de a una)

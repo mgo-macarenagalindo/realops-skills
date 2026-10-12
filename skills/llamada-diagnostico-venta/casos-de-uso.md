@@ -22,9 +22,9 @@ Cuatro situaciones donde esta skill te arma el script para hablar con un founder
 
 **Qué le pasás.** Lo que sabés del negocio, tu oferta y tu precio.
 
-**Qué te devuelve.** El script B, bloque por bloque: rapport corto, encuadre, de qué puerta viene (salir de la operativa, crecer u ordenar los números), las preguntas para que diga sus dolores, el costo de no actuar, la presentación conectada a lo que dijo, el precio y las objeciones más probables para este founder.
+**Qué te devuelve.** El script B, bloque por bloque: rapport corto, encuadre, de qué puerta viene (salir de la operativa, crecer u ordenar los números), las preguntas para que diga sus dolores (con el número de cada Dolor Mortal del Backstage, el mismo que vas a usar en el diagnóstico), el costo de no actuar, la presentación conectada a lo que dijo, el precio y las objeciones más probables para este founder.
 
-**Por qué sirve.** Llegás con la estructura que usa un equipo comercial que vende servicios de operaciones, adaptada a tu voz y sin trucos de presión.
+**Por qué sirve.** Llegás con la estructura que usa un equipo comercial que vende servicios de operaciones, adaptada a tu voz y sin trucos de presión: un solo precio (o un descuento que ya esté escrito en tu oferta) y urgencia solo si es real.
 
 ---
 

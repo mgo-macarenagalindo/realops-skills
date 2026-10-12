@@ -32,7 +32,7 @@ Cuatro situaciones donde esta skill te saca del "no sé cómo armar la propuesta
 
 **La situación.** Un founder que factura bien quiere consolidar un número mensual más alto y te propone sumarte (con un socio comercial) a ordenar ventas, marketing, servicio y sistemas a la vez.
 
-**Qué le pasás.** El objetivo de facturación, los frentes y quién lidera cada uno.
+**Qué le pasás.** El objetivo de facturación, los frentes y quién lidera cada uno. Si es un cliente nuevo, la skill primero chequea que estén las tres condiciones del C (objetivo con número, invitación a sumarte al equipo, 6 meses posibles); si falta alguna, te propone arrancar con un proyecto A. Si ya trabajaste con ese founder, te deriva a **Retención, Upsells y LTV** (tu continuidad).
 
 **Qué te devuelve.** Un plan estratégico por área, quién lidera cada frente, cómo se mide el éxito, un compromiso mínimo de 6 meses con balance al final, y la inversión como fee fijo más un variable por tramos de cash collected.
 
@@ -46,6 +46,6 @@ Cuatro situaciones donde esta skill te saca del "no sé cómo armar la propuesta
 
 **Qué le pasás.** El diagnóstico de un caso práctico y cuánto querés ganar por mes.
 
-**Qué te devuelve.** La propuesta completa, marcada como ejercicio, con tu valor hora calculado desde lo que querés ganar (o un valor de prueba marcado como supuesto) y la lista de lo que tendrías que confirmar con un cliente real.
+**Qué te devuelve.** La propuesta completa, marcada como ejercicio, con tu valor hora calculado desde lo que querés ganar (o un valor de prueba marcado como supuesto), el contraste con los pisos que se dieron en clase (orientativo) y la lista de lo que tendrías que confirmar con un cliente real.
 
 **Por qué sirve.** La primera vez que pasás un precio no debería ser frente a un cliente.

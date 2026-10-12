@@ -73,6 +73,53 @@ Estructura:
 
 Las respuestas van a una base de formularios separada de la comercial (clase del 27/04).
 
+## 4b. Las encuestas, listas para pegar en Google Forms
+
+Cambiá solo lo que está entre corchetes: los entregables del servicio, el objetivo del cliente y el nombre del programa. Lo demás se pega tal cual. (En Tally, Typeform o el formulario de Airtable o Notion, los tipos de pregunta tienen el mismo nombre o uno parecido.)
+
+**Configuración del formulario (Google Forms → Configuración):**
+- **Recopilar direcciones de correo: "Verificadas"** (o pedir el mail como primera pregunta si los clientes no usan Google). Sin el mail no se sabe a quién llamar cuando hay una nota baja.
+- **Limitar a 1 respuesta:** desactivado si el cliente no tiene cuenta de Google.
+- **Respuestas → Vincular con Hojas de cálculo:** una planilla en la cuenta del negocio, **separada de la comercial**.
+- Todas las preguntas de nota, **obligatorias**. Las abiertas, opcionales (si no, contestan "nada").
+
+### Encuesta intermedia (la 1 y la 2)
+
+**Título:** [Nombre del programa] · ¿Cómo vas? (2 minutos)
+**Descripción:** Tus respuestas las lee el equipo y sirven para ajustar el programa mientras lo estás haciendo, no cuando termina. Si algo no está funcionando, este es el lugar para decirlo.
+
+1. **Tu mail** · *Respuesta corta* (si no se recopila solo).
+2. **Sección "Cada parte del programa"** · Para cada entregable, dos preguntas seguidas:
+   - **Del 1 al 10, ¿cuánto te está sirviendo [entregable: los encuentros en vivo / el curso grabado / las plantillas / la revisión 1 a 1 / el seguimiento cada 15 días / la comunidad]?** · *Escala lineal 1 a 10*, etiquetas: 1 = "No me sirve", 10 = "Me sirve muchísimo". Obligatoria.
+   - **¿Qué mejorarías de [entregable]?** · *Párrafo*. Opcional.
+   *(Misma escala para todos los entregables: si una es de 1 a 10, todas son de 1 a 10.)*
+3. **¿Qué te falta para [objetivo del cliente: lanzar tu programa]?** · *Párrafo*. Obligatoria.
+4. **Del 0 al 10, ¿qué tan probable es que recomiendes [nombre del programa] a alguien que esté como estabas vos al empezar?** · *Escala lineal 0 a 10*, etiquetas: 0 = "Nada probable", 10 = "Muy probable". Obligatoria.
+5. **¿Por qué pusiste ese número?** · *Párrafo*. Opcional.
+6. **¿Querés que alguien del equipo te llame para hablar de algo de esto?** · *Opción múltiple*: Sí, esta semana · No, por ahora está todo bien.
+
+### Encuesta final (antes de la última semana, no el último día)
+
+**Título:** [Nombre del programa] · Cierre (3 minutos)
+**Descripción:** Estás por terminar. Contanos cómo fue, qué te llevás y qué te faltó: con esto mejoramos el programa para los que vienen.
+
+1. **Tu mail** · *Respuesta corta*.
+2. **Las mismas preguntas de la sección "Cada parte del programa"** (nota 1 a 10 + qué mejorarías, por entregable).
+3. **Cuando empezaste, [punto A en una línea: "cobrabas por hora y no tenías programa"]. ¿Dónde estás hoy?** · *Párrafo*. Obligatoria. (Es la materia prima del caso de éxito.)
+4. **¿Qué te faltó para [objetivo del cliente]?** · *Párrafo*.
+5. **NPS:** la misma pregunta del 0 al 10 y "¿Por qué pusiste ese número?".
+6. **¿Nos das permiso para contar tu caso?** · *Opción múltiple*: Sí, con mi nombre · Sí, sin mi nombre · No.
+7. **¿Te animás a grabar un testimonio corto (1 a 2 minutos)?** · *Opción múltiple*: Sí · Prefiero escribirlo · No.
+8. **¿Conocés a alguien que esté como estabas vos al empezar?** · *Respuesta corta* (nombre y cómo contactarlo, solo si la persona está de acuerdo). Opcional.
+
+### Qué se hace con las respuestas
+
+- **Nota de 6 o menos en cualquier entregable, NPS de 6 o menos, o "Sí, esta semana" en la pregunta 6** → llamada en 48 h de alguien del servicio. *(El corte en 6 es criterio orientativo: es donde el NPS empieza a contar "detractores".)*
+- **Cómo te enterás sin mirar la planilla todos los días:** en la planilla de respuestas, formato condicional que pinta de rojo la fila con alguna nota de 6 o menos, y alguien la revisa dos veces por semana (gratis). Si querés el aviso automático (un mensaje al CSM apenas entra una respuesta baja), es una automatización: **Diseñador de Automatizaciones** te ayuda a elegir la plataforma.
+- **Los permisos de caso y testimonio** pasan a la base del cliente, no se quedan en la planilla.
+
+---
+
 ## 5. Retrospectiva mensual (servicios grupales)
 
 60 a 90 minutos, una vez por mes, con tres momentos (clase del 29/04):

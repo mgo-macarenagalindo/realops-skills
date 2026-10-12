@@ -5,7 +5,7 @@
 ## Quién es
 
 - Founder, CEO o COO de un infoproducto, mentoría, programa high ticket o agencia. Latam y España.
-- Factura en general **entre USD 20K y 150K por mes** (con meses que suben y bajan según el lanzamiento).
+- Factura en general **entre USD 20K y 150K por mes** (rango orientativo, de la investigación de mercado) (con meses que suben y bajan según el lanzamiento).
 - Equipo de 3 a 20 personas: setters, closers, alguien "de todo lo administrativo", CSM, editor, media buyer.
 - Vende por llamada. Decide rápido cuando ve **autoridad y casos concretos**, y compra alto ticket si el retorno está claro.
 - Cree que la operación "se ordena cuando tenga tiempo". No quiere aprender operaciones: quiere que alguien lo resuelva y poder monitorearlo.
@@ -14,21 +14,26 @@
 
 Casi siempre llega por una de estas tres. La pregunta "¿qué te motivó a agendar?" te dice cuál es, y eso define qué problemas cavar:
 
-| Puerta | Lo que dice | Problemas que suele haber debajo |
-|---|---|---|
-| **Salir de la operativa para disfrutar** | "Quiero irme de vacaciones y que esto no se caiga" | Apaga incendios todo el día · el equipo falla en lo mismo · todo pasa por él (accesos, cobros, aprobaciones) |
-| **Salir de la operativa para crecer** | "Podría duplicar, pero el equipo no lo sostiene" | Equipo que depende del founder · roles difusos · nadie propone, todos esperan instrucciones |
-| **Ordenar los números para decidir** | "Pregunto un número y cada uno me da uno distinto" | No sabe cuánto cobró (solo cuánto vendió) · comisiones a mano · no sabe qué anuncio vende · no sabe qué closer rinde |
-
-## Los 5 dolores que se repiten
-
-| Dolor | Cómo suena en la llamada | Pregunta para que lo diga él | Qué le costaría (para la consecuencia) |
+| Puerta | Lo que dice | Problemas que suele haber debajo | Dolores Mortales a cavar |
 |---|---|---|---|
-| **1. Todo depende de él** | "Todo terminaba recayendo en mí, en qué hago, cómo resuelvo, cómo se hace esto, qué le digo a este." · "Mi WhatsApp estaba súper reventado." | "Si te vas dos semanas, ¿qué se cae primero?" · "¿Qué estás haciendo vos que a esta altura no deberías hacer?" | Vacaciones que no se toma; el negocio no crece más allá de sus horas. |
-| **2. Caos normalizado** | "Uno no sabe lo mal que está hasta que empieza a estar bien." | "Contame la última vez que algo se rompió. ¿Quién se enteró y cómo?" | No lo ve como problema: hay que llevarlo al ejemplo concreto. |
-| **3. Equipo sin autonomía** | "Es más un conjunto de personas, cada uno a su propia bola." | "¿Qué procesos existen pero dependen de la memoria de alguien?" · "¿Pensaste que alguien te podía renunciar?" | Rotación, el mejor del equipo se quema, el founder vuelve a hacerlo él. |
-| **4. Datos dispersos y que no coinciden** | "Cuando pregunto un número, cada uno me da uno distinto." · "Hay muchos datos, pero nadie los analiza." | "¿Ese número es lo vendido o lo cobrado?" · "¿Cómo sabés qué closer rinde y qué anuncio vende?" · "¿La comisión se paga sobre lo vendido o lo cobrado?" | Comisiones mal pagadas, presupuesto en el anuncio que no vende, decisiones por intuición. |
-| **5. No puede crecer sin romperse** | "Si crecemos, me quiebro aún más." | "Si mañana duplicás las ventas, ¿tu operación lo sostiene?" | Techo de facturación; cada cliente nuevo agrega caos. |
+| **Salir de la operativa para disfrutar** | "Quiero irme de vacaciones y que esto no se caiga" | Apaga incendios todo el día · el equipo falla en lo mismo · todo pasa por él (accesos, cobros, aprobaciones) | 4 · 1 · 5 |
+| **Salir de la operativa para crecer** | "Podría duplicar, pero el equipo no lo sostiene" | Equipo que depende del founder · roles difusos · nadie propone, todos esperan instrucciones | 4 · 2 · 5 |
+| **Ordenar los números para decidir** | "Pregunto un número y cada uno me da uno distinto" | No sabe cuánto cobró (solo cuánto vendió) · comisiones a mano · no sabe qué anuncio vende · no sabe qué closer rinde | 3 · 6 |
+
+## Los 6 Dolores Mortales del Backstage (numeración oficial)
+
+Usá **siempre esta numeración**: es la del Cuestionario de Diagnóstico Operativo RealOps™, y la misma que usan la Entrevista Guiada al Founder, el Cuestionario por Rol y el Diagnóstico Operativo. Así, lo que escuchás en la llamada de venta pasa directo al diagnóstico cuando el founder te contrata.
+
+| # | Dolor Mortal del Backstage | Cómo suena en boca del founder | Pregunta para que lo diga él | Qué le cuesta (para la consecuencia) |
+|---|---|---|---|---|
+| **1** | **Reuniones eternas e ineficientes** (la información no fluye) | "Mi WhatsApp estaba súper reventado." · "Me entero tarde de las cosas." | "Contame la última vez que algo se rompió. ¿Quién se enteró y cómo?" · "¿Cuántas horas por semana estás respondiendo preguntas del equipo?" | Horas del founder en mensajes y reuniones; problemas que llegan tarde. |
+| **2** | **Información dispersa** | "Nadie sabe dónde está nada." · "Uno no sabe lo mal que está hasta que empieza a estar bien." | "¿Qué procesos existen pero dependen de la memoria de alguien?" · "Si mañana se va [persona clave], ¿qué se pierde?" | Todo vuelve a preguntarse; si alguien se va, se va el proceso. |
+| **3** | **Fuga de datos y métricas** | "Cuando pregunto un número, cada uno me da uno distinto." · "Hay muchos datos, pero nadie los analiza." | "¿Ese número es lo vendido o lo cobrado?" · "¿Cómo sabés qué closer rinde y qué anuncio vende?" · "¿La comisión se paga sobre lo vendido o lo cobrado?" | Comisiones mal pagadas, presupuesto en el anuncio que no vende, decisiones por intuición. |
+| **4** | **Roles difusos** | "Todo terminaba recayendo en mí: qué hago, cómo resuelvo, qué le digo a este." · "Es más un conjunto de personas, cada uno a su propia bola." | "Si te vas dos semanas, ¿qué se cae primero?" · "¿Qué estás haciendo vos que a esta altura no deberías hacer?" | El founder es el cuello de botella; el mejor del equipo se quema o se va. |
+| **5** | **Cultura del sobreesfuerzo** | "Trabajando de las 5 de la mañana hasta las 9 de la noche." · "Si crecemos, me quiebro aún más." | "¿Cuántas horas trabajaste la semana pasada? ¿Cuántas fuera de horario?" · "Si mañana duplicás las ventas, ¿tu operación lo sostiene?" | Vacaciones que no se toma; techo de facturación; desgaste del equipo. |
+| **6** | **Tareas manuales sin automatizar** | "Las comisiones las arma alguien a mano." · "Los accesos los doy yo, uno por uno." | "¿Qué se hace a mano todas las semanas? ¿Cuántas horas lleva?" · "¿Qué herramientas pagás que casi no se usan?" | Horas que se van en copiar y pegar; errores; herramientas pagas sin uso. |
+
+Dos síntomas cruzan varios dolores y conviene escucharlos aparte: **"todo depende de mí"** (casi siempre 4 + 1 + 5) y **"no puedo crecer sin romperme"** (el techo operativo: 5 + 6). Cuando aparezcan, anotá a qué dolores numerados apuntan.
 
 ## Lo emocional (escuchalo, no lo fuerces)
 
@@ -53,15 +58,18 @@ El founder no compra "un Airtable". Compra **tiempo, claridad y paz mental**, y 
 
 ## Del dolor al entregable (para la llamada 2 o la presentación)
 
+Entre paréntesis, el número del Dolor Mortal.
+
+
 | Lo que dijo | Lo que le ofrecés (como objeto, no como herramienta) |
 |---|---|
-| "No sé cuánto cobré" | Tablero con vendido contra cobrado y cuotas vencidas, actualizado solo |
-| "Las comisiones las arma alguien a mano" | Comisión calculada desde lo cobrado, sin planilla |
-| "No sé qué closer rinde" | Tasa de cierre por closer y por fuente de lead |
-| "Todo pasa por mí" | Procesos escritos y reglas (por ejemplo: acceso automático con pago verificado) |
-| "Nadie sabe dónde está nada" | Una sola base y una wiki con lo que hoy vive en WhatsApp |
-| "No sé qué anuncio vende" | Ventas por anuncio, no solo agendas por anuncio |
-| "El equipo me pregunta todo" | Roles con descriptor y reporte de fin de día |
+| "No sé cuánto cobré" (3) | Tablero con vendido contra cobrado y cuotas vencidas, actualizado solo |
+| "Las comisiones las arma alguien a mano" (3 y 6) | Comisión calculada desde lo cobrado, sin planilla |
+| "No sé qué closer rinde" (3) | Tasa de cierre por closer y por fuente de lead |
+| "Todo pasa por mí" (4) | Procesos escritos y reglas (por ejemplo: acceso automático con pago verificado) |
+| "Nadie sabe dónde está nada" (2) | Una sola base y una wiki con lo que hoy vive en WhatsApp |
+| "No sé qué anuncio vende" (3) | Ventas por anuncio, no solo agendas por anuncio |
+| "El equipo me pregunta todo" (1 y 4) | Roles con descriptor y reporte de fin de día |
 
 ## Objeciones típicas de este avatar
 

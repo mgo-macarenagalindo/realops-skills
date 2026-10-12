@@ -13,10 +13,10 @@
 | Comunicación interna | Discord | Canales por área y reporte de fin de día | USD 0 | Slack | El equipo ya lo usa con la comunidad; Slack sumaba una app más sin ventaja para 6 personas |
 | Gestión de tareas | Notion | Tareas del equipo, calendario de contenido | USD 40 | Asana | Notion ya es la wiki y el calendario: tener las tareas ahí evita una herramienta más |
 | Wiki y documentación | Notion | SOPs, accesos (nombrados), quién es quién | (incluido) | Google Drive suelto | Drive queda para archivos, no para navegar procesos |
-| CRM de ventas del programa | Airtable, en una cuenta del negocio | Agendas, deals y cuotas del programa de formación | USD 45 | Seguir en la planilla | La planilla no cruza con la pasarela, ya hubo dos ventas contadas dos veces y vive en el Drive personal de la closer |
+| CRM de ventas del programa | Airtable, en una cuenta del negocio | Agendas, deals y cuotas del programa de formación | USD 45 | Seguir en la planilla; Airtable gratis | La planilla no cruza con la pasarela, ya hubo dos ventas contadas dos veces y vive en el Drive personal de la closer. El plan gratis alcanzaría unos 5 meses archivando a mano los leads cerrados; se paga desde el mes 5, cuando el límite llega en menos de 3 meses (criterio orientativo) |
 | Membresía y cobro recurrente | Plataforma actual de membresías | Acceso y cobro mensual | USD 99 | La plataforma nueva que vio el founder | Resuelve lo mismo que la actual; migrar 650 miembros con cobro recurrente es el mayor riesgo del negocio |
 | Cobros del programa | Pasarela actual | Cuotas del programa | Comisión por venta | — | Funciona: no se toca |
-| Automatización | Zapier | Agenda → Airtable, venta → aviso a Discord | USD 30 | n8n | Son menos de 500 ejecuciones por mes y la asistente ya sabe usarlo; no hay excedentes |
+| Automatización | Zapier | Agenda → Airtable, venta → aviso a Discord | USD 30 | Make y n8n | Zapier: el más fácil y ya lo usa la asistente. Make daría más operaciones por dólar y n8n ejecuciones casi ilimitadas, pero con menos de 500 ejecuciones por mes, sin excedentes y nadie técnico, esa ventaja no se aprovecha |
 | Reportes | Interface de Airtable | Ventas, cobrado y cuotas del mes | (incluido) | Herramienta de dashboards aparte | Con una sola fuente de datos alcanza para lo que el founder quiere ver |
 
 ## Costo mensual total de herramientas
@@ -85,10 +85,18 @@ Zapier se queda, pero pasa a una cuenta del negocio: si la asistente se va, hoy 
 
 Fricción que justifica "resuelve el dolor": en el último mes hubo dos ventas contadas dos veces y la closer cruza cada cuota con la pasarela a mano. La planilla **es** la causa, así que no puede sacar más de 2 en ese criterio aunque sea gratis y conocida. Sin ese criterio, la planilla empataba con las otras dos opciones.
 
-### Precios a verificar
+### Precios verificados
 
-Todos los montos de este ejemplo son inventados. En un caso real, cada precio se verifica en la página oficial de la herramienta el día que se arma la pieza.
+Todos los montos de este ejemplo son inventados. En un caso real, la tabla se ve así:
+
+| Herramienta | Plan | Precio | Fuente | Fecha |
+|---|---|---|---|---|
+| Airtable | Team | USD [x] por editor por mes, pago anual | página oficial de precios | [fecha] |
+| Zapier | [plan] | USD [x] por mes | página oficial de precios | [fecha] |
+| Programa de mails | — | referencia sin verificar · [mes y año] | confirmar en [link] | — |
+
+El total de arriba es **total estimado** mientras quede una fila sin verificar.
 
 ---
 
-¿Querés la versión para presentarle al founder en 5 líneas, o el mensaje para el equipo con lo que cambia? Antes de mostrarlo, verificá en la página oficial los precios marcados como a verificar.
+¿Querés la versión para presentarle al founder en 5 líneas, o el mensaje para el equipo con lo que cambia? Precios verificados el [fecha]; si lo presentás después de un mes, volvé a mirarlos.

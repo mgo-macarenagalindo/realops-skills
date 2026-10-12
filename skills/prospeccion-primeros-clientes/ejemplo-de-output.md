@@ -1,6 +1,6 @@
 # Ejemplo de output · Prospección de Primeros Clientes
 
-> Datos ficticios. Lucas Medina trabaja como administrativo y terminó las actividades del programa. Armó en el sandbox un CRM de ventas con canal de origen y un circuito de recordatorios antes de la llamada. Nunca tuvo un cliente de operaciones. Tiene unos 600 contactos en LinkedIn (exempleados de una agencia de marketing donde trabajó) y 400 seguidores en Instagram. Inglés intermedio. Puede dedicarle 1 hora y media por día.
+> Datos ficticios. Lucas Medina trabaja como administrativo y terminó las actividades del programa. Armó en el sandbox un CRM de ventas con canal de origen y un circuito de recordatorios antes de la llamada. Nunca tuvo un cliente de operaciones. Tiene unos 600 contactos en LinkedIn (exempleados de una agencia de marketing donde trabajó) y 400 seguidores en Instagram. Inglés B1 (lo midió con un test de nivel gratuito). Puede dedicarle 1 hora y media por día.
 
 ---
 
@@ -17,6 +17,14 @@ Servicio: "Recordatorios que llenan la llamada" (puerta de entrada) y diagnósti
 
 Nada se presenta como hecho para un cliente. No lo necesitás: lo que vende es que funcione.
 
+## Tus 3 diagnósticos sin cargo
+
+Ofrecés **tres** (como en la clase del 23/07), no abrís un cuarto hasta presentar los hallazgos de esos tres:
+
+- **Incluye:** una llamada de 45 minutos con el Cuestionario de Diagnóstico Operativo, sin pedir accesos, y una segunda de 20 minutos con 3 a 5 hallazgos (con el número del Dolor Mortal) y una propuesta de tres meses.
+- **No incluye:** implementar nada, entrar a sus herramientas ni "ya que estás, mirame esto".
+- **Desde cuándo se cobra** (criterio orientativo): cuando cierres tus primeros tres proyectos o tengas más pedidos que lugares.
+
 ## El plan día por día
 
 | Día | Fecha | Qué hacés | Meta |
@@ -28,7 +36,7 @@ Nada se presenta como hecho para un cliente. No lo necesitás: lo que vende es q
 | 5 | 24/10 | Mensajes en frío con hallazgo | 5 |
 | 6 | 27/10 | Seguimiento a los días 3 y 5 | Todos con 2 contactos |
 | 7 | 28/10 | Mensajes en frío con hallazgo (los otros 5) | 5 |
-| 8 | 29/10 | Llamadas que hayan salido (con la skill Llamada de Diagnóstico) | Las que haya |
+| 8 | 29/10 | Llamadas que hayan salido (con la skill Script de Ventas con Founders) | Las que haya |
 | 9 | 30/10 | Segundo seguimiento a los días 5 y 7 | Todos con 2 contactos |
 | 10 | 31/10 | Revisión | 3 llamadas agendadas |
 
@@ -63,7 +71,7 @@ Upwork queda para la segunda quincena: primero probá con tu red, que es más r�
 
 ## Tu tabla de seguimiento
 
-| Nombre | Fuente (de dónde salió) | Canal | Nicho | Fecha 1er contacto | Respuesta | Fecha seguimiento | Estado | Dolor que mencionó |
+| Nombre | Fuente (de dónde salió) | Canal | Nicho | Fecha 1er contacto | Respuesta | Fecha seguimiento | Estado | Dolor que mencionó (frase + # del Dolor Mortal) |
 |---|---|---|---|---|---|---|---|---|
 
 ## Qué hacés el día 10

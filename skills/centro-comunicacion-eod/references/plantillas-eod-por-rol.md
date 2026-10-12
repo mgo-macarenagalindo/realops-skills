@@ -1,13 +1,14 @@
 # Plantillas de EOD por rol
 
-> Referencia de la skill **Centro de Comunicación y Reporte de Fin de Día**. Las plantillas marcadas **(modelo RealOps)** salen del documento "M2. Modelos de Reportes EOD" del programa. Las marcadas **(extensión)** siguen el mismo estándar para roles que el modelo no trae. Cargá este archivo cuando armes los EOD.
+> Referencia de la skill **Centro de Comunicación y Reporte de Fin de Día**. Las plantillas marcadas **(modelo RealOps)** salen del documento "M2. Modelos de Reportes EOD" del programa (revisado el 12/10/2026). Las marcadas **(extensión)** siguen el mismo estándar para roles que el modelo no trae: **no están en el doc M2**, son un criterio orientativo de RealOps y en la entrega se rotulan así ("extensión, no está en los modelos del programa"). Cargá este archivo cuando armes los EOD.
 
 ## Estándares que valen para todos los roles
 
 1. **Todos los días hábiles, antes de terminar la jornada.** Para quien trabaja por pieza o pocas horas por semana, la versión semanal: **EOW** (End Of the Week), el último día hábil.
 2. **Claro, concreto y honesto:** hechos y aprendizajes, no justificaciones.
 3. **Energía del 1 al 10, obligatoria en todos los roles.**
-4. **Un solo Big Rock por EOD:** la acción más importante del día, con impacto directo en los objetivos del trimestre. Si no hubo, se aclara en una línea por qué. Lo llevan los roles que manejan su agenda (servicio, gestión, operaciones). Setters y closers no lo llevan: su día lo marcan los números.
+4. **Un solo Big Rock por EOD:** la acción más importante del día, con impacto directo en los objetivos del trimestre. Si no hubo, se aclara en una línea por qué. Lo llevan **obligatorio** los roles que manejan su agenda (servicio, gestión, operaciones), como en el modelo.
+   **Setters y closers: Big Rock opcional, al final del EOD** (*criterio orientativo de RealOps: el modelo no lo trae en sus plantillas y Macarena no lo fijó*). Su día lo marcan los números, así que la línea **solo se completa si hubo una acción que los números no muestran** (armar el guion de una objeción nueva, probar un mensaje de seguimiento, ponerse al día con la base) y **si no hubo, queda vacía sin justificar**. Así no se les suma trabajo todos los días y el estándar "un solo Big Rock" se respeta cuando lo hay. Si un setter o closer tiene además otro rol (la setter que también cobra), el Big Rock va obligatorio en el bloque de ese otro rol.
 5. **El feedback aporta criterio, señales o mejoras**, no solo describe el día. "Hoy tres leads preguntaron por cuotas sin interés: ¿lo sumamos al guion?" sirve; "día tranqui" no.
 6. **Lo que no se reporta, no existe.**
 7. **El EOD no es control: es visibilidad, foco y mejora continua.**
@@ -40,6 +41,7 @@ Antes de dejar un campo: **¿quién lo mira y qué decide con él?** Si nadie, s
 🔋 Nivel de energía (1–10):
 🗣️ Feedback del día:
 💻 Links de llamadas:
+🪨 Big Rock (opcional: solo si hubo una acción fuera de los números):
 ```
 
 Qué decide cada bloque: agendadas → asistidas → no show / reagendadas / canceladas muestra si el problema está antes de la llamada (agenda, recordatorios, calidad del lead). Calificadas → cierres muestra la conversión del closer. Recolectado hoy es caja, no facturación: **solo si el closer cobra** (si cobra coordinación o administración, va en su EOD). Reservas, solo si el negocio las usa. Links de llamadas: sin grabación no hay revisión de llamadas ni traspaso.
@@ -60,6 +62,7 @@ Qué decide cada bloque: agendadas → asistidas → no show / reagendadas / can
 ☎️ Agendas outbound:
 🔋 Nivel de energía (1–10):
 🗣️ Feedback del día:
+🪨 Big Rock (opcional: solo si hubo una acción fuera de los números):
 ```
 
 Inbound y outbound van **separados** (clase del 03/06): así se ve en qué paso se cae el lead en cada canal. Si no hay outbound, esas dos líneas no van. Si el setter hace una llamada de calificación antes de pasar al closer, sumá "Llamadas de calificación hechas" y "Pasadas a closer".
@@ -157,6 +160,8 @@ Para servicios done for you o negocios con renovaciones y upsells. En un infoneg
 ---
 
 ## Roles que el modelo no trae (extensión, mismo estándar)
+
+> **No están en el doc "M2. Modelos de Reportes EOD".** Son criterio orientativo de RealOps con el mismo estándar del modelo. En la entrega, cada una lleva la marca **(extensión)** para que el alumno sepa que no es un modelo oficial del programa.
 
 ### 🌙 EOD Coordinación administrativa / Cobros (extensión)
 

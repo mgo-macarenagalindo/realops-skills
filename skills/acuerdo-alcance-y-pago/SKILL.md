@@ -48,6 +48,7 @@ Preguntas guía, de a una:
 1. ¿Cuántas semanas dura y cuántas horas por semana le vas a dedicar? *(Típico de un primer proyecto de ordenar ventas y cobros en un infonegocio: 8 a 12 semanas, 6 a 10 horas por semana, o sea 60 a 110 horas.)*
 2. ¿Cuánto querés ganar por hora? Si tenés empleo: sueldo del mes ÷ 160. Si no, el valor hora que querés ganar. *(Quien arranca en operaciones suele moverse entre US$12 y US$25 la hora: es un rango orientativo para destrabar la cuenta, sin fuente de mercado detrás. Ajustalo a tu país. Si querés hacer la cuenta completa de tu valor hora y tus precios, usá la skill **Tabla de Precios de tu Servicio** y traé el número.)*
 3. ¿Cuánto le cuesta al cliente el problema por mes? Horas del equipo que se pierden × lo que cuesta esa hora, plata sin cobrar, ventas que se caen. *(Si el caso trae un registro de fricción o cuotas vencidas, sale de ahí.)*
+4. **¿Cuánto cuesta la hora de esas personas del equipo?** Lo que les paga el founder por mes ÷ las horas que trabajan (jornada completa: ÷ 160). Preguntalo siempre: es el dato que más mueve el valor. Si no lo sabe, se trabaja con **dos escenarios** (ver abajo), nunca con uno solo.
 
 Con eso, la cuenta, en una tabla corta **fuera del acuerdo** (es para la persona, no para el cliente): horas × 1,3 (coordinación) × valor hora = **piso**.
 
@@ -56,7 +57,15 @@ Con eso, la cuenta, en una tabla corta **fuera del acuerdo** (es para la persona
 - **Conservador:** solo lo que hoy ya se pierde y se puede medir (por ejemplo, horas del equipo × costo hora). Sin recuperos ni mejoras.
 - **Con mejoras:** el conservador más lo que depende de un supuesto optimista (recuperar cuotas vencidas, ventas que dejan de caerse). Cada supuesto de esos, rotulado.
 
-**El precio se elige contra el conservador**: entre el piso y la mitad del valor conservador de un año (o sea, que ese valor sea al menos el doble del precio). Redondeá. La línea "con mejoras" es un argumento extra para la conversación, nunca la base del número. Si el piso queda por encima de la mitad del conservador, decilo en la lista: o el proyecto se achica, o falta un dato del costo del problema. El costo hora del equipo, si no está en el caso, también es un supuesto y va rotulado. Si alguno de los tres datos falta, usá el número típico de arriba y rotulalo. Si tampoco quiere hacer la cuenta: usá el piso con 80 horas y US$15 la hora (US$1.560 → US$1.500), rotulado *(Supuesto a validar con vos al cotizar: 80 h × 1,3 × US$15, no es precio de mercado)*. Si el cliente factura mucho más que eso por mes, decilo en la lista: el número de partida probablemente queda bajo.
+**El precio se elige contra el conservador**: entre el piso y la mitad del valor conservador de un año (o sea, que ese valor sea al menos el doble del precio). Redondeá. La línea "con mejoras" es un argumento extra para la conversación, nunca la base del número. **Esta regla de "la mitad" es un criterio orientativo de la skill, no sale de una clase:** es una forma prudente de que el cliente recupere al menos dos veces lo que paga en el año aunque no salga nada de lo optimista. Decilo así en la cuenta, con el rótulo *(criterio orientativo)*.
+
+**Si el costo hora del equipo no lo sabés (dos escenarios):** calculá el conservador con un **escenario bajo** y uno **habitual** (orientativo, sin fuente de mercado: US$8 y US$10 la hora para un rol administrativo o de coordinación; ajustalo a su país). **El techo se toma del escenario bajo.** Así el precio aguanta aunque el dato real salga más bajo, y no depende de que la persona se acuerde de revisarlo. Los dos escenarios van en la cuenta y el costo hora va a "Supuestos a validar".
+
+**Si el piso queda por encima del techo**, no lo dejes como aviso: resolvelo en la cuenta con las dos salidas y sus números, y elegí la prudente por defecto:
+- **Achicar el alcance** (por defecto): sacá o pasá a "adicional" el entregable que menos mueve el objetivo, recalculá horas y piso, y mostrá el nuevo número.
+- **Validar el dato** antes de cotizar: si el founder confirma un costo hora más alto o hay otro costo medible (cuotas que ya se dan por perdidas, comisiones pagadas de más), el techo sube; recién ahí se vuelve al alcance completo.
+
+**Contraste con los pisos de clase (orientativo, no tarifa):** para un proyecto se dio "no menos de US$500 por mes" (08/06) y una primera propuesta de "US$1.000 los tres meses, o US$400 a 500 por mes, no menos" (25/05). Si el precio de la cuenta queda por debajo, revisá horas o valor hora antes de bajarlo. Si alguno de los tres datos falta, usá el número típico de arriba y rotulalo. Si tampoco quiere hacer la cuenta: usá el piso con 80 horas y US$15 la hora (US$1.560 → US$1.500), rotulado *(Supuesto a validar con vos al cotizar: 80 h × 1,3 × US$15, no es precio de mercado)*. Si el cliente factura mucho más que eso por mes, decilo en la lista: el número de partida probablemente queda bajo.
 
 ### "No sé cómo se paga"
 
@@ -143,7 +152,7 @@ Las **dos páginas son las 13 secciones**. Aparte, después del acuerdo, van los
 
 - El **registro de adicionales** (tabla: fecha · pedido · quién lo pidió · se cotiza o reemplaza · estado) para que la persona lleve aparte todo lo que aparece en el camino.
 - **Supuestos a validar**: cada supuesto, en qué sección está, por qué y con quién se valida. Si no hubo supuestos, no va.
-- **La cuenta del precio**, si el precio salió del plan B (tabla corta: horas · ×1,3 · valor hora · piso · valor conservador · valor con mejoras · precio), con la remisión a **Tabla de Precios de tu Servicio** para hacer la cuenta completa.
+- **La cuenta del precio**, si el precio salió del plan B (tabla corta: horas · ×1,3 · valor hora · piso · valor conservador en sus dos escenarios · techo del escenario bajo · valor con mejoras · precio · contraste con los pisos de clase), con la remisión a **Tabla de Precios de tu Servicio** para hacer la cuenta completa.
 - El mensaje para mandarlo (si lo pide).
 
 ## Al final, siempre

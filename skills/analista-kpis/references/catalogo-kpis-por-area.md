@@ -1,6 +1,6 @@
 # Catálogo de KPIs por área · infonegocios
 
-> Referencia de la skill **Analista de KPIs** (RealOps™). No es para medir todo: es el menú del que elegís. Para cada área, empezá por la fila marcada **★** (la mínima) y sumá las demás sólo si hay dato y alguien va a decidir con ellas.
+> Referencia de la skill **Analista de KPIs** (RealOps™). No es para medir todo: es el menú del que elegís. Para cada área, empezá por la fila marcada **★** (la mínima) y sumá las demás sólo si hay dato y alguien va a decidir con ellas. Los valores de alarma de las fichas son **orientativos** (criterio de MG Operations), salvo asistencia y los dos cierres, que salen de clase: ajustalos a la tendencia de cada negocio.
 
 Cada KPI trae: **qué pregunta responde · cómo se calcula · de dónde sale · qué decisión dispara.** Si un número no dispara ninguna decisión, no va al tablero.
 
@@ -102,6 +102,9 @@ Todo se corta **por canal** (pauta, Instagram orgánico, YouTube, referidos, Wha
 | Temas de lo abierto | Agrupar respuestas y contar menciones | Cada encuesta | Mejoras de producto; lenguaje para marketing |
 | Testimonios disponibles | Promotores que aceptan dar testimonio | Al cierre | Material de venta |
 | Satisfacción con el onboarding | 1 a 10 + qué faltó | Al terminar la primera semana | Corregir bienvenida y accesos |
+| Satisfacción por área (contenido, soporte, acceso…) | Promedio **y** % que da 4-5; producto y operación por separado | Con cada encuesta | Atacar el área operativa más baja |
+| Intención de seguir | "¿Pensás seguir cuando termine?" Sí / No sé / No, por cohorte | A mitad y antes del final | Oferta de continuidad antes de que termine la cohorte |
+| Tasa de respuesta y sesgo | Respuestas únicas ÷ enviadas; tasa de los que deben vs los que no | Con cada encuesta | Si los que deben no responden, el NPS real es peor |
 
 Las entrevistas (de offboarding, de mitad de camino, con el founder) se leen igual: temas, menciones y frases textuales, cruzadas con conducta.
 
@@ -117,7 +120,7 @@ Las entrevistas (de offboarding, de mitad de camino, con el founder) se leen igu
 | Referidos | Ventas con fuente "referido" | Programa de referidos; marketing de casos |
 | Duración promedio | Meses activos por alumno | Valor de vida del cliente |
 
-**Cruce clave:** nota baja + sin sesiones + cuota vencida es el mismo alumno más veces de lo que parece. Mostralo.
+**Cruce clave:** nota baja + sin sesiones + cuota vencida es el mismo alumno más veces de lo que parece. Mostralo. El paso a paso para leer una encuesta (limpieza, cortes, sesgo de no respuesta) está en `leer-encuestas.md`.
 
 ---
 

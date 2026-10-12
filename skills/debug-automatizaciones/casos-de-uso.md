@@ -1,6 +1,6 @@
 # Casos de uso · Detective de Automatizaciones
 
-Seis situaciones de infonegocio: cuatro donde una automatización que "andaba" deja de andar (modo diagnóstico), una donde nadie sabe qué corre (modo inventario) y una donde hay demasiadas piezas (modo simplificar). Negocios y nombres ficticios.
+Siete situaciones de infonegocio: cuatro donde una automatización que "andaba" deja de andar (modo diagnóstico), una donde nadie sabe qué corre (modo inventario) y dos donde hay demasiadas piezas (modo simplificar). Negocios y nombres ficticios.
 
 ---
 
@@ -74,3 +74,14 @@ Seis situaciones de infonegocio: cuatro donde una automatización que "andaba" d
 
 **Por qué sirve.** Pasar de 23 piezas a 9 baja el costo, pero sobre todo baja los lugares donde algo puede fallar sin que nadie se entere.
 
+---
+
+## 7. Un pago dispara cinco automatizaciones en tres cuentas
+
+**La situación.** Una mentoría cree que tiene "un Zap". Cuando se releva, aparecen 15 automatizaciones en 9 herramientas: cada cobro de Stripe dispara un Zap que escribe en una planilla vieja, otro que le avisa al founder lo mismo que ya le avisa Stripe, un escenario de Make que marca la cuota como pagada (y en 1 de cada 3 corridas no encuentra al alumno, pero dice "éxito"), y cada venta cargada dispara una automatización de Airtable y otro Zap de comisiones que duplica filas cuando alguien corrige la venta. Además, la base está en el plan gratis y en septiembre se cortó cuatro días.
+
+**Qué le pasás.** El relevamiento que hizo el equipo (aunque tenga huecos) y la base.
+
+**Qué te devuelve.** El mapa de eventos ("entra un pago o se cierra una venta" → 5 automatizaciones en 3 plataformas y 3 cuentas), los campos con más de una mano, el diseño de una sola pieza que escucha también los pagos rechazados y busca por ID, la tabla de ventajas de cada plataforma para elegir dónde vive, la alternativa manual al tope del plan gratis y cuándo conviene pagar, y el plan de corte con el orden "migrar primero, revocar después".
+
+**Por qué sirve.** El "5 en 1" no aparece mirando una herramienta por vez: aparece cuando ordenás por lo que pasa en el negocio.

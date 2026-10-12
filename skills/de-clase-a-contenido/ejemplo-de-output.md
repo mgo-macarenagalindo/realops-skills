@@ -37,7 +37,7 @@ Descarté **7 tramos**:
 |---|---|---|---|---|
 | 08:12 → 11:31 | "jamás puede estar atacando todos los dolores" | No se atacan los 6 dolores a la vez: este es el orden en que entro a un negocio | Sí: es quien recibe el "tenés 15 días para ordenar todo" | No |
 | 45:23 → 46:42 (y lo repite en 1:01:03) | "nunca seas excelente en un trabajo que no querés" | Si sos perfecta apagando incendios, nunca te van a sacar de ese rol | Sí: es su dolor central (hace el trabajo de Ops sin el rol) | No |
-| Tramo final del turno que arranca en 18:35 · aprox. 23:45 → 26:28 | "todo mi entorno de trabajo sabe" | Reglas de urgencia: WhatsApp si es urgente, llamada si es el doble; notificaciones apagadas | Sí | Parcial (ver abajo) |
+| 24:17 → 26:28 (**estimado** por proporción de palabras, ±15 s: el turno va de 18:35 a 26:28, 1.338 palabras, y el momento arranca en la 969) | "Por último, que es esto" y "todo mi entorno de trabajo sabe" | Reglas de urgencia: WhatsApp si es urgente, llamada si es el doble; notificaciones apagadas | Sí | Parcial (ver abajo) |
 | 48:49 → 49:27 y 50:16 → 50:45 | "por más que sea Gmail" · "siempre todo tiene que ser de propiedad del dueño" | Las herramientas y las cuentas, a nombre del negocio y del dueño, nunca del empleado | Sí: es quien abre las cuentas | No |
 
 Fathom marca el comienzo de cada turno, no de cada frase: el segundo exacto del tercer momento se confirma en la grabación con la frase para buscar.
@@ -45,13 +45,15 @@ Fathom marca el comienzo de cada turno, no de cada frase: el segundo exacto del 
 ## Descartados por repetidos
 
 - **13:31 → 16:23 · Notion y Discord gratis + Zapier por 30 dólares.** Ya salió el **17/06** como reel ("Con menos de 30 dólares al mes podés tener un sistema…").
-- **18:35 → aprox. 23:45 · Notion para lo personal, Asana para el trabajo, la tarea con estrellita.** Ya salió el **30/06** como reel ("La productividad no empieza con una herramienta…"). Del mismo turno uso solo el final, las reglas de urgencia, que no salieron.
+- **18:35 → 24:17 (estimado) · Notion para lo personal, Asana para el trabajo, la tarea con estrellita.** Ya salió el **30/06** como reel ("La productividad no empieza con una herramienta…"). Del mismo turno uso solo el final, las reglas de urgencia, que no salieron.
 
 ---
 
 ## Reel 1 · "Nunca seas excelente en un trabajo que no querés"
 
-- **De dónde sale:** 45:23 → 46:42. **Clip textual** (las frases de abajo son la transcripción limpia de lo que se escucha). Cortar desde "Te voy a decir una frase…" (se saca la primera oración, que le habla a una alumna) hasta "…¿entendés?" (antes de que hable la alumna). Revisar que en el tramo esté la vista de quien habla y no la grilla con caras.
+- **De dónde sale:** 45:23 → 46:42. **Clip textual** (las frases de abajo son la transcripción limpia de lo que se escucha). Cortar desde "Te voy a decir una frase…" (se saca la primera oración, que le habla a una alumna) hasta "…¿entendés?" (antes de que hable la alumna). 
+- **Chequeo de la vista (30 segundos, antes de mandarlo a edición):** mirá la grabación entre 45:23 y 46:42. Vista de quien habla → clip. Grilla con caras de alumnos → si el recorte vertical sobre Macarena deja afuera las otras caras y nombres, clip; si no, regrabar con el guion de respaldo. Si nadie lo confirma antes de la fecha de publicación, se regraba (criterio orientativo).
+- **Guion de respaldo (para regrabar a cámara, 45 s):** "Es una frase que escuché hace poco en una serie. **Nunca seas excelente en un trabajo que no querés.** O sea, que no querés a la larga." → "Te respondo al toque, soy súper resolutiva, te resuelvo todo: **eso también hay que empezar a cortarlo.**" → "Si sos esa mano derecha que resuelve cualquier temita chiquito, operativo, y sos perfecta haciendo eso, **jamás te van a sacar ese rol.**" Lo que está en negrita es textual; el resto, puente.
 - **Hook (0-3 s):** abrir con el audio de la frase, adelantada en edición: *"Nunca seas excelente en un trabajo que no querés."* · Texto en pantalla: **Nunca seas excelente en un trabajo que no querés**
 - **Escena 1 (3-20 s):** clip: "Es una frase que escuché hace poco en una serie… nunca seas excelente en un trabajo que no querés. O sea, que no querés a la larga."
 - **Escena 2 (20-50 s):** clip: "De tipo, te respondo al toque, soy súper resolutiva, te resuelvo todo… eso también hay que empezar a cortarlo."
@@ -65,7 +67,7 @@ Fathom marca el comienzo de cada turno, no de cada frase: el segundo exacto del 
 
 ## Reel 2 · "La urgencia del otro no es tu urgencia"
 
-- **De dónde sale:** tramo final del turno que arranca en 18:35 (aprox. 23:45 → 26:28; buscá "todo mi entorno de trabajo sabe"). **Para regrabar:** el turno es largo y mezcla temas (rutina, Notion, Asana). Lo textual va entre comillas.
+- **De dónde sale:** 24:17 → 26:28 (estimado por proporción de palabras, ±15 s; buscá "Por último, que es esto" y confirmá el segundo en la grabación). **Para regrabar:** el turno es largo, mezcla temas (rutina, Notion, Asana) y en el medio nombra a una alumna. Lo textual va entre comillas.
 - **Hook (0-3 s):** a cámara: *"Tengo las notificaciones apagadas. Y yo elijo cuándo entro a responder."* · Texto en pantalla: **Mis 2 reglas de urgencia**
 - **Escena 1 (3-15 s):** "Todo mi entorno de trabajo sabe esto: **si es urgente, me hablan por WhatsApp. Si es el doble de urgente, me llaman.**" · En pantalla: *Urgente → WhatsApp · Doble de urgente → llamada*
 - **Escena 2 (15-30 s):** "¿Y sabés qué pasa? **Nadie te termina llamando.** A la gente le parece invasivo llamar." *(textual: "el entorno no te llama por teléfono porque cree que es invasivo")*
@@ -96,13 +98,15 @@ Fathom marca el comienzo de cada turno, no de cada frase: el segundo exacto del 
 
 1. **Tapa:** "Tenés 15 días para ordenar todo." Si te lo dijeron, este es el orden en que yo entro a un negocio.
 2. En operaciones **no podés atacar todos los dolores del negocio al mismo tiempo.** Ni vos ni nadie.
-3. **1 · Comunicación.** Primero, dónde y cómo se habla del trabajo. Si todo pasa por el mismo WhatsApp donde te escribe tu mamá, nada de lo demás se sostiene.
-4. **2 · El equipo.** Qué está haciendo cada persona. Reportes y trazabilidad de tareas.
-5. **3 · CRM, marketing y ventas.** Recién ahí ordeno los datos y a los closers.
-6. **4 · Servicio.** Y el cliente no tiene drama con ese orden, si sabés explicarlo.
+3. **Primero · Comunicación.** Primero, dónde y cómo se habla del trabajo. Si todo pasa por el mismo WhatsApp donde te escribe tu mamá, nada de lo demás se sostiene.
+4. **Segundo · El equipo.** Qué está haciendo cada persona. Reportes y trazabilidad de tareas.
+5. **Tercero · CRM, marketing y ventas.** Recién ahí ordeno los datos y a los closers.
+6. **Cuarto · Servicio.** Y el cliente no tiene drama con ese orden, si sabés explicarlo.
 7. **Mientras tanto, los incendios siguen.** Por eso: bloqueá una hora por día para la tarea que mueve la aguja. Más allá de las urgencias y de responder mensajes.
 8. **¿Por dónde empezar en tu negocio?** Pensá en el impacto más directo: ¿qué alivia más rápido la carga del equipo? Eso va primero.
 9. **Cierre:** No podés atacar todo al mismo tiempo: hay que priorizar. Hacé una planificación realista y presentala. Guardalo para la próxima vez que te pidan todo para ayer.
+
+**Ojo con los números:** es el orden en que Macarena entra a un negocio, no la numeración de los 6 dolores del Cuestionario de Diagnóstico Operativo. Por eso dice "Primero, Segundo…" y no "1, 2…".
 
 **De dónde sale cada slide:** 2 a 6 de 08:12 → 11:31 ("jamás puede estar atacando todos los dolores… primero ataco la parte de la comunicación, después… reportes de la gente, qué está haciendo la gente, que tengamos trazabilidad. Después me meto a la parte de CRM, marketing, ventas… Después me meto en servicio. Y no tiene drama el cliente"). El WhatsApp con mamá, de 28:26. Slide 7, del mismo turno (10:50 aprox., "bloquear por lo menos una hora del día"). Slides 8 y 9, del cierre (56:45 → 1:00:57, "piensen en el impacto directo… alivianar carga operativa" y "hagan una planificación realista… no podemos atacar todo al mismo tiempo, hay que priorizar"). La tapa usa una escena que contó alguien del grupo, sin su nombre ni su negocio.
 
@@ -134,7 +138,7 @@ Fathom marca el comienzo de cada turno, no de cada frase: el segundo exacto del 
 |---|---|---|---|---|---|---|---|
 | Reel: nunca seas excelente en un trabajo que no querés | Video (clip) | Instagram | lun 19/10 | Atraer | Personal estratégico | Compartir | Clase 19/03 · 45:23 → 46:42 |
 | Carrusel: el orden para ordenar un negocio | Carrusel | Instagram | mié 21/10 | Nutrir | Autoridad técnica | Guardar | Clase 19/03 · 08:12 → 11:31 |
-| Reel: mis 2 reglas de urgencia | Video | Instagram | jue 22/10 | Nutrir | Dolor/Problema | Guardar | Clase 19/03 · aprox. 23:45 → 26:28 |
+| Reel: mis 2 reglas de urgencia | Video | Instagram | jue 22/10 | Nutrir | Dolor/Problema | Guardar | Clase 19/03 · 24:17 → 26:28 (estimado, confirmar) |
 | Reel: las cuentas a nombre del dueño | Video | Instagram | sáb 24/10 | Atraer | Autoridad técnica | Seguir | Clase 19/03 · 48:49 → 50:45 |
 
 Estado al cargar: el Reel 1 entra **En edición** (es un clip, no hay que grabar); los otros, **En grabación**; el carrusel, **En edición** (el texto ya está).

@@ -8,9 +8,13 @@
 
 # Lectura de KPIs · Programa Fluent Tech · septiembre vs agosto
 
-## En una frase
+## Para el founder, en 5 líneas
 
-El cobrado subió 15 %, pero por cuotas viejas: el anuncio B llena la agenda de gente que no viene ni compra, la morosidad se duplicó desde que nadie manda el aviso previo, y la coordinadora pierde 7 horas por semana en tareas que se automatizan.
+1. **El cobrado subió 15 %, pero por cuotas viejas:** los nuevos cierres bajaron 12 %. No es momento de duplicar pauta.
+2. **El anuncio B es el más barato por agenda (USD 48) y el más caro por cliente (USD 2.900):** pausarlo y pasar su plata a A.
+3. **La morosidad se duplicó (6 % → 12 %)** desde que dejó de salir el aviso de 3 días antes: reactivarlo y nombrar dueño de cobros.
+4. **Los que se quejan son los que tardaron en entrar:** 5 de 7 detractores hablan del acceso. Alta automática al pago.
+5. **La coordinadora pierde 7 h 20 min por semana** en tareas que se automatizan; la primera automatización ya devuelve 1 h 30 min.
 
 ## Definiciones que usé
 
@@ -50,9 +54,9 @@ El cobrado subió 15 %, pero por cuotas viejas: el anuncio B llena la agenda de 
 
 | Métrica | Septiembre | Agosto | Referencia | Estado |
 |---|---|---|---|---|
-| Asistencia | 46 % | 55 % | > 50 % | ⚠️ |
+| Asistencia | 46 % | 55 % | > 50 % (de clase) | ⚠️ |
 | Cierre sobre asistidas | 28 % | 28 % | — | ✅ |
-| Cierre total (ventas / agendas) | 12,9 % | 15,3 % | mín. 10 %, ideal ~20 % | ⚠️ |
+| Cierre total (ventas / agendas) | 12,9 % | 15,3 % | mín. 10 %, sano 15-20 % (de clase) | ⚠️ |
 
 **Cobros**
 
@@ -60,7 +64,7 @@ El cobrado subió 15 %, pero por cuotas viejas: el anuncio B llena la agenda de 
 |---|---|---|---|
 | Facturado | USD 39.600 | 41.800 | ⚠️ |
 | Cobrado · reservas / nuevos cierres / cuotas anteriores | 1.800 / 15.600 / 13.200 | 1.500 / 17.800 / 7.200 | ℹ️ |
-| **Morosidad al corte** | **12 %** (14 de 117) | 6 % (6 de 98) | 🔴 |
+| **Morosidad al corte** | **12 %** (14 de 117) · ref. orientativa: 10 % | 6 % (6 de 98) | 🔴 |
 | Monto vencido | USD 8.400 | 3.600 | 🔴 |
 
 **Servicio**
@@ -82,7 +86,7 @@ El cobrado subió 15 %, pero por cuotas viejas: el anuncio B llena la agenda de 
 | Automatizaciones activas | 1 (alta en CRM desde la agenda) | ⚠️ |
 | Horas recuperadas por esa automatización | 1 h 30 min por semana (medido antes/después) | ✅ |
 
-Las referencias son orientativas; lo que importa es la tendencia de este negocio.
+Asistencia y cierres: referencias de clase. Morosidad y NPS: referencias orientativas. Lo que importa es la tendencia de este negocio.
 
 ## Diagnóstico
 
@@ -129,4 +133,51 @@ Las referencias son orientativas; lo que importa es la tendencia de este negocio
 
 ---
 
-¿Te armo la lectura en 5 líneas para mostrársela al founder? ¿O la pasamos al reporte mensual por áreas?
+¿Te paso solo las 5 líneas y las 3 decisiones, para mandárselas al founder? ¿O la pasamos al reporte mensual por áreas?
+
+---
+
+## Modo 3 · La misma encuesta, leída sola (versión corta del ejemplo)
+
+> Mismo negocio ficticio. La persona pidió "leeme la encuesta de mitad de programa". Se muestra la estructura con los números, sin repetir el diagnóstico de arriba.
+
+# Lectura de la encuesta · Fluent Tech · enviada el 15/09
+
+## Para el founder, en 5 líneas
+
+1. **NPS +16** (12 promotores, 12 pasivos, 7 detractores de 31): positivo, pero bajo para un programa que se vende por recomendación.
+2. **El producto gusta (clases 4,5 de 5; 90 % da 4 o 5); la operación no (onboarding 3,1; 35 % da 4 o 5).**
+3. **5 de los 7 detractores tardaron más de 4 días en entrar.** Los que entraron en 2 días: 9 promotores y 1 detractor de 14.
+4. **Los que deben respondieron menos** (3 de 11, contra 27 de 63; más 1 que no cruza): el NPS real probablemente es más bajo que +16.
+5. **11 de 31 dicen "no sé" si siguen**, y la primera cohorte termina en noviembre sin oferta de continuidad.
+
+## Cómo se hizo y qué limpié
+
+Enviada a 74 alumnos activos · 33 filas · **31 únicas** (2 duplicadas: se tomó la última) · tasa 42 % · 1 sin cruzar (otro mail; queda fuera de los cruces) · el formulario está en la cuenta del negocio y no pide ID.
+
+## Los cortes que cambian la lectura
+
+| Corte | Respuestas | Promotores / pasivos / detractores |
+|---|---|---|
+| Acceso en 2 días o menos | 14 | 9 / 4 / 1 |
+| Acceso en 3 a 4 días | 9 | 2 / 6 / 1 |
+| Acceso en 5 días o más | 7 | 1 / 1 / 5 |
+| Con cuota vencida al 15/09 | 3 | 0 / 0 / 3 |
+
+(Todos los cortes tienen menos de 20 respuestas: solo conteo.)
+
+## Lo que dicen
+
+- **Acceso tardío (6 menciones):** R-04 "pagué un viernes y entré el miércoles". → Onboarding.
+- **No saber a quién escribir (4):** R-19 "pregunto en el grupo y en el mail y nadie contesta". → Soporte, canal único.
+- **Horarios de las clases en vivo (3):** R-27 "me caen en horario de trabajo". → Producto.
+
+## Las 3 decisiones
+
+1. Alta automática al pago (operaciones, antes del 15/10). Medir el NPS de la cohorte de octubre por días de acceso.
+2. El CSM llama esta semana a los 7 detractores, con lo que escribieron y lo que deben a mano.
+3. Oferta de continuidad armada antes del 01/11 (founder).
+
+## Cómo mejorar la próxima
+
+Pedir el ID de alumno, limitar a una respuesta por persona y repetirla igual cerca del final.

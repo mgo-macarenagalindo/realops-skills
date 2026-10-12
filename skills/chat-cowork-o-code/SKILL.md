@@ -21,11 +21,18 @@ Preguntá si las tareas son de su negocio, del negocio donde trabaja o de un cas
 
 ### Si no sabe qué tiene: mini guía de 3 pasos (5 minutos)
 
+> Guía revisada al **12/10/2026**. Los nombres y lugares de los menús de Claude cambian: por eso cada paso dice **qué buscás** (la función) además de **dónde suele estar**. Si el lugar cambió, buscá la función por nombre.
+
 1. **Abrí Claude (web o app de escritorio) y mirá el menú lateral o el selector de arriba.** Si ves una opción que dice *Cowork* (o un modo para trabajar en el navegador), lo tenés. Si ves *Proyectos*, también podés ordenar chats por tema.
 2. **Buscá la extensión "Claude" en la tienda de extensiones de Chrome.** Si dice "Agregar", no la tenés instalada; si dice "Quitar", ya está. Si no aparece o no te deja usarla, tomalo como "no la tengo".
 3. **Buscá Claude Code**: en la app de escritorio (una pestaña o sección *Code*) o, si usás VS Code, en Extensiones buscando "Claude Code". Si no está o te pide algo que no podés habilitar, tomalo como "no lo tengo".
 
-Si después de esto sigue sin saber, armá la respuesta con la columna "si no lo tenés" y anotalo en "Para confirmar".
+**Si no lo encuentra con esos nombres (plan B):**
+- Buscá en el **centro de ayuda oficial de Claude** las palabras "Cowork", "Claude in Chrome" o "Claude Code": ahí está siempre el nombre y el lugar vigentes.
+- O sacá una captura de la pantalla principal de Claude y pegala en el chat o en la comunidad: con eso se ve qué tenés.
+- Mientras tanto, armá la respuesta con la columna "si no lo tenés" y anotalo en "Para confirmar". No frenes la tarea por esto.
+
+**Cuándo se revisa esta guía y la tabla de superficies** *(criterio orientativo)*: en cada relanzamiento del programa, o antes si alguien avisa que no encuentra algo con estos nombres. Al revisarla se actualizan las dos fechas (la de la guía y la de la tabla). Si la persona la está leyendo **más de 3 meses** después de la fecha de revisión, avisale que los nombres pueden haber cambiado y que use el plan B.
 
 | Si no tenés… | Hacé esto mientras tanto |
 |---|---|
@@ -48,7 +55,7 @@ En un caso práctico del programa los datos son ficticios y se pueden pegar tal 
 
 ## Las tres superficies
 
-> Tabla vigente al **12/10/2026**. Las funciones y los nombres de Claude cambian seguido: si leés esto mucho después de esa fecha, verificá en tu cuenta que siga así.
+> Tabla vigente al **12/10/2026**. Las funciones y los nombres de Claude cambian seguido: si pasaron más de 3 meses desde esa fecha *(criterio orientativo)*, verificá en tu cuenta o en el centro de ayuda oficial que siga así.
 
 | Superficie | Para qué | Señales de que es esta |
 |---|---|---|
@@ -75,7 +82,29 @@ Todo pedido, en cualquier superficie, lleva:
 
 Si el pedido de la persona no tiene alguno, reescribilo con los cuatro y marcá lo que falta con `[completar]`.
 
-Debajo de cada pedido reescrito, una línea **"Skill de la biblioteca:"** que diga si ya hay una skill de RealOps™ que hace esa tarea (por ejemplo, Analista de Calls de Venta para llamadas, Arquitecto de Base en Airtable para campos y vistas, Cierre de Mes Financiero para el número del mes, Claude Conectado a tus Datos para leer la base directo) y que conviene usarla en vez del pedido suelto. Si ninguna aplica, poné "Skill de la biblioteca: ninguna, alcanza con el pedido". Nombrá solo skills que existan en la biblioteca; si no estás seguro, decí "fijate en la biblioteca si hay una de [tema]".
+Debajo de cada pedido reescrito, una línea **"Skill de la biblioteca:"** que diga si ya hay una skill de RealOps™ que hace esa tarea y que conviene usarla en vez del pedido suelto. Si ninguna aplica, poné "Skill de la biblioteca: ninguna, alcanza con el pedido".
+
+Cómo nombrarla para que no quede vieja si una skill cambia de nombre:
+
+- **Nombre visible + carpeta entre paréntesis**, siempre: **Analista de Calls de Venta** (`analista-calls-venta`). La carpeta (el nombre del zip) no cambia nunca; el nombre visible puede cambiar. Si la persona no la encuentra por nombre, la busca por la carpeta en el space Recursos.
+- **De dónde sacás el nombre:** si la persona tiene instalado el **Copiloto Operativo**, su `references/mapa-de-skills.md` es la lista vigente. Si no, usá las de la tabla de abajo.
+- Nombrá solo skills que existan en la biblioteca; si no estás seguro, decí "fijate en la biblioteca si hay una de [tema]".
+
+| Tarea típica | Skill de la biblioteca (vigente al 12/10/2026) |
+|---|---|
+| Analizar llamadas de venta | **Analista de Calls de Venta** (`analista-calls-venta`) |
+| Campos, fórmulas, vistas de Airtable | **Arquitecto de Base en Airtable** (`arquitecto-base-airtable`) |
+| El número del mes: vendido, cobrado, comisiones | **Cierre de Mes Financiero** (`cierre-de-mes-finanzas`) |
+| Leer la base directo, sin pegar CSV | **Claude Conectado a tus Datos** (`conectar-claude-a-tus-datos`) |
+| Diseñar una automatización antes de armarla | **Diseñador de Automatizaciones** (`disenador-automatizaciones`) |
+| Una automatización que falla | **Detective de Automatizaciones** (`debug-automatizaciones`) |
+| El reporte semanal al founder | **Reporte de Ops (semanal y mensual)** (`reporte-semanal-ops`) |
+| Armar el agente en una carpeta | **Arquitecto de Agentes en Carpeta** (`arquitecto-agente-claude-code`) |
+| Pasar un proceso fijo a skill | **De SOP a Skill** (`sop-a-skill`) |
+| Ordenar procesos y documentos del equipo | **Wiki Operativa y Librería de SOPs** (`wiki-operativa`) |
+| No sabés qué skill usar | **Copiloto Operativo** (`copiloto-operativo`) |
+
+**Mantenimiento:** si se renombra una skill, se actualiza esta tabla y el ejemplo; la carpeta entre paréntesis sigue sirviendo mientras tanto.
 
 ## Cómo no quemar tokens (y que no pierda el hilo)
 

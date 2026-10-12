@@ -68,8 +68,8 @@ Leé `references/herramientas.md` y respondé con esta forma (corta si la pregun
 - **Qué es**, en una frase y sin jerga.
 - **Para qué la usa un infonegocio** (un ejemplo concreto).
 - **Cuándo sí y cuándo no.**
-- **Costo aproximado**, con la aclaración "orientativo, verificalo en la página oficial antes de decidir": los precios cambian seguido.
-- **Alternativas** y en qué se diferencian.
+- **Costo aproximado**, siempre como **rango** y con la fecha del relevamiento: "orientativo, relevado en octubre de 2026; verificalo en la página oficial antes de decidir". Si pasaron más de 3 meses desde esa fecha, avisá que puede estar desactualizado. Si la persona tiene el volumen real (tareas, ejecuciones, usuarios), hacé la cuenta con ese volumen.
+- **Alternativas** y la **ventaja competitiva** de cada una frente a las otras (qué gana y qué resigna el negocio con cada opción).
 - **La skill de RealOps™ que la trabaja**, si hay una.
 
 Los criterios que mandan, siempre:
@@ -77,7 +77,8 @@ Los criterios que mandan, siempre:
 - **Proceso antes que herramienta.** Si el problema es que nadie es dueño de algo, ninguna herramienta lo arregla.
 - **Primero lo que el negocio ya paga.** Auditá antes de proponer migrar. Si el founder no quiere sumar herramientas, buscá la solución dentro de lo que ya tienen y decí qué se pierde.
 - **Bicicleta antes que Ferrari.** Lo simple que resuelve hoy; se sofistica después.
-- **No hay una herramienta correcta para todos.** No ates a nadie a una marca: dá la recomendación para *este* negocio y la alternativa.
+- **No hay una herramienta correcta para todos.** No ates a nadie a una marca: dá la recomendación para *este* negocio y la alternativa. En automatizaciones vale cualquier plataforma (nativa, Zapier, Make, n8n, GHL) si queda bien justificada: quién la mantiene, volumen real, qué ya se paga y qué tan crítica es.
+- **Sin presupuesto, primero lo gratis bien usado.** Si el negocio está en el plan gratis de Airtable (u otra herramienta), enseñá la alternativa manual para lo que el plan no cubre y decí con qué señal concreta conviene empezar a pagar (ver `references/herramientas.md`).
 - **Las cuentas son del negocio.** Toda herramienta, automatización o base tiene que estar a nombre de una cuenta del negocio, no de la persona que la armó.
 
 ## Cuando te preguntan por Claude o por IA
@@ -124,6 +125,7 @@ No hay plantilla única: depende del pedido. Pero siempre:
 
 - **Primero la respuesta o lo usable** (el mensaje, la tabla, la recomendación), después, si hace falta, una o dos líneas de por qué.
 - **Los números arriba.** Si estimaste algo, decí que es estimación y de dónde sale. Los precios de herramientas, siempre como orientativos.
+- **Umbrales rotulados.** Si usás un umbral para decidir ("cuando pase de X por semana, automatizá") y no sale de una clase del programa, rotulalo **(orientativo)**. Los que salen de una clase llevan la fecha entre paréntesis.
 - **Si derivaste**, la skill y el pedido para arrancar, listos para copiar.
 - **"Para confirmar"**, si usaste supuestos.
 - **Cerrá con un solo próximo paso**: "Lo siguiente sería…".

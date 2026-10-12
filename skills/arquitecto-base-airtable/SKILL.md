@@ -69,7 +69,9 @@ Cerrás con: "¿Va este mapa? Si me das el OK, bajo a campos, vistas, automatiza
 3. **Las personas son una tabla.** Responsables, setters, coaches: vínculo a una tabla de Equipo con estado activo/inactivo, no selección única ni texto. Así nadie queda asignado después de irse y las reglas (porcentajes, capacidad) viven en un solo lugar.
 4. **Los estados son listas cerradas** con criterio para pasar de uno a otro. Si hay dos cosas que cambian por separado (ej.: la llamada y el lead), son dos campos.
 5. **Lo que se repite en el tiempo es una tabla, no columnas.** Cuotas, sesiones, reportes diarios: una fila cada uno. Nunca "Cuota 2, Cuota 3…" ni un campo por mes.
-6. **Para resumir por mes, por persona o por canal, una clave.** Fórmula "mes | canal" o "persona | mes" en las tablas de origen, tabla de resumen con una fila por clave y una automatización que busca o crea la fila y la vincula. Es el patrón de las tablas de KPIs y de EOD.
+6. **Para resumir por mes, por persona o por canal, una clave.** Fórmula "mes | canal" o "persona | mes" en las tablas de origen, tabla de resumen con una fila por clave y una automatización (o, en Free, la carga manual de la clave) que busca o crea la fila y la vincula. Es el patrón de las tablas de KPIs y de EOD.
+   - **KPIs por persona: una tabla por rol** (📊 KPIs closers, 📊 KPIs setters, 📊 KPIs servicio), cada una con **un solo vínculo** desde su tabla de origen y sus propias tasas. Es el criterio orientativo de RealOps™ para alumnos y equipos nuevos: se lee y se arregla más fácil. Una sola tabla "KPIs por persona" con dos vínculos (como closer y como setter) queda como opción avanzada, solo si hay gente que cumple dos roles a la vez.
+   - **El setting se mide con números diarios.** La tabla estándar de setting es un EOD de setters: una fila por setter y por día con, como mínimo, contactados, conversaciones, calificados y agendados con closer. El detalle por lead es opcional. (El diseño completo del CRM está en la skill CRM de Cliente.)
 7. **La puerta de entrada es un formulario.** Quien no necesita ver la base carga por formulario, y los vínculos del formulario se limitan a una vista ("solo deals con cuotas pendientes", "solo personas activas").
 8. **Plata: USD para comparar, moneda real para conciliar.** Si hay más de una moneda, los dos campos.
 9. **Nombrá como si mañana lo usara otra persona.** Tablas en plural, con un emoji al principio si el equipo lo usa (ayuda a encontrarlas en los vínculos); campos descriptivos; vistas por uso ("Vencidas · Administración"); y **descripción en cada campo calculado** diciendo qué hace y quién lo usa.
@@ -95,7 +97,11 @@ Fórmulas listas para pegar (estado de cuota, días de atraso, claves, mes, cana
 
 ## Chequeo del plan (siempre, en el tiempo 1)
 
-Cargá **`references/limites-del-plan.md`** y devolvé la tabla de chequeo: registros por base, editores, corridas de automatización por mes, interfaces, historial, adjuntos y sincronizaciones, con lo que la base va a usar y si alcanza. **Siempre con "verificá en tu cuenta"**: los límites cambian. Si el plan es Free, decí qué hacer: qué tablas pasan a otra base, qué se carga por formulario en vez de sumar editores, qué automatización se reemplaza por una vista.
+Cargá **`references/limites-del-plan.md`** y devolvé la tabla de chequeo: registros por base, editores, corridas de automatización por mes, llamadas a la API, interfaces, historial, adjuntos y sincronizaciones, con lo que la base va a usar y si alcanza.
+
+- **Citá las cifras como orientativas:** "relevadas en la ayuda de Airtable el 12/10/2026; verificá las de hoy en tu cuenta". Nunca como seguras.
+- **Si el plan es Free, enseñá la alternativa manual** de cada cosa que no alcance (qué se carga por formulario en vez de sumar editores, qué automatización se reemplaza por una vista de control o por pegar la clave a mano, qué se archiva en CSV), con quién la hace y cuánto tarda.
+- **Decí cuándo conviene pagar**, con los criterios orientativos de la referencia (registros al 80 %, corridas, editores, horas manuales contra precio del plan, historial). Pagar es una decisión del negocio: va a "Decisiones del negocio que la base no resuelve" con la cuenta.
 
 ## Orden de construcción (siempre este)
 
@@ -127,6 +133,7 @@ Cargá **`references/limites-del-plan.md`** y devolvé la tabla de chequeo: regi
 - **Tokens de API con el permiso mínimo**: solo la base que hace falta y, al principio, solo lectura. Nunca en capturas.
 - **Nunca nombres de personas ni años escritos adentro de una fórmula.**
 - Si la persona menciona una función que no conocés con certeza o que puede haber cambiado, decilo y sugerí verificarla en la ayuda de Airtable.
+- **Plazos y umbrales que no son de Airtable** (90 días sin revisar un proceso, 24 h para una alerta, 80 % del límite) son **criterios orientativos**: rotulalos así y ajustalos al negocio.
 
 ## Formato de salida
 
@@ -147,7 +154,7 @@ TIEMPO 2
 ## 2. Formularios (qué carga cada uno y a qué vista se limitan sus vínculos)
 ## 3. Vistas (nombre · tabla · filtro · orden · para quién), incluidas las de control
 ## 4. Interface (si aplica)
-## 5. Automatizaciones (disparador → acción · guarda · cuántas corridas por mes)
+## 5. Automatizaciones (disparador → acción · guarda · cuántas corridas por mes · alternativa manual si es Free)
 ## 6. Permisos
 ## 7. Orden de construcción (checklist)
 ## 8. Cómo probarla (casos con el resultado esperado)

@@ -30,6 +30,8 @@ Sale de las clases del 28/05 (*ponerle el nombre correcto a tu rol*), 03/06 (*m�
 
 Primero preguntá **qué necesita hoy** (puede ser todo o una parte): CV · LinkedIn · página de portafolio · video de presentación · video de pantalla · todo. Trabajá solo lo pedido, en ese orden, y al final ofrecé lo que falta.
 
+**Cargá solo lo que vas a usar.** Cada parte tiene su referencia y se lee únicamente si la persona pidió esa parte: LinkedIn → `references/linkedin-seccion-por-seccion.md` · página de portafolio → `references/portafolio-en-claude.md` · videos → `references/videos-de-presentacion.md` · dónde buscar → `references/donde-buscar-y-tracker.md`. Si pide todo, trabajalo por tandas (primero rol + CV + LinkedIn; después portafolio y videos) para que la conversación no se haga pesada.
+
 Después ofrecé dos formas de darte la información:
 
 - **"Pegame todo junto"**: CV o perfil actual, y un texto suelto contando qué hace en cada trabajo. Vos lo leés, sacás lo que puedas y **preguntás solo lo que falta** (máximo 3 preguntas por vuelta).
@@ -139,7 +141,7 @@ Resumen: foto (confianza) · banner (identidad) · URL (que te encuentren) · ti
 
 ## 3 · Tu portafolio como página, en Claude
 
-Una página con diseño que junta las piezas: portada, una tarjeta por pieza con captura, problema, qué construiste y resultado, y un cierre con contacto. **Antes de armarla, leé `references/portafolio-en-claude.md`**: trae la estructura, el pedido para que Claude la diseñe, cómo sumar las capturas según dónde trabajes y el chequeo antes de publicar.
+Una página con diseño que junta las piezas: portada, una tarjeta por pieza con captura, problema, qué construiste y resultado, y un cierre con contacto. **Antes de armarla, leé `references/portafolio-en-claude.md`**: trae la estructura, el pedido para que Claude la diseñe, cómo sumar las capturas según dónde trabajes y el chequeo antes de publicar. En el chat de Claude, la página sale **con marcos para las capturas** por defecto, más la prueba de 2 minutos para ver si se pueden incrustar y el plan B (Notion, Gamma, Canva o Claude Code/Cowork).
 
 Las piezas entran con lo que ya trae la ficha del **Revisor de Piezas de Portafolio**. Si no la tiene, pedí por pieza: qué es, qué problema resolvía, qué construyó, qué decidió, resultado o estado, y si la captura tiene datos reales.
 
@@ -152,18 +154,9 @@ Muchos avisos y clientes piden un video. Son dos, distintos:
 
 **Antes de escribir un guion, leé `references/videos-de-presentacion.md`** y hacé **siempre** las preguntas de experiencia que trae: el guion sale de lo que la persona cuenta, nunca de una plantilla vacía. Cada guion lleva tiempos, lo que se ve en pantalla y lo que no se muestra.
 
-## Dónde buscar y cómo organizar la búsqueda
+## Dónde buscar y tu tracker
 
-- **LinkedIn**: con los nombres de rol de la tabla, en castellano y en inglés, filtro remoto. Pero la mayoría de las búsquedas **no se publican** (se cubren por referidos o por red): perfil, red y contenido pesan más que postular en masa. Postular es la tercera vía, no la primera.
-- **Upwork y plataformas freelance**: títulos de operaciones (Online Business Manager, Operations Coordinator, Founder's Right Hand). Inglés intermedio alcanza para empezar.
-- **Comunidades de negocios digitales** donde participás y la red de quienes ya te vieron trabajar.
-- **Los negocios que seguís**: un mensaje con algo construido para ese negocio abre más puertas que una postulación (skill Prospección de Primeros Clientes).
-
-Seguridad: postulá en el portal de la empresa o en portales conocidos; desconfiá de entrevistas por WhatsApp, promesas de contratación "sin entrevista" o pedidos de instalar algo.
-
-Tiempos: hay meses más lentos para contratar (a mitad de año). Tomalo como observación, no como regla: en los meses lentos, más práctica y más red.
-
-**Tracker:** empresa · rol · link · fecha · canal (publicación, red, mensaje directo, referido) · estado · próxima acción · qué pieza mostré · qué video mandé.
+Solo si lo pide o si el perfil ya está listo. **Antes, leé `references/donde-buscar-y-tracker.md`**: canales (LinkedIn, Upwork, comunidades, mensaje directo), seguridad, meses lentos y las columnas del tracker.
 
 ## Formato de salida
 

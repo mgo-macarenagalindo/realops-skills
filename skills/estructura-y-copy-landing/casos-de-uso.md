@@ -56,10 +56,10 @@ Y avisa que el anuncio principal promete "duplicá tu facturación" mientras la 
 
 ## 5. Un caso práctico con material parcial
 
-**La situación.** Practicás con un caso del programa que no trae Offer Doc, ni marca, ni testimonios con permiso. La landing ni siquiera es una actividad del caso. Los anuncios vienen solo con su nombre, sin el texto.
+**La situación.** Practicás con un caso del programa que no trae Offer Doc, ni marca, ni testimonios con permiso. La landing ni siquiera es una actividad del caso. Sí trae el texto de los anuncios, y uno de ellos promete un ingreso que el programa no sostiene.
 
-**Qué le pasás.** La ficha del caso y las transcripciones de llamadas (de ahí salen la oferta y el avatar), el export de anuncios y, cuando la skill te las pide, tus referencias visuales y de estructura.
+**Qué le pasás.** La ficha del caso (de ahí sale la oferta), el export y el texto de los anuncios, y, cuando la skill te los pide, tu avatar armado con las transcripciones y tus referencias visuales y de estructura.
 
-**Qué te devuelve.** Primero, el aviso de que la landing no es actividad del caso y el pedido de referencias (sin ellas no escribe). Después, la promesa elegida por vos entre 3 opciones armadas con la ficha, el chequeo anuncio = página con los anuncios sin texto marcados "no revisado", la página completa con el brief de marca provisorio dicho en el hero, los temas sensibles fuera de la página hasta validarlos y solo la prueba y los recursos como `[PENDIENTE]`.
+**Qué te devuelve.** Primero, el aviso de que la landing no es actividad del caso, qué trae el caso y qué no (si no trae referencias visuales, te las pide) y la tarea para armar vos el avatar con las transcripciones. Cuando lo traés, lo verifica frase por frase contra el material. Después, la promesa elegida por vos entre 3 opciones armadas con la ficha, el chequeo anuncio = página con el texto real de cada anuncio (y de los mensajes automáticos del medio), la página completa con el brief de marca provisorio dicho en el hero, la aplicación que termina en el calendario (el lead agenda directo), los temas sensibles fuera de la página hasta validarlos y solo la prueba y los recursos como `[PENDIENTE]`.
 
 **Por qué sirve.** Aprendés a escribir una página usable con lo que hay, sin inventar prueba ni avatar y sin quedarte trabado en "me falta todo".

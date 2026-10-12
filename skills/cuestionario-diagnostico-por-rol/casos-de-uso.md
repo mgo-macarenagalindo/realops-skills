@@ -10,7 +10,7 @@ Tres situaciones de infonegocio donde esta skill te ahorra diez reuniones. Negoc
 
 **Qué le pasás.** Qué vende el negocio, los roles, dónde lo van a responder (un formulario de Tally) y la sospecha del founder: "no sé si los closers son malos o les llegan malos leads".
 
-**Qué te devuelve.** El cuestionario con las 7 comunes (una por cada Dolor Mortal del Backstage y una de visión) y 3 preguntas propias de setter, closer, coach y asistente, rotadas hacia el traspaso setter → closer para cubrir la sospecha desde dos roles. Más el mensaje de envío y cómo armar el formulario con ramificación por rol. Al founder no lo encuesta: te sugiere la Entrevista Guiada al Founder para él.
+**Qué te devuelve.** El cuestionario con las 7 comunes (una por cada Dolor Mortal del Backstage y una de visión) y 3 preguntas propias de setter, closer, coach y asistente, rotadas hacia el traspaso setter → closer para cubrir la sospecha desde dos roles. Más el mensaje de envío y cómo armar el formulario con ramificación por rol. Si el founder pide acortarlo, te marca las 10 innegociables (una por dolor, visión, la ★ del rol, horas y energía) y qué se puede sacar. Al founder no lo encuesta: te sugiere la Entrevista Guiada al Founder para él.
 
 **Por qué sirve.** En una semana tenés por escrito lo que cada rol piensa de su trabajo, comparable entre sí. Y el founder no perdió ni una hora de agenda.
 
@@ -22,7 +22,7 @@ Tres situaciones de infonegocio donde esta skill te ahorra diez reuniones. Negoc
 
 **Qué le pasás.** La planilla exportada (o pegada) y, si las tenés, las transcripciones de dos 1 a 1 con el equipo de soporte.
 
-**Qué te devuelve.** El semáforo de los 6 dolores (crítico, moderado, bajo o sin evidencia, con criterio), los cuellos de botella en el formato del Diagnóstico Operativo (vinculados a un dolor, con cita e impacto), la radiografía por área y el cruce por las 5 lentes. Si las preguntas viejas no cubren algún dolor, te lo marca como "sin evidencia" en vez de adivinarlo.
+**Qué te devuelve.** El semáforo de los 6 dolores (crítico, moderado, bajo o sin evidencia, con criterio), los cuellos de botella en el formato del Diagnóstico Operativo (vinculados a un dolor, con cita e impacto), la radiografía por área y el cruce por las 5 lentes. Si casi todo da crítico, no afloja el criterio: ordena los críticos del 1 al N por la plata que traban. Si las preguntas viejas no cubren algún dolor, te lo marca como "sin evidencia" en vez de adivinarlo. Y si faltan horas o energía, te propone una mini-ronda de 3 números en vez de inventarlos.
 
 **Por qué sirve.** Una frase del equipo entre comillas pesa más que tu opinión en la reunión con el founder.
 

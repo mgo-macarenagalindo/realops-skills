@@ -71,6 +71,18 @@
 
 **Señal típica:** dos workflows con el mismo disparador que se pisan (GoHighLevel no avisa).
 
+### Webhooks del lado del origen (Stripe, Calendly, Typeform, Meta)
+Muchas automatizaciones no se ven desde la herramienta de automatización sino desde la que **manda** el evento. Relevá en cada origen qué está suscripto, a dónde manda y quién lo creó:
+
+| Origen | Dónde se ve | Qué anotar |
+|---|---|---|
+| **Stripe** | Developers (Workbench) → Webhooks | Cada endpoint: plataforma de destino (Make, Zapier, n8n), eventos que escucha (¿solo cobros exitosos o también rechazados y disputas?), fecha. Los que crea Zapier al conectar la cuenta también aparecen acá |
+| **Calendly** | Las suscripciones de webhook **no se ven en pantalla**: se listan por la API (`webhook_subscriptions`), con un token de quien administra la organización. También Integraciones → Workflows para recordatorios | Destino, eventos (`invitee.created`, `invitee.canceled`), alcance (organización o usuario), quién la creó. Si nadie puede listarlas, marcalas "a confirmar" y deducilas: ¿a qué herramienta llega cada agenda además de Airtable? |
+| **Typeform / Tally / Google Forms** | Connect → Webhooks e integraciones | A qué apps manda las respuestas y a nombre de qué cuenta está el formulario |
+| **Meta (API de Conversiones)** | Administrador de eventos → la fuente de datos → Configuración / integraciones de socios | Qué eventos llegan por servidor (agenda, lead, compra), desde qué herramienta y a nombre de quién está el token |
+
+**Señales típicas:** dos webhooks escuchando el mismo evento para cuentas distintas · un webhook a la cuenta de alguien que se fue o de una agencia que ya no trabaja con el negocio (y que guarda datos de clientes en su Drive) · nadie escucha los pagos rechazados · la medición de los anuncios depende de un escenario de un tercero que se puede apagar cualquier día.
+
 ### Automatizaciones escondidas (no están en ninguna herramienta de automatización)
 Preguntá por estas, porque nadie las llama "automatización" y se rompen igual:
 - **Agenda:** reparto de llamadas (rueda, por disponibilidad), recordatorios y mails de confirmación de Calendly o del calendario del CRM.
@@ -98,13 +110,16 @@ Qué recorrer:
 1. Todas las automatizaciones (todas las carpetas, incluidas apagadas y borradores). Total y cuántas de cada estado.
 2. El historial de los últimos 30 días por automatización: corridas, errores, último error con el mensaje literal.
 3. Las conexiones o credenciales: a qué cuenta (mail visible), si están vencidas, qué automatizaciones las usan.
-4. El plan y el consumo: plan, uso del período, tope, renovación, dueño de la cuenta, miembros.
+4. El plan y el consumo: plan, uso del período, tope, renovación, dueño de la cuenta, miembros. Si es un plan gratis con tope: ¿se llegó al tope algún mes y qué días no corrió nada?
+5. Si la herramienta manda eventos a otras (Stripe, Calendly, Typeform, CRM): los webhooks registrados, a qué plataforma mandan (sin la dirección completa), qué eventos escuchan y quién los creó.
 
 Para cada automatización, escribí una ficha con estos títulos literales:
 - Qué hace (una frase para alguien que no sabe la herramienta)
 - Cuándo se dispara
 - Pasos (numerados, con filtros y rutas)
 - Datos que lee / Datos que escribe (tabla, vista, campos exactos)
+- Eventos y webhooks (qué escucha, a qué plataforma manda)
+- Dónde quedan los datos (base, planilla o Drive, a nombre de quién)
 - Otras apps y canales
 - Cuenta dueña y conexiones
 - Estado y uso (corridas en 30 días, errores, consumo)
@@ -121,4 +136,6 @@ Entregá: un archivo con las fichas, una tabla resumen (una fila por automatizac
 2. **Las fichas** después. Es lo que lee quien mantiene.
 3. **El mapa de cuentas:** el hallazgo más repetido en los negocios del programa es "todo depende de una persona" (conexiones, mails de error y envíos a clientes desde el Gmail de alguien).
 4. **Cruce con los datos:** si la ficha dice "asigna en rueda", contá en la base a quién le asignó. Si dice "avisa cada venta", contá ventas contra avisos. En un caso real, un Zap corrió 68 veces y publicó 51 avisos: 17 agendas sin anunciar, y el Zap decía "éxito".
-5. **Hallazgos con evidencia** y un arreglo propuesto por hallazgo. Si algo está roto, se diagnostica con el árbol (modo 3).
+5. **Mapa de eventos:** una tabla por evento de negocio (entra un lead, agenda, pago, venta, acceso) con todo lo que lo escucha. Es el insumo del modo simplificar: ahí se ven los "5 en 1".
+6. **Campos con más de una mano:** qué campos escriben dos o más automatizaciones o una automatización y una persona.
+7. **Hallazgos con evidencia** y un arreglo propuesto por hallazgo. Si algo está roto, se diagnostica con el árbol (modo 3).

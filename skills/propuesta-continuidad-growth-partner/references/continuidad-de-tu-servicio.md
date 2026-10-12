@@ -21,7 +21,7 @@ El orden del método: **primero un proyecto cerrado, con fin claro; después, si
 |---|---|---|
 | **Los números del "después"** | ¿Qué número mirabas al empezar? ¿Qué se puede contar hoy que antes no? ¿Qué dejó de pasar? | Usá el punto de partida y lo que quedó armado. En un **caso práctico** siempre es así: "Lo que logramos" pasa a ser **"Lo que encontramos y dejamos armado"**, con el antes real y la meta marcada como meta |
 | **Si pagó en fecha y respetó el alcance** | ¿Tuviste que reclamarle algún pago? ¿Cuántas veces te pidió algo fuera de lo acordado? | Caso práctico: "no aplica" y el veredicto queda condicional. Cliente real sin respuesta: no supongas que sí; es lo primero para confirmar |
-| **Las horas por mes** | ¿Qué día fijo le darías? ¿Cuántas horas ese día? | **[SUPUESTO: A con 4 a 6 h por mes y B con 10 a 15 h por mes, confirmalo]** |
+| **Las horas por mes** | ¿Qué día fijo le darías? ¿Cuántas horas ese día? | **[SUPUESTO ORIENTATIVO: A con 4 a 6 h por mes y B con 10 a 15 h por mes, confirmalo]** |
 | **Su valor hora** | Ver "Tu valor hora" abajo. **No se salta** | Ver abajo |
 | **Lo que cobró en el proyecto** | ¿Cuánto fue el total y en cuántos meses? | Sin este dato, la regla de precio usa solo el piso y el valor, y lo decís |
 | **Si su trabajo toca ventas o cobros** | ¿Lo que armaste cambia cuánto se cobra, se vende o se renueva? | Sin un sí claro, **sin variable** en ninguna opción |
@@ -71,7 +71,7 @@ Y en la propuesta, para este cliente:
 Reglas:
 
 - **Siempre dos opciones**, una conservadora y una que crece.
-- **El variable, solo si lo podés mover** (04/05), siempre sobre el **cash collected** y, si se puede, solo sobre las ventas que tu sistema toca (renovaciones, upsells, referidos), no sobre todo el negocio. Referencia para arrancar: **1 % a 3 %** del cash total, o **5 % a 10 %** si es solo sobre lo que vino de servicio. Elegilo para que, en un mes normal, el variable quede entre la mitad y el doble del fijo. Tope mensual escrito.
+- **El variable, solo si lo podés mover** (04/05), siempre sobre el **cash collected** y, si se puede, solo sobre las ventas que tu sistema toca (renovaciones, upsells, referidos), no sobre todo el negocio. Referencia **orientativa** para arrancar (no sale de una clase; ver la tabla de referencias orientativas del `SKILL.md`): **1 % a 3 %** del cash total, o **5 % a 10 %** si es solo sobre lo que vino de servicio. En la cuenta va rotulada **ORIENTATIVO**. Elegilo para que, en un mes normal, el variable quede entre la mitad y el doble del fijo. Tope mensual escrito.
 - **El fijo no cubre todo.** Escribí qué entra y qué se cotiza aparte.
 - **Con revisión cada 3 meses**, con los números del informe mensual.
 
@@ -81,7 +81,7 @@ Para cada opción, en este orden:
 
 1. **Horas** por mes + 30 % de coordinación.
 2. **Piso** = horas × valor hora. Nunca por debajo.
-3. **Ancla del proyecto:** lo que cobraste por mes en el proyecto que termina. Referencia de la biblioteca (no es un precio de mercado, ajustala con tu experiencia): la opción conservadora arranca en el **30 %** de ese mensual y la que crece en el **60 %**, porque tienen menos horas y menos riesgo que construir. Podés moverte entre 25 % y 40 % (conservadora) o entre 50 % y 80 % (la que crece) si hay un motivo que escribís en la cuenta (más horas, más valor en juego, un cliente que paga tarde).
+3. **Ancla del proyecto:** lo que cobraste por mes en el proyecto que termina. Referencia **orientativa** de la biblioteca (no sale de una clase ni es un precio de mercado; ajustala con tu experiencia y rotulala **ORIENTATIVO** en la cuenta): la opción conservadora arranca en el **30 %** de ese mensual y la que crece en el **60 %**, porque tienen menos horas y menos riesgo que construir. Podés moverte entre 25 % y 40 % (conservadora) o entre 50 % y 80 % (la que crece) si hay un motivo que escribís en la cuenta (más horas, más valor en juego, un cliente que paga tarde).
 4. **Precio** = el mayor entre **piso × 1,5** y el ancla. El 1,5 cubre los meses en que el soporte se estira.
 5. **Valor para el cliente:** el precio tiene que ser una fracción chica de lo que protege o suma por mes (del camino A). Si es más que eso, bajá horas o alcance, no el precio por hora.
 6. **Redondeá hacia arriba al múltiplo de USD 50.** Un número redondo se dice sin pedir perdón.

@@ -22,6 +22,10 @@ Sirve igual para automatizaciones nativas de Airtable o Notion, Zaps, escenarios
 | Qué hace | Una frase de negocio: "cuando alguien aplica en Typeform, crea el lead y le asigna setter" |
 | Qué rompe si falla | Qué deja de pasar y **quién se entera** (si nadie se entera, es riesgo alto) |
 | Dependencias frágiles | Nombres de campos, vistas, opciones, textos literales de preguntas de formulario, nombres exactos de personas |
+| Corridas que escribieron algo | De las corridas "exitosas", cuántas crearon o actualizaron un registro. Si la diferencia es grande, hay una falla silenciosa |
+| Evento de origen | El hecho de negocio que la dispara ("entra un pago", "alguien agenda"). Sirve para armar el mapa por evento |
+| Datos personales que salen | Si manda nombre, mail o teléfono de leads o alumnos a otra cuenta, a cuál y de quién es |
+| Confianza | Visto · visto con el dueño · reconstruido (¿?) · sin acceso |
 
 La **carga manual** también va en la planilla, con "Disparador: cada vez que…", "Quién" y "Minutos por vez". Es parte de cómo se mueve la info y suele ser lo primero que conviene automatizar.
 
@@ -96,3 +100,23 @@ y una lista de lo que no pudiste ver.
 ```
 
 Para las automatizaciones nativas de Airtable, el mismo pedido sirve abriendo la base → **Automations**: de cada una, nombre, disparador (tabla, vista o campo observado), acciones, estado, dueña y la pestaña **Run history** filtrada por fallas.
+
+
+## 6. Dónde consolidar: ventajas de cada opción (criterio orientativo)
+
+Cualquier plataforma sirve si está justificada. Esta tabla no es un ranking: es para que el plan diga **por qué esa**. Precios y topes, siempre de la página de facturación del momento, no de memoria.
+
+| Opción | Ventajas competitivas | Cuándo conviene | Cuidado con |
+|---|---|---|---|
+| **Automatizaciones nativas de Airtable** | No hay otra cuenta ni otra conexión; ven los campos tal cual; las arregla quien maneja la base | Flujos que empiezan y terminan en la base (crear el alumno al entrar una venta, marcar un estado, un aviso simple) | Tope de corridas por plan, que se comparte entre todas las automatizaciones de la base; en el plan gratis se corta a mitad de mes |
+| **Zapier** | La más fácil de leer para alguien no técnico; muchísimas integraciones listas; buen historial por corrida | Equipos sin perfil técnico, flujos lineales, apps poco comunes | Se cobra por tarea: cada paso cuenta, y un disparador ancho o un "nuevo o modificado" la consume rápido |
+| **Make** | Ramas, filtros y manejo de errores visuales; mejor costo por operación que Zapier en flujos con muchos pasos; webhooks fáciles | Flujos con varias ramas (el "5 en 1" de un pago), quien ya usa Make | Más curva de aprendizaje; un filtro que corta "en verde" no avisa si no se le arma una ruta de error |
+| **n8n** | Se puede alojar propio (sin costo por ejecución), código cuando hace falta, flujos largos | Volumen alto, un perfil técnico en el equipo o un proveedor que lo mantenga | Alguien tiene que mantener el servidor y las actualizaciones; si esa persona se va, es el mismo riesgo que una cuenta personal |
+| **La integración nativa de la propia herramienta** (Calendly → CRM, Stripe → plataforma de cursos) | Cero mantenimiento; la mantiene el proveedor | Cuando hace exactamente lo que hace falta | Suele no dejar elegir campos ni reglas; mirá qué no hace |
+
+**Reglas para elegir, siempre:**
+1. **Una cuenta del negocio**, con dos personas con acceso y doble factor. Nunca la cuenta personal de alguien, aunque siga en el equipo.
+2. **Menos plataformas es mejor:** si el negocio ya paga una, consolidá ahí salvo que haya una razón concreta.
+3. **Cada flujo con rama de error que avise a una persona** con nombre, no a un mail que nadie abre.
+4. **Buscar por ID, no por mail o nombre** (ID de cliente de la plataforma de pago, ID del alumno).
+5. Decí en el plan qué ganás y qué perdés con la opción elegida.

@@ -1,6 +1,6 @@
 ---
 name: crm-cliente-infonegocios
-description: CRM de Cliente para Infonegocios (RealOps™). Diseña el CRM comercial, de cobros y de clientes de un infonegocio con la estructura estándar de RealOps™ - Leads de setting, Oportunidades (agendas), Deals + Reservas, Cuotas programadas y Cuotas cobradas, ventas directas, Finanzas en moneda real, Clientes (CRM de servicio), Equipo, EOD y tablas de KPIs - con campos, tipos, vínculos, estados, vistas por rol, alertas y reglas de carga. Si ya hay una base, la lee primero y devuelve qué queda, qué cambia y qué se suma. Usala cuando tengas que armar, ordenar o heredar el CRM de un negocio que vende por setting y llamada, cobra en cuotas o en varias monedas, o necesita seguir a sus clientes después de la venta.
+description: CRM de Cliente para Infonegocios (RealOps™). Diseña el CRM comercial, de cobros y de clientes de un infonegocio con la estructura estándar de RealOps™ - setting diario por setter (y detalle por lead si se quiere), Oportunidades (agendas), Deals + Reservas, Cuotas programadas (una fila por cuota) y Cuotas cobradas, ventas directas, Finanzas en moneda real, Clientes, Equipo, EOD y KPIs - con campos, vínculos, estados, vistas por rol, alertas, reglas de carga y qué hacer si la base está en el plan Free. Entrega primero una versión de una página. Si ya hay una base, la lee primero y devuelve qué queda, qué cambia y qué se suma. Usala cuando tengas que armar, ordenar o heredar el CRM de un negocio que vende por setting y llamada, cobra en cuotas o en varias monedas, o necesita seguir a sus clientes después de la venta.
 ---
 
 # CRM de Cliente para Infonegocios
@@ -55,8 +55,9 @@ Para leer una base existente usá `references/de-tu-base-a-la-estructura.md`: tr
 ## La estructura estándar (5 módulos)
 
 ```
-SETTING            AGENDAS                 VENTAS Y COBROS                                   CLIENTES
-📲 Leads ──< ☎️ Oportunidades ──< 💰 Deals + Reservas ──< 🗓️ Cuotas programadas ──1:1── 💵 Cuotas cobradas
+SETTING                   AGENDAS                 VENTAS Y COBROS                                   CLIENTES
+📲 Setting diario (EOD setter)   (siempre que haya setters: números por día y por setter)
+📇 Leads (detalle, opcional) ──< ☎️ Oportunidades ──< 💰 Deals + Reservas ──< 🗓️ Cuotas programadas ──1:1── 💵 Cuotas cobradas
                                         │                                                     │
                                         └──────────── 👥 Clientes ──< 🗣️ Sesiones / seguimientos
                                                          └── 🤩 Onboarding (formulario)
@@ -68,21 +69,23 @@ EQUIPO Y KPIs: 👨🏻‍💻 Equipo vinculado en todas las tablas · 🌙 EOD 
 
 | Tabla | Una fila = | Para qué |
 |---|---|---|
-| 📲 **Leads (setting)** | una persona que entró a conversación o aplicó | Trabajo del setter: contacto, seguimientos, calificación previa, agenda |
+| 📲 **Setting diario** (EOD de setters) | un setter en un día | **Estándar siempre que haya setters.** Como mínimo los números del día: contactados, conversaciones, calificados y agendados con closer. Alcanza aunque no se sepan los nombres de cada lead |
+| 📇 **Leads** (detalle por lead, opcional) | una persona que entró a conversación o aplicó | Cuando el equipo puede llevarlo: contacto, seguimientos, calificación previa y agenda de cada lead |
 | ☎️ **Oportunidades (agendas)** | un intento de venta con llamada agendada | Lo que pasa con cada agenda: asistencia, calificación del closer, resultado |
 | 💰 **Deals + Reservas** | un acuerdo: una reserva o un cierre (incluye upsell y renovación) | Facturación, cash nuevo, forma de pago, plan de cuotas, comisiones |
-| 🗓️ **Cuotas programadas** | una cuota que se espera cobrar (de la 2 en adelante) | Vencimientos, morosidad, proyección de caja |
+| 🗓️ **Cuotas programadas** | una cuota que se espera cobrar (de la 2 en adelante) | **Estándar siempre que se venda en cuotas.** Vencimientos, morosidad, proyección de caja |
 | 💵 **Cuotas cobradas** | un pago de cuota que entró | Cash de cuotas de ventas anteriores |
 | 🛒 **Ventas directas** | una compra de checkout (low ticket, evento) | Ventas sin llamada; suelen entrar por integración |
 | 🪙 **Finanzas** | un movimiento de plata por método, en su moneda real | Conciliación, egresos, resultado del mes |
 | 👥 **Clientes (CRM de servicio)** | un cliente | Estado, salud, coach, fin de contrato, renovación, caso de éxito |
 | 👨🏻‍💻 **Equipo** | una persona del equipo | Rol, estado activo/inactivo, % de comisión, capacidad |
-| 🌙 **EOD** (setters, closers, servicio) | un reporte de fin de día | Actividad que no deja registro en el CRM (conversaciones, energía, feedback) |
+| 🌙 **EOD** (closers, servicio) | un reporte de fin de día | Actividad que no deja registro en el CRM (conversaciones, energía, feedback) |
 | 📊 **KPIs por persona** · 📈 **KPIs globales** | una persona en un mes · un canal en un mes | El reporte que se arma solo |
 
 **Referencias (cargalas cuando hagan falta):**
 - `references/tablas-y-campos.md`: campos de cada tabla, tipo, quién lo carga, opciones de cada selección y fórmulas. Para el punto 3 del formato de salida.
-- `references/cobros-y-finanzas.md`: los 8 tipos de cobro y dónde va cada uno, USD y moneda real, Finanzas por automatización, las dos formas de manejar cuotas y el esqueleto del protocolo de vencida. Para los puntos 4 y 6.
+- `references/cobros-y-finanzas.md`: los 8 tipos de cobro y dónde va cada uno, USD y moneda real, Finanzas por automatización (y a mano, en Free), cómo migrar cuotas en columnas a Cuotas programadas y el esqueleto del protocolo de vencida. Para los puntos 4 y 6.
+- `references/plan-free-airtable.md`: qué consume este CRM en el plan Free, la alternativa manual de cada pieza y cuándo conviene pagar. Para la sección "Si la base está en Free".
 - `references/de-tu-base-a-la-estructura.md`: cómo leer una base existente, las dos formas de CRM que más aparecen y la tabla de cambios. Para el punto 0.
 
 ### El núcleo y lo que se suma
@@ -90,16 +93,17 @@ EQUIPO Y KPIs: 👨🏻‍💻 Equipo vinculado en todas las tablas · 🌙 EOD 
 No todo negocio necesita las 14 tablas el primer día. **Lo más simple que funcione:**
 
 - **Núcleo (siempre):** Oportunidades · Deals + Reservas · Cuotas cobradas · Equipo · Clientes.
-- **Se suma Leads** si hay setters que trabajan leads uno por uno (DM, aplicación, outbound) o si a los setters se les paga por agenda: sin esa tabla no se puede medir su calidad.
-- **Se suma Cuotas programadas** si se vende en cuotas (recomendado siempre que haya cuotas; ver la alternativa en `references/cobros-y-finanzas.md`).
+- **Setting diario: estándar siempre que haya setters.** Una fila por setter y por día, con los cuatro números mínimos (contactados, conversaciones, calificados, agendados con closer). Se carga por formulario en dos minutos, no ocupa lugar de editor y alcanza para medir al setter aunque no se sepan los nombres de los leads.
+- **Leads (detalle por lead): opcional.** Se suma cuando el equipo puede cargar cada lead (aplicación por formulario, CRM de mensajería que exporta, outbound con lista). Si existe, los números del setting diario se contrastan con el detalle ("dice 12 agendados, Oportunidades tiene 10").
+- **Cuotas programadas: estándar siempre que se venda en cuotas.** Una fila por cuota esperada, de la 2 en adelante. Si heredás una base con las cuotas en columnas del deal, se migra (ver `references/cobros-y-finanzas.md`); no se diseña nada nuevo con columnas.
 - **Se suma Ventas directas** si hay checkout sin llamada.
 - **Se suma Finanzas** si hay más de una moneda o cuenta, o si se quiere el resultado del mes (ingresos menos egresos).
-- **Se suman EOD y KPIs** cuando el núcleo ya se carga bien. La construcción de las tablas de KPIs es de la skill **Tabla de KPIs Globales en Airtable**; acá definís solo qué campos y claves las alimentan.
+- **Se suman EOD de closers y servicio, y KPIs** cuando el núcleo ya se carga bien. La construcción de las tablas de KPIs es de la skill **Tabla de KPIs Globales en Airtable**; acá definís solo qué campos y claves las alimentan.
 
 ## Cómo trabajás
 
 1. **Paso 0** (base existente o no) y preguntas.
-2. **Primero el mapa, después el detalle.** Devolvé el mapa de módulos y tablas (con la tabla de cambios si hay base) y esperá el OK. Recién ahí bajás a campos, vistas y alertas.
+2. **Primero la versión de una página, después el detalle.** Devolvé el **Resumen en una página** (ver formato: mapa, qué cambia, los números que prueban el diseño, las decisiones abiertas y qué hacer esta semana) y esperá el OK. Recién ahí bajás a campos, vistas y alertas. Si la persona solo necesita el núcleo, la página alcanza.
 3. **Etapas con criterio:** cada estado tiene qué tiene que pasar para avanzar y quién lo mueve. Si una etapa no tiene criterio, todavía no existe en el negocio: es un hallazgo.
 4. **Campos por tabla**, con tipo, obligatorio y quién lo carga, desde `references/tablas-y-campos.md`, adaptados al negocio. Nombres de campo en el idioma del equipo.
 5. **Vistas por rol** y **alertas**.
@@ -115,14 +119,25 @@ No todo negocio necesita las 14 tablas el primer día. **Lo más simple que func
 5. **Una reserva no es una venta.** Va en Deals con Naturaleza = Reserva y no suma facturación. Cuando cierra, el cierre es otro registro que marca "Pagó reserva".
 6. **Un reembolso no borra la venta.** Se marca en el deal y se registra como egreso en Finanzas.
 7. **Las personas se vinculan, no se escriben.** Setter, closer, coach: vínculo a Equipo, nunca selección única ni texto. Las reglas de comisión (porcentajes) viven en Equipo, no adentro de una fórmula con nombres.
-8. **El canal se carga al inicio** (en el lead o en la oportunidad) y se normaliza a una lista cerrada. Sin canal, nada se puede segmentar después. Si falta, el canal es "Sin canal", no vacío.
+8. **El canal se carga al inicio** (en el lead, en la oportunidad o, si no hay detalle por lead, en el setting diario como "agendados por canal") y se normaliza a una lista cerrada. Sin canal, nada se puede segmentar después. Si falta, el canal es "Sin canal", no vacío.
 9. **Dos calificaciones, no una:**
-   - **La del setter** (antes de agendar con closer): ¿cumple el criterio mínimo para pasar a llamada? (Sí / No + motivo). Mide el filtro del setter.
+   - **La del setter** (antes de agendar con closer): ¿cumple el criterio mínimo para pasar a llamada? (Sí / No + motivo). Mide el filtro del setter. Si no hay tabla de Leads, este campo vive en la Oportunidad ("Cumple según el setter") y el setter queda vinculado ahí.
    - **La del closer** (después de la llamada): Alta · Media · Baja · No califica. Mide la calidad real.
    La diferencia entre las dos es el control de calidad del setting: si el setter dice "Sí" y el closer dice "No califica" seguido, el filtro no está funcionando. En negocios sin setter, queda solo la del closer.
 10. **Dos estados en cada oportunidad:** el de **la llamada** (asistió, no show, canceló, reagendó) y el **del lead** (agendado, seguimiento, reserva, ganado, perdido). Mezclarlos rompe las tasas.
 11. **Equipo con activo/inactivo, y nadie se va con leads.** Los campos de persona solo dejan elegir gente activa (vínculo limitado a la vista "Activos"). El día que alguien se va: se marca inactivo, se reasignan sus leads, oportunidades y clientes abiertos, y se revisa qué cuentas y formularios estaban a su nombre. En infonegocios la rotación de setters es la causa típica de leads perdidos.
 12. **Lo que no está en la base no pasó.** Ventas, pagos y accesos se cargan; no se avisan en un grupo.
+13. **Plazos y umbrales, orientativos.** Las 24 h para contactar o dar acceso, los 7 días de "por vencer", los 60 días antes del fin y la capacidad por coach son **criterios orientativos** de RealOps™: escribilos como tales en el entregable y ajustalos al negocio.
+
+## Si la base está en el plan Free de Airtable
+
+Preguntá el plan siempre. Si es Free, el diseño **no cambia**: cambia cómo se carga lo que en un plan pago haría una automatización. Usá `references/plan-free-airtable.md` y devolvé, en el entregable:
+
+- **Qué consume este CRM:** registros de hoy + los que entran por mes, editores, corridas de automatización.
+- **La alternativa manual de cada pieza** (crear las cuotas programadas, los movimientos de Finanzas, el alta en Clientes, la vinculación a KPIs) con quién la hace y cuánto tarda.
+- **Cuándo conviene pagar**, con los criterios orientativos de la referencia y la cuenta en horas y en dólares. Pagar es una decisión del negocio: va a "Decisiones del negocio que la base no resuelve".
+
+Los límites del plan cambian: citá las cifras como **"relevadas en la página de Airtable el 12/10/2026, verificá las de hoy"**.
 
 ## Qué es de esta skill y qué es de otras
 
@@ -134,7 +149,7 @@ No todo negocio necesita las 14 tablas el primer día. **Lo más simple que func
 | Construcción en Airtable | Qué tablas, campos y vínculos | Cómo construirla, en qué orden, límites del plan: **Arquitecto de Base en Airtable** |
 | Base heredada desordenada | El destino | El inventario y los riesgos: **Auditor de Base Heredada** |
 | Canal y UTMs | Lista cerrada de canales | La convención de UTMs: **UTMs de Punta a Punta** |
-| EOD | Las tablas que lo reciben | Qué pregunta cada EOD y quién lo lee: **Centro de Comunicación y EOD** |
+| EOD | Las tablas que lo reciben (el setting diario es parte del CRM estándar) | Qué pregunta cada EOD y quién lo lee: **Centro de Comunicación y EOD** |
 
 ## Formato de salida
 
@@ -142,7 +157,15 @@ En `ejemplo-de-output.md` tenés un diseño completo.
 
 ```
 # CRM de Cliente · [negocio o caso]
-Herramienta: [Airtable u otra] · Módulos: [los que aplican] · Punto de partida: [de cero / sobre base existente]
+Herramienta: [Airtable u otra · plan] · Módulos: [los que aplican] · Punto de partida: [de cero / sobre base existente]
+
+## Resumen en una página  ← se entrega primero y se espera el OK
+- Mapa del núcleo en un dibujo (5 a 8 tablas, "una fila =")
+- Qué cambia respecto de hoy (5 líneas como máximo)
+- Los 3 a 5 números que prueban el diseño
+- Las decisiones abiertas (quién decide)
+- Qué hacer esta semana (3 pasos)
+- Si está en Free: alcanza o no, y qué se hace a mano
 
 ## 0. Qué queda, qué cambia, qué se suma (solo si hay base)
 ## 1. Mapa de módulos y tablas (con "una fila =")
@@ -152,7 +175,7 @@ Herramienta: [Airtable u otra] · Módulos: [los que aplican] · Punto de partid
 ## 5. Vistas por rol
 ## 6. Alertas y esqueleto del protocolo de cuota vencida
 ## 7. Reglas de carga (qué, quién, cuándo, con qué formulario)
-## 8. Lo que se automatiza después
+## 8. Lo que se automatiza después (y su alternativa manual si la base está en Free)
 ## Decisiones del negocio que la base no resuelve
 ## Para confirmar
 ```

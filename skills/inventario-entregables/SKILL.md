@@ -1,6 +1,6 @@
 ---
 name: inventario-entregables
-description: Inventario de Entregables (RealOps™). Te entrevista sobre lo que sabés hacer (o te animás a aprender) y sobre los dolores que ves en los negocios digitales, y arma tu recursero de 15 a 25 filas con el formato dolor - entregable - resultado, agrupado en un journey de 3 fases (diagnóstico, implementación, optimización), con las filas que ya podés vender esta semana marcadas. Usala cuando no sepas qué ofrecer, cuando vayas a entrar a una llamada de venta y no quieras ir con las manos vacías, o cuando quieras ordenar todo lo que sabés hacer antes de ponerle precio.
+description: Inventario de Entregables (RealOps™). Te entrevista sobre lo que sabés hacer (o te animás a aprender) y sobre los dolores que ves en los negocios digitales, y arma tu recursero de 15 a 25 filas con el formato dolor - entregable - resultado, agrupado en un journey de 3 fases (diagnóstico, implementación, optimización), con las filas que ya podés vender esta semana marcadas y un calendario de práctica según el tiempo de cada actividad del programa y tus horas por semana (con un atajo si querés salir a vender antes). Usala cuando no sepas qué ofrecer, cuando vayas a entrar a una llamada de venta y no quieras ir con las manos vacías, o cuando quieras ordenar todo lo que sabés hacer antes de ponerle precio.
 ---
 
 # Inventario de Entregables
@@ -47,21 +47,47 @@ Si contesta "no lo sé" a cualquiera de las cinco, pasás al plan B de esa pregu
 | **2 · Qué te animás a aprender** | De la lista de actividades, ¿cuáles te faltan? · ¿Cuál de los dolores que anotaste todavía no tiene fila? · ¿Qué te dio curiosidad en las clases? | Cobros y cuota vencida, onboarding automatizado, checklist de accesos, wiki, análisis de llamadas | Proponé las actividades que faltan y que resuelven un dolor del inventario, en el orden del programa. Cada una con **fecha propuesta, a confirmar** (ver abajo) |
 | **3 · Qué dolores ves** | ¿Qué frase se repite cuando un founder se queja? · ¿Qué pregunta nadie sabe contestar en el grupo del equipo? · En el caso práctico: ¿qué dice el brief del founder y qué dicen los mensajes del equipo? | "Todo pasa por mí", "cada uno me da un número distinto", "nadie sabe si pagó la segunda cuota", "el alumno pagó y no tiene acceso" | Usá los dolores típicos de la columna del medio y pedile que diga cuáles reconoce. Los que salen del material van **textuales, con fuente**; si no hay cita, la fila lleva **(paráfrasis)** |
 | **4 · A quién le vendés** | ¿En qué negocios digitales estás adentro (como alumno, cliente o trabajador)? · ¿Con quién te sentirías cómodo en una llamada? · ¿Qué tipo de negocio tiene el caso con el que practicaste? | Mentoría high ticket con setters y closers; membresía; curso con lanzamientos; servicio 1 a 1 | Supuesto: el mismo tipo de negocio que el caso práctico o que el negocio donde trabaja. **Supuesto a validar con tu primera llamada de venta** |
-| **5 · Hecho por vos o con vos** | ¿El founder tiene equipo que va a usar lo que entregues? · ¿Dice "no tengo tiempo" o "quiero entenderlo"? · ¿Paga por resultado o por aprender? | Founder con equipo y ticket alto: "hecho por vos". Founder solo, que arranca o con poco presupuesto: "hecho con vos" | **Criterio por defecto:** si el negocio tiene equipo de 3 personas o más y vende high ticket, "hecho por vos"; si el founder trabaja solo o casi solo, "hecho con vos". Rotulado "Supuesto a validar con el founder" |
+| **5 · Hecho por vos o con vos** | ¿El founder tiene equipo que va a usar lo que entregues? · ¿Dice "no tengo tiempo" o "quiero entenderlo"? · ¿Pagaría USD 1.000 o más por un servicio de sistemas? | Founder con equipo y ticket alto: "hecho por vos". Founder solo, que arranca o con poco presupuesto: "hecho con vos" | **Criterio de la clase del 22/07:** quien paga USD 1.000 o más por un servicio de sistemas lo hace porque no quiere hacerlo él → "hecho por vos". Si no se sabe cuánto pagaría, **criterio orientativo**: negocio con equipo de 3 personas o más que vende high ticket → "hecho por vos"; founder solo o casi solo → "hecho con vos". Rotulado "Supuesto a validar con el founder" |
 
-**Lista de actividades de RealOps™ para tildar** (pregunta 1 y 2). Lo tildado es "lo hice en un caso" (o "lo sé hacer", si ya lo hizo para un negocio real):
+**Lista de actividades de RealOps™ para tildar** (pregunta 1 y 2). Lo tildado es "lo hice en un caso" (o "lo sé hacer", si ya lo hizo para un negocio real). Al lado, **cuánto lleva cada una**, según la ficha de la actividad en el programa. Sin marca: el tiempo lo fija la actividad. Con **(est.)**: la actividad no fija horas y es la estimación del ejercicio del programa, a validar. Con **(orientativo)**: no hay ningún dato y es criterio de la skill.
 
-T1 Copiloto operativo · 1 Mapa de diagnóstico operativo · 2 Mapa de fricción invisible · 3 Checklist de accesos · 4 Stack elegido y justificado · 5 SOP profesional + diagrama · 6 Wiki operativa · 7 Gestor de tareas en Airtable · 8 CRM de servicio en Notion · 9 Calendario de contenidos en Notion · 10 Centro de comunicación · 11 Migración documentada · 12 CRM de ventas en Airtable · 13 Primera automatización en n8n · 14 CRM de servicio en Airtable · 15 Cobros y cuota vencida · 16 Onboarding automatizado · 17 Airtable conectado a Claude · 18 Documentar una automatización · 19 Dashboard de KPIs · 20 Dashboard de ventas y marketing · 21 y 22 Análisis de llamadas · 23 Informes de sesiones · 24 API de Meta a Claude · 25 Reporte semanal de ops · 26 Customer journey + tracking · 27 Matriz de delegación · 28 Organigrama y plan de incorporación · 29 App en Vercel · 30 Portafolio.
+| # | Actividad | Tiempo | # | Actividad | Tiempo |
+|---|---|---|---|---|---|
+| T1 | Copiloto operativo | 1 h | 15 | Cobros y cuota vencida | 3 a 4 h (est.) |
+| 1 | Mapa de diagnóstico operativo | 3 h, en dos sesiones | 16 | Onboarding automatizado | 4 a 6 h (est.) |
+| 2 | Mapa de fricción invisible | Una semana anotando + una sesión de armado | 17 | Airtable conectado a Claude | 1 a 2 h (est.) |
+| 3 | Checklist de accesos | Una sesión de relevamiento (≈ 2 h, orientativo) | 18 | Documentar una automatización | 1 a 2 h (est.) |
+| 4 | Stack elegido y justificado | 2 a 3 h | 19 | Dashboard de KPIs | 4 a 6 h |
+| 5 | SOP profesional + diagrama | 2 a 3 h | 20 | Dashboard de ventas y marketing | Actividad corta (≈ 2 h, orientativo) |
+| 6 | Wiki operativa | 6 a 8 h, en dos o tres sesiones | 21 y 22 | Análisis de llamadas (n8n / Claude) | Actividad corta (≈ 2 h cada una, orientativo) |
+| 7 | Gestor de tareas en Airtable | 2 a 3 h (est.) + una semana de uso | 23 | Informes de sesiones | Actividad corta (≈ 2 h, orientativo) |
+| 8 | CRM de servicio en Notion | 3 a 4 h (est.) | 24 | API de Meta a Claude | Actividad corta (≈ 2 h, orientativo) |
+| 9 | Calendario de contenidos conectado al equipo | 2 a 3 h (est.) | 25 | Reporte semanal de ops | Una semana de envíos |
+| 10 | Centro de comunicación | 2 a 3 h (est.) + dos semanas sosteniéndolo | 26 | Customer journey + tracking | 4 a 6 h |
+| 11 | Migración documentada | 1 a 2 semanas entre plan, prueba y corte (est.) | 27 | Matriz de delegación | Una semana de registro + una sesión |
+| 12 | CRM de ventas en Airtable | 6 a 10 h, en tres o cuatro sesiones | 28 | Organigrama y plan de incorporación | Una o dos sesiones |
+| 13 | Primera automatización en n8n | 3 h | 29 | App en Vercel | Una tarde |
+| 14 | CRM de servicio en Airtable | 3 a 4 h (est.) | 30 | Portafolio | 6 a 8 h |
 
-**Si no tiene fecha para un "me animo".** Antes de proponer el ritmo, preguntá: **"¿Cuántas horas por semana tenés para practicar?"** Con eso armás el calendario, no al revés:
+Si una fila se practica **adentro de otra actividad** (por ejemplo, comisiones dentro de la 12 y la 15), contá **≈ 2 h** *(orientativo)*. Una "sesión" sin horas, también ≈ 2 h *(orientativo)*.
 
-| Horas por semana para practicar | Ritmo que proponés |
-|---|---|
-| Menos de 3 | Una actividad cada dos semanas |
-| 3 a 6 | Una actividad por semana |
-| Más de 6 | Hasta dos actividades por semana |
+**Si no tiene fecha para un "me animo".** Antes de proponer el ritmo, preguntá: **"¿Cuántas horas por semana tenés para practicar, y qué días?"** Con eso armás el calendario, no al revés:
 
-Es una estimación: una actividad del programa lleva, para la mayoría, entre 3 y 6 horas en el sandbox. Decíselo y pedile que lo recalibre después de la primera ("si la primera te llevó el doble, movemos todo"). Si no sabe cuántas horas tiene, tomá **5 horas por semana** como supuesto ("Supuesto a validar con vos") y una actividad por semana. El calendario empieza la semana próxima, va en el orden en que más plata destraban (cobros antes que wiki) y **solo pone fecha a las 5 primeras**: el resto queda en "Después" sin fecha, hasta terminar esas cinco. Cada fecha dice "propuesta, a confirmar" hasta que la confirme.
+1. **Elegí las 5 primeras** en el orden en que más plata destraban (cobros antes que wiki).
+2. **Sumá sus horas con la tabla de arriba**, tomando el **extremo alto** de cada rango (si sale antes, mejor).
+3. **Repartilas en sus días disponibles**, desde la semana próxima: cada actividad termina el día en que se completan sus horas. Por ejemplo, con 2 h los sábados, una de 3 a 4 h lleva dos sábados.
+4. **Solo las 5 primeras llevan fecha**; el resto va a "Después", sin fecha, hasta terminar esas cinco. Cada fecha dice "propuesta, a confirmar".
+
+Decile que los tiempos son los de la ficha de cada actividad (o estimados, si la ficha no los fija) y que lo recalibre después de la primera: "si te llevó el doble, movemos todo". El programa está pensado para **5 a 7 horas por semana**: si tiene menos, no lo frenes ni lo retes; decíselo y mostrale a qué fecha llega con sus horas. Si no sabe cuántas horas tiene, tomá **5 horas por semana** (lo mínimo que pide el programa), rotulado "Supuesto a validar con vos".
+
+**Si quiere salir a vender antes.** Cuando la quinta fecha cae lejos (a más de 8 semanas, *criterio orientativo*) o la persona dice que quiere vender antes, no la dejes con "poné más horas". Dale el atajo, en este orden:
+
+1. **Lo ⭐ se vende ya.** No hace falta terminar el calendario para salir: las puertas de entrada son lo que ya sabe hacer, y se vende antes de construir (08/07).
+2. **Acortá la actividad más larga de las 5**, haciendo su **versión mínima**: lo justo para tener un ejemplo que mostrar en una llamada, no la versión completa. Nombrá cuál, qué entra en la versión mínima, cuántas horas lleva *(orientativo)* y cuántas semanas ahorra. Ejemplos: wiki → solo la página de las preguntas que más se repiten; onboarding → del pago confirmado al acceso, sin la bienvenida automática; CRM de ventas → leads y llamadas, sin cuotas. La versión completa vuelve a "Después".
+3. **Si tiene una fecha en mente y con eso no llega**, pasá a "Después" la que menos plata destraba de las 5 y subí la siguiente más corta.
+4. **Y la cuenta de las horas:** cuántas horas por semana más necesitaría para llegar a esa fecha (o, si no tiene una, a fin del mes siguiente).
+
+La fila que se acortó dice "versión mínima" en la columna de práctica, y en una llamada se ofrece así, nunca como la versión completa.
 
 **Si una fila no se puede practicar con ninguna actividad del programa**, avisalo con todas las letras en la fila y en "Lo que te conviene practicar": "Esta fila no tiene actividad del programa para practicarla". Y proponé una de tres salidas: practicarla adentro del entregable de otra actividad (por ejemplo, grabar la capacitación sobre tu SOP de la actividad 5), un ejercicio corto que le armás vos con el caso práctico, o dejarla fuera de la oferta hasta hacerla con un caso real. Esa fila nunca lleva ⭐.
 
@@ -88,7 +114,7 @@ Reglas de las filas:
 
 Agrupá las filas en las tres fases que sirven para cualquier proyecto (clases del 22/07 y 12/08):
 
-1. **Diagnóstico** · los primeros días. Entregables que dan una radiografía: mapa de cuellos de botella, checklist de accesos, inventario de SOPs, lectura de números.
+1. **Diagnóstico** · los primeros 10 días (22/07). Entregables que dan una radiografía: mapa de cuellos de botella, checklist de accesos, inventario de SOPs, lectura de números.
 2. **Implementación** · lo que se construye: CRM, cobros, onboarding, centro de comunicación, tablero.
 3. **Optimización** · ajustes, capacitación, auditoría de datos, mejoras con los datos que ya hay.
 
@@ -96,7 +122,7 @@ Si una fase queda vacía, decilo: es lo que le conviene practicar primero.
 
 ## Las filas de "esta semana"
 
-Marcá con ⭐ entre 3 y 5 filas que cumplan las tres condiciones:
+Marcá con ⭐ entre 3 y 5 filas *(cantidad orientativa)* que cumplan las tres condiciones:
 
 - Las sabe hacer hoy.
 - Se entregan en pocos días.
@@ -106,7 +132,7 @@ Esas son sus **puertas de entrada**: lo que puede ofrecer ya, antes del proyecto
 
 ## Modos
 
-**Modo 1 · Armarlo de cero.** La entrevista completa, hasta llegar a 15 filas como mínimo. Si se trabó, proponé dolores típicos de infonegocio y que diga cuáles reconoce.
+**Modo 1 · Armarlo de cero.** La entrevista completa, hasta llegar a 15 filas como mínimo *(mínimo orientativo; la clase del 22/07 habla de hasta 25 entregables, aunque no se los des a todos)*. Si se trabó, proponé dolores típicos de infonegocio y que diga cuáles reconoce.
 
 **Modo 2 · Ordenar uno que ya tiene.** Lee su planilla, reescribe dolores en lenguaje de founder, convierte actividades en objetos, agrega la fase y el estado, y señala huecos.
 
@@ -127,7 +153,7 @@ Para: [a quién le vende] · Modalidad: hecho por vos / hecho con vos
 ### Implementación
 ### Optimización
 ## ⭐ Lo que podés vender esta semana (3 a 5 filas)
-## Lo que te conviene practicar (huecos, ritmo según tus horas por semana, filas sin actividad del programa)
+## Lo que te conviene practicar (huecos, calendario según tus horas y el tiempo de cada actividad, atajo para salir a vender antes, filas sin actividad del programa)
 ## Cómo usarlo en la llamada (3 líneas)
 ## Supuestos a validar (tabla: supuesto · con quién · cómo)
 ```

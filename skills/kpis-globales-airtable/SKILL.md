@@ -1,6 +1,6 @@
 ---
 name: kpis-globales-airtable
-description: Tabla de KPIs Globales en Airtable (RealOps™). Construye el reporte del mes por canal que se arma solo en Airtable - tablas núcleo (agendas, deals, pagos y, si querés costo por venta, gasto por anuncio), la misma clave mes + canal en todas con "Sin canal" explícito, la automatización que busca o crea la fila y la vincula (o el plan B sin automatizaciones para el plan gratuito), conteos y rollups con condición, tasas, cash sin contar dos veces la primera cuota, todo en dólares. Y enseña a leer cada dato - para qué sirve, quién lo usa, cuándo enciende una alarma y qué pieza se arma con él para el dueño o el líder de área. Usala cuando los números del mes se cuentan a mano, cuando la automatización de KPIs devuelve cero registros, cuando querés ver agendas, asistencia, cierre, cash y costo por venta por canal sin tocar nada o antes de armar un dashboard.
+description: Tabla de KPIs Globales en Airtable (RealOps™). Construye el reporte del mes por canal que se arma solo en Airtable - tablas núcleo (agendas, deals, pagos y, si querés costo por venta, gasto por anuncio), la misma clave mes + canal en todas con "Sin canal" explícito, la automatización que busca o crea la fila y la vincula (o la alternativa manual y cuándo pagar, si es plan Free), conteos y rollups con condición, tasas, cash sin contar dos veces la primera cuota, todo en dólares. Y enseña a leer cada dato - para qué sirve, quién lo usa, cuándo enciende una alarma y qué pieza se arma con él para el dueño o el líder de área. Usala cuando los números del mes se cuentan a mano, cuando la automatización de KPIs devuelve cero registros, cuando querés ver agendas, asistencia, cierre, cash y costo por venta por canal sin tocar nada o antes de armar un dashboard.
 ---
 
 # Tabla de KPIs Globales en Airtable
@@ -49,7 +49,7 @@ Preguntá si es su negocio, el negocio donde trabaja o un caso práctico del pro
 | **Agendas** | Una llamada de venta agendada | Fecha de la llamada · Canal · **Estado de la llamada** · **Estado del lead** |
 | **Deals y reservas** | Un acuerdo o una reserva | Fecha · Canal · Naturaleza (`Reserva` · `Cierre`) · Facturación USD · Cash collected USD (si el cash se carga acá; ver Paso 2b) |
 | **Pagos** (o Cuotas) | Un pago (cobrado o esperado) | Fecha de pago · Deal o alumno (vínculo) · Canal (del deal) · Número de cuota · Monto USD |
-| **Gasto por anuncio** *(opcional)* | Un período de gasto de un anuncio | Fecha (inicio del período) · Canal · Anuncio · Gasto USD |
+| **Gasto por anuncio** *(opcional)* | Un período de gasto de un anuncio (un día o una semana) | Inicio del período · Canal · Anuncio · Gasto USD (si es semanal, la tabla reparte la semana entre meses: ver "Gasto semanal y meses", Paso 3) |
 
 Lo que antes eran tablas de "pagos proyectados", "canales" o "ventas por mes" se resuelve con **vistas filtradas y fórmulas** (clase 10/06). Si la base es un enredo, primero **Auditor de Base Heredada**; si hay que diseñar las tablas desde cero, **Arquitecto de Base en Airtable**.
 
@@ -97,7 +97,7 @@ Un registro por mes y canal. Campo primario: `Clave` (texto, el mismo formato qu
 | Campo | Tipo | Cálculo |
 |---|---|---|
 | Clave | Texto (primario) | Lo escribe la automatización |
-| Agendas · Deals · Pagos · Gasto | Vínculos a las tablas | Los escribe la automatización |
+| Agendas · Deals · Pagos · Gasto (mes de inicio) · Gasto (mes siguiente) | Vínculos a las tablas | Los escribe la automatización. El gasto tiene dos vínculos por el prorrateo de semanas que cruzan de mes |
 | Agendas totales | Conteo | Registros vinculados de Agendas |
 | Asistidas · No show · Canceladas | Conteo o rollup **con condición** (`Estado de la llamada` = …) | Solo los vinculados que cumplen la condición |
 | Cierres | Rollup con condición `Naturaleza` = Cierre, `COUNTALL(values)` | |
@@ -105,7 +105,7 @@ Un registro por mes y canal. Campo primario: `Clave` (texto, el mismo formato qu
 | Reservas USD | Rollup `SUM(values)`, condición Naturaleza = Reserva | |
 | Nuevos cierres USD | Rollup con condición (de Deals o de Pagos, según el Paso 2b) | |
 | Cuotas USD | Rollup `SUM(values)` de Monto USD (con condición si aplica el Paso 2b) | |
-| Gasto USD | Rollup `SUM(values)` de Gasto USD | Solo si existe la tabla de gasto |
+| Gasto USD | Dos rollups y una fórmula: `Gasto inicio USD` = `SUM(values)` de `Gasto mes de inicio` (por el vínculo "mes de inicio"); `Gasto siguiente USD` = `SUM(values)` de `Gasto mes siguiente` (por el vínculo "mes siguiente"); `Gasto USD` = `{Gasto inicio USD} + {Gasto siguiente USD}` | Solo si existe la tabla de gasto |
 | Cash nuevo USD | Fórmula | `{Reservas USD} + {Nuevos cierres USD}` |
 | Cash total USD | Fórmula | `{Cash nuevo USD} + {Cuotas USD}` |
 | Asistencia | Fórmula (porcentaje) | `IF({Agendas totales}, {Asistidas} / {Agendas totales})` |
@@ -118,7 +118,21 @@ Un registro por mes y canal. Campo primario: `Clave` (texto, el mismo formato qu
 
 Los conteos y rollups **con condición** son más simples que las fórmulas complejas y se conectan directo al dashboard (clase 15/06). El `IF` evita la división por cero.
 
-**Gasto semanal y meses:** el export de Meta por semana tiene semanas que cruzan de mes. Lo mejor es exportar **por día**. Si solo hay semanal, el gasto cae en el mes del inicio de la semana y se dice en la ficha; para decidir sobre un anuncio, usá **6 u 8 semanas móviles**, no el mes.
+**Gasto semanal y meses: prorrateo por día.** Es la **convención común de la biblioteca** (la misma que usa **Cierre de Mes Financiero**), para que el gasto de pauta de un mes dé igual en los KPIs y en el cierre. Lo mejor es exportar **por día** y no hay nada que repartir. Si la pauta llega por semana y no por mes: prorrateá por día. Cada semana se reparte en partes iguales entre sus 7 días y al mes le toca la parte de los días que caen adentro (una semana del 28/09 al 04/10 aporta 3/7 a septiembre y 4/7 a octubre). Marcala como **estimada** hasta tener la factura o el reporte mensual de la plataforma, y decí en la ficha que se prorrateó.
+
+En la tabla de gasto, con export semanal, sumá estos campos (la semana tiene 7 días: del inicio al inicio + 6):
+
+| Campo | Fórmula |
+|---|---|
+| Fin del período | `DATEADD({Inicio del período}, 6, 'days')` |
+| Días en el mes de inicio | `IF(DATETIME_FORMAT({Fin del período}, 'YYYY-MM') = DATETIME_FORMAT({Inicio del período}, 'YYYY-MM'), 7, 7 - DAY({Fin del período}))` |
+| Gasto mes de inicio | `{Gasto USD} * {Días en el mes de inicio} / 7` |
+| Gasto mes siguiente | `{Gasto USD} - {Gasto mes de inicio}` |
+| Clave KPI (mes de inicio) | `DATETIME_FORMAT({Inicio del período}, 'YYYY-MM') & " / " & IF({Canal}, {Canal}, "Sin canal")` |
+| Clave KPI (mes siguiente) | `IF({Días en el mes de inicio} < 7, DATETIME_FORMAT({Fin del período}, 'YYYY-MM') & " / " & IF({Canal}, {Canal}, "Sin canal"), "")` |
+| Estimado | Casilla: tildada mientras el gasto del mes no esté conciliado con la factura o el reporte mensual |
+
+La clave del mes siguiente queda vacía si la semana no cruza de mes, así que no se vincula nada de más. Las fechas del período son de día, sin hora: no hace falta zona horaria. Con export diario, `Fin del período` = `Inicio del período` y todo cae en un solo mes. Para decidir sobre un anuncio, igual usá **6 u 8 semanas móviles**, no el mes.
 
 ## Paso 4 · La automatización: buscar o crear la fila y vincularla
 
@@ -131,14 +145,31 @@ Una por tabla. Receta para Agendas (las otras son iguales):
 
 Los nombres de las acciones pueden variar con la versión de Airtable: buscá "buscar registros", "condición" y "actualizar registro".
 
+**En la tabla de gasto son dos automatizaciones** con la misma receta: una con `Clave KPI (mes de inicio)` que escribe el vínculo "mes de inicio", y otra con `Clave KPI (mes siguiente)` que escribe el vínculo "mes siguiente" (su disparador, "no está vacía", hace que solo corra en las semanas que cruzan de mes).
+
 **Atención con los cambios:** si alguien corrige el canal de un registro ya vinculado, la clave cambia y tiene que re-vincularse. Para correcciones, una vista "Clave distinta del vínculo" (fórmula que compara la clave con el nombre de la fila vinculada) y una revisión semanal.
 
-### El plan gratuito y sus límites
+### Si la base está en el plan gratuito (Free)
 
-Al momento de escribir esto, el plan Free de Airtable trae **100 ejecuciones de automatización por mes** y **1.000 registros por base** (revisá la página de precios de Airtable, porque cambian). Cada agenda, deal, pago o gasto que se vincula es una ejecución: un negocio con 60 llamadas, 20 ventas y 50 pagos por mes ya pasa las 100. Y con cientos de leads y cuotas, los 1.000 registros se llenan rápido. Opciones:
-- **Pasar la base a una cuenta del negocio con plan pago** (la base no debería vivir en la cuenta personal de nadie).
-- **Plan B sin automatizaciones:** una vez por semana, copiar la columna `Clave KPI` de cada tabla y pegarla en el campo de vínculo a KPIs. Airtable vincula por el valor del campo primario y crea la fila si no existe. Son 5 minutos por semana y no gasta ejecuciones.
-- Archivar en otra base los leads viejos que no se van a vender.
+**Los límites** (relevados en la ayuda de Airtable el 12/10/2026; son orientativos, verificá los de hoy en la página de planes y en el uso del espacio de trabajo): **100 corridas de automatización por mes** por espacio de trabajo, **1.000 registros por base**, 5 editores, 1.000 llamadas a la API por mes y 2 semanas de historial. El plan Team: 25.000 corridas, 50.000 registros, US$20 por editor por mes con pago anual (US$24 mensual).
+
+Cada agenda, deal, pago o gasto que se vincula es una corrida: un negocio con 60 llamadas, 20 ventas y 50 pagos por mes ya pasa las 100.
+
+**La alternativa manual (se enseña siempre que la base esté en Free).** Las tablas, la clave y la tabla de KPIs son las mismas; lo único que cambia es quién vincula:
+1. **Vista "Sin fila de KPI"** en cada tabla de origen: `Clave KPI` no vacía y vínculo a KPIs vacío.
+2. **Una vez por semana** (el mismo día y hora, con responsable), seleccioná la columna `Clave KPI` de esa vista, copiala y pegala en el campo de vínculo a KPIs. Airtable busca la fila de KPIs con ese nombre y la vincula. En la tabla de gasto, cada clave en su vínculo (mes de inicio y mes siguiente).
+3. **Probalo primero con 3 registros:** si tu versión de Airtable no crea sola la fila que falta, creá a mano las filas del mes (una por canal) el día 1 y después pegá.
+4. **Control:** la vista "Sin fila de KPI" tiene que quedar vacía después de pegar. Si alguien corrigió un canal, la vista "Clave distinta del vínculo" lo muestra.
+
+Son unos 10 minutos por semana y no gastan corridas. Lo que no se resuelve a mano es el límite de registros: archivá en CSV lo cerrado (leads viejos que no se van a vender, meses cerrados) después de cada cierre de mes.
+
+**Cuándo conviene pagar (criterios orientativos de RealOps™, no reglas de Airtable).** Con que se cumpla uno, llevalo al dueño como decisión, con la cuenta:
+- La proyección de registros pasa el **80 %** del límite en los próximos dos meses.
+- La carga manual (esta y la del resto de la base) supera **2 horas por semana**: compará editores × precio del plan contra horas × costo de la hora.
+- Hace falta que los KPIs estén al día **todos los días** (reunión diaria, panel de lanzamiento), no una vez por semana.
+- Más personas de las que permite el plan necesitan editar.
+
+Y antes de pagar: la base pasa a una **cuenta del negocio**, no la personal de nadie.
 
 ## Paso 5 · Vistas y dashboard
 
@@ -152,9 +183,9 @@ Al momento de escribir esto, el plan Free de Airtable trae **100 ejecuciones de 
 
 Construir es la mitad. La otra mitad es que sepas **para qué sirve cada número, en qué caso mirarlo y qué llevarle al dueño o al líder de área**. El detalle completo, campo por campo y con las piezas que se arman, está en `references/para-que-sirve-cada-dato.md`: cargalo siempre después de entregar la construcción, o cuando la persona pregunte "¿y ahora qué hago con esto?".
 
-Lo mínimo que entregás siempre, en una tabla:
+Lo mínimo que entregás siempre, en una tabla. **Las alarmas son criterios orientativos** (sirven para saber dónde mirar primero, no son metas de la industria): rotulalas así y ajustalas a la historia del negocio después de 2 o 3 meses de datos.
 
-| Dato | Qué pregunta responde | A quién le sirve | Cuándo mirarlo / alarma |
+| Dato | Qué pregunta responde | A quién le sirve | Cuándo mirarlo / alarma (orientativa) |
 |---|---|---|---|
 | Agendas por canal | ¿De dónde viene el volumen? | Marketing, founder | Un canal que crece sin ventas |
 | Asistencia | ¿La gente llega a la llamada? | Líder comercial, operaciones | Debajo de 50 %, o cae en un solo canal |
@@ -165,9 +196,11 @@ Lo mínimo que entregás siempre, en una tabla:
 | Costo por venta | ¿Qué anuncio trae clientes? | Marketing, founder | Un anuncio con gasto y 0 ventas en 4 semanas |
 | Sin canal | ¿Funciona el tracking? | Operaciones | Crece mes a mes |
 
+**Si hay setters, servicio u operaciones mirando**, sumá su primer nivel (detalle en la referencia, sección 2): para **setters**, los números del setting diario (calificados sobre conversaciones, agendados sobre calificados, agendados declarados contra los del CRM); para **servicio y cobros**, el % de cuotas vencidas sobre las que ya debían pagarse y los días entre el pago y el acceso; para **operaciones**, los registros sin clave o "Sin canal" y los días sin reporte. Se leen por persona o al corte, no por mes y canal: van al lado de la tabla, no adentro.
+
 Y **tres casos de uso** elegidos según lo que pidió el founder (del archivo de referencia): por ejemplo, "la reunión de los lunes con el tablero abierto", "la decisión de pauta" y "la conversación de comisiones e incentivos".
 
-Para el diagnóstico profundo (por qué pasa y qué hacer en cada área): **Analista de KPIs**.
+Para el diagnóstico profundo (causas, árbol de decisión y qué hacer en cada área): **Analista de KPIs**. Esta skill te deja leyendo y presentando el primer nivel de todas las áreas.
 
 ## Formato de salida
 
@@ -180,10 +213,10 @@ En `ejemplo-de-output.md` tenés uno completo.
 ## La clave (fórmula exacta por tabla, con "Sin canal")
 ## Cómo no contar dos veces la primera cuota (el caso de esta base)
 ## La tabla KPIs globales (campo · tipo · cálculo)
-## La automatización (una por tabla, paso a paso) · o el plan B si es plan gratuito
+## La automatización (una por tabla, paso a paso) · o la alternativa manual si es Free, y cuándo conviene pagar
 ## Plan de prueba (registros de prueba y resultado esperado)
 ## Cómo se ve un mes (tabla de ejemplo)
-## Cómo leer cada dato (tabla) y 3 casos de uso para este negocio
+## Cómo leer cada dato (tabla, con alarmas orientativas), primer nivel de setters, servicio y operaciones si aplica, y 3 casos de uso para este negocio
 ## Lo que queda afuera y por qué
 ## Para confirmar
 ```

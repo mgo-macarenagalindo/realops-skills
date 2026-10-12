@@ -1,6 +1,6 @@
 ---
 name: dashboard-vibe-coding
-description: Dashboard con Vibe Coding (RealOps™). Te guía a construir con Claude Code un tablero web de 5 KPIs pensado para lo que mira el founder o el CEO (cada KPI con fórmula, comparación, alarma y la decisión que dispara), primero con datos de ejemplo para tu portafolio y después leyendo la base en vivo, guardado en un repositorio privado de GitHub y publicado en Vercel con contraseña, sin claves en el código. Devuelve el plan de construcción en 6 pasos, el CLAUDE.md del proyecto, los prompts listos para pegar y el checklist de pruebas y seguridad. Usala cuando quieras un dashboard propio con link en vez de una vista de Airtable, cuando el founder se pierde en la base, para la actividad de app en Vercel o para armar una pieza de portafolio mostrable.
+description: Dashboard con Vibe Coding (RealOps™). Te guía a construir con Claude Code un tablero web de 5 KPIs pensado para lo que mira el founder o el CEO (cada KPI con fórmula, comparación, alarma y la decisión que dispara), primero con datos de ejemplo para tu portafolio y después leyendo la base en vivo, guardado en un repositorio privado de GitHub y publicado en Vercel con acceso protegido, sin claves en el código. Devuelve el plan de construcción en 6 pasos, el CLAUDE.md del proyecto, los prompts listos para pegar y el checklist de pruebas y seguridad. Usala cuando quieras un dashboard propio con link en vez de una vista de Airtable, cuando el founder se pierde en la base, para la actividad de app en Vercel o para armar una pieza de portafolio mostrable.
 ---
 
 # Dashboard con Vibe Coding
@@ -38,8 +38,8 @@ Una tabla de cinco filas: nombre corto · fórmula exacta y de qué tabla y camp
 
 **Fuentes que no están en la base** (el gasto de Meta Ads, la pasarela, una planilla de sueldos): se elige una de dos y se escribe en el `CLAUDE.md`:
 - **Un CSV en `/data`** exportado de la plataforma, solo con columnas agregadas (fecha o semana, campaña o anuncio, gasto), sin datos de personas. Es lo más rápido; hay que reemplazarlo a mano cada período.
-- **Una tabla "Pauta" en la base** (período · plataforma · anuncio o `utm_content` · gasto), que alguien carga cada semana o mes (o una automatización). Así la versión en vivo lee todo de un solo lugar.
-Si el export llega por semana y el KPI es mensual, prorrateá por día y marcalo como estimado.
+- **La tabla "Gasto por anuncio" en la base**, la **misma** que propone la skill **Tabla de KPIs Globales en Airtable** (no inventes otra con otro nombre): Fecha (inicio del período) · Fin del período · Canal · Anuncio (igual al `utm_content`, carácter por carácter) · Gasto USD. Si además vas a usar **Rentabilidad por Anuncio**, sumale las dos columnas que esa skill necesita del reporte de la plataforma: Clientes potenciales y Agendas de la plataforma (con el nombre del evento). Una sola tabla alimenta el tablero, la tabla de KPIs y el análisis de pauta. La carga alguien cada semana o mes (o una automatización).
+Lo mejor es exportar el gasto **por día**. Si llega por semana y el KPI es mensual: si ya existe la Tabla de KPIs Globales, usá **su misma convención** para que el tablero y la tabla den igual; si no, prorrateá por día y marcalo como estimado.
 
 ### Paso 3 · Carpeta, CLAUDE.md y modo Plan
 - Carpeta **local** (fuera de iCloud o Drive, que a veces "desaparecen" archivos).
@@ -60,7 +60,10 @@ Si el export llega por semana y el KPI es mensual, prorrateá por día y marcalo
 ### Paso 6 · Conectarlo a la base en vivo (con seguridad)
 - **Token de solo lectura**, con acceso solo a esa base. Aunque algo salga mal, el dashboard nunca toca los datos.
 - **La clave nunca en la página ni en el repo:** va en las variables de entorno de Vercel, y una función del lado del servidor lee la base y le devuelve a la página **solo los números agregados** (nada de nombres de clientes).
-- **Contraseña** para el sitio. Si tu plan de Vercel trae protección con contraseña incluida, sirve; **no afirmes qué plan la incluye: revisalo en la cuenta.** Si no la tenés (por ejemplo, en el plan gratuito para tu portafolio), se hace con un **middleware**: un archivo chico (`middleware.js` en la raíz del proyecto) que corre antes de mostrar cualquier página, pide usuario y contraseña (autenticación básica del navegador) y la compara con una **variable de entorno** `SITE_PASSWORD` cargada en Vercel. Si no coincide, no muestra nada. La contraseña nunca va escrita en el código. Pedile a Claude Code: "Agregá un middleware que proteja todo el sitio, incluida /api, con autenticación básica contra la variable de entorno SITE_PASSWORD; mostrame el plan antes". Es protección simple: sirve para números agregados, no para datos de personas.
+- **Protección del sitio: cuál usar (criterio orientativo).** Elegí en este orden y escribí la elección en el `CLAUDE.md`. Lo que incluye cada plan cambia: **revisalo en la cuenta** (Settings → Deployment Protection). Referencia, según la documentación de Vercel a septiembre de 2026: la protección con **Vercel Authentication** se puede aplicar a todos los links, incluido el de producción ("All Deployments"), en todos los planes, y el plan gratuito permite dar acceso a un solo usuario externo; la protección **con contraseña nativa** es un adicional pago del plan Pro y no está en el gratuito.
+  1. **Tablero de un negocio (datos reales, aunque sean agregados):** protección **nativa** de Vercel, en la cuenta del negocio. Primera opción: **Vercel Authentication en "All Deployments"**, con el founder y quien lo use como miembros o con acceso aprobado (entra con su usuario: se puede quitar el acceso a una persona sin cambiarle la clave a todos). Si el negocio prefiere una contraseña compartida, la **contraseña nativa** (adicional pago). Ventaja sobre el middleware: no hay código que mantener ni que se pueda romper en un cambio.
+  2. **Portafolio en la cuenta gratuita, con datos ficticios:** no hay nada sensible que proteger, así que puede quedar **público**; si querés mostrar que sabés protegerlo, o la versión en vivo lee tu copia de la base, usá el **middleware**.
+  3. **Middleware (plan B, cuando lo nativo no está o no alcanza):** un archivo chico (`middleware.js` en la raíz del proyecto) que corre antes de mostrar cualquier página, pide usuario y contraseña (autenticación básica del navegador) y la compara con una **variable de entorno** `SITE_PASSWORD` cargada en Vercel. Si no coincide, no muestra nada. La contraseña nunca va escrita en el código. Pedile a Claude Code: "Agregá un middleware que proteja todo el sitio, incluida /api, con autenticación básica contra la variable de entorno SITE_PASSWORD; mostrame el plan antes". Es protección simple: una sola contraseña compartida, sirve para números agregados, no para datos de personas; si alguien se va del equipo, se cambia la variable y se vuelve a publicar.
 - Si el tablero va a mostrar datos de personas, el paso siguiente es un login por usuario.
 - **Una API key por proyecto** (clase 20/08), para poder darla de baja sin romper otra cosa.
 - **Caché** de unos 30 minutos, para no agotar las llamadas a la API del plan de la base.
@@ -70,7 +73,7 @@ Si el export llega por semana y el KPI es mensual, prorrateá por día y marcalo
 
 1. Los 5 KPIs coinciden con un cálculo a mano.
 2. Se lee en el celular sin hacer zoom.
-3. En una ventana de incógnito, pide contraseña.
+3. En una ventana de incógnito, pide contraseña o el login de Vercel (también en `/api`), según la protección elegida.
 4. El token no aparece ni en el código fuente de la página ni en GitHub.
 5. Cambia un registro en la base y, pasada la caché, cambia el número.
 6. Un mes sin datos muestra "sin datos", no un error.

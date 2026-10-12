@@ -1,6 +1,6 @@
 # Casos de uso · Auditor de Base Heredada
 
-Cuatro situaciones de infonegocio donde esta skill te salva de romper algo el primer día. Negocios y nombres ficticios.
+Cinco situaciones de infonegocio donde esta skill te salva de romper algo el primer día. Negocios y nombres ficticios.
 
 ---
 
@@ -49,3 +49,16 @@ Cuatro situaciones de infonegocio donde esta skill te salva de romper algo el pr
 **Qué te devuelve.** Qué se migra (clientes activos, KPIs mensuales, finanzas, seguimientos abiertos), qué queda como archivo, la lista de "qué automatización apunta adónde" antes y después del cambio, qué semana conviene hacerlo y el aviso al equipo. El diseño de la base nueva lo deriva a Arquitecto de Base en Airtable.
 
 **Por qué sirve.** Empezás de cero sin perder la historia que importa ni dejar un Zap escribiendo en la base vieja. Clase del 01/09.
+
+
+---
+
+## 5. "Pensé que eran tres o cuatro" (automatizaciones en muchas cuentas)
+
+**La situación.** En un programa de 6 meses, la coordinadora relevó "todo lo que se mueve solo" y aparecieron 15 automatizaciones en 9 herramientas: Zaps de una exsetter, un Make de la agencia que ya no trabaja con el negocio, automatizaciones nativas en una base con plan gratis. Parte la vio ella; parte se la contaron por captura.
+
+**Qué le pasás.** Su inventario tal cual, el esquema de la base y los CSV.
+
+**Qué te devuelve.** Cada fila con su nivel de confianza (visto, visto con el dueño, reconstruido); el mapa por evento (el pago dispara cinco automatizaciones en tres cuentas: van a un solo flujo); los campos que escriben varias manos (y la trampa de pasarlos a fórmula); la falla que corre "en verde" sin escribir nada; los datos de leads que siguen saliendo a cuentas de gente que se fue; el día en que el plan gratis se cortó y qué dejó de salir desde entonces, con la alternativa manual y cuándo conviene pagar; y el orden para revocar accesos sin cortar el alta de leads.
+
+**Por qué sirve.** Pasa de "hay un Zap" a un mapa que se puede ordenar sin romper nada.

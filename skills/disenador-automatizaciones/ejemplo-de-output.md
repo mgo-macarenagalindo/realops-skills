@@ -14,6 +14,21 @@
 
 **Plataforma:** automatizaciones nativas de Airtable · **Por qué:** los datos nacen y terminan en la base, el plan Team permite mandar mails a personas de afuera y no hay que pagar otra herramienta. · **Alternativa:** un flujo diario en n8n (30 ejecuciones por mes) si más adelante el aviso al alumno tiene que salir por WhatsApp de forma automática.
 
+**Comparación de ventajas (adaptada a este caso):**
+
+| Eje | Airtable nativa ✅ | Zapier | Make | n8n |
+|---|---|---|---|---|
+| Costo con ~70 corridas por mes | Incluido en el plan Team | Plan pago nuevo (~210 tareas) | Plan pago nuevo o gratis justo | Nube: ~30 ejecuciones (plan pago); autoalojado: servidor |
+| Control | Suficiente: todo pasa en la base | Medio | Alto | El más alto |
+| Escalabilidad | Sobra margen (70 de 25.000) | Sube el costo con cada paso | Buena | La mejor |
+| Autoalojado | No | No | No | Sí |
+| IA | No hace falta acá | Paso de IA | Módulos de IA | Nodos y agentes |
+| Curva | La más baja: la coordinadora ya usa la base | Baja | Media | Alta: nadie técnico en el equipo |
+
+**Gana acá porque** los datos nacen y terminan en la base, ya está pagada y la mantiene quien la usa. n8n ganaría si el aviso al alumno tuviera que salir solo por WhatsApp.
+
+**Límites usados:** orientativos, revisados en octubre de 2026 (25.000 corridas por mes en Team). Confirmalos en airtable.com/pricing.
+
 **Dueño:** Coordinación de servicio · **Ahorro estimado:** hoy la coordinadora revisa vencidas 45 min por semana y escribe a mano: unas **3 h por mes**, más las cuotas que se cobran antes. · **Costo:** unas 45 corridas (aviso previo) + 15 (vencidas) + 10 (escalados) ≈ **70 corridas por mes** de las 25.000 del plan Team.
 
 ## 0. Cuentas

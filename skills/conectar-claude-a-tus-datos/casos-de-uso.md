@@ -10,7 +10,7 @@ Cuatro situaciones de infonegocio donde dejar de exportar planillas cambia la se
 
 **Qué le pasás.** Las dos plataformas, dónde trabajás con Claude, las tres preguntas que más te hacen y, si querés, los exports de la última semana.
 
-**Qué te devuelve.** El camino para cada una (conector oficial de Airtable; servidor oficial de Stripe como conector personalizado, con usuario de solo lectura), los campos que no conviene usar para responder, las 10 preguntas con su fuente y filtro, la tabla de verificación con "qué dicen los datos" ya calculado desde tus exports, y las reglas de uso para la wiki.
+**Qué te devuelve.** El camino para cada una (conector oficial de Airtable; conector oficial de Stripe con login, probado primero en el sandbox y con permisos de lectura), los campos que no conviene usar para responder, las 10 preguntas con su fuente y filtro, la tabla de verificación con "qué dicen los datos" ya calculado desde tus exports, y las reglas de uso para la wiki.
 
 **Por qué sirve.** Es la actividad 17 del programa, llevada a todas las herramientas donde vive la plata.
 

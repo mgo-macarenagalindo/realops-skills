@@ -10,7 +10,7 @@ Tres situaciones de infonegocio donde el equipo trabaja por WhatsApp y nadie sab
 
 **Qué le pasás.** Los roles, quién trabaja full time y quién por pieza, quién cobra, y qué número le pregunta el founder a cada uno.
 
-**Qué te devuelve.** Un EOD por rol con las plantillas del programa (setter, closer, coach, coordinación), cada una sin los campos que ese rol no usa y con una línea de por qué se sacó o se sumó cada cosa. Energía del 1 al 10 y Big Rock en los roles que manejan su agenda. La editora pasa a reportar por entrega.
+**Qué te devuelve.** Un EOD por rol con las plantillas del programa (setter, closer, coach, coordinación), cada una sin los campos que ese rol no usa y con una línea de por qué se sacó o se sumó cada cosa. Energía del 1 al 10, Big Rock obligatorio en los roles que manejan su agenda y opcional en setters y closers. La editora pasa a reportar por entrega.
 
 **Por qué sirve.** Cada persona completa en dos minutos lo que de verdad hace, y el resumen del founder sale con números que se pueden cruzar con la base.
 

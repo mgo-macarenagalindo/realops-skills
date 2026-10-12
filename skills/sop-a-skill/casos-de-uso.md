@@ -22,7 +22,7 @@ Tres situaciones de infonegocio donde un proceso escrito pasa a correr solo. Neg
 
 **Qué le pasás.** El proceso contado en voz alta y el error que pasó.
 
-**Qué te devuelve.** El veredicto (es material de skill y **lleva regla de oro** porque escribe en la base), los pasos en el orden preparar · prueba en seco · validaciones · escribir solo con OK · verificar · avisar, las cinco validaciones base de plata (duplicados, registros sin dueño, período, estado, total de control), la validación nueva que nace del error ("comprobante no es pago: solo cuenta lo conciliado") y el contraste con el mes pasado, donde cada diferencia sin explicar es un hallazgo.
+**Qué te devuelve.** El veredicto (es material de skill y **lleva regla de oro** porque escribe en la base), los pasos en el orden preparar · prueba en seco · validaciones · escribir solo con OK · verificar · avisar, las cinco validaciones base de plata (duplicados, registros sin dueño, período, estado, total de control), la validación nueva que nace del error ("comprobante no es pago: solo cuenta lo conciliado") y el contraste con el mes pasado, donde cada diferencia sin explicar es un hallazgo. Si el hallazgo no se puede cerrar con los datos, te acota las candidatas por riesgo y te escribe el chequeo de 5 minutos que lo cierra; si hay plata cobrada o pagada de más, te propone qué hacer (con la regla de transición para no pagar dos veces) para que el founder solo apruebe.
 
 **Por qué sirve.** Cuando una skill toca datos, la diferencia entre una herramienta y un riesgo es la regla de oro escrita.
 

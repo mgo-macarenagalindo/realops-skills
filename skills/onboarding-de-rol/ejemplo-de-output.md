@@ -81,6 +81,13 @@ Con los KPIs del descriptor: tasa de cierre sobre llamadas asistidas, notas de t
 
 **Antes de comparar, chequeo de que se mide igual:** "llamada asistida" la marca cada closer en el CRM. El closer actual marca "asistió" también cuando el lead se conecta 2 minutos y corta, así que la tasa de cierre de los dos no es comparable hasta que se unifique el criterio (asistió = la llamada duró más de 10 minutos). Se unifica antes del día 1 y se escribe en la wiki.
 
+## Decisiones por defecto
+
+| Decisión | Qué se eligió (criterio orientativo) | Con qué dato | Se puede cambiar hasta |
+|---|---|---|---|
+| Quién acompaña | El closer actual en las llamadas; la coach principal evalúa el role-play | Es el único closer y cierra 3 de cada 10 llamadas asistidas con el criterio nuevo de "asistió" | Jueves 15/10 |
+| Comisión del closer nuevo | La misma que el actual (porcentaje sobre lo cobrado, no sobre lo vendido) hasta la revisión a 30 días | Es lo que dice el acuerdo comercial vigente | Jueves 15/10 |
+
 ---
 
 ¿Querés el mensaje de bienvenida para el closer nuevo y el anuncio para el equipo? Si este plan se va a repetir, pasalo a SOP con la skill Constructor de SOP de Infonegocio, y el formulario de ingreso puede disparar los avisos solo (skill Diseñador de Automatizaciones).

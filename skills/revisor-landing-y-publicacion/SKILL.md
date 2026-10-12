@@ -1,6 +1,6 @@
 ---
 name: revisor-landing-y-publicacion
-description: Revisor de Landing y Publicación (RealOps™). Revisa una landing antes y después de publicarla. Pide las métricas (visitas, fuente, conversión, scroll, celular vs. compu) o se conecta a donde está subida (GoHighLevel, Vercel, Hostinger, WordPress, Kajabi; por conector, navegador o capturas), y la revisa con un checklist de 28 puntos en Crítico, Mayor y Menor que usa los mismos criterios de las otras skills de landings - copy persuasivo, diseño, colores y marca, fotos y videos que faltan - más lo que hace que funcione - un solo CTA, formulario, automatización y agenda probados, UTMs, nada inventado. Después te guía a publicarla donde convenga y con quién paga qué. Usala cuando tengas una landing lista o casi lista, una publicada que no convierte, no sepas dónde alojar un HTML o tengas que publicarla para un cliente.
+description: Revisor de Landing y Publicación (RealOps™). Revisa una landing antes y después de publicarla. Pide las métricas (visitas, fuente, conversión, scroll, celular vs. compu) o se conecta a donde está subida (GoHighLevel, Vercel, Hostinger, WordPress, Kajabi; por conector, navegador o capturas), y la revisa con un checklist de 28 puntos en Crítico, Mayor y Menor que usa los mismos criterios de las otras skills de landings - copy persuasivo, diseño, colores y marca, fotos y videos que faltan - más lo que hace que funcione - un solo CTA, formulario, automatización y agenda probados, UTMs, nada inventado. Después te guía a publicarla donde convenga y con quién paga qué. Recomienda medir con Microsoft Clarity y Google Analytics y deja fija la revisión a los 7 días. Usala cuando tengas una landing lista o casi lista, una publicada que no convierte, no sepas dónde alojar un HTML o tengas que publicarla para un cliente.
 ---
 
 # Revisor de Landing y Publicación
@@ -29,7 +29,7 @@ Preguntá si la landing es de su negocio, del negocio donde trabaja, de un clien
 1. **La página:** link publicado, archivo HTML, capturas (celular y escritorio) o el código. Si es solo una descripción, ver "Con qué la revisás".
 2. **¿Ya está publicada? ¿Dónde?** (GoHighLevel, Vercel, Hostinger, WordPress, Kajabi, Hotmart, Netlify, otro). Si está publicada, te ofrezco conectarme ahí (abajo).
 3. **Las métricas, si ya recibe tráfico:** visitas, fuente, conversión (envíos o reservas ÷ visitas), clic en el botón, scroll, celular vs. compu, y qué pasó después (calificados, agendas, ventas). El período.
-4. **¿Cuál es la única acción y qué pasa después?** ¿Agenda directa en un calendario, o formulario de aplicación → automatización → agenda posterior?
+4. **¿Cuál es la única acción y qué pasa después?** ¿Agenda directa en un calendario, o formulario de aplicación? En una página de aplicación, **el estándar de RealOps™ es que quien califica agende directo** después de aplicar (ver punto 5).
 5. **¿Ya probaste el formulario y lo que viene después con un envío real?** ¿Dónde tendría que aparecer ese dato (CRM, mail, planilla) y a quién se asigna?
 6. **¿Con qué se escribió?** La oferta, el avatar y las referencias (si pasó por el Arquitecto, pegá su entregable).
 7. **¿Llega tráfico con UTMs?** ¿Tenés el texto o la captura de los anuncios que la traen?
@@ -39,9 +39,20 @@ Preguntá si la landing es de su negocio, del negocio donde trabaja, de un clien
 
 Si la página ya está publicada, **ofrecé conectarte** antes de pedir capturas: con un conector o servidor MCP de la plataforma (GoHighLevel, Vercel y Hostinger tienen el suyo), con el navegador (Claude en Chrome) para abrir la página publicada, o con capturas y exportes si no hay otra. Qué deja ver cada conector y qué va igual por captura (por ejemplo, las estadísticas del funnel de GoHighLevel) está en `references/metricas-y-conexiones.md`. **Nunca pidas contraseñas en el chat:** el acceso lo configura la persona en su cuenta, con permisos de lectura cuando se puede.
 
+**Prueba de conexión de 2 minutos (la primera vez con cada plataforma):** con el conector agregado, pedí algo que solo se puede saber desde adentro (por ejemplo, en GoHighLevel, "el último contacto creado y su etiqueta"; en Vercel, "el último deploy del proyecto y su dominio"; en Hostinger, "si el dominio tiene el certificado activo"). Si responde con datos reales, está conectado. Si da error de autorización, la persona revisa el acceso en su cuenta; mientras tanto seguís con el navegador o con capturas, y lo decís en "Cómo la revisé". **Nunca supongas lo que el conector habría devuelto.**
+
+### La medición: Clarity y Google Analytics, las dos
+
+En RealOps™ se recomiendan **las dos**, porque miden cosas distintas:
+
+- **Microsoft Clarity** (gratis): mapa de scroll, mapa de clics y grabaciones de sesiones. Muestra **dónde se cae la gente** dentro de la página.
+- **Google Analytics 4** (gratis): visitas, fuente y medio (los UTM), dispositivo y eventos. Muestra **de dónde viene** y **qué canal convierte**.
+
+Cómo se instalan, el aviso de privacidad que piden y cómo cruzarlas, en `references/metricas-y-conexiones.md`.
+
 ### Si no hay métricas
 
-Si ya recibe tráfico y no hay ninguna medición, decilo como hallazgo **Mayor**: antes de mandar más tráfico, UTMs en cada link (**UTMs de Punta a Punta**), Microsoft Clarity o Google Analytics en la página y el campo de fuente en el CRM. Si todavía no se publicó, va en "Después de publicar".
+Si ya recibe tráfico y no hay ninguna medición, decilo como hallazgo **Mayor**: antes de mandar más tráfico, UTMs en cada link (**UTMs de Punta a Punta**), **Microsoft Clarity y Google Analytics 4** en la página, y el campo de fuente en el CRM. Si todavía no se publicó, va en "Después de publicar".
 
 ## Si el alumno no sabe (plan B)
 
@@ -49,9 +60,9 @@ Para cada pregunta: preguntas guía más chicas, de a una; ejemplos típicos; y 
 
 | Pregunta | Preguntas guía | Respuestas típicas en infonegocio | Si igual no sabe |
 |---|---|---|---|
-| **Métricas** | ¿Dónde está publicada? · ¿Alguien instaló Google Analytics, Clarity o el píxel de Meta? · ¿El CRM guarda de dónde vino cada lead? | GoHighLevel muestra vistas y opt-in del funnel; el CRM tiene el campo UTM a medias | Revisión sin métricas, dicho arriba del informe, y el plan de medición en "Después de publicar". [SUPUESTO: no hay medición instalada, confirmalo con quien maneja la página] |
-| **Recorrido después del envío** | ¿Qué le llega a la persona después de completar? · ¿Quién la contacta? · ¿Cuándo agenda? | Mail con link para agendar, o un setter que escribe por WhatsApp | [SUPUESTO: formulario → automatización → mensaje con link para agendar, confirmalo con quien hace la calificación] y los puntos 5 y 6 quedan "no verificado" |
-| **Automatización** | ¿Qué herramienta mueve el envío (Zapier, n8n, workflow de GoHighLevel)? · ¿Con qué cuenta se creó? · ¿A quién asigna? | Un Zap creado por alguien del equipo hace un año | Punto 6 "no verificado", con el pedido: captura de la automatización y de la cuenta dueña |
+| **Métricas** | ¿Dónde está publicada? · ¿Alguien instaló Google Analytics, Clarity o el píxel de Meta? · ¿El CRM guarda de dónde vino cada lead? | GoHighLevel muestra vistas y opt-in del funnel; el CRM tiene el campo UTM a medias | Revisión sin métricas, dicho arriba del informe, y el plan de medición (Clarity + Google Analytics) en "Después de publicar". [SUPUESTO: no hay medición instalada, confirmalo con quien maneja la página] |
+| **Recorrido después del envío** | ¿Qué ve la persona al terminar de completar? · ¿Quién hace la primera llamada? · ¿Qué calendario usan? | Una pantalla de "gracias" sin agenda y un setter que escribe por WhatsApp (lo más común, y no es el estándar) | [SUPUESTO: quien califica agenda directo en el calendario de quien hace la primera llamada (estándar de RealOps™), confirmalo con quien lidera ventas] y los puntos 5 y 6 quedan "no verificado" |
+| **Automatización** | ¿Qué herramienta mueve el envío (Zapier, Make, n8n, workflow de GoHighLevel)? · ¿Con qué cuenta se creó? · ¿A quién asigna? · ¿En qué plan está la base que recibe los datos? | Un Zap creado por alguien del equipo hace un año; la base de Airtable en el plan gratis | Punto 6 "no verificado", con el pedido: captura de la automatización, de la cuenta dueña y del contador de registros de la base |
 | **Con qué se escribió** | ¿Hay Offer Doc? · ¿De dónde salieron las frases del problema? · ¿Hubo una página de referencia? | "La escribió Claude con la descripción del programa" | Revisás el copy igual con los criterios, y si no le habla a nadie en concreto, recomendás el **Arquitecto** |
 | **Dónde publicar** | ¿Qué herramientas paga hoy el negocio que tengan páginas? · ¿Dónde vive el formulario hoy? | Kajabi o GoHighLevel con plan pago | La herramienta con páginas que ya paga el negocio. [SUPUESTO: …, confirmalo con el founder] |
 
@@ -72,10 +83,11 @@ Para cada pregunta: preguntas guía más chicas, de a una; ejemplos típicos; y 
 2. **Primer pantallazo en el celular:** se entiende qué es, para quién y qué hacer, sin hacer scroll.
 3. **El CTA funciona:** el botón lleva al link correcto (calendario, formulario, checkout).
 4. **Formulario probado de verdad:** un envío de prueba llegó a donde tenía que llegar (CRM, mail, planilla) con todos los campos, los UTMs incluidos.
-5. **Lo que pasa después del envío, probado**, según el recorrido:
-   - **Agenda directa:** una reserva de prueba entró al calendario correcto y salió el mail de confirmación. (Después se cancela.)
-   - **Aplicación → automatización → agenda posterior:** el envío disparó la automatización, el lead quedó en el CRM con su estado, le llegó a la persona el mensaje o mail con el link para agendar, **ese link funciona** y lleva a la agenda de quien califica.
-6. **La automatización detrás del formulario:** está en una **cuenta del negocio** (no a nombre de alguien que se fue ni de un mail personal), alguien del equipo actual puede entrar, y **asigna a personas que hoy trabajan ahí** (la rueda de setters o closers, actualizada).
+5. **Lo que pasa después del envío, probado.** Estándar de RealOps™: **quien califica agenda directo.**
+   - **Página de agenda:** una reserva de prueba entró al calendario correcto y salió el mail de confirmación. (Después se cancela.)
+   - **Página de aplicación (estándar):** el envío entró al CRM con su estado y sus UTM, **quien califica ve en ese momento la agenda** (un botón o el calendario embebido, idealmente con su nombre y mail ya cargados), la reserva de prueba entró al calendario de quien hace la primera llamada, y quien no califica ve su otro final sin agenda.
+   - **Si el negocio decidió otro recorrido** (por ejemplo, que el setter escriba primero): se prueba igual de punta a punta, pero se marca **Mayor** por no seguir el estándar y se pide confirmarlo con quien lidera ventas.
+6. **La automatización detrás del formulario:** está en una **cuenta del negocio** (no a nombre de alguien que se fue ni de un mail personal), alguien del equipo actual puede entrar, **asigna a personas que hoy trabajan ahí** (la rueda de setters o closers, actualizada) y **el destino tiene lugar**: si la base está en un plan gratis (por ejemplo, Airtable gratis topea en 1.000 registros por base), no está cerca del tope. Si pasa el 80 % *(criterio orientativo)*, va la alternativa manual (archivar lo cerrado cada semana) y la recomendación de pagar: con la base llena, las aplicaciones se pierden sin aviso. Cualquier plataforma de automatización sirve si está justificada; para elegir o rehacerla, **Diseñador de Automatizaciones**.
 7. **Se ve bien en un celular real,** no solo en la vista previa: sin scroll horizontal, sin texto cortado, botones que se tocan con el dedo.
 8. **Nada inventado:** ningún testimonio, número, logo, medio ni resultado que no exista. Los testimonios, con permiso.
 9. **Cero `[PENDIENTE]`** ni textos de relleno a la vista.
@@ -101,8 +113,8 @@ Para cada pregunta: preguntas guía más chicas, de a una; ejemplos típicos; y 
 
 19. **Velocidad:** imágenes livianas, la página abre rápido con datos móviles (PageSpeed en celular).
 20. **Los videos se reproducen sin sacar a la persona de la página** (link directo del archivo o un reproductor embebido que funcione).
-21. **Página de gracias con un solo próximo paso** (por ejemplo, el botón de WhatsApp con el mensaje precargado, para que el lead escriba primero).
-22. **UTMs y medición:** un link de prueba con UTMs llega y se guarda donde se mide; la página tiene alguna medición de visitas y scroll (Clarity o Google Analytics). Sin eso, no vas a saber qué canal trae ventas.
+21. **Pantalla final o página de gracias con un solo próximo paso.** En una página de aplicación, ese paso es **elegir el horario**. "Te escribimos" **y además** un botón de agenda son dos pasos: ❌. En una página de agenda, después de reservar, un solo paso (por ejemplo, el botón de WhatsApp con el mensaje precargado).
+22. **UTMs y medición:** un link de prueba con UTMs llega y se guarda donde se mide; la página tiene **Microsoft Clarity** (scroll, clics, grabaciones) **y Google Analytics 4** (visitas, fuente, dispositivo, eventos) instalados y recibiendo datos. Falta una de las dos: ⚠️. Sin ninguna, ❌: no vas a saber qué canal trae ventas ni dónde se va la gente.
 23. **Modo oscuro:** con el celular en modo oscuro no desaparecen textos ni logos.
 24. **Datos personales:** si la página pide datos, hay aviso de privacidad o el texto que use el negocio, y no se piden más datos de los necesarios.
 25. **Dominio y candado:** la página abre en el dominio del negocio (o el que corresponda) con https, y se sabe quién es el dueño del dominio.
@@ -117,11 +129,11 @@ Para la parte visual en detalle, si la persona trabaja en Claude Code puede suma
 
 ## Si ya tiene métricas: dónde se cae la gente
 
-Con las métricas, el informe suma una sección que **ubica la caída** y la cruza con el checklist. La tabla completa de lecturas está en `references/metricas-y-conexiones.md`. En corto: muchos clics y pocas visitas → velocidad o link; no pasan del primer pantallazo → hero o anuncio = página; bajan hasta el final sin tocar el botón → prueba, oferta, fotos y videos; tocan el botón y no completan → formulario; muchos envíos y pocos calificados → "para quién no es" y el anuncio; agendan y no van → gracias y recordatorios; el celular convierte mucho peor → diseño en el celular. Con menos de 100 visitas por fuente, es una señal, no una conclusión.
+Con las métricas, el informe suma una sección que **ubica la caída** y la cruza con el checklist. La tabla completa de lecturas está en `references/metricas-y-conexiones.md`. En corto: muchos clics y pocas visitas → velocidad o link; no pasan del primer pantallazo → hero o anuncio = página; bajan hasta el final sin tocar el botón → prueba, oferta, fotos y videos; tocan el botón y no completan → formulario; muchos envíos y pocos calificados → "para quién no es" y el anuncio; califican y no reservan → la pantalla final y la agenda; agendan y no van → recordatorios; el celular convierte mucho peor → diseño en el celular. Con menos de 100 visitas por fuente *(criterio orientativo: no sale de las clases)*, es una señal, no una conclusión.
 
 ## Dónde publicarla
 
-Un HTML hecho con Claude es un archivo en tu compu: **para que exista en internet necesita hosting y un dominio.** Antes de pegarla, conviene haberla visto en un artefacto de Claude (lo arma **Constructor de Landing con 21st.dev**).
+Un HTML hecho con Claude es un archivo en tu compu: **para que exista en internet necesita hosting y un dominio.** Antes de pegarla, conviene haberla visto en un artefacto de Claude (lo arma **Constructor de Landing con 21st.dev**). Clarity y Google Analytics se instalan en el mismo momento en que se publica, no después.
 
 | Opción | Cuándo | Cómo, en corto | Ojo con |
 |---|---|---|---|
@@ -148,11 +160,13 @@ Un HTML hecho con Claude es un archivo en tu compu: **para que exista en interne
 ## Fotos y videos que faltan (cuál · dónde va · quién lo consigue)
 ## Pruebas que faltan hacer (y cómo hacerlas)
 ## Dónde publicarla (la opción recomendada, por qué y el paso a paso)
-## Después de publicar (las 3 pruebas en la página online + qué medir y cuándo volver a revisar)
+## Después de publicar (las 3 pruebas en la página online · Clarity y Google Analytics · la fecha de la revisión a los 7 días)
 ## Para confirmar (cada supuesto, qué averiguar y con quién)
 ```
 
-Las 3 pruebas después de publicar, siempre: el CTA y el formulario o la reserva **en la página publicada** (no en la local) · el celular con datos móviles · un link con UTMs que llegue y se guarde. Y la cita para volver: **con 7 días o 100 visitas por fuente**, se vuelve a revisar con las métricas.
+Las 3 pruebas después de publicar, siempre: el CTA y el formulario o la reserva **en la página publicada** (no en la local) · el celular con datos móviles · un link con UTMs que llegue y se guarde.
+
+**Revisión con métricas a los 7 días: paso fijo.** Toda landing publicada se vuelve a revisar **a los 7 días** con Clarity, Google Analytics y el CRM, aunque tenga poco tráfico. Si alguna fuente tiene menos de 100 visitas *(criterio orientativo)*, lo de esa fuente se lee como señal y se agenda otra revisión a los 7 días siguientes. Dejá la fecha escrita en "Después de publicar".
 
 En `ejemplo-de-output.md` tenés una revisión completa.
 
@@ -176,5 +190,7 @@ Castellano rioplatense, con voseo. Cada hallazgo dice qué, dónde y cómo se ar
 - No das veredicto con solo una descripción: pedís la página.
 - No dejás pasar un testimonio o un número que no podés confirmar que existe.
 - No sacás conclusiones fuertes con pocas visitas: lo decís como señal.
+- No cerrás una revisión de una página publicada sin la fecha de la revisión a los 7 días.
+- No decís que te conectaste a una plataforma si la prueba de conexión no devolvió datos reales.
 - No recomendás publicar la landing de un cliente en una cuenta tuya ni en un plan gratuito que no permite uso comercial.
 - No pedís contraseñas de las cuentas del cliente: el acceso se da como colaborador o lo conecta la persona.

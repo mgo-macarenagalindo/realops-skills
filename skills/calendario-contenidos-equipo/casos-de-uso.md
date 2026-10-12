@@ -58,6 +58,18 @@ Situaciones de infonegocio donde el contenido deja de trabarse, y cómo practica
 
 **Qué le pasás.** Lo que sabés del caso y "no lo sé" en lo que no aparece (quién publica, cuántas piezas por semana, cómo se mide el orgánico).
 
-**Qué te devuelve.** El sistema completo en la herramienta que elijas con el caso (Airtable, porque ya está la base de ventas, o Google Sheets si el editor solo usa eso), con supuestos rotulados, el proceso de clips de los encuentros en vivo, la pieza de pauta con su código de anuncio y su métrica de venta, y "Cómo arrancar" empezando por validar quién publica. La actividad 9 entera se practica mejor con un caso de academia con lanzamientos (caso B), que se suma durante la cohorte.
+**Qué te devuelve.** El sistema completo en la herramienta que elijas con el caso (Airtable, porque ya está la base de ventas, o Google Sheets si el editor solo usa eso), con supuestos rotulados, el proceso de clips de los encuentros en vivo, la pieza de pauta con su código de anuncio y su métrica de venta, y "Cómo arrancar" empezando por validar quién publica. El caso A ejercita clips y pauta, no un equipo de contenido completo: para eso está el caso 6.
 
 **Por qué sirve.** Practicás lo más común en un negocio real: diseñar con información incompleta, sin inventar y dejando a la vista qué falta confirmar.
+
+---
+
+## 6. Practicás con un equipo de contenido completo (Academia Trazo)
+
+**La situación.** Una academia de ilustración digital con lanzamientos y un equipo de cinco: la founder que aprueba todo los domingos, un community manager, un editor y una diseñadora freelance, y una setter que responde los "QUIERO". El mini-caso está en `references/practica-equipo-completo.md`, con el relevamiento de 3 piezas ya hecho.
+
+**Qué le pasás.** "Quiero practicar con Academia Trazo" y, si querés, tus respuestas a las preguntas de la skill.
+
+**Qué te devuelve.** El sistema en Notion (la herramienta que ya usan) en el plan gratis, con el botón "Mandar a revisión" en lugar de automatización, vistas o formularios para los freelancers, la regla de la semana de lanzamiento y la setter conectada a las piezas con palabra clave. Al final del mini-caso tenés 9 puntos para autoevaluarte.
+
+**Por qué sirve.** Mientras no esté el caso B, es la forma de practicar la actividad 9 entera (*Calendario de contenidos conectado al equipo*).

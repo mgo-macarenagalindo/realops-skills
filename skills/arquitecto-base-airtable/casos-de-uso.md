@@ -10,7 +10,7 @@ Cuatro situaciones donde esta skill te ahorra rehacer la base dos veces. Negocio
 
 **Qué le pasás.** El esquema de la base, el plan de Airtable, cuántas personas reportan y qué quiere ver el founder.
 
-**Qué te devuelve.** Primero el mapa (con "una fila =" en cada tabla), la tabla de qué queda y qué se suma, el chequeo del plan y las decisiones que el negocio tiene que tomar. Con tu OK, los campos con la clave persona | mes, los formularios por rol, la automatización que busca o crea la fila de KPIs, las vistas de control y las pruebas.
+**Qué te devuelve.** Primero el mapa (con "una fila =" en cada tabla), la tabla de qué queda y qué se suma, el chequeo del plan (con la alternativa manual si estás en Free y cuándo conviene pagar) y las decisiones que el negocio tiene que tomar. Con tu OK, los campos con la clave persona | mes, el setting diario de los setters (cuatro números por día), una tabla de KPIs por rol, los formularios por rol, la automatización que busca o crea la fila de KPIs (o cómo hacerlo a mano en Free), las vistas de control y las pruebas.
 
 **Por qué sirve.** Es lo que más se pide cuando ya entraste a un negocio: crecer la base sin perder lo que tiene. Si la base es heredada y no sabés qué la alimenta, la skill te manda primero a Auditor de Base Heredada.
 

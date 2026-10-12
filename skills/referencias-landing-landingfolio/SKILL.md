@@ -45,20 +45,33 @@ Al final del tablero va siempre **"Para confirmar"**: cada supuesto, qué hay qu
 
 ### Camino A · Con el MCP de Landingfolio (en Claude Code)
 
-Si tenés las herramientas del servidor `landingfolio` (al momento de escribir esta skill: `list_categories`, `get_components`, `pick_components`, `get_inspiration_page`; si en tu instalación tienen otro nombre, usá la equivalente: listar categorías, traer componentes de una categoría, ver una página entera). Según Landingfolio, el servidor devuelve capturas de secciones de su galería pública, con su categoría y el link a la página de origen.
+Verificado el 12/10/2026: el servidor (`https://mcp.landingfolio.com/mcp`) existe y sin token responde "Invalid or missing API token"; los nombres de las herramientas salen de las skills oficiales de Landingfolio (`explore-landing-sections`, `landing-page-audit`, `extract-design-system`, licencia MIT, en `skills-terceros/` del repo). Con una cuenta real no se pudo probar desde acá: por eso la prueba de 2 minutos.
+
+Las herramientas del servidor `landingfolio` (en Claude Code aparecen como `mcp__landingfolio__…`):
+
+| Herramienta | Qué hace |
+|---|---|
+| `list_categories` | Las categorías exactas (slugs como `hero`, `testimonial`, `how-it-works`, `call-to-action`, `faq`) |
+| `get_components` | Las secciones más nuevas de una categoría, con captura y link a la página de origen (12 por página) |
+| `pick_components` | Te da un link para que la persona elija a ojo en la galería; después pega un código |
+| `get_components_by_id` | Trae las que eligió la persona con ese código |
+| `get_inspiration_page` | Una página entera, sección por sección |
+
+Si en tu instalación tienen otro nombre, usá la equivalente.
 
 **Primero, una prueba de 2 minutos** (la primera vez que lo usás):
 
+- Escribí `/mcp` en Claude Code: tiene que figurar **landingfolio** conectado.
 - Listá las categorías y comparalas con la tabla de "Las categorías de Landingfolio" (abajo). Si cambiaron, usá las que devuelve el servidor: mandan sobre la tabla.
-- Pedí los componentes de una categoría (por ejemplo, Hero) y fijate que lleguen **capturas**, no solo nombres o links. Si no llegan capturas, tratá ese resultado como el camino B: sin captura no se opina del diseño.
-- Si alguna herramienta da error o no existe, decilo en una línea y seguí por el camino B. No inventes lo que la herramienta habría devuelto.
+- Pedí los componentes de una categoría (por ejemplo, `hero`) y fijate que lleguen **capturas** (links de imagen que se abren), no solo nombres. Si no llegan capturas, tratá ese resultado como el camino B: sin captura no se opina del diseño.
+- Si da "Invalid or missing API token", el token no quedó bien en el comando de instalación; si da error 429, se terminaron las consultas del día. En cualquier error, decilo en una línea y seguí por el camino B. No inventes lo que la herramienta habría devuelto.
 
 Después:
 
 1. `list_categories` una vez, para tener las categorías exactas.
-2. Por cada sección que importa, `get_components` con esa categoría y mirá las capturas: **nunca elijas solo por el nombre o el link.**
+2. Por cada sección que importa, `get_components` con esa categoría y **mirá las capturas** (descargalas y abrilas): **nunca elijas solo por el nombre o el link.** Si la persona quiere elegir ella, `pick_components` y después `get_components_by_id` con el código que te pega.
 3. Si la persona nombró un sitio que le gusta y está en Landingfolio, `get_inspiration_page` para verlo entero, sección por sección.
-4. Quedate con 5 a 8 referencias en total, del mismo tipo de producto cuando se pueda (servicios, cursos, programas) y no de software o ecommerce si no hace falta.
+4. Quedate con 5 a 8 referencias en total *(criterio orientativo)*, del mismo tipo de producto cuando se pueda (servicios, cursos, programas) y no de software o ecommerce si no hace falta. La galería es mayormente de software: lo que se toma es la estructura, nunca la promesa ni los planes.
 
 Si no está instalado y la persona trabaja en Claude Code, decíselo en una línea y seguí por el camino B. Para instalarlo: cuenta gratis en landingfolio.com/mcp, el token que empieza con `lf_` y este comando en la terminal (el token lo pega la persona, nunca en el chat):
 
@@ -70,7 +83,7 @@ El plan gratis tiene un límite de consultas (a octubre de 2026: 100 por día y 
 
 ### Camino B · Sin MCP (Claude en la web o en la app)
 
-- Pedile a la persona que entre a landingfolio.com (galería *Inspiration* y *Components*, filtrando con las categorías de la tabla de abajo) y te pegue **links y capturas** de 5 a 8 que le llamen la atención. Si podés leer la web, podés listar nombres y categorías, pero no ves el diseño: **sin captura no opines del diseño.**
+- Pedile a la persona que entre a landingfolio.com (galería *Inspiration* y *Components*, filtrando con las categorías de la tabla de abajo; la URL es `landingfolio.com/components/<categoría>`, por ejemplo `/components/how-it-works`) y te pegue **links y capturas** de 5 a 8 *(orientativo)* que le llamen la atención. Las capturas de la galería pública se pueden guardar con clic derecho → "Guardar imagen". Si podés leer la web, podés listar nombres y categorías, pero no ves el diseño: **sin captura no opines del diseño.**
 - Sirven también capturas de otras landings que le gusten, aunque no estén en Landingfolio.
 - **Una descripción en texto también sirve, para la estructura.** Si la persona describe una página ("video arriba, formulario al costado, testimonios con foto"), la usás para el orden y el tipo de sección, marcada como *según tu descripción*. No opinás de colores, tipografía ni cómo se ve.
 - **Si no tiene capturas ni descripción, igual entregás el tablero completo.** En lugar de "qué tomamos" de una referencia que no viste, escribís **el patrón a buscar** en cada sección, concreto y dibujable ("hero en dos columnas: promesa y 3 bullets a la izquierda, formulario visible a la derecha; en el celular, el formulario abajo de la promesa"), con **dónde buscarlo** en Landingfolio (galería, categoría y filtro; si la categoría no existe con ese nombre, la más parecida) y **cómo reconocer una buena** (2 o 3 cosas que tiene que tener). La columna de referencia queda `[PENDIENTE: captura]`. Ese tablero ya sirve para pasar a la estructura y el copy: las capturas después confirman o ajustan el patrón.
@@ -80,6 +93,8 @@ El plan gratis tiene un límite de consultas (a octubre de 2026: 100 por día y 
 Verificadas en la web pública de landingfolio.com el 12/10/2026. Si el MCP o la galería muestran otras, mandan las de ellos.
 
 **Components** (por sección): Hero · Problem · Solution · How It Works · Feature · Audience · Testimonial · Casestudies · Stats · Before After · Pricing · FAQ · Call To Action · Signup · Leadmagnet · Contact · Team · Timeline · Logo Cloud · Awards · Header · Footer (hay más, menos útiles para una landing de servicio).
+
+En el MCP, las categorías son *slugs* en minúscula y con guiones (`how-it-works`, `call-to-action`, `logo-cloud`): pedí la lista con `list_categories`.
 
 **Inspiration** (páginas enteras): tipo de página Landing Page · Pricing · Signup · About; y por rubro, para servicios y programas los más cercanos son **Course · Business · Freelance · Marketing**. No hay un rubro "Coaching" ni "Education": la mayoría de la galería es de software, así que filtrá por esos cuatro y descartá lo que sea producto digital con planes.
 
@@ -118,6 +133,7 @@ Y para cada sección elegida, tres preguntas:
 Agregar al formulario una pregunta que descarta (facturación, experiencia, si ya tiene negocio) o un bloque "para quién no es" **cambia el proceso de ventas**: cambia a quién le escribe el setter, cuántas llamadas tiene el closer y qué pasa con quien no califica. El tablero propone el patrón de la página, pero la regla no la decidís acá:
 
 - La marcás **[SUPUESTO: …, confirmalo con quien lidera ventas]** y va a "Para confirmar".
+- **Después de aplicar, el estándar de RealOps™ es que quien califica agende directo**, en la misma página. Por eso, en el tablero, el CTA final de una página de aplicación busca un patrón de "formulario y después calendario" (*Components* → Signup o Call To Action), y el recorrido se escribe con un solo próximo paso: elegir el horario.
 - Derivás de forma explícita: la regla de calificación (quién pasa, quién no, qué se le responde a quien no califica) se escribe o se actualiza con **Constructor de SOP de Infonegocio**; si la respuesta del formulario tiene que quedar en un campo del CRM para que el setter la vea, con **CRM de Cliente para Infonegocios**.
 - En la página, el filtro va igual en el diseño ("para quién no es" arriba, pregunta en el formulario), para que el patrón esté listo cuando la regla se confirme.
 
@@ -139,7 +155,7 @@ En `ejemplo-de-output.md` tenés uno completo.
 ## Al final, siempre
 
 - El siguiente paso es la estructura y el copy: "¿Armamos la estructura y el texto final con **Arquitecto de Landing de Alto Ticket**?".
-- Si trabaja en Claude Code **con el MCP instalado** y quiere **ver** varias direcciones de una sección lado a lado antes de decidir, recomendá la skill de terceros **explore-landing-sections** de Landingfolio (usa el MCP; está en `skills-terceros/` del repo de RealOps, en inglés; trae un script que conviene leer antes). Sin el MCP no sirve: no la recomiendes.
+- Si trabaja en **Claude Code** y quiere **ver** varias direcciones de una sección lado a lado antes de decidir, recomendá la skill de terceros **explore-landing-sections** de Landingfolio (está en `skills-terceros/` del repo de RealOps, en inglés; trae un script de solo lectura que conviene leer antes). **Con el MCP** usa ejemplos reales de la galería; **sin el MCP también funciona**, con su catálogo de patrones, pero ese catálogo no tiene "para quién es / no es" ni "problema": para esas dos secciones, quedate con este tablero. En el chat de Claude (web o app) no corre: necesita Claude Code.
 - Si el formulario filtra, recordá la derivación: **Constructor de SOP de Infonegocio** para la regla de calificación.
 
 ## Cómo escribís

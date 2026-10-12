@@ -46,14 +46,28 @@ Si a alguna le contesta "no lo sé", no frenás: vas al plan B.
 
 | Si no sabe… | Preguntas más fáciles | Ejemplo de respuesta | Si sigue sin dato |
 |---|---|---|---|
-| **La tasa de renovación** | De los que terminaron el último trimestre, ¿cuántos siguen pagando algo? ¿Hay alguna venta cargada como "renovación"? | "Ni idea, no hay nada para después del programa" | Si no existe oferta para después: la tasa hoy es **0 %** por diseño y es el primer hallazgo. Para proyectar, dos escenarios: **[SUPUESTO: 10 % conservador y 20 % probable, confirmalo con el founder después de la primera ventana]** |
+| **La tasa de renovación** | De los que terminaron el último trimestre, ¿cuántos siguen pagando algo? ¿Hay alguna venta cargada como "renovación"? | "Ni idea, no hay nada para después del programa" | Si no existe oferta para después: la tasa hoy es **0 %** por diseño y es el primer hallazgo. Para proyectar, dos escenarios: **[SUPUESTO ORIENTATIVO: 10 % conservador y 20 % probable, confirmalo con el founder después de la primera ventana]** |
 | **Cuándo termina cada cliente** | ¿Cuánto dura el programa? ¿Desde la compra o desde el onboarding? | "6 meses desde que compran" | Fecha de compra + duración, con **[SUPUESTO: el contrato corre desde la compra, confirmalo con coordinación de servicio]**. Si las fechas reales están desordenadas, proponé fijar a mano una fecha de fin común por cohorte |
 | **Cómo va cada cliente** | ¿Qué se anota hoy de cada uno? ¿Asistencia, última sesión, cuotas? | "Solo cuántas sesiones fue" | Armá el semáforo con lo que haya (días sin asistir + cuota vencida) y marcá qué señal falta (avance, NPS) |
-| **De dónde vienen las ventas** | ¿El formulario pregunta cómo te enteraste? ¿Hay un campo "fuente"? | "Hay fuente, pero no quién lo refirió" | Usá la fuente que exista y proponé el campo que falta ("referido por"). Sin fuente: **[SUPUESTO: referidos y upsells ≈ 20 % de las ventas, confirmalo cruzando un mes de ventas a mano]** |
-| **El precio de lo que sigue** | ¿Qué te piden los que terminan? ¿Qué vendés hoy que podría ir después? | "Me preguntan si pueden seguir en los en vivo" | Proponé formato y rango, nunca un precio cerrado: **[SUPUESTO: continuidad mensual entre 5 % y 10 % del ticket del programa por mes, lo decide el founder]** |
+| **De dónde vienen las ventas** | ¿El formulario pregunta cómo te enteraste? ¿Hay un campo "fuente"? | "Hay fuente, pero no quién lo refirió" | Usá la fuente que exista y proponé el campo que falta ("referido por"). Sin fuente: **[SUPUESTO ORIENTATIVO: referidos y upsells ≈ 20 % de las ventas, confirmalo cruzando un mes de ventas a mano]** |
+| **El precio de lo que sigue** | ¿Qué te piden los que terminan? ¿Qué vendés hoy que podría ir después? | "Me preguntan si pueden seguir en los en vivo" | Proponé formato y rango, nunca un precio cerrado: **[SUPUESTO ORIENTATIVO: continuidad mensual entre 5 % y 10 % del ticket del programa por mes, lo decide el founder]** |
 | **El costo de automatizar** | ¿Qué plan tienen de Zapier, Make, n8n o del CRM? ¿Cuántos clientes entran por mes? | "Zapier, plan básico" | Calculá las tareas por mes de cada automatización (22/06) y marcá **[SUPUESTO: entra en el plan actual, confirmalo con quien administra la cuenta]** |
 
 Con datos faltantes, el plan no es "no se puede": es **condicional**. "Esto suma unos US$X por trimestre **si** se confirma Y."
+
+### Las referencias orientativas (qué número sale de una clase y cuál no)
+
+Las fechas entre paréntesis en esta skill son clases. Los números de esta tabla **no salen de una clase**: son referencias de la biblioteca para que el plan no se frene cuando falta un dato. Cada vez que uses uno, va rotulado **ORIENTATIVO** en la cuenta y en "Para confirmar", y se reemplaza por el número real en cuanto exista.
+
+| Referencia | Valor orientativo | Dónde se usa | Se reemplaza con |
+|---|---|---|---|
+| Tasa de renovación cuando no hay historia | 10 % conservador · 20 % probable | Plan 30-60-90 (camino A) | La tasa real de la primera cohorte que pasa por la ventana |
+| Peso de referidos y upsells en las ventas | ≈ 20 % | El LTV hoy, si no hay fuente | Un mes de ventas cruzado a mano |
+| Precio de la continuidad del cliente | 5 % a 10 % del ticket del programa, por mes | Upsell o renovación (lo decide el founder) | Lo que el founder decida y lo que paguen los primeros |
+| Ancla de tu continuidad | 30 % (conservadora) y 60 % (la que crece) del mensual del proyecto | Camino B, regla de precio | Tu propia historia de precios |
+| Variable de tu continuidad | 1 % a 3 % del cash total, o 5 % a 10 % de lo que viene de servicio | Camino B, opción 3 y 4 | Lo que negocies y lo que muevas de verdad |
+
+Lo que **sí** sale de clase y no se rotula como orientativo: el piso de un proyecto de USD 500 por mes (08/06), el variable atado a lo que movés (04/05), el semáforo de vencimientos (22/06) y el resto de las palancas con su fecha.
 
 ## Paso 1 · La cuenta del LTV (en plata, con lo cobrado)
 

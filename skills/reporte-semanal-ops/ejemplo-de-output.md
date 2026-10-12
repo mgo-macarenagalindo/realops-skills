@@ -92,6 +92,7 @@ Semáforo por área: Marketing 🔴 · Setters 🟡 · Closers 🟢 · Cobros �
 **Pestaña Sin dato:** NPS (CSM, encuesta a la cohorte de julio antes del 20/10) · Bajas (CSM, campo "motivo de baja" desde el 01/10).
 
 **Notas del borrador**
+- Metas: las de costo por venta (< 700) y días a acceso (≤ 1) las dio la founder; las de morosidad (< 10 %), leads sin canal (< 10 %) y EOD (> 80 %) son **orientativas** de la plantilla y en la planilla dicen "Origen: orientativa" hasta que las confirme.
 - Las lecturas de una línea salen de la lectura de septiembre que hiciste con Analista de KPIs.
 - Las tres decisiones son las tuyas; las ordené por impacto en la plata.
 

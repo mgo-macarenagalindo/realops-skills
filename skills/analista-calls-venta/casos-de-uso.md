@@ -22,7 +22,7 @@ Cuatro situaciones de infonegocio donde esta skill convierte grabaciones en deci
 
 **Qué le pasás.** Dos o tres llamadas de cada closer y el criterio de calificación del negocio.
 
-**Qué te devuelve.** La comparación por closer basada en conductas: nota promedio, qué hace bien, qué repite mal y cuánto del resultado es del lead (no calificaba, vino de un anuncio que promete otra cosa) y cuánto de la llamada. Si hubo descuentos no aprobados o presión a un lead que no calificaba, aparece como bandera roja.
+**Qué te devuelve.** La comparación por closer basada en conductas: nota promedio, qué hace bien, qué repite mal y cuánto del resultado es del lead (no calificaba, vino de un anuncio que promete otra cosa) y cuánto de la llamada. Si hubo descuentos que el negocio no aprobó o presión a un lead que no calificaba, aparece como bandera roja (un descuento aprobado, ofrecido tal como está aprobado, no lo es).
 
 **Por qué sirve.** Cambia "me parece" por evidencia, sin juzgar a nadie. Y le da al closer un feedback que puede usar mañana: la frase reescrita y qué practicar esta semana.
 
@@ -34,7 +34,7 @@ Cuatro situaciones de infonegocio donde esta skill convierte grabaciones en deci
 
 **Qué le pasás.** Las transcripciones de venta del mes.
 
-**Qué te devuelve.** El banco de frases del mercado: dolores, deseos y objeciones textuales, con cuántas llamadas los repiten, el nivel de consciencia de cada lead, qué mensaje lo movió y qué anuncio trajo a los que calificaban y a los que no. Todo anonimizado y listo para copy.
+**Qué te devuelve.** El banco de frases del mercado, como entregable aparte de una página (así no se mezcla con el análisis de los closers): dolores, deseos y objeciones textuales, con cuántas llamadas los repiten, el nivel de consciencia de cada lead, qué mensaje lo movió y qué anuncio trajo a los que calificaban y a los que no. Todo anonimizado y listo para copy.
 
 **Por qué sirve.** Es el loop de marketing y ventas con fundamento: si los leads calificados dicen "cubrir el invierno" y el anuncio promete "facturá 10K", el anuncio está atrayendo a otra gente.
 

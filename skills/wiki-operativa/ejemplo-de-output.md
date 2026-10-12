@@ -13,8 +13,10 @@ En el inventario apareció un riesgo: **uno de los mensajes fijados en Slack tie
 | Qué | Quién | Cuándo |
 |---|---|---|
 | Borrar el mensaje fijado con la clave | Operaciones | Hoy |
-| Cambiar la clave de la plataforma de cursos y guardarla en el gestor de contraseñas | Founder (es la cuenta dueña) | Hoy |
+| Cambiar la clave de la plataforma de cursos y guardarla en el gestor de contraseñas del negocio | Founder (es la cuenta dueña) | Hoy |
 | Sacar a los dos excolaboradores de Slack y de la plataforma | Operaciones | Hoy |
+| Uno de ellos conectó el Zapier de ventas con su usuario de la base: **ese acceso se saca después** de reconectar el Zap a la cuenta del negocio, para no cortar la carga de ventas | Operaciones | Esta semana |
+| Pedirle a ese excolaborador que transfiera el Zap a la cuenta del negocio; si no responde en 7 días (orientativo), plan B: rehacerlo desde la cuenta del negocio (1 hora, Operaciones) | Operaciones | Pedido hoy · plan B el día 8 |
 
 La wiki no espera a esto, pero esto no espera a la wiki.
 

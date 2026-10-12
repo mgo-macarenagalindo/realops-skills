@@ -70,13 +70,15 @@ Sin el carrusel (peor retorno: 0): (5.000 − 1.000) ÷ 10 ventas = **USD 400 po
 
 | Anuncio | Decisión | Por qué | Plazo | Plan B |
 |---|---|---|---|---|
-| ad-mito-03 | **Escalar** (de 600 a 1.200) | 4 ventas de 12 agendas; 10 de 12 asistieron. **Muestra chica:** 4 ventas son una señal, no una conclusión | 4 semanas | Si el retorno baja de 3 con el doble de gasto, volver a 600 y probar una variante del mismo ángulo |
+| ad-mito-03 | **Escalar con prueba** (de 600 a 900, +50 %) | 4 ventas de 12 agendas; 10 de 12 asistieron; el mejor retorno de la cuenta. **Muestra chica:** con menos de 10 ventas no se escala fuerte (criterio orientativo) | 4 semanas; si sostiene el retorno, otro +50 % | Si el retorno baja de 3 con más gasto, volver a 600 y probar una variante del mismo ángulo |
 | ad-testimonio-01 | **Revisar** (bajar a 700) | Trae el 35 % de las agendas, asiste el 43 % y vendió 1. Ocupa la agenda de los closers | 4 semanas | Si no supera 1 venta cada 20 agendas, cortar |
 | ad-errores-02 | Mantener | Retorno 2,04, en línea con el total | 4 semanas | — |
 | ad-retarg-01 | Mantener | Retorno 3,88; público que ya conoce la marca | — | — |
-| ad-carrusel-04 | **Cortar** | 1.000 de gasto, 20 agendas, 0 ventas | Ya | Reusar el presupuesto en el mito |
+| ad-carrusel-04 | **Cortar** | 1.000 de gasto, 20 agendas, 0 ventas: el gasto sin ventas ya es el doble del CAC de la cuenta (500), umbral de corte del criterio orientativo | Ya | Pasar 300 al mito y guardar el resto hasta ver cómo responde a la suba |
 
-Presupuesto de octubre con estas decisiones: 1.200 + 700 + 1.200 + 800 + 0 = **3.900** en conversión (antes 5.000), más 1.000 de seguidores.
+Presupuesto de octubre con estas decisiones: 900 + 700 + 1.200 + 800 + 0 = **3.600** en conversión (antes 5.000), más 1.000 de seguidores. Los 1.400 que quedan libres se asignan en la revisión de 4 semanas, al anuncio que sostenga el retorno.
+
+*Umbrales usados (criterio orientativo, el negocio no tiene uno propio):* escalar fuerte con 10 ventas atribuidas o más; con menos, subir de a 30-50 %; cortar sin esperar con cero ventas y el triple de asistidas que la cuenta necesita por venta, o un gasto sin ventas de más del doble del CAC. ¿Los dejamos escritos como regla del negocio?
 
 ## Para marketing
 
@@ -87,7 +89,7 @@ Presupuesto de octubre con estas decisiones: 1.200 + 700 + 1.200 + 800 + 0 = **3
 ## Lo que falta para leer mejor
 
 1. **Calificación del closer en todas las agendas:** hoy está cargada en 41 de 62 asistidas.
-2. **Cortes por país y edad** del export de Meta, cruzados con ventas: con 10 ventas todavía no alcanza para leerlos.
+2. **Cortes por país y edad** del export de Meta (Administrador de anuncios → nivel Anuncios → Desglose → Por entrega → Edad / País → Exportar tabla), cruzados con ventas: con 10 ventas todavía no alcanza para leerlos, pero conviene empezar a juntarlos.
 3. **Cuotas 2 y 3** de las ventas en cuotas: se suman al cierre de noviembre para ver el retorno completo.
 4. **El link sin UTM:** corregirlo esta semana (14 agendas sin atribuir).
 
@@ -95,4 +97,4 @@ Presupuesto de octubre con estas decisiones: 1.200 + 700 + 1.200 + 800 + 0 = **3
 
 **Mensaje para el equipo de tráfico (opcional):**
 
-> Revisamos septiembre por anuncio, cruzando con ventas del CRM. Propuesta para octubre: subir el del mito a 1.200, bajar el testimonio a 700, cortar el carrusel y mantener errores y retargeting. Total de conversión: 3.900. Necesitamos: UTM en el comentario fijado de cada anuncio (hay un link sin UTM) y el export por país y edad a fin de mes. Revisamos de nuevo en 4 semanas.
+> Revisamos septiembre por anuncio, cruzando con ventas del CRM. Propuesta para octubre: subir el del mito a 900 (+50 %, y otro paso si sostiene), bajar el testimonio a 700, cortar el carrusel y mantener errores y retargeting. Total de conversión: 3.600. Necesitamos: UTM en el comentario fijado de cada anuncio (hay un link sin UTM) y el export por país y edad a fin de mes. Revisamos de nuevo en 4 semanas.

@@ -1,6 +1,8 @@
 # Catálogo de 21st.dev por sección y dinamismo con criterio
 
-> Referencia de **Constructor de Landing con 21st.dev** (RealOps™). Categorías y componentes verificados en 21st.dev el **12/10/2026**. 21st es una comunidad: los componentes cambian, se renombran o se borran. Antes de pasar un link, abrilo; si no está, buscá en la categoría.
+> Referencia de **Constructor de Landing con 21st.dev** (RealOps™). Categorías y componentes verificados en 21st.dev el **12/10/2026** (los 6 componentes de ejemplo y las categorías abrían bien ese día). 21st es una comunidad: los componentes cambian, se renombran o se borran. Antes de pasar un link, abrilo; si no está, buscá en la categoría.
+>
+> **Cuándo se revisa** *(criterio orientativo)*: al empezar cada ciclo de 4 semanas del programa. Si la fecha de arriba tiene más de 2 meses, verificá cada link concreto antes de pasarlo y, si alguno ya no existe, pasá la categoría.
 
 ## Por qué siempre se pasan referencias de 21st
 
@@ -27,7 +29,7 @@ Los links de ejemplo van como `https://21st.dev/@<autor>/components/<componente>
 
 ## Dinamismo: qué se recomienda siempre
 
-Una landing quieta se siente plantilla. Una con diez efectos tarda en cargar y distrae del botón. La regla: **2 o 3 momentos de movimiento por página, cada uno con un para qué.**
+Una landing quieta se siente plantilla. Una con diez efectos tarda en cargar y distrae del botón. La regla *(criterio orientativo)*: **2 o 3 momentos de movimiento por página, cada uno con un para qué.**
 
 | Efecto | Para qué sirve en la venta | Dónde va | Categoría de referencia |
 |---|---|---|---|
@@ -53,4 +55,4 @@ Una landing quieta se siente plantilla. Una con diez efectos tarda en cargar y d
 
 > Para el mecanismo quiero algo como esto: https://21st.dev/@ibrandify/components/scroll-timeline — la línea que se llena al hacer scroll. No copies el código: hacé tu versión en HTML y CSS, con nuestros colores.
 
-En el camino A, en cambio, se instala (`npx @21st-dev/cli add <autor>/<componente>`) y va a `CREDITOS.md` con su link.
+En el camino A, en cambio, se instala (`npx @21st-dev/cli@latest add <autor>/<componente>`, con la sesión o la key cargada) y va a `CREDITOS.md` con su link.

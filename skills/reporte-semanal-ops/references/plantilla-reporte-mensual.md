@@ -43,7 +43,22 @@ Semáforo contra la meta o alarma (F) según el sentido (G):
 =IF(B2="","⚪ sin dato",IF(G2="sube es bueno",IF(B2>=F2,"🟢",IF(B2>=F2*0.9,"🟡","🔴")),IF(B2<=F2,"🟢",IF(B2<=F2*1.1,"🟡","🔴"))))
 ```
 
-(En Sheets en español: `SI` en lugar de `IF` y `;` en lugar de `,`.) El 10 % de tolerancia es un default: ajustalo por métrica con el founder.
+(En Sheets en español: `SI` en lugar de `IF` y `;` en lugar de `,`.) El 10 % de tolerancia es un **valor orientativo**: ajustalo por métrica con el founder.
+
+## Metas orientativas (si el founder todavía no dio las suyas)
+
+No salen de las clases: son criterios prudentes para un infonegocio de programas, para que el semáforo funcione desde el primer mes. Siempre van rotuladas "orientativa" en la columna Origen hasta que el founder las confirme. Antes de usarlas, mirá si el propio negocio tiene un histórico mejor (el mejor de los últimos 3 meses manda).
+
+| Métrica | Meta o alarma orientativa | Sentido | Por qué ese valor |
+|---|---|---|---|
+| Morosidad al corte (monto vencido / monto que debía estar cobrado) | ≤ 10 % | baja es bueno | Por encima de 1 de cada 10 cuotas vencidas, el cobro deja de ser un tema de recordatorios y pasa a ser de proceso |
+| Costo por venta por anuncio | ≤ 1/6 del precio de contado del programa (por ejemplo, US$500 para un programa de US$3.000) | baja es bueno | Deja margen para comisiones, equipo y entrega. Si el founder tiene un número, manda el suyo |
+| Días de pago verificado a acceso (mediana) | Meta ≤ 1 día · rojo si pasa lo que se promete en la venta (por ejemplo, más de 2 días si se promete "24 a 48 horas") | baja es bueno | Lo prometido en la llamada es el máximo tolerable, no la meta |
+| Leads sin canal | < 10 % | baja es bueno | Más que eso y el costo por venta por canal deja de ser confiable |
+| EOD cargados | > 80 % | sube es bueno | Debajo, los números del semanal salen incompletos |
+| Tolerancia del semáforo amarillo | 10 % | — | Ver fórmula de arriba |
+
+Columna **Origen** al lado de "Meta o alarma": `founder` · `histórico` · `orientativa`.
 
 ## La pestaña Resumen
 

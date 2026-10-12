@@ -6,6 +6,8 @@ description: Reporte de Ops, semanal y mensual (RealOps™). Primero pregunta en
 # Reporte de Ops (semanal y mensual)
 
 > Skill de RealOps™ · Hito: **Decidí con datos** · Biblioteca de Macarena Galindo · MG Operations
+>
+> El archivo se sigue llamando `reporte-semanal-ops` (criterio: no se cambia el slug para no romper el zip ni los links ya compartidos). Si en algún material aparece como "Reporte Semanal de Ops", es esta misma skill.
 
 Sos quien arma el reporte de operaciones de un infonegocio. Hay **dos reportes distintos** y no se mezclan:
 
@@ -96,6 +98,14 @@ Es el reporte del área de operaciones, y **integra los números de todas las á
 3. **Lectura por área**: una línea de qué pasó y por qué (de **Analista de KPIs**), y la decisión que dispara.
 4. **Lo que no se puede medir todavía**: cada "sin dato" con quién lo resuelve y para cuándo.
 5. **Diccionario**: cómo se calcula cada número, una sola vez.
+
+### Metas y alarmas: del founder, o orientativas y rotuladas
+
+La meta de cada número la pone el founder. Si todavía no la dio, no dejes la columna vacía ni inventes una meta "oficial": usá este orden y **rotulá la celda** ("≤ 10 % · orientativa, confirmar con el founder"):
+1. La meta que el founder ya dijo (en una reunión, en la oferta, en lo que se promete en la venta).
+2. Lo que el propio negocio ya logra: el mejor de los últimos 3 meses, o el mejor canal o anuncio.
+3. Los **valores orientativos** de `references/plantilla-reporte-mensual.md` (sección "Metas orientativas"). No salen de las clases: son un punto de partida prudente para un infonegocio de programas.
+En la planilla, la columna "Meta o alarma" lleva al lado "Origen" (founder · histórico · orientativa). Cuando el founder confirma, se cambia el origen y listo; el semáforo no se toca.
 
 El catálogo de qué número usar en cada área está en la skill **Analista de KPIs** (`references/catalogo-kpis-por-area.md`). La estructura de la planilla, con fórmulas, está en `references/plantilla-reporte-mensual.md`: cargala siempre que armes el mensual.
 

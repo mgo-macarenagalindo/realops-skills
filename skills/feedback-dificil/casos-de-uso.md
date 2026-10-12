@@ -34,7 +34,7 @@ Cinco conversaciones que quien opera suele postergar, y cómo te entrena esta sk
 
 **Qué le pasás.** Qué hacías al entrar, qué hacés hoy, qué resultados tenés con número y, si lo sabés, cuánto ganás.
 
-**Qué te devuelve.** El pedido armado con C.L.A.R.O. (contexto, lo que pedís, dos formas de decir que sí, los datos, tu línea), un guion de 5 minutos y las respuestas a "no hay presupuesto", "más adelante" y "es parte de tu trabajo". Si no sabés tu sueldo, lo arma como **pedido de autoridad** con la paga como segundo paso con fecha.
+**Qué te devuelve.** El pedido armado con el **Pedido por valor**, la estructura de Macarena en cinco pasos (el dolor del founder, lo que ya resolviste en plata, el pedido en una frase con el nombre correcto del rol, dos formas de decir que sí y tu línea), un guion de 5 minutos y las respuestas a "no hay presupuesto", "más adelante" y "es parte de tu trabajo". Si no sabés tu sueldo, lo arma como **pedido de autoridad** con la paga como segundo paso con fecha.
 
 **Por qué sirve.** Pedís desde el valor para el negocio y no desde la necesidad, y llegás con tu mínimo definido.
 

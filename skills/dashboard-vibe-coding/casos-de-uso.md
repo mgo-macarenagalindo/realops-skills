@@ -22,7 +22,7 @@ Tres situaciones donde un tablero propio, con link, cambia cómo se mira el nego
 
 **Qué le pasás.** Qué pregunta el founder cada día, cada semana y cada mes, y qué tablas hay en la base.
 
-**Qué te devuelve.** Un tablero de 5 números para el celular del founder, con el bloque "Qué mirar hoy", conectado a la base con un token de solo lectura, con contraseña, y el plan para que el cliente lo tenga en su propia cuenta de Vercel.
+**Qué te devuelve.** Un tablero de 5 números para el celular del founder, con el bloque "Qué mirar hoy", conectado a la base con un token de solo lectura, protegido con la opción nativa de Vercel en la cuenta del cliente (y la contraseña por middleware solo como plan B).
 
 **Por qué sirve.** En 30 segundos sabe si el mes viene bien o mal, y por qué. Clase 30/07.
 
@@ -34,6 +34,6 @@ Tres situaciones donde un tablero propio, con link, cambia cómo se mira el nego
 
 **Qué le pasás.** Los campos de la tabla de KPIs y qué otras fuentes querría sumar.
 
-**Qué te devuelve.** El paso 6 completo: la función del lado del servidor que lee la tabla de KPIs, las variables de entorno, la caché y las pruebas de seguridad. Para las fuentes que no están en Airtable (por ejemplo, el gasto en anuncios), la elección entre un CSV agregado o una tabla "Pauta" en la base. Con la advertencia de una API key por proyecto y qué hacer si una clave llega a GitHub.
+**Qué te devuelve.** El paso 6 completo: la función del lado del servidor que lee la tabla de KPIs, las variables de entorno, la caché y las pruebas de seguridad. Para las fuentes que no están en Airtable (por ejemplo, el gasto en anuncios), la elección entre un CSV agregado o la tabla "Gasto por anuncio" en la base (la misma de la Tabla de KPIs Globales y de Rentabilidad por Anuncio). Con la advertencia de una API key por proyecto y qué hacer si una clave llega a GitHub.
 
 **Por qué sirve.** Es el salto de "armo sistemas con herramientas" a "construyo producto". Actividad 29.

@@ -22,7 +22,7 @@ Cinco situaciones de infonegocio donde una página escrita pasa a funcionar en u
 
 **Qué le pasás.** Tu copy, tu oferta y tu avatar, tu paleta, dos capturas de landings que te gustan y que la vas a publicar sola.
 
-**Qué te devuelve.** Camino A: cómo sacar la key gratis de 21st.dev y conectarla a Claude Code, una maqueta en artefacto para aprobar el diseño, el proyecto Next con shadcn, dos componentes de 21st (un hero y una línea de tiempo) instalados en el momento, el CONFIG en `config.ts` y el `CREDITOS.md` con el link de cada componente.
+**Qué te devuelve.** Camino A: cómo sacar la key gratis de 21st.dev y conectarla a Claude Code, la prueba de 2 minutos para confirmar que el MCP anda antes de confiar en él, una maqueta en artefacto para aprobar el diseño, el proyecto Next con shadcn, dos componentes de 21st (un hero y una línea de tiempo) instalados en el momento, el CONFIG en `config.ts` y el `CREDITOS.md` con el link de cada componente.
 
 **Por qué sirve.** Una landing que se ve pro es tu mejor pieza de portafolio, y aprendés el flujo completo de 21st sin violar sus términos.
 
@@ -46,7 +46,7 @@ Cinco situaciones de infonegocio donde una página escrita pasa a funcionar en u
 
 **Qué le pasás.** El copy que escribiste con los datos de la ficha del caso, la oferta y el avatar del caso, tus referencias visuales y de estructura, y lo que sepas de sus herramientas.
 
-**Qué te devuelve.** Primero, el control mínimo del copy de práctica (un solo CTA, para quién no es, nada fuera de la ficha, frases textuales, anuncio = página): si algo falla, la corrección antes de construir. Después, camino B: el plan con referencias de 21st por sección y 2 o 3 momentos de movimiento, el artefacto para verla, el CONFIG con UTM y la regla de "no califica" si el caso tiene criterio escrito, el `index.html` completo en modo demo y cómo alojarla en Netlify Drop si el constructor no acepta el código.
+**Qué te devuelve.** Primero, el control mínimo del copy de práctica (un solo CTA, para quién no es, nada fuera de la ficha, frases textuales, anuncio = página): si algo falla, la corrección antes de construir. Después, camino B: el plan con referencias de 21st por sección y 2 o 3 momentos de movimiento, el artefacto para verla, el CONFIG con UTM y la regla de "no califica" si el caso tiene criterio escrito, una pantalla final donde quien califica **agenda directo** (con su nombre, mail y UTM precargados en el link de la agenda) y quien no califica ve un recurso gratis, la automatización recomendada para recibir las aplicaciones con su porqué, el `index.html` completo en modo demo y cómo alojarla en Netlify Drop si el constructor no acepta el código.
 
 **Por qué sirve.** Sale una página que se puede mostrar y probar hoy, sin inventar nada del negocio.
 

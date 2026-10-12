@@ -2,7 +2,15 @@
 
 > Referencia del Copiloto Operativo de RealOps™. Leela cuando te pregunten por una herramienta, cuál elegir o cuánto cuesta. Los criterios salen de las clases del programa (fecha entre paréntesis).
 >
-> **Costos: orientativos, en dólares por mes, relevados en octubre de 2026.** Los planes cambian seguido: siempre decí "verificalo en la página oficial antes de decidir". Para Claude, ver `claude-y-agentes.md`.
+> **Costos: orientativos, en dólares por mes, relevados en octubre de 2026 en fuentes públicas.** Los planes cambian seguido: siempre decí "verificalo en la página oficial antes de decidir". Para Claude, ver `claude-y-agentes.md`.
+>
+> **Cómo se usan los costos (criterio orientativo):**
+> - Dá siempre un **rango** ("unos US$20 a 30"), nunca un precio exacto, y nombrá el plan por su nombre para que la persona lo busque.
+> - Decí la fecha del relevamiento: "relevado en octubre de 2026". Si hoy pasaron **más de 3 meses** desde esa fecha, agregá: "puede estar desactualizado; para decidir, mirá la página oficial".
+> - Lo que importa para decidir no es el precio de lista sino el **costo con el volumen real del negocio** (tareas, ejecuciones, usuarios). Si la persona tiene ese número, hacé la cuenta con ella.
+> - Esta tabla se revisa en **cada relanzamiento del programa** (o cada 3 meses, lo que pase primero). La fecha de arriba dice cuándo fue la última revisión.
+>
+> **Umbrales y referencias numéricas:** las que llevan fecha entre paréntesis salen de una clase. Las que dicen **(orientativo)** son criterio de esta guía, no de las clases: presentalas así.
 
 ## Antes de recomendar cualquier herramienta
 
@@ -21,8 +29,10 @@
 | ¿Dónde guardo los datos de clientes, ventas y cobros? | Base de datos: **Airtable**. Si el equipo es muy poco digital: **Google Forms + Sheets** (formularios por rol y una pestaña de tablero, 11/05) |
 | ¿Dónde vive la wiki, las tareas y el contenido? | **Notion** (el "cerebro de la empresa", 13/04) |
 | ¿Notion o Airtable? | Las dos, con funciones distintas. Notion para documentar y organizar; Airtable para analizar ventas y cobros. Como referencia de clase, desde unos US$30.000 por mes de facturación Airtable se vuelve necesaria (13/04 y 15/04) |
-| ¿Con qué automatizo? | La que el equipo ya conoce, para arrancar (26/03). Lógica simple: una fórmula o la automatización nativa de Airtable antes que una herramienta externa (03/06). Volumen alto o reportes largos: **n8n** (01/09) |
-| ¿Zapier, Make o n8n? | Zapier: el más fácil, el más caro por volumen. Make: visual y barato, curva media. n8n: el más potente y barato por ejecución, más técnico. Compará por **ejecuciones reales del mes**, no por precio de lista (01/09) |
+| ¿Con qué automatizo? | **Cualquier plataforma sirve si está bien justificada.** Para arrancar, la que el equipo ya conoce (26/03). Lógica simple: una fórmula o la automatización nativa de Airtable antes que una herramienta externa (03/06). Volumen alto o reportes largos: n8n suele convenir (01/09). Siempre mostrá la **ventaja competitiva** de cada opción para *este* negocio (ver "Cómo comparar plataformas de automatización") |
+| ¿Zapier, Make o n8n? | Zapier: el más fácil y con más apps, el más caro por volumen. Make: visual y barato, curva media. n8n: el más potente y barato por ejecución, más técnico. Compará por **ejecuciones reales del mes**, no por precio de lista (01/09) |
+| ¿Alcanza el plan gratis de Airtable? | Para arrancar, muchas veces sí. Si se queda corto, hay una forma manual de cubrir lo que falta y conviene pagar recién cuando se cumple alguna de las señales de "Plan gratis de Airtable: cuándo alcanza y cuándo pagar" |
+| ¿Cómo mido una landing? | **Microsoft Clarity** (mapas de calor y grabaciones de sesiones, gratis) + **Google Analytics** (de dónde llega la gente y cuántos agendan, gratis). Las dos, desde el día uno |
 | ¿Slack o Discord? | Discord es gratis y alcanza para equipos chicos (Discord + Notion + Zapier, 19/03). Slack si el negocio ya lo paga o trabaja con clientes que lo usan |
 | ¿Asana, Notion o ClickUp para tareas? | Asana o Notion, por lo intuitivos. ClickUp no para equipos que no son expertos (25/03). Si el equipo es grande, tareas en Notion: Airtable cobra por usuario y compartir usuario mata las notificaciones (13/04) |
 | ¿Dónde publico una landing o un tablero? | En el constructor que ya paga el negocio (GoHighLevel, WordPress). Si no hay: Netlify o Vercel. El HTML que te da Claude necesita hosting y dominio para existir en internet (06/05) |
@@ -38,9 +48,24 @@
 - **Cuándo sí:** cuando hay que cruzar datos (¿qué anuncio trajo ventas?, ¿quién debe?), cuando el negocio crece y la planilla ya no da.
 - **Cuándo no:** para la wiki o para tareas de un equipo grande (cobra por usuario editor).
 - **Costo aproximado:** plan gratis con límites de registros y automatizaciones; Team unos US$20 a 24 por usuario editor; Business unos US$45 a 54 por usuario. Los que solo ven por interfaz o formulario pueden no ocupar asiento: verificalo.
+- **Plan gratis: cuándo alcanza y cuándo pagar.** Ver la sección siguiente.
 - **Alternativas:** Google Sheets (simple, sin vínculos reales), Notion (bases más livianas), Supabase (base de datos de verdad, para cuando hay una app propia), el CRM de GoHighLevel.
 - **Ojo:** la base tiene que estar en un workspace del negocio, no en la cuenta personal de quien la armó.
 - **Skills:** Arquitecto de Base en Airtable · CRM de Cliente · Tabla de KPIs Globales · Auditor de Base Heredada.
+
+### Plan gratis de Airtable: cuándo alcanza y cuándo pagar
+
+Muchos alumnos arrancan sin presupuesto. Enseñá primero cómo cubrir a mano lo que el plan gratis no trae, y avisá con claridad cuándo deja de convenir.
+
+| Lo que el plan gratis limita | Alternativa manual (sin pagar) | Señal de que conviene pagar (orientativo) |
+|---|---|---|
+| Tope de **corridas de automatización** por mes | Una **vista filtrada** ("cuotas que vencen hoy", "leads sin asignar") que alguien revisa a una hora fija, con el paso escrito en el SOP. O la automatización en Zapier, Make o n8n en su plan gratis | Cuando la revisión manual lleva **más de 1 hora por semana** o ya se olvidó una vez algo que costó plata (una cuota sin cobrar, un lead sin contactar) |
+| Tope de **registros** por base | Archivar lo cerrado: exportar a CSV las ventas o leads de hace más de 6 a 12 meses y borrarlos de la base (el CSV queda en el Drive del negocio) | Cuando archivar se vuelve tarea de todos los meses o hace falta cruzar datos viejos con nuevos |
+| **Historial** de cambios corto | Exportar la base a CSV una vez por semana a una carpeta del negocio (backup manual) | Cuando la base ya es el CRM de ventas y cobros: perder una semana de datos cuesta más que el plan |
+| **Usuarios editores** | Que el equipo cargue por **formulario** y mire por **vista compartida o interfaz**; solo editan una o dos personas | Cuando más de dos personas necesitan editar a diario |
+| Sin funciones de **interfaces avanzadas o permisos finos** | Formularios por rol + vistas compartidas con solo lectura | Cuando hay que esconder datos sensibles (montos, comisiones) a una parte del equipo |
+
+Cómo decirlo: "Arrancá gratis con [la alternativa]. Cuando pase [la señal], el plan pago se paga solo: te ahorra [X horas] o el riesgo de [error]". Los límites exactos de cada plan cambian: **verificalos en la página oficial de precios de Airtable**.
 
 ### Notion
 - **Qué es:** el todo en uno para documentar: páginas, bases livianas, tareas, calendario, wiki.
@@ -68,6 +93,20 @@
 
 ## Automatización
 
+### Cómo comparar plataformas de automatización
+
+No hay una plataforma correcta: cualquiera sirve si la elección está **bien justificada para este negocio**. Cuando compares, mostrá siempre la ventaja competitiva de cada opción y qué se resigna.
+
+| Plataforma | Ventaja competitiva | Lo que se resigna |
+|---|---|---|
+| **Automatización nativa** (Airtable, GHL, Notion, Stripe) | No suma herramienta ni costo; todo pasa adentro de donde ya están los datos | Solo sirve para lo que ocurre adentro de esa herramienta; topes del plan |
+| **Zapier** | La curva más corta y la mayor cantidad de apps conectadas: lo puede mantener alguien no técnico | El más caro por volumen: cobra **cada paso** como tarea |
+| **Make** | Lienzo visual con ramas y filtros a menor costo que Zapier | Curva media; cobra por operación de cada módulo |
+| **n8n** | El más potente y barato por ejecución completa; maneja IA, reportes largos y código; se puede instalar en un servidor propio | Más técnico: necesita a alguien que lo mantenga |
+| **Workflows de GoHighLevel** | Si el negocio ya vive en GHL, automatiza agenda, mensajes y pipeline sin salir de ahí | Datos encerrados en GHL; el análisis sigue mejor en Airtable |
+
+Para justificar, usá cuatro criterios: **quién la va a mantener**, **volumen real del mes**, **qué ya paga el negocio** y **qué tan crítica es** (si falla, ¿se pierde plata?). La recomendación sale de cruzarlos, no de la marca.
+
 ### Zapier
 - **Qué es:** conecta apps sin código: "cuando pasa X en una app, hacé Y en otra". Más de 8.000 apps.
 - **Para qué:** de Calendly a Airtable, de un formulario al CRM, avisos a Slack o Discord, pasos de IA (AI by Zapier).
@@ -86,7 +125,7 @@
 ### n8n
 - **Qué es:** automatizaciones con nodos, con mucha lógica, IA y código si hace falta. Se usa en la nube o instalado en un servidor propio.
 - **Para qué:** el CRM que se carga solo, reportes largos (los manda como archivo adjunto), agentes de análisis de llamadas.
-- **Cuándo sí:** volumen alto, flujos complejos, IA en el medio. Es la herramienta por defecto del Diseñador de Automatizaciones.
+- **Cuándo sí:** volumen alto, flujos complejos, IA en el medio. Es una opción fuerte, no la única: se elige si queda justificada frente a las otras.
 - **Cuándo no:** para arrancar con un equipo que nunca automatizó (26/03).
 - **Costo aproximado:** en la nube, desde unos €20 a 24 por mes por unas 2.500 ejecuciones (cuenta **por ejecución completa**, no por paso); instalado en un servidor propio, el software es gratis y pagás el servidor (unos US$5 a 20).
 - **Migrar desde Zapier:** Claude Code puede leer tus Zaps y armar la migración (27/05). Migración = proyecto aparte, en semana de poca actividad (01/09).
@@ -114,11 +153,18 @@
 - **Para qué:** responder comentarios con un link, precalificar leads, setter con IA (ManyChat + IA para seguimientos repetitivos, 26/03).
 - **Costo aproximado:** gratis para empezar; Pro desde unos US$15 por mes, sube con la cantidad de contactos.
 
+### Métricas de una landing: Microsoft Clarity + Google Analytics
+- **Microsoft Clarity:** mapas de calor, hasta dónde scrollea la gente y grabaciones de sesiones. Gratis. Responde "¿dónde se traban?".
+- **Google Analytics:** de dónde llega la gente (con UTMs), cuántos ven la landing y cuántos agendan. Gratis. Responde "¿qué canal trae agendas?".
+- **Se instalan las dos desde el día uno**, antes de mandar tráfico. Se marca como conversión la **agenda** (no solo el formulario), porque después de aplicar el lead agenda directo.
+- **Skills:** Revisor de Landing y Publicación · UTMs de Punta a Punta.
+
 ### Calendly
 - **Qué es:** agenda online con link.
 - **Para qué:** llamadas de calificación y de venta, reparto entre closers.
 - **Costo aproximado:** gratis con un tipo de evento; Standard unos US$10 a 12; Teams unos US$16 a 20 por usuario.
 - **Ojo:** el reparto "según quién tiene lugar" sesga quién recibe qué leads. GHL tiene calendarios propios.
+- **En una landing de aplicación:** después de aplicar, el lead **agenda directo** (calendario embebido o redirección al link de agenda), sin esperar a que alguien le escriba.
 
 ### Formularios: Typeform · Tally · Google Forms
 - **Typeform:** lindo y conversacional, desde unos US$25 a 29 por mes. **Tally:** gratis y muy completo. **Google Forms:** gratis y simple. Para aplicación de leads, cualquiera sirve si guarda las UTMs.

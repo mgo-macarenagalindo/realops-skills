@@ -106,4 +106,8 @@ Una llamada de diagnóstico de 30 minutos. Te llevás tu Mapa de Fricción con l
 
 **Experiencia, dicha como es, con un número que encontró él:** "Lo armé de punta a punta sobre un caso de práctica de una membresía así. En ese caso encontré 38 cobros fallidos de un mes que nadie había reintentado. Te muestro lo que hice."
 
-**Para confirmar:** los plazos (medí cuánto te llevó cada paso en el caso) y la plataforma (elegí una corta y una larga, no más). Cuando los confirme, recibe la **versión limpia**: la misma página sin ninguna marca [SUPUESTO], lista para mandar.
+**Para confirmar:** los plazos y la plataforma (elegí una corta y una larga, no más).
+
+**Medir los plazos en 5 minutos.** Nicolás no los había medido. Mirando las fechas de sus archivos del caso reconstruye: diagnóstico de bajas 8 h, alertas de cobro 14 h, rutina de la CSM 6 h = 28 h. Ajuste por negocio real *(orientativo: × 1,5 a 2)*: 42 a 56 h. Le puede dar 10 h por semana a un cliente → **entre 5 y 6 semanas**. Lo confirma.
+
+En la **versión limpia** (la misma página sin ninguna marca [SUPUESTO], lista para mandar), "Cómo trabajo" queda así: *"Tres pasos, entre 5 y 6 semanas. El diagnóstico de bajas te lo entrego en la primera semana; el plazo exacto va en la propuesta, según el tamaño de tu membresía."*

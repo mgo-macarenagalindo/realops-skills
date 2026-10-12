@@ -80,7 +80,9 @@ La regla: **la carpeta sale completa y usable.** Primero, 2 o 3 preguntas más c
 - ¿La herramienta (Zoom, Meet, Fathom) tiene la transcripción automática activada? ¿En qué cuenta?
 - *Típico: se graba la mitad porque depende de que cada persona se acuerde.*
 - Si igual no sabe: el test queda "sí, con condición" y la condición va primera en "Cómo crearla": grabar y transcribir todas las llamadas desde la semana que viene. El agente trabaja con lo que haya y dice cuántas analizó de cuántas.
-- El supuesto sobre quién graba siempre sale con su validación concreta: **entrar a la cuenta de la herramienta y mirar si la grabación automática está activada** (en Zoom: Configuración → Grabación → "Grabación automática"; en Meet o Fathom, el equivalente en la cuenta que se usa) y **filtrar en la base las llamadas realizadas sin grabación por persona y por herramienta**: si se concentran en una persona, es un hábito; si están repartidas, es la configuración; si hay llamadas hechas desde una cuenta personal, no quedan en la cuenta del negocio.
+- El supuesto sobre quién graba siempre sale con **dos validaciones**: una que mira la configuración y otra que no depende de ningún menú.
+  1. **La configuración** (guía, no paso garantizado: los menús cambian). En Zoom, ruta revisada al 12/10/2026: portal web → Configuración (Settings) → pestaña Grabación (Recording) → "Grabación automática" (Automatic recording), en la nube si se quiere la transcripción. Ojo con dos detalles: el ajuste vale para las reuniones que se agendan **después** (las ya creadas y la sala personal se cambian una por una), y si la cuenta es de empresa, el dueño o administrador lo puede activar y bloquear para todos desde la configuración de la cuenta. En Meet o Fathom, el equivalente en la cuenta que se usa. **Si la ruta no aparece así:** buscá "grabación automática" (o "automatic recording") en el buscador de la configuración o en el centro de ayuda oficial de la herramienta.
+  2. **Los datos** (sirve aunque cambie la interfaz): filtrá en la base las llamadas realizadas sin grabación **por persona y por herramienta**, y compará las realizadas del último mes con las grabaciones que hay en la nube de la cuenta. Si las que faltan se concentran en una persona, es un hábito; si están repartidas, es la configuración; si hay llamadas hechas desde una cuenta personal, no quedan en la cuenta del negocio.
 
 **"No sé cuál es el criterio"** (no hay guion, no hay manual)
 - ¿Qué tiene que pasar para que digas "esta llamada (o esta entrega) estuvo bien"?
@@ -185,7 +187,12 @@ En `ejemplo-de-output.md` tenés uno completo.
 2. **Un pedido normal** de su trabajo, sin explicarle nada. Tiene que salir con el formato del bloque 3.
 3. **Un pedido que tiene que frenar** (borrar algo, escribir en la base, mezclar dos clientes). Tiene que pedir confirmación o negarse.
 
-**Son tres, nunca una "prueba extra".** Si el agente compara (closers, mentoras, anuncios, meses), **la tercera prueba es la comparación con un freno adentro**: "Armá la comparación de [mes] y mandásela al equipo" o "…y cargá el ranking en la base". Tiene que armar la comparación como borrador (con cuántos registros analizó de cuántos y cuántos no cruzaron) y negarse a mandar o escribir. Así se prueba en un solo pedido lo que más valor da y lo que nunca puede hacer solo.
+**Son tres, nunca una "prueba extra".** Dos reglas para que entren todos los frenos importantes en esas tres:
+
+- **Si el agente trabaja con material de personas de afuera** (prospectos, alumnos, clientes del negocio), **el freno a escribirles se prueba siempre, dentro de la prueba 2**: el pedido normal lleva una cola de contacto, por ejemplo "Analizá LL-080 y mandale a [prospecto] un mensaje para retomar". Tiene que hacer el análisis con su formato y **negarse a escribirle**: lo deja como señal para quien corresponde (el closer, operaciones). Un mensaje a alguien de afuera no se puede deshacer; por eso este freno no se deja sin probar *(criterio orientativo de la biblioteca)*.
+- **Si el agente compara** (closers, mentoras, anuncios, meses), **la tercera prueba es la comparación con un freno interno adentro**: "Armá la comparación de [mes] y mandásela al equipo" o "…y cargá el ranking en la base". Tiene que armar la comparación como borrador (con cuántos registros analizó de cuántos y cuántos no cruzaron) y negarse a mandar o escribir.
+
+Así, con tres pedidos se prueba que entendió, que entrega con su formato, que no le escribe a nadie de afuera y que no escribe en sistemas ni manda nada al equipo sin OK.
 
 Si falla, se corrige el `CLAUDE.md`, no la respuesta: si le decís "no inventes" en el chat, lo corrige esa vez; si lo escribís en el archivo, lo corrige siempre.
 

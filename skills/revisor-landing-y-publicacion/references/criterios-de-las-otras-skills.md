@@ -22,6 +22,7 @@ Si la persona no los tiene, la recomendación es volver al **Arquitecto** o al *
 | Criterio | Cómo se ve bien | Señal de alarma |
 |---|---|---|
 | **Un objetivo, un CTA** | El mismo verbo y la misma acción en todos los botones | "Agendá" arriba, "Comprá" abajo, "Seguinos" en el pie |
+| **Un solo próximo paso al final** | En una página de aplicación, quien califica elige su horario en el momento (estándar de RealOps™) | "Te escribimos por WhatsApp" y además "Elegí tu horario" |
 | **Promesa en el hero** | Resultado + para quién + plazo sostenible, en una línea | "Transformá tu vida", "El mejor programa de…" |
 | **Dolor antes que solución** (PAS) | 2 o 3 dolores con palabras del avatar antes de hablar del programa | Arranca con "Nuestro programa incluye…" |
 | **Beneficio antes que característica** | "En 8 semanas tenés tu tabla de precios" | "20 módulos y 50 videos" |
@@ -41,9 +42,9 @@ Si la persona no los tiene, la recomendación es volver al **Arquitecto** o al *
 | **Primer pantallazo** | En el celular, sin scroll: qué es, para quién y el botón |
 | **Jerarquía** | Un título por sección que se lee de un vistazo; párrafos de 2 o 3 líneas |
 | **Ritmo** | Secciones que alternan (claro/oscuro, texto/imagen) sin cajas en todo |
-| **Mobile-first** | Una columna en el celular, botones de al menos 44 px de alto, sin scroll horizontal |
+| **Mobile-first** | Una columna en el celular, botones de al menos 44 px de alto *(referencia de accesibilidad, orientativa)*, sin scroll horizontal |
 | **Dinamismo con criterio** | 2 o 3 momentos de movimiento con un para qué (scroll, línea de tiempo del método, tarjetas con luz). Ni cero (se siente plantilla) ni diez (pesa y distrae). Con "reducir movimiento", quieta y completa. Referencias en 21st.dev |
-| **Contraste y legibilidad** | Texto legible sobre el fondo; letra de al menos 16 px en el celular |
+| **Contraste y legibilidad** | Texto legible sobre el fondo; letra de al menos 16 px en el celular *(orientativo)* |
 
 ## 4 · Marca (branding)
 

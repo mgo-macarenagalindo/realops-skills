@@ -12,6 +12,8 @@
 
 **Cómo se calcula.** Horas de trabajo + 30 % de coordinación + 2 a 4 horas de arranque (accesos, entender el negocio). × valor hora = piso. El precio se fija por entregable, nunca por hora: si lo hacés más rápido, ganás vos.
 
+Contraste con la tabla única de pisos (criterio orientativo): USD 250 el de 1 semana, USD 500 el de 2. Vale el más alto entre tu cuenta y la tabla.
+
 **Cómo se cobra.** 100 % al inicio. Si dura más de una semana, 50 % al inicio y 50 % antes de la entrega final.
 
 **Lo que va por escrito.**
@@ -29,10 +31,10 @@
 **Cuándo conviene.** Cuando el problema necesita diagnóstico y construcción (CRM, finanzas, onboarding, tablero). El de 3 meses en 3 fases es el formato del programa: **diagnóstico** corto (3 a 5 días con acceso a procesos, CRM y entrevistas), **implementación** y **optimización** (ajustes, capacitación, soporte). Las fechas exactas de cada entregable se dan al terminar el diagnóstico (12/08).
 
 - **1 mes:** un solo frente (por ejemplo, ventas y cobros en una base). Riesgo: que se convierta en "3 meses metidos en 1". Si el alcance no entra, es de 2 o 3.
-- **2 meses:** dos frentes o un frente con capacitación del equipo.
+- **2 meses:** dos frentes, o un frente con capacitación del equipo. Va en 2 fases: diagnóstico + implementación el primer mes, ajustes + capacitación el segundo. Es la opción cuando el de 1 mes no alcanza y el cliente no quiere comprometer 3.
 - **3 meses:** el sistema completo con las 3 fases.
 
-**Cómo se calcula.** Horas por fase + 30 % + reuniones (una cada dos semanas, 08/06). × valor hora = piso. Contraste: no menos de USD 500 por mes en un proyecto de 3 meses (piso de clase).
+**Cómo se calcula.** Horas por fase + 30 % + reuniones (una cada dos semanas, 08/06). × valor hora = piso. Contraste con la tabla única de pisos (criterio orientativo): USD 500 por mes, o sea USD 500 el de 1 mes, 1.000 el de 2 y 1.500 el de 3. Vale el piso más alto entre el tuyo y el de la tabla.
 
 **Cómo se cobra.**
 - 1 mes: 50 % al inicio y 50 % a mitad de mes.
@@ -54,7 +56,7 @@
 
 **Cuándo conviene.** Después de un proyecto, para sostener y mejorar lo que construiste, o con un cliente que necesita soporte continuo. No como primer trabajo: sin un proyecto antes, el fee mensual se vuelve "hacé de todo".
 
-**Cómo se calcula.** Horas tope por mes + 30 % × valor hora = piso. Valor: sostener lo construido (que no se rompa) + una mejora por mes con número. Contraste: no menos de USD 400 a 500 por mes (clases 25/05 y 08/06).
+**Cómo se calcula.** Horas tope por mes + 30 % × valor hora = piso. Valor: sostener lo construido (que no se rompa) + una mejora por mes con número. Contraste con la tabla única de pisos (criterio orientativo): USD 500 por mes (clases 25/05 y 08/06).
 
 **Cómo se cobra.** Mes adelantado. Variable sobre cash collected solo si el trabajo toca ventas o cobros (por ejemplo, 1 % del cobrado del mes, con tope).
 
@@ -84,7 +86,7 @@
 **Part-time o full-time.** Part-time (fraccional): X horas o días por semana, podés tener otros clientes. Full-time: un solo negocio. El fijo se calcula sobre las horas reales del rol, no sobre "estar disponible siempre": la disponibilidad se escribe (horario, días, canal).
 
 **Cómo se calcula.**
-- Piso del fijo: valor hora × horas del rol por mes × 1,3.
+- Piso del fijo: valor hora × horas del rol por mes × 1,3. Contraste con la tabla única (criterio orientativo): no menos de USD 500 de fijo por mes en un rol part-time; vale el más alto.
 - Valor del rol: horas del founder que liberás × valor de su hora (facturación ÷ horas que trabaja) + plata recuperada por mes (cuotas cobradas a tiempo, comisiones que dejan de pagarse de más, leads que dejan de perderse) + lo que costaría cubrirlo de otra forma (un asistente + una consultora por proyecto).
 - Variable: elegí la base (cash collected neto de reembolsos), el porcentaje y el tope. Mostrá cuánto daría con el cash de los últimos 3 meses.
 - Total como % de la facturación del negocio: mostralo, porque es como lo va a mirar el founder.

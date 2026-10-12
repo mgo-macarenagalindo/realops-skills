@@ -15,7 +15,7 @@
 
 ## EOD por rol
 
-Estándares para todos: todos los días hábiles a la hora de cierre de cada rol, energía del 1 al 10, feedback que aporte criterio (no "día tranqui"). Big Rock en los roles que manejan su agenda.
+Estándares para todos: todos los días hábiles a la hora de cierre de cada rol, energía del 1 al 10, feedback que aporte criterio (no "día tranqui"). Big Rock obligatorio en los roles que manejan su agenda; en setters y closers, opcional al final (solo si hubo una acción que los números no muestran; criterio orientativo). Las plantillas marcadas *(extensión)* no están en los modelos del programa.
 
 **🌙 EOD Setter** (los 3, a las 18:30)
 
@@ -34,6 +34,7 @@ Estándares para todos: todos los días hábiles a la hora de cierre de cada rol
 📋 ¿Actualizaste el CRM? Sí / No (si es no, por qué):
 🔋 Nivel de energía (1–10):
 🗣️ Feedback del día:
+🪨 Big Rock (opcional: solo si hubo una acción fuera de los números):
 ```
 
 | Cambio vs. el modelo | Por qué | Quién lo mira |
@@ -59,6 +60,7 @@ Estándares para todos: todos los días hábiles a la hora de cierre de cada rol
 🔋 Nivel de energía (1–10):
 🗣️ Feedback del día:
 💻 Links de llamadas:
+🪨 Big Rock (opcional: solo si hubo una acción fuera de los números):
 ```
 
 | Cambio vs. el modelo | Por qué |
@@ -141,6 +143,7 @@ Formato fijo, un mensaje por agenda, y la charla en hilo:
 
 ## Cómo se junta solo
 
+- **Por qué Workflow Builder y no un Google Form con recordatorio en el calendario o Zapier:** el equipo ya pasó a Slack, así que el pedido y el reporte viven donde se habla, se ve en el canal quién no reportó y no se paga nada extra. Zapier sumaría una herramienta paga para algo que Slack ya hace.
 - **Workflow Builder**, lunes a viernes: 18:30 para setters, coaches y coordinación; 20:45 para closers. Cada workflow abre el formulario de su rol y publica en #reportes-diarios.
 - **Dónde se guarda:** además de publicarse, un registro por persona por día en la tabla **EOD** de Airtable, vinculado a la persona. Para construir ese paso: **Diseñador de Automatizaciones**.
 

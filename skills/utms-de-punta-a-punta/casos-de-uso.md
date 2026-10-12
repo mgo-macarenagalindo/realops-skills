@@ -12,7 +12,7 @@ Cuatro situaciones de infonegocio donde saber de dónde viene cada lead cambia l
 
 **Qué te devuelve.** La convención de macro a micro, el registro de links (uno por cuenta, uno por setter, uno por anuncio), los pasos para mapearlo en Zapier con la reserva de prueba y la fórmula que traduce los códigos a "Instagram orgánico", "Pauta" o "Setter". La carga manual de "Fuente" desaparece.
 
-**Por qué sirve.** Sin canal no hay segmentación, y sin segmentación no hay diagnóstico. Clase 05/08.
+**Por qué sirve.** Sin canal no hay segmentación, y sin segmentación no hay diagnóstico. Si el negocio está en el plan gratis de Airtable, la skill te da la alternativa manual (formulario de Airtable prellenado o importación semanal) y te dice cuándo conviene pagar. Clase 05/08.
 
 ---
 

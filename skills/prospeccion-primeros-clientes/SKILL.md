@@ -1,6 +1,6 @@
 ---
 name: prospeccion-primeros-clientes
-description: Prospección de Primeros Clientes (RealOps™). Arma tu plan de 10 días hábiles para conseguir tus primeras llamadas de venta sin inventar nada - entrevistas de problema en un nicho, la publicación para tu red mostrando lo que hacés, mensajes tibios y en frío, la mejora de la landing de un negocio contada en video, perfil y propuestas en Upwork para roles de operaciones, y una tabla simple de seguimiento - con los mensajes ya escritos y una meta de llamadas. Usala cuando quieras conseguir tu primer cliente, no sepas a quién escribirle ni qué decir, no tengas casos de éxito todavía o hayas mandado mensajes sin respuesta.
+description: Prospección de Primeros Clientes (RealOps™). Arma tu plan de 10 días hábiles para conseguir tus primeras llamadas de venta sin inventar nada - entrevistas de problema en un nicho, la publicación para tu red mostrando lo que hacés, tus tres diagnósticos sin cargo como puerta de entrada, mensajes tibios y en frío, la mejora de la landing de un negocio contada en video, perfil y propuestas en Upwork para roles de operaciones, y una tabla simple de seguimiento - con los mensajes ya escritos y una meta de llamadas. Usala cuando quieras conseguir tu primer cliente, no sepas a quién escribirle ni qué decir, no tengas casos de éxito todavía o hayas mandado mensajes sin respuesta.
 ---
 
 # Prospección de Primeros Clientes
@@ -32,7 +32,7 @@ De a una pregunta:
 3. **¿Qué tenés para mostrar?** Cualquier sistema, tablero o automatización tuya funcionando, aunque sea del sandbox.
 4. **¿Qué red tenés hoy?** Seguidores en alguna red, contactos de trabajos anteriores, comunidades donde participás, gente que ya te vio trabajar.
 5. **¿Cuántas horas por día le podés dedicar?** El plan se adapta: con una hora por día alcanza.
-6. **¿Hablás inglés?** Con un nivel intermedio alcanza para Upwork.
+6. **¿Hablás inglés?** Para Upwork alcanza con un **B1** (clase del 12/08).
 
 ### Si no sabés tu red, tus horas o tu inglés
 
@@ -42,7 +42,7 @@ No improvises un default: usá estos y decilo arriba del plan como `[SUPUESTO: �
 |---|---|---|
 | Su red | Red chica | El día 1 suma un **inventario de red de 15 minutos**: contactos de trabajos anteriores, compañeros del programa, gente de comunidades donde participa, clientes o jefes que lo vieron trabajar. Los canales principales son los que no dependen de la red (entrevistas de problema y frío con hallazgo); la red tibia queda como canal a confirmar con ese inventario |
 | Sus horas | Pocas | **Plan de 20 días** con las mismas metas (cada día del plan de 10 se reparte en dos). Si después resulta que tiene más tiempo, se comprime |
-| Su inglés | No alcanza todavía | Upwork queda afuera. Prueba de 5 minutos para decidir: leer una publicación de proyecto en inglés y escribir tres líneas de respuesta sin traductor. Si sale, Upwork entra en la segunda vuelta de 10 días |
+| Su inglés | No alcanza todavía | Upwork queda afuera. Para saber si llega al **B1** que pide la clase del 12/08: un test de nivel gratuito online (20 a 50 minutos, te da el nivel) o, si no quiere hacerlo ahora, el **chequeo rápido de 5 minutos** (criterio orientativo de la skill): leer una publicación de proyecto en Upwork y escribir tres líneas de respuesta sin traductor. Si sale, Upwork entra en la segunda vuelta de 10 días |
 
 ## Los cinco canales
 
@@ -56,7 +56,9 @@ No improvises un default: usá estos y decilo arriba del plan como `[SUPUESTO: �
 
 Elegí con la persona **dos o tres canales**, no los cinco.
 
-Sobre el canal 4: la landing nueva es una muestra para esa persona, no se publica con su marca ni se le cobra sin pedido. Se le manda como ejemplo de lo que podrías hacer.
+**Qué sale de las clases y qué es orientativo.** Del método: las entrevistas de problema (11/05, "agendá tres esta semana"), los **tres diagnósticos sin cargo** (23/07), la landing mejorada en video (23/07), Upwork con títulos de operaciones, inglés B1 y tres propuestas por semana (12/08). Son **metas orientativas de la skill**: los 10 días, los 30 nombres, las 3 llamadas agendadas, los 10 mensajes tibios y 5 en frío por día, y el seguimiento a los 3 o 4 días. Sirven para arrancar; el día 10 se ajustan con lo que pasó.
+
+Sobre el canal 4: la landing nueva es una muestra para esa persona, no se publica con su marca ni se le cobra sin pedido. Se le manda como ejemplo de lo que podrías hacer. Armala como se arma en RealOps™: **después de aplicar, el lead agenda directo** (la aplicación lleva a la agenda, sin esperar a que alguien le escriba). Muchas veces ese es el hallazgo más fácil de mostrar.
 
 ### Dónde encontrar los 30 nombres (si no tenés red, este es el cuello de botella)
 
@@ -67,6 +69,15 @@ Sobre el canal 4: la landing nueva es una muestra para esa persona, no se public
 - **Tu propia red de segundo grado:** a cada persona de la red tibia le preguntás a quién conoce (mensaje 1).
 
 De cada nombre anotás en la tabla de dónde salió: el día 10 te dice qué fuente sirve.
+
+## El diagnóstico sin cargo: la puerta de entrada
+
+Sale de la clase del 23/07: **ofrecé tres diagnósticos sin cargo** con el Cuestionario de Diagnóstico Operativo y cerrá con una propuesta de tres meses.
+
+- **Qué es:** una llamada de 45 minutos con el cuestionario, sin pedir acceso a sus herramientas, y una segunda corta para presentar los hallazgos (nombrados simple, con el número del Dolor Mortal) y el alcance. Es el script C de la skill Script de Ventas con Founders.
+- **Cuántos:** tres. Que sean "por mes" es un criterio orientativo: tres por vez, y no abrís otros hasta haber presentado los hallazgos de esos tres.
+- **Qué no es:** trabajo gratis. No incluye implementar nada, ni accesos, ni "ya que estás, ¿me mirás esto?". Lo que el founder se lleva gratis son los hallazgos; el cómo es el proyecto.
+- **Cuándo deja de ser gratis** (criterio orientativo): cuando cerraste tus primeros tres proyectos o cuando tenés más pedidos que lugares. Desde ahí, el diagnóstico se cobra o se descuenta del proyecto si contrata.
 
 ## El plan de 10 días hábiles
 
@@ -100,10 +111,10 @@ Y la **publicación**: un antes y un después de un sistema que armaste (de tu t
 
 ## La tabla de seguimiento
 
-| Nombre | Fuente (de dónde salió) | Canal | Nicho | Fecha 1er contacto | Respuesta | Fecha seguimiento | Estado | Dolor que mencionó |
+| Nombre | Fuente (de dónde salió) | Canal | Nicho | Fecha 1er contacto | Respuesta | Fecha seguimiento | Estado | Dolor que mencionó (frase + # del Dolor Mortal) |
 |---|---|---|---|---|---|---|---|---|
 
-Estados: contactado · respondió · llamada agendada · llamada hecha · propuesta enviada · cerrado · no es para mí. La última columna alimenta el inventario de entregables.
+Estados: contactado · respondió · llamada agendada · llamada hecha · propuesta enviada · cerrado · no es para mí. La última columna alimenta el inventario de entregables. Anotá la frase textual y, si lo reconocés, el número del Dolor Mortal del Backstage (1 reuniones · 2 información dispersa · 3 fuga de datos y métricas · 4 roles difusos · 5 sobreesfuerzo · 6 tareas manuales, la numeración del Cuestionario de Diagnóstico Operativo): el día 10 ves cuál se repite.
 
 ## El cliente que no es para vos
 
@@ -118,6 +129,7 @@ En `ejemplo-de-output.md` tenés un plan completo.
 Servicio: [...] · Nicho: [...] · Canales elegidos: [...] · Meta: 3 llamadas · Duración: 10 o 20 días
 [SUPUESTO: …] (si no sabía su red, sus horas o su inglés)
 ## Lo que tenés para mostrar (y cómo se presenta)
+## Tus 3 diagnósticos sin cargo (qué incluyen y qué no)
 ## De dónde salen tus 30 nombres
 ## El plan día por día (tabla)
 ## Tus mensajes (los 6, ya escritos)

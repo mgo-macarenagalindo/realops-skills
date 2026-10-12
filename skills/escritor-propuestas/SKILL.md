@@ -37,7 +37,9 @@ Las propuestas de Macarena siguen tres modelos. Proponé el que corresponde y ex
 | **B · Consultoría con mentoring** | El negocio necesita definir antes de construir (posicionamiento, oferta, sistema comercial mínimo) y el equipo implementa con tu guía | 10 a 12 semanas | Precio cerrado, o "a definir en la reunión" |
 | **C · Equipo integrado (plan estratégico)** | Entrás como parte del equipo, en varios frentes a la vez, con un objetivo de facturación | Mínimo 6 meses, con balance al final | Fee fijo mensual + variable por tramos de **cash collected** |
 
-Si ya trabajó con ese cliente y la pregunta es "¿cómo seguimos?", no es esta skill: es **Retención, Upsells y LTV**.
+**Dónde termina esta skill y empieza la de continuidad** (criterio orientativo, para que no se pisen):
+- **Cliente nuevo** (nunca trabajaste con él): todo pasa por acá, los tres modelos. El **C** solo si el founder ya tiene un objetivo de facturación con número, te ofrece entrar al equipo y puede sostener 6 meses; si falta cualquiera de las tres cosas, proponé **A** y dejá el C como "lo que sigue" en Próximos pasos.
+- **Cliente con el que ya trabajaste** y la pregunta es "¿cómo seguimos?" (también si lo que sigue tiene forma de C): no es esta skill, es **Retención, Upsells y LTV**, camino B (*tu propia continuidad*), que parte de los resultados que ya mostraste.
 
 ## La estructura de la propuesta
 
@@ -105,6 +107,16 @@ El corazón de la skill. **Nunca digas "depende".** La cuenta va **aparte de la 
 - Con eso: **valor hora = lo que querés ganar por mes ÷ (horas vendibles por semana × 4)**. Ejemplo: querés US$2.000 y podés vender 20 horas por semana → US$25 la hora.
 - Si igual no hay número, se usa un valor de prueba **[SUPUESTO: US$X la hora, valor de práctica; reemplazalo con tu número]** y se muestra la cuenta para que lo cambie en un minuto. **No se usan cifras "de mercado" inventadas.** Para armar su número de verdad: **Tabla de Precios de tu Servicio**.
 
+**Contraste con los pisos del programa (referencia orientativa, no tarifa).** No hay un "valor hora RealOps™": en clase se dieron **pisos por proyecto**, para no regalar el trabajo. Usalos solo para chequear que la cuenta no quedó baja, nunca en lugar de ella:
+
+| Qué | Piso que se dio en clase |
+|---|---|
+| Proyecto | Mínimo 3 meses y no menos de US$500 por mes (08/06). Una primera propuesta: US$1.000 los tres meses, o US$400 a 500 por mes, "no menos" (25/05) |
+| Sistema chico | Unas 10 horas, alrededor de US$1.000 (11/05) |
+| Fee mensual (modelo C, el fijo) | No menos de US$400 a 500 por mes, con alcance escrito y proyectos aparte (25/05, 08/06, 29/06) |
+
+Si el precio de la cuenta queda **por debajo** de estos pisos, lo más probable es que las horas o el valor hora estén bajos: revisalos antes de bajar el precio. Si queda muy por encima, no pasa nada mientras esté por debajo del valor para el cliente.
+
 Formas de cobro:
 - **Por proyecto** (A y B): lo más recomendable para el primero. Alcance cerrado, precio cerrado, cuotas con la primera al arrancar.
 - **Fijo + variable** (C): recién con un objetivo de facturación claro y compromiso de varios meses.
@@ -156,7 +168,7 @@ Preparada por [nombre] · [fecha] · Válida hasta [fecha]
 
 **Largo:** el que pida el modelo, sin relleno. Las de Macarena van de 3 a 6 páginas; lo que las hace legibles es que cada sección se escanea (títulos, listas, una tabla) y que cada fase dice para qué le sirve al founder. **La cuenta del precio no cuenta en el largo.** Si la propuesta pasa de 6 páginas, probablemente son dos proyectos.
 
-En `ejemplo-de-output.md` tenés una propuesta completa del modelo A.
+En `ejemplo-de-output.md` tenés una propuesta completa del modelo A y, al final, cómo cambian las secciones en una propuesta corta del modelo B y en una del modelo C.
 
 ## Cómo escribís la propuesta
 

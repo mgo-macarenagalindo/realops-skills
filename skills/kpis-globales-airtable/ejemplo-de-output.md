@@ -23,7 +23,7 @@ Decisiones que habilita: dónde poner la pauta (costo por venta, no por agenda),
 | Cuotas | **Cuotas cobradas** (solo pagos 2.° y 3.°; la 1.ª cuota es el cierre) |
 | Canales | Se oculta: el canal sale de la fórmula de UTMs |
 | Reporte | Se oculta: lo reemplaza **KPIs globales** |
-| (nueva) | **Gasto por anuncio**: una fila por semana y anuncio, importada del export de Meta |
+| (nueva) | **Gasto por anuncio**: una fila por semana y anuncio, importada del export de Meta, con el reparto por día de las semanas que cruzan de mes |
 
 Campos que se agregan:
 - Agendas: separar el campo `Estado` en `Estado de la llamada` (Asistió · No show · Cancelada · Reprogramada) y `Estado del lead` (Seguimiento · Cierre ganado · Cierre perdido).
@@ -38,16 +38,19 @@ Campos que se agregan:
 | Agendas | `DATETIME_FORMAT(SET_TIMEZONE({Fecha de la llamada}, 'America/Argentina/Buenos_Aires'), 'YYYY-MM') & " / " & IF({Canal}, {Canal}, "Sin canal")` |
 | Deals y reservas | `DATETIME_FORMAT(SET_TIMEZONE({Fecha}, 'America/Argentina/Buenos_Aires'), 'YYYY-MM') & " / " & IF({Canal}, {Canal}, "Sin canal")` |
 | Cuotas cobradas | `DATETIME_FORMAT(SET_TIMEZONE({Fecha de pago}, 'America/Argentina/Buenos_Aires'), 'YYYY-MM') & " / " & IF(ARRAYJOIN({Canal (del deal)}, ""), ARRAYJOIN({Canal (del deal)}, ""), "Sin canal")` |
-| Gasto por anuncio | `DATETIME_FORMAT({Inicio de la semana}, 'YYYY-MM') & " / " & {Canal}` |
+| Gasto por anuncio · mes de inicio | `DATETIME_FORMAT({Inicio del período}, 'YYYY-MM') & " / " & IF({Canal}, {Canal}, "Sin canal")` |
+| Gasto por anuncio · mes siguiente | `IF({Días en el mes de inicio} < 7, DATETIME_FORMAT({Fin del período}, 'YYYY-MM') & " / " & IF({Canal}, {Canal}, "Sin canal"), "")` |
 
 Resultado esperado en todas: `2026-10 / Pauta · VSL-1`. Una cuota de un alumno de antes de las UTMs da `2026-10 / Sin canal` y **entra** al cash del mes. Probalo copiando la clave de un registro de cada tabla en un bloc de notas: tienen que ser idénticas.
+
+**Gasto semanal: prorrateo por día** (convención común de la biblioteca, la misma de **Cierre de Mes Financiero**). La tabla de gasto suma `Fin del período` = `DATEADD({Inicio del período}, 6, 'days')`, `Días en el mes de inicio` = `IF(DATETIME_FORMAT({Fin del período}, 'YYYY-MM') = DATETIME_FORMAT({Inicio del período}, 'YYYY-MM'), 7, 7 - DAY({Fin del período}))`, `Gasto mes de inicio` = `{Gasto USD} * {Días en el mes de inicio} / 7` y `Gasto mes siguiente` = `{Gasto USD} - {Gasto mes de inicio}`. Una semana del 28/09 al 04/10 con USD 700 deja USD 300 en septiembre (3/7) y USD 400 en octubre (4/7). Ese gasto queda **estimado** hasta tener el reporte mensual de Meta.
 
 ## La tabla KPIs globales
 
 | Campo | Tipo | Cálculo |
 |---|---|---|
 | Clave | Texto (primario) | Automatización |
-| Agendas / Deals / Cuotas | Vínculos | Automatización |
+| Agendas / Deals / Cuotas / Gasto (mes de inicio) / Gasto (mes siguiente) | Vínculos | Automatización |
 | Agendas totales | Conteo | Agendas |
 | Asistidas | Conteo con condición | Estado de la llamada = Asistió |
 | No show | Conteo con condición | Estado de la llamada = No show |
@@ -63,7 +66,9 @@ Resultado esperado en todas: `2026-10 / Pauta · VSL-1`. Una cuota de un alumno 
 | Cierre sobre asistidas | Fórmula | `IF({Asistidas}, {Cierres} / {Asistidas})` |
 | Cierre sobre agendas | Fórmula | `IF({Agendas totales}, {Cierres} / {Agendas totales})` |
 | Cash nuevo por agenda | Fórmula | `IF({Agendas totales}, {Cash nuevo USD} / {Agendas totales})` |
-| Gasto USD | Rollup | `SUM(values)` de Gasto USD |
+| Gasto inicio USD | Rollup | `SUM(values)` de Gasto mes de inicio (vínculo "mes de inicio") |
+| Gasto siguiente USD | Rollup | `SUM(values)` de Gasto mes siguiente (vínculo "mes siguiente") |
+| Gasto USD | Fórmula | `{Gasto inicio USD} + {Gasto siguiente USD}` |
 | Costo por venta | Fórmula | `IF({Cierres}, {Gasto USD} / {Cierres}, IF({Gasto USD}, "Gasto sin ventas", ""))` |
 
 ## La automatización (una por tabla)
@@ -78,6 +83,10 @@ Resultado esperado en todas: `2026-10 / Pauta · VSL-1`. Una cuota de un alumno 
    - Crear registro → KPIs globales → `Clave` = `Clave KPI` (del paso 1).
    - Actualizar registro → Agendas → el registro del paso 1 → `KPIs globales` = ID del registro creado.
 
+En **Gasto por anuncio** son dos: "KPI · vincular gasto (mes de inicio)" y "KPI · vincular gasto (mes siguiente)", cada una con su clave y su vínculo. La segunda solo corre en las semanas que cruzan de mes.
+
+**Corridas por mes:** unas 156 agendas + 25 deals + 30 cuotas + 10 semanas de gasto ≈ 220. En el plan pago de esta base sobra (Team: 25.000 por mes, relevado el 12/10/2026). **Si estuviera en Free** (100 por mes), no alcanzaría: la alternativa es la vista "Sin fila de KPI" en cada tabla y pegar la columna `Clave KPI` en el vínculo los lunes a las 9 (unos 10 minutos). Conviene pagar cuando eso, sumado al resto de la carga manual, pase 2 horas por semana o cuando el founder necesite el tablero al día todos los días (criterios orientativos).
+
 ## Plan de prueba
 
 En una copia de la base, con datos inventados:
@@ -91,7 +100,8 @@ En una copia de la base, con datos inventados:
 | 5 | Crear una cuota cobrada de noviembre de un deal de octubre de Pauta | Va a `2026-11 / Pauta` (mes del pago, canal del deal) |
 | 6 | Contar a mano las agendas asistidas de la fila y compararlas con el conteo | Coinciden |
 | 7 | Crear una cuota cobrada de un deal sin canal | Va a `2026-10 / Sin canal` y suma en Cash total del mes |
-| 8 | Importar una semana de gasto de VSL-1 | Gasto USD de `2026-10 / Pauta · VSL-1` sube en ese monto; Costo por venta se recalcula |
+| 8 | Importar una semana de gasto de VSL-1 (del 05/10 al 11/10) | Gasto USD de `2026-10 / Pauta · VSL-1` sube en ese monto; Costo por venta se recalcula |
+| 8b | Importar la semana del 28/09 al 04/10 de VSL-1 con USD 700 | `2026-09 / Pauta · VSL-1` suma USD 300 y `2026-10 / Pauta · VSL-1` suma USD 400; la suma de los dos meses da 700 |
 | 9 | Sumar el cash total del mes y compararlo con los pagos del mes en el banco o la pasarela | Coinciden (si da más, hay doble conteo) |
 
 ## Cómo se ve un mes (datos de prueba)
@@ -139,7 +149,7 @@ De dónde salen los montos de prueba:
 2. **La reunión de los lunes con el tablero abierto:** cash del mes con cuotas separadas, agendas y asistencia por canal, y vencidas.
 3. **"¿Crecimos o cobramos cuotas?":** el 30 % del cash fue de cuotas viejas. Si sube, la adquisición se está frenando.
 
-Leer qué significan estos números (por ejemplo, que la pauta llena la agenda de gente que no asiste) es trabajo de la skill **Analista de KPIs**.
+Las alarmas de esta tabla son criterios orientativos: ajustalas con dos o tres meses de historia. El diagnóstico de causas (por qué VSL-2 llena la agenda de gente que no asiste y qué cambiar en el anuncio o en el setting) es de la skill **Analista de KPIs**.
 
 ## Lo que queda afuera y por qué
 
@@ -150,4 +160,4 @@ Leer qué significan estos números (por ejemplo, que la pauta llena la agenda d
 
 ## Para confirmar
 
-- Que el gasto semanal de Meta se pueda exportar por día (con quien maneja la pauta), para que no haya semanas partidas entre meses.
+- Que el gasto de Meta se pueda exportar por día (con quien maneja la pauta): con export diario no hace falta prorratear y el gasto deja de ser estimado. Mientras sea semanal, se prorratea por día.

@@ -10,7 +10,9 @@ Cinco situaciones donde una hora grabada se vuelve una semana de contenido. La p
 
 **Qué le pasás.** La transcripción de la clase del 19/03/2026 (61 minutos, con marca de tiempo por turno), su calendario de contenidos para no repetir y tres captions publicados para tomar la voz. Pide un carrusel y tres reels.
 
-**Qué te devuelve.** 7 tramos descartados por privacidad (con el minuto, sin el dato), 2 temas descartados porque **ya los había publicado** (17/06 y 30/06), un reel que es **clip textual** (45:23 → 46:42, con qué cortar), dos reels **para regrabar** con sus frases textuales, un carrusel de 9 slides donde cada slide dice de qué minuto sale, y la carga para el calendario. Es el `ejemplo-de-output.md`.
+**Qué te devuelve.** 7 tramos descartados por privacidad (con el minuto, sin el dato), 2 temas descartados porque **ya los había publicado** (17/06 y 30/06), un reel que es **clip textual** (45:23 → 46:42, con qué cortar), dos reels **para regrabar** con sus frases textuales, un carrusel de 9 slides donde cada slide dice de qué minuto sale, y la carga para el calendario. El reel 1 trae el chequeo de la vista y su guion de respaldo, y el minuto que cae adentro de un turno largo sale estimado por proporción de palabras (24:17, ±15 s) con cómo confirmarlo.
+
+**Y si pedís más piezas.** Con la misma clase, la skill también sacó la primera edición de su **Newsletter de LinkedIn** ("Detrás del orden": título, descripción, portada, cuerpo con subtítulos, pregunta para comentarios y el posteo para compartirla) y una **secuencia de 5 historias** con encuesta que empuja al reel de las reglas de urgencia. Es el `ejemplo-de-output.md`.
 
 **Por qué sirve.** Muestra la skill trabajando sobre material de verdad: con otras voces en la grabación, turnos largos y temas que ya salieron.
 

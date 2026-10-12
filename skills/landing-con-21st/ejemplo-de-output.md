@@ -69,7 +69,8 @@ El calendario no carga dentro del artefacto (la vista previa no deja traer pági
 const CONFIG = {
   marca: { nombre: "Libertad Freelance", colorPrincipal: "#1F3D2B", colorAcento: "#D9A441", logoUrl: "" }, // [PENDIENTE] logo
   ctaTexto: "Agendá tu llamada de diagnóstico",
-  calendario: "https://[tu-calendario-de-ghl]",
+  calendario: "https://[tu-calendario-de-ghl]",   // la persona agenda directo desde la página
+  precargarDatos: true,              // nombre, mail y UTM viajan en el link si el calendario los acepta
   webhookUrl: "",                    // no hay formulario propio: el calendario ya registra
   whatsapp: { numero: "5490000000000", mensaje: "Hola, agendé la llamada de diagnóstico. Me dedico a ___ y lo que más me preocupa de mis precios es ___." },
   videoUrl: "",                      // [PENDIENTE] link directo del video del founder

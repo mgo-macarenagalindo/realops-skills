@@ -10,7 +10,7 @@ Tres situaciones donde esta skill te saca del "no tengo a quién venderle". Pers
 
 **Qué le pasás.** Lo que sabés hacer, lo que tenés para mostrar y tu red (300 seguidores en Instagram, un grupo de exalumnos de tu carrera).
 
-**Qué te devuelve.** Un plan de 10 días con red tibia, entrevistas de problema y una publicación que muestra tu tablero del sandbox dicho como lo que es, los mensajes escritos y la tabla de seguimiento.
+**Qué te devuelve.** Un plan de 10 días con red tibia, entrevistas de problema y una publicación que muestra tu tablero del sandbox dicho como lo que es y ofrece tus tres diagnósticos sin cargo (qué incluyen y qué no), los mensajes escritos y la tabla de seguimiento.
 
 **Por qué sirve.** La confianza viene después del tercer cliente, no antes del primero. Y nada de lo que mandás es inventado.
 
@@ -32,7 +32,7 @@ Tres situaciones donde esta skill te saca del "no tengo a quién venderle". Pers
 
 **La situación.** Hablás inglés intermedio y querés tus primeros proyectos en Upwork, pero tu perfil dice "Virtual Assistant" y solo te llegan tareas sueltas.
 
-**Qué le pasás.** Tu perfil actual y qué sabés hacer.
+**Qué le pasás.** Tu perfil actual, qué sabés hacer y tu nivel de inglés (con un B1 alcanza, clase del 12/08).
 
 **Qué te devuelve.** Un título de rol de operaciones, el resumen del perfil, tres propuestas modelo que arrancan por el problema del cliente y dónde encaja Upwork en tu plan de 10 días.
 

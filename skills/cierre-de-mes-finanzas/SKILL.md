@@ -30,7 +30,7 @@ Preguntá si es su negocio, el negocio donde trabaja o un caso práctico del pro
 
 ### Paso 0 · Recordatorios
 - **Si estás a tiempo (antes de fin de mes):** tres días antes, pedido de comprobantes y de datos manuales, con fecha límite. Mensajes listos para copiar.
-- **Si el cierre se hace tarde (el mes ya terminó, lo más común la primera vez):** el Paso 0 se convierte en un **pedido urgente** de lo que falta, con una fecha límite corta (por ejemplo, 48 horas hábiles) y aclarando qué pasa si no llega ("si el viernes no está el extracto, el cierre sale provisorio"). Y dejá programado el recordatorio del próximo mes, tres días antes de fin de mes, para no volver a cerrar tarde.
+- **Si el cierre se hace tarde (el mes ya terminó, lo más común la primera vez):** el Paso 0 se convierte en un **pedido urgente** de lo que falta, con una fecha límite corta (**criterio orientativo: 48 horas hábiles** desde el pedido; no es una regla dada en clase, ajustala si el negocio necesita otra) y aclarando qué pasa si no llega ("si el viernes no está el extracto, el cierre sale provisorio"). Y dejá programado el recordatorio del próximo mes, tres días antes de fin de mes, para no volver a cerrar tarde.
 
 ### Paso 1 · Checklist de datos manuales
 Lista de lo que falta, a quién se le pide y si llegó. **Si falta algo, preguntá si se sigue con lo que hay o se espera**, y anotá el impacto (por ejemplo: "sin la inversión en anuncios, el margen queda inflado"). Si faltan los extractos de la pasarela o del banco y se decide seguir, el cierre pasa a **modo provisorio** (ver abajo).
@@ -63,6 +63,12 @@ Todas, en este orden. Cada una dice **OK**, lista los registros que fallan o, en
 9. **Comisiones con responsable y regla.** Ninguna comisión sin nombre; cada una calculada con la regla vigente, sobre el **estado real del pago**, no sobre la etiqueta de carga. Además:
    - **Base del acuerdo contra base de la planilla.** Leé en el acuerdo escrito sobre qué se paga (lo vendido, lo cobrado, lo cobrado del mes incluidas cuotas anteriores) y compará con lo que efectivamente calcula la planilla o el sistema de liquidación. Si no coinciden, es una falla aunque las cuentas estén bien hechas: mostrá la diferencia por persona.
    - **Pedí la planilla de liquidación** (la que se usó para pagar), no solo la base: los duplicados y las ventas que no están en la base aparecen recién al cruzar la planilla registro por registro contra la base. Sin la planilla, decí que los duplicados no se pudieron descartar.
+   - **Si sobra plata y la planilla no llega, achicá la búsqueda (triangulación sin planilla).** No te quedes en "falta la planilla":
+     1. **Convertí lo que sobra en ventas posibles:** dividí el excedente por el % de comisión (US$330 al 10 % = una venta de US$3.300) y listá las ventas de **esa persona, en ese mes, con ese monto**. Esas son las **candidatas**, con ID, alumno y fecha.
+     2. **Ordenalas por riesgo** (criterio orientativo): primero las que tienen una cuota vencida (se pagó comisión dos veces sobre algo que no se terminó de cobrar), después las de los primeros días del mes o las cargadas cerca del cambio de sistema (son las que más se arrastran o se cargan dos veces).
+     3. **Pedí dos confirmaciones cortas, que no dependen de la planilla:** a quien liquidó, "¿cuántas ventas de [persona] pusiste y cuáles?"; y a la persona cobrada, "¿cuántas ventas tuyas de [mes] te pagaron?". Si cuenta una menos que la planilla, la que sobra está entre las candidatas.
+     4. **Separá lo que ya se puede decidir:** el monto a corregir es el mismo sea cual sea la venta, así que la decisión de qué hacer con lo pagado de más no espera al nombre. El nombre hace falta para el log y para que no se repita.
+     En el informe va como "**candidatas a duplicado: V-xxx, V-yyy (a confirmar)**", nunca como certeza.
 10. **Gastos proyectados** identificados: el margen se informa con y sin ellos.
 11. **Consistencia entre tablas.** Para cada venta, el medio de pago y el monto tienen que coincidir entre la tabla de ventas y la de cuotas o pagos: la suma de las cuotas de una venta es igual al monto contratado, y el medio de pago de cada cuota es el de la venta (o hay una nota que explica el cambio). Listá las ventas que no coinciden; hasta que se aclaren, la conciliación por método (validación 2) no es confiable.
 

@@ -155,12 +155,14 @@ Se revisan siempre, además de la rúbrica propia:
 
 ## ★ · Portafolio armado (actividad 30)
 
+> **Criterio orientativo:** esta rúbrica sigue la consigna vigente de la actividad 30 (8 piezas + offer doc + propuesta con precio). Si la consigna que trae la persona pide otra cantidad de piezas, o la 30 se presenta como evaluación de cierre, **revisá contra lo que dice su consigna**: el criterio 1 cuenta las piezas que su consigna pide, y el 5 aplica solo si la consigna pide offer doc y propuesta. Lo demás no cambia. Si no sabe qué versión tiene, usá esta.
+
 **Imprescindible**
-1. Inventario de las 8 piezas con estado (las que faltan, dichas).
+1. Inventario de las piezas ★ que pide la consigna (hoy 8) con estado; las que faltan, dichas.
 2. Cada pieza como caso de media página: contexto, problema con número (plata u horas), qué construí, resultado o estado, cómo se cuenta.
 3. Ninguna pieza expone nombre del negocio, clientes ni montos reales sin permiso; los casos prácticos rotulados.
 4. Portada que dice quién sos y qué hacés en una frase.
-5. Offer doc de una página y propuesta con precio (dos opciones como mínimo y un solo paso siguiente).
+5. Si la consigna lo pide (la vigente, sí): offer doc de una página y propuesta con precio (dos opciones como mínimo y un solo paso siguiente).
 6. Se puede contar completo en cinco minutos.
 
 **La hace fuerte**
@@ -168,4 +170,4 @@ Se revisan siempre, además de la rúbrica propia:
 - Las piezas cuentan una sola historia de punta a punta (los números cierran entre piezas).
 - Alguien de afuera entendió en una frase qué hace.
 
-**Errores típicos**: ocho piezas sueltas sin hilo; un caso práctico presentado como cliente; "armé unas planillas"; precio a ojo.
+**Errores típicos**: piezas sueltas sin hilo; un caso práctico presentado como cliente; "armé unas planillas"; precio a ojo.

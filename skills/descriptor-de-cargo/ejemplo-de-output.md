@@ -37,8 +37,17 @@ Asegura que cada alumno entre, avance y termine el programa sin depender de que 
 | KPI | Cómo se calcula | De dónde sale | Línea de base | Objetivo |
 |---|---|---|---|---|
 | Tiempo de ingreso | Horas desde el pago acreditado hasta el acceso a la plataforma (promedio) | CRM de alumnos: fecha de pago y fecha de alta | 38 h (promedio de los últimos 2 meses, calculado del CRM) | Menos de 24 h (lo pidió el founder) |
-| Alumnos en rojo con aviso a la coach | Alumnos en rojo avisados en la semana / alumnos en rojo | Semáforo del CRM | Sin dato: hoy el aviso no se registra. Sumar un campo "Avisado a la coach (fecha)" | A definir con el founder |
-| Satisfacción con la atención operativa | Promedio de la pregunta "¿te resolvimos rápido lo que necesitabas?" (1 a 10) | Encuesta de mitad de programa | Sin dato: la pregunta se suma en la próxima encuesta | A definir con el founder después de la primera medición |
+| Alumnos en rojo con aviso a la coach | Alumnos en rojo avisados en la semana / alumnos en rojo | Semáforo del CRM | **Aproximada, sale del relato de la semana:** avisó de 3 de los 5 alumnos en rojo (60 %) | A definir con el founder |
+| Satisfacción con la atención operativa | Promedio de la pregunta "¿te resolvimos rápido lo que necesitabas?" (1 a 10) | Encuesta de mitad de programa | **En arranque:** la pregunta se suma en la próxima encuesta | A definir con el founder después de la primera medición |
+
+### Cómo empezar a medirlo
+
+| KPI | Campo a crear | Tipo y tabla | Quién lo carga | Desde cuándo | Primera línea de base real |
+|---|---|---|---|---|---|
+| Alumnos en rojo con aviso a la coach | "Avisado a la coach (fecha)" | Fecha · tabla Alumnos | La persona en el rol, cuando avisa | Lunes 20/10 | Fin de noviembre (primer mes completo) |
+| Satisfacción con la atención operativa | Pregunta nueva en la encuesta de mitad de programa | Número 1 a 10 · formulario de la encuesta | Lo responden los alumnos | Próxima encuesta (diciembre) | Diciembre |
+
+Si el negocio no suma estos campos, el descriptor igual sirve: el tiempo de ingreso ya se mide desde el CRM.
 
 ## Herramientas y accesos
 

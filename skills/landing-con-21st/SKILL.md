@@ -1,6 +1,6 @@
 ---
 name: landing-con-21st
-description: Constructor de Landing con 21st.dev (RealOps™). Construye una landing a partir del copy final, pidiendo siempre la oferta, el avatar y referencias visuales y de estructura (sin eso no construye), y pasando referencias de componentes de 21st.dev para cada sección. Primero la arma en un artefacto de Claude para verla y ajustarla, y recién después migra el código a la página real - un proyecto Next con shadcn y componentes de 21st instalados por su MCP o su CLI, o un HTML autocontenido para pegar en GoHighLevel, Kajabi, WordPress o Hostinger. Recomienda dinamismo con criterio (scroll, línea de tiempo, tarjetas con luz) y deja todo lo editable en un objeto CONFIG. Usala cuando quieras construir o maquetar una landing, usar componentes o efectos de 21st.dev, o pasar un copy aprobado a una página que funcione.
+description: Constructor de Landing con 21st.dev (RealOps™). Construye una landing a partir del copy final, pidiendo siempre la oferta, el avatar y referencias visuales y de estructura (sin eso no construye), y pasando referencias de componentes de 21st.dev para cada sección. Primero la arma en un artefacto de Claude para verla y ajustarla, y recién después migra el código a la página real - un proyecto Next con shadcn y componentes de 21st instalados por su MCP o su CLI, o un HTML autocontenido para pegar en GoHighLevel, Kajabi, WordPress o Hostinger. Recomienda dinamismo con criterio (scroll, línea de tiempo, tarjetas con luz), deja todo lo editable en un objeto CONFIG y, en páginas de aplicación, hace que el lead que califica agende directo en el calendario. Usala cuando quieras construir o maquetar una landing, usar componentes o efectos de 21st.dev, o pasar un copy aprobado a una página que funcione.
 ---
 
 # Constructor de Landing con 21st.dev
@@ -68,9 +68,9 @@ El plan B tiene dos caras:
 |---|---|---|---|
 | **Dónde se publica** | ¿Qué herramientas paga hoy el negocio que tengan páginas (GoHighLevel, Kajabi, WordPress, Hostinger, Hotmart, Systeme)? · ¿Dónde vive hoy el formulario o la página de venta? · ¿El founder quiere sumar herramientas? | Infonegocio con curso en Kajabi o GoHighLevel: bloque de código de esa plataforma | **Camino B**, pegado en la herramienta con páginas que el negocio ya paga. Si no hay ninguna o el bloque no acepta `<script>`, alojada sola en Netlify (ver "Si el constructor no acepta el código"). "Supuesto a validar con el founder" |
 | **Colores, tipografías, logo** | ¿Qué colores usa en Instagram o en el curso? · ¿Tiene una plantilla de Canva con su marca? · ¿Hay un logo en la web o en la foto de perfil? | Un color oscuro principal, un acento cálido para el botón, fondo claro. Tipografía sans (Inter, Montserrat) | Paleta **sacada de las referencias visuales** que pasó la persona, en el CONFIG con "Supuesto a validar con el founder" y dicho en el hero del artefacto. El logo no se inventa: queda `[PENDIENTE]` y la página funciona sin él |
-| **Link de agenda o formulario** | ¿Cómo agenda hoy un interesado: Calendly, el calendario de la plataforma, WhatsApp? · ¿Quién hace esa llamada (setter, closer, founder)? · ¿A nombre de qué cuenta está esa agenda? | Calendly de setters para la llamada de calificación, o el calendario de GoHighLevel | El CONFIG lleva el campo vacío con el comentario de **qué agenda va** (por ejemplo, "Calendly de setters, llamada de 15 min") y "Supuesto a validar con <rol que agenda>". Si la herramienta está a nombre de alguien que ya no está, no se conecta ahí |
+| **Link de agenda** | ¿Qué calendario usa hoy el negocio: Calendly, el de GoHighLevel, otro? · ¿Quién hace la primera llamada (setter, closer, founder)? · ¿A nombre de qué cuenta está esa agenda? | Calendly de setters con un evento de equipo en rueda para la llamada de calificación, o el calendario de GoHighLevel | El CONFIG lleva el campo vacío con el comentario de **qué agenda va** (por ejemplo, "evento de equipo de 15 min, en rueda entre los setters actuales") y "Supuesto a validar con <rol que agenda>". El lead que califica **agenda directo** igual (ver "Después de aplicar"). Si la herramienta está a nombre de alguien que ya no está, no se conecta ahí |
 | **WhatsApp** | ¿Hay un número del negocio o solo números personales? · ¿Quién lo atiende? | WhatsApp Business del negocio, en el teléfono de coordinación o de un setter | Número vacío, mensaje armado y el botón oculto hasta que haya número. "Supuesto a validar con <rol que atiende>" |
-| **Webhook** | ¿Dónde tienen que llegar las aplicaciones (Airtable, una planilla, el CRM)? · ¿Quién las lee? | Un Zap, un escenario de n8n o el Inbound Webhook de un workflow de GoHighLevel que crea el registro | Modo demo (webhook vacío) y una línea de qué conectar. "Supuesto a validar con <rol que lee las aplicaciones>" |
+| **Webhook** | ¿Dónde tienen que llegar las aplicaciones (Airtable, una planilla, el CRM)? · ¿Quién las lee? · ¿Qué herramienta de automatización ya paga el negocio? | Un Zap, un escenario de Make o de n8n, o el Inbound Webhook de un workflow de GoHighLevel que crea el registro | Modo demo (webhook vacío), una línea de qué conectar y **la plataforma recomendada con su porqué** (tabla "Qué automatización recibe el formulario"). "Supuesto a validar con <rol que lee las aplicaciones>" |
 | **Qué referencia de 21st** | ¿Cuál de estas tres te gusta más para el hero? · ¿Querés que se mueva o que sea quieto? | Hero simple con fondo en movimiento suave; línea de tiempo para el método | Elegís vos la más sobria de cada sección, lo decís y la persona puede cambiarla en la ronda 1 del artefacto |
 
 ## Las referencias de 21st.dev, siempre
@@ -80,10 +80,11 @@ Para cada sección del copy, el plan lleva **la categoría de 21st y uno o dos c
 - **Camino A:** los componentes elegidos se instalan y van a `CREDITOS.md` con su link.
 - **Camino B:** se usan como referencia visual y Claude escribe su propia versión en HTML, CSS y JS sin librerías. No se copia el código.
 - Si con el MCP de 21st conectado podés buscar, buscá y mostrá opciones. Si no, pasá los links de la categoría y los ejemplos del catálogo, y pedile a la persona que abra 2 o 3 y elija.
+- **Los componentes de 21st cambian de nombre o desaparecen.** Antes de pasar un link concreto, abrilo (o buscalo con el MCP); si no está, pasá la categoría. Si la fecha de verificación del catálogo tiene más de 2 meses, decilo y verificá cada link antes de pasarlo *(criterio orientativo: el catálogo se revisa al empezar cada ciclo de 4 semanas del programa)*.
 
 ## Dinamismo: recomendalo siempre, con criterio
 
-Una landing sin movimiento se siente plantilla; una con diez efectos tarda en cargar y distrae del botón. **Recomendá siempre 2 o 3 momentos de movimiento**, cada uno con su para qué y su referencia de 21st: aparecer al hacer scroll, la línea de tiempo del método que se llena, tarjetas con luz o inclinación en los dolores, números que cuentan (solo con datos reales), hero con fondo en movimiento, botón magnético, barra fija con el CTA en el celular, cierre cortina. El detalle y las reglas de performance (respetar `prefers-reduced-motion`, sin efectos de mouse en el celular, pausar lo que no está en pantalla, que todo se vea aunque falle el script) están en el catálogo.
+Una landing sin movimiento se siente plantilla; una con diez efectos tarda en cargar y distrae del botón. **Recomendá siempre 2 o 3 momentos de movimiento** *(criterio orientativo)*, cada uno con su para qué y su referencia de 21st: aparecer al hacer scroll, la línea de tiempo del método que se llena, tarjetas con luz o inclinación en los dolores, números que cuentan (solo con datos reales), hero con fondo en movimiento, botón magnético, barra fija con el CTA en el celular, cierre cortina. El detalle y las reglas de performance (respetar `prefers-reduced-motion`, sin efectos de mouse en el celular, pausar lo que no está en pantalla, que todo se vea aunque falle el script) están en el catálogo.
 
 ## La primera pregunta técnica: ¿qué camino?
 
@@ -108,9 +109,10 @@ Le pasás a Claude el copy, la oferta y el avatar, las referencias visuales y de
 **Siempre recomendá ver la página en un artefacto de Claude antes de tocar la página real.** El artefacto es la vista previa que Claude muestra al costado del chat (en claude.ai o en la app de escritorio): se ve la página funcionando, se ajusta en minutos y no se rompe nada que ya esté publicado. Si el cliente tiene que aprobar, aprueba sobre algo que ve, no sobre un texto.
 
 - Pedí: "Armala como artefacto en HTML, con el CONFIG al final, para verla en celular y en compu".
-- Iterá con la vista previa: celular primero, después compu. **Tres rondas como máximo**, con pedidos concretos ("el título más corto", "la línea de tiempo más lenta"). Si pedís lo mismo dos veces, va al `CLAUDE.md` del agente de landings.
+- Iterá con la vista previa: celular primero, después compu. **Tres rondas como máximo** *(criterio orientativo)*, con pedidos concretos ("el título más corto", "la línea de tiempo más lenta"). Si pedís lo mismo dos veces, va al `CLAUDE.md` del agente de landings.
 - En el artefacto el formulario corre en **modo demo** (la vista previa no deja mandar datos afuera) y puede que una tipografía o un video no carguen: es la vista previa, no la página. Eso se prueba en el paso 4.
 - En el camino A, el artefacto es una maqueta para aprobar el diseño; los componentes reales se instalan en el paso 3.
+- **Prueba de 2 minutos del artefacto** (la primera vez): ¿se ve la página entera en el panel? ¿Los botones bajan al formulario? ¿El formulario en modo demo muestra la pantalla final con **un solo** botón de agenda? ¿Con el panel angosto se ve como en el celular? Si el artefacto no se muestra (por ejemplo, la app no tiene artefactos activados en Configuración), guardá el HTML y abrilo en el navegador: es la misma prueba.
 
 ### Paso 3 · Migrar el código a la página real
 
@@ -135,22 +137,48 @@ Si el bloque de código de la plataforma (en el plan vigente) no corre `<script>
 - En la plataforma del negocio, el botón o el menú del curso **enlaza** a ese link.
 - Si es de un cliente, la cuenta de Netlify es **del cliente** y revisan juntos las condiciones del plan para uso comercial.
 
+## Después de aplicar: el lead agenda directo
+
+**Estándar de RealOps™ para páginas de aplicación:** quien completa el formulario y **califica** elige su horario **en el momento**, en la misma página. Un solo próximo paso: nada de "te escribe alguien del equipo" **y además** un botón de agenda.
+
+- **Califica** → pantalla final con un solo botón ("Elegir mi horario") o el calendario embebido, del evento que corresponde (por ejemplo, la llamada de calificación de 15 minutos en rueda entre los setters actuales).
+- **Precargá los datos:** el link de la agenda lleva el nombre, el mail y los UTM que ya escribió, para que no los repita y para que la reserva quede atada al anuncio. Calendly acepta `name` y `email` en el link (verificado en su ayuda el 12/10/2026); con otro calendario, probá con una reserva si los toma.
+- **No califica** → otro final (video o recurso gratis), sin agenda. Solo con un criterio que exista en el negocio (`CONFIG.noCalifica`).
+- **Si no agenda**, el respaldo es del proceso, no de la página: la aplicación ya quedó registrada y el setter la sigue. *Criterio orientativo:* si a las 24 horas no hay reserva, el setter le escribe una vez con el mismo link. Eso va en el SOP de calificación, no como texto en la pantalla final.
+- Toda la página tiene que decir lo mismo: el texto bajo el botón del hero, la pregunta "¿Qué pasa después de aplicar?" del FAQ y la pantalla final.
+
+## Qué automatización recibe el formulario
+
+Cualquier plataforma sirve si está justificada. Antes de elegir, dos preguntas: **¿qué paga ya el negocio?** y **¿quién del equipo actual la va a mantener?** La cuenta siempre es del negocio, nunca de una persona.
+
+| Plataforma | Su ventaja frente a las otras | Cuándo conviene | Ojo con |
+|---|---|---|---|
+| **Workflow de GoHighLevel** (Inbound Webhook) | Todo queda en el mismo lugar: contacto, etiqueta, rueda de setters, agenda y mensajes, sin otra herramienta | El negocio ya vive en GoHighLevel | Disparadores premium según el plan |
+| **Zapier** | La más fácil de armar y la que más aplicaciones conecta; ideal si nadie del equipo es técnico | Pocas aplicaciones por mes y un equipo no técnico | Se paga por tarea: con mucho volumen sube rápido |
+| **Make** | Mismo resultado visual, con más lógica (filtros, ramas) y más barato por operación que Zapier | Volumen medio o alto, o reglas de calificación con varias ramas | Curva de aprendizaje un poco mayor |
+| **n8n** | El más barato con mucho volumen (se puede alojar propio) y el más flexible | Hay alguien técnico que lo mantiene | Si lo aloja el negocio, alguien tiene que cuidarlo |
+
+Si el destino es **Airtable en el plan gratis**: alcanza para empezar, pero el plan gratis tiene un tope de **1.000 registros por base** (verificado en airtable.com/pricing el 12/10/2026; puede cambiar), sumando todas las tablas. Alternativa manual mientras no se pague: una vez por semana exportar a CSV y archivar en Drive los registros cerrados (leads descartados, cuotas pagadas viejas) y borrarlos de la base. **Conviene pagar** *(criterio orientativo)* cuando la base pasa el 80 % del tope o cuando ya es el CRM del que depende la agenda: si se llena, la automatización deja de crear registros y las aplicaciones se pierden sin aviso. Para diseñarla, **Diseñador de Automatizaciones**.
+
 ## Camino A · Preparar 21st.dev
 
-1. **Cuenta y key gratis:** creá una cuenta en 21st.dev y sacá la API key en **21st.dev/mcp**. Las keys viejas de "Magic" ya no funcionan: si tenías una, sacá una nueva.
-2. **Conectarlo a Claude Code**, en la terminal, dentro de la carpeta del proyecto:
+Verificado el 12/10/2026 con la CLI de 21st (`@21st-dev/cli` 1.18.0) y su documentación (help.21st.dev). La cuenta no se pudo usar desde acá: la búsqueda y la instalación reales necesitan tu cuenta, por eso está la prueba de 2 minutos.
+
+1. **Cuenta y key gratis:** creá una cuenta en 21st.dev y sacá la API key en **21st.dev/settings/api-keys** (también se llega desde 21st.dev/mcp). Las keys viejas de "Magic" ya no funcionan.
+2. **Guardá la key en tu compu, no en un archivo del proyecto:** en la terminal, `echo 'export API_KEY_21ST="tu-key"' >> ~/.zshrc` (en Mac; en Windows, una variable de entorno de usuario con ese nombre) y abrí una terminal nueva. **La key no se pega en el chat, ni en el CLAUDE.md, ni en el CONFIG.**
+3. **Conectarlo a Claude Code**, en la terminal, dentro de la carpeta del proyecto:
    ```
    npx @21st-dev/cli@latest init --client claude --write
    ```
-   El instalador te pide la key y la guarda en la configuración. **La key no se pega en el chat ni en el CLAUDE.md.** (Alternativa: instalarlo como plugin de Claude Code desde el marketplace de 21st-dev/magic-mcp, con la key en la variable `API_KEY_21ST`.)
-3. **Probar que anda:** pedile a Claude Code "buscá en 21st un componente de línea de tiempo para landing". Si devuelve opciones con link, está conectado. Si no, revisá la key y reiniciá Claude Code.
-4. **El proyecto:** pedile a Claude Code que cree un proyecto Next.js con Tailwind y shadcn/ui. No hace falta que lo hagas vos.
-5. **Instalar un componente** (Claude Code lo hace por vos):
-   ```
-   npx @21st-dev/cli add <usuario>/<componente>
-   ```
-   o con shadcn: `npx shadcn@latest add "https://21st.dev/r/<usuario>/<componente>"`.
-6. **El plan gratis tiene un límite diario de copias de código** (buscar es libre). Para trabajar en serio, el plan pago más chico. Revisá los precios vigentes en 21st.dev/pricing.
+   Esto escribe el archivo `.mcp.json` del proyecto con el servidor de 21st (`https://21st.dev/api/mcp`) y **lee la key de la variable `API_KEY_21ST`**: no te la pide. Para usar la CLI sola (sin Claude Code), `npx @21st-dev/cli@latest login` abre el navegador y guarda la sesión.
+4. **Prueba de 2 minutos (siempre, la primera vez):**
+   - En la terminal: `npx @21st-dev/cli@latest whoami` → tiene que mostrar tu cuenta. `npx @21st-dev/cli@latest search "timeline" --limit 3` → tiene que devolver 3 componentes con su link.
+   - Abrí Claude Code en esa carpeta, aceptá el servidor `21st` cuando lo pregunte y escribí `/mcp`: tiene que figurar **21st** conectado.
+   - Pedile: "buscá en 21st un componente de línea de tiempo para landing". Si devuelve opciones con link, anda.
+   - Si dice **"Not authenticated - your API key is missing or was reset"**: la variable no está cargada (abrí una terminal nueva y reiniciá Claude Code) o la key es vieja (sacá una nueva). Si sigue sin andar, seguí por el **camino B** y decilo: no inventes lo que el MCP habría devuelto.
+5. **El proyecto:** pedile a Claude Code que cree un proyecto Next.js con Tailwind y shadcn/ui. No hace falta que lo hagas vos.
+6. **Instalar un componente** (Claude Code lo hace por vos): `npx @21st-dev/cli@latest add <usuario>/<componente>`. El link directo de shadcn (`https://21st.dev/r/<usuario>/<componente>`) hoy pide sesión: sin ella responde "Authentication required", así que usá la CLI.
+7. **Límites del plan gratis:** buscar es libre; las instalaciones o copias de código tienen un tope diario (a octubre de 2026, **2 por día** según 21st.dev/mcp; puede cambiar). Elegí con la búsqueda y recién instalá los 2 o 3 que vas a usar. Para trabajar en serio, el plan pago más chico: precios vigentes en 21st.dev/pricing.
 
 **Términos de 21st que se respetan siempre:** cada componente es de su autor y conserva su licencia; no se redistribuye ni se revende; si copiás un componente, dejás el link al original. Usarlo en la landing propia o de un cliente es el uso normal. Llevá la lista de componentes usados con su link en un archivo `CREDITOS.md` del proyecto, y revisá en 21st.dev/terms si piden el link visible en la página.
 
@@ -171,7 +199,8 @@ Todo lo que alguien no técnico puede necesitar cambiar va en **un solo objeto `
 const CONFIG = {
   marca:      { nombre: "", colorPrincipal: "#000000", colorAcento: "#000000", logoUrl: "" },
   ctaTexto:   "Agendá tu llamada",
-  calendario: "",   // link o embed del calendario
+  calendario: "",   // link del calendario: el lead que califica agenda directo
+  precargarDatos: true, // suma nombre, mail y UTM al link de la agenda
   webhookUrl: "",   // vacío = modo demo (el formulario no manda nada)
   whatsapp:   { numero: "", mensaje: "" },  // botón de la página de gracias
   videoUrl:   "",
@@ -204,6 +233,8 @@ Si la persona construye landings para varios clientes, conviene un **agente func
 ## Paso 2 · El artefacto (qué pedir y las 3 rondas: qué mirar en cada una)
 ## El CONFIG (completo, con lo que falta vacío y su comentario)
 ## El archivo completo (camino B: el index.html entero)
+## Después de aplicar (qué ve quien califica y quien no · la agenda con datos precargados)
+## Qué automatización recibe el formulario (la recomendada y por qué)
 ## Paso 3 · Cómo migrarlo a [plataforma] (y el plan B con Netlify Drop si no acepta el código)
 ## Créditos (componentes de 21st usados o mirados, con link)
 ## Lo que queda pendiente antes de publicar
@@ -231,3 +262,5 @@ Castellano rioplatense, con voseo. Cada comando, explicado en una línea ("esto 
 - No ponés la key de 21st, tokens ni contraseñas en el chat, el código, el `CLAUDE.md` ni el CONFIG.
 - No llenás la página con testimonios, números ni logos inventados.
 - No sumás menú, segundo CTA ni links de fuga.
+- No dejás dos próximos pasos en la pantalla final ("te escribimos" y además "agendá"): el lead que califica agenda directo.
+- No conectás el formulario a una automatización o una base a nombre de una persona, ni a una base que está por llegar al tope de su plan sin avisarlo.

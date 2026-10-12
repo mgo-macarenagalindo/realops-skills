@@ -12,6 +12,8 @@ Cuatro situaciones de infonegocio donde esta skill te saca del medio. Negocios y
 
 **Qué te devuelve.** El SOP con el formato de los templates de RealOps™: owner por rol, una tabla de pasos (responsable o plataforma, manual o automático, cuándo, tarea, objetivo) que podés pegar en una planilla, el detalle de cada paso con sus precauciones, los mensajes al alumno escritos, la tabla de "cuando algo sale mal", el checklist y el diagrama.
 
+Si el proceso es simple (4 pasos o menos, sin automatizaciones, sin decisiones abiertas ni mensajes al cliente), te lo da en formato corto: una sola tabla con el detalle y las precauciones, que entra en una pantalla.
+
 **Por qué sirve.** Es lo que te deja tomarte vacaciones. Y en una propuesta, "8 SOPs documentados y el equipo capacitado" se cobra; "acompañamiento" no.
 
 ---
@@ -46,6 +48,6 @@ Cuatro situaciones de infonegocio donde esta skill te saca del medio. Negocios y
 
 **Qué le pasás.** Qué la dispara, qué herramientas toca, qué credenciales usa (sin las claves) y qué falló alguna vez.
 
-**Qué te devuelve.** El documento en "modo automatización": qué toca, tabla de fallas, cómo apagarla en una emergencia y una prueba de traspaso para otra persona.
+**Qué te devuelve.** El documento en "modo automatización": qué toca, tabla de fallas, cómo apagarla en una emergencia y una prueba de traspaso para otra persona. Si la automatización es parte de un proceso más grande, los pasos automáticos van como subpasos (1.A, 1.B) con cómo verificar que corrieron y qué hace un humano si no corrieron; y si vive en la cuenta personal de alguien, te lo marca con ⚠.
 
 **Por qué sirve.** Una automatización que solo entendés vos es un riesgo, no un activo. Esto la vuelve entregable. Es la Actividad 18 del programa.

@@ -24,7 +24,7 @@ KPIs mensuales marketing ×2 (duplicadas) · Data global · KPIs del equipo · E
 Finanzas (ingresos cargados a mano, una columna por moneda) · Ventas low ticket · Candidatos · Procesos
 ```
 **Lo bueno:** separa setting de agendas; registra triage y closer; tiene ventas de checkout aparte.
-**Lo que falla:** Leads y Agendas no están vinculados (no se puede medir al setter de punta a punta); personas como selección; cuotas proyectadas en columnas; Finanzas duplica la carga de los ingresos; KPIs duplicadas y campos "Copia de…".
+**Lo que falla:** Leads y Agendas no están vinculados (no se puede medir al setter de punta a punta) y no hay números diarios por setter; personas como selección; cuotas proyectadas en columnas; Finanzas duplica la carga de los ingresos; KPIs duplicadas y campos "Copia de…".
 
 ### Forma 2 · Con servicio
 ```
@@ -33,7 +33,7 @@ Oportunidades (importadas del CRM de mensajería) ──< Deals + Reservas ─�
 Ingresos (sistema anterior, en paralelo) · Nómina (con capacidad por coach) · EOD por rol ──> KPIs del equipo · KPIs globales (mes | canal)
 ```
 **Lo bueno:** el flujo Oportunidades → Deals → Cuotas → Finanzas; dos bloques de dinero (USD y moneda real); Finanzas generada por automatización; Nómina con capacidad; EOD por rol; clave mes | canal.
-**Lo que falla:** no hay tabla de leads de setting (el setting solo existe como números del EOD); una tabla de ingresos vieja convive con la nueva (dos verdades); 12 fórmulas de proyección por mes; personas en desplegables además de la Nómina; comisiones con nombres de personas adentro de la fórmula; dos pares de vínculos entre Deals y Clientes.
+**Lo que falla:** el setter no queda vinculado en la oportunidad (el setting existe como números del EOD, que **cumple el mínimo estándar**, pero no se puede contrastar contra las agendas que dio cada setter); una tabla de ingresos vieja convive con la nueva (dos verdades); 12 fórmulas de proyección por mes; personas en desplegables además de la Nómina; comisiones con nombres de personas adentro de la fórmula; dos pares de vínculos entre Deals y Clientes.
 
 ## 3. Tabla de cambios (plantilla)
 
@@ -67,3 +67,5 @@ Ingresos (sistema anterior, en paralelo) · Nómina (con capacidad por coach) ·
 | Campos "Copia de…", tablas sin nombre, campos 100 % vacíos | Ocultar como `[ARCHIVO]` y borrar al mes |
 | Decenas de lookups traídos "por si acaso" | Dejar solo los que usa una vista, una interface o una fórmula |
 | Casilla "Agendó" o "Pasó a closer" cargada a mano | Conteo de oportunidades vinculadas |
+| Setting sin ningún registro (solo se pregunta por chat) | Setting diario por formulario: los cuatro números por día y por setter |
+| Base en Free cerca del límite | Ver `plan-free-airtable.md`: alternativa manual de cada pieza y cuándo pagar |

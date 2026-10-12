@@ -29,6 +29,17 @@ Una landing le habla a **una persona**. Sin avatar, Claude escribe para "emprend
 
 Si después de esto no hay frases textuales, **la landing no se escribe todavía**: el Pedido de inputs lleva la tarea ("leé 3 llamadas y copiá 5 frases").
 
+## En un caso práctico: lo armás vos, la skill lo verifica
+
+El material del caso alcanza para el avatar, pero armarlo es parte de la práctica (criterio orientativo). Por eso la skill no te lo da hecho:
+
+1. **Te dice qué leer:** las transcripciones (una cerrada, una perdida, una de alguien que no calificaba), los comentarios y DMs que traiga el caso y, si hay, la encuesta de alumnos.
+2. **Vos completás los 6 campos** con la fuente de cada frase (archivo y minuto, si se puede). Unos 20 a 30 minutos.
+3. **La skill lo verifica contra el material:** cada frase textual tiene que estar donde decís. Si está parafraseada, mal atribuida o no aparece, te lo marca y te propone la cita correcta. Si falta un campo, te hace las preguntas guía de ese campo.
+4. Recién con el avatar verificado se escribe el copy.
+
+Si traés un avatar que ya armaste en otra actividad del programa, sirve igual: pasa por el mismo paso 3.
+
 ## Cómo se usa en la landing
 
 - **Hero:** el campo 1 (para quién) y el 3 (punto B) en la promesa.

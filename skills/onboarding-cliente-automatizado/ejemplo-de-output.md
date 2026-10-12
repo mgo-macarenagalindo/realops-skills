@@ -23,9 +23,9 @@
 | Plataforma de membresías | Cuenta personal de la founder | **No** | **Bloqueante:** pasarla al mail del negocio o, si la plataforma no lo permite, dejar a operaciones como segunda dueña antes de conectar Zapier |
 | Airtable | operaciones@ | Sí | — |
 
-**Si el plan alcanza** (límites mirados en la página de precios de cada herramienta el 14/10)
-- Zapier: 25 ventas × 6 pasos + 25 del flujo de la pasarela ≈ 175 tareas por mes; en un lanzamiento se duplica (≈ 350). Comparar con el límite del plan contratado.
-- Airtable: cada venta suma 1 venta + 1 alumno + hasta 3 cuotas = 5 registros → unos 125 por mes. Comparar con el límite de registros por base del plan.
+**Si el plan alcanza** (límites orientativos, revisados el 12/10/2026; confirmalos en la página de precios de cada herramienta)
+- Zapier: 25 ventas × 6 pasos + 25 del flujo de la pasarela ≈ 175 tareas por mes; en un lanzamiento se duplica (≈ 350). **Alcanza** con el tramo más chico de Zapier Professional (750 tareas): queda al 47 % en un lanzamiento. Con el plan Free de Zapier no se puede (solo Zaps de 2 pasos).
+- Airtable: cada venta suma 1 venta + 1 alumno + hasta 3 cuotas = 5 registros → unos 125 por mes. **Alcanza**: la base está en Team (50.000 registros por base); en el plan gratis (1.000) se llenaría en unos 6 a 8 meses contando los leads.
 - El aviso al equipo va por Discord porque es donde el equipo ya se habla: no se suma ninguna herramienta.
 
 ## 0. El proceso de hoy y lo que se automatiza

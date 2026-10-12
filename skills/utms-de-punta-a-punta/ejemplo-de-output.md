@@ -85,6 +85,8 @@ Link de referido: se genera con una fórmula en la tabla Alumnos y se manda en e
 
 ## Cómo llega a la base
 
+**Con qué:** Zapier, porque el Zap "Calendly → Agendas" ya existe y lo mantiene alguien que no es técnico. Con unas 100 agendas por mes y un paso extra para el closer, hace falta un plan pago; si el costo pesa, Make hace lo mismo más barato por volumen. Si estuvieran en el plan gratis de Airtable, la alternativa es exportar las reservas de Calendly a CSV una vez por semana e importarlas (el anfitrión viene en el mismo archivo).
+
 1. En Airtable, tabla Agendas: crear `utm_source`, `utm_medium`, `utm_campaign`, `utm_term`, `utm_content` y `Anfitrión (mail)` (texto de una línea).
 2. Abrir el link de Lucía en una ventana de incógnito y hacer **una reserva de prueba** con tu mail.
 3. En el Zap "Calendly → Agendas", volver al disparador y traer esa reserva como prueba. Ahora aparecen los parámetros y el mail del anfitrión.
@@ -140,7 +142,7 @@ IF(
 )
 ```
 
-Cuando haya más de 10 anuncios, reemplazá este `SWITCH` por un vínculo a la tabla Anuncios (con el código viejo y el nuevo como dos campos de búsqueda).
+Cuando haya más de 10 anuncios (referencia orientativa), reemplazá este `SWITCH` por un vínculo a la tabla Anuncios (con el código viejo y el nuevo como dos campos de búsqueda).
 
 **Setter:**
 
@@ -176,6 +178,10 @@ IF(
 )
 ```
 
+## En la landing
+
+Google Analytics (GA4) lee estas mismas UTMs y muestra cuántas visitas de cada link llegan a aplicar. Microsoft Clarity filtra grabaciones y mapas de calor por `utm_source`, `utm_medium` y `utm_campaign`: si la gente del anuncio de testimonio abandona en el primer bloque y la del carrusel no, el problema está en la promesa del anuncio, no en la página.
+
 ## Lo que no medimos con UTM y cómo se lee
 
 | Qué | Por qué no | Cómo se lee |
@@ -184,7 +190,7 @@ IF(
 | Cada historia de Instagram | Costo de carga mayor que el valor del dato | Etiqueta por fecha en el calendario de contenidos, cruzada con las agendas de esa semana |
 | Boca en boca sin link | No hay link | Pregunta en el formulario de agenda: "¿Cómo nos conociste?" (respaldo del link de referido) |
 
-**Meta de tracking:** que "Sin dato" baje de 41 de 96 agendas (43 %) a menos de 1 de cada 10 en noviembre, y que más de 9 de cada 10 agendas de pauta tengan anuncio reconocido.
+**Meta de tracking (orientativa):** que "Sin dato" baje de 41 de 96 agendas (43 %) a menos de 1 de cada 10 en noviembre, y que más de 9 de cada 10 agendas de pauta tengan anuncio reconocido.
 
 ## Checklist de prueba
 

@@ -34,7 +34,7 @@ Cuatro situaciones reales de infonegocio donde esta skill te ahorra días. Los n
 
 **Qué le pasás.** El mapa, quién firma, el plazo del plan (por ejemplo, 90 días) y la fecha de entrega.
 
-**Qué te devuelve.** El **Informe de Diagnóstico Operativo** con la estructura de los templates de RealOps™: resumen ejecutivo con facturado y cobrado separados, semáforo de los 6 dolores del backstage, cuellos con su solución, radiografía por área, techo operativo, plan por prioridades con estado y bloqueante, cronograma, tareas del equipo marcadas con ⚠ y nota final.
+**Qué te devuelve.** El **Informe de Diagnóstico Operativo** con la estructura de los templates de RealOps™: resumen ejecutivo con facturado y cobrado separados, semáforo de los 6 dolores del backstage (si casi todo da crítico, los críticos ordenados del 1 al N por la plata que traban), los 6 cuellos que más pesan con su solución y el resto en una línea, radiografía por área, techo operativo, plan de 6 prioridades con estado y bloqueante, cronograma, tareas del equipo marcadas con ⚠ y nota final.
 
 **Por qué sirve.** Es el documento que el founder lee, decide y reenvía a su equipo. El mapa es para vos; el informe es para él.
 

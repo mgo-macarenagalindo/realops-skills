@@ -38,7 +38,21 @@ Dos chequeos que van **antes** de diseñar el primer paso. Si alguno falla, va c
    - Herramienta de automatización: ventas por mes × pasos del flujo (más los flujos auxiliares, como el de la pasarela) = tareas u operaciones por mes.
    - Base: registros que suma cada venta (venta, alumno, cuotas) × ventas por mes, contra el límite de registros por base del plan.
    - Plataforma o comunidad: si el plan limita miembros o invitaciones automáticas.
-   **No escribas límites de memoria**: los planes cambian. Pedí que se mire el límite vigente en la página de precios de cada herramienta y anotalo con la fecha en que se miró. Si con el volumen de un lanzamiento se pasa, avisalo antes: el flujo se frena justo cuando más ventas hay.
+   Usá la tabla de **límites orientativos** de abajo para dar un veredicto ("alcanza", "alcanza justo", "no alcanza") y anotá la fecha de revisión. Si tenés acceso a internet, verificalo en la página de precios y decí la fecha; si no, decí que es orientativo y dónde se confirma. Si con el volumen de un lanzamiento se pasa, avisalo antes: el flujo se frena justo cuando más ventas hay.
+
+**Límites orientativos (revisados el 12/10/2026; los planes cambian, se revisan en cada relanzamiento del programa)**
+
+| Herramienta | Plan | Límite que importa para el onboarding | Dónde se confirma |
+|---|---|---|---|
+| Zapier | Free | 100 tareas por mes y **solo Zaps de 2 pasos**: no sirve para un onboarding | zapier.com/pricing |
+| Zapier | Professional (el antiguo "Starter" ya no existe con ese nombre) | Desde 750 tareas por mes en el tramo más chico (US$19,99 por mes, anual); Zaps de varios pasos y rutas | zapier.com/pricing |
+| Airtable | Free | 1.000 registros por base y unas 100 corridas de automatización por mes por workspace; el mail de la automatización solo llega a colaboradores | airtable.com/pricing y el uso del workspace |
+| Airtable | Team | 50.000 registros por base y 25.000 corridas por mes; US$20 por persona por mes, anual | airtable.com/pricing |
+| Plataforma de cursos o comunidad | Según el plan | Miembros activos, invitaciones y si tiene conexión con la herramienta de automatización | Página de precios de la plataforma |
+
+**Si el negocio está en el plan gratis de Airtable** (criterio orientativo):
+- **Alternativa manual mientras tanto:** la base sigue siendo el registro (la venta se carga con el formulario del closer), y lo que no entra en el plan se resuelve con una vista "Onboarding · Listos" que coordinación revisa dos veces por día, con el mail de bienvenida guardado como plantilla y la casilla "Onboarding enviado" con fecha. Si la automatización corre en Zapier, Make o n8n, las corridas de Airtable no se gastan: el tope que importa es el de registros.
+- **Cuándo conviene pagar:** cuando la base pasa el 80 % del tope de registros (en un negocio de programas, cada venta suma 3 a 5 registros), cuando hace falta que Airtable le escriba al cliente, o cuando lo manual lleva más de 1 hora por semana. Antes de pagar, archivá los registros viejos que no se usan (leads perdidos de hace más de 6 meses) en una base de archivo.
 
 ## Las reglas de diseño (no se negocian)
 
@@ -50,6 +64,8 @@ Dos chequeos que van **antes** de diseñar el primer paso. Si alguno falla, va c
 6. **Pensá primero en los inputs.** El disparador tiene que traer todo lo que se usa después (mail, programa, coach). Si el formulario no lo pide, la automatización no lo puede inventar. Campos que alimentan la automatización: obligatorios.
 7. **Credenciales de la cuenta dueña** para dar acceso a la plataforma o la comunidad, no las de un administrador (clase 25/06). Guardadas en el gestor de credenciales de la herramienta, nunca en el texto.
 8. **Al equipo, por el canal que ya usa y solo lo clave.** El aviso va por el canal donde el equipo ya se habla (mail, Slack, Discord). **No sumes una herramienta nueva para avisar**: si el equipo vive en un grupo de WhatsApp y no hay forma simple de automatizarlo, el aviso va por mail y la ficha queda en la base. Lo clave: nombre, programa, coach y link a la ficha (algunos canales, como Discord, tienen límite de caracteres). El resto queda en la base.
+   **Si el equipo vive en WhatsApp** (criterio orientativo): por defecto, **mail** al CSM y a coordinación. Al grupo, no (no hay una forma oficial de automatizarlo y quedarían datos del cliente a la vista de todos). Se pasa a **WhatsApp individual** al CSM, con un proveedor de la API oficial de WhatsApp Business conectado a la herramienta de automatización, solo si a las 2 semanas el primer contacto con los alumnos nuevos llega tarde porque el mail no se lee, o si el founder lo pide; se presenta con su costo y que decida.
+9. **Nunca un [PENDIENTE].** Si falta un dato (quién hace la llamada de onboarding, cómo se pasan los links de los encuentros, si hay video, los colores de la marca), elegí la opción más prudente, escribila como **[SUPUESTO: …, confirmalo con <rol>]** y seguí. Si sin ese dato el flujo no puede arrancar, va como bloqueante en "Antes de construir", con responsable.
 
 ## Las piezas del onboarding
 
@@ -125,6 +141,7 @@ Castellano rioplatense, con voseo. Concreto: "a las 48 horas, si no entró a la 
 - No probás con clientes reales: la primera prueba es con tu mail.
 - No pedís ni escribís claves, tokens ni API keys.
 - No construís sobre cuentas a nombre de una persona sin marcarlo como bloqueante.
-- No sumás una herramienta nueva solo para avisarle al equipo.
-- No afirmás límites de planes de memoria: se miran en la página de precios vigente.
+- No sumás una herramienta nueva solo para avisarle al equipo (WhatsApp individual, solo con el criterio de la regla 8 y la decisión del founder).
+- No dejás huecos ni [PENDIENTE]: supuesto rotulado y con quién se confirma.
+- No presentás límites de planes como fijos: son orientativos, con fecha de revisión y dónde se confirman.
 - No mandás mensajes masivos sin una prueba previa.

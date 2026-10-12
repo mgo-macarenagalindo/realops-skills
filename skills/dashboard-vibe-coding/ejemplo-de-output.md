@@ -132,8 +132,9 @@ Hacé solo estos cambios, no toques el resto.
 ## Paso 6 · Conexión en vivo (base de prueba de Airtable)
 
 1. Crear en Airtable un token con permisos de **solo lectura** y acceso **solo** a la base de prueba.
-2. En Vercel → Settings → Environment Variables, cargar tres variables: el token, el ID de la base y una contraseña para el tablero. **No se pegan en el chat ni en el código.**
-3. Prompt:
+2. **Qué protección (criterio orientativo):** es portafolio en la cuenta gratuita y la versión en vivo lee tu base de prueba, así que va **middleware con contraseña** (la contraseña nativa de Vercel es un adicional pago del plan Pro, y Vercel Authentication obligaría a quien lo mire en una entrevista a tener cuenta de Vercel). Si algún día es para un negocio, va con la protección nativa en la cuenta del negocio (Vercel Authentication en "All Deployments" o la contraseña nativa): revisá qué incluye su plan en Settings → Deployment Protection.
+3. En Vercel → Settings → Environment Variables, cargar tres variables: el token, el ID de la base y una contraseña para el tablero (`SITE_PASSWORD`). **No se pegan en el chat ni en el código.**
+4. Prompt:
 
 ```prompt
 Quiero que el dashboard lea los datos de Airtable en vez de los CSV. Reglas:
@@ -151,7 +152,7 @@ Los campos de cada tabla son: [pegar la lista].
 Mostrame el plan primero y después explicame cómo lo pruebo en Vercel.
 ```
 
-4. Commit y push. Vercel lo publica solo.
+5. Commit y push. Vercel lo publica solo.
 
 ## Pruebas
 

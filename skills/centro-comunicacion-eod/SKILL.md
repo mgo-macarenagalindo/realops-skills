@@ -20,7 +20,7 @@ En el método, la comunicación va primero: es la primera prioridad cuando se or
 ## Las reglas que mandan
 
 1. **El EOD depende del rol.** No hay un formulario único con veinte campos: cada rol reporta lo que mueve su parte del negocio. Las plantillas están en `references/plantillas-eod-por-rol.md`: **cargalo siempre** antes de armar los EOD.
-2. **Los estándares del modelo RealOps** (valen para todos): todos los días hábiles antes de terminar la jornada (o EOW, semanal, para quien trabaja por pieza o pocas horas); claro, concreto y honesto; **energía del 1 al 10 obligatoria**; **un solo Big Rock** (la acción más importante del día, atada a los objetivos del trimestre; si no hubo, se dice por qué); feedback que aporta criterio, señales o mejoras. Lo que no se reporta, no existe.
+2. **Los estándares del modelo RealOps** (valen para todos): todos los días hábiles antes de terminar la jornada (o EOW, semanal, para quien trabaja por pieza o pocas horas); claro, concreto y honesto; **energía del 1 al 10 obligatoria**; **un solo Big Rock** (la acción más importante del día, atada a los objetivos del trimestre; si no hubo, se dice por qué). **El Big Rock es obligatorio en los roles que manejan su agenda** (servicio, gestión, operaciones, coordinación) y **opcional en setters y closers**: va al final y solo se completa si hubo una acción que los números no muestran (*criterio orientativo*, ver la referencia); feedback que aporta criterio, señales o mejoras. Lo que no se reporta, no existe.
 3. **El EOD es visibilidad, foco y mejora continua, no control** (clase del 18/06). Crea compromiso, abre un canal formal de feedback y saca lo rutinario de las reuniones.
 4. **"¿Actualizaste el CRM? Sí o no", con justificación obligatoria si es no**, en todo rol que carga datos (clase del 18/06).
 5. **Horas trabajadas** en los roles de servicio, gestión y operaciones (clase del 26/03): la sobrecarga se ve antes del burnout.
@@ -95,7 +95,7 @@ Cada supuesto queda marcado donde se usa y se repite al final en **"Para confirm
 
 ### 1. Los EOD por rol (lo primero)
 Cargá `references/plantillas-eod-por-rol.md`. Para cada rol del negocio:
-- Tomá la plantilla del modelo RealOps (o la extensión, si el rol no está).
+- Tomá la plantilla del modelo RealOps (o la extensión, si el rol no está). **Rotulá cada extensión como "(extensión: no está en los modelos del programa)"** para que no se confunda con un modelo oficial.
 - **Sacá** lo que el negocio no tiene (reservas, outbound, recolectado si el closer no cobra) y **ajustá nombres** a cómo habla el equipo.
 - **Sumá** solo lo que el caso pide, con quién lo mira y qué decide (por ejemplo, "¿grabaste la llamada?" si faltan grabaciones).
 - Definí la **frecuencia**: EOD diario, EOW o reporte por entrega.
@@ -119,10 +119,19 @@ En Slack o Discord, la conversación va en hilo. **En WhatsApp no hay hilos:** e
 Tabla: qué tipo de cosa · por dónde va · tiempo de respuesta · horario. En WhatsApp, lo urgente va **por privado** a quien lo resuelve (no al grupo) y lo doblemente urgente por llamada; los grupos se silencian fuera de horario.
 
 ### 5. Cómo se junta solo
-- **Slack:** Workflow Builder con disparador programado, un formulario por rol, publica en #reportes-diarios (verificá que el plan lo incluya).
-- **Discord:** bot de recordatorios o un formulario (Tally, Google Forms) con el link fijado.
-- **WhatsApp:** formulario en la cuenta del negocio con **una sección por rol** (la primera pregunta es "¿qué rol?" y lleva a su sección) + recordatorio recurrente en el calendario de cada persona.
-- **Si hay que medir:** cada EOD queda como un registro por persona por día en una tabla (planilla o base). Así se cruzan los números con la base.
+Cualquier plataforma sirve si está **bien justificada**. Elegí con esta tabla y escribí en la entrega **por qué esa y no las otras** (la ventaja que importa para ese negocio):
+
+| Opción | Cómo funciona | Ventaja competitiva | Cuándo no conviene |
+|---|---|---|---|
+| **Google Forms + recordatorio en el calendario** | Un formulario con **una sección por rol** (la primera pregunta es "¿qué rol?") y un evento recurrente con el link | Cero costo y cero herramientas nuevas; la planilla queda lista para cruzar; lo arma cualquiera en una hora | Si nadie mira el calendario: el recordatorio se pierde |
+| **Slack · Workflow Builder** | Disparador programado, formulario por rol, publica en #reportes-diarios | El pedido y el reporte viven donde el equipo ya habla; se ve quién no reportó | Si el equipo no usa Slack, o si el plan no lo incluye (verificalo en la página de precios) |
+| **Discord** | Bot de recordatorios o un formulario (Tally, Google Forms) con el link fijado | Bueno si la comunidad de clientes ya está ahí | Si el equipo no lo abre todos los días |
+| **Formulario de la base (Airtable, Notion)** | El EOD entra directo como registro de la base | El cruce con ventas y llamadas es inmediato, sin copiar nada | En planes gratis con tope de registros: 10 personas generan unos 200 EOD por mes (orientativo). Ver "plan gratis" abajo |
+| **Zapier, Make o n8n** | Recordatorio automático por WhatsApp, mail o Slack y copia del EOD a la base | Junta piezas que no se hablan entre sí (WhatsApp + Forms + base) y avisa quién no reportó | Si alcanza con el calendario: es una herramienta más que mantener y paga por uso. **Zapier**: el más fácil y con más integraciones, el más caro por tarea. **Make**: más barato y visual, un poco más técnico. **n8n**: el más barato a escala y con control de los datos, pide a alguien técnico |
+
+Con WhatsApp como canal, la opción por defecto es la primera: no suma herramientas.
+**Si hay que medir:** cada EOD queda como un registro por persona por día en una tabla (planilla o base). Así se cruzan los números con la base.
+**Plan gratis de Airtable:** si la base está en el plan gratis, el EOD queda en la **planilla del formulario** (alternativa manual: el cruce mensual se hace con la planilla al lado de la base) y se pasa a una tabla de Airtable **cuando conviene pagar**: cuando el cruce mensual a mano lleva más de una hora o la base se acerca al tope de registros del plan (*números orientativos: verificalos en la página de precios*). Para construir cualquiera de estas opciones paso a paso: **Diseñador de Automatizaciones**.
 
 ### 6. Quién lo lee y el resumen para el founder
 Quién lee los EOD crudos (coordinación) y qué recibe el founder: **lo trabado primero** (y si espera una decisión suya, marcado), los números del día por rol, los Big Rocks cumplidos o no, y **ojo:** quién no reportó, "no" al CRM, energía de 4 o menos, números que no coinciden entre roles.
@@ -143,7 +152,7 @@ En `ejemplo-de-output.md` tenés un diseño completo.
 ## Mapa de canales (canal · para qué · qué no va · quién está)
 ## Leads del día (formato fijo y dónde va)
 ## Reglas de urgencia
-## Cómo se junta solo (herramienta, hora por rol, a dónde llega, dónde se guarda)
+## Cómo se junta solo (herramienta y por qué esa y no otra, hora por rol, a dónde llega, dónde se guarda)
 ## Quién lo lee y qué recibe el founder (+ prompt del resumen)
 ## Mantenimiento mensual
 ## Anuncio al equipo

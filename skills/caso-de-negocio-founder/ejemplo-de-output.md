@@ -29,7 +29,7 @@ En septiembre se facturaron **USD 21.600 y entraron USD 14.400: un tercio de lo 
 | 61 a 90 días | 2 | USD 1.200 | 50 % | USD 600 |
 | **Total** | **11** | **USD 6.600** | | **USD 1.620** |
 
-Porcentajes de recupero: criterio de la skill **[SUPUESTO: reemplazalo por cuántas atrasadas se cobraron el trimestre pasado]**.
+Porcentajes de recupero: **tabla orientativa** de la skill, porque la planilla no guarda la fecha de pago de cada cuota y no hay historial del que sacarlo **[ORIENTATIVO: reemplazalo por cuántas atrasadas se cobraron el trimestre pasado]**. Por eso la misma tabla va en los dos escenarios.
 
 ## El riesgo (aparte, sin sumar)
 
@@ -88,7 +88,7 @@ Supuesto: las ventas siguen como en septiembre. Si crecen, crece la cifra.
 ### Qué falta medir
 
 - **Las horas de la coach:** registro de una semana. Ella.
-- **El recupero real:** cuántas atrasadas del trimestre pasado se terminaron cobrando. Pasarela, la asistente.
+- **El recupero real:** cuántas atrasadas del trimestre pasado se terminaron cobrando y con cuántos días de atraso. Pasarela, la asistente. Y desde ahora, que la planilla guarde la fecha de pago de cada cuota: con eso la próxima vez el recupero sale del historial y no de una tabla orientativa.
 - **Los accesos sin pago:** si se repiten en octubre. Cierre de octubre.
 
 ---

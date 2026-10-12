@@ -8,7 +8,33 @@
 
 ## Módulo 1 · Setting
 
-### 📲 Leads (setting)
+Dos tablas: el **setting diario** es estándar siempre que haya setters; el **detalle por lead** es opcional.
+
+### 📲 Setting diario (EOD de setters) · estándar
+**Una fila = un setter en un día.** Se carga por formulario al cerrar el día (dos minutos; no ocupa lugar de editor). Alcanza para medir al setter **aunque no se sepan los nombres ni el detalle de cada lead**.
+
+| Campo | Tipo | Obl. | Quién lo carga | Notas |
+|---|---|---|---|---|
+| Reporte | Fórmula (primario) | — | — | `ARRAYJOIN({Setter}) & " · " & DATETIME_FORMAT({Fecha}, 'DD/MM')` |
+| Setter | Vínculo → Equipo (vista "Activos · Setters") | Sí | Setter | |
+| Fecha | Fecha | Sí | Setter | Un reporte por día hábil |
+| **Contactados** | Número | **Sí** | Setter | Personas nuevas a las que les escribió o que le escribieron |
+| **Conversaciones** | Número | **Sí** | Setter | Conversaciones con respuesta (ida y vuelta) |
+| **Calificados** | Número | **Sí** | Setter | Cumplen el criterio mínimo para pasar a closer |
+| **Agendados con closer** | Número | **Sí** | Setter | Llamadas con closer agendadas hoy |
+| Agendados por canal | Números (uno por canal de la lista cerrada) | No | Setter | Solo si no hay tabla de Leads: es la única forma de segmentar por canal |
+| Seguimientos hechos · Links de agenda enviados | Número | No | Setter | |
+| No califican (y motivo principal) | Número · Selección única | No | Setter | |
+| Energía · Bloqueos · Feedback | Selección · Texto largo | No | Setter | Lo cualitativo del EOD (skill Centro de Comunicación y EOD) |
+| Tasa de calificación · Tasa de agenda | Fórmulas | — | — | `IF({Conversaciones}, {Calificados} / {Conversaciones})` · `IF({Calificados}, {Agendados con closer} / {Calificados})` |
+| Agendas en Oportunidades | Conteo desde un rollup o carga semanal | — | — | Para contrastar: lo que el setter dice contra las oportunidades creadas ese día con su vínculo |
+| 🔴 Clave persona \| mes | Fórmula | — | — | `ARRAYJOIN({Setter}) & " \| " & DATETIME_FORMAT({Fecha}, 'YYYY-MM')` → 📊 KPIs por persona |
+
+**Control de calidad sin detalle por lead:** el setter queda vinculado en cada Oportunidad y marca ahí "Cumple según el setter". La vista "Cumple según el setter, no califica según el closer", agrupada por setter, funciona igual que con la tabla de Leads.
+
+### 📇 Leads (detalle por lead) · opcional
+Se suma cuando el equipo puede cargar cada lead (aplicación por formulario, CRM de mensajería que exporta, outbound con lista). Si existe, los números del setting diario se contrastan con ella.
+
 **Una fila = una persona** que entró a conversación o aplicó. Si vuelve meses después, **no se crea otro lead**: se crea otra oportunidad.
 
 | Campo | Tipo | Obl. | Quién lo carga | Notas |
@@ -48,7 +74,8 @@
 | Calendario o evento de origen | Texto | No | Integración | |
 | Canal | Selección única (o fórmula que normaliza la fuente cruda) | Sí | Formulario / setter | Misma lista cerrada que Leads. Si es fórmula, que el último caso sea "Sin canal", nunca vacío |
 | 📌 Clave KPIs globales | Fórmula | — | — | `{Mes de llamada} & " \| " & {Canal}`. Se usa para vincular con 📈 KPIs globales |
-| Setter | Lookup desde Lead (o vínculo → Equipo) | — | — | |
+| Setter | Lookup desde Lead; **vínculo → Equipo si no hay tabla de Leads** | Sí si hay setters | Setter | |
+| Cumple según el setter | Selección única (Sí · No) | Sí si no hay tabla de Leads | Setter | Con tabla de Leads, es lookup de "Calificación del setter" |
 | Triage | Vínculo → Equipo | Si hay triage | Setter | |
 | Closer | Vínculo → Equipo (vista "Activos · Closers") | **Sí antes de la llamada** | Setter / asignación | Sin closer no hay tasa de cierre por closer |
 | Respuestas del formulario de agenda | Texto largo / selecciones | — | Formulario | Situación actual, objetivo, ingresos, disponibilidad a invertir, si decide solo |
@@ -116,8 +143,8 @@ IF({Reembolso} = "Total", "Reembolsado",
     IF({Cuotas vencidas} > 0, "Con cuota vencida", "Al día")))
 ```
 
-### 🗓️ Cuotas programadas
-**Una fila = una cuota que se espera cobrar**, de la 2 en adelante (la 1 entra con el deal). Se crean al cargar un cierre en cuotas (a mano o por automatización).
+### 🗓️ Cuotas programadas · estándar si se vende en cuotas
+**Una fila = una cuota que se espera cobrar**, de la 2 en adelante (la 1 entra con el deal). Se crean al cargar un cierre en cuotas: por automatización en planes pagos; en Free, a mano desde la vista "Cierres en cuotas sin cuotas programadas" (ver `plan-free-airtable.md`). Nunca columnas "Fecha 2da cuota", "Monto 3ra cuota" en el deal.
 
 | Campo | Tipo | Obl. | Quién lo carga | Notas |
 |---|---|---|---|---|
@@ -234,9 +261,9 @@ Una fila = una sesión o un contacto del coach. Cliente · Coach · Fecha · Tip
 Vistas: "Activos · Setters", "Activos · Closers", "Activos · tomando clientes". Los campos de persona de las otras tablas se limitan a estas vistas.
 
 ### 🌙 EOD (una tabla por rol)
-Setters, closers y servicio reportan cosas distintas, por eso son tablas separadas. Cada fila: Persona (vínculo → Equipo) · Fecha · números del día · energía · feedback · 🔴 Clave persona | mes (fórmula). Qué pregunta cada EOD: skill **Centro de Comunicación y EOD**.
+Setters, closers y servicio reportan cosas distintas, por eso son tablas separadas. **El de setters es el Setting diario del Módulo 1** (estándar); los de closers y servicio se suman en una segunda etapa. Cada fila: Persona (vínculo → Equipo) · Fecha · números del día · energía · feedback · 🔴 Clave persona | mes (fórmula). Qué pregunta cada EOD: skill **Centro de Comunicación y EOD**.
 
-- **Setters:** conversaciones inbound y outbound · seguimientos · respuestas · links de agenda enviados · agendas por canal.
+- **Setters:** ver 📲 Setting diario (Módulo 1).
 - **Closers:** agendadas · asistidas · calificadas · no show · canceladas · reagendadas · ofertas · cierres · reservas · seguimientos · links de llamadas.
 - **Servicio:** sesiones agendadas y asistidas · seguimientos hechos · clientes en riesgo · clientes destacados (renovación, caso de éxito).
 
@@ -250,4 +277,4 @@ Tablas de resumen, una fila por clave. Se vinculan solas con una automatización
 | Oportunidades | Mes de llamada \| Canal |
 | Deals + Reservas | Mes del pago \| Canal |
 | Cuotas cobradas | Mes del pago \| Canal del deal |
-| EOD | Persona \| Mes |
+| Setting diario y EOD | Persona \| Mes |

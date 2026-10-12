@@ -34,6 +34,6 @@ Tres situaciones de infonegocio donde el founder dice que no y vos necesitás po
 
 **Qué le pasás.** Los números del caso y la objeción del founder ("no quiero sumar herramientas").
 
-**Qué te devuelve.** Las 6 fuentes de costo con fórmula, la bolsa vencida con su pérdida esperada por antigüedad (no entera), el riesgo aparte, el hallazgo en 3 números, el costo de cambiar contra lo que se recupera y las respuestas a las objeciones para ensayar.
+**Qué te devuelve.** Las 6 fuentes de costo con fórmula, la bolsa vencida con su pérdida esperada (sacada del historial de vencimientos y pagos del material, o de la tabla orientativa si no hay historial; nunca entera en el número principal), el riesgo aparte, el hallazgo en 3 números, el costo de cambiar contra lo que se recupera y las respuestas a las objeciones para ensayar.
 
 **Por qué sirve.** Aprendés a convertir métricas sueltas en una cuenta de plata que aguanta la pregunta "¿de dónde sale este número?".

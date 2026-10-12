@@ -22,7 +22,7 @@ Cinco situaciones de infonegocio donde revisar antes y después de publicar evit
 
 **Qué le pasás.** El link, la captura de las estadísticas del funnel y el texto de los anuncios. Conectás el MCP de HighLevel con permisos de lectura.
 
-**Qué te devuelve.** Las métricas por anuncio (visitas, aplicaciones, conversión, celular), dónde se cae la gente (un anuncio trae mucha gente que no pasa del primer pantallazo porque promete otra cosa), la revisión con los criterios de copy, diseño y marca, y el plan: cambiar el anuncio, instalar Clarity para ver el scroll y volver a revisar con 100 visitas.
+**Qué te devuelve.** Las métricas por anuncio (visitas, aplicaciones, conversión, celular), dónde se cae la gente (un anuncio trae mucha gente que no pasa del primer pantallazo porque promete otra cosa), la revisión con los criterios de copy, diseño y marca, y el plan: cambiar el anuncio, instalar Microsoft Clarity (scroll y grabaciones) y Google Analytics (fuente y dispositivo), y la fecha de la revisión fija a los 7 días.
 
 **Por qué sirve.** "No convierte" no es un diagnóstico. Con las métricas sabés si el problema es la página, el anuncio o lo que pasa después.
 
@@ -34,7 +34,7 @@ Cinco situaciones de infonegocio donde revisar antes y después de publicar evit
 
 **Qué le pasás.** El HTML, una captura de la automatización y la lista de quién tiene acceso a cada cuenta.
 
-**Qué te devuelve.** El punto 5 con el recorrido completo (envío → automatización → mensaje con el link para agendar → agenda) y el punto 6 en rojo: la automatización está a nombre de una ex setter y la rueda todavía le asigna leads. Crítico: no sale hasta pasarla a una cuenta del negocio (derivado a **Diseñador de Automatizaciones**).
+**Qué te devuelve.** El punto 5 con el recorrido completo y una observación: la pantalla final dice "te vamos a contactar", pero el estándar es que quien califica agende directo ahí mismo. Y el punto 6 en rojo: la automatización está a nombre de una ex setter y la rueda todavía le asigna leads. Crítico: no sale hasta pasarla a una cuenta del negocio (derivado a **Diseñador de Automatizaciones**).
 
 **Por qué sirve.** La página puede estar perfecta y los leads perderse después del botón.
 

@@ -10,7 +10,7 @@ Tres situaciones de infonegocio donde mirar leads en vez de plata lleva a la dec
 
 **Qué le pasás.** El export de Meta por anuncio y las agendas y ventas del CRM con su `utm_content`.
 
-**Qué te devuelve.** La tabla por anuncio con costo por agenda, CAC, cash por agenda y retorno. El anuncio propuesto trajo el 35 % de las agendas y una sola venta; el que menos agendas trajo cerró 4 de 12. Las decisiones con plazo y plan B, y la aclaración de muestra chica.
+**Qué te devuelve.** La tabla por anuncio con costo por agenda, CAC, cash por agenda y retorno. El anuncio propuesto trajo el 35 % de las agendas y una sola venta; el que menos agendas trajo cerró 4 de 12. Las decisiones con plazo y plan B, con umbrales de muestra para escalar o cortar (los del negocio o, si no tiene, un criterio orientativo rotulado como tal).
 
 **Por qué sirve.** Evitás escalar el anuncio que llena la agenda de los closers y no vende. Clase 19/08.
 

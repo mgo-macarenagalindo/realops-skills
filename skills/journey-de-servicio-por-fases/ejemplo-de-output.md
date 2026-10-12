@@ -90,13 +90,15 @@ Guion de la llamada: bienvenida y por qué compró → contexto personal (*"¿qu
 | Cuándo | Qué se mira | En riesgo si | Qué se hace | Quién |
 |---|---|---|---|---|
 | D5 | Llamada de onboarding | No la agendó | Llamada de la CSM con dos horarios propuestos | CSM |
-| Semanal | Asistencia | Faltó a 2 grupales seguidas | Mensaje de la coach; a la tercera, semáforo rojo y aviso al founder | Coach |
+| Cada lunes (rutina del equipo, sobre la vista "2 faltas seguidas" de la base) | Asistencia | Faltó a 2 grupales seguidas | Mensaje de la coach; a la tercera, semáforo rojo y aviso al founder | Coach |
 | D30 | Micro-objetivo del mes 1 | Sin agenda bloqueada | Sesión extra de 20 min y semáforo amarillo | Coach |
 | D35 | Borrador de oferta | No lo entregó | Mensaje + revisión en vivo del borrador a medias | Coach |
 | D60 | Encuesta de mitad (nota 1-10 por entregable + abierta + "¿qué te falta?" + NPS) | Nota de 6 o menos en algún entregable | Llamada de la CSM en 48 h | CSM |
 | D30, D60 | Cuotas 2 y 3 | Vencida 5 días | Aviso de coordinación; la coach pausa las 1 a 1 con un mensaje neutro (la coach no cobra) | Coordinación |
 | D100 | Encuesta final + NPS + permiso de caso | — | Los de 9 y 10, invitados a testimonio | CSM |
 | Mensual | Retrospectiva grupal de 60 min | — | Casos de éxito, espacio de apoyo, compromisos | Coach |
+
+**Las dos encuestas, listas para Google Forms:** se pegan los textos de la referencia (sección 4b) con estos cambios: entregables = curso grabado, sesión grupal semanal, 1 a 1 mensual, plantillas, comunidad; objetivo = "lanzar tu programa online"; punto A de la final = "atendías todo en el consultorio y no tenías programa". Recopilar mails verificados, respuestas en una planilla separada de la comercial y formato condicional en rojo para notas de 6 o menos.
 
 ## 8. Offboarding y renovación
 
@@ -147,7 +149,7 @@ Name,Section/Column,Description,Priority,Día relativo,Responsable,Recurrencia
 "[ALERTA] Sin llamada agendada al D5",Fase 1 · Tu agenda con aire,"Llamar con dos horarios propuestos. Registrar en el CRM.",High,D5,CSM,
 "[HUMANA] Llamada de onboarding 30 min",Fase 1 · Tu agenda con aire,"Bienvenida, contexto, formulario en voz alta, micro-objetivo del mes 1 con fecha, plataformas al final. SOP pendiente.",High,D3-D5,Coach,
 "[CHECK] Curso, comunidad, grupal y 3 sesiones 1 a 1 en el calendario",Fase 1 · Tu agenda con aire,"Si falta algo, mensaje de la CSM.",High,D7,CSM,
-"[CHECK] Asistencia de la semana",Fase 1 · Tu agenda con aire,"2 faltas seguidas: mensaje de la coach. 3: semáforo rojo y aviso al founder. Configurar repetición semanal a mano después de importar.",Medium,D7,Coach,"cada 7 días desde D7 hasta D119"
+"[ALERTA] Si aparece en la vista '2 faltas seguidas': mensaje de la coach",Fase 1 · Tu agenda con aire,"La vista la revisa la coach cada lunes (rutina del equipo, no tarea por cliente). A la tercera falta: semáforo rojo y aviso al founder.",Medium,D7-D119,Coach,
 "[HUMANA] Mensaje de referidos",Fase 1 · Tu agenda con aire,"Plantilla de referidos. SOP pendiente.",Low,D20,CSM,
 "[CHECK] Micro-objetivo del mes 1",Fase 1 · Tu agenda con aire,"Agenda bloqueada dos semanas y tema elegido. Si no: semáforo amarillo y sesión extra de 20 min. Cargar Sí/No/Parcial en el CRM.",High,D30,Coach,
 "[CHECK] Cuota 2 cobrada",Fase 1 · Tu agenda con aire,"Si vence 5 días: aviso de coordinación; la coach pausa las 1 a 1 con mensaje neutro.",High,D30,Coordinación,
@@ -167,7 +169,7 @@ Name,Section/Column,Description,Priority,Día relativo,Responsable,Recurrencia
 "[HUMANA] Mail de salida y Estado de salida en el CRM",Offboarding y renovación,"Accesos, salida de la comunidad, feedback. Finalizado / Renovó / Baja con motivo.",High,D120,CSM,
 ```
 
-El chequeo de asistencia va en una fila con la regla en Recurrencia porque son 17 semanas: configurá la repetición a mano en Asana después de importar. Las retrospectivas van una fila por cada una porque son 4.
+Las retrospectivas van una fila por cada una porque son 4 (el corte es 6 repeticiones). El chequeo de asistencia **no está en la plantilla**: es una rutina del equipo (cada lunes, la coach mira en la base la vista "2 faltas seguidas" de todos los alumnos juntos); en la plantilla queda solo la alerta con lo que se hace con ese alumno. Si fueran 17 tareas semanales por alumno, con 30 alumnos serían 510 tareas.
 
 ## Para confirmar
 

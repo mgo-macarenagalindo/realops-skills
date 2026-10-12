@@ -1,6 +1,6 @@
 # Ejemplo de output · Entrevista Guiada al Founder
 
-> Datos ficticios. Academia online de inglés para profesionales de salud: programa de 4 meses a US$1.200 (contado o 3 cuotas), vendido por lanzamientos con webinar y 2 closers. Quien usa la skill entró como coordinadora de operaciones hace un mes. Modo 2: relevamiento de una llamada de 58 minutos (se hicieron las 20 ★ y 4 "si sobra"), cruzado con el Cuestionario por Rol que respondió el equipo la semana anterior.
+> Datos ficticios. Academia online de inglés para profesionales de salud: programa de 4 meses a US$1.200 (contado o 3 cuotas), vendido por lanzamientos con webinar y 2 closers. Quien usa la skill entró como coordinadora de operaciones hace un mes. Modo 2: relevamiento de una llamada de 58 minutos (salieron las 10 innegociables, las 20 ★ y 4 "si sobra": el founder fue concreto y los cuatro controles de reloj llegaron en hora), cruzado con el Cuestionario por Rol que respondió el equipo la semana anterior.
 
 ---
 

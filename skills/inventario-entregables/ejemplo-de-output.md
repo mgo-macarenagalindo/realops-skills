@@ -31,7 +31,7 @@ Para: infoproductores con equipo de 2 a 8 personas que venden por llamada · Mod
 
 ## Lo que estás sumando
 
-Camila dijo que tiene unas 4 horas por semana para practicar: una actividad por semana (una actividad lleva entre 3 y 6 horas en el sandbox; recalibrá después de la primera).
+Camila dijo que tiene unas 4 horas por semana, martes y jueves a la noche. La landing se practica con la actividad T4 (una tarde, 2 a 3 h, según su ficha): entra en la semana del 19/10. El reporte semanal es la actividad 25 (≈ 2 h de armado, orientativo, y una semana de envíos): lo armás la semana del 26/10 y corre hasta el 01/11. Recalibrá después de la primera. Tus 4 horas están por debajo de las 5 a 7 que pide el programa: para estas dos filas alcanzan; si sumás más filas "me animo", recalculamos.
 
 | # | Dolor | Entregable | Resultado | Fase | Práctica |
 |---|---|---|---|---|---|
@@ -76,7 +76,7 @@ Filas 15 a 18. La más corta. Es donde está la continuidad después de un proye
 
 | Supuesto | Con quién | Cómo |
 |---|---|---|
-| Fechas de práctica de las filas 13 y 16 (25/10 y 01/11): las propuse yo, una actividad por semana con tus 4 horas | Vos | Confirmalas o movelas hoy; si la primera te lleva más de 4 horas, corremos la segunda |
+| Fechas de práctica de las filas 13 y 16 (25/10 y 01/11): las propuse yo, con el tiempo de la ficha de cada actividad y tus 4 horas | Vos | Confirmalas o movelas hoy; si la primera te lleva más de 4 horas, corremos la segunda |
 | Los dolores de las filas 4 y 16 son paráfrasis de lo que escuchaste en la comunidad, no frases textuales | Tu primera llamada de diagnóstico | Anotá cómo lo dice el founder y reemplazá la frase |
 
 ---

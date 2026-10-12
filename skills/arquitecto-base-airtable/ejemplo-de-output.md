@@ -11,10 +11,9 @@
 ### Mapa de tablas y vínculos
 
 ```
-👨🏻‍💻 Equipo ──< 🌙 EOD Setters ──> 📊 KPIs por persona (persona | mes)
-     │      ──< 🌙 EOD Closers  ──>        ▲
-     │      ──< 🌙 EOD Servicio ──>        │
-     │                                     └── (conteos desde el CRM: oportunidades y deals por persona)
+👨🏻‍💻 Equipo ──< 🌙 EOD Setters (setting diario) ──> 📊 KPIs setters  (persona | mes) <── oportunidades por setter
+     │      ──< 🌙 EOD Closers  ──────────────────> 📊 KPIs closers  (persona | mes) <── oportunidades y deals por closer
+     │      ──< 🌙 EOD Servicio ──────────────────> 📊 KPIs servicio (persona | mes) <── clientes por coach
      ├──< 👥 Candidatos (búsquedas abiertas)
      └──< ⚙️ Procesos y recursos (dueño de cada proceso)
 ```
@@ -23,11 +22,11 @@
 |---|---|
 | Equipo | una persona del equipo (ya existe en el CRM: se reutiliza) |
 | EOD Setters / Closers / Servicio | un reporte de una persona en un día |
-| KPIs por persona | una persona en un mes |
+| KPIs setters / closers / servicio | una persona de ese rol en un mes (una tabla por rol: cada una con un solo vínculo desde su origen; criterio orientativo para que se lea fácil) |
 | Candidatos | una persona que se postuló a una búsqueda |
 | Procesos y recursos | un proceso documentado (SOP, video, plantilla) |
 
-**Dónde va:** en la **misma base del CRM**, porque los KPIs por persona necesitan contar oportunidades y deals de cada closer. Si fuera una base aparte, no se podrían vincular sin sincronización.
+**Dónde va:** en la **misma base del CRM**, porque los KPIs de cada rol necesitan contar oportunidades y deals de cada closer. Si fuera una base aparte, no se podrían vincular sin sincronización.
 
 ### Qué queda, qué cambia, qué se suma
 
@@ -38,13 +37,13 @@
 | Formulario de Google de candidatos | **Se reemplaza** por un formulario de Airtable (los datos quedan donde se trabajan) |
 | Documentos de procesos sueltos | **Quedan** en Drive; en la base, solo el link, el dueño y el estado |
 
-### Chequeo del plan (verificá en tu cuenta: los límites cambian)
+### Chequeo del plan (cifras relevadas en la ayuda de Airtable el 12/10/2026: verificá las de hoy en tu cuenta)
 
 | Qué mirar | Lo que va a usar | ¿Alcanza? |
 |---|---|---|
-| Registros por base | 2.400 de hoy + EOD (8 personas × 22 días = 176 por mes) + ~30 candidatos por búsqueda | Plan Team: sí, con margen de varios años. **En Free no alcanzaría ni el CRM actual** |
+| Registros por base (Team: 50.000 · Free: 1.000) | 2.400 de hoy + EOD (8 personas × 22 días = 176 por mes) + ~30 candidatos por búsqueda | Plan Team: sí, con margen de varios años. **En Free no alcanzaría ni el CRM actual** |
 | Editores | Coordinadora y founder | Sí. Setters, closers y coaches cargan por formulario |
-| Corridas de automatización | 176 EOD por mes × 1 automatización (buscar o crear KPI) | Sí en Team. Verificá el cupo mensual |
+| Corridas de automatización (Team: 25.000 por mes · Free: 100) | 176 EOD por mes × 1 automatización (buscar o crear KPI) | Sí en Team |
 | Interfaces | 1 (tablero del equipo) | Sí |
 
 ### Decisiones del negocio que la base no resuelve
@@ -66,22 +65,24 @@
 
 ## 1. Campos por tabla
 
+**🌙 EOD Setters (setting diario)**: Clave persona \| mes · Setter (vínculo, "Activos · Setters") · Fecha · **Contactados · Conversaciones · Calificados · Agendados con closer** (obligatorios: es el mínimo estándar para medir el setting aunque no se cargue cada lead) · Seguimientos · Energía · Feedback · Tasa de calificación y de agenda (fórmulas).
+
 **🌙 EOD Closers**
 
 | Campo | Tipo | Configuración / fórmula | Descripción |
 |---|---|---|---|
-| Clave persona \| mes | Fórmula (primario) | `ARRAYJOIN({Closer}) & " \| " & DATETIME_FORMAT({Fecha}, 'YYYY-MM')` | Vincula con KPIs por persona |
+| Clave persona \| mes | Fórmula (primario) | `ARRAYJOIN({Closer}) & " \| " & DATETIME_FORMAT({Fecha}, 'YYYY-MM')` | Vincula con KPIs closers |
 | Closer | Vínculo → Equipo | Limitado a la vista "Activos · Closers" | |
 | Fecha | Fecha | Por defecto, hoy | |
 | Agendadas · Asistidas · No show · Canceladas · Reagendadas · Ofertas · Cierres · Reservas · Seguimientos | Número | Enteros | Lo que el closer declara |
 | Energía | Calificación (Rating) 1 a 5 | | |
 | Feedback del día | Texto largo | | |
 | ¿Actualizaste el CRM? | Casilla | | |
-| KPIs por persona | Vínculo → KPIs por persona | Lo llena la automatización | |
+| KPIs closers | Vínculo → KPIs closers | Lo llena la automatización | |
 
-(EOD Setters y EOD Servicio, mismo esquema con sus números: conversaciones, seguimientos, agendas por canal; sesiones agendadas y asistidas, clientes en riesgo.)
+(EOD Servicio, mismo esquema con sus números: sesiones agendadas y asistidas, seguimientos, clientes en riesgo.)
 
-**📊 KPIs por persona**
+**📊 KPIs closers** (KPIs setters y KPIs servicio siguen el mismo patrón con sus números)
 
 | Campo | Tipo | Configuración |
 |---|---|---|
@@ -110,10 +111,10 @@
 | Vista | Tabla | Filtro / orden | Para quién |
 |---|---|---|---|
 | EOD faltantes de ayer | Equipo | Activos sin EOD con fecha de ayer | Coordinadora |
-| Declarado vs CRM | KPIs por persona | Diferencia ≠ 0, mes actual | Coordinadora |
-| Mis KPIs del mes | KPIs por persona | Persona = yo | Cada uno (por interface) |
+| Declarado vs CRM | KPIs closers | Diferencia ≠ 0, mes actual | Coordinadora |
+| Mis KPIs del mes | KPIs de mi rol | Persona = yo | Cada uno (por interface) |
 | Candidatos por estado | Candidatos | Agrupado por Estado | Founder, coordinadora |
-| Procesos para revisar | Procesos | Vigente y más de 90 días sin revisión | Coordinadora |
+| Procesos para revisar | Procesos | Vigente y más de 90 días sin revisión (plazo orientativo) | Coordinadora |
 | ⚠️ Control · EOD sin persona | EOD (las 3) | Persona vacía | Coordinadora |
 
 ## 4. Interface · "Equipo Pulso"
@@ -124,7 +125,7 @@ Página 1: tarjetas por persona (cierres, tasa de cierre, energía promedio, dí
 
 | Disparador | Acción | Guarda | Corridas/mes |
 |---|---|---|---|
-| Se crea un EOD (×3, una por tabla) | Buscar en KPIs por persona la fila con la clave; si no existe, crearla; vincular | Clave no vacía | ~176 |
+| Se crea un EOD (×3, una por tabla) | Buscar en la tabla de KPIs de ese rol la fila con la clave; si no existe, crearla; vincular | Clave no vacía | ~176 (en Free no entraría: la alternativa es pegar la columna de claves una vez por semana, ~10 min) |
 | Candidato pasa a "Contratado" | Crear la persona en Equipo (Activo) y avisar a la coordinadora | Vista "Contratados sin alta" | 1 a 3 |
 
 ## 6. Permisos
@@ -135,9 +136,9 @@ Founder y coordinadora: creadoras. El resto, sin acceso a la base: formularios p
 
 - [ ] Duplicar la base del CRM como respaldo.
 - [ ] Sumar Estado y Fecha de egreso a Equipo; marcar a quienes ya no están.
-- [ ] Crear las 3 tablas de EOD, KPIs por persona, Candidatos y Procesos, vacías.
+- [ ] Crear las 3 tablas de EOD, las 3 de KPIs por rol, Candidatos y Procesos, vacías.
 - [ ] Vínculos con Equipo; vistas "Activos" por rol.
-- [ ] Campos simples, después fórmulas y rollups (EOD → KPIs).
+- [ ] Campos simples, después fórmulas y rollups (EOD → KPIs de cada rol).
 - [ ] Cargar 10 EOD de prueba de 2 personas en 2 meses, uno sin persona.
 - [ ] Formularios, con vínculos limitados.
 - [ ] Vistas (incluidas las de control) e interface.
@@ -146,7 +147,7 @@ Founder y coordinadora: creadoras. El resto, sin acceso a la base: formularios p
 
 ## 8. Cómo probarla
 
-- 3 EOD de un closer en el mismo mes → **una** fila en KPIs por persona con la suma; un EOD del mes siguiente → **otra** fila.
+- 3 EOD de un closer en el mismo mes → **una** fila en KPIs closers con la suma; un EOD del mes siguiente → **otra** fila.
 - Un EOD sin persona → aparece en "⚠️ Control" y no crea fila de KPIs.
 - Un closer que declara 3 cierres y tiene 2 en Deals → "Diferencia" = 1 y aparece en "Declarado vs CRM".
 - Una persona marcada Inactiva → ya no aparece en el formulario de EOD.

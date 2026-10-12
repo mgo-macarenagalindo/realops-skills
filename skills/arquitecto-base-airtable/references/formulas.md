@@ -52,7 +52,11 @@ DATETIME_FORMAT({Fecha}, 'YYYY-MM') & " | " & IF({Canal}, {Canal}, "Sin canal")
 ARRAYJOIN({Persona}) & " | " & DATETIME_FORMAT({Fecha}, 'YYYY-MM')
 ```
 
+**KPIs por persona: una tabla por rol** (criterio orientativo de RealOps™). 📊 KPIs closers se alimenta de EOD Closers y de las llamadas por su closer; 📊 KPIs setters, del setting diario (EOD Setters) y de las oportunidades por su setter. Cada tabla tiene un solo vínculo desde cada origen, así ninguna fórmula tiene que sumar "como closer" más "como setter". Una tabla única con dos vínculos queda para equipos donde la misma persona cumple dos roles.
+
 La tabla de resumen tiene una fila por clave. Una automatización nativa, al crearse el registro de origen: **busca** la fila con esa clave (acción "Find records"), si no existe la **crea**, y **vincula** el registro de origen. Después, conteos y rollups con condición en la tabla de resumen.
+
+**En Free, sin automatización:** creá a mano las filas de resumen del mes (una por persona o por canal, el día 1) y, una vez por semana, abrí la vista "Sin fila de resumen" del origen, copiá la columna de la clave y pegala en el campo de vínculo: Airtable vincula por el nombre del registro primario. Unos 10 minutos por semana.
 
 ## Personas y comisiones
 
@@ -72,6 +76,14 @@ IF({Agendadas} > 0, {No show} / {Agendadas}, BLANK())
 ```
 
 Usá `BLANK()` y no "sin dato" como texto: así el campo sigue siendo numérico y se puede graficar.
+
+## Setting diario (EOD de setters)
+
+```
+// Tasa de calificación y tasa de agenda del día (o del mes, en KPIs setters con rollups)
+IF({Conversaciones} > 0, {Calificados} / {Conversaciones}, BLANK())
+IF({Calificados} > 0, {Agendados con closer} / {Calificados}, BLANK())
+```
 
 ## Si una fórmula da error
 

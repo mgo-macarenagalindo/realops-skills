@@ -8,9 +8,13 @@
 
 # Auditoría de base heredada · Academia (caso ficticio) · octubre 2026
 
-## En una frase
+## Para el founder, en 5 líneas
 
-La base funciona, pero los números del founder no salen de ella: se cuentan a mano, la facturación está inflada por reservas cargadas con el ticket completo, un Zap de cobranza sigue leyendo una tabla de marzo y el alta de agendas entra a Airtable con la cuenta de la persona que se fue.
+1. **Desde abril, ninguna cuota vencida de ventas nuevas generó aviso:** el Zap de cobranza lee una tabla de marzo. Se arregla apuntándolo a la vista correcta.
+2. **Las agendas entran a Airtable con la cuenta de quien se fue:** primero se reconecta, después se le saca el acceso.
+3. **La facturación está inflada por 17 reservas** cargadas con el ticket completo.
+4. **El recordatorio de cuota está apagado desde marzo** y el Notion dice que anda.
+5. **Los números del mes se cuentan a mano:** la tabla de KPIs se rehace con la clave mes + canal.
 
 ## Antes de tocar
 
@@ -57,6 +61,25 @@ La base funciona, pero los números del founder no salen de ella: se cuentan a m
 3. **A3 apagada y documentada como activa** en el Notion: el founder cree que el recordatorio sale.
 4. **A4 es un zombie útil para Z3:** si se apaga antes de arreglar Z3, Z3 queda sin datos (ya casi no tiene).
 5. **Z3 tiene un borrador sin publicar** que apunta a la vista "Cuotas vencidas" de Ventas: alguien empezó el arreglo y no lo terminó. No publicarlo sin revisar.
+
+**Confianza del inventario:** A1 a A4 y Z1 a Z3, **vistos** (la base con permiso de creador y Zapier con Cowork en modo lectura). Nada reconstruido.
+
+## Mapa por evento y campos con más de un escritor
+
+| Evento | Automatizaciones | Lectura |
+|---|---|---|
+| Entra una venta | A1 (alta de alumno), A2 (aviso a Discord), A4 (copia a Ventas marzo) | A1 y A2 están bien; A4 sobra cuando se arregle Z3 |
+| Alguien agenda | Z1 | Bien, pero con la cuenta de quien se fue |
+| Entra un pago | **Ninguna:** administración lo carga a mano desde el banco | Candidato a automatizar después del plan |
+
+| Campo | Lo escriben | Riesgo |
+|---|---|---|
+| Agendas · `Closer` | Z1 y el closer a mano | Medio: si el closer corrige y Z1 vuelve a escribir (reprogramación), se pisa |
+| Ventas · `Monto` | Formulario del closer y administración a mano | Alto: es el campo de las 17 reservas mal cargadas |
+
+## El plan de la herramienta
+
+Airtable en plan pago: 340 corridas en septiembre, muy lejos del tope que figura en la facturación de la cuenta. Zapier del negocio: 436 tareas sobre el tope del plan que figura en la facturación (58 %). No hay nada que mover por plan.
 
 ## Mapa de tablas y relaciones
 

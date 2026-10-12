@@ -10,7 +10,7 @@ Tres situaciones de infonegocio donde la venta anda y lo que pasa después del p
 
 **Qué le pasás.** La promesa, los entregables, los roles, 2 casos de éxito y el export de la base de alumnos.
 
-**Qué te devuelve.** Primero lo que dicen los datos: una métrica por etapa del cliente (acceso, onboarding, asistencia, cuotas, cierre), "sin dato" donde no se registra (bajas, renovaciones) y los dos puntos donde más gente se cae, con evidencia. Después el journey en 3 fases repartidas en los 4 meses, el onboarding, las alertas, las encuestas por entregable con NPS y el campo de estado de salida para el CRM.
+**Qué te devuelve.** Primero lo que dicen los datos: una métrica por etapa del cliente (acceso, onboarding, asistencia, cuotas, cierre), "sin dato" donde no se registra (bajas, renovaciones) y los dos puntos donde más gente se cae, con evidencia. Después el journey en 3 fases repartidas en los 4 meses, el onboarding, las alertas, las encuestas por entregable con NPS, listas para pegar en Google Forms (texto de cada pregunta, tipo y configuración), y el campo de estado de salida para el CRM.
 
 **Por qué sirve.** El alumno que se iba a ir en el mes 2 aparece en rojo en la semana 6, y por primera vez se puede contar cuántos renuevan.
 
@@ -22,7 +22,7 @@ Tres situaciones de infonegocio donde la venta anda y lo que pasa después del p
 
 **Qué le pasás.** Un proyecto de punta a punta contado por el founder en una llamada transcripta y los roles.
 
-**Qué te devuelve.** El journey en 3 fases, el kickoff de accesos en lugar del onboarding de mentoría, los compromisos del cliente (accesos al D2, aprobaciones en 48 h) con su alerta, y la plantilla como CSV con las tareas recurrentes resueltas: una fila por repetición cuando son pocas, o la regla para configurarla en el gestor.
+**Qué te devuelve.** El journey en 3 fases, el kickoff de accesos en lugar del onboarding de mentoría, los compromisos del cliente (accesos al D2, aprobaciones en 48 h) con su alerta, y la plantilla como CSV con las tareas recurrentes resueltas: una fila por repetición hasta 6, la regla para configurarla en el gestor cuando son más, y los chequeos de todos los clientes juntos (asistencia, cuotas) como rutina del equipo, fuera de la plantilla.
 
 **Por qué sirve.** Es la plantilla que permite tomar un cliente más sin que el founder esté en cada paso.
 

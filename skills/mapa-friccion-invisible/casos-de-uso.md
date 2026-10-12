@@ -34,6 +34,6 @@ Tres situaciones de infonegocio donde esta skill rinde. Negocios y nombres ficti
 
 **Qué le pasás.** Si el negocio acepta, una semana de registro que llena alguien del equipo. Si es un caso práctico, el registro que viene en el material del caso.
 
-**Qué te devuelve.** Un mapa de una página que el founder lee en dos minutos y reconoce. Es la Actividad 2 del programa y un buen arranque antes de la Actividad 1.
+**Qué te devuelve.** Un mapa de una página que el founder lee en dos minutos y reconoce, y si la pedís, la versión para él: las 5 fricciones en palabras, sin tabla, y "lo que vamos a medir la semana que viene". Es la Actividad 2 del programa y un buen arranque antes de la Actividad 1.
 
 **Por qué sirve.** Nombrás lo que el founder siente y no sabe decir. Eso abre la conversación de la propuesta mejor que cualquier lista de servicios.

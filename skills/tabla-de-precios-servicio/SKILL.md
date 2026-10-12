@@ -55,18 +55,23 @@ Todo supuesto va a la lista **Para confirmar** al final, con quién lo confirma 
 3. **El piso.** Horas reales × valor hora. Cobrar menos que eso es pagar por trabajar.
 4. **El valor para el cliente.** Cuánto se ahorra o gana cuando esto funcione, con los 2 o 3 dolores con número: horas liberadas × costo hora del equipo o del founder, cuotas que dejan de vencerse, gente que deja de faltar a la llamada, comisiones que dejan de pagarse de más, ventas que dejan de perderse. Si falta un dato, se estima y se dice que es estimación.
 5. **El precio.** Entre el piso y el valor. Una referencia sana para arrancar: que el precio sea una fracción chica del valor de un año (si el valor es 10 veces el precio, hay margen para subir). Redondeá.
-6. **El contraste con los pisos de RealOps™.** Compará con las referencias que se dieron en clase (tabla de abajo). Si tu cuenta da menos, tu supuesto de horas o de valor hora está bajo.
+6. **El contraste con la tabla única de pisos.** Compará con la tabla de abajo (criterio orientativo). Vale el piso más alto de los dos. Si tu cuenta da menos, tu supuesto de horas o de valor hora está bajo.
 
-### Pisos de referencia que se dieron en las clases
+### Tabla única de pisos RealOps™ (criterio orientativo)
 
-No son precios de mercado ni una tarifa fija: son los pisos que se usaron en el programa para no regalar el trabajo. Sirven de contraste, nunca en lugar de la cuenta.
+En las clases se dieron varios números (USD 250 por un funnel, "400 a 500 por mes, no menos", "piso de 500 forever", 1.000 por 3 meses, 1.000 por un sistema de 10 horas, fijo + variable + proyectos para un rol). Para no confundir, la skill usa **una sola tabla**, armada con esas referencias y tomando siempre el borde más prudente para quien vende. **Es un criterio orientativo**, no una tarifa ni un precio de mercado: es el número debajo del cual no bajás, y sirve de contraste, nunca en lugar de la cuenta. Si tu cuenta da más, gana tu cuenta.
 
-| Modalidad | Referencia de clase |
-|---|---|
-| Servicio chico (sprint) | Un funnel completo (VSL, gracias y copies) alrededor de USD 250 (23/07). Un sistema simple de unas 10 horas, alrededor de USD 1.000 (11/05) |
-| Proyecto | Mínimo 3 meses y no menos de USD 500 por mes (08/06). Una primera propuesta: USD 1.000 los tres meses, o USD 400 a 500 por mes, "no menos" (25/05) |
-| Fee mensual | No menos de USD 400 a 500 por mes (25/05, 08/06), con alcance escrito y proyectos aparte (29/06) |
-| Rol de dirección de operaciones | Se negocia por valor, no por horas: fijo + variable sobre cash collected + proyectos cotizados aparte (29/06) |
+| Modalidad | Piso orientativo | De dónde sale |
+|---|---|---|
+| Sprint de 1 semana | **USD 250** por entregable | Funnel completo por ~USD 250 (23/07) |
+| Sprint de 2 semanas | **USD 500** por entregable | Proporcional al anterior; un sistema de ~10 h de trabajo se cotizó ~USD 1.000 (11/05) |
+| Proyecto de 1 mes | **USD 500** | Piso de USD 500 por mes (08/06) |
+| Proyecto de 2 meses | **USD 1.000** (2 × 500) | Ídem |
+| Proyecto de 3 meses | **USD 1.500** (3 × 500) | Ídem; "USD 1.000 los tres meses" (25/05) quedó debajo del piso que se fijó después |
+| Fee mensual (freelance) | **USD 500 por mes** | "400 a 500, no menos" (25/05) y piso de 500 (08/06): se toma 500 |
+| Director/a de Operaciones part-time | **USD 500 de fijo por mes** + variable + proyectos aparte | Rol renegociado en clase con USD 500 fijos + variable + proyectos (29/06) |
+
+Tres reglas de uso: (1) el piso de la tabla y el de tu cuenta se comparan, y **vale el más alto**; (2) si tu cuenta da menos que el piso de la tabla, tu supuesto de horas o de valor hora está bajo: revisalo antes de bajar; (3) a un negocio grande (más de ~USD 30.000 por mes) el piso le queda corto: ahí manda el valor para el cliente.
 
 Si la persona tiene referencias de su mercado (avisos de Upwork o LinkedIn para Online Business Manager, Operations Manager o Founder's Right Hand, o lo que cobran en su comunidad), usalas como contraste también.
 
@@ -126,7 +131,7 @@ Primero la **cuenta** (para la persona), después la **tabla** (lo que usa para 
 
 ## Tu valor hora (cuenta, con los supuestos como variables)
 ## El valor para el cliente (2 o 3 dolores con número)
-## La cuenta de cada modalidad (tabla: horas · +30 % · piso · valor · precio · tu hora real · contraste con el piso de clase)
+## La cuenta de cada modalidad (tabla: horas · +30 % · piso · valor · precio · tu hora real · contraste con la tabla única de pisos)
 ## Tu tabla de precios
 | Modalidad | Alcance | Duración | Precio | Forma de pago | Piso (no bajás de acá) |
 ## Si te ofrecen el rol de Director/a de Operaciones (fijo + variable + proyectos + revisión a 90 días)   ← si aplica
@@ -158,7 +163,7 @@ Ofrecé:
 
 ## Lo que no hacés
 
-- No das una tabla de precios de mercado fija ni prometés que "eso es lo que se cobra". Los pisos de clase son contraste, no tarifa.
+- No das una tabla de precios de mercado fija ni prometés que "eso es lo que se cobra". La tabla única de pisos es un criterio orientativo de contraste, no una tarifa.
 - No inventás datos del cliente para inflar el valor: si falta, lo pedís o lo marcás como supuesto.
 - No redactás el contrato completo ni das asesoramiento legal, impositivo ni contable (facturación, retenciones, relación de dependencia o independiente, cobrar desde otro país): eso se valida con un contador o un abogado.
 - No prometés resultados de negocio para justificar un precio.

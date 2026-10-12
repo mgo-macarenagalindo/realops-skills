@@ -2,7 +2,9 @@
 
 > Referencia del Copiloto Operativo. Leela cuando la persona no sabe qué skill usar o cuando su pedido es grande y específico. Actualizado al 12/10/2026.
 >
-> Cada skill aparece con su **nombre visible** y, entre paréntesis, su **carpeta** (`slug`): si la persona no la encuentra por nombre, que la busque por la carpeta o por el zip con ese nombre en el space Recursos.
+> Cada skill aparece con su **nombre visible** (el título de su `SKILL.md` al 12/10/2026) y, entre paréntesis, su **carpeta** (`slug`). **La carpeta no cambia nunca; el nombre visible puede cambiar.** Si la persona no la encuentra por nombre, que la busque por la carpeta o por el zip con ese nombre en el space Recursos.
+>
+> **Mantenimiento:** cuando se renombre una skill, se actualiza su fila acá, la tabla "Cambios recientes" y la tabla de derivaciones del `SKILL.md`. Si la skill está instalada y el nombre que ves en su `SKILL.md` no coincide con este mapa, mandá el de la skill instalada y derivá por la carpeta.
 
 ## Cómo derivar bien
 
@@ -19,10 +21,10 @@
 | Pedido con Datos (`pedido-con-datos`) | **Salió.** Pedir un aumento, más alcance o una persona más ahora es parte de **Coach de Conversaciones Difíciles** |
 | Conversación de Feedback Difícil | Se llama **Coach de Conversaciones Difíciles** (`feedback-dificil`) |
 | Costo de No Cambiar / caso de negocio para el founder | **Costo Económico de No Cambiar** (`caso-de-negocio-founder`) |
-| Llamada de Diagnóstico que Vende | Ahora es la skill de **scripts de venta** de tu servicio (`llamada-diagnostico-venta`) |
-| Propuesta de Continuidad | Ahora es la skill de **retención, upsells y LTV** (`propuesta-continuidad-growth-partner`) |
-| CV y LinkedIn de Operaciones | Ahora es **preparar tu perfil para vender operaciones** (`cv-linkedin-operaciones`) |
-| Portafolio: de caso interno a pieza externa | Ahora es el **revisor de piezas del portafolio** (`portafolio-caso-interno-a-externo`) |
+| Llamada de Diagnóstico que Vende / Scripts de venta | **Script de Ventas con Founders** (`llamada-diagnostico-venta`) |
+| Propuesta de Continuidad | **Retención, Upsells y LTV** (`propuesta-continuidad-growth-partner`) |
+| CV y LinkedIn de Operaciones | **Preparar tu Perfil para Vender Operaciones** (`cv-linkedin-operaciones`) |
+| Portafolio: de caso interno a pieza externa | **Revisor de Piezas de Portafolio** (`portafolio-caso-interno-a-externo`) |
 
 Si alguien pide una skill que salió, no le digas "no existe": decile cuál la reemplaza.
 
@@ -109,7 +111,7 @@ Si alguien pide una skill que salió, no le digas "no existe": decile cuál la r
 | Construir la landing con Claude Code (Next o HTML) (T4) | **Constructor de Landing con 21st.dev** (`landing-con-21st`) |
 | Revisarla antes de publicar y decidir dónde alojarla | **Revisor de Landing y Publicación** (`revisor-landing-y-publicacion`) |
 | Sacar reels, carrusel, newsletter e historias de una clase o un vivo | **De Clase a Contenido** (`de-clase-a-contenido`) |
-| Ordenar el trabajo del equipo de contenido (Actividad 9) | **Calendario de Contenidos del Equipo** (`calendario-contenidos-equipo`) |
+| Armar el calendario de contenidos conectado al equipo: quién hace qué pieza y para cuándo (Actividad 9) | **Calendario de Contenidos del Equipo** (`calendario-contenidos-equipo`) |
 
 ### Venderte y crecer como operativo estratégico · Next Level y Ventas
 
@@ -119,14 +121,14 @@ Si alguien pide una skill que salió, no le digas "no existe": decile cuál la r
 | Tu offer doc y tu frase "Yo ayudo a" | **Offer Doc con IA** (`offer-doc-con-ia`) |
 | Ponerle precio a tus servicios | **Tabla de Precios de tu Servicio** (`tabla-de-precios-servicio`) |
 | Conseguir tus primeras llamadas de venta | **Prospección de Primeros Clientes** (`prospeccion-primeros-clientes`) |
-| Los scripts de venta de tu servicio: llamada de diagnóstico, presentación de propuesta, objeciones, con role-play | **Scripts de venta** (`llamada-diagnostico-venta`) |
+| Los scripts de venta de tu servicio: llamada de diagnóstico, presentación de propuesta, objeciones, con role-play | **Script de Ventas con Founders** (`llamada-diagnostico-venta`) |
 | Convertir un diagnóstico en propuesta con precio | **Escritor de Propuestas de Consultoría** (`escritor-propuestas`) |
 | Pasar la propuesta aceptada a un acuerdo de alcance y pago | **Acuerdo de Alcance y Pago** (`acuerdo-alcance-y-pago`) |
 | Presentar el sistema que construiste sin que suene a "hice unas planillas" | **Coach de Presentación de Sistemas** (`coach-presentacion`) |
 | Cerrar un proyecto con informe final y pedir el testimonio | **Informe Final y Testimonio** (`informe-final-y-testimonio`) |
-| Retener al cliente, ofrecer continuidad o upsells y subir el LTV | **Retención, upsells y LTV** (`propuesta-continuidad-growth-partner`) |
-| Revisar una pieza de tu portafolio antes de mostrarla (confidencialidad, número, cómo contarla) (Actividad 30) | **Revisor de piezas del portafolio** (`portafolio-caso-interno-a-externo`) |
-| Preparar tu perfil (CV, LinkedIn, entrevista) para vender operaciones | **Tu perfil para vender operaciones** (`cv-linkedin-operaciones`) |
+| Retener al cliente, ofrecer continuidad o upsells y subir el LTV | **Retención, Upsells y LTV** (`propuesta-continuidad-growth-partner`) |
+| Revisar una pieza de tu portafolio antes de mostrarla (confidencialidad, número, cómo contarla) (Actividad 30) | **Revisor de Piezas de Portafolio** (`portafolio-caso-interno-a-externo`) |
+| Preparar tu perfil (CV, LinkedIn, entrevista) para vender operaciones | **Preparar tu Perfil para Vender Operaciones** (`cv-linkedin-operaciones`) |
 
 ---
 
@@ -139,7 +141,7 @@ Si alguien pide una skill que salió, no le digas "no existe": decile cuál la r
 | Quiero un CRM que funcione | CRM de Cliente → Arquitecto de Base en Airtable → UTMs de Punta a Punta |
 | Quiero automatizar algo | Constructor de SOP (primero el proceso) → Diseñador de Automatizaciones → Detective de Automatizaciones (si falla) |
 | Quiero saber si la pauta rinde | UTMs de Punta a Punta → Rentabilidad por Anuncio → Analista de KPIs |
-| Quiero conseguir mi primer cliente | Inventario de Entregables → Offer Doc → Tabla de Precios → Prospección → Scripts de venta → Escritor de Propuestas |
+| Quiero conseguir mi primer cliente | Inventario de Entregables → Offer Doc → Tabla de Precios → Prospección → Script de Ventas con Founders → Escritor de Propuestas |
 | Quiero dejar de hacer siempre lo mismo con Claude | Chat, Cowork o Code → De SOP a Skill o Arquitecto de Agentes en Carpeta |
 
 ---
@@ -166,7 +168,7 @@ Para crear o editar **Word, Excel, PowerPoint y PDF** están las skills oficiale
 
 ### Sin instalar nada
 
-En el repo, la carpeta `prompts/` trae 5 funciones como prompt para pegar en cualquier chat de IA: copiloto operativo, diagnóstico, SOP, propuesta y presentación. También están en el space "Prompts para copiar" de la comunidad.
+En el repo, la carpeta `prompts/` trae 5 funciones como prompt para pegar en cualquier chat de IA: copiloto operativo, diagnóstico, SOP, propuesta y presentación. También están en el space "Prompts para copiar" de la comunidad. El del copiloto trae una versión corta del mapa de skills y de la guía de herramientas; si la persona tiene la skill instalada, esta versión es la completa.
 
 ---
 
@@ -186,7 +188,7 @@ En el repo, la carpeta `prompts/` trae 5 funciones como prompt para pegar en cua
 | 6 ★ Wiki | Wiki Operativa |
 | 7 · Gestor de tareas en Airtable | Arquitecto de Base en Airtable |
 | 8, 12 ★, 14, 15 · CRM y cobros | CRM de Cliente + Arquitecto de Base en Airtable |
-| 9 · Calendario de contenidos | Calendario de Contenidos del Equipo |
+| 9 · Calendario de contenidos conectado al equipo | Calendario de Contenidos del Equipo |
 | 10 · Centro de comunicación | Centro de Comunicación y Reporte de Fin de Día |
 | 11 · Migración documentada | Stack Elegido (la decisión) + Constructor de SOP (el paso a paso) |
 | 13 ★ Primera automatización | Diseñador de Automatizaciones |
@@ -201,4 +203,4 @@ En el repo, la carpeta `prompts/` trae 5 funciones como prompt para pegar en cua
 | 27 · Delegación | Matriz de Delegación |
 | 28 · Organigrama e incorporación | Descriptor de Cargo + Onboarding de un Rol Nuevo |
 | 29 · App en Vercel | Dashboard con Vibe Coding |
-| 30 ★ Portafolio | Revisor de piezas del portafolio + Offer Doc + Escritor de Propuestas |
+| 30 ★ Portafolio | Revisor de Piezas de Portafolio + Offer Doc + Escritor de Propuestas |

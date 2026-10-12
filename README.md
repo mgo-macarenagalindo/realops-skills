@@ -73,7 +73,7 @@ Son solo texto: cada skill es una carpeta con un `SKILL.md` (las instrucciones q
 En [skills-terceros/](skills-terceros) hay 11 skills de otros autores, copiadas **sin modificar** porque su licencia lo permite. Cada una trae su `LICENSE` original y un `ORIGEN.md` con de dónde sale, versión y cómo instalar la última:
 
 - **skill-creator** (Anthropic, Apache 2.0): te ayuda a crear y probar tus propias skills.
-- **mcp-builder** (Anthropic, Apache 2.0): para construir un servidor MCP propio cuando una plataforma no tiene conector. Es el último escalón de `conectar-claude-a-tus-datos`. Trae scripts: leelos antes de usarlos.
+- **mcp-builder** (Anthropic, Apache 2.0): para construir un servidor MCP propio cuando una plataforma no tiene conector. Es el último escalón de `conectar-claude-a-tus-datos`. Trae scripts: leelos antes de usarlos. Zip listo para subir: [zips-terceros/mcp-builder.zip](zips-terceros/mcp-builder.zip).
 - **airtable-skills** (he8um, MIT): arquitectura y auditoría de bases de Airtable.
 - **airtable-docs-audit** (davepongw, MIT): documenta una base entera y registra qué cambió. Ojo: crea una base de documentación aparte en tu Airtable.
 - **7 skills de Landingfolio** (MIT): auditoría de landings, explorar secciones, extraer el sistema de diseño, pasada mobile, humanizar copy, capturas e imágenes para compartir. Algunas traen scripts: leelos antes de instalarlas (regla 2 de abajo).

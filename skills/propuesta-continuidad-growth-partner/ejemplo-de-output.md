@@ -89,9 +89,9 @@ Todo con lo cobrado. La renovación sigue sumando después de los 90 días si el
 
 ## Para confirmar
 
-- **Precio y formato de la Continuidad** (USD 120 por mes, mínimo 3 meses): lo decide la founder antes del 16/10.
+- **Precio y formato de la Continuidad** (USD 120 por mes, mínimo 3 meses; es el 6,7 % del ticket, dentro del rango **ORIENTATIVO** de 5 % a 10 %): lo decide la founder antes del 16/10.
 - **Beneficio por referido**: la founder.
-- **Las tasas de 10 % y 20 %** son escenarios: se reemplazan por la real después de la cohorte de octubre.
+- **Las tasas de 10 % y 20 %** son escenarios **ORIENTATIVOS** (referencia de la biblioteca, no de una clase): se reemplazan por la real después de la cohorte de octubre.
 - **Que Zapier entre en el plan básico** con las 70 tareas nuevas por mes: quien administra la cuenta.
 - **Comisión de la CSM por renovación**: pasar por la skill Esquema de Pago y Comisiones.
 

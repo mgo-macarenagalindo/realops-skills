@@ -110,6 +110,13 @@ Si no se activa en el 1, se ajusta la **description**. Si se activa pero el resu
 
 **El contraste con un caso real conocido (obligatorio si hay uno).** Corré la skill sobre un caso que ya se resolvió (el mes pasado ya liquidado, el último reporte entregado) y compará su resultado, renglón por renglón, con el que se usó de verdad. **Toda diferencia que no se explique es un hallazgo, no un "pedir el detalle":** va en una tabla (registro · lo que dio la skill · lo que se usó · diferencia · causa probable) y se resuelve antes de dar la skill por buena. Si la causa es un error del proceso real (se pagó de más, se contó dos veces), es un hallazgo para el negocio; si es un error de la skill, se corrige la skill.
 
+**Cuando un hallazgo no se puede cerrar con los datos que hay** (por ejemplo, se sabe que una venta está contada dos veces pero no cuál, porque la planilla no tiene IDs): no lo dejes en "faltan datos". Hacé las tres cosas:
+1. **Acotá y ordená las candidatas por riesgo**, diciendo con qué dato ordenás (por ejemplo, primero las que además tienen una cuota vencida, y entre esas la más vieja). Si varias empatan, decilo: no señales una sola como si fuera la respuesta.
+2. **Escribí el chequeo que lo cierra**: quién lo hace, en qué archivo, qué filtra y cuánto tarda ("Coordinación abre la planilla de septiembre, filtra Leandro y busca un alumno repetido: 5 minutos").
+3. **Sumá a la skill la validación que lo evita la próxima vez** (por ejemplo, que la planilla lleve el ID de cada venta o pago, así el duplicado se detecta por ID) y **frená el pago siguiente** de esa persona hasta que el chequeo esté hecho.
+
+**Cuando el contraste encuentra plata pagada de más o de menos**, la decisión es del founder, pero no la dejes como pregunta abierta: escribí **la opción que recomendás** (criterio orientativo, rotulado así), una o dos alternativas, y qué pasa con cada una. Buscá primero si el negocio ya tiene una regla parecida que se pueda extender (por ejemplo, cómo se descuentan las comisiones de un reembolso en el acuerdo) y usala como base. Y escribí la **regla de transición**: si se cambia la forma de calcular, cómo se evita pagar dos veces lo mismo (por ejemplo, cuotas de ventas que ya se liquidaron sobre lo vendido). Esa regla va en la skill como `[FALTA: decisión de <rol> · recomendado: …]` hasta que se apruebe.
+
 ## Cómo empaquetarla y compartirla
 
 - **Zip para Claude (web o escritorio):** comprimí **la carpeta** (que quede adentro del zip, no sus archivos sueltos) y subila en Configuración → Capacidades → Skills. Si no ves la sección, revisá qué tiene habilitado tu cuenta.
