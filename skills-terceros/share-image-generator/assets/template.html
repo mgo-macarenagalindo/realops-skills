@@ -1,0 +1,116 @@
+<!doctype html>
+<!--
+  Share-image canvas. Copy this file, fill in the brand variables and the copy, delete
+  the layouts you don't use, and render it with scripts/render.mjs.
+
+  Layouts (set on <body>):
+    layout-centered  logo · headline · subline/proof, centred on a flat field
+    layout-split     headline left, one product visual right
+    layout-peek      headline on top, a product screenshot rising from the bottom edge
+
+  Paths to images are relative to this HTML file (it renders from disk).
+-->
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Brand font: a Google Fonts link, or an @font-face pointing at the project's own font file. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      /* ---- brand inputs (from the user) ---- */
+      --field: #F7F7F5;      /* background: the brand's light or dark base, one flat color */
+      --ink: #111111;        /* headline text: highest contrast against --field */
+      --muted: #5C5C5C;      /* subline / proof text */
+      --accent: #4F46E5;     /* brand primary: eyebrow, underline, a single shape */
+      --font: 'Inter', system-ui, sans-serif;
+    }
+
+    html, body { margin: 0; padding: 0; }
+    body {
+      width: 1200px; height: 630px; overflow: hidden; position: relative;
+      background: var(--field); color: var(--ink);
+      font-family: var(--font);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .logo { display: flex; align-items: center; gap: 12px; height: 40px; }
+    .logo img, .logo svg { height: 100%; width: auto; display: block; }
+    .logo__word { font-weight: 700; font-size: 28px; letter-spacing: -0.01em; }
+
+    .eyebrow {
+      font-size: 18px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+      color: var(--accent);
+    }
+    h1 {
+      margin: 0; font-weight: 800; letter-spacing: -0.025em; line-height: 1.05;
+      text-wrap: balance;
+    }
+    .sub { margin: 0; font-size: 26px; font-weight: 500; line-height: 1.35; color: var(--muted); }
+
+    /* ---------- layout-centered ---------- */
+    .layout-centered .wrap {
+      position: absolute; inset: 0; padding: 72px 96px;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 32px; text-align: center;
+    }
+    .layout-centered h1 { font-size: 68px; max-width: 980px; }
+
+    /* ---------- layout-split ---------- */
+    .layout-split .wrap {
+      position: absolute; inset: 0; padding: 72px 0 72px 80px;
+      display: grid; grid-template-columns: 1fr 520px; gap: 48px; align-items: center;
+    }
+    .layout-split .copy { display: flex; flex-direction: column; gap: 28px; }
+    .layout-split h1 { font-size: 58px; }
+    .layout-split .visual {
+      height: 486px; border-radius: 20px 0 0 20px; overflow: hidden;
+      box-shadow: 0 30px 60px rgba(0, 0, 0, 0.18);
+    }
+    .layout-split .visual img { width: 100%; height: 100%; object-fit: cover; object-position: left top; display: block; }
+
+    /* ---------- layout-peek ---------- */
+    .layout-peek .wrap {
+      position: absolute; left: 0; right: 0; top: 0; padding: 64px 96px 0;
+      display: flex; flex-direction: column; align-items: center; gap: 22px; text-align: center;
+    }
+    .layout-peek h1 { font-size: 56px; max-width: 960px; }
+    .layout-peek .peek {
+      position: absolute; left: 50%; transform: translateX(-50%); top: 330px;
+      width: 960px; height: 420px; border-radius: 16px 16px 0 0; overflow: hidden;
+      background: #fff; box-shadow: 0 -10px 60px rgba(0, 0, 0, 0.18);
+    }
+    .layout-peek .peek img { width: 100%; display: block; }
+  </style>
+</head>
+<body class="layout-centered">
+  <div class="wrap">
+    <div class="logo">
+      <!-- Inline the brand's SVG here, or <img src="relative/path/logo.svg" alt="">.
+           No logo file? Use a text wordmark: -->
+      <span class="logo__word">Acme</span>
+    </div>
+    <h1 data-headline>Your page's promise, in two lines at most</h1>
+    <p class="sub">One supporting line or a proof point with a real number</p>
+  </div>
+
+  <!-- layout-split: replace .wrap above with
+  <div class="wrap">
+    <div class="copy">
+      <div class="logo">…</div>
+      <h1 data-headline>…</h1>
+      <p class="sub">…</p>
+    </div>
+    <div class="visual" data-bleed><img src="screenshot.png" alt=""></div>
+  </div>
+  -->
+
+  <!-- layout-peek: replace .wrap above with
+  <div class="wrap">
+    <div class="logo">…</div>
+    <h1 data-headline>…</h1>
+  </div>
+  <div class="peek" data-bleed><img src="screenshot.png" alt=""></div>
+  -->
+</body>
+</html>

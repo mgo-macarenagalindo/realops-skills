@@ -1,0 +1,11 @@
+{
+  "name": "share-image-generator",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Renders a 1200x630 HTML canvas to a flat share-image JPG (uses the installed Chrome via playwright-core).",
+  "bin": { "render-share-image": "./render.mjs" },
+  "dependencies": {
+    "playwright-core": "^1.49.0"
+  }
+}

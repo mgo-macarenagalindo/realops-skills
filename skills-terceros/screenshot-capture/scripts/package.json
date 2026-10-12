@@ -1,0 +1,11 @@
+{
+  "name": "screenshot-capture",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Headless-Chrome page, section and element screenshots (uses the installed Chrome via playwright-core).",
+  "bin": { "screenshot": "./screenshot.mjs" },
+  "dependencies": {
+    "playwright-core": "^1.49.0"
+  }
+}
