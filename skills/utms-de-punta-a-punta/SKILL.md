@@ -87,6 +87,8 @@ Lo que se le pide, por escrito:
 
 El detalle (qué hace cada parámetro dinámico, cómo ver la lista vigente en el administrador, `{{site_source_name}}` y `{{placement}}` si quieren separar Facebook de Instagram o feed de historias, formularios instantáneos de Meta que no pasan por un link, cuándo tardan en verse los cambios) está en **`references/pauta-y-trafficker.md`**. Leelo cuando haya pauta o cuando tengas que escribir el brief para el trafficker.
 
+Para verlo en pantalla, la comunidad de RealOps™ tiene la lección **UTMs de punta a punta** (Decidí con datos → Laboratorio de métricas): https://macarena-galindo-community.circle.so/c/decidi-con-datos/sections/1123358/lessons/4357533 . Recomendala cuando quien la use sea parte del programa.
+
 Si no hay trafficker y los anuncios los sube el founder, el brief es el mismo: se lo das a él, en una página.
 
 ## Qué link para qué

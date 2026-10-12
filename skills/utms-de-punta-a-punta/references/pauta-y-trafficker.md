@@ -20,6 +20,8 @@ Meta reemplaza estos valores al momento del clic. Se cargan en el campo **"Pará
 
 ### Cómo ver la lista vigente en el administrador (1 minuto)
 
+Si sos alumno de RealOps™, está mostrado en la lección **UTMs de punta a punta**: https://macarena-galindo-community.circle.so/c/decidi-con-datos/sections/1123358/lessons/4357533
+
 1. En el administrador de anuncios, abrí un anuncio (o creá uno en borrador) y bajá hasta **Seguimiento**.
 2. Al lado de **Parámetros de URL**, tocá **"Crear un parámetro de URL"** (en inglés, *Build a URL parameter*). Se abre un armador.
 3. En cada campo (fuente, medio, nombre de campaña, contenido) el desplegable muestra los **parámetros dinámicos disponibles hoy**. Si alguno de la plantilla no aparece, usá el que muestra el desplegable para ese dato.
