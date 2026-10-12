@@ -1,6 +1,6 @@
 # Casos de uso · De Clase a Contenido
 
-Tres situaciones de infonegocio donde una hora grabada se vuelve una semana de contenido. Negocios y nombres ficticios.
+Cuatro situaciones de infonegocio donde una hora grabada se vuelve una semana de contenido. Negocios y nombres ficticios.
 
 ---
 
@@ -37,3 +37,16 @@ Tres situaciones de infonegocio donde una hora grabada se vuelve una semana de c
 **Qué te devuelve.** Las 6 piezas con un solo CTA (la llamada) y la fecha de cierre, momentos elegidos entre las objeciones que el founder respondió en el webinar, y nada de urgencia inventada.
 
 **Por qué sirve.** En semana de venta, todo empuja a la misma acción. Y las objeciones respondidas en vivo son el mejor material.
+
+---
+
+## 4. Solo hay un Loom interno (y no sabés casi nada)
+
+**La situación.** Practicás con un caso del programa. No hay clases grabadas: solo un audio del founder contándole al equipo sus problemas. No sabés si hay newsletter, ni a dónde llevar a la gente, ni tenés textos publicados del founder.
+
+**Qué le pasás.** El audio transcripto y la ficha del caso.
+
+**Qué te devuelve.** El plan B pregunta por pregunta: el avatar sale de la ficha, la semana es de contenido porque se vende todo el año, el CTA usa solo lo que existe (DM con palabra clave) y la voz sale de cómo habla en el audio, marcada "a validar". Como el audio le habla al equipo, pocos momentos le hablan al avatar: la skill usa la **salida corta** (una pieza por momento útil, no 6 forzadas) y te deja el mensaje para pedir la grabación de una clase real.
+
+**Por qué sirve.** Aprendés a decir "con esto no alcanza" con una entrega usable en la mano, en vez de rellenar una semana de contenido flojo.
+

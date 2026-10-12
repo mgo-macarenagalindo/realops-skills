@@ -13,6 +13,16 @@
 - **Acción única:** agendar la llamada de diagnóstico (30 min).
 - **De dónde viene:** historias de Instagram y un anuncio a público que ya sigue la cuenta.
 - **A dónde va después:** página de gracias → escribe por WhatsApp con el mensaje precargado.
+- **Anuncio = página:** el anuncio a seguidores promete "ordená tus precios en 6 meses" a freelancers que ya facturan. La página dice lo mismo, al mismo público, en el mismo plazo y pide la misma acción (agendar). Coinciden.
+
+## Oferta
+
+- **A quién:** diseñadores y desarrolladores independientes que trabajan por su cuenta hace más de un año y tienen clientes recurrentes.
+- **Promesa:** cobrar lo que vale tu trabajo en 6 meses, sin conseguir más clientes.
+- **Problema:** "Cobro lo mismo hace dos años y todo aumentó."
+- **Cómo:** programa de 6 meses, clase en vivo semanal y acompañamiento en las conversaciones de precio.
+
+Las cuatro salen del Offer Doc: no hay supuestos.
 
 ## Brief de marca
 
@@ -93,9 +103,13 @@ Variante del título: *"Dejá de cobrar lo mismo que hace dos años."* (más cor
 - **Texto:** Te llegó un mail con el día y el link. Para que la llamada rinda, mandanos un mensaje por WhatsApp contándonos a qué te dedicás.
 - **Botón (único):** Escribinos por WhatsApp → abre WhatsApp con el mensaje: "Hola, agendé la llamada de diagnóstico. Me dedico a ___ y lo que más me preocupa de mis precios es ___."
 
+## Supuestos a validar
+
+No hubo: la oferta, el precio fuera de la página y la marca vinieron confirmados.
+
 ## Pendientes
 
-| Pendiente | Quién lo consigue |
+| Pendiente (prueba y recursos) | Quién lo consigue |
 |---|---|
 | Video de 2 min del founder para el hero | Founder |
 | Frase elegida de cada testimonio + confirmación del permiso | Operaciones |

@@ -56,6 +56,10 @@ Sin menú. Todo lo que se puede tocar lleva al calendario.
 - Logo en una URL pública y el código de color exacto de la marca.
 - El link del calendario que se va a embeber.
 
+## Para confirmar
+
+- Nada pendiente: la persona pasó el Offer Doc, la landing actual, la estética y dónde se construye. Si faltara alguno, acá iría cada **[SUPUESTO: …, confirmalo]** con qué averiguar y a quién.
+
 ---
 
 ¿Armamos la estructura y el texto final con **Arquitecto de Landing de Alto Ticket**?

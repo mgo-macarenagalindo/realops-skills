@@ -15,6 +15,7 @@
 | #ventas | Leads, llamadas, cierres y traspaso a servicio | Datos de tarjeta o de pago completos | Setters, closers, founder |
 | #leads-del-dia | Un mensaje corto por agenda: quién es, de dónde viene, qué dijo | Conversación: se responde en hilo | Setters, closers |
 | #servicio | Alumnos, alertas, bajas | Charlas personales con alumnos | Coaches, coordinación |
+| #cobros-y-accesos | Cuotas cobradas y vencidas, pagos rechazados, altas a la plataforma | Datos de tarjeta; discutir con un alumno por qué no pagó | Coordinación, founder |
 | #reportes-diarios | Solo los EOD y el resumen | Cualquier otra cosa | Coordinación, founder |
 | #random | Lo que no es trabajo | Pedidos de trabajo | Todos |
 
@@ -103,6 +104,10 @@ Primer lunes del mes, coordinación cruza la tabla EOD contra el CRM:
 > - Todos los días a las 18:00 llega el pedido de reporte: dos o tres minutos.
 > - WhatsApp queda solo para urgencias de verdad (lo que se cae y no puede esperar a mañana).
 > Las reglas de cada canal están en su descripción.
+
+## Supuestos a validar
+
+Nada para validar: la persona dio roles, herramienta (Slack), CRM (Airtable) y tipo de setters. Antes de anunciarlo, verificá en la página de precios de Slack que el plan que usen incluya el Workflow Builder.
 
 ---
 

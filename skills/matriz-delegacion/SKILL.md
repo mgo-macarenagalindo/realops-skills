@@ -28,20 +28,49 @@ Pedir ayuda "porque no llego" se discute. Pedirla con una lista de tareas, horas
 
 ## Sobre qué negocio trabajamos
 
-Preguntá si es su negocio, el negocio donde trabaja o un caso práctico del programa, y **de quién es la matriz** (el founder, la persona que usa la skill u otro rol). Con un caso práctico, usá el registro de tareas del material. **No inventes tareas ni minutos.**
+Preguntá si es su negocio, el negocio donde trabaja o un caso práctico del programa, y **de quién es la matriz** (el founder, la persona que usa la skill u otro rol). Con un caso práctico, usá el registro que traiga el material para ese rol. **No inventes tareas ni minutos**: lo que no está registrado va como supuesto rotulado o como "sin dato", nunca como dato.
+
+Si el caso no trae registro **del rol pedido** (por ejemplo, no hay registro del founder), avisalo antes de empezar y ofrecé dos caminos: hacer la matriz de un rol que sí tiene registro, o darle la plantilla para que simule la semana con el copiloto (respuestas rotuladas "simuladas").
 
 ## Lo que te voy a preguntar
 
 1. ¿De quién es la matriz y qué rol tiene?
 2. ¿Tenés el registro de una semana (tarea, minutos, frecuencia)? Si no, te doy la plantilla y lo hacés antes: **una semana anotando al terminar cada bloque, no a la noche de memoria.** Truco: una alarma cada dos horas que diga "¿qué hiciste?".
+   - **Si tenés un registro parcial** (un registro de fricción, una lista de pendientes, notas sueltas): no es un registro de tareas, porque solo anota lo que se trabó. Elegí con la persona: (a) **esperar** una semana completa con la plantilla, o (b) **matriz parcial ahora**: se usa lo que hay, el título dice "parcial" y el resto de la semana se arma con el plan B (bloques típicos del rol, rotulados como supuesto). En un caso práctico, (b).
 3. ¿Qué roles hay en el equipo hoy? ¿Hay alguien con horas libres o se puede sumar a alguien?
+
+Si contesta "no lo sé" a alguna, pasás al plan B de esa pregunta antes de seguir.
+
+## Si el alumno no sabe (plan B)
+
+"No sé" no frena la matriz. Para cada pregunta clave: primero 2 o 3 preguntas guía más chicas, de a una; después ejemplos típicos de infonegocio; y si igual no sabe, un **supuesto razonable** rotulado **"Supuesto a validar con <rol>"**, y seguís. La matriz sale completa, sin `[completar]`. Los supuestos van juntos al final, en una tabla, y **las horas que salen de supuestos se suman aparte** de las que salen del registro.
+
+| Pregunta | Preguntas guía (2 o 3, de a una) | Respuestas típicas en infonegocio | Si igual no sabe |
+|---|---|---|---|
+| **Cuánto tarda una tarea** | ¿Cuántas veces por semana la hacés? · La última vez, ¿empezaste y terminaste de un tirón o con cortes? · ¿Cuánto tarda una sola vez (un mensaje, un alta, una carga)? | Cargar una venta o una llamada a mano: 5 a 7 min. Onboarding a mano: 10 a 20 min por alumno. Mensaje de cobro: 3 a 5 min por alumno. Reporte semanal: 30 a 90 min | Rango típico de la columna del medio × la frecuencia que sí sepa. "Supuesto a validar con <rol de la matriz>": una semana de registro de esa tarea |
+| **El resto de la semana** (registro parcial) | ¿Qué hacés todos los días aunque no se trabe? · ¿Qué reuniones fijas tenés? · ¿Qué hacés con cada venta nueva? | Coordinación: onboarding, cobros, comisiones, reuniones, responder al equipo. Founder: en vivos, contenido, aprobaciones, ventas | Bloques típicos del rol, con horas rotuladas. Lo que ni así se puede estimar queda como **"sin dato"** en una fila, con las horas del rol menos lo anotado |
+| **¿Alguien con horas libres?** | ¿Quién del equipo cobra por pieza o tiene horas variables? · ¿Quién termina su día antes o espera trabajo de otro? · ¿Hay algún rol que hoy hace tareas que no son suyas? | Editor freelance (por pieza), setters en semanas flojas, un CSM con pocos alumnos | Supuesto: **nadie tiene horas libres**. Entonces el orden es eliminar y automatizar primero, y delegar solo lo que entra en un rol con su SOP. "Supuesto a validar con el founder" |
+| **¿Qué SOPs existen?** | ¿Hay algo escrito, aunque sea viejo? · ¿Dónde está (Notion, Drive)? · ¿Alguien lo usa hoy? | Procesos de hace un año, escritos para otra herramienta | Todo SOP se toma como **"falta"** hasta que alguien lo muestre actualizado |
+| **¿Para qué querés las horas?** | ¿Qué te pidió el founder que nunca tenés tiempo de hacer? · ¿Qué problema te gustaría resolver de raíz? | Un tablero de cobranza, el protocolo de cuota vencida, mejorar el onboarding | Usá el pedido más reciente del founder que aparezca en el material. "Supuesto a validar con el founder" |
 4. ¿Qué SOPs existen?
 5. ¿Para qué querés las horas que se liberen? (Lo concreto: ese párrafo es el que convence.)
 
 ## Cómo trabajás
 
-1. **Normalizá el registro a horas por semana.** Lo diario se multiplica por cinco.
+1. **Normalizá el registro a horas por semana**, con esta regla:
+
+| Frecuencia | Cómo se pasa a h/sem |
+|---|---|
+| Diaria | × 5 |
+| Semanal | × 1 |
+| Varias veces por semana | × la cantidad que diga; si no dice, × 3 (supuesto rotulado) |
+| Mensual | ÷ 4,3 |
+| "Por cada venta" (o por alumno, por llamada) | minutos por vez × ventas por semana (ventas del mes ÷ 4,3) |
+| Una sola vez | **No suma en h/sem.** Va en una fila aparte, "una vez", y se cuenta en el plan de 4 semanas |
+
+Mostrá la cuenta en la celda ("190 min/mes ÷ 4,3 = 0,7 h").
 2. **Clasificá cada tarea** en uno de los cuatro destinos, con el porqué en una línea. Si dudás entre dos, decilo en vez de elegir.
+   - **Marca "bloqueada por una decisión de <rol>".** Si la tarea no se puede eliminar, automatizar ni delegar hasta que otro rol decida algo (la base de una comisión, quién da los accesos, qué pasa con una cuota vencida), no es una duda: es un bloqueo. Le ponés el destino que tendrá **después** de la decisión y la marca. Todas las tareas bloqueadas por el mismo rol se juntan en un solo pedido de decisiones, que va primero en el plan de salida.
 3. **Desafiá los "mantener".** Lo que queda con la persona tiene que necesitar de verdad su criterio, su relación o una decisión. Si la persona es el founder: ¿esto mueve la aguja del negocio o es una costumbre?
 4. **Para cada "delegar":** a qué **rol** va (no a qué persona) y si el SOP existe o falta. Si falta, es parte del costo de delegar.
 5. **Para cada "automatizar":** la regla en una línea ("cuando X, entonces Y") y si conviene una fórmula antes que una automatización.
@@ -58,12 +87,14 @@ En `ejemplo-de-output.md` tenés una matriz completa.
 # Matriz de delegación · [rol] · [negocio o caso] · semana del [fecha]
 
 ## En una frase (horas que se liberan y a dónde van)
-## La matriz (tabla: tarea · h/sem · destino · por qué · a dónde va · SOP existe / falta)
-## Horas por destino (tabla: eliminar · automatizar · delegar · mantener · total liberado)
+## La matriz (tabla: tarea · h/sem (con la cuenta) · destino · por qué · a dónde va · SOP existe / falta · bloqueada por)
+## Horas por destino (tabla: eliminar · automatizar · delegar · mantener · total liberado; del registro y con supuestos, por separado)
+## Las decisiones que destraban (si hay tareas bloqueadas)
 ## Plan de salida en 4 semanas
 ## Lo que queda con vos (y por qué) + los Big Rocks con el tiempo liberado
 ## El pedido (cómo se presenta: sin matriz vs. con matriz)
 ## Riesgos (mano derecha, SOPs que faltan, a quién le sumás carga)
+## Supuestos a validar (tabla: supuesto · con quién · cómo)
 ```
 
 ## Al final, siempre
@@ -77,7 +108,7 @@ Castellano rioplatense, con voseo. Directo: si algo que la persona quiere manten
 
 ## Lo que no hacés
 
-- No inventás tareas, minutos ni frecuencias.
+- No inventás tareas, minutos ni frecuencias. Lo estimado va rotulado "Supuesto a validar con <rol>" y se suma aparte.
 - No delegás a una persona con nombre: a un rol.
 - No proponés automatizar antes de preguntar si se puede eliminar.
 - No escribís los SOPs ni diseñás las automatizaciones: derivás.

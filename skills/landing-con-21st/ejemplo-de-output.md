@@ -78,9 +78,32 @@ const CONFIG = {
   videoUrl: "",                      // [PENDIENTE] link directo del video del founder
   testimonios: [                     // [PENDIENTE] 4 videos con permiso
     { videoUrl: "", frase: "", rol: "" }
-  ]
+  ],
+  utm: ["utm_source", "utm_medium", "utm_campaign", "utm_content"], // se pasan al embed del calendario
+  noCalifica: { campo: "", valores: [], destinoUrl: "" }             // no aplica: el negocio no tiene criterio escrito
 };
 ```
+
+## El archivo completo
+
+En camino B la skill entrega el `index.html` **entero**: en Claude Code lo crea como archivo después del OK al plan; en el chat lo da completo en un bloque. Acá se muestra solo el esqueleto, por largo:
+
+```html
+<style>
+.lf{ /* variables de color desde el CONFIG */ }
+.lf [hidden]{display:none!important}  /* para que los botones no pisen hidden */
+/* ... estilos de cada sección, todos bajo .lf ... */
+</style>
+<div class="lf">
+  <!-- hero: video + calendario · problema · mecanismo · prueba · para quién · FAQ · CTA final -->
+</div>
+<script>
+const CONFIG = { /* el de arriba */ };
+/* lee los utm de la URL y los suma al link del calendario; muestra [PENDIENTE] si falta un dato */
+</script>
+```
+
+Para pegarlo en GoHighLevel: copiá desde `<style>` hasta el último `</script>` en un bloque de HTML personalizado.
 
 ## Rondas de revisión
 
@@ -100,7 +123,13 @@ Después de la tercera ronda, lo que siga va como pedido nuevo o al `CLAUDE.md`.
 
 - URL pública del logo.
 - Video del founder y los 4 testimonios con permiso.
-- Probar el embed del calendario con una reserva de prueba.
+- Probar el embed del calendario con una reserva de prueba, con `?utm_source=instagram` en la URL.
+
+## Supuestos a validar
+
+| Supuesto | Con quién | Cómo |
+|---|---|---|
+| El bloque de HTML personalizado de GoHighLevel acepta `<script>` en el plan que paga el negocio | Quien administra GoHighLevel | Pegar el archivo en una página de prueba sin publicar |
 
 ---
 

@@ -1,6 +1,6 @@
 # Ejemplo de output · Cuestionario de Diagnóstico por Rol
 
-> Datos ficticios. Mentoría high ticket de 6 meses para kinesiólogos que quieren abrir su consultorio online, USD 2.000 en 3 cuotas, vendida por llamada. Respondieron 7 personas de 5 roles por formulario, y hay dos transcripciones de 1 a 1 (setter y coach). Modo 2: cruce de respuestas.
+> Datos ficticios. Mentoría high ticket de 6 meses para kinesiólogos que quieren abrir su consultorio online, USD 2.000 en 3 cuotas, vendida por llamada. Respondieron 7 personas de 5 roles por formulario, y hay dos transcripciones de 1 a 1 (setter y coach). Modo 2: cruce de respuestas. Founder, coach y asistente son una persona cada uno: este informe es de **lectura reservada** (lo usa quien diagnostica) y al founder le llega la versión por tema, sin sus citas.
 
 ---
 
@@ -82,4 +82,4 @@ Lista para pegar como evidencia en la skill Auditoría Operativa de Infonegocio:
 
 ---
 
-¿Querés que lo pase al formato de evidencia de la skill Auditoría Operativa de Infonegocio? Y no te olvides de devolverle algo al equipo: dos líneas con qué salió y qué se va a hacer. Si responden y no pasa nada, la próxima encuesta no la contesta nadie.
+¿Querés que lo pase al formato de evidencia de la skill Auditoría Operativa de Infonegocio? ¿Y te armo la versión para el founder, por tema y sin las citas de coach, asistente y founder (que son una persona cada uno)? Y no te olvides de devolverle algo al equipo: dos líneas con qué salió y qué se va a hacer. Si responden y no pasa nada, la próxima encuesta no la contesta nadie.

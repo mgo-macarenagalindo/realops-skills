@@ -1,6 +1,6 @@
 # Casos de uso · Pedido con Datos
 
-Tres situaciones donde esta skill te ayuda a pedir lo que venís postergando. Personas y negocios ficticios.
+Cuatro situaciones donde esta skill te ayuda a pedir lo que venís postergando. Personas y negocios ficticios.
 
 ---
 
@@ -37,3 +37,15 @@ Tres situaciones donde esta skill te ayuda a pedir lo que venís postergando. Pe
 **Qué te devuelve.** El mensaje y el guion para proponer el precio nuevo con aviso previo, con dos alternativas (escalonado en dos meses, o menos alcance por el mismo fee) y tu línea si dice que no.
 
 **Por qué sirve.** Cobrarle menos a tu cliente más viejo es la forma más silenciosa de perder plata todos los meses.
+
+---
+
+## 4. Practicar con un caso, sin saber el sueldo
+
+**La situación.** No tenés un trabajo donde pedir nada. Practicás con un caso del programa: hacés de la coordinadora que armó la base y que espera al founder para todo. El caso no dice cuánto gana ni qué se acordó al entrar.
+
+**Qué le pasás.** Lo que dice el caso del rol, lo que armaste y los números que podés sacar de la base. Donde no sabés, contestás "no lo sé".
+
+**Qué te devuelve.** Preguntas más chicas para llegar a la respuesta y, si el caso no la trae, un supuesto marcado ("[SUPUESTO: …, confirmalo con el founder]") y la lista "Para confirmar" al final. Como no hay sueldo, el pedido sale como **pedido de alcance o autoridad**: un título y dos decisiones que pasan a ser tuyas, con la paga como paso 2 con fecha. Completo, sin [X], y con role-play.
+
+**Por qué sirve.** Practicás el pedido entero y llegás a tu primer pedido real sabiendo qué datos tenés que juntar antes.

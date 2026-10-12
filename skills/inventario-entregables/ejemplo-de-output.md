@@ -15,7 +15,7 @@ Para: infoproductores con equipo de 2 a 8 personas que venden por llamada · Mod
 | 1 | "No sé dónde se me traba el negocio, solo sé que estoy cansada" | Mapa de diagnóstico operativo con los 5 cuellos de botella | Sabe qué arreglar primero y cuánto le cuesta no hacerlo | Diagnóstico | Lo sé hacer |
 | 2 | "No sé quién tiene acceso a qué" | Checklist de accesos y documento central de contraseñas | Si alguien se va, sabe qué cambiar en una hora | Diagnóstico | Lo sé hacer ⭐ |
 | 3 | "Todo vive en mi cabeza" | Inventario de procesos con cuáles están documentados y cuáles no | Ve qué se rompe si rota alguien del equipo | Diagnóstico | Lo sé hacer |
-| 4 | "No sé cuánto facturo de verdad" | Lectura de números: facturado vs. cobrado, cuotas pendientes, por canal | Sabe cuánto entró, de dónde y qué falta cobrar | Diagnóstico | Lo hice en un caso práctico |
+| 4 | "No sé cuánto facturo de verdad" (paráfrasis) | Lectura de números: facturado vs. cobrado, cuotas pendientes, por canal | Sabe cuánto entró, de dónde y qué falta cobrar | Diagnóstico | Lo hice en un caso práctico |
 | 5 | "No sé de dónde vienen las ventas" | CRM de ventas con canal de origen y estado de llamada separado del estado del lead | Sabe qué canal vende y cuál solo llena la agenda | Implementación | Lo sé hacer |
 | 6 | "La gente agenda y no viene" | Secuencia de 4 recordatorios antes de la llamada | Sube la asistencia sin que el closer escriba a mano | Implementación | Lo sé hacer ⭐ |
 | 7 | "Se me vencen cuotas y nadie avisa" | Tabla de deals y cuotas cobradas con alerta de cuota vencida | Nadie se entera tarde de un impago | Implementación | Lo sé hacer |
@@ -24,10 +24,10 @@ Para: infoproductores con equipo de 2 a 8 personas que venden por llamada · Mod
 | 10 | "No encuentro nada" | Wiki del negocio en Notion con librería de SOPs en tabla | Cualquier persona encuentra un proceso en dos clics | Implementación | Lo sé hacer ⭐ |
 | 11 | "Cuando entra alguien nuevo le explico todo yo" | 5 SOPs de los procesos que más se repiten, con diagrama | Alguien nuevo ejecuta sin preguntar | Implementación | Lo sé hacer |
 | 12 | "No sé qué está haciendo el equipo" | Gestor de tareas en Notion con vista por persona y Big Rocks | Ve el estado del equipo en 5 minutos | Implementación | Lo sé hacer ⭐ |
-| 13 | "Mi landing es vieja y no convierte" | Landing nueva con un solo CTA, hecha con Claude | Una página que lleva a agendar | Implementación | Me animo a aprender · práctica el 25/10 |
+| 13 | "Mi landing es vieja y no convierte" | Landing nueva con un solo CTA, hecha con Claude | Una página que lleva a agendar | Implementación | Me animo a aprender · práctica el 25/10 (propuesta, a confirmar) |
 | 14 | "No sé si mis alumnos están contentos" | Encuesta a mitad y al final del programa, con NPS | Detecta a quién se le cae antes de que pida reembolso | Implementación | Lo sé hacer |
 | 15 | "No sé qué números mirar" | Tablero de 5 KPIs con su ficha | Sabe en 30 segundos si el mes va bien o mal | Optimización | Lo hice en un caso práctico |
-| 16 | "Armo los reportes a mano todos los lunes" | Reporte semanal automático al founder | Recupera 2 a 3 horas por semana | Optimización | Me animo a aprender · práctica el 01/11 |
+| 16 | "Armo los reportes a mano todos los lunes" (paráfrasis) | Reporte semanal automático al founder | Recupera 2 a 3 horas por semana | Optimización | Me animo a aprender · práctica el 01/11 (propuesta, a confirmar) |
 | 17 | "Las llamadas de venta no cierran y no sé por qué" | Análisis de llamadas con Claude: objeciones y puntajes por etapa | Sabe si el problema es el guion, el closer o el lead | Optimización | Lo sé hacer |
 | 18 | "Implementamos cosas y después nadie las usa" | Capacitación grabada al equipo + auditoría mensual de uso | El sistema se usa a los 3 meses | Optimización | Lo sé hacer |
 
@@ -62,6 +62,13 @@ Filas 15 a 18. La más corta. Es donde está la continuidad después de un proye
 1. Tenelo abierto, no compartido. Es tu recursero, no una presentación.
 2. Cuando el founder nombra un dolor, buscá la fila y anotá el número.
 3. Al final, armá la propuesta solo con las filas que aparecieron en la conversación.
+
+## Supuestos a validar
+
+| Supuesto | Con quién | Cómo |
+|---|---|---|
+| Fechas de práctica de las filas 13 y 16 (25/10 y 01/11): las propuse yo, una actividad por semana | Vos | Confirmalas o movelas hoy |
+| Los dolores de las filas 4 y 16 son paráfrasis de lo que escuchaste en la comunidad, no frases textuales | Tu primera llamada de diagnóstico | Anotá cómo lo dice el founder y reemplazá la frase |
 
 ---
 

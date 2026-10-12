@@ -35,11 +35,31 @@ De a una pregunta, como conversación, no como formulario:
 
 Si adjunta material (su portafolio, un diagnóstico, notas de llamadas, una lista de tareas de su trabajo), leelo antes de preguntar: ahí suelen estar la mitad de las filas.
 
+Si contesta "no lo sé" a cualquiera de las cinco, pasás al plan B de esa pregunta antes de seguir.
+
+## Si el alumno no sabe (plan B)
+
+"No sé" no frena el inventario. Para cada pregunta clave: primero 2 o 3 preguntas guía más chicas, de a una; después ejemplos típicos de infonegocio; y si igual no sabe, un **supuesto razonable** rotulado **"Supuesto a validar con <rol>"**, y seguís. El inventario sale completo, sin `[completar]`. Los supuestos van juntos al final, en una tabla.
+
+| Pregunta | Preguntas guía (2 o 3, de a una) | Respuestas típicas en infonegocio | Si igual no sabe |
+|---|---|---|---|
+| **1 · Qué sabés hacer** | ¿Qué actividades del programa ya entregaste? (le pasás la lista para tildar, abajo) · ¿Qué te piden siempre a vos en tu trabajo o en tu casa? · ¿Qué herramienta abrís sin miedo? | Ordenar un Drive o un Notion, armar una planilla de ventas, escribir un proceso, un formulario, una automatización simple | Solo cuenta como "lo hice en un caso" lo que tildó. Lo demás va como "me animo" o no va |
+| **2 · Qué te animás a aprender** | De la lista de actividades, ¿cuáles te faltan? · ¿Cuál de los dolores que anotaste todavía no tiene fila? · ¿Qué te dio curiosidad en las clases? | Cobros y cuota vencida, onboarding automatizado, checklist de accesos, wiki, análisis de llamadas | Proponé las actividades que faltan y que resuelven un dolor del inventario, en el orden del programa. Cada una con **fecha propuesta, a confirmar** (ver abajo) |
+| **3 · Qué dolores ves** | ¿Qué frase se repite cuando un founder se queja? · ¿Qué pregunta nadie sabe contestar en el grupo del equipo? · En el caso práctico: ¿qué dice el brief del founder y qué dicen los mensajes del equipo? | "Todo pasa por mí", "cada uno me da un número distinto", "nadie sabe si pagó la segunda cuota", "el alumno pagó y no tiene acceso" | Usá los dolores típicos de la columna del medio y pedile que diga cuáles reconoce. Los que salen del material van **textuales, con fuente**; si no hay cita, la fila lleva **(paráfrasis)** |
+| **4 · A quién le vendés** | ¿En qué negocios digitales estás adentro (como alumno, cliente o trabajador)? · ¿Con quién te sentirías cómodo en una llamada? · ¿Qué tipo de negocio tiene el caso con el que practicaste? | Mentoría high ticket con setters y closers; membresía; curso con lanzamientos; servicio 1 a 1 | Supuesto: el mismo tipo de negocio que el caso práctico o que el negocio donde trabaja. **Supuesto a validar con tu primera llamada de venta** |
+| **5 · Hecho por vos o con vos** | ¿El founder tiene equipo que va a usar lo que entregues? · ¿Dice "no tengo tiempo" o "quiero entenderlo"? · ¿Paga por resultado o por aprender? | Founder con equipo y ticket alto: "hecho por vos". Founder solo, que arranca o con poco presupuesto: "hecho con vos" | **Criterio por defecto:** si el negocio tiene equipo de 3 personas o más y vende high ticket, "hecho por vos"; si el founder trabaja solo o casi solo, "hecho con vos". Rotulado "Supuesto a validar con el founder" |
+
+**Lista de actividades de RealOps™ para tildar** (pregunta 1 y 2). Lo tildado es "lo hice en un caso" (o "lo sé hacer", si ya lo hizo para un negocio real):
+
+T1 Copiloto operativo · 1 Mapa de diagnóstico operativo · 2 Mapa de fricción invisible · 3 Checklist de accesos · 4 Stack elegido y justificado · 5 SOP profesional + diagrama · 6 Wiki operativa · 7 Gestor de tareas en Airtable · 8 CRM de servicio en Notion · 9 Calendario de contenidos en Notion · 10 Centro de comunicación · 11 Migración documentada · 12 CRM de ventas en Airtable · 13 Primera automatización en n8n · 14 CRM de servicio en Airtable · 15 Cobros y cuota vencida · 16 Onboarding automatizado · 17 Airtable conectado a Claude · 18 Documentar una automatización · 19 Dashboard de KPIs · 20 Dashboard de ventas y marketing · 21 y 22 Análisis de llamadas · 23 Informes de sesiones · 24 API de Meta a Claude · 25 Reporte semanal de ops · 26 Customer journey + tracking · 27 Matriz de delegación · 28 Organigrama y plan de incorporación · 29 App en Vercel · 30 Portafolio.
+
+**Si no tiene fecha para un "me animo".** Proponé una y pedí confirmación: **una actividad cada semana**, empezando por la próxima semana y en el orden en que más plata destraban (cobros antes que wiki). Cada fecha dice "propuesta, a confirmar" hasta que la confirme.
+
 ## Cómo se arma cada fila
 
 | Columna | Qué va | Ejemplo |
 |---|---|---|
-| **Dolor** | La frase como la diría el founder, no en jerga | "No sé cuánto facturo de verdad" |
+| **Dolor** | La frase como la diría el founder, no en jerga. Si sale de un material (brief, mensajes, llamada), **textual y con fuente**; si no, marcada **(paráfrasis)** | "No sé cuánto facturo de verdad" |
 | **Entregable** | Un objeto concreto que existe cuando terminás. No una actividad | CRM de ventas con canal de origen y estado de cuotas |
 | **Resultado** | Qué cambia para el negocio, en una línea | Sabe cada lunes cuánto entró, por qué canal y qué falta cobrar |
 | **Fase** | Diagnóstico · Implementación · Optimización | Implementación |
@@ -49,7 +69,8 @@ Reglas de las filas:
 
 - **Entregable = objeto.** "Acompañamiento", "asesoría" u "ordenar" no son entregables. "Librería de 12 SOPs en una tabla" sí.
 - **Un dolor puede tener dos entregables** (uno simple y uno completo). Está bien: te da opciones en la llamada.
-- **Nada que no sepas hacer sin marcarlo.** Si va "me animo a aprender", lleva fecha de práctica en el sandbox. Nunca se ofrece como algo ya probado.
+- **Nada que no sepas hacer sin marcarlo.** Si va "me animo a aprender", lleva fecha de práctica en el sandbox (si no la tiene, propuesta y a confirmar). Nunca se ofrece como algo ya probado.
+- **Los dolores no se inventan ni se embellecen.** Textual con fuente, o "(paráfrasis)". Un dolor textual vende más en la llamada porque el founder se reconoce.
 - **Lo simple vende.** Un Notion ordenado, un CRM con Forms y Sheets o una landing hecha con Claude son entregables completos (clases del 20/04, 11/05 y 23/07).
 
 ## El journey de 3 fases
@@ -94,8 +115,9 @@ Para: [a quién le vende] · Modalidad: hecho por vos / hecho con vos
 ### Implementación
 ### Optimización
 ## ⭐ Lo que podés vender esta semana (3 a 5 filas)
-## Lo que te conviene practicar (huecos y filas "me animo")
+## Lo que te conviene practicar (huecos y filas "me animo", con fecha)
 ## Cómo usarlo en la llamada (3 líneas)
+## Supuestos a validar (tabla: supuesto · con quién · cómo)
 ```
 
 ## Al final, siempre

@@ -25,7 +25,7 @@ De 48 horas por semana, **15 pueden salir de vos**: 1 se elimina, 5 se automatiz
 | Revisar el pipeline con el closer | 1 | Mantener | Necesita tu criterio sobre los datos | Vos | — |
 | Diseñar y mejorar la base y las automatizaciones | 6 | Mantener | Es tu rol estratégico | Vos | — |
 | Reunión semanal con el founder | 1,5 | Mantener | Decisiones | Vos | — |
-| Conciliación de cobros (cuotas vs. pasarela) | 3 | Mantener (por ahora) | Hoy tiene excepciones que necesitan tu criterio; cuando haya regla escrita, se delega | Vos → asistente en 2 meses | Falta |
+| Conciliación de cobros (cuotas vs. pasarela) | 3 | Delegar · **bloqueada por una decisión del founder** | Hoy cada excepción (pagó de más, pagó por transferencia sin nombre) se decide caso por caso. Con la regla escrita, la toma asistencia | Vos hasta la decisión → asistente | Falta |
 | Resolver incendios ("no le llegó el mail", "pagó dos veces") | 8 | Mantener (a reducir) | Son síntomas: cada incendio repetido es un SOP o una automatización que falta | Vos | — |
 | Otras tareas de coordinación del equipo | 13,5 | Mantener | Liderazgo del equipo, 1 a 1, prioridades | Vos | — |
 | **Total** | **48** | | | | |
@@ -34,7 +34,13 @@ De 48 horas por semana, **15 pueden salir de vos**: 1 se elimina, 5 se automatiz
 
 | Eliminar | Automatizar | Delegar | Mantener | Total liberado |
 |---|---|---|---|---|
-| 1 | 5 | 9 | 33 | **15 h por semana** |
+| 1 | 5 | 9 | 30 + 3 bloqueadas | **15 h por semana** (+ 3 cuando el founder decida la regla de conciliación) |
+
+Todo sale del registro: no hay horas supuestas.
+
+## Las decisiones que destraban
+
+Una sola, del founder: **qué se hace con cada excepción de cobro** (pago de más, transferencia sin nombre, pago parcial). Escrita en una página, libera 3 h más por semana.
 
 ## Plan de salida en 4 semanas
 
@@ -49,7 +55,7 @@ Dentro de cada semana, prioridad A (lo que más horas libera con menos riesgo) p
 
 ## Lo que queda con vos
 
-33 horas, de las cuales **8 son incendios**: no son trabajo estratégico, son la trampa de la mano derecha. Cada incendio que se repite más de dos veces en un mes se anota y se convierte en SOP o automatización.
+33 horas (30 + las 3 de conciliación, bloqueadas), de las cuales **8 son incendios**: no son trabajo estratégico, son la trampa de la mano derecha. Cada incendio que se repite más de dos veces en un mes se anota y se convierte en SOP o automatización. Las 3 h de conciliación salen cuando el founder decida la regla.
 
 **Big Rocks con las 15 horas liberadas** (1 o 2 por semana):
 1. El tablero de cobranza que hoy no existe (cuánto se facturó, cuánto entró, qué está vencido).
@@ -68,6 +74,10 @@ Dentro de cada semana, prioridad A (lo que más horas libera con menos riesgo) p
 - **Mano derecha:** si no se reducen los incendios, las horas liberadas se las comen. Registrá los incendios 4 semanas.
 - **SOPs que faltan:** sin los 2 SOPs, la asistencia te va a preguntar todo y no liberás nada. Escribilos antes de la semana 4.
 - **Carga en otros:** el aviso automático a la coach le suma lectura en #servicio; avisale antes.
+
+## Supuestos a validar
+
+Ninguno: el registro es de una semana completa, anotado al terminar cada bloque. Si hubiera sido parcial, acá irían las horas estimadas con "Supuesto a validar con <rol>".
 
 ---
 

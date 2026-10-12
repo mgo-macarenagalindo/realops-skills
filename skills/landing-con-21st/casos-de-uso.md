@@ -1,6 +1,6 @@
 # Casos de uso · Constructor de Landing con 21st.dev
 
-Tres situaciones de infonegocio donde una página escrita pasa a funcionar en un día. Negocios y nombres ficticios.
+Cuatro situaciones de infonegocio donde una página escrita pasa a funcionar en un día. Negocios y nombres ficticios.
 
 ---
 
@@ -37,3 +37,15 @@ Tres situaciones de infonegocio donde una página escrita pasa a funcionar en un
 **Qué te devuelve.** La construcción de la nueva y la recomendación de pasar a un agente funcional con `clientes/<nombre>/` (vía **Arquitecto de Agentes en Carpeta**), con las reglas que repetiste dos veces ya escritas en su `CLAUDE.md`.
 
 **Por qué sirve.** Es el agente creador de landings de la clase del 20/07, armado desde tu propio trabajo.
+
+---
+
+## 4. La página de un caso práctico, sin marca ni links
+
+**La situación.** Estás haciendo el programa con el caso práctico y querés la página de aplicación como pieza de portafolio. No hay copy aprobado y no sabés colores, agenda ni WhatsApp.
+
+**Qué le pasás.** El copy que escribiste con los datos de la ficha del caso y lo que sepas de sus herramientas.
+
+**Qué te devuelve.** Camino B con copy de práctica rotulado: el plan, el prompt, el CONFIG con UTM y la regla de "no califica" si el caso tiene criterio escrito, y el `index.html` completo funcionando en modo demo. Lo que no sabías va como "Supuesto a validar con <rol>"; solo testimonios, logo y video quedan `[PENDIENTE]`.
+
+**Por qué sirve.** Sale una página que se puede mostrar y probar hoy, sin inventar nada del negocio.

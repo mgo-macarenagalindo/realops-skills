@@ -12,13 +12,13 @@ Hoy sabés de dónde viene cada venta, qué cuotas están pendientes y cada alum
 
 ## El antes y el después
 
-| Qué medimos | Noviembre (antes) | Enero (después) |
-|---|---|---|
-| Ventas con canal de origen conocido | 0 de 38 | 41 de 43 |
-| Cuotas vencidas sin aviso en el mes | 9 | 1 |
-| Horas por semana cargando ventas y cuotas a mano | ~7 h (estimación del equipo) | ~1 h |
-| Tiempo desde la venta hasta que el alumno recibe el acceso | 1 a 3 días | Menos de 10 minutos |
-| Asistencia a las llamadas de venta | 52 % | 54 % |
+| Qué medimos | Noviembre (antes) | Enero (después) | Cómo se midió |
+|---|---|---|---|
+| Ventas con canal de origen conocido | 0 de 38 | 41 de 43 | Medido (CRM) |
+| Cuotas vencidas sin aviso en el mes | 9 | 1 | Medido (tabla Cuotas) |
+| Horas por semana cargando ventas y cuotas a mano | ~7 h | ~1 h | Estimación del equipo, antes y después |
+| Tiempo desde la venta hasta que el alumno recibe el acceso | 1 a 3 días | Menos de 10 minutos | Medido (Zapier) |
+| Asistencia a las llamadas de venta | 52 % | 54 % | Medido (CRM) |
 
 La asistencia casi no se movió: no estaba en el alcance. Es uno de los próximos pasos.
 
@@ -56,6 +56,12 @@ Fuera del alcance acordado, sin costo:
 1. **Recordatorios antes de la llamada.** La asistencia sigue en 54 %. Con 4 recordatorios automáticos debería subir.
 2. **Revisión mensual de la base.** Para que el CRM no se ensucie a los tres meses.
 3. **Capacitación del setter nuevo** cuando entre.
+
+## Supuestos a validar
+
+| Supuesto | Con quién se valida | Cómo |
+|---|---|---|
+| El "después" de horas manuales (~1 h) es una estimación de Lucía, no un registro | Lucía (setter) | Una semana de registro en febrero |
 
 ---
 
@@ -95,3 +101,7 @@ Las frases son de la entrevista, recortadas, no reescritas.
 ---
 
 ¿Armamos la propuesta para seguir? Los próximos pasos 1 y 2 son una continuidad natural (skill **Propuesta de Continuidad**).
+
+---
+
+> **Si fuera un caso práctico** (modo práctica): la columna "Cómo se midió" diría "medido en práctica", "calculado sobre la base de muestra" o "meta · Supuesto a validar con <rol>"; "Lo que dijo el equipo" sería una encuesta simulada con el copiloto, rotulada, con cada frase "(simulada)"; y todo el pedido de testimonio se reemplaza por un apéndice de una línea. No hay testimonio en un caso práctico.

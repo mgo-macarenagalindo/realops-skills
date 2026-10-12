@@ -1,6 +1,6 @@
 # Casos de uso · Detective de Automatizaciones
 
-Tres situaciones de infonegocio donde una automatización que "andaba" deja de andar. Negocios y nombres ficticios.
+Cuatro situaciones de infonegocio donde una automatización que "andaba" deja de andar. Negocios y nombres ficticios.
 
 ---
 
@@ -37,3 +37,16 @@ Tres situaciones de infonegocio donde una automatización que "andaba" deja de a
 **Qué te devuelve.** Primero: "apagalo ya". Después, la rama E: el workflow actualiza el campo que lo dispara, así que se vuelve a disparar (bucle). El arreglo con una condición de "ya enviado", la prueba con un contacto nuevo de prueba y el mensaje para el equipo de servicio por si algún alumno escribe.
 
 **Por qué sirve.** Te ordena la urgencia: frenar el daño antes de entenderlo. Clase 25/06.
+
+---
+
+## 4. Leads asignados a alguien que ya no está, y nadie tiene la clave
+
+**La situación.** En una mentoría grupal, un lead escribe que llenó la aplicación hace un mes y nadie le contestó. En la base figura asignado a una setter que se fue hace dos meses. Aparecen 9 así. La automatización que reparte está en la cuenta de esa ex setter: nadie del equipo puede ver el historial. Y a "¿está haciendo daño ahora?" o "¿qué cambió?", la respuesta es "no lo sé".
+
+**Qué le pasás.** Solo el export de la tabla de leads y lo que dice el equipo ("reparte en rueda, nunca lo tocamos").
+
+**Qué te devuelve.** El plan B en acción: con preguntas más chicas ("¿cuál es el lead mal asignado más nuevo?") se ve que la falla no se repite hace semanas, así que **no se apaga** (apagarla cortaría la entrada de aplicaciones). La rama F (personas y cuentas), el diagnóstico desde los datos de destino, lo confirmado separado de los supuestos rotulados "Supuesto a validar con <rol>", y un arreglo en dos partes: reasignar los 9 hoy y recuperar la cuenta. Más el checklist de baja de equipo como prevención.
+
+**Por qué sirve.** Es la falla más común en equipos que rotan, y la más difícil: sin acceso, conseguir el acceso es el paso 1 del arreglo.
+

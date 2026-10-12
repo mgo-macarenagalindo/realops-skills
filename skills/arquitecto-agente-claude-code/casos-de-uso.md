@@ -10,7 +10,9 @@ Tres situaciones de infonegocio donde esta skill te ahorra la tarde de prueba y 
 
 **Qué le pasás.** Qué entra (la transcripción de la sesión), qué tiene que salir (qué se trabajó, decisiones, tareas con fecha, pendientes), quién lo revisa antes de mandarlo y qué no puede pasar nunca (inventar tareas, nombrar a otros alumnos).
 
-**Qué te devuelve.** El test de las cinco preguntas (5 de 5: va), la decisión (agente **funcional**: una tarea, muchas mentoras), la carpeta con `CLAUDE.md`, `memory.md`, `plantillas/informe-de-sesion.md` y las 3 pruebas para darlo por listo.
+**Qué te devuelve.** El test de las cinco preguntas (5 de 5: va), la decisión (agente **funcional de un solo negocio**: una tarea, ordenada por mes), la carpeta con `CLAUDE.md`, `memory.md`, `plantillas/informe-de-sesion.md`, el estilo de cada mentora y las 3 pruebas para darlo por listo.
+
+**Si no sabés algo.** Si no sabés quién revisa o si las sesiones se graban todas, la skill te hace dos o tres preguntas más chicas. Si igual no sabés, deja un supuesto rotulado ("Supuesto a validar con el founder") en el `memory.md` y la carpeta sale completa igual.
 
 **Por qué sirve.** Es la actividad 23 del programa armada en Claude Code, con memoria propia y sin repetir instrucciones en cada sesión.
 

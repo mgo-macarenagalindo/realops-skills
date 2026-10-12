@@ -30,10 +30,10 @@ Tres situaciones de infonegocio donde esta skill te ahorra diez reuniones. Negoc
 
 ## 3. Practicás sobre un caso del programa
 
-**La situación.** No trabajás en ningún negocio todavía. Tomás un caso práctico del programa: un programa de 4 meses para coaches de bienestar, con las respuestas del equipo ya incluidas en el material.
+**La situación.** No trabajás en ningún negocio todavía. Tomás un caso práctico del programa: un programa de 4 meses para coaches de bienestar. El caso trae la ficha, el brief del founder y los mensajes del equipo, pero no las respuestas al cuestionario. Y hay cosas que no sabés: dónde lo responderían, qué roles externos hay.
 
-**Qué le pasás.** El material del caso con las respuestas por rol.
+**Qué le pasás.** El material del caso. Cuando no sabés algo, la skill te hace dos o tres preguntas más chicas ("¿qué herramientas ya pagan?") y, si el caso no lo dice, usa un supuesto rotulado "Supuesto a validar con el founder".
 
-**Qué te devuelve.** El diagnóstico por rol completo y la lista "Para la Auditoría", que después usás en la Actividad 1 (Mapa de Diagnóstico Operativo).
+**Qué te devuelve.** El cuestionario completo (10 preguntas por persona como tope, versión corta para externos) y una guía para practicar el modo 2: simular las respuestas con el copiloto del caso, rotuladas "simuladas", y cruzarlas con lo que el caso sí trae escrito.
 
-**Por qué sirve.** Aprendés a leer respuestas del equipo con método antes de hacerlo con un founder real mirando.
+**Por qué sirve.** Aprendés a leer respuestas del equipo con método antes de hacerlo con un founder real mirando, sin confundir práctica con evidencia.

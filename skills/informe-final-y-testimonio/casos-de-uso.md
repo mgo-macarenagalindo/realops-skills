@@ -1,6 +1,6 @@
 # Casos de uso · Informe Final y Testimonio
 
-Tres situaciones donde esta skill convierte un proyecto terminado en un caso de éxito. Personas y negocios ficticios.
+Cuatro situaciones donde esta skill convierte un proyecto terminado en un caso de éxito. Personas y negocios ficticios.
 
 ---
 
@@ -37,3 +37,15 @@ Tres situaciones donde esta skill convierte un proyecto terminado en un caso de 
 **Qué te devuelve.** El informe final del proyecto interno con el antes y el después, y la versión anonimizada para tu portafolio, sin nombre del negocio ni montos exactos.
 
 **Por qué sirve.** Lo que no se presenta, no existe. Y ese informe es el argumento para tu próximo pedido de rol o de aumento.
+
+---
+
+## 4. Cerrar un caso práctico, sin cliente
+
+**La situación.** Hiciste el proyecto con el caso práctico del programa, como si fueras consultor externo. No hubo cliente, ni encuesta, ni "después" real.
+
+**Qué le pasás.** La propuesta que armaste, el diagnóstico del caso y tu copia de la base, si construiste algo ahí.
+
+**Qué te devuelve.** El informe completo en modo práctica: el antes con los números del caso; el después medido en tu copia de la base o calculado aplicando la regla nueva a los mismos datos, y lo que depende del tiempo como meta, con "Supuesto a validar con <rol>". Suma una encuesta simulada con el copiloto, rotulada, y el testimonio como apéndice de una línea: en un caso práctico no se inventa.
+
+**Por qué sirve.** Sale una pieza de portafolio honesta y entera, no una plantilla llena de huecos.

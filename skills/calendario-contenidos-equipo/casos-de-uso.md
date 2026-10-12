@@ -1,6 +1,6 @@
 # Casos de uso · Calendario de Contenidos del Equipo
 
-Tres situaciones de infonegocio donde el contenido deja de trabarse. Negocios y nombres ficticios.
+Tres situaciones de infonegocio donde el contenido deja de trabarse, y cómo practicarla con el caso A. Negocios y nombres ficticios.
 
 ---
 
@@ -37,3 +37,15 @@ Tres situaciones de infonegocio donde el contenido deja de trabarse. Negocios y 
 **Qué te devuelve.** El formulario único de métricas a 7 días (con retención, no solo vistas), vinculado a la base de piezas, con rangos de fecha estándar, y la regla de juntar 4 semanas antes de sacar conclusiones.
 
 **Por qué sirve.** Un formulario para todos los reportes crea un único bloque de análisis (clase del 20/04).
+
+---
+
+## 4. Practicás con el caso práctico A (Método Alto Impacto)
+
+**La situación.** El caso A no trae un equipo de contenido armado (la actividad 9 no figura en su tabla de actividades): hay un founder que pide y aprueba todo por chat, un editor freelance que no puede subir los brutos a la carpeta de Drive y una sola pieza reconstruible, las dos versiones nuevas del anuncio AD-07.
+
+**Qué le pasás.** Lo que sabés del caso, aunque sea poco, y "no lo sé" en lo que no aparece (quién publica, cuántas piezas por semana, cómo se mide el orgánico).
+
+**Qué te devuelve.** El sistema completo igual, con los huecos cubiertos por supuestos rotulados ("Supuesto a validar con Martín"), la pieza de pauta con su código de anuncio y su métrica de venta, la regla del freelancer (su vista y un Drive del negocio) y la lista final "Supuestos a validar". El caso pensado para practicar la actividad 9 entera es el de una academia con lanzamientos (caso B), que se suma durante la cohorte; mientras tanto, el caso A sirve para la parte de pauta y freelancer.
+
+**Por qué sirve.** Practicás lo más común en un negocio real: diseñar con información incompleta, sin inventar y dejando a la vista qué falta confirmar.

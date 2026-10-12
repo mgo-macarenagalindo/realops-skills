@@ -123,6 +123,10 @@ Primeras 4 semanas: solo se carga. Recién en la reunión del lunes 09/11 se com
 4. Avisar en el grupo que desde el lunes las versiones van en la página de la pieza.
 5. Crear el formulario de métricas y probarlo con una pieza ya publicada.
 
+## Supuestos a validar
+
+Nada para validar: todos los datos los dio la persona (equipo, 10 piezas por semana, tiempos de las 3 piezas relevadas). Si alguno hubiera faltado, iría acá como supuesto, con quién lo confirma.
+
 ---
 
 ¿Te armo el mensaje para presentarle el sistema al equipo y al founder?

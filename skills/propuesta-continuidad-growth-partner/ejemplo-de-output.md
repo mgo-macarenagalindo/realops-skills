@@ -64,3 +64,9 @@ Cada mes miramos: asistencia a las llamadas, cuotas vencidas sin aviso y ventas 
 ## Qué sigue
 
 Si te sirve alguna de las dos, la arrancamos el 1 de febrero. Decime cuál y te mando el acuerdo hoy.
+
+---
+
+## Para confirmar (para vos)
+
+- Nada pendiente: Florencia pasó el informe final, sus horas y su valor hora. Si te faltara alguno de esos datos, acá va cada **[SUPUESTO: …, confirmalo]** con qué averiguar y a quién.

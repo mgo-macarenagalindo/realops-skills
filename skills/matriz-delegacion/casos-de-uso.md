@@ -26,14 +26,16 @@ Tres situaciones de infonegocio donde alguien hace demasiado y nadie lo ve en n�
 
 **Por qué sirve.** El founder no delega porque nadie le mostró, tarea por tarea, que puede. La matriz le pone números a esa conversación.
 
+**Ojo con los casos prácticos.** Si practicás con un caso que no trae registro del founder (como el caso A del programa), la skill te avisa: o hacés la matriz de un rol que sí tiene registro, o simulás la semana del founder con el copiloto y la matriz sale rotulada como simulada.
+
 ---
 
 ## 3. Practicás con un caso del programa
 
-**La situación.** Un caso práctico de RealOps™: la asistente de una membresía de idiomas, con su registro de una semana en el material.
+**La situación.** Un caso práctico de RealOps™: la coordinadora de una mentoría high ticket. El material no trae un registro completo de tareas: trae un registro de fricción de una semana (solo lo que se trabó).
 
-**Qué le pasás.** El registro del caso.
+**Qué le pasás.** El registro de fricción y lo que sepas del equipo. Si no sabés si alguien tiene horas libres o cuánto tarda una tarea, la skill te hace preguntas guía y, si seguís sin saber, usa un supuesto rotulado.
 
-**Qué te devuelve.** La matriz completa, con una tarea para eliminar (un reporte que nadie abre), tres para automatizar y el plan de salida.
+**Qué te devuelve.** Una matriz **parcial**, declarada como tal: las tareas del registro normalizadas a h/sem (lo mensual ÷ 4,3, lo "por venta" × ventas por semana), el resto de la semana con bloques típicos rotulados como supuesto, las tareas bloqueadas por una decisión del founder juntas en un pedido, y las horas del registro separadas de las supuestas.
 
 **Por qué sirve.** Es la Actividad 27. Y te entrena para hacerla sobre tu propio trabajo, que es la más difícil.

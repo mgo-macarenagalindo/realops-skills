@@ -6,7 +6,7 @@
 
 ---
 
-# Agente: Informes de Sesión · funcional
+# Agente: Informes de Sesión · funcional de un solo negocio
 
 ## El test de las cinco preguntas
 
@@ -18,7 +18,7 @@
 | ¿Un error es barato de detectar? | La mentora estuvo en la sesión: lo nota al leerlo | Sí |
 | ¿Revisa una persona antes de que salga? | La mentora aprueba cada informe | Sí |
 
-**Veredicto:** 5 de 5. Va. Es un agente **funcional** (una tarea, para muchas mentoras y muchos alumnos), así que se ordena por mentora y nunca mezcla alumnos.
+**Veredicto:** 5 de 5. Va. Es un agente **funcional de un solo negocio**: una tarea (el informe), dentro de una sola mentoría. Se ordena por mes, no por mentora: así la coordinadora compara informes con el mismo criterio. El estilo de cada mentora vive en un archivo aparte.
 
 ## Árbol de la carpeta
 
@@ -28,19 +28,16 @@ informes-de-sesion/
 ├── memory.md
 ├── plantillas/
 │   └── informe-de-sesion.md
-└── mentoras/
-    ├── mentora-a/
-    │   ├── estilo.md
-    │   └── informes/
-    ├── mentora-b/
-    │   ├── estilo.md
-    │   └── informes/
-    └── mentora-c/
-        ├── estilo.md
-        └── informes/
+├── estilos/
+│   ├── mentora-a.md
+│   ├── mentora-b.md
+│   └── mentora-c.md
+└── 2026-10/
+    ├── entrada/          transcripciones de la semana
+    └── salida/           informes listos para revisar
 ```
 
-(En un agente funcional la subcarpeta suele ser por cliente. Acá la unidad de trabajo es la mentora, así que se ordena por mentora.)
+(Si fuera un agente para varias mentorías distintas, iría una subcarpeta por cliente y la regla de no cruzarlas. Acá es un solo negocio.)
 
 ## CLAUDE.md
 
@@ -59,17 +56,17 @@ Trabajás para las mentoras: ellas revisan y mandan cada informe.
 ## 3. Cómo hablás y cómo entregás
 - Castellano rioplatense, con voseo, cálido y concreto. Le hablás al alumno.
 - Formato fijo: plantillas/informe-de-sesion.md. Máximo una página.
-- Guardás cada informe en mentoras/<mentora>/informes/ con el nombre
-  AAAA-MM-DD-alumno-N-v1.md (alumno-N, nunca el nombre real en el archivo).
+- Guardás cada informe en AAAA-MM/salida/ con el nombre
+  AAAA-MM-DD-mentora-X-alumno-N-v1.md (alumno-N, nunca el nombre real en el archivo).
 
 ## 4. Herramientas y archivos
 - Al empezar cada sesión, leé memory.md.
-- Antes de escribir, leé mentoras/<mentora>/estilo.md de la mentora que corresponde.
+- Antes de escribir, leé estilos/<mentora>.md de la mentora que corresponde.
 - Usás solo la transcripción que te pegan. No buscás en internet.
 
 ## 5. Reglas fijas
 - Si algo no está en la transcripción, escribís "no se habló en la sesión". No inventás tareas, fechas ni acuerdos.
-- Nunca leés la carpeta de una mentora mientras trabajás para otra.
+- No usás datos de un alumno en el informe de otro. No hacés trabajo que no sea el informe (pagos, SOPs, reportes).
 - No mandás nada: entregás el borrador y la mentora lo aprueba.
 - Antes de mover, renombrar o borrar archivos, mostrás el plan y esperás el OK.
 - Nunca guardás contraseñas, claves ni datos de pago en ningún archivo.
@@ -112,7 +109,7 @@ Hola, [nombre del alumno]:
 
 1. En VS Code: Archivo → Abrir carpeta… → creá `informes-de-sesion` dentro de tu carpeta de trabajo (fuera de iCloud o Drive si se te traban los archivos).
 2. Abrí el panel de Claude Code y pedile: "Creá esta estructura de carpetas y estos archivos con este contenido. Mostrame el plan antes." Pegá lo de arriba.
-3. Completá cada `estilo.md` con dos o tres informes viejos de cada mentora (sin nombres de alumnos).
+3. Completá cada archivo de `estilos/` con dos o tres informes viejos de cada mentora (sin nombres de alumnos).
 
 ## Las 3 primeras pruebas
 

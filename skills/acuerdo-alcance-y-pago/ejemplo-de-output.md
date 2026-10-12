@@ -62,7 +62,7 @@ Cada pedido que no esté en la sección 2 lo anoto en el registro de adicionales
 - **Total: USD 1.500.**
 - 3 cuotas de USD 500: el 3 de noviembre (antes de arrancar), el 3 de diciembre y el 3 de enero.
 - Por transferencia o la pasarela que prefieras. Si la pasarela cobra comisión, va a cargo de Ajedrez Pro.
-- Si pagás en pesos, al tipo de cambio [completar cuál] del día del pago.
+- Si pagás en pesos, al tipo de cambio vendedor del Banco Nación del día hábil anterior al pago.
 
 ## 9. Si un pago se atrasa
 
@@ -100,3 +100,15 @@ Florencia Aguirre · fecha: ____ · firma: ____
 ## El mensaje para mandarlo
 
 > Diego, como quedamos, te paso el acuerdo de trabajo para arrancar el lunes. Son dos páginas: qué se entrega, cómo trabajamos y cómo se paga. Si está todo bien, contestame "acepto" por acá y te paso los datos para la primera cuota. Cualquier duda, la vemos antes de empezar.
+
+---
+
+## Variante · si Florencia no hubiera sabido el tipo de cambio (plan B)
+
+Así queda la línea en el acuerdo, y así aparece abajo, en la lista **Supuestos a validar**:
+
+> - Si pagás en pesos, al tipo de cambio el que publique tu banco el día del pago. *(Supuesto a validar con Diego)*
+
+| Supuesto | Sección · por qué | Con quién se valida |
+|---|---|---|
+| Tipo de cambio: el que publica el banco de Diego el día del pago | 8 · Es una fuente que los dos pueden ver y no cambia según quién mire | Diego, antes de mandar el acuerdo |

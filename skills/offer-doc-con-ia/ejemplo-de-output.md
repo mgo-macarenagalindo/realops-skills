@@ -87,3 +87,23 @@ Una llamada de diagnóstico de 30 minutos. Te llevás tu Mapa de Fricción con l
 **Tu frase, en dos versiones:**
 - Bio: *Ordeno ventas y cobros de programas high ticket. Sistema operativo en 6 semanas.*
 - En voz alta: *"Ayudo a founders de programas que se venden por llamada a saber cada lunes cuánto vendieron y cobraron, sin sumar gente."*
+
+---
+
+## Otro nicho, en corto (para no copiar el molde)
+
+> Datos ficticios. Nicolás armó su portafolio sobre un caso práctico de membresía; no tiene clientes todavía. Contestó "no lo sé" a los plazos y a la plataforma.
+
+**Yo ayudo a** founders de membresías de 300 a 2.000 miembros **a** ver venir las bajas antes de que pasen **sin** sumar otra persona al soporte, **a través de** un sistema de retención en 3 pasos: diagnóstico de bajas, alertas de cobro fallido y rutina de la CSM.
+
+| P | Su respuesta |
+|---|---|
+| Persona | Founder de membresía mensual (300 a 2.000 miembros) con una CSM desbordada |
+| Promesa | Saber cada semana quién está por irse y recuperar los cobros fallidos |
+| Problema | "Se van y no sé por qué" · cobros fallidos que nadie reintenta · la CSM contesta todo a mano |
+| Path | Diagnóstico de bajas → Alertas de cobro → Rutina de la CSM · **[SUPUESTO: 5 semanas (1 + 2 + 2), confirmalo con lo que te llevó el caso]** |
+| Plataforma | **[SUPUESTO: canal principal referidos · corta: LinkedIn · larga: un caso escrito por mes, confirmalo]** |
+
+**Experiencia, dicha como es:** "Lo armé de punta a punta sobre un caso de práctica de una membresía así. Te muestro lo que hice."
+
+**Para confirmar:** los plazos (medí cuánto te llevó cada paso en el caso) y la plataforma (elegí una corta y una larga, no más).

@@ -1,6 +1,6 @@
 # Casos de uso · Arquitecto de Landing de Alto Ticket
 
-Tres situaciones de infonegocio donde tener la página escrita antes de diseñar ahorra semanas. Negocios y nombres ficticios.
+Cuatro situaciones de infonegocio donde tener la página escrita antes de diseñar ahorra semanas. Negocios y nombres ficticios.
 
 ---
 
@@ -8,11 +8,13 @@ Tres situaciones de infonegocio donde tener la página escrita antes de diseñar
 
 **La situación.** Un programa de finanzas para freelancers recibe tráfico, pero casi nadie agenda. La página tiene menú, tres botones distintos y el problema explicado en lenguaje de contador.
 
-**Qué le pasás.** El Offer Doc, el tablero de referencias, 4 testimonios en video con permiso y frases textuales de 5 llamadas de venta.
+**Qué le pasás.** El Offer Doc, el tablero de referencias, 4 testimonios en video con permiso, frases textuales de 5 llamadas de venta y el texto de los anuncios que traen el tráfico.
 
 **Qué te devuelve.** La estructura en 7 secciones con un solo CTA, el problema escrito con las palabras de los clientes ("cobro lo mismo hace dos años"), el mecanismo en 3 pasos, la prueba al lado del calendario, el FAQ hecho con las objeciones reales y la página de gracias con el botón de WhatsApp.
 
-**Por qué sirve.** La regla del CTA único de la clase del 06/05, aplicada sección por sección.
+Y avisa que el anuncio principal promete "duplicá tu facturación" mientras la página habla de precios: uno de los dos se cambia.
+
+**Por qué sirve.** La regla del CTA único de la clase del 06/05, aplicada sección por sección, y anuncio y página diciendo lo mismo.
 
 ---
 
@@ -37,3 +39,16 @@ Tres situaciones de infonegocio donde tener la página escrita antes de diseñar
 **Qué te devuelve.** La versión nueva, reordenada y reescrita con lo que ya dice el negocio, y cada testimonio, número o logo que no existe marcado como `[PENDIENTE]`, sin inventar nada.
 
 **Por qué sirve.** Mostrás criterio y respetás la regla de oro: nunca inventar clientes ni resultados.
+
+---
+
+## 4. Un caso práctico con material parcial
+
+**La situación.** Practicás con un caso del programa que no trae Offer Doc, ni marca, ni testimonios con permiso. La landing ni siquiera es una actividad del caso. A casi todo respondés "no sé".
+
+**Qué le pasás.** La ficha del caso, las transcripciones de llamadas y el export de anuncios.
+
+**Qué te devuelve.** Primero, el aviso de que la landing no es actividad del caso. Después, el checklist de oferta (a quién, problema y cómo salen de la ficha; la promesa queda como "Supuesto a validar con el founder"), el chequeo anuncio = página con el anuncio que trae gente que no califica, y la página completa: las decisiones como supuestos rotulados (precio fuera de la página, brief de marca provisorio) y solo la prueba y los recursos como `[PENDIENTE]`.
+
+**Por qué sirve.** Aprendés a escribir una página usable con lo que hay, sin inventar prueba y sin quedarte trabado en "me falta todo".
+

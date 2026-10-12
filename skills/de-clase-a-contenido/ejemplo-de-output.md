@@ -2,7 +2,7 @@
 
 > Datos ficticios. Caso práctico: **Academia Rinde Más**, comunidad paga de nutrición deportiva para personas que entrenan por su cuenta. El founder da una clase grupal en vivo los martes. La persona que usa la skill es la asistente de marketing. Semana de contenido; el CTA de la semana es la newsletter (palabra clave PLAN por DM).
 
-**Lo que pegó la persona:** la transcripción de la clase del martes 06/10 (52 minutos, "Por qué comés bien de lunes a jueves y el finde se te desarma todo"), tres reels del founder para tomar su voz (voseo, directo, con humor seco) y que el precio de la comunidad no se menciona en contenido.
+**Lo que pegó la persona:** la transcripción de la clase del martes 06/10 (52 minutos, "Por qué comés bien de lunes a jueves y el finde se te desarma todo"), tres reels del founder para tomar su voz (voseo, directo, con humor seco) que el precio de la comunidad no se menciona en contenido y que publican en Instagram y en una newsletter quincenal (lista de 1.800 suscriptos).
 
 ---
 
@@ -20,12 +20,12 @@ Lo que sigue no tiene nombres, montos ni pantallas de terceros.
 
 ## Los momentos elegidos
 
-| Minuto | Idea | Frase textual |
-|---|---|---|
-| 08:40 | El problema no es el finde: es que de lunes a jueves comés de menos | "No te desarmás el sábado. Llegás al sábado con hambre de cuatro días." |
-| 21:15 | La regla del plato del viernes (armar la comida del viernes el jueves) | "El viernes a las 21 no tomás decisiones. Tomás lo que hay." |
-| 33:50 | Demo: cómo arma su compra del domingo en 15 minutos | "Si la compra depende de tu fuerza de voluntad, ya perdiste." |
-| 44:10 | Por qué el registro de comidas no sirve si no mirás el patrón | "Anotar todo y no mirar nada es un diario íntimo, no un sistema." |
+| Minuto | Idea | Frase textual | ¿Le habla al avatar? |
+|---|---|---|---|
+| 08:40 | El problema no es el finde: es que de lunes a jueves comés de menos | "No te desarmás el sábado. Llegás al sábado con hambre de cuatro días." | Sí |
+| 21:15 | La regla del plato del viernes (armar la comida del viernes el jueves) | "El viernes a las 21 no tomás decisiones. Tomás lo que hay." | Sí |
+| 33:50 | Demo: cómo arma su compra del domingo en 15 minutos | "Si la compra depende de tu fuerza de voluntad, ya perdiste." | Sí |
+| 44:10 | Por qué el registro de comidas no sirve si no mirás el patrón | "Anotar todo y no mirar nada es un diario íntimo, no un sistema." | Sí |
 
 ## Reel 1 · "Llegás al sábado con hambre de cuatro días"
 

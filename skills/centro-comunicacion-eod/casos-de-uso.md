@@ -36,4 +36,6 @@ Tres situaciones de infonegocio donde el equipo trabaja por WhatsApp y nadie sab
 
 **Qué te devuelve.** El centro de comunicación completo en Discord (que ya usa la comunidad), con un EOD liviano para un equipo sin ventas por llamada y el resumen para la founder.
 
+**Si no sabés algo.** Si no sabés qué herramienta usar o si hay setters outbound, la skill te hace dos o tres preguntas más chicas (¿dónde está la comunidad de alumnos?, ¿el founder acepta cambiar el grupo?, ¿qué fuentes de leads hay en la base?). Si igual no sabés, sigue con un supuesto rotulado ("Supuesto a validar con el founder") y te da la opción sin herramienta nueva (Comunidad de WhatsApp + formulario) por si el founder no quiere sumar nada.
+
 **Por qué sirve.** Es la Actividad 10. Aprendés a dimensionar: no todos los negocios necesitan el EOD de un equipo de ventas.

@@ -20,6 +20,12 @@ Preguntá: "¿Esta oferta es para **salir a ofrecer tu servicio** (consultoría 
 - **Modo consultoría**: la Persona es tu cliente ideal (un tipo de negocio y de founder).
 - **Modo rol interno**: la Persona es el negocio donde trabajás y quien decide; la oferta es "esto es lo que puedo hacerme cargo y lo que cambia".
 
+Después preguntá **de dónde viene tu experiencia**: "¿Lo que vas a mostrar lo hiciste en un negocio real donde trabajaste o trabajás, con un cliente propio, o sobre un caso práctico del programa?"
+
+- **Negocio real o cliente:** se cuenta como tal (anonimizado si hace falta).
+- **Caso práctico:** se cuenta siempre como práctica, con la etiqueta obligatoria en el doc: *"lo armé sobre un caso de práctica de un negocio así"*. Aunque en el ejercicio "hagas de" alguien del equipo, en el offer doc **no** dice "trabajé en…".
+- **Mezcla:** se separa en el doc qué es real y qué es práctica.
+
 Si todavía no tenés clientes ni experiencia en un negocio real, está bien: armala con lo que construiste en el programa (casos prácticos incluidos) y decí la verdad sobre eso. **Nunca inventes clientes, resultados ni testimonios.**
 
 ## Cómo trabajás: entrevista por los Cinco Ps (una P por vez)
@@ -53,6 +59,39 @@ Después de las cinco, preguntá:
 - ¿Cómo se empieza? (un solo paso: una llamada de diagnóstico, un mapa de fricción gratis)
 - ¿Ya tenés precio? (Si sí, va como rango o "desde". Si no, va "a definir en la propuesta" y recomendá la skill Escritor de Propuestas de Consultoría para calcularlo.)
 
+## Si no sabés algo (plan B)
+
+"No lo sé" es una respuesta normal, sobre todo en la primera oferta. **No se frena la entrevista y no queda nada en blanco ni con [X]**: hacés 2 o 3 preguntas más fáciles, mostrás ejemplos y, si igual no sale, proponés un supuesto razonable marcado así: **[SUPUESTO: …, confirmalo]**. El supuesto es una propuesta tuya, nunca un dato de la persona: no lo escribas como hecho.
+
+**Persona (no sabe el tamaño o el tipo de negocio)**
+- ¿Cuál es el negocio que mejor conocés por dentro? ¿Cuántas personas tenía el equipo? ¿Vendía por llamada, por lanzamiento o por web?
+- Ejemplos: "mentorías high ticket por llamada, equipo de 5 a 10"; "membresías de 300 a 2.000 miembros"; "academias de cursos grabados que venden por lanzamiento".
+- Supuesto por defecto: el tipo de negocio del caso que trabajaste, con su tamaño. *[SUPUESTO: negocios como el del caso, 5 a 10 personas en el equipo, confirmalo]*.
+
+**Promesa (no le sale el resultado)**
+- ¿Qué le preguntaba el founder a su equipo que nadie podía contestar? ¿Qué quería dejar de hacer él?
+- Ejemplo (mentoría): "saber cada lunes cuánto vendió y cobró sin preguntarle a nadie".
+- Supuesto por defecto: la frase de lo que el founder quiere, tomada del brief o del diagnóstico.
+
+**Path · plazos (no sabe cuánto tarda cada paso)**
+- ¿Cuánto te llevó armar la pieza más grande (el CRM, el diagnóstico)? ¿Cuántas horas por semana le podés dar a un cliente?
+- Ejemplos: diagnóstico 1 semana; base o CRM 2 a 3 semanas; rutina y traspaso 1 semana.
+- Supuesto por defecto: **[SUPUESTO: 6 semanas en total (1 + 2 + 2 + 1), confirmalo con el tiempo que te llevó a vos]**. Nunca pongas semanas sin esa marca si la persona no las dio.
+
+**Plataforma (no sabe dónde la van a encontrar)**
+- ¿Dónde está hoy la gente que conoce a founders como tu Persona (ex compañeros, comunidades, LinkedIn)? ¿Qué te sale más natural: escribir, hablar en video o conversar uno a uno?
+- Ejemplos: corta = LinkedIn o Instagram; larga = casos escritos o un newsletter; canal principal = referidos.
+- Supuesto por defecto: **[SUPUESTO: canal principal referidos y ex compañeros · corta: LinkedIn · larga: un caso escrito por mes, confirmalo]**. Proponé estas dos opciones y que elija una de cada; no cinco.
+
+**Objeciones (no sabe cuáles va a escuchar)**
+- ¿Qué dijo el founder del caso que no quiere (más herramientas, más reuniones)? ¿Qué le preguntarías vos a alguien antes de contratarlo?
+- Supuesto por defecto: "no quiero más herramientas", "¿tenés casos?", "no tengo tiempo", cada una marcada como supuesto hasta que las escuche en una llamada real.
+
+**Precio (no sabe)**
+- No se pone un número. Va "a definir en la propuesta" y se deriva a Escritor de Propuestas de Consultoría. No es un hueco: es la respuesta correcta.
+
+**Regla de salida.** El offer doc sale **completo y usable** igual, con los supuestos a la vista. Al final va una lista **"Para confirmar"**: cada supuesto, por qué está y cómo confirmarlo (una pregunta, una llamada, mirar cuánto te llevó algo).
+
 ## Principios de escritura (vienen del copywriting, aplicados a una oferta)
 
 1. **Escribile a UNA persona.** Cuanto más específica, más universal se siente.
@@ -64,7 +103,7 @@ Después de las cinco, preguntá:
 
 ## Formato de salida
 
-**Una página.** En `ejemplo-de-output.md` tenés uno completo.
+**Una página.** En `ejemplo-de-output.md` tenés uno completo (y uno corto de otro nicho). Son ejemplos de forma: no copies su nicho ni sus frases; la Persona y los dolores salen de lo que te cuenta la persona.
 
 ```
 # [Nombre del servicio] · [tu nombre]
@@ -74,7 +113,7 @@ Después de las cinco, preguntá:
 ## Para quién es
 ## El problema que resuelvo (los 3 dolores, en palabras del cliente)
 ## Cómo se ve el resultado (antes → después)
-## Cómo trabajo (los pasos del método, cada uno con su resultado visible)
+## Cómo trabajo (los pasos del método, cada uno con su resultado visible; plazos solo si la persona los dio, si no, con [SUPUESTO])
 ## Qué te llevás (entregables concretos)
 ## Qué no incluye
 ## Para quién no es
@@ -83,7 +122,7 @@ Después de las cinco, preguntá:
 ## Cómo empezamos (un solo paso)
 ```
 
-Además, entregá aparte (no va en la página): las respuestas de los Cinco Ps en una tabla, para que la persona las revise cada trimestre.
+Además, entregá aparte (no va en la página): las respuestas de los Cinco Ps en una tabla, para que la persona las revise cada trimestre, y la lista **"Para confirmar"** si quedó algún supuesto. Antes de mandar el offer doc a un founder, cada [SUPUESTO] se confirma o se cambia por la respuesta real.
 
 ## Al final, siempre
 
@@ -97,6 +136,7 @@ Castellano rioplatense, con voseo. Cercano y profesional, nunca corporativo ("so
 
 ## Lo que no hacés
 
-- No inventás clientes, testimonios, resultados ni años de experiencia.
+- No inventás clientes, testimonios, resultados ni años de experiencia. Un caso práctico no se presenta como trabajo en un negocio.
+- No dejás huecos ni [X]: lo que falta va como [SUPUESTO: …, confirmalo], nunca como dato.
 - No ponés un precio que la persona no decidió.
 - No hacés una oferta para "todo el mundo".
