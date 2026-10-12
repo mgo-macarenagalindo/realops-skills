@@ -2,11 +2,20 @@
 
 > Datos ficticios. Caso práctico: **Programa Libertad Freelance**, 6 meses de finanzas y precios para diseñadores y desarrolladores independientes, vendido por llamada. El precio lo da quien hace la llamada. Hay 4 testimonios en video con permiso escrito.
 
-**Lo que pegó la persona:** el Offer Doc, el tablero de referencias (hero en dos columnas con video y calendario; mecanismo en 3 pasos; testimonios en grilla de 4; "para quién es / para quién no"; FAQ antes del CTA) y frases de 5 llamadas de venta.
+**Lo que pegó la persona:** los 4 inputs obligatorios (abajo), los testimonios con permiso y el texto del anuncio a seguidores.
 
 ---
 
 # Landing · Página de agenda · Programa Libertad Freelance
+
+## Los 4 inputs
+
+| Input | Qué se usó | De dónde salió |
+|---|---|---|
+| Oferta | Las 4 líneas del checklist, completas | Offer Doc |
+| Avatar | A quién, punto A y B, 5 frases textuales, 4 objeciones, para quién no | 5 llamadas de venta transcriptas |
+| Referencias visuales | Una landing de un estudio contable con fondo crema, serif grande y un solo color de acento; la portada del Instagram del programa | Captura de Landingfolio + Instagram |
+| Referencias de estructura | Hero en dos columnas con video y calendario; mecanismo en 3 pasos; testimonios en grilla de 4; "para quién es / para quién no"; FAQ antes del CTA | Tablero de **Investigador de Referencias de Landing** |
 
 ## Objetivo y recorrido
 
@@ -24,6 +33,15 @@
 
 Las cuatro salen del Offer Doc: no hay supuestos.
 
+## Avatar en una mirada
+
+- **A quién:** freelancers de diseño y desarrollo con más de un año por su cuenta y clientes recurrentes.
+- **Punto A:** "Cobro lo mismo hace dos años y todo aumentó." · "Digo que sí a cualquier proyecto porque no sé si el mes que viene va a entrar algo." · "No sé cuánto gano por hora. Prefiero no hacer la cuenta."
+- **Punto B:** "Quiero dejar de tener miedo de mandar un presupuesto."
+- **Objeciones:** precio, miedo a perder clientes al subir, tiempo, si sirve cobrando en dos monedas.
+- **Para quién no:** quien todavía no tiene su primer cliente.
+- **Cómo habla:** voseo, Argentina y Uruguay, lee en el celular.
+
 ## Brief de marca
 
 - **Colores:** verde oscuro `#1F3D2B` (marca), crema `#F6F1E7` (fondo), negro `#141414` (texto), acento mostaza `#D9A441` solo en botones.
@@ -31,8 +49,11 @@ Las cuatro salen del Offer Doc: no hay supuestos.
 - **Logo:** `[PENDIENTE: URL pública del logo en PNG o SVG]`.
 - **Tono:** voseo, directo, de colega que ya pasó por eso. Sin jerga financiera.
 - **Muestra de voz:** "Tu precio no es lo que vale tu trabajo: es lo que te animaste a pedir." · "No necesitás más clientes. Necesitás que los que tenés te paguen lo que corresponde."
+- **De dónde sale:** los colores, del Instagram del programa; el aire y la serif grande, de la captura de Landingfolio. No es provisorio.
 
 ## Estructura
+
+Sale del tablero de referencias, sin cambios.
 
 1. Hero (video + calendario)
 2. Problema
@@ -50,7 +71,7 @@ Las cuatro salen del Offer Doc: no hay supuestos.
 - **Subtítulo:** Un programa para diseñadores y desarrolladores independientes que facturan bien pero llegan justos a fin de mes. Ordenamos tus números, armamos tu tabla de precios y te acompañamos en las conversaciones para subirlos.
 - **CTA:** Agendá tu llamada de diagnóstico
 - **Debajo del botón:** 30 minutos. Si no es para vos, te lo vamos a decir.
-- *Nota de diseño:* dos columnas en escritorio (video de 2 min a la izquierda, calendario a la derecha); en el celular, título → video → botón que baja al calendario.
+- *Nota de diseño:* dos columnas en escritorio (video de 2 min a la izquierda, calendario a la derecha), como la referencia de estructura; en el celular, título → video → botón que baja al calendario. Fondo crema y serif grande, de la referencia visual.
 
 Variante del título: *"Dejá de cobrar lo mismo que hace dos años."* (más corta y más filosa; la primera promete el resultado, esta nombra el dolor).
 
@@ -105,7 +126,7 @@ Variante del título: *"Dejá de cobrar lo mismo que hace dos años."* (más cor
 
 ## Supuestos a validar
 
-No hubo: la oferta, el precio fuera de la página y la marca vinieron confirmados.
+No hubo: la oferta, el precio fuera de la página y la marca vinieron confirmados. Ningún tema sensible quedó fuera de la página.
 
 ## Pendientes
 
@@ -121,7 +142,8 @@ No hubo: la oferta, el precio fuera de la página y la marca vinieron confirmado
 - Sin menú, sin footer con redes. Todo lo clickeable lleva al calendario.
 - El calendario aparece dos veces (hero y final); el botón del hero en el celular hace scroll al calendario.
 - Testimonios en video: subidos a la biblioteca de medios del constructor o a un servicio que dé un link directo, para que se reproduzcan sin sacar a la persona de la página.
+- **Momentos de movimiento (dos, no más):** los 3 pasos del mecanismo aparecen de a uno al hacer scroll; los números del paso grande "cuentan" al entrar en pantalla. El Constructor los busca en 21st.dev (categorías *Steppers* o *Timelines*).
 
 ---
 
-¿La construimos con **Constructor de Landing con 21st.dev**?
+¿La construimos con **Constructor de Landing con 21st.dev**? Primero la vemos en un artefacto de Claude y, cuando te guste, la pasamos a tu página. Antes de publicar, **Revisor de Landing y Publicación**.

@@ -22,6 +22,8 @@ Sale de la clase del 30/03: **el descriptor de cargo es el cimiento de cualquier
 
 Preguntá si es su negocio, el negocio donde trabaja o un caso práctico del programa. Con un caso práctico, usá los roles y el diagnóstico del material. **Nunca inventes tareas que no te contaron.**
 
+**Si trae material (caso práctico, registro de tareas, mensajes del equipo, diagnóstico, base de datos): leelo primero y preguntá solo lo que falte.** Las 6 preguntas de abajo son la lista de lo que necesitás saber, no un cuestionario para hacer entero: si el material ya responde una, no la hagas. En un caso práctico, lo normal es que falten dos o tres (qué tiene que lograr el rol, qué decide solo, si hay propósito escrito).
+
 ## Lo que te voy a preguntar
 
 1. ¿Qué rol querés describir? ¿Existe hoy o es nuevo?
@@ -38,10 +40,11 @@ Si la persona te pega un descriptor viejo, no repitas preguntas: reescribilo y p
 1. **Juntá todas las tareas** que te contaron, sin filtrar.
 2. **Agrupalas en 3 a 6 responsabilidades.** Cada responsabilidad empieza con un verbo de gestión (gestionar, asegurar, coordinar, mantener, analizar) y nombra un resultado.
 3. **Ordená las tareas debajo por recurrencia**: diarias, semanales, mensuales, por evento.
-4. **Proponé 2 o 3 KPIs** con su fuente y su frecuencia. Si no hay dato para medir algo, decilo y sugerí cómo conseguirlo.
-5. **Definí la autonomía en tres niveles**: decide solo · decide y avisa · consulta antes.
-6. **Detectá huecos**: tareas que aparecen en el negocio y no están en ningún descriptor (por ejemplo, quién concilia los cobros, quién persigue una cuota vencida, quién da de baja accesos). Listalas aparte.
-7. **Revisá el nombre del rol** y, si no coincide con lo que hace, proponé el correcto con una línea de por qué.
+4. **Cruzá las tareas con la base de datos, si la hay** (Airtable, planilla, CRM, exports). Para cada responsabilidad, buscá qué tabla y qué campos registran ese trabajo (por ejemplo, fechas de pago y de vencimiento para cobros; fecha de compra y de acceso para altas). De ahí salen dos cosas: **la línea de base de cada KPI** (cuánto da hoy, calculado desde los campos de origen y con la fecha de corte) y las tareas que nadie registra, que también son evidencia de huecos.
+5. **Proponé 2 o 3 KPIs** con su fórmula, su fuente, su frecuencia y su **línea de base**. Si no hay dato para medir algo, decilo y sugerí cómo conseguirlo. **El objetivo no se inventa:** si el founder no dio una meta, el campo dice "a definir con el founder" (podés sumar una referencia, marcada como sugerencia, por ejemplo lo que decía un proceso anterior).
+6. **Definí la autonomía en tres niveles**: decide solo · decide y avisa · consulta antes.
+7. **Detectá huecos**: tareas que aparecen en el negocio y no están en ningún descriptor (por ejemplo, quién concilia los cobros, quién persigue una cuota vencida, quién da de baja accesos). Listalas aparte, cada una con su evidencia.
+8. **Revisá el nombre del rol** y, si no coincide con lo que hace, proponé el correcto con una línea de por qué.
 
 ## Los 7 campos del descriptor
 
@@ -50,7 +53,7 @@ Si la persona te pega un descriptor viejo, no repitas preguntas: reescribilo y p
 | 1 | Rol y para qué existe | Nombre correcto, a quién reporta, una frase con el resultado que aporta al negocio |
 | 2 | Responsabilidades | 3 a 6, cada una con verbo de gestión y resultado |
 | 3 | Tareas por recurrencia | Debajo de cada responsabilidad: diarias, semanales, mensuales, por evento |
-| 4 | KPIs | 2 o 3 mensuales, con fórmula, fuente y valor objetivo |
+| 4 | KPIs | 2 o 3 mensuales, con fórmula, fuente, línea de base (valor de hoy) y objetivo; si el founder no lo dio, "a definir con el founder" |
 | 5 | Herramientas y accesos | Qué usa y con qué nivel de acceso (sin claves) |
 | 6 | Nivel de autonomía | Decide solo · decide y avisa · consulta antes |
 | 7 | Remuneración y esquema | Lo define el founder: la skill deja el campo con el esquema (fijo, variable, por qué se paga) y sin cifras, salvo que te las den |
@@ -67,7 +70,7 @@ Reporta a: [rol] · Se relaciona con: [roles] · Última actualización: [fecha]
 ## Responsabilidades y tareas
 ### 1. [Verbo + resultado]
 - Diarias / Semanales / Mensuales / Por evento
-## KPIs del mes (tabla: KPI · cómo se calcula · de dónde sale · objetivo)
+## KPIs del mes (tabla: KPI · cómo se calcula · de dónde sale · línea de base · objetivo [o "a definir con el founder"])
 ## Herramientas y accesos (tabla: herramienta · para qué · nivel de acceso)
 ## Autonomía (tabla: decide solo · decide y avisa · consulta antes)
 ## Remuneración y esquema [lo define el founder]
@@ -88,7 +91,7 @@ Castellano rioplatense, con voseo. Responsabilidades con verbo de gestión; tare
 
 ## Lo que no hacés
 
-- No escribís nombres de personas: el descriptor es del rol.
-- No inventás tareas ni KPIs sin fuente.
+- No escribís nombres de personas **en el descriptor** (rol, responsabilidades, tareas, KPIs, autonomía): el descriptor es del rol y tiene que servir para la persona que venga después. **En "Tareas que hoy no tiene nadie" sí podés citar la evidencia tal como viene** (quién se fue, a quién le llegan los avisos, quién dijo qué), porque es un documento de trabajo interno para el founder. Si ese análisis va a salir del negocio (portafolio, entrevista, redes), cambiá los nombres por roles.
+- No inventás tareas, KPIs ni objetivos sin fuente.
 - No fijás sueldos ni das asesoramiento laboral o impositivo. El esquema de pago lo decide el founder (y, si hace falta, un profesional).
 - No documentás procesos paso a paso: si una tarea necesita instrucciones, eso es un SOP (skill **Constructor de SOP de Infonegocio**).

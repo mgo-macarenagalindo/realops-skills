@@ -53,7 +53,17 @@ Si contesta "no lo sé" a cualquiera de las cinco, pasás al plan B de esa pregu
 
 T1 Copiloto operativo · 1 Mapa de diagnóstico operativo · 2 Mapa de fricción invisible · 3 Checklist de accesos · 4 Stack elegido y justificado · 5 SOP profesional + diagrama · 6 Wiki operativa · 7 Gestor de tareas en Airtable · 8 CRM de servicio en Notion · 9 Calendario de contenidos en Notion · 10 Centro de comunicación · 11 Migración documentada · 12 CRM de ventas en Airtable · 13 Primera automatización en n8n · 14 CRM de servicio en Airtable · 15 Cobros y cuota vencida · 16 Onboarding automatizado · 17 Airtable conectado a Claude · 18 Documentar una automatización · 19 Dashboard de KPIs · 20 Dashboard de ventas y marketing · 21 y 22 Análisis de llamadas · 23 Informes de sesiones · 24 API de Meta a Claude · 25 Reporte semanal de ops · 26 Customer journey + tracking · 27 Matriz de delegación · 28 Organigrama y plan de incorporación · 29 App en Vercel · 30 Portafolio.
 
-**Si no tiene fecha para un "me animo".** Proponé una y pedí confirmación: **una actividad cada semana**, empezando por la próxima semana y en el orden en que más plata destraban (cobros antes que wiki). Cada fecha dice "propuesta, a confirmar" hasta que la confirme.
+**Si no tiene fecha para un "me animo".** Antes de proponer el ritmo, preguntá: **"¿Cuántas horas por semana tenés para practicar?"** Con eso armás el calendario, no al revés:
+
+| Horas por semana para practicar | Ritmo que proponés |
+|---|---|
+| Menos de 3 | Una actividad cada dos semanas |
+| 3 a 6 | Una actividad por semana |
+| Más de 6 | Hasta dos actividades por semana |
+
+Es una estimación: una actividad del programa lleva, para la mayoría, entre 3 y 6 horas en el sandbox. Decíselo y pedile que lo recalibre después de la primera ("si la primera te llevó el doble, movemos todo"). Si no sabe cuántas horas tiene, tomá **5 horas por semana** como supuesto ("Supuesto a validar con vos") y una actividad por semana. El calendario empieza la semana próxima, va en el orden en que más plata destraban (cobros antes que wiki) y **solo pone fecha a las 5 primeras**: el resto queda en "Después" sin fecha, hasta terminar esas cinco. Cada fecha dice "propuesta, a confirmar" hasta que la confirme.
+
+**Si una fila no se puede practicar con ninguna actividad del programa**, avisalo con todas las letras en la fila y en "Lo que te conviene practicar": "Esta fila no tiene actividad del programa para practicarla". Y proponé una de tres salidas: practicarla adentro del entregable de otra actividad (por ejemplo, grabar la capacitación sobre tu SOP de la actividad 5), un ejercicio corto que le armás vos con el caso práctico, o dejarla fuera de la oferta hasta hacerla con un caso real. Esa fila nunca lleva ⭐.
 
 ## Cómo se arma cada fila
 
@@ -70,6 +80,7 @@ Reglas de las filas:
 - **Entregable = objeto.** "Acompañamiento", "asesoría" u "ordenar" no son entregables. "Librería de 12 SOPs en una tabla" sí.
 - **Un dolor puede tener dos entregables** (uno simple y uno completo). Está bien: te da opciones en la llamada.
 - **Nada que no sepas hacer sin marcarlo.** Si va "me animo a aprender", lleva fecha de práctica en el sandbox (si no la tiene, propuesta y a confirmar). Nunca se ofrece como algo ya probado.
+- **Las filas "me animo" van aparte.** La tabla principal ("Lo que ya podés ofrecer") tiene solo lo que sabe hacer o hizo en un caso: es la que usa en la llamada. Las "me animo" van en una tabla propia, debajo. Si son más de 5, en la llamada solo se nombran las 5 primeras del calendario ("esto lo estoy sumando"); el resto no se menciona hasta practicarlas. Si las "me animo" son más que las que ya sabe hacer, decíselo: el inventario es honesto, pero en una llamada real todavía no puede ofrecer la mitad.
 - **Los dolores no se inventan ni se embellecen.** Textual con fuente, o "(paráfrasis)". Un dolor textual vende más en la llamada porque el founder se reconoce.
 - **Lo simple vende.** Un Notion ordenado, un CRM con Forms y Sheets o una landing hecha con Claude son entregables completos (clases del 20/04, 11/05 y 23/07).
 
@@ -109,13 +120,14 @@ En `ejemplo-de-output.md` tenés un inventario completo.
 # Inventario de entregables · [nombre] · [fecha]
 Para: [a quién le vende] · Modalidad: hecho por vos / hecho con vos
 
-## Tu inventario (tabla: # · dolor · entregable · resultado · fase · estado)
+## Lo que ya podés ofrecer (tabla: # · dolor · entregable · resultado · fase · estado; solo "lo sé hacer" y "lo hice en un caso")
+## Lo que estás sumando (tabla de filas "me animo": las 5 primeras con fecha, el resto en "Después")
 ## Por fase
 ### Diagnóstico
 ### Implementación
 ### Optimización
 ## ⭐ Lo que podés vender esta semana (3 a 5 filas)
-## Lo que te conviene practicar (huecos y filas "me animo", con fecha)
+## Lo que te conviene practicar (huecos, ritmo según tus horas por semana, filas sin actividad del programa)
 ## Cómo usarlo en la llamada (3 líneas)
 ## Supuestos a validar (tabla: supuesto · con quién · cómo)
 ```
@@ -126,7 +138,7 @@ Ofrecé el paso siguiente, uno por vez:
 
 1. "¿Le ponemos precio a tres de estas filas?" (skill Tabla de Precios de tu Servicio).
 2. "¿Querés que armemos a quién se lo vendés y con qué promesa?" (skill Offer Doc con IA).
-3. "¿Preparamos la llamada de diagnóstico donde lo vas a usar?" (skill Llamada de Diagnóstico que Vende).
+3. "¿Preparamos la llamada de diagnóstico donde lo vas a usar?" (skill Script de Ventas con Founders).
 
 Y recordale que el inventario se actualiza después de cada llamada: lo que pidieron y no estaba, va como fila nueva.
 

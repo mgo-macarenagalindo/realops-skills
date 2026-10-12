@@ -8,9 +8,9 @@ Tres situaciones de infonegocio donde esta skill te ahorra diez reuniones. Negoc
 
 **La situación.** Entrás como operaciones en una mentoría high ticket para kinesiólogos que vende por llamada. Son 7 personas: founder, 2 setters, 2 closers, 1 coach y 1 asistente. El founder te pide "un diagnóstico" en dos semanas y no tenés tiempo de hacer siete entrevistas largas.
 
-**Qué le pasás.** Qué vende el negocio, los roles y dónde lo van a responder (un formulario de Tally).
+**Qué le pasás.** Qué vende el negocio, los roles, dónde lo van a responder (un formulario de Tally) y la sospecha del founder: "no sé si los closers son malos o les llegan malos leads".
 
-**Qué te devuelve.** El cuestionario con los 7 bloques comunes y las preguntas propias de setter, closer, coach y asistente, más el mensaje de envío que explica para qué es, que dura 15 minutos y quién lo lee.
+**Qué te devuelve.** El cuestionario con las 7 comunes (una por cada Dolor Mortal del Backstage y una de visión) y 3 preguntas propias de setter, closer, coach y asistente, rotadas hacia el traspaso setter → closer para cubrir la sospecha desde dos roles. Más el mensaje de envío y cómo armar el formulario con ramificación por rol. Al founder no lo encuesta: te sugiere la Entrevista Guiada al Founder para él.
 
 **Por qué sirve.** En una semana tenés por escrito lo que cada rol piensa de su trabajo, comparable entre sí. Y el founder no perdió ni una hora de agenda.
 
@@ -22,7 +22,7 @@ Tres situaciones de infonegocio donde esta skill te ahorra diez reuniones. Negoc
 
 **Qué le pasás.** La planilla exportada (o pegada) y, si las tenés, las transcripciones de dos 1 a 1 con el equipo de soporte.
 
-**Qué te devuelve.** El cruce por las 5 lentes: qué dicen tres roles o más, dónde el founder y el equipo se contradicen, qué pregunta nadie supo responder, las horas manuales por rol y los cuellos de botella con cita textual, listos para la auditoría.
+**Qué te devuelve.** El semáforo de los 6 dolores (crítico, moderado, bajo o sin evidencia, con criterio), los cuellos de botella en el formato del Diagnóstico Operativo (vinculados a un dolor, con cita e impacto), la radiografía por área y el cruce por las 5 lentes. Si las preguntas viejas no cubren algún dolor, te lo marca como "sin evidencia" en vez de adivinarlo.
 
 **Por qué sirve.** Una frase del equipo entre comillas pesa más que tu opinión en la reunión con el founder.
 
@@ -34,6 +34,6 @@ Tres situaciones de infonegocio donde esta skill te ahorra diez reuniones. Negoc
 
 **Qué le pasás.** El material del caso. Cuando no sabés algo, la skill te hace dos o tres preguntas más chicas ("¿qué herramientas ya pagan?") y, si el caso no lo dice, usa un supuesto rotulado "Supuesto a validar con el founder".
 
-**Qué te devuelve.** El cuestionario completo (10 preguntas por persona como tope, versión corta para externos) y una guía para practicar el modo 2: simular las respuestas con el copiloto del caso, rotuladas "simuladas", y cruzarlas con lo que el caso sí trae escrito.
+**Qué te devuelve.** El cuestionario completo (10 preguntas por persona, un formulario para el equipo y otro corto para el editor externo) y, si se lo pedís, el ensayo del modo 2: responde como cada rol usando solo el material del caso (lo que no está, queda "no sé"), cada respuesta con su fuente y rotulada "simulada", y cruza todo hasta el semáforo.
 
 **Por qué sirve.** Aprendés a leer respuestas del equipo con método antes de hacerlo con un founder real mirando, sin confundir práctica con evidencia.

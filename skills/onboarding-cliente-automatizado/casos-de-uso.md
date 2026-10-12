@@ -10,7 +10,7 @@ Tres situaciones de infonegocio donde el onboarding pasa de "lo hace alguien por
 
 **Qué le pasás.** Cómo se hace hoy, paso a paso, qué incluye cada programa y qué herramienta de automatización tienen.
 
-**Qué te devuelve.** La spec completa: formulario del closer como disparador, verificación de la acreditación antes de dar acceso, un flujo con dos ramas, el mail de bienvenida en HTML, el aviso al coach, controles a 48 horas y 7 días, y el offboarding. Con el objetivo medible: de pago verificado a primer acceso en el día.
+**Qué te devuelve.** La spec completa: las cuentas que toca la automatización revisadas (a nombre de quién están) y el volumen comparado con el plan de cada herramienta, formulario del closer como disparador, verificación de la acreditación antes de dar acceso, un flujo con dos ramas, el mail de bienvenida en HTML, el aviso al coach, controles a 48 horas y 7 días, y el offboarding. Con el objetivo medible: de pago verificado a primer acceso en el día.
 
 **Por qué sirve.** Es la actividad 16 y la automatización que más valor percibido genera por hora invertida.
 

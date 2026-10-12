@@ -63,8 +63,8 @@ Upwork queda para la segunda quincena: primero probá con tu red, que es más r�
 
 ## Tu tabla de seguimiento
 
-| Nombre | Canal | Nicho | Fecha 1er contacto | Respuesta | Fecha seguimiento | Estado | Dolor que mencionó |
-|---|---|---|---|---|---|---|---|
+| Nombre | Fuente (de dónde salió) | Canal | Nicho | Fecha 1er contacto | Respuesta | Fecha seguimiento | Estado | Dolor que mencionó |
+|---|---|---|---|---|---|---|---|---|
 
 ## Qué hacés el día 10
 

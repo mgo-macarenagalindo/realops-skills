@@ -1,39 +1,49 @@
 # Casos de uso · Arquitecto de Base en Airtable
 
-Tres situaciones de infonegocio donde esta skill te ahorra rehacer la base dos veces. Negocios y nombres ficticios.
+Cuatro situaciones donde esta skill te ahorra rehacer la base dos veces. Negocios y nombres ficticios.
 
 ---
 
-## 1. De la planilla de ventas a un CRM en Airtable
+## 1. Sumarle algo a una base que ya funciona
 
-**La situación.** Un programa high ticket vende por llamada y todo vive en una planilla de Google con 40 columnas: datos del lead, de la llamada, de cada cuota. Nadie se anima a tocarla.
+**La situación.** El CRM ya está en Airtable y anda. Ahora la coordinadora quiere los EOD del equipo y los KPIs por persona en el mismo lugar, sin romper nada.
 
-**Qué le pasás.** Los encabezados de la planilla, cómo se vende y quién la usa.
+**Qué le pasás.** El esquema de la base, el plan de Airtable, cuántas personas reportan y qué quiere ver el founder.
 
-**Qué te devuelve.** El mapa de tablas (Contactos, Oportunidades, Cobros), el mapeo de cada columna vieja a su tabla nueva, las columnas que no se migran y el orden de construcción. Con la fórmula de estado de la cuota y la de días de atraso listas para pegar.
+**Qué te devuelve.** Primero el mapa (con "una fila =" en cada tabla), la tabla de qué queda y qué se suma, el chequeo del plan y las decisiones que el negocio tiene que tomar. Con tu OK, los campos con la clave persona | mes, los formularios por rol, la automatización que busca o crea la fila de KPIs, las vistas de control y las pruebas.
 
-**Por qué sirve.** Migrar sin perder datos es de lo que más se paga y menos gente sabe hacer. Es la base de la Actividad 12 (y te sirve para la 11).
-
----
-
-## 2. Un gestor de tareas con vista por rol
-
-**La situación.** Un equipo de 7 personas en una academia online. Las tareas viven en chats, notas y la cabeza del founder. Cada uno pregunta "¿qué hago hoy?".
-
-**Qué le pasás.** Los roles, qué áreas hay y qué tiene que poder ver el founder.
-
-**Qué te devuelve.** Tablas de Tareas y Proyectos vinculadas, campos de responsable, fecha, estado, prioridad y área, una vista "Lo mío" para cada rol, una vista "Atrasado y bloqueado" para quien coordina y una automatización nativa que avisa un día antes del vencimiento.
-
-**Por qué sirve.** Es lo primero que te piden cuando entrás a un equipo desordenado. Es la Actividad 7.
+**Por qué sirve.** Es lo que más se pide cuando ya entraste a un negocio: crecer la base sin perder lo que tiene. Si la base es heredada y no sabés qué la alimenta, la skill te manda primero a Auditor de Base Heredada.
 
 ---
 
-## 3. El tablero que el founder abre todos los días
+## 2. Construir el CRM que ya diseñaste
 
-**La situación.** El CRM ya existe en Airtable, pero el founder no lo abre: "no entiendo nada ahí adentro".
+**La situación.** Con la skill CRM de Cliente para Infonegocios ya tenés el diseño: Leads, Oportunidades, Deals + Reservas, Cuotas, Clientes, Equipo. Falta construirlo.
 
-**Qué le pasás.** Las tablas y campos que tenés y los números que el founder pregunta siempre (leads nuevos, agendas, asistencia, cierres, cobrado).
+**Qué le pasás.** El diseño y el plan de Airtable.
 
-**Qué te devuelve.** El diseño de una interface: números grandes arriba con comparación contra el mes anterior, gráfico por canal de origen, lista de oportunidades calientes. Y qué campos o rollups faltan en la base para calcularlos.
+**Qué te devuelve.** El orden de construcción (tablas, Equipo y vínculos, campos simples, fórmulas, datos de prueba con casos raros, formularios con vínculos limitados, vistas, interface, automatizaciones, permisos), las fórmulas con tus nombres de campo y el chequeo de si tu plan aguanta la cantidad de registros y de automatizaciones.
 
-**Por qué sirve.** Es el tablero que mira el founder todos los días; quien lo construye se vuelve indispensable. Es la Actividad 20 (combinala con la skill Analista de KPIs para elegir los números).
+**Por qué sirve.** El diseño no cambia de una skill a otra: una dice qué, la otra cómo. Es la Actividad 12 (y la 14 y la 15).
+
+---
+
+## 3. De la planilla a Airtable sin perder datos
+
+**La situación.** Un negocio con una planilla de 40 columnas mezclando datos de personas, llamadas y pagos, con una columna por cuota y otra por mes.
+
+**Qué le pasás.** Los encabezados (o la planilla) y quién la usa.
+
+**Qué te devuelve.** El mapeo de cada columna a su tabla y campo nuevos, las columnas que no se migran, cómo las "Cuota 2 / Cuota 3" pasan a filas, la prueba con una muestra y la comparación de totales antes de migrar todo.
+
+**Por qué sirve.** Migrar bien es de lo que más se paga y menos gente sabe hacer.
+
+---
+
+## 4. Una base que no es de ventas
+
+**La situación.** Una academia necesita ordenar las búsquedas de personal, los procesos documentados o el calendario de contenidos.
+
+**Qué le pasás.** Qué pregunta tiene que contestar la base y quién la carga.
+
+**Qué te devuelve.** El diseño completo en dos tiempos, con los mismos principios: una tabla por entidad, personas vinculadas, estados con criterio, formularios como puerta de entrada y vistas por uso. Es la Actividad 7 (gestor de tareas por rol) y sirve para cualquier base del equipo.

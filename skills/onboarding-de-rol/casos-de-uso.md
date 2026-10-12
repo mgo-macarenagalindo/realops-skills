@@ -34,6 +34,6 @@ Tres situaciones de infonegocio donde la incorporación se hace de memoria y se 
 
 **Qué le pasás.** Los accesos que sabés que tenía y lo que estaba en curso.
 
-**Qué te devuelve.** El checklist de salida: cada acceso con fecha de baja, contraseñas a cambiar, leads a reasignar, traspaso por escrito y la confirmación final. Y el consejo: para el próximo ingreso, la lista de accesos se escribe el primer día.
+**Qué te devuelve.** El checklist de salida: cada acceso con fecha de baja, contraseñas a cambiar, leads a reasignar, traspaso por escrito y la confirmación final. Y el consejo: para el próximo ingreso, la lista de accesos se escribe el primer día. Si después entra alguien a reemplazarla, esa salida se cierra antes de su día 1: va a usar las mismas cuentas.
 
 **Por qué sirve.** Una salida mal cerrada es un riesgo de datos y de clientes. Con la lista, no depende de la memoria de nadie.

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Airtable Skills"
+  short_description: "Design, audit, and document professional Airtable bases."
+  icon: "table"
+  brand_color: "#18BFFF"

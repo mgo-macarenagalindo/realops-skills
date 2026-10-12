@@ -34,6 +34,6 @@ Tres situaciones donde esta skill pone por escrito lo que se habló. Personas y 
 
 **Qué le pasás.** El caso práctico (o la propuesta, si la tenés) y lo que sepas. Si contestás "no sé" al precio, a las cuotas o a las fechas, la skill te hace tres preguntas más chicas (horas, valor hora, cuánto le cuesta el problema al cliente) y saca la cuenta con vos.
 
-**Qué te devuelve.** El acuerdo completo, sin [completar] en montos ni fechas: lo que no sabías va como supuesto rotulado ("Supuesto a validar con el founder"). Aparte, la lista "Supuestos a validar", la cuenta del precio, el registro de adicionales y "qué cambiás cuando tengas cliente real".
+**Qué te devuelve.** El acuerdo completo, sin [completar] en montos ni fechas: lo que no sabías va como supuesto rotulado ("Supuesto a validar con el founder"). Aparte, la lista "Supuestos a validar", la cuenta del precio (con el valor para el cliente en versión conservadora, que es la que fija el número, y con mejoras), el registro de adicionales y "qué cambiás cuando tengas cliente real".
 
 **Por qué sirve.** Cuando te digan que sí, cambiás tres o cuatro datos y el acuerdo sale ese mismo día.

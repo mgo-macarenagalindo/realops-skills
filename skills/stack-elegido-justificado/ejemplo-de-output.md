@@ -13,13 +13,13 @@
 | Comunicación interna | Discord | Canales por área y reporte de fin de día | USD 0 | Slack | El equipo ya lo usa con la comunidad; Slack sumaba una app más sin ventaja para 6 personas |
 | Gestión de tareas | Notion | Tareas del equipo, calendario de contenido | USD 40 | Asana | Notion ya es la wiki y el calendario: tener las tareas ahí evita una herramienta más |
 | Wiki y documentación | Notion | SOPs, accesos (nombrados), quién es quién | (incluido) | Google Drive suelto | Drive queda para archivos, no para navegar procesos |
-| CRM de ventas del programa | Airtable | Agendas, deals y cuotas del programa de formación | USD 45 | Seguir en la planilla | La planilla no cruza con la pasarela y ya hubo dos ventas contadas dos veces |
+| CRM de ventas del programa | Airtable, en una cuenta del negocio | Agendas, deals y cuotas del programa de formación | USD 45 | Seguir en la planilla | La planilla no cruza con la pasarela, ya hubo dos ventas contadas dos veces y vive en el Drive personal de la closer |
 | Membresía y cobro recurrente | Plataforma actual de membresías | Acceso y cobro mensual | USD 99 | La plataforma nueva que vio el founder | Resuelve lo mismo que la actual; migrar 650 miembros con cobro recurrente es el mayor riesgo del negocio |
 | Cobros del programa | Pasarela actual | Cuotas del programa | Comisión por venta | — | Funciona: no se toca |
 | Automatización | Zapier | Agenda → Airtable, venta → aviso a Discord | USD 30 | n8n | Son menos de 500 ejecuciones por mes y la asistente ya sabe usarlo; no hay excedentes |
 | Reportes | Interface de Airtable | Ventas, cobrado y cuotas del mes | (incluido) | Herramienta de dashboards aparte | Con una sola fuente de datos alcanza para lo que el founder quiere ver |
 
-## Costo mensual total
+## Costo mensual total de herramientas
 
 | | Hoy | Propuesto |
 |---|---|---|
@@ -27,6 +27,8 @@
 | Ahorro | — | **USD 109 por mes** |
 
 El ahorro sale de dar de baja dos herramientas que se pagan y no se usan (un gestor de proyectos con 2 tareas en el último mes y un programa de mails que se reemplazó por la plataforma de membresías: USD 154), menos lo que suma Airtable (USD 45). Y no se suma la plataforma nueva.
+
+**No entran en esta cuenta** las comisiones de la pasarela por cada cobro ni el gasto en anuncios: no son herramientas, y mezclarlos esconde lo que de verdad cuesta el stack.
 
 ## Lo que no se cambia y por qué
 
@@ -49,36 +51,39 @@ El ahorro sale de dar de baja dos herramientas que se pagan y no se usan (un ges
 
 ### Inventario de hoy
 
-| Función | Herramienta actual | Costo | Quién la usa | Uso real |
-|---|---|---|---|---|
-| Comunicación | WhatsApp + Discord | USD 0 | Todos | Alto, mezclado |
-| Tareas | Gestor de proyectos | USD 54 | Founder | **Nada**: 2 tareas en un mes |
-| Documentación | Notion | USD 40 | Asistente | A medias |
-| Ventas del programa | Planilla de Google | USD 0 | Closer, setter | Alto, con errores |
-| Mails | Programa de mails | USD 100 | Nadie desde marzo | **Nada** |
-| Membresía | Plataforma de membresías | USD 99 | Todos | Alto |
-| Automatización | Zapier | USD 30 | Asistente | Alto |
-| **Total** | | **USD 323** | | |
+| Función | Herramienta actual | Costo | Cuenta dueña | Quién la usa | Uso real |
+|---|---|---|---|---|---|
+| Comunicación | WhatsApp + Discord | USD 0 | Discord del negocio | Todos | Alto, mezclado |
+| Tareas | Gestor de proyectos | USD 54 | Tarjeta del founder | Founder | **Nada**: 2 tareas en un mes |
+| Documentación | Notion | USD 40 | Negocio | Asistente | A medias |
+| Ventas del programa | Planilla de Google | USD 0 | **Drive personal de la closer** | Closer, setter | Alto, con errores |
+| Mails | Programa de mails | USD 100 | Negocio | Nadie desde marzo | **Nada** |
+| Membresía | Plataforma de membresías | USD 99 | Negocio | Todos | Alto |
+| Automatización | Zapier | USD 30 | **Mail personal de la asistente** | Asistente | Alto |
+| **Total** | | **USD 323** | | | |
+
+Zapier se queda, pero pasa a una cuenta del negocio: si la asistente se va, hoy se lleva las automatizaciones.
 
 ### Criterios y peso
 
 | Criterio | Peso |
 |---|---|
-| El equipo lo usa sin capacitación larga | 30 % |
-| Se conecta con lo que ya hay | 25 % |
-| Costo a 12 meses | 20 % |
-| Aguanta si el volumen se duplica | 15 % |
-| Qué tan fácil es salir si hay que migrar | 10 % |
+| Resuelve el dolor del diagnóstico (ventas contadas dos veces, cuotas cruzadas a mano) | 25 % |
+| El equipo lo usa sin capacitación larga | 20 % |
+| Se conecta con lo que ya hay | 15 % |
+| Queda a nombre del negocio y se puede dar de baja a quien se va | 15 % |
+| Costo a 12 meses | 15 % |
+| Aguanta si el volumen se duplica | 10 % |
 
 ### Matriz de la función con problema: registro de ventas del programa
 
-| Opción | Sin capacitación (30 %) | Se conecta (25 %) | Costo (20 %) | Aguanta x2 (15 %) | Fácil salir (10 %) | Total |
-|---|---|---|---|---|---|---|
-| Seguir en la planilla | 5 | 2 | 5 | 1 | 5 | 3,7 |
-| Base en Notion | 4 | 3 | 5 | 3 | 4 | 3,8 |
-| Base en Airtable | 3 | 5 | 3 | 5 | 4 | **3,9** |
+| Opción | Resuelve el dolor (25 %) | Sin capacitación (20 %) | Se conecta (15 %) | A nombre del negocio (15 %) | Costo (15 %) | Aguanta x2 (10 %) | Total |
+|---|---|---|---|---|---|---|---|
+| Seguir en la planilla | 1 | 5 | 2 | 2 | 5 | 1 | 2,7 |
+| Base en Notion | 3 | 4 | 3 | 5 | 5 | 3 | 3,8 |
+| Base en Airtable | 5 | 3 | 5 | 5 | 3 | 5 | **4,3** |
 
-Gana Airtable por poco. El empate técnico con Notion se desempata por la conexión con la pasarela y el cruce de cuotas, que es justo el problema de hoy.
+Fricción que justifica "resuelve el dolor": en el último mes hubo dos ventas contadas dos veces y la closer cruza cada cuota con la pasarela a mano. La planilla **es** la causa, así que no puede sacar más de 2 en ese criterio aunque sea gratis y conocida. Sin ese criterio, la planilla empataba con las otras dos opciones.
 
 ### Precios a verificar
 

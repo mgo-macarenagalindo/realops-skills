@@ -34,11 +34,11 @@ Asegura que cada alumno entre, avance y termine el programa sin depender de que 
 
 ## KPIs del mes
 
-| KPI | Cómo se calcula | De dónde sale | Objetivo |
-|---|---|---|---|
-| Tiempo de ingreso | Horas desde el pago acreditado hasta el acceso a la plataforma (promedio) | CRM de alumnos: fecha de pago y fecha de alta | Menos de 24 h |
-| Alumnos en rojo con aviso a la coach | Alumnos en rojo avisados en la semana / alumnos en rojo | Semáforo del CRM | 100 % |
-| Satisfacción con la atención operativa | Promedio de la pregunta "¿te resolvimos rápido lo que necesitabas?" (1 a 10) | Encuesta de mitad de programa | 8 o más |
+| KPI | Cómo se calcula | De dónde sale | Línea de base | Objetivo |
+|---|---|---|---|---|
+| Tiempo de ingreso | Horas desde el pago acreditado hasta el acceso a la plataforma (promedio) | CRM de alumnos: fecha de pago y fecha de alta | 38 h (promedio de los últimos 2 meses, calculado del CRM) | Menos de 24 h (lo pidió el founder) |
+| Alumnos en rojo con aviso a la coach | Alumnos en rojo avisados en la semana / alumnos en rojo | Semáforo del CRM | Sin dato: hoy el aviso no se registra. Sumar un campo "Avisado a la coach (fecha)" | A definir con el founder |
+| Satisfacción con la atención operativa | Promedio de la pregunta "¿te resolvimos rápido lo que necesitabas?" (1 a 10) | Encuesta de mitad de programa | Sin dato: la pregunta se suma en la próxima encuesta | A definir con el founder después de la primera medición |
 
 ## Herramientas y accesos
 

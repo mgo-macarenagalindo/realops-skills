@@ -60,7 +60,7 @@ Programas online de USD 1.000 a 5.000 que se venden por llamada, con setters y c
 
 **"No tengo tiempo para esto."** Te pido 2 horas la semana 1 y 30 minutos por semana después. El resto lo hago yo con tu equipo.
 
-**"¿Tenés experiencia con negocios como el mío?"** Coordiné operaciones dos años en un programa high ticket con setters y closers. Te muestro el portafolio (los casos están anonimizados).
+**"¿Tenés experiencia con negocios como el mío?"** Coordiné operaciones dos años en un programa high ticket con setters y closers. Cuando armé el CRM de cobros, aparecieron 14 cuotas vencidas que nadie seguía, por unos USD 9.800, y en dos meses se recuperó la mitad. Te muestro el portafolio (los casos están anonimizados).
 
 ## Inversión
 
@@ -104,6 +104,6 @@ Una llamada de diagnóstico de 30 minutos. Te llevás tu Mapa de Fricción con l
 | Path | Diagnóstico de bajas → Alertas de cobro → Rutina de la CSM · **[SUPUESTO: 5 semanas (1 + 2 + 2), confirmalo con lo que te llevó el caso]** |
 | Plataforma | **[SUPUESTO: canal principal referidos · corta: LinkedIn · larga: un caso escrito por mes, confirmalo]** |
 
-**Experiencia, dicha como es:** "Lo armé de punta a punta sobre un caso de práctica de una membresía así. Te muestro lo que hice."
+**Experiencia, dicha como es, con un número que encontró él:** "Lo armé de punta a punta sobre un caso de práctica de una membresía así. En ese caso encontré 38 cobros fallidos de un mes que nadie había reintentado. Te muestro lo que hice."
 
-**Para confirmar:** los plazos (medí cuánto te llevó cada paso en el caso) y la plataforma (elegí una corta y una larga, no más).
+**Para confirmar:** los plazos (medí cuánto te llevó cada paso en el caso) y la plataforma (elegí una corta y una larga, no más). Cuando los confirme, recibe la **versión limpia**: la misma página sin ninguna marca [SUPUESTO], lista para mandar.

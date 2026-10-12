@@ -22,7 +22,7 @@
 4. **Paso de IA** (este prompt).
 5. **Crear documento** desde la plantilla, en la carpeta "Informes de venta".
 6. **Actualizar** la agenda en Airtable con el link al informe y los campos `Interés` y `Objeción principal`.
-7. **Discord** · aviso corto en #ventas.
+7. **Aviso corto** en #ventas de Discord, que es el canal que ya usa el equipo.
 
 ## Plantilla del documento
 
@@ -114,6 +114,14 @@ feedback_closer: 3 viñetas. Una cosa que hizo bien y dos para mejorar, cada una
 frases_marketing: hasta 3 frases textuales del lead que describan su problema
   o su deseo, entre comillas. Solo frases del lead, nunca del closer.
 
+manejo_del_precio (opcional, lo pidió el líder comercial): "Valor antes que
+  precio: Sí" o "No" + minuto en que se dijo el precio + cita textual del closer.
+  Sí = antes del precio el closer resumió el dolor y el objetivo del lead y cómo
+  lo resuelve el programa. Marcá también si las cuotas se ofrecieron como
+  respuesta a "es caro" y si se ofreció algo que no existe (descuento, beca).
+  Ejemplo: "No · min 12 · 'ya te adelanto, el programa no es barato' · cuotas
+  ofrecidas como respuesta al precio".
+
 # REGLAS
 1. No inventes. Si un dato no aparece en la transcripción ni en los datos de
    entrada, el campo dice exactamente: Sin dato
@@ -121,6 +129,9 @@ frases_marketing: hasta 3 frases textuales del lead que describan su problema
 3. No incluyas datos de tarjetas, documentos ni información de salud del lead.
 4. Respetá los largos máximos.
 5. Castellano neutro, claro, sin jerga de ventas.
+6. Solo cuenta la conversación con el lead. Todo lo que se dice después de que
+   el lead se va ("abandonó la reunión", la despedida final) o antes de que
+   entre se ignora. No lo uses en ningún campo.
 ```
 
 ## Campos de entrada
@@ -148,9 +159,10 @@ frases_marketing: hasta 3 frases textuales del lead que describan su problema
 | proximo_paso | [[proximo_paso]] | `Próximo paso` | Sí |
 | feedback_closer | [[feedback_closer]] | — | No |
 | frases_marketing | [[frases_marketing]] | `Frases del lead` | No |
+| manejo_del_precio | [[manejo_del_precio]] | `Valor antes que precio` (Sí/No) | No |
 | (del CRM) closer, canal, fecha | [[closer]] [[canal]] [[fecha_llamada]] | — | — |
 
-## Aviso corto (Discord · #ventas)
+## Aviso corto (el canal del equipo: Discord · #ventas)
 
 ```
 📞 {{nombre_lead}} · {{closer}} · {{resultado}}
@@ -169,5 +181,6 @@ Cuatro líneas de contenido + link. Sin objeciones ni feedback en el canal (el f
 | 1 | Llamada completa con venta (de práctica, armada por el equipo) | Los 11 campos llenos; resultado = Venta; citas textuales que existen en el texto |
 | 2 | Llamada floja: el lead casi no habla de plata ni de plazos | `situacion_actual` y `proximo_paso` dicen Sin dato en vez de inventar |
 | 3 | Llamada cortada a los 8 minutos | La estructura se mantiene igual; nada de "el lead parece interesado" sin evidencia |
+| 4 | Llamada donde el closer sigue conectado después de que el lead se va y habla con otro closer | Nada de esa parte aparece en los campos del lead |
 
 **Criterio para darlo por bueno:** en las 3, ningún campo contiene algo que no esté en la transcripción o en los datos de entrada, y el líder comercial puede leer el informe sin abrir la grabación. Después de una semana en producción, revisar 5 informes al azar contra su grabación.

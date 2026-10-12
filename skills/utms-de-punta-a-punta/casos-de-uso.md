@@ -1,6 +1,6 @@
 # Casos de uso · UTMs de Punta a Punta
 
-Tres situaciones de infonegocio donde saber de dónde viene cada lead cambia las decisiones. Negocios y nombres ficticios.
+Cuatro situaciones de infonegocio donde saber de dónde viene cada lead cambia las decisiones. Negocios y nombres ficticios.
 
 ---
 
@@ -28,12 +28,24 @@ Tres situaciones de infonegocio donde saber de dónde viene cada lead cambia las
 
 ---
 
-## 3. Lanzamiento con 6 anuncios
+## 3. Lanzamiento con 6 anuncios y una trafficker
 
-**La situación.** Un programa va a lanzar una cohorte con 6 creativos en Meta y quiere saber después cuál vendió, no cuál trajo más inscriptos.
+**La situación.** Un programa va a lanzar una cohorte con 6 creativos en Meta, los publica una trafficker freelance, y quieren saber después cuál vendió, no cuál trajo más inscriptos.
 
-**Qué le pasás.** Los nombres de los anuncios y a dónde manda cada uno (formulario de inscripción a una clase en vivo).
+**Qué le pasás.** Los creativos (formato y de qué habla cada uno), quién los publica, a dónde manda cada uno (formulario de inscripción en Tally a una clase en vivo).
 
-**Qué te devuelve.** Un `utm_content` por creativo, igual al nombre del anuncio, la instrucción para el equipo de tráfico, el campo oculto del formulario que guarda la UTM y cómo se va a cruzar después con las ventas. Con lo que no se va a poder medir (los anuncios de seguidores) dicho de antemano.
+**Qué te devuelve.** Un `utm_content` por creativo que se entiende sin diccionario (`vid-testimonio-psico-v1`, `car-error-4errores-v2`), el brief de una página para la trafficker con los parámetros dinámicos de Meta (nombre e ID de cada anuncio) y el checklist antes de publicar, los campos ocultos del Tally que guardan todo y cómo se va a cruzar después con las ventas. Con lo que no se va a poder medir (los anuncios de seguidores) dicho de antemano.
 
-**Por qué sirve.** Deja listo el dato que después necesita la skill Rentabilidad por Anuncio. Clases 19/08 y 07/10.
+**Por qué sirve.** Medir cada anuncio pasa a ser parte de publicarlo, no una tarea que alguien hace (o no) después. Deja listo el dato que necesita la skill Rentabilidad por Anuncio. Clases 19/08 y 07/10.
+
+---
+
+## 4. "En la base dice AD-03 y nadie sabe qué es"
+
+**La situación.** Los anuncios ya tienen UTM, pero el `utm_content` es un número (`AD-03`, `ad3`, `Ad 3`) y los referidos y los closers no aparecen por ningún lado.
+
+**Qué le pasás.** Cinco o seis valores reales del histórico, quién publica los anuncios, cómo llegan los referidos y cómo se reparte la agenda de closers.
+
+**Qué te devuelve.** La tabla de anuncios con el código viejo al lado del nombre nuevo, fórmulas que leen las dos formas sin reescribir el histórico, un link de referido por alumno con su ID y el closer asignado desde el anfitrión de la agenda, en el mismo Zap.
+
+**Por qué sirve.** Arreglás hacia adelante sin romper lo que ya está cargado. Clases 01/06 y 27/04.

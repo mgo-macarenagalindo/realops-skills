@@ -10,7 +10,7 @@ Tres situaciones de infonegocio donde una hora bien preparada vale más que un d
 
 **Qué le pasás.** Qué sabés del negocio (venden un programa de 4 meses por lanzamiento, hay 2 closers y 3 profesoras) y que el founder te da 60 minutos el jueves.
 
-**Qué te devuelve.** El guion de 5 bloques adaptado a un negocio por lanzamientos, el mensaje previo con los temas y la lista de accesos a pedir en el bloque 4 (plataforma de cursos, pasarela de pago, planilla de ventas), con los dos argumentos para pedirlos.
+**Qué te devuelve.** El guion de 60 minutos en el orden del Cuestionario de Diagnóstico Operativo (contexto, los 6 dolores, visión y techo operativo), con las 20 preguntas imprescindibles marcadas y un máximo de 4 por bloque, el mensaje previo con los temas y la lista de accesos a pedir en el cierre, con los dos argumentos. Si el founder dice "mandámelo por escrito", te da la versión escrita completa.
 
 **Por qué sirve.** Cambiás "completá este documento" por "dame una hora". Al founder le resulta más fácil hablar que escribir, y vos te quedás con la grabación.
 
@@ -22,7 +22,7 @@ Tres situaciones de infonegocio donde una hora bien preparada vale más que un d
 
 **Qué le pasás.** La transcripción completa y las respuestas de la encuesta al equipo que hiciste la semana anterior.
 
-**Qué te devuelve.** El resumen ordenado: los números con su fuente (y cuál es estimación), lo que pasa sí o sí por la founder con citas, las decisiones que tiene pendientes, las contradicciones con lo que dijo el equipo y una sola lista de preguntas abiertas para mandarle de una vez.
+**Qué te devuelve.** El relevamiento ordenado para el Diagnóstico Operativo: la ficha del negocio, los números con su fuente (facturado y cobrado separados), el semáforo de los 6 dolores según la founder, lo que pasa sí o sí por ella con citas, el techo operativo, las decisiones pendientes, las contradicciones con el equipo y una sola lista "Para confirmar".
 
 **Por qué sirve.** En 10 minutos tenés el insumo de tu diagnóstico, y la founder recibe un solo mensaje con lo que falta en vez de cinco.
 
@@ -32,8 +32,8 @@ Tres situaciones de infonegocio donde una hora bien preparada vale más que un d
 
 **La situación.** Trabajás sobre un caso práctico del programa (una membresía de diseño gráfico) y nunca le preguntaste a un founder cuánto factura.
 
-**Qué le pasás.** El material del caso y el pedido de preparar la entrevista.
+**Qué le pasás.** El material del caso y el pedido de ensayar la entrevista.
 
-**Qué te devuelve.** El guion completo y, si se lo pedís, cómo formular las preguntas incómodas del bloque 1 para que suenen naturales.
+**Qué te devuelve.** El guion y, en modo ensayo, Claude hace de founder respondiendo solo con la ficha y el brief: lo que el material no dice, "no lo sé". Al terminar, ordena esa transcripción (rotulada "ensayo") y te devuelve feedback: qué imprescindibles te salteaste y dónde tu pregunta delató la conclusión en vez de dejar hablar al founder.
 
 **Por qué sirve.** La pregunta de la facturación es la que más cuesta y la que más autoridad te da. Mejor ensayarla con un caso que improvisarla con un founder.

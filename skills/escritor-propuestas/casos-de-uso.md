@@ -1,39 +1,51 @@
 # Casos de uso · Escritor de Propuestas de Consultoría
 
-Tres situaciones donde esta skill te saca del "no sé cuánto cobrar". Negocios y nombres ficticios.
+Cuatro situaciones donde esta skill te saca del "no sé cómo armar la propuesta ni cuánto cobrar". Negocios y nombres ficticios.
 
 ---
 
-## 1. Del diagnóstico a la primera propuesta afuera
+## 1. Del diagnóstico al primer proyecto (modelo A · implementación por fases)
 
-**La situación.** Hiciste el Mapa de Diagnóstico Operativo de una mentoría de nutrición deportiva que te recomendó una conocida. Encontraste 5 cuellos de botella y el founder te preguntó "¿y cuánto me sale que lo arregles?".
+**La situación.** Hiciste el diagnóstico de una mentoría de nutrición deportiva. Encontraste 5 cuellos de botella y el founder te preguntó "¿y cuánto me sale que lo arregles?".
 
-**Qué le pasás.** El diagnóstico (adjunto o pegado), cuántas horas por semana podés dedicarle y cuánto ganás hoy por hora.
+**Qué le pasás.** El diagnóstico, cuántas horas por semana podés dedicarle y cuánto ganás hoy (o cuánto querés ganar).
 
-**Qué te devuelve.** La cuenta del precio (horas + 30%, tu piso, el valor para el cliente) y la propuesta de dos páginas con dos o tres opciones de inversión y un próximo paso con fecha.
+**Qué te devuelve.** La cuenta del precio y la propuesta con la estructura de Macarena: objetivo, cuellos de botella con lo que cuestan, tres fases (diagnóstico y roadmap, implementación, optimización) con entregables y la relevancia de cada una para el founder, orden de prioridades, metodología, qué no incluye, qué necesitás de su lado, cómo se mide el éxito, inversión y próximos pasos.
 
-**Por qué sirve.** Llegás a la conversación con un número que podés defender con lo que el cliente deja de perder, no con tus horas.
-
----
-
-## 2. Vender un proyecto adentro del negocio donde ya trabajás
-
-**La situación.** Sos asistente operativo en un programa high ticket. Ves que el handoff de venta a servicio se rompe todas las semanas y querés proponer armarlo como proyecto aparte, fuera de tus tareas de siempre.
-
-**Qué le pasás.** Lo que observaste, las frases del equipo ("me entero del alumno nuevo cuando me escribe"), y tu sueldo actual.
-
-**Qué te devuelve.** Una propuesta interna con alcance cerrado, lo que no incluye y un precio por proyecto (o un ajuste de rol, si eso es lo que tiene sentido), más el ensayo de la objeción "esto ya es parte de tu trabajo".
-
-**Por qué sirve.** Es la forma de cobrar lo que hoy hacés gratis porque nadie lo puso por escrito.
+**Por qué sirve.** El founder no compra herramientas: compra un plan que entiende, con fases y con fecha.
 
 ---
 
-## 3. Practicar sobre un caso para el portafolio
+## 2. Un negocio que primero tiene que definirse (modelo B · consultoría con mentoring)
 
-**La situación.** Todavía no tenés cliente. Hiciste el diagnóstico de uno de los casos prácticos del programa y querés que la Actividad 30 tenga una propuesta con precio.
+**La situación.** Un estudio de servicios profesionales de dos socias (vende a empresas) trabaja con cualquier tipo de cliente, tiene un menú de servicios enorme y vende solo por referidos. No necesita un CRM todavía: necesita saber qué vende y a quién.
 
-**Qué le pasás.** El diagnóstico del caso y cuánto querés ganar por hora.
+**Qué le pasás.** Lo que viste en la llamada y qué te pidieron.
 
-**Qué te devuelve.** La propuesta completa sobre el caso, marcada como ejercicio, con la cuenta del precio explicada para que la puedas rehacer con tu primer cliente real.
+**Qué te devuelve.** Una propuesta de consultoría y mentoring: propuesta de valor, servicios ancla (máximo 3), sistema comercial mínimo, centralización básica, con las socias implementando y vos guiando, y un "qué no incluye" claro (branding, redes, ejecución).
 
-**Por qué sirve.** La primera vez que pasás un precio no debería ser frente a un cliente. Mejor que sea acá.
+**Por qué sirve.** No le vendés implementación a quien todavía no sabe qué implementar.
+
+---
+
+## 3. Entrar como parte del equipo (modelo C · fijo + variable)
+
+**La situación.** Un founder que factura bien quiere consolidar un número mensual más alto y te propone sumarte (con un socio comercial) a ordenar ventas, marketing, servicio y sistemas a la vez.
+
+**Qué le pasás.** El objetivo de facturación, los frentes y quién lidera cada uno.
+
+**Qué te devuelve.** Un plan estratégico por área, quién lidera cada frente, cómo se mide el éxito, un compromiso mínimo de 6 meses con balance al final, y la inversión como fee fijo más un variable por tramos de cash collected.
+
+**Por qué sirve.** Crecés cuando el negocio crece, y el fijo no termina cubriendo todo.
+
+---
+
+## 4. Practicar sin cliente (cualquier modelo, sobre un caso del programa)
+
+**La situación.** Todavía no tenés cliente ni sabés cuánto vale tu hora. Querés que tu portafolio tenga una propuesta con precio.
+
+**Qué le pasás.** El diagnóstico de un caso práctico y cuánto querés ganar por mes.
+
+**Qué te devuelve.** La propuesta completa, marcada como ejercicio, con tu valor hora calculado desde lo que querés ganar (o un valor de prueba marcado como supuesto) y la lista de lo que tendrías que confirmar con un cliente real.
+
+**Por qué sirve.** La primera vez que pasás un precio no debería ser frente a un cliente.

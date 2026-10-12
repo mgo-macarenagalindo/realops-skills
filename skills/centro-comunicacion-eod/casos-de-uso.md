@@ -4,38 +4,38 @@ Tres situaciones de infonegocio donde el equipo trabaja por WhatsApp y nadie sab
 
 ---
 
-## 1. El founder pregunta todo el día "¿cómo venís?"
+## 1. El EOD único que nadie completa
 
-**La situación.** Una mentoría de oratoria para profesionales tiene 9 personas en el equipo y tres grupos de WhatsApp. El founder escribe a cada uno por privado para saber cómo va el día y hay audios con decisiones adentro que nadie encuentra después.
+**La situación.** Una mentoría de oratoria tiene un formulario de fin de día igual para todos: 14 preguntas, la mitad no aplica a cada uno. Los closers lo dejan a medias, la editora lo completa con "N/A" y el founder dejó de leerlo.
 
-**Qué le pasás.** Los roles, qué se pierde hoy y que van a usar Slack.
+**Qué le pasás.** Los roles, quién trabaja full time y quién por pieza, quién cobra, y qué número le pregunta el founder a cada uno.
 
-**Qué te devuelve.** El mapa de 6 canales con su regla, las reglas de urgencia, el EOD por rol, el Workflow Builder a las 18 h y el resumen para el founder con lo trabado primero. Y el anuncio de qué deja de ir por WhatsApp.
+**Qué te devuelve.** Un EOD por rol con las plantillas del programa (setter, closer, coach, coordinación), cada una sin los campos que ese rol no usa y con una línea de por qué se sacó o se sumó cada cosa. Energía del 1 al 10 y Big Rock en los roles que manejan su agenda. La editora pasa a reportar por entrega.
 
-**Por qué sirve.** A las 19 h el founder lee el día en un solo lugar. Las preguntas por privado bajan solas.
+**Por qué sirve.** Cada persona completa en dos minutos lo que de verdad hace, y el resumen del founder sale con números que se pueden cruzar con la base.
 
 ---
 
 ## 2. No sabés dónde se cae el lead del setter
 
-**La situación.** En un programa de trading para principiantes, 3 setters reportan "cuántas agendas sacaron". Las agendas bajaron y nadie sabe si es porque mandan menos mensajes, porque los leads no responden o porque no les pasan el link.
+**La situación.** En un programa de trading para principiantes, 3 setters reportan solo "cuántas agendas sacaron". Las agendas bajaron y nadie sabe si mandan menos mensajes, si los leads no responden o si no les pasan el link.
 
 **Qué le pasás.** Que hay setters outbound e inbound, y dónde está el CRM.
 
-**Qué te devuelve.** El EOD del setter con el funnel completo separado por outbound e inbound (mensajes nuevos, ofertas, links, agendas), el formulario que guarda cada reporte en una tabla y el cruce mensual contra las agendas reales.
+**Qué te devuelve.** El EOD del setter del modelo RealOps, con inbound y outbound separados (mensajes, seguimientos, respuestas, ofertas, links, agendas); el del closer de agendadas a cierres; el formato fijo de "Leads del día" y el cruce mensual contra las agendas reales.
 
-**Por qué sirve.** Con cuatro números por día ves exactamente en qué paso se cae el lead. Sin eso, la reunión es de opiniones.
+**Por qué sirve.** Ves en qué paso se cae el lead. Sin eso, la reunión es de opiniones.
 
 ---
 
-## 3. Practicás con un caso del programa
+## 3. Practicás con un caso del programa (y el founder no quiere herramientas nuevas)
 
-**La situación.** Un caso práctico de RealOps™: una membresía de cerámica con founder, 2 profesoras, 1 asistente y 1 community manager, todo por WhatsApp.
+**La situación.** Un caso práctico de RealOps™: un equipo de 9 en un solo grupo de WhatsApp, el número del negocio en el celular de la coordinadora y todo en cuentas personales.
 
 **Qué le pasás.** El material del caso.
 
-**Qué te devuelve.** El centro de comunicación completo en Discord (que ya usa la comunidad), con un EOD liviano para un equipo sin ventas por llamada y el resumen para la founder.
+**Qué te devuelve.** El paso 0 (cuenta del negocio, desde qué número se crea la Comunidad y quiénes la administran), los EOD por rol, la Comunidad de WhatsApp con un grupo por área y el resumen para el founder.
 
-**Si no sabés algo.** Si no sabés qué herramienta usar o si hay setters outbound, la skill te hace dos o tres preguntas más chicas (¿dónde está la comunidad de alumnos?, ¿el founder acepta cambiar el grupo?, ¿qué fuentes de leads hay en la base?). Si igual no sabés, sigue con un supuesto rotulado ("Supuesto a validar con el founder") y te da la opción sin herramienta nueva (Comunidad de WhatsApp + formulario) por si el founder no quiere sumar nada.
+**Si no sabés algo.** Si no sabés qué hace un rol en el día o cuáles son los objetivos del trimestre, la skill te hace preguntas más chicas (¿qué número le pide el founder a esa persona?, ¿qué quiere que pase antes de fin de año?). Si igual no sabés, sigue con un supuesto rotulado y lo suma a "Para confirmar".
 
-**Por qué sirve.** Es la Actividad 10. Aprendés a dimensionar: no todos los negocios necesitan el EOD de un equipo de ventas.
+**Por qué sirve.** Es la Actividad 10. Aprendés que el EOD depende del rol y que un canal armado en una cuenta personal es un problema que se repite.

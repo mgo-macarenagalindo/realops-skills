@@ -38,6 +38,8 @@ Si el caso no trae registro **del rol pedido** (por ejemplo, no hay registro del
 2. ¿Tenés el registro de una semana (tarea, minutos, frecuencia)? Si no, te doy la plantilla y lo hacés antes: **una semana anotando al terminar cada bloque, no a la noche de memoria.** Truco: una alarma cada dos horas que diga "¿qué hiciste?".
    - **Si tenés un registro parcial** (un registro de fricción, una lista de pendientes, notas sueltas): no es un registro de tareas, porque solo anota lo que se trabó. Elegí con la persona: (a) **esperar** una semana completa con la plantilla, o (b) **matriz parcial ahora**: se usa lo que hay, el título dice "parcial" y el resto de la semana se arma con el plan B (bloques típicos del rol, rotulados como supuesto). En un caso práctico, (b).
 3. ¿Qué roles hay en el equipo hoy? ¿Hay alguien con horas libres o se puede sumar a alguien?
+4. ¿Qué SOPs existen?
+5. ¿Para qué querés las horas que se liberen? (Lo concreto: ese párrafo es el que convence.)
 
 Si contesta "no lo sé" a alguna, pasás al plan B de esa pregunta antes de seguir.
 
@@ -47,15 +49,22 @@ Si contesta "no lo sé" a alguna, pasás al plan B de esa pregunta antes de segu
 
 | Pregunta | Preguntas guía (2 o 3, de a una) | Respuestas típicas en infonegocio | Si igual no sabe |
 |---|---|---|---|
-| **Cuánto tarda una tarea** | ¿Cuántas veces por semana la hacés? · La última vez, ¿empezaste y terminaste de un tirón o con cortes? · ¿Cuánto tarda una sola vez (un mensaje, un alta, una carga)? | Cargar una venta o una llamada a mano: 5 a 7 min. Onboarding a mano: 10 a 20 min por alumno. Mensaje de cobro: 3 a 5 min por alumno. Reporte semanal: 30 a 90 min | Rango típico de la columna del medio × la frecuencia que sí sepa. "Supuesto a validar con <rol de la matriz>": una semana de registro de esa tarea |
-| **El resto de la semana** (registro parcial) | ¿Qué hacés todos los días aunque no se trabe? · ¿Qué reuniones fijas tenés? · ¿Qué hacés con cada venta nueva? | Coordinación: onboarding, cobros, comisiones, reuniones, responder al equipo. Founder: en vivos, contenido, aprobaciones, ventas | Bloques típicos del rol, con horas rotuladas. Lo que ni así se puede estimar queda como **"sin dato"** en una fila, con las horas del rol menos lo anotado |
+| **Cuánto tarda una tarea** | ¿Cuántas veces por semana la hacés? · La última vez, ¿empezaste y terminaste de un tirón o con cortes? · ¿Cuánto tarda una sola vez (un mensaje, un alta, una carga)? | Cargar una venta o una llamada a mano: 5 a 7 min. Onboarding a mano: 10 a 20 min por alumno. Mensaje de cobro: 3 a 5 min por alumno. Reporte semanal: 30 a 90 min | Rango típico de la columna del medio × la frecuencia que sí sepa, **como rango** (mínimo y máximo), no un punto medio. "Supuesto a validar con <rol de la matriz>": una semana de registro de esa tarea |
+| **El resto de la semana** (registro parcial) | ¿Qué hacés todos los días aunque no se trabe? · ¿Qué reuniones fijas tenés? · ¿Qué hacés con cada venta nueva? | Coordinación: onboarding, cobros, comisiones, reuniones, responder al equipo. Founder: en vivos, contenido, aprobaciones, ventas | Bloques típicos del rol, con horas rotuladas. Lo que ni así se puede estimar queda como **"sin dato"** en una fila, con las horas del rol menos lo anotado. **Si "sin dato" es más de la mitad de las horas del rol**, ofrecé además **simular la semana completa con el copiloto** para practicar la matriz entera (ver abajo) |
 | **¿Alguien con horas libres?** | ¿Quién del equipo cobra por pieza o tiene horas variables? · ¿Quién termina su día antes o espera trabajo de otro? · ¿Hay algún rol que hoy hace tareas que no son suyas? | Editor freelance (por pieza), setters en semanas flojas, un CSM con pocos alumnos | Supuesto: **nadie tiene horas libres**. Entonces el orden es eliminar y automatizar primero, y delegar solo lo que entra en un rol con su SOP. "Supuesto a validar con el founder" |
 | **¿Qué SOPs existen?** | ¿Hay algo escrito, aunque sea viejo? · ¿Dónde está (Notion, Drive)? · ¿Alguien lo usa hoy? | Procesos de hace un año, escritos para otra herramienta | Todo SOP se toma como **"falta"** hasta que alguien lo muestre actualizado |
 | **¿Para qué querés las horas?** | ¿Qué te pidió el founder que nunca tenés tiempo de hacer? · ¿Qué problema te gustaría resolver de raíz? | Un tablero de cobranza, el protocolo de cuota vencida, mejorar el onboarding | Usá el pedido más reciente del founder que aparezca en el material. "Supuesto a validar con el founder" |
-4. ¿Qué SOPs existen?
-5. ¿Para qué querés las horas que se liberen? (Lo concreto: ese párrafo es el que convence.)
+| **¿Cada cuánto pasa?** (la frecuencia no está o dice "cada vez que…") | ¿La última semana pasó? ¿Cuántas veces? · ¿Y en una semana mala? · ¿Depende de algo (ventas, lanzamientos, fin de mes)? | Founder que pregunta "¿cuánto vendimos?": 1 a 3 veces por semana. Material nuevo del editor o del equipo de contenido: 1 a 3 veces por semana. Reclamos o dudas de comisión: 1 a 3 por mes. Consultas de descuento de closers: 1 a 4 por mes. Mensaje de cobro: 3 a 5 min por alumno | **Un rango, no un punto**: el mínimo y el máximo típicos de la columna del medio, con la cuenta hecha para los dos extremos ("25 min × 1 a 3 por semana = 0,4 a 1,25 h"). Los totales con supuestos también van como rango. "Supuesto a validar con <rol de la matriz>": anotarla 4 semanas |
+
+**Simular la semana completa (para practicar).** Cuando el registro cubre menos de la mitad del rol, la matriz es honesta pero chica. Ofrecé: "¿Querés que el copiloto simule el resto de tu semana para practicar la matriz entera?". Si dice que sí: el copiloto responde como la persona del rol, bloque por bloque, con tareas y minutos típicos del rol en ese negocio. Reglas:
+- Cada fila simulada lleva **(simulado)** y va en un bloque propio de la matriz, debajo de lo del registro y de los supuestos.
+- Las horas simuladas se suman **en una fila aparte** de "Horas por destino" y **no entran en el pedido real** ni en "En una frase": son para practicar la clasificación, no para pedir.
+- Se clasifican igual que las reales (cuatro destinos, rol, SOP, bloqueos). Lo que la simulación muestra que vale la pena registrar va como recomendación para la semana de registro real.
+- Con un negocio real, la simulación sirve solo para practicar: el pedido se arma cuando haya registro.
 
 ## Cómo trabajás
+
+**Antes de normalizar, separá las tareas mezcladas.** Si una fila del registro junta dos o más tareas ("les escribo la bienvenida a mano, les pido el mail y le paso los datos al founder"), partila en una fila por tarea: cada una puede tener un destino distinto (la bienvenida se automatiza, la aprobación se elimina). Si el registro no dice cuánto tardó cada parte, repartí los minutos en partes iguales y rotulá el reparto como supuesto; el total sigue siendo dato del registro. Citá la fila de origen en cada parte ("fila 4, parte 1 de 3").
 
 1. **Normalizá el registro a horas por semana**, con esta regla:
 
@@ -63,7 +72,7 @@ Si contesta "no lo sé" a alguna, pasás al plan B de esa pregunta antes de segu
 |---|---|
 | Diaria | × 5 |
 | Semanal | × 1 |
-| Varias veces por semana | × la cantidad que diga; si no dice, × 3 (supuesto rotulado) |
+| Varias veces por semana | × la cantidad que diga; si no dice, × 2 a 4 (rango, supuesto rotulado) |
 | Mensual | ÷ 4,3 |
 | "Por cada venta" (o por alumno, por llamada) | minutos por vez × ventas por semana (ventas del mes ÷ 4,3) |
 | Una sola vez | **No suma en h/sem.** Va en una fila aparte, "una vez", y se cuenta en el plan de 4 semanas |
@@ -87,8 +96,9 @@ En `ejemplo-de-output.md` tenés una matriz completa.
 # Matriz de delegación · [rol] · [negocio o caso] · semana del [fecha]
 
 ## En una frase (horas que se liberan y a dónde van)
-## La matriz (tabla: tarea · h/sem (con la cuenta) · destino · por qué · a dónde va · SOP existe / falta · bloqueada por)
-## Horas por destino (tabla: eliminar · automatizar · delegar · mantener · total liberado; del registro y con supuestos, por separado)
+## La matriz (tabla: tarea · h/sem (con la cuenta) · destino · por qué · a dónde va · SOP existe / falta · bloqueada por; una fila por tarea, aunque en el registro vinieran juntas)
+## (Opcional) La semana simulada (mismas columnas, cada fila "(simulado)"; no va al pedido)
+## Horas por destino (tabla: eliminar · automatizar · delegar · mantener · total liberado; del registro, con supuestos (como rango) y simulado, por separado)
 ## Las decisiones que destraban (si hay tareas bloqueadas)
 ## Plan de salida en 4 semanas
 ## Lo que queda con vos (y por qué) + los Big Rocks con el tiempo liberado
@@ -99,7 +109,7 @@ En `ejemplo-de-output.md` tenés una matriz completa.
 
 ## Al final, siempre
 
-1. Ofrecé: "¿Querés que arme el pedido para el founder con estos números? Si hay que convencerlo, la skill Costo de No Cambiar arma el caso completo."
+1. Ofrecé: "¿Querés que arme el pedido para el founder con estos números? Si hay que convencerlo, la skill Costo Económico de No Cambiar arma el caso completo."
 2. Derivá lo que corresponde: los SOPs que faltan van a **Constructor de SOP de Infonegocio**; las automatizaciones, a **Diseñador de Automatizaciones**; si aparece un rol nuevo, a **Descriptor de Cargo por Responsabilidades**.
 
 ## Cómo escribís
@@ -108,7 +118,8 @@ Castellano rioplatense, con voseo. Directo: si algo que la persona quiere manten
 
 ## Lo que no hacés
 
-- No inventás tareas, minutos ni frecuencias. Lo estimado va rotulado "Supuesto a validar con <rol>" y se suma aparte.
+- No inventás tareas, minutos ni frecuencias. Lo estimado va rotulado "Supuesto a validar con <rol>", como rango, y se suma aparte. Lo simulado va rotulado "(simulado)" y no entra en el pedido.
+- No dejás dos tareas en una misma fila solo porque el registro las anotó juntas.
 - No delegás a una persona con nombre: a un rol.
 - No proponés automatizar antes de preguntar si se puede eliminar.
 - No escribís los SOPs ni diseñás las automatizaciones: derivás.

@@ -1,12 +1,12 @@
 # Skills de RealOps™
 
-Las 55 skills de Claude del programa **RealOps™** de Macarena Galindo (MG Operations): diagnóstico, SOPs, CRM, automatizaciones, métricas, propuestas y portafolio, pensadas para operar infonegocios (programas online, membresías, mentorías, high ticket con setters y closers).
+Las 53 skills de Claude del programa **RealOps™** de Macarena Galindo (MG Operations): diagnóstico, SOPs, CRM, automatizaciones, métricas, propuestas y portafolio, pensadas para operar infonegocios (programas online, membresías, mentorías, high ticket con setters y closers).
 
 Son solo texto: cada skill es una carpeta con un `SKILL.md` (las instrucciones que sigue Claude), `casos-de-uso.md` y `ejemplo-de-output.md` (un resultado completo con datos ficticios). No hay scripts ni programas adentro.
 
 ---
 
-## Las 55 skills
+## Las 53 skills
 
 | # | Hito | Skill | Carpeta | Zip para claude.ai |
 |---|---|---|---|---|
@@ -18,10 +18,9 @@ Son solo texto: cada skill es una carpeta con un `SKILL.md` (las instrucciones q
 | 6 | Automatizá | Diseñador de Automatizaciones | [skills/disenador-automatizaciones](skills/disenador-automatizaciones) | [zips/disenador-automatizaciones.zip](zips/disenador-automatizaciones.zip) |
 | 7 | Decidí con datos | Analista de Calls de Venta | [skills/analista-calls-venta](skills/analista-calls-venta) | [zips/analista-calls-venta.zip](zips/analista-calls-venta.zip) |
 | 8 | Decidí con datos | Analista de KPIs | [skills/analista-kpis](skills/analista-kpis) | [zips/analista-kpis.zip](zips/analista-kpis.zip) |
-| 9 | Decidí con datos | Reporte Semanal de Ops | [skills/reporte-semanal-ops](skills/reporte-semanal-ops) | [zips/reporte-semanal-ops.zip](zips/reporte-semanal-ops.zip) |
-| 10 | Escalá sin caos | Mapa de Customer Journey de Infonegocio | [skills/mapa-customer-journey-infonegocio](skills/mapa-customer-journey-infonegocio) | [zips/mapa-customer-journey-infonegocio.zip](zips/mapa-customer-journey-infonegocio.zip) |
+| 9 | Decidí con datos | Reporte de Ops (semanal y mensual) | [skills/reporte-semanal-ops](skills/reporte-semanal-ops) | [zips/reporte-semanal-ops.zip](zips/reporte-semanal-ops.zip) |
 | 11 | Next Level | Offer Doc con IA | [skills/offer-doc-con-ia](skills/offer-doc-con-ia) | [zips/offer-doc-con-ia.zip](zips/offer-doc-con-ia.zip) |
-| 12 | Next Level | Portafolio: de caso interno a pieza externa | [skills/portafolio-caso-interno-a-externo](skills/portafolio-caso-interno-a-externo) | [zips/portafolio-caso-interno-a-externo.zip](zips/portafolio-caso-interno-a-externo.zip) |
+| 12 | Next Level | Revisor de Piezas de Portafolio | [skills/portafolio-caso-interno-a-externo](skills/portafolio-caso-interno-a-externo) | [zips/portafolio-caso-interno-a-externo.zip](zips/portafolio-caso-interno-a-externo.zip) |
 | 13 | Empezá acá | Copiloto Operativo | [skills/copiloto-operativo](skills/copiloto-operativo) | [zips/copiloto-operativo.zip](zips/copiloto-operativo.zip) |
 | 14 | Next Level | Escritor de Propuestas de Consultoría | [skills/escritor-propuestas](skills/escritor-propuestas) | [zips/escritor-propuestas.zip](zips/escritor-propuestas.zip) |
 | 15 | Next Level | Coach de Presentación de Sistemas | [skills/coach-presentacion](skills/coach-presentacion) | [zips/coach-presentacion.zip](zips/coach-presentacion.zip) |
@@ -37,7 +36,7 @@ Son solo texto: cada skill es una carpeta con un `SKILL.md` (las instrucciones q
 | 25 | Landings y contenido | Calendario de Contenidos del Equipo | [skills/calendario-contenidos-equipo](skills/calendario-contenidos-equipo) | [zips/calendario-contenidos-equipo.zip](zips/calendario-contenidos-equipo.zip) |
 | 26 | Diagnosticá | Cuestionario de Diagnóstico por Rol | [skills/cuestionario-diagnostico-por-rol](skills/cuestionario-diagnostico-por-rol) | [zips/cuestionario-diagnostico-por-rol.zip](zips/cuestionario-diagnostico-por-rol.zip) |
 | 27 | Diagnosticá | Entrevista Guiada al Founder | [skills/entrevista-founder-guiada](skills/entrevista-founder-guiada) | [zips/entrevista-founder-guiada.zip](zips/entrevista-founder-guiada.zip) |
-| 28 | Diagnosticá | Costo de No Cambiar | [skills/caso-de-negocio-founder](skills/caso-de-negocio-founder) | [zips/caso-de-negocio-founder.zip](zips/caso-de-negocio-founder.zip) |
+| 28 | Diagnosticá | Costo Económico de No Cambiar | [skills/caso-de-negocio-founder](skills/caso-de-negocio-founder) | [zips/caso-de-negocio-founder.zip](zips/caso-de-negocio-founder.zip) |
 | 29 | Centralizá | Descriptor de Cargo por Responsabilidades | [skills/descriptor-de-cargo](skills/descriptor-de-cargo) | [zips/descriptor-de-cargo.zip](zips/descriptor-de-cargo.zip) |
 | 30 | Escalá sin caos | Onboarding de un Rol Nuevo | [skills/onboarding-de-rol](skills/onboarding-de-rol) | [zips/onboarding-de-rol.zip](zips/onboarding-de-rol.zip) |
 | 31 | Centralizá | Stack Elegido y Justificado | [skills/stack-elegido-justificado](skills/stack-elegido-justificado) | [zips/stack-elegido-justificado.zip](zips/stack-elegido-justificado.zip) |
@@ -57,14 +56,13 @@ Son solo texto: cada skill es una carpeta con un `SKILL.md` (las instrucciones q
 | 45 | Decidí con datos | Dashboard con Vibe Coding | [skills/dashboard-vibe-coding](skills/dashboard-vibe-coding) | [zips/dashboard-vibe-coding.zip](zips/dashboard-vibe-coding.zip) |
 | 46 | Next Level | Inventario de Entregables | [skills/inventario-entregables](skills/inventario-entregables) | [zips/inventario-entregables.zip](zips/inventario-entregables.zip) |
 | 47 | Ventas y marketing | Tabla de Precios de tu Servicio | [skills/tabla-de-precios-servicio](skills/tabla-de-precios-servicio) | [zips/tabla-de-precios-servicio.zip](zips/tabla-de-precios-servicio.zip) |
-| 48 | Ventas y marketing | Llamada de Diagnóstico que Vende | [skills/llamada-diagnostico-venta](skills/llamada-diagnostico-venta) | [zips/llamada-diagnostico-venta.zip](zips/llamada-diagnostico-venta.zip) |
+| 48 | Ventas y marketing | Script de Ventas con Founders | [skills/llamada-diagnostico-venta](skills/llamada-diagnostico-venta) | [zips/llamada-diagnostico-venta.zip](zips/llamada-diagnostico-venta.zip) |
 | 49 | Ventas y marketing | Prospección de Primeros Clientes | [skills/prospeccion-primeros-clientes](skills/prospeccion-primeros-clientes) | [zips/prospeccion-primeros-clientes.zip](zips/prospeccion-primeros-clientes.zip) |
 | 50 | Next Level | Acuerdo de Alcance y Pago | [skills/acuerdo-alcance-y-pago](skills/acuerdo-alcance-y-pago) | [zips/acuerdo-alcance-y-pago.zip](zips/acuerdo-alcance-y-pago.zip) |
 | 51 | Next Level | Informe Final y Testimonio | [skills/informe-final-y-testimonio](skills/informe-final-y-testimonio) | [zips/informe-final-y-testimonio.zip](zips/informe-final-y-testimonio.zip) |
-| 52 | Next Level | Propuesta de Continuidad | [skills/propuesta-continuidad-growth-partner](skills/propuesta-continuidad-growth-partner) | [zips/propuesta-continuidad-growth-partner.zip](zips/propuesta-continuidad-growth-partner.zip) |
-| 53 | Next Level | CV y LinkedIn de Operaciones | [skills/cv-linkedin-operaciones](skills/cv-linkedin-operaciones) | [zips/cv-linkedin-operaciones.zip](zips/cv-linkedin-operaciones.zip) |
-| 54 | Ventas y marketing | Pedido con Datos | [skills/pedido-con-datos](skills/pedido-con-datos) | [zips/pedido-con-datos.zip](zips/pedido-con-datos.zip) |
-| 55 | Escalá sin caos | Conversación de Feedback Difícil | [skills/feedback-dificil](skills/feedback-dificil) | [zips/feedback-dificil.zip](zips/feedback-dificil.zip) |
+| 52 | Next Level | Retención, Upsells y LTV | [skills/propuesta-continuidad-growth-partner](skills/propuesta-continuidad-growth-partner) | [zips/propuesta-continuidad-growth-partner.zip](zips/propuesta-continuidad-growth-partner.zip) |
+| 53 | Next Level | Preparar tu Perfil para Vender Operaciones | [skills/cv-linkedin-operaciones](skills/cv-linkedin-operaciones) | [zips/cv-linkedin-operaciones.zip](zips/cv-linkedin-operaciones.zip) |
+| 55 | Escalá sin caos | Coach de Conversaciones Difíciles | [skills/feedback-dificil](skills/feedback-dificil) | [zips/feedback-dificil.zip](zips/feedback-dificil.zip) |
 
 ¿No querés instalar nada? En [prompts/](prompts) tenés 5 de estas funciones como un prompt para copiar y pegar en cualquier chat.
 
@@ -72,9 +70,12 @@ Son solo texto: cada skill es una carpeta con un `SKILL.md` (las instrucciones q
 
 ## Skills de terceros incluidas
 
-En [skills-terceros/](skills-terceros) hay 8 skills de otros autores, copiadas **sin modificar** porque su licencia lo permite. Cada una trae su `LICENSE` original y un `ORIGEN.md` con de dónde sale, versión y cómo instalar la última:
+En [skills-terceros/](skills-terceros) hay 11 skills de otros autores, copiadas **sin modificar** porque su licencia lo permite. Cada una trae su `LICENSE` original y un `ORIGEN.md` con de dónde sale, versión y cómo instalar la última:
 
 - **skill-creator** (Anthropic, Apache 2.0): te ayuda a crear y probar tus propias skills.
+- **mcp-builder** (Anthropic, Apache 2.0): para construir un servidor MCP propio cuando una plataforma no tiene conector. Es el último escalón de `conectar-claude-a-tus-datos`. Trae scripts: leelos antes de usarlos.
+- **airtable-skills** (he8um, MIT): arquitectura y auditoría de bases de Airtable.
+- **airtable-docs-audit** (davepongw, MIT): documenta una base entera y registra qué cambió. Ojo: crea una base de documentación aparte en tu Airtable.
 - **7 skills de Landingfolio** (MIT): auditoría de landings, explorar secciones, extraer el sistema de diseño, pasada mobile, humanizar copy, capturas e imágenes para compartir. Algunas traen scripts: leelos antes de instalarlas (regla 2 de abajo).
 
 Las skills de documentos de Anthropic (Word, Excel, PowerPoint, PDF) no se pueden redistribuir: instalalas desde el [repo oficial](https://github.com/anthropics/skills).

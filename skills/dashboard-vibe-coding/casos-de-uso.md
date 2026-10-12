@@ -10,7 +10,7 @@ Tres situaciones donde un tablero propio, con link, cambia cómo se mira el nego
 
 **Qué le pasás.** Un caso práctico del programa (un programa high ticket con cuotas) y que es para tu portafolio.
 
-**Qué te devuelve.** Los 5 KPIs con su ficha para ese caso, el prompt de datos inventados, el `CLAUDE.md` del proyecto, los prompts de plan y construcción, y el checklist para publicarlo en Vercel. Más el guion del Loom de 2 minutos.
+**Qué te devuelve.** Los 5 KPIs con su ficha para ese caso (si no los tenés, te los propone y espera tu OK antes de construir), el prompt para leer los datos ficticios del caso (o para inventarlos, si el caso no trae), el `CLAUDE.md` del proyecto, los prompts de plan y construcción, y el checklist para publicarlo en Vercel. Más el guion del Loom de 2 minutos.
 
 **Por qué sirve.** Un tablero con link, construido por vos, vale más que diez capturas. Clase 05/08.
 
@@ -34,6 +34,6 @@ Tres situaciones donde un tablero propio, con link, cambia cómo se mira el nego
 
 **Qué le pasás.** Los campos de la tabla de KPIs y qué otras fuentes querría sumar.
 
-**Qué te devuelve.** El paso 6 completo: la función del lado del servidor que lee la tabla de KPIs, las variables de entorno, la caché y las pruebas de seguridad. Con la advertencia de una API key por proyecto y qué hacer si una clave llega a GitHub.
+**Qué te devuelve.** El paso 6 completo: la función del lado del servidor que lee la tabla de KPIs, las variables de entorno, la caché y las pruebas de seguridad. Para las fuentes que no están en Airtable (por ejemplo, el gasto en anuncios), la elección entre un CSV agregado o una tabla "Pauta" en la base. Con la advertencia de una API key por proyecto y qué hacer si una clave llega a GitHub.
 
 **Por qué sirve.** Es el salto de "armo sistemas con herramientas" a "construyo producto". Actividad 29.

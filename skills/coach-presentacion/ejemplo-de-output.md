@@ -33,6 +33,8 @@
 
 ## Ensayo (Coach haciendo de founder)
 
+*Se hizo por turnos: una pregunta, su respuesta, la devolución y recién ahí la siguiente. Acá queda todo junto para releer antes de la reunión.*
+
 **Founder:** ¿Y esto cuánto nos cuesta?
 
 **Respuesta:** "Eh, Zapier sale 30 dólares, pero capaz se puede bajar…"

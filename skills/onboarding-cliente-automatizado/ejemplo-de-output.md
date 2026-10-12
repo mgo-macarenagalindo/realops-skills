@@ -12,6 +12,22 @@
 
 **Herramienta:** Zapier (ya contratado) · **Dueño:** Operaciones · **Objetivo:** de pago verificado a primer acceso en menos de 1 hora; de venta a pago verificado en el día hábil.
 
+## Antes de construir
+
+**De quién son las cuentas**
+
+| Cuenta | A nombre de | ¿Del negocio? | Qué hacer |
+|---|---|---|---|
+| Zapier | operaciones@ (mail del negocio) | Sí | — |
+| Pasarela de pago | La founder, con el mail del negocio | Sí | Sumar a administración con permisos de lectura |
+| Plataforma de membresías | Cuenta personal de la founder | **No** | **Bloqueante:** pasarla al mail del negocio o, si la plataforma no lo permite, dejar a operaciones como segunda dueña antes de conectar Zapier |
+| Airtable | operaciones@ | Sí | — |
+
+**Si el plan alcanza** (límites mirados en la página de precios de cada herramienta el 14/10)
+- Zapier: 25 ventas × 6 pasos + 25 del flujo de la pasarela ≈ 175 tareas por mes; en un lanzamiento se duplica (≈ 350). Comparar con el límite del plan contratado.
+- Airtable: cada venta suma 1 venta + 1 alumno + hasta 3 cuotas = 5 registros → unos 125 por mes. Comparar con el límite de registros por base del plan.
+- El aviso al equipo va por Discord porque es donde el equipo ya se habla: no se suma ninguna herramienta.
+
 ## 0. El proceso de hoy y lo que se automatiza
 
 | Paso de hoy | Quién | ¿Se automatiza? |
@@ -143,6 +159,6 @@ Si es por falta de pago, el protocolo de cobro va antes y es de la skill CRM de 
 
 ## 10. Cómo apagarlo y quién lo mantiene
 
-Dueño: Operaciones. Se apaga desactivando el Zap "Onboarding por programa"; mientras esté apagado, la coordinación da las altas a mano desde la vista "Onboarding · Listos". Tareas estimadas: unas 25 ventas por mes × 6 pasos ≈ 150 tareas de Zapier por mes; revisar que entren en el plan.
+Dueño: Operaciones. Se apaga desactivando el Zap "Onboarding por programa"; mientras esté apagado, la coordinación da las altas a mano desde la vista "Onboarding · Listos". La capacidad del plan está calculada en "Antes de construir": revisarla cada trimestre o antes de un lanzamiento.
 
 **Siguiente paso:** pasar esta spec al Diseñador de Automatizaciones para la guía paso a paso en Zapier.

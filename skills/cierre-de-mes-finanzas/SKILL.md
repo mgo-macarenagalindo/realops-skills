@@ -29,10 +29,13 @@ Preguntá si es su negocio, el negocio donde trabaja o un caso práctico del pro
 ## Los 7 pasos del cierre
 
 ### Paso 0 · Recordatorios
-Tres días antes de fin de mes: pedido de comprobantes y de datos manuales, con fecha límite. Mensajes listos para copiar.
+- **Si estás a tiempo (antes de fin de mes):** tres días antes, pedido de comprobantes y de datos manuales, con fecha límite. Mensajes listos para copiar.
+- **Si el cierre se hace tarde (el mes ya terminó, lo más común la primera vez):** el Paso 0 se convierte en un **pedido urgente** de lo que falta, con una fecha límite corta (por ejemplo, 48 horas hábiles) y aclarando qué pasa si no llega ("si el viernes no está el extracto, el cierre sale provisorio"). Y dejá programado el recordatorio del próximo mes, tres días antes de fin de mes, para no volver a cerrar tarde.
 
 ### Paso 1 · Checklist de datos manuales
-Lista de lo que falta, a quién se le pide y si llegó. **Si falta algo, preguntá si se sigue con lo que hay o se espera**, y anotá el impacto (por ejemplo: "sin la inversión en anuncios, el margen queda inflado").
+Lista de lo que falta, a quién se le pide y si llegó. **Si falta algo, preguntá si se sigue con lo que hay o se espera**, y anotá el impacto (por ejemplo: "sin la inversión en anuncios, el margen queda inflado"). Si faltan los extractos de la pasarela o del banco y se decide seguir, el cierre pasa a **modo provisorio** (ver abajo).
+
+**Pauta que llega por semana y no por mes:** prorrateá por día. Cada semana se reparte en partes iguales entre sus 7 días y al mes le toca la parte de los días que caen adentro (una semana del 28/09 al 04/10 aporta 3/7 a septiembre y 4/7 a octubre). Marcala como **estimada** hasta tener la factura o el reporte mensual de la plataforma, y decí en el informe que se prorrateó.
 
 ### Paso 2 · Preparar el mes
 Traer los movimientos del mes y clasificar cada ingreso en exactamente uno de estos casos:
@@ -47,7 +50,7 @@ Y cada egreso en: equipo fijo · comisiones y variables · coaches · pauta · h
 Calcular todo **sin escribir nada** y mostrarlo en una tabla: cash por cubeta, facturación, egresos, margen.
 
 ### Paso 4 · Validaciones obligatorias
-Todas, en este orden. Cada una dice **OK** o lista los registros que fallan.
+Todas, en este orden. Cada una dice **OK**, lista los registros que fallan o, en modo provisorio, **pendiente: falta extracto**.
 
 1. **Comprobante no es pago.** Cada ingreso está acreditado en el banco o la pasarela. Lo que no se acreditó sale del cash del mes y queda como alerta.
 2. **Conciliación por método.** La suma de la base en moneda real coincide con cada extracto (banco en dólares, banco en moneda local, pasarela, billetera). Diferencias, por registro.
@@ -57,8 +60,20 @@ Todas, en este orden. Cada una dice **OK** o lista los registros que fallan.
 6. **Todo en dólares con el tipo de cambio fijo del mes**, y el monto en moneda real guardado aparte.
 7. **Reembolsos como costo.** La venta reembolsada no se borra ni se descuenta de la facturación.
 8. **Planes de cuotas modificados** (alguien pidió pasar una cuota): las fechas y montos proyectados están actualizados.
-9. **Comisiones con responsable y regla.** Ninguna comisión sin nombre; cada una calculada con la regla vigente, sobre el **estado real del pago**, no sobre la etiqueta de carga.
+9. **Comisiones con responsable y regla.** Ninguna comisión sin nombre; cada una calculada con la regla vigente, sobre el **estado real del pago**, no sobre la etiqueta de carga. Además:
+   - **Base del acuerdo contra base de la planilla.** Leé en el acuerdo escrito sobre qué se paga (lo vendido, lo cobrado, lo cobrado del mes incluidas cuotas anteriores) y compará con lo que efectivamente calcula la planilla o el sistema de liquidación. Si no coinciden, es una falla aunque las cuentas estén bien hechas: mostrá la diferencia por persona.
+   - **Pedí la planilla de liquidación** (la que se usó para pagar), no solo la base: los duplicados y las ventas que no están en la base aparecen recién al cruzar la planilla registro por registro contra la base. Sin la planilla, decí que los duplicados no se pudieron descartar.
 10. **Gastos proyectados** identificados: el margen se informa con y sin ellos.
+11. **Consistencia entre tablas.** Para cada venta, el medio de pago y el monto tienen que coincidir entre la tabla de ventas y la de cuotas o pagos: la suma de las cuotas de una venta es igual al monto contratado, y el medio de pago de cada cuota es el de la venta (o hay una nota que explica el cambio). Listá las ventas que no coinciden; hasta que se aclaren, la conciliación por método (validación 2) no es confiable.
+
+### Modo cierre provisorio (sin extractos de la pasarela ni del banco)
+
+Pasa casi siempre la primera vez. Se puede cerrar igual, pero:
+
+- **La primera línea del informe lo dice:** "Cierre PROVISORIO: sin extractos de [pasarela / banco], el cash es lo que dice la base, no lo que entró."
+- **Quedan pendientes** (se marcan "pendiente: falta extracto", no "OK" ni "falla"): la 1 (comprobante no es pago), la 2 (conciliación por método) y la parte de la 6 que compara la moneda real con el banco. Tampoco se pueden confirmar las comisiones de la pasarela ni los rechazos de cobro.
+- **Sí se corren** todas las demás (3, 4, 5, 7, 8, 9, 10, 11) con la base y lo que haya.
+- Lo que se escribe va marcado como **Provisorio**, y el cierre se vuelve definitivo cuando llegan los extractos y pasan la 1 y la 2.
 
 ### Paso 5 · Escribir (solo con OK)
 Mostrar qué se va a escribir y dónde. Esperar el OK explícito. Si hay alertas sin resolver, preguntar si se corrigen antes o se escribe así, dejándolo dicho.
@@ -91,14 +106,14 @@ En `ejemplo-de-output.md` tenés un cierre completo.
 
 ```
 # Cierre de [mes] · [negocio o caso]
-## Estado (en qué paso estamos · qué falta)
+## Estado (provisorio o definitivo · en qué paso estamos · qué falta)
 ## Datos manuales (tabla: dato · a quién · estado)
 ## Prueba en seco (sin escribir)
 ## Validaciones (n.° · validación · OK / registros que fallan)
 ## Lo que se va a escribir (y espero tu OK)
 ---
 # Informe de cierre · [mes] (una página, para el founder)
-## En una frase
+## En una frase (si es provisorio, la primera línea lo dice)
 ## Ingresos (reservas · nuevos cierres · cuotas · cash total · facturación)
 ## Egresos (conciliados y proyectados)
 ## Margen (con y sin proyectados)

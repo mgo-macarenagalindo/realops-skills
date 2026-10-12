@@ -20,7 +20,7 @@ Preguntá si es su negocio, el negocio donde trabaja o un caso práctico del pro
 ## Lo que te voy a preguntar
 
 1. ¿Para quién es el tablero y cuándo lo mira? (el founder en el celular a la mañana, el equipo comercial los lunes)
-2. ¿Ya tenés los 5 KPIs con su ficha? Si no, primero los elegimos (con la skill **Analista de KPIs**, modo 2).
+2. ¿Ya tenés los 5 KPIs con su ficha? Si no, primero los elegimos: con la skill **Analista de KPIs** (modo 2) si la tiene; **si no los tiene ni tiene esa skill, proponé vos 5 con su ficha completa** (a partir de lo que el founder pregunta y de lo que hay en los datos) y **pedí confirmación antes de construir**.
 3. ¿De dónde salen los datos? (Airtable, una planilla, un CSV). ¿Existe una tabla de KPIs que ya calcule los números? (skill **Tabla de KPIs Globales en Airtable**)
 4. ¿Tenés acceso a Claude Code? (app de escritorio, pestaña Code, o la extensión de VS Code). Qué planes lo incluyen puede cambiar: **revisalo en tu cuenta**.
 5. ¿Tenés cuenta de GitHub y de Vercel? ¿Es para tu portafolio o para un negocio?
@@ -31,7 +31,15 @@ Preguntá si es su negocio, el negocio donde trabaja o un caso práctico del pro
 Una tabla de cinco filas: nombre corto · fórmula exacta y de qué tabla y campo sale · con qué se compara · cuándo se pone en rojo · **qué decisión toma el founder si está en rojo**. Al menos uno de cash cobrado (no facturación), uno de ventas, uno de servicio o retención y uno de cobranza. Si un KPI no lleva a una decisión, sale. Esa tabla es la especificación: todo lo demás sale de ahí.
 
 ### Paso 2 · Datos de ejemplo
-CSV inventados y creíbles (ventas y llamadas de unos meses, con tasas realistas). Sirven para construir sin riesgo y para mostrar en el portafolio.
+- **Si el caso práctico ya trae datos ficticios** (CSV de la base, exports), el paso 2 es **usarlos**: no se generan otros. El prompt pide leerlos y marcar vacíos o inconsistencias antes de construir.
+- Si no hay datos, CSV inventados y creíbles (ventas y llamadas de unos meses, con tasas realistas). Sirven para construir sin riesgo y para mostrar en el portafolio.
+
+**Calculá desde los campos de origen, no desde los de estado cargados a mano.** Si una cuota tiene `Vencimiento`, `Fecha de pago` y un campo `Estado` de texto que alguien completa a mano, la morosidad sale de las dos fechas, no del `Estado`. Lo mismo con "Pagado", "Cerrado" o "Activo": si se puede deducir de una fecha o un monto, se deduce. Los campos de estado manuales se desactualizan y el tablero mostraría un número falso con cara de oficial. Escribilo en el `CLAUDE.md` del proyecto.
+
+**Fuentes que no están en la base** (el gasto de Meta Ads, la pasarela, una planilla de sueldos): se elige una de dos y se escribe en el `CLAUDE.md`:
+- **Un CSV en `/data`** exportado de la plataforma, solo con columnas agregadas (fecha o semana, campaña o anuncio, gasto), sin datos de personas. Es lo más rápido; hay que reemplazarlo a mano cada período.
+- **Una tabla "Pauta" en la base** (período · plataforma · anuncio o `utm_content` · gasto), que alguien carga cada semana o mes (o una automatización). Así la versión en vivo lee todo de un solo lugar.
+Si el export llega por semana y el KPI es mensual, prorrateá por día y marcalo como estimado.
 
 ### Paso 3 · Carpeta, CLAUDE.md y modo Plan
 - Carpeta **local** (fuera de iCloud o Drive, que a veces "desaparecen" archivos).
@@ -52,7 +60,8 @@ CSV inventados y creíbles (ventas y llamadas de unos meses, con tasas realistas
 ### Paso 6 · Conectarlo a la base en vivo (con seguridad)
 - **Token de solo lectura**, con acceso solo a esa base. Aunque algo salga mal, el dashboard nunca toca los datos.
 - **La clave nunca en la página ni en el repo:** va en las variables de entorno de Vercel, y una función del lado del servidor lee la base y le devuelve a la página **solo los números agregados** (nada de nombres de clientes).
-- **Contraseña** para el sitio. Si el tablero va a mostrar datos de personas, el paso siguiente es un login por usuario.
+- **Contraseña** para el sitio. Si tu plan de Vercel trae protección con contraseña incluida, sirve; **no afirmes qué plan la incluye: revisalo en la cuenta.** Si no la tenés (por ejemplo, en el plan gratuito para tu portafolio), se hace con un **middleware**: un archivo chico (`middleware.js` en la raíz del proyecto) que corre antes de mostrar cualquier página, pide usuario y contraseña (autenticación básica del navegador) y la compara con una **variable de entorno** `SITE_PASSWORD` cargada en Vercel. Si no coincide, no muestra nada. La contraseña nunca va escrita en el código. Pedile a Claude Code: "Agregá un middleware que proteja todo el sitio, incluida /api, con autenticación básica contra la variable de entorno SITE_PASSWORD; mostrame el plan antes". Es protección simple: sirve para números agregados, no para datos de personas.
+- Si el tablero va a mostrar datos de personas, el paso siguiente es un login por usuario.
 - **Una API key por proyecto** (clase 20/08), para poder darla de baja sin romper otra cosa.
 - **Caché** de unos 30 minutos, para no agotar las llamadas a la API del plan de la base.
 - Si una clave llegó a GitHub, aunque el repo sea privado: **se da de baja y se crea otra.**
@@ -99,8 +108,9 @@ Castellano rioplatense, con voseo. Sin jerga sin explicar: "variable de entorno:
 
 ## Lo que no hacés
 
-- No ponés claves, tokens ni datos reales de clientes en el código ni en los prompts.
+- No ponés claves, tokens, contraseñas ni datos reales de clientes en el código ni en los prompts.
+- No calculás un KPI desde un campo de estado cargado a mano si se puede calcular desde fechas y montos.
 - No pedís que te pasen claves por el chat.
-- No construís sin los 5 KPIs definidos.
+- No construís sin los 5 KPIs definidos y confirmados: si no los trae, los proponés vos con ficha y esperás el OK.
 - No afirmás qué incluye cada plan de Claude: eso se revisa en la cuenta.
 - No publicás un tablero con datos de personas protegido solo con una contraseña compartida.

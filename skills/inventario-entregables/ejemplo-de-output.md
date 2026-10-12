@@ -8,7 +8,7 @@
 
 Para: infoproductores con equipo de 2 a 8 personas que venden por llamada · Modalidad: hecho por vos
 
-## Tu inventario
+## Lo que ya podés ofrecer
 
 | # | Dolor (como lo dice el founder) | Entregable | Resultado | Fase | Estado |
 |---|---|---|---|---|---|
@@ -24,12 +24,21 @@ Para: infoproductores con equipo de 2 a 8 personas que venden por llamada · Mod
 | 10 | "No encuentro nada" | Wiki del negocio en Notion con librería de SOPs en tabla | Cualquier persona encuentra un proceso en dos clics | Implementación | Lo sé hacer ⭐ |
 | 11 | "Cuando entra alguien nuevo le explico todo yo" | 5 SOPs de los procesos que más se repiten, con diagrama | Alguien nuevo ejecuta sin preguntar | Implementación | Lo sé hacer |
 | 12 | "No sé qué está haciendo el equipo" | Gestor de tareas en Notion con vista por persona y Big Rocks | Ve el estado del equipo en 5 minutos | Implementación | Lo sé hacer ⭐ |
-| 13 | "Mi landing es vieja y no convierte" | Landing nueva con un solo CTA, hecha con Claude | Una página que lleva a agendar | Implementación | Me animo a aprender · práctica el 25/10 (propuesta, a confirmar) |
 | 14 | "No sé si mis alumnos están contentos" | Encuesta a mitad y al final del programa, con NPS | Detecta a quién se le cae antes de que pida reembolso | Implementación | Lo sé hacer |
 | 15 | "No sé qué números mirar" | Tablero de 5 KPIs con su ficha | Sabe en 30 segundos si el mes va bien o mal | Optimización | Lo hice en un caso práctico |
-| 16 | "Armo los reportes a mano todos los lunes" (paráfrasis) | Reporte semanal automático al founder | Recupera 2 a 3 horas por semana | Optimización | Me animo a aprender · práctica el 01/11 (propuesta, a confirmar) |
 | 17 | "Las llamadas de venta no cierran y no sé por qué" | Análisis de llamadas con Claude: objeciones y puntajes por etapa | Sabe si el problema es el guion, el closer o el lead | Optimización | Lo sé hacer |
 | 18 | "Implementamos cosas y después nadie las usa" | Capacitación grabada al equipo + auditoría mensual de uso | El sistema se usa a los 3 meses | Optimización | Lo sé hacer |
+
+## Lo que estás sumando
+
+Camila dijo que tiene unas 4 horas por semana para practicar: una actividad por semana (una actividad lleva entre 3 y 6 horas en el sandbox; recalibrá después de la primera).
+
+| # | Dolor | Entregable | Resultado | Fase | Práctica |
+|---|---|---|---|---|---|
+| 13 | "Mi landing es vieja y no convierte" | Landing nueva con un solo CTA, hecha con Claude | Una página que lleva a agendar | Implementación | 25/10 (propuesta, a confirmar) |
+| 16 | "Armo los reportes a mano todos los lunes" (paráfrasis) | Reporte semanal automático al founder | Recupera 2 a 3 horas por semana | Optimización | 01/11 (propuesta, a confirmar) |
+
+En una llamada, estas dos se nombran como "esto lo estoy sumando", nunca como hechas.
 
 ## Por fase
 
@@ -67,7 +76,7 @@ Filas 15 a 18. La más corta. Es donde está la continuidad después de un proye
 
 | Supuesto | Con quién | Cómo |
 |---|---|---|
-| Fechas de práctica de las filas 13 y 16 (25/10 y 01/11): las propuse yo, una actividad por semana | Vos | Confirmalas o movelas hoy |
+| Fechas de práctica de las filas 13 y 16 (25/10 y 01/11): las propuse yo, una actividad por semana con tus 4 horas | Vos | Confirmalas o movelas hoy; si la primera te lleva más de 4 horas, corremos la segunda |
 | Los dolores de las filas 4 y 16 son paráfrasis de lo que escuchaste en la comunidad, no frases textuales | Tu primera llamada de diagnóstico | Anotá cómo lo dice el founder y reemplazá la frase |
 
 ---

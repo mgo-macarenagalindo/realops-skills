@@ -1,6 +1,6 @@
 # Casos de uso · Constructor de Landing con 21st.dev
 
-Cuatro situaciones de infonegocio donde una página escrita pasa a funcionar en un día. Negocios y nombres ficticios.
+Cinco situaciones de infonegocio donde una página escrita pasa a funcionar en un día. Negocios y nombres ficticios.
 
 ---
 
@@ -8,9 +8,9 @@ Cuatro situaciones de infonegocio donde una página escrita pasa a funcionar en 
 
 **La situación.** Una academia de marketing para nutricionistas usa GoHighLevel para todo: funnels, calendario y mails. Te pidieron la página de registro de su masterclass y que se pueda pegar ahí.
 
-**Qué le pasás.** El copy final, el brief de marca, el link del webhook de su formulario y el número de WhatsApp.
+**Qué le pasás.** El copy final con la oferta y el avatar, el brief de marca, la landing de otro evento que les gustó (referencia visual y de estructura), el webhook de su formulario y el número de WhatsApp.
 
-**Qué te devuelve.** Camino B: el plan, el prompt para Claude Code, un `index.html` autocontenido con los estilos scopeados bajo una clase propia, el CONFIG con el webhook y el WhatsApp, y cómo probarlo en modo demo antes de pegarlo en el bloque de HTML personalizado.
+**Qué te devuelve.** Camino B: el plan con un componente de 21st.dev de referencia para cada sección, la página en un artefacto para verla y ajustarla antes de tocar GoHighLevel, un `index.html` autocontenido con los estilos scopeados bajo una clase propia, el CONFIG con el webhook y el WhatsApp, y cómo pegarlo en un elemento Custom Code.
 
 **Por qué sirve.** Es el servicio chico que se vende ya (clase del 23/07): una landing que el cliente pega en lo que ya paga, sin migrar nada.
 
@@ -20,9 +20,9 @@ Cuatro situaciones de infonegocio donde una página escrita pasa a funcionar en 
 
 **La situación.** Estás armando tu oferta de operaciones freelance y querés una landing propia con un hero con movimiento y una línea de tiempo que se llena al hacer scroll.
 
-**Qué le pasás.** Tu copy, tu paleta y que la vas a publicar sola.
+**Qué le pasás.** Tu copy, tu oferta y tu avatar, tu paleta, dos capturas de landings que te gustan y que la vas a publicar sola.
 
-**Qué te devuelve.** Camino A: cómo sacar la key gratis de 21st.dev y conectarla a Claude Code, el proyecto Next con shadcn, dos componentes candidatos de 21st (un hero y una línea de tiempo) instalados en el momento, el CONFIG en `config.ts` y el `CREDITOS.md` con el link de cada componente.
+**Qué te devuelve.** Camino A: cómo sacar la key gratis de 21st.dev y conectarla a Claude Code, una maqueta en artefacto para aprobar el diseño, el proyecto Next con shadcn, dos componentes de 21st (un hero y una línea de tiempo) instalados en el momento, el CONFIG en `config.ts` y el `CREDITOS.md` con el link de cada componente.
 
 **Por qué sirve.** Una landing que se ve pro es tu mejor pieza de portafolio, y aprendés el flujo completo de 21st sin violar sus términos.
 
@@ -44,8 +44,20 @@ Cuatro situaciones de infonegocio donde una página escrita pasa a funcionar en 
 
 **La situación.** Estás haciendo el programa con el caso práctico y querés la página de aplicación como pieza de portafolio. No hay copy aprobado y no sabés colores, agenda ni WhatsApp.
 
-**Qué le pasás.** El copy que escribiste con los datos de la ficha del caso y lo que sepas de sus herramientas.
+**Qué le pasás.** El copy que escribiste con los datos de la ficha del caso, la oferta y el avatar del caso, tus referencias visuales y de estructura, y lo que sepas de sus herramientas.
 
-**Qué te devuelve.** Camino B con copy de práctica rotulado: el plan, el prompt, el CONFIG con UTM y la regla de "no califica" si el caso tiene criterio escrito, y el `index.html` completo funcionando en modo demo. Lo que no sabías va como "Supuesto a validar con <rol>"; solo testimonios, logo y video quedan `[PENDIENTE]`.
+**Qué te devuelve.** Primero, el control mínimo del copy de práctica (un solo CTA, para quién no es, nada fuera de la ficha, frases textuales, anuncio = página): si algo falla, la corrección antes de construir. Después, camino B: el plan con referencias de 21st por sección y 2 o 3 momentos de movimiento, el artefacto para verla, el CONFIG con UTM y la regla de "no califica" si el caso tiene criterio escrito, el `index.html` completo en modo demo y cómo alojarla en Netlify Drop si el constructor no acepta el código.
 
 **Por qué sirve.** Sale una página que se puede mostrar y probar hoy, sin inventar nada del negocio.
+
+---
+
+## 5. "Armame una landing linda" sin copy ni referencias
+
+**La situación.** Un founder te pide "una landing linda, moderna, como las de los gurús". No hay copy, ni avatar, ni una sola referencia.
+
+**Qué le pasás.** El pedido, tal cual.
+
+**Qué te devuelve.** **No construye.** Te devuelve el Pedido de inputs: el copy (derivado a Arquitecto de Landing de Alto Ticket, que a su vez pide oferta y avatar), 3 capturas de páginas que le gusten y una de estructura (o el Investigador de Referencias de Landing), y una primera tanda de links de 21st.dev por sección para que el founder marque cuáles le gustan.
+
+**Por qué sirve.** "Linda y moderna" no se puede construir. Con referencias concretas, la primera versión del artefacto ya se parece a lo que el founder tiene en la cabeza.

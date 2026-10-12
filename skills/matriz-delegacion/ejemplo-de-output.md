@@ -30,6 +30,8 @@ De 48 horas por semana, **15 pueden salir de vos**: 1 se elimina, 5 se automatiz
 | Otras tareas de coordinación del equipo | 13,5 | Mantener | Liderazgo del equipo, 1 a 1, prioridades | Vos | — |
 | **Total** | **48** | | | | |
 
+En el registro, "paso la venta al CRM y le aviso a la coach" venía en una sola línea (3,5 h). Se separó en dos filas (2,5 h y 1 h, según los minutos que anotó para cada parte): las dos se automatizan, pero son dos automatizaciones distintas.
+
 ## Horas por destino
 
 | Eliminar | Automatizar | Delegar | Mantener | Total liberado |
@@ -77,8 +79,8 @@ Dentro de cada semana, prioridad A (lo que más horas libera con menos riesgo) p
 
 ## Supuestos a validar
 
-Ninguno: el registro es de una semana completa, anotado al terminar cada bloque. Si hubiera sido parcial, acá irían las horas estimadas con "Supuesto a validar con <rol>".
+Ninguno: el registro es de una semana completa, anotado al terminar cada bloque. Si hubiera sido parcial, acá irían las horas estimadas como rango ("1 a 3 veces por semana = 0,5 a 1,5 h"), con "Supuesto a validar con <rol>". Y si el registro hubiera cubierto menos de la mitad del rol, la skill habría ofrecido simular el resto de la semana con el copiloto, en un bloque "(simulado)" que no entra en el pedido.
 
 ---
 
-¿Querés que arme el pedido para el founder con estos números? Si hay que convencerlo, la skill Costo de No Cambiar arma el caso completo. Los 2 SOPs que faltan van a la skill Constructor de SOP de Infonegocio; las automatizaciones, a Diseñador de Automatizaciones; y el rol de asistencia, a Descriptor de Cargo por Responsabilidades.
+¿Querés que arme el pedido para el founder con estos números? Si hay que convencerlo, la skill Costo Económico de No Cambiar arma el caso completo. Los 2 SOPs que faltan van a la skill Constructor de SOP de Infonegocio; las automatizaciones, a Diseñador de Automatizaciones; y el rol de asistencia, a Descriptor de Cargo por Responsabilidades.

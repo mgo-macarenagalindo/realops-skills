@@ -1,0 +1,81 @@
+{
+  "base": {
+    "name": "Sample Operations Base",
+    "purpose": "Track projects and clients with clean linked records and implementation-ready schema documentation.",
+    "language": "en",
+    "assumptions": [
+      "This is a sample blueprint for validator testing."
+    ],
+    "open_questions": [],
+    "tables": [
+      {
+        "name": "Projects",
+        "purpose": "Track project lifecycle from intake to completion.",
+        "grain": "one record per project",
+        "primary_field": {
+          "name": "Project Name",
+          "strategy": "human-readable unique project title"
+        },
+        "fields": [
+          {
+            "name": "Project Name",
+            "type": "single_line_text",
+            "required": true,
+            "source": "native",
+            "description": "Primary display name"
+          },
+          {
+            "name": "Status",
+            "type": "single_select",
+            "required": true,
+            "source": "native",
+            "options": ["Draft", "Submitted", "In Review", "Approved", "Completed", "Canceled"],
+            "description": "Project lifecycle state"
+          },
+          {
+            "name": "Client",
+            "type": "linked_record",
+            "required": true,
+            "source": "native",
+            "description": "Linked client"
+          }
+        ]
+      },
+      {
+        "name": "Clients",
+        "purpose": "Store client master data.",
+        "grain": "one record per client",
+        "primary_field": {
+          "name": "Client Name",
+          "strategy": "client legal or operating name"
+        },
+        "fields": [
+          {
+            "name": "Client Name",
+            "type": "single_line_text",
+            "required": true,
+            "source": "native",
+            "description": "Client display name"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "from_table": "Projects",
+        "field": "Client",
+        "to_table": "Clients",
+        "cardinality": "many_to_one",
+        "notes": "Many projects can belong to one client."
+      }
+    ],
+    "views": [],
+    "interfaces": [],
+    "forms": [],
+    "automations": [],
+    "permissions": [],
+    "integrations": [],
+    "risks": [],
+    "implementation_plan": []
+  }
+}

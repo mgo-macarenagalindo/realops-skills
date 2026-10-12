@@ -19,7 +19,7 @@ Preguntá si es su negocio, el negocio donde trabaja o un caso práctico del pro
 
 ## Lo que te voy a preguntar
 
-1. **El período** y si incluye un lanzamiento (se analiza aparte del evergreen).
+1. **El período** y si incluye un lanzamiento (se analiza aparte del evergreen). Y desde cuándo hay datos en el CRM: el período del análisis es el que tienen **los dos**.
 2. **El reporte de la plataforma por anuncio:** nombre del anuncio, campaña, gasto, impresiones, clics, leads o inscriptos. Si querés, también por edad, género y país.
 3. **Las agendas y ventas del CRM** con su `utm_content` (o, en un lanzamiento, la lista de inscriptos con su UTM y la lista de ventas, para cruzar por mail).
 4. **El cash de cada venta** (separando reserva, primer pago y cuotas) y si es en un pago o en cuotas.
@@ -31,11 +31,18 @@ Preguntá si es su negocio, el negocio donde trabaja o un caso práctico del pro
 ### Paso 1 · Separar la inversión por tipo de campaña (antes de calcular nada)
 
 1. **Conversión vs. seguidores.** Las campañas para ganar seguidores no se miden en agendas: su unidad es el **costo por seguidor**, y su retorno se lee en el acumulado del orgánico y del link de la bio.
-2. **Dentro de conversión: de mensaje vs. a landing.** Son procesos comerciales distintos (la de mensaje pasa por el setter; la de landing no). Medirlas juntas no informa nada.
+2. **Dentro de conversión, por tipo de embudo.** Son procesos comerciales distintos y medirlos juntos no informa nada:
+   - **De mensaje:** el anuncio abre una conversación y el setter califica por chat.
+   - **A landing:** el lead ve la página (o el video) y agenda directo con el closer.
+   - **Formulario → setter → closer:** el anuncio lleva a un formulario de aplicación, el setter hace una llamada corta de calificación y recién después agenda con el closer. Acá hay **dos agendas** (la del setter y la del closer) y la plataforma suele contar la primera.
+   
+   Escribí el recorrido de cada campaña en una línea ("anuncio → formulario → llamada de 15 min con setter → llamada con closer") antes de calcular.
 
 El número global miente en las dos direcciones: un negocio que invierte 5.000 y gana 5.000 puede tener una campaña que rinde por tres y otra que tira la plata.
 
-### Paso 2 · Atribuir
+### Paso 2 · Alinear el período y atribuir
+
+**Primero, el período.** El reporte de la plataforma y el CRM tienen que cubrir las mismas fechas. Si la plataforma trae semanas anteriores al inicio del CRM (o el CRM arrancó después), ese gasto no tiene ventas con qué cruzarse: se recorta el período al tramo común y el gasto que queda afuera se nombra aparte, con su monto. Nunca se divide gasto de 8 semanas por ventas de 6.
 
 - **Evergreen:** cada agenda y cada venta con su `utm_content` igual al nombre del anuncio.
 - **Lanzamiento:** el formulario de inscripción guarda la UTM; después del lanzamiento se cruzan inscriptos con ventas **por mail** (clase 19/08). Pedí los mails normalizados (minúsculas, sin espacios).
@@ -43,24 +50,31 @@ El número global miente en las dos direcciones: un negocio que invierte 5.000 y
 
 ### Paso 3 · La tabla por anuncio
 
+**Obligatorio antes de la tabla: ¿qué cuenta la plataforma como "agenda"?** Fijate qué evento de conversión está configurado (por ejemplo, Schedule en Meta) y en qué momento se dispara: ¿la llamada con el setter, la llamada con el closer, el envío del formulario? Escribilo en una línea y decí si **es la llamada que vende**. Si no lo es, el "costo por agenda" de la plataforma no sirve para decidir, y en la tabla van las dos agendas por separado. Si no sabés qué evento es, pedí una captura de la configuración de la campaña o compará las agendas de la plataforma con cada tipo de agenda del CRM: la que coincide es la que cuenta.
+
 | Métrica | Cálculo |
 |---|---|
 | Gasto | De la plataforma |
 | Leads o inscriptos | De la plataforma o del formulario |
-| Agendas · Asistidas | Del CRM, por `utm_content` |
+| Agendas que cuenta la plataforma | Del CRM, por `utm_content`, con el nombre de qué agenda es (por ejemplo, "llamada con setter") |
+| Agendas con quien vende · Asistidas | Del CRM, por `utm_content`: la llamada con el closer (o la única, si el embudo tiene una sola) |
 | Ventas | Del CRM |
 | Cash | Del CRM: cash nuevo a la fecha (reservas + primeros pagos). Las cuotas futuras se aclaran aparte |
 | Costo por agenda | Gasto ÷ agendas |
 | CAC | Gasto ÷ clientes nuevos |
 | Cash por agenda | Cash ÷ agendas |
 | Retorno | Cash ÷ gasto |
+| Tiempo de closer | Minutos de llamada con closer que consumió cada anuncio (si el CRM tiene la duración) y su % sobre el total. Si no hay duración, cantidad de llamadas × duración promedio, aclarado |
+| Minutos de closer por venta | Tiempo de closer ÷ ventas. Un anuncio sin ventas con mucho tiempo de closer es el que más caro sale, aunque su costo por agenda sea bajo |
+
+Y debajo de la tabla, siempre: **CAC sin el peor anuncio** (gasto total menos el gasto del anuncio con peor retorno, dividido las ventas totales menos las suyas). Muestra cuánto mejora el negocio solo con cortar uno.
 
 Si hay calificación del closer, sumá el **% de agendas calificadas** por anuncio: le dice a marketing qué ángulos traen a la gente correcta.
 
 ### Paso 4 · Decidir
 
 Para cada anuncio, una de cuatro: **escalar · mantener · revisar · cortar**, con el motivo en una línea. Patrones a nombrar siempre:
-- **Llena la agenda y no vende:** muchas agendas, retorno bajo. Es el anuncio más peligroso, porque ocupa la agenda de los closers.
+- **Llena la agenda y no vende:** muchas agendas, retorno bajo. Es el anuncio más peligroso, porque ocupa la agenda de los closers: decilo en horas de closer, no solo en dólares.
 - **Pocas agendas que cierran siempre:** el candidato a escalar que el ranking de leads esconde.
 - **Muestra chica:** con pocas ventas, la decisión es una señal, no una conclusión. Preguntá qué mínimo usa el negocio para decidir y, si no tiene, decí "muestra chica" y proponé cuánto tiempo más probar.
 
@@ -87,8 +101,11 @@ En `ejemplo-de-output.md` tenés un análisis completo.
 ```
 # Rentabilidad por anuncio · [negocio o caso] · [período]
 ## En una frase
-## Inversión separada por tipo de campaña
-## Tabla por anuncio (gasto · leads · agendas · asistidas · ventas · cash · costo por agenda · CAC · cash por agenda · retorno · decisión)
+## Qué cuenta la plataforma como agenda (y si es la llamada que vende)
+## Período alineado (plataforma vs. CRM; gasto que queda afuera)
+## Inversión separada por tipo de campaña y de embudo
+## Tabla por anuncio (gasto · leads · agendas de la plataforma · agendas con quien vende · asistidas · ventas · cash · costo por agenda · CAC · cash por agenda · retorno · tiempo de closer · decisión)
+## CAC sin el peor anuncio
 ## Lo que no se puede atribuir
 ## Decisiones (anuncio · decisión · por qué · plazo · plan B)
 ## Para marketing (qué ángulos traen gente que compra)

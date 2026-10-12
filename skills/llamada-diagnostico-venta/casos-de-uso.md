@@ -1,39 +1,51 @@
-# Casos de uso · Llamada de Diagnóstico que Vende
+# Casos de uso · Script de Ventas con Founders
 
-Tres situaciones donde esta skill te prepara para hablar con un founder. Personas y negocios ficticios.
-
----
-
-## 1. Tu primer diagnóstico sin cargo
-
-**La situación.** Publicaste que ofrecías tres diagnósticos sin cargo y te escribió el dueño de un programa online de fotografía con celular. La llamada es el jueves y no sabés por dónde empezar.
-
-**Qué le pasás.** Lo que sabés del negocio (lo que vende, que tiene dos setters, que vende por Instagram) y qué tenés para mostrar.
-
-**Qué te devuelve.** El guion de la llamada 1 de 45 minutos con el encuadre ("no te vendo nada hoy, vuelvo con una propuesta"), las preguntas de números y de recorrido, y cómo cerrar agendando la llamada 2.
-
-**Por qué sirve.** El diagnóstico es la puerta: si lo hacés con método, la propuesta se vende sola.
+Cuatro situaciones donde esta skill te arma el script para hablar con un founder. Personas y negocios ficticios.
 
 ---
 
-## 2. De las notas de la llamada 1 a la llamada 2
+## 1. Te respondió un founder y no sabés qué escribirle
 
-**La situación.** Ya hiciste la primera llamada con una mentora de finanzas personales. Tenés tres páginas de notas desordenadas y en dos días le tenés que presentar algo.
+**La situación.** Publicaste que ordenás la operación de infonegocios y te comentó el dueño de una academia online: "nos explotan los mensajes y no damos abasto". No sabés si mandarle tu precio, un video o pedirle una llamada.
 
-**Qué le pasás.** Tus notas o la transcripción de la llamada.
+**Qué le pasás.** Lo que te escribió y lo que sabés de su negocio por sus redes.
 
-**Qué te devuelve.** Cuatro hallazgos en palabras simples con su costo, el resumen del proyecto en tres fases, qué mostrar en pantalla y el guion de 20 minutos que termina con el precio y un próximo paso.
+**Qué te devuelve.** El script A de setting: la respuesta con autoridad y una pregunta, cómo llevarlo a la consecuencia, la invitación a la llamada con dos horarios y el recordatorio. Más los seguimientos si deja de contestar.
 
-**Por qué sirve.** La llamada 2 es corta a propósito: hallazgos, propuesta, precio, silencio.
+**Por qué sirve.** El objetivo del chat es una agenda con alguien que tiene el problema, no vender por mensaje.
 
 ---
 
-## 3. Practicar las objeciones antes de que te las hagan
+## 2. Tu primera llamada de venta con un founder
 
-**La situación.** Te da pánico el momento del precio. Sabés que te van a decir "es caro" y que vas a bajar el número en el acto.
+**La situación.** El jueves tenés 45 minutos con el dueño de un programa high ticket. Tenés tu oferta y tu precio, pero nunca hiciste una llamada de venta.
 
-**Qué le pasás.** Tu precio, tu propuesta y el tipo de founder con el que vas a hablar (o un caso práctico del programa).
+**Qué le pasás.** Lo que sabés del negocio, tu oferta y tu precio.
 
-**Qué te devuelve.** Un role-play donde Claude hace del founder y te tira "es caro", "lo pienso" y "¿y si lo hago yo?", una por vez, con devolución después de cada respuesta y la frase reescrita.
+**Qué te devuelve.** El script B, bloque por bloque: rapport corto, encuadre, de qué puerta viene (salir de la operativa, crecer u ordenar los números), las preguntas para que diga sus dolores, el costo de no actuar, la presentación conectada a lo que dijo, el precio y las objeciones más probables para este founder.
 
-**Por qué sirve.** La primera vez que escuchás "es caro" no debería ser con un cliente real.
+**Por qué sirve.** Llegás con la estructura que usa un equipo comercial que vende servicios de operaciones, adaptada a tu voz y sin trucos de presión.
+
+---
+
+## 3. Diagnóstico sin cargo y propuesta en dos llamadas
+
+**La situación.** Todavía no tenés precio cerrado y el negocio es distinto a todo lo que hiciste. Te da miedo prometer en vivo algo que no sabés si podés hacer.
+
+**Qué le pasás.** Lo que te contó el founder y lo que tenés para mostrar.
+
+**Qué te devuelve.** El script C: la llamada 1 de diagnóstico (números, recorrido, dolores, cierre con fecha para la 2) y, con tus notas, los hallazgos y el guion de 20 minutos de la llamada 2.
+
+**Por qué sirve.** Diagnosticar es vender: las buenas preguntas de negocio te posicionan antes de decir un precio.
+
+---
+
+## 4. Practicar "no quiero más herramientas" antes de que te lo digan
+
+**La situación.** Sabés que el founder te va a decir que ya paga un montón de cosas que no usa, y que vas a ponerte a explicar herramientas.
+
+**Qué le pasás.** Tu script y el tipo de founder (o un caso práctico del programa).
+
+**Qué te devuelve.** Un role-play donde Claude hace del founder, te tira la objeción y espera tu respuesta. Después de cada una: qué funcionó, qué sonó a vender herramientas y la frase reescrita. Al final, un puntaje en preguntas de negocio, calma y el cierre que corresponda a esa llamada.
+
+**Por qué sirve.** La primera vez que escuchás una objeción no debería ser con un cliente real.

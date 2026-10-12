@@ -10,7 +10,7 @@ Tres situaciones donde esta skill convierte lo que sabés hacer en una oferta qu
 
 **Qué le pasás.** Respondés la entrevista de los Cinco Ps, una P por vez. Para el Problema, pegás tu Mapa de Fricción y tu Mapa de Diagnóstico.
 
-**Qué te devuelve.** Tu offer doc en una página ("Yo ayudo a founders de programas high ticket a dejar de perder cuotas y ventas por desorden, sin contratar más gente, a través de un sistema operativo en 6 semanas"), con qué entregás, qué no incluye y un solo paso para empezar.
+**Qué te devuelve.** Tu offer doc en una página ("Yo ayudo a founders de programas high ticket a dejar de perder cuotas y ventas por desorden, sin contratar más gente, a través de un sistema operativo en 6 semanas"), con qué entregás, qué no incluye, un hallazgo con número tuyo como prueba de que sabés hacerlo y un solo paso para empezar. Cuando confirmás los supuestos, la versión limpia, sin marcas, para mandar.
 
 **Por qué sirve.** Es la base de cualquier propuesta y de tu bio. Es el paso 4 de la Actividad 30.
 

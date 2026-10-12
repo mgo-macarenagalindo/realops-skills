@@ -18,12 +18,12 @@ Lo que hay que sacar de la página actual: el menú, "descargá la guía" y "com
 
 | # | Referencia | Categoría | Por qué está |
 |---|---|---|---|
-| R1 | Landing de un programa de coaching financiero | hero | Hero en dos columnas, video a la izquierda, calendario a la derecha |
-| R2 | Página de una consultora de precios para agencias | feature / how-it-works | Mecanismo en 3 pasos con números grandes |
-| R3 | Landing de una mentoría de carrera | testimonial | Testimonios en video con una frase corta y el rol debajo |
-| R4 | Página de un curso de productividad | pricing / offer | "Para quién es / para quién no es" en dos columnas |
-| R5 | Landing de un estudio contable online | faq | FAQ en acordeón, 6 preguntas, justo antes del CTA final |
-| R6 | Página de una escuela de diseño | call-to-action | CTA final con el calendario repetido y una línea de garantía de la llamada |
+| R1 | Landing de un programa de coaching financiero | Hero | Hero en dos columnas, video a la izquierda, calendario a la derecha |
+| R2 | Página de una consultora de precios para agencias | How It Works | Mecanismo en 3 pasos con números grandes |
+| R3 | Landing de una mentoría de carrera | Testimonial | Testimonios en video con una frase corta y el rol debajo |
+| R4 | Página de un curso de productividad | Audience | "Para quién es / para quién no es" en dos columnas |
+| R5 | Landing de un estudio contable online | FAQ | FAQ en acordeón, 6 preguntas, justo antes del CTA final |
+| R6 | Página de una escuela de diseño | Call To Action | CTA final con el calendario repetido y una línea de garantía de la llamada |
 
 ## Tablero por sección
 

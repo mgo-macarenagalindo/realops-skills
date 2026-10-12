@@ -20,7 +20,7 @@ Hoy sabés de dónde viene cada venta, qué cuotas están pendientes y cada alum
 | Tiempo desde la venta hasta que el alumno recibe el acceso | 1 a 3 días | Menos de 10 minutos | Medido (Zapier) |
 | Asistencia a las llamadas de venta | 52 % | 54 % | Medido (CRM) |
 
-La asistencia casi no se movió: no estaba en el alcance. Es uno de los próximos pasos.
+4 números medidos y 1 estimación; ninguna meta. La asistencia casi no se movió: no estaba en el alcance. Es uno de los próximos pasos.
 
 ## Lo que se entregó
 
@@ -100,8 +100,8 @@ Las frases son de la entrevista, recortadas, no reescritas.
 
 ---
 
-¿Armamos la propuesta para seguir? Los próximos pasos 1 y 2 son una continuidad natural (skill **Propuesta de Continuidad**).
+¿Armamos la propuesta para seguir? Los próximos pasos 1 y 2 son una continuidad natural (skill **Retención, Upsells y LTV**).
 
 ---
 
-> **Si fuera un caso práctico** (modo práctica): la columna "Cómo se midió" diría "medido en práctica", "calculado sobre la base de muestra" o "meta · Supuesto a validar con <rol>"; "Lo que dijo el equipo" sería una encuesta simulada con el copiloto, rotulada, con cada frase "(simulada)"; y todo el pedido de testimonio se reemplaza por un apéndice de una línea. No hay testimonio en un caso práctico.
+> **Si fuera un caso práctico** (modo práctica): la columna "Cómo se midió" diría "medido en práctica", "calculado sobre la base de muestra" o "meta · Supuesto a validar con <rol>". Lo calculado muestra un efecto en los datos (por ejemplo, "con el protocolo, habrían salido 79 avisos; salieron 33"), no "30 de 30 con responsable por regla". Las metas van en una tabla aparte, "Lo que se va a medir", y nunca en la frase de arriba. "Lo que dijo el equipo" serían las fricciones de adopción por rol, simuladas con el copiloto y rotuladas, sin NPS ni puntajes. Todo el pedido de testimonio se reemplaza por un apéndice de una línea: no hay testimonio en un caso práctico.

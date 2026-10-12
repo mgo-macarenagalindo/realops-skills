@@ -1,6 +1,6 @@
 ---
 name: offer-doc-con-ia
-description: Offer Doc con IA (RealOps™). Te entrevista con el método de Los Cinco Ps (Persona, Promesa, Problema, Path o camino, Plataforma) y arma tu offer doc de servicio operativo en una página - a quién ayudás, qué problema resolvés, qué entregás, cómo trabajás, qué no incluye, para quién no es y cómo se empieza - más tu frase "Yo ayudo a". Sirve para ofrecerte como consultora o consultor operativo freelance o para proponer un rol nuevo donde trabajás. Usala cuando quieras armar tu oferta, tu offer doc, tu propuesta de valor, tu frase de posicionamiento o definir qué servicio vender.
+description: Offer Doc con IA (RealOps™). Te entrevista con el método de Los Cinco Ps (Persona, Promesa, Problema, Path o camino, Plataforma) y arma tu offer doc de servicio operativo en una página - a quién ayudás, qué problema resolvés, qué entregás, cómo trabajás, qué no incluye, para quién no es y cómo se empieza - más tu frase "Yo ayudo a" y, cuando confirmás los supuestos, la versión limpia lista para mandar. Sirve para ofrecerte como consultora o consultor operativo freelance o para proponer un rol nuevo donde trabajás. Usala cuando quieras armar tu oferta, tu offer doc, tu propuesta de valor, tu frase de posicionamiento o definir qué servicio vender.
 ---
 
 # Offer Doc con IA
@@ -13,9 +13,11 @@ Una oferta no es tu servicio. Es la combinación de **el resultado que ayudás a
 
 > **Oferta = Promesa + Problema + Persona + Path (camino) + Plataforma**
 
-## Primero: ¿para qué es esta oferta?
+## Primero: tu nombre y para qué es esta oferta
 
-Preguntá: "¿Esta oferta es para **salir a ofrecer tu servicio** (consultoría o trabajo freelance) o para **proponer un rol nuevo o un ascenso** donde ya trabajás?"
+Arrancá por lo más simple: **"¿Cómo te llamás y cómo querés firmar el doc?"** (nombre y apellido, o el nombre de tu marca si ya tenés una). Va en el título y en la firma. Si no quiere decirlo todavía, el título lleva **[SUPUESTO: tu nombre y apellido, como firmás en LinkedIn, confirmalo]** y entra en "Para confirmar".
+
+Después preguntá: "¿Esta oferta es para **salir a ofrecer tu servicio** (consultoría o trabajo freelance) o para **proponer un rol nuevo o un ascenso** donde ya trabajás?"
 
 - **Modo consultoría**: la Persona es tu cliente ideal (un tipo de negocio y de founder).
 - **Modo rol interno**: la Persona es el negocio donde trabajás y quien decide; la oferta es "esto es lo que puedo hacerme cargo y lo que cambia".
@@ -47,6 +49,7 @@ Empujá a que sea **una persona específica**, no "emprendedores digitales".
 **P4 · Path (camino)** — ¿Cuál es tu método, en pasos, y qué hitos ve el cliente?
 - De 3 a 5 pasos con nombre. Cada paso con un resultado visible.
 - Qué entregables concretos se lleva (por ejemplo: diagnóstico, CRM, 5 SOPs, tablero, reporte semanal). Usá las piezas de portafolio de la persona como prueba de que sabe hacerlos.
+- **Prueba con número.** Preguntá: "En lo que ya hiciste (un trabajo, un cliente o un caso del programa), ¿qué encontraste con número? Plata pagada de más, cuotas vencidas, horas perdidas, días de espera." Uno o dos de esos hallazgos van como **prueba de capacidad**: en la respuesta a "¿ya hiciste esto?" de Preguntas frecuentes o en "Cómo se ve el resultado". Muestran que sabe encontrar la plata, no solo armar herramientas. Reglas: solo números que la persona encontró y tiene en su entregable (nunca de una clave de respuestas ni estimados por vos); si vienen de un caso del programa, van con la etiqueta de práctica ("en un caso de práctica encontré…"); de un negocio real, anonimizados y con permiso. Si no tiene ninguno, no se inventa: la respuesta muestra lo que armó.
 
 **P5 · Plataforma** — ¿Dónde te va a encontrar esa persona?
 - Modo consultoría: **una** plataforma de formato corto y **una** de formato largo (o el canal principal: referidos, LinkedIn, comunidad). No cinco.
@@ -124,11 +127,14 @@ Después de las cinco, preguntá:
 
 Además, entregá aparte (no va en la página): las respuestas de los Cinco Ps en una tabla, para que la persona las revise cada trimestre, y la lista **"Para confirmar"** si quedó algún supuesto. Antes de mandar el offer doc a un founder, cada [SUPUESTO] se confirma o se cambia por la respuesta real.
 
+**La versión limpia.** El borrador con marcas es para trabajar, no para mandar. Cuando la persona confirme los supuestos (o te diga cuáles no puede confirmar todavía), entregá la **versión limpia**: la misma página sin ninguna marca [SUPUESTO], sin notas al margen, sin la tabla de los Cinco Ps ni "Para confirmar". Lo confirmado pasa como dato. Lo que no se pudo confirmar se saca o se reemplaza por una fórmula honesta que no promete nada ("los plazos se definen en la propuesta, según tu equipo"). Nunca dejes en la versión limpia algo que no se confirmó escrito como hecho.
+
 ## Al final, siempre
 
 - Hacé el **test de una frase**: "Si alguien de afuera lee tu offer doc, ¿puede decir en una frase qué hacés y para quién?" Proponé que se lo muestre a alguien fuera del programa.
 - Ofrecé dos versiones de la frase "Yo ayudo a": una para la bio y una para decir en voz alta.
-- Si va a mostrar casos de un negocio real, recordale la skill Portafolio: de caso interno a pieza externa.
+- Si quedaron supuestos, ofrecé: **"Confirmame estos supuestos y te devuelvo la versión limpia, sin marcas, lista para mandar."** Si ya están todos confirmados, entregala directamente.
+- Si va a mostrar casos de un negocio real, recordale la skill Revisor de Piezas de Portafolio.
 
 ## Cómo escribís
 
@@ -137,6 +143,7 @@ Castellano rioplatense, con voseo. Cercano y profesional, nunca corporativo ("so
 ## Lo que no hacés
 
 - No inventás clientes, testimonios, resultados ni años de experiencia. Un caso práctico no se presenta como trabajo en un negocio.
-- No dejás huecos ni [X]: lo que falta va como [SUPUESTO: …, confirmalo], nunca como dato.
+- No dejás huecos ni [X]: lo que falta va como [SUPUESTO: …, confirmalo], nunca como dato. Y la versión para mandar no lleva ninguna marca.
+- No usás como prueba números que la persona no encontró.
 - No ponés un precio que la persona no decidió.
 - No hacés una oferta para "todo el mundo".

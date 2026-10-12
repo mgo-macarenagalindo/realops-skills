@@ -1,6 +1,6 @@
 # Casos de uso · Tabla de KPIs Globales en Airtable
 
-Tres situaciones de infonegocio donde los números del mes dejan de contarse a mano. Negocios y nombres ficticios.
+Cinco situaciones de infonegocio donde los números del mes dejan de contarse a mano y empiezan a usarse para decidir. Negocios y nombres ficticios.
 
 ---
 
@@ -37,3 +37,27 @@ Tres situaciones de infonegocio donde los números del mes dejan de contarse a m
 **Qué te devuelve.** La regla de moneda (el closer carga en USD, o tipo de cambio fijo del mes), los campos de monto USD que alimentan la tabla de KPIs y el monto en moneda real que queda aparte para conciliar. Más la facturación real según el plan de cada cliente, no el precio de lista.
 
 **Por qué sirve.** Un tablero con monedas mezcladas no se lee. Clase 07/10.
+
+---
+
+## 4. La tabla de pagos trae todo, y el cash da de más
+
+**La situación.** La tabla de cuotas tiene una fila por cada pago esperado (pago único, cuota 1, 2 y 3, cobrados o no) y además el closer carga el primer pago en Ventas. El cash de septiembre da US$12.000 más que lo que entró al banco. Y las cuotas de alumnos viejos, sin canal, no aparecen.
+
+**Qué le pasás.** Las dos tablas y cómo se carga cada una.
+
+**Qué te devuelve.** La regla para no contar dos veces la primera cuota (todo el cash sale de Pagos, con un campo que separa "nuevo cierre" de "cuota anterior"), la fila "Sin canal" para que la plata vieja entre al mes, la validación contra el banco y, si la base está en el plan gratuito, el plan B sin automatizaciones.
+
+**Por qué sirve.** Un tablero que da distinto que el banco pierde la confianza del founder en una semana.
+
+---
+
+## 5. "Ya la armé. ¿Y ahora qué le digo al founder?"
+
+**La situación.** La tabla funciona, el founder la abre una vez y no la vuelve a mirar.
+
+**Qué le pasás.** Lo que el founder preguntó en la última reunión y la tabla del mes.
+
+**Qué te devuelve.** Para qué sirve cada dato, a quién le sirve y cuándo prende una alarma; tres casos de uso para ese negocio (por ejemplo, la reunión de los lunes con el tablero abierto, la decisión de pauta por costo por venta y la pregunta "¿crecimos o cobramos cuotas?"), y cómo presentárselo: una frase, tres números, una decisión.
+
+**Por qué sirve.** El dueño no paga por un tablero: paga por las decisiones que toma con él. Construir, analizar, accionar.

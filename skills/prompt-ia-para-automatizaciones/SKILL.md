@@ -1,6 +1,6 @@
 ---
 name: prompt-ia-para-automatizaciones
-description: Prompt de IA para Automatizaciones (RealOps™). Escribe el prompt del paso de IA que corre solo dentro de Zapier, n8n, GoHighLevel o un campo o agente de IA de Airtable - rol, objetivo, datos de entrada que no están en la transcripción, un campo de salida por dato con criterio y ejemplo, regla de no inventar - más la plantilla de Google Doc con marcadores [[campo]] a la que va cada salida y el aviso corto para Discord o Slack. Sirve para informes de llamadas de venta, reportes de sesiones 1 a 1, clasificación de leads o resúmenes de formularios. Usala cuando tengas que armar o arreglar el paso de IA de una automatización, cuando el informe sale distinto cada vez o se acorta con el tiempo, o cuando la IA inventa datos.
+description: Prompt de IA para Automatizaciones (RealOps™). Escribe el prompt del paso de IA que corre solo dentro de Zapier, n8n, GoHighLevel o un campo o agente de IA de Airtable - rol, objetivo, datos de entrada que no están en la transcripción, un campo de salida por dato con criterio y ejemplo, regla de no inventar - más la plantilla de Google Doc con marcadores [[campo]] a la que va cada salida y el aviso corto por el canal que ya usa el equipo (mail, Slack, Discord, WhatsApp). Sirve para informes de llamadas de venta, reportes de sesiones 1 a 1, clasificación de leads o resúmenes de formularios. Usala cuando tengas que armar o arreglar el paso de IA de una automatización, cuando el informe sale distinto cada vez o se acorta con el tiempo, o cuando la IA inventa datos.
 ---
 
 # Prompt de IA para Automatizaciones
@@ -21,9 +21,9 @@ Preguntá si es su negocio, el negocio donde trabaja o un caso práctico del pro
 
 1. **Qué tiene que salir** y quién lo lee: informe de llamada de venta para el closer, reporte de sesión 1 a 1 para el cliente, análisis para marketing, clasificación de un lead para el setter, resumen de un formulario.
 2. **Dónde corre el paso de IA:** Zapier (paso de IA), n8n (nodo de IA o llamada a Claude), GoHighLevel, o campo o agente de IA de Airtable.
-3. **Qué dispara la automatización** y quién es dueño de la grabadora (si es de la empresa, integración directa; si es personal del closer, un campo de Airtable donde pega la transcripción, con disparo por "última modificación" de ese campo).
+3. **Qué dispara la automatización** y quién es dueño de la grabadora: si es de la empresa y de una sola persona, integración directa; si es personal del closer, un campo de Airtable donde pega la transcripción, con disparo por "última modificación" de ese campo; si es **una grabadora o una cuenta de videollamadas compartida entre varios closers**, ver "Grabadora compartida" en el Paso 2.
 4. **Qué datos existen fuera de la transcripción** y hacen falta: closer, programa, estado del lead, monto, canal, número de sesión.
-5. **A dónde va cada salida:** documento, campos de la base, mensaje a Discord o Slack.
+5. **A dónde va cada salida:** documento, campos de la base, aviso por **el canal que ya usa el equipo** (mail, Slack, Discord, WhatsApp, un comentario en el CRM). No hace falta sumar una herramienta para el aviso.
 6. Si ya hay un prompt que falla: pegalo, junto con dos salidas (una buena y una mala).
 
 ## Cómo trabajás
@@ -38,7 +38,18 @@ Diseñá con la persona el documento final: secciones, en qué orden, qué largo
 2. **Objetivo.** Para qué se usa la salida y qué decisión dispara.
 3. **Datos de entrada.** La transcripción **y** los datos del CRM que no están en la llamada (closer, programa, estado, monto). Si no se los pasás, la IA los adivina (clase 10/08). Cada dato con su etiqueta.
 4. **Campos de salida, uno por dato.** Para cada campo: nombre exacto, qué es, criterio, formato y un ejemplo corto. Nunca un bloque de texto único: un campo por sección es lo que permite llenar la plantilla y controlar la calidad (clase 25/05).
-5. **Reglas.** No inventar: si un dato no aparece, el campo dice exactamente `Sin dato`. Citas **textuales**, entre comillas, sin corregir. Largo máximo por campo. Idioma y registro. Nada de datos sensibles que no hagan falta (tarjetas, documentos, salud).
+5. **Reglas.** No inventar: si un dato no aparece, el campo dice exactamente `Sin dato`. Citas **textuales**, entre comillas, sin corregir. Largo máximo por campo. Idioma y registro. Nada de datos sensibles que no hagan falta (tarjetas, documentos, salud). **Solo cuenta la conversación con el lead o el cliente:** todo lo que se dice después de que se va (la línea "abandonó la reunión" o la despedida final), o antes de que entre, se ignora; si ahí hay algo útil para el equipo ("¿quién tenía notas de este lead?"), va como máximo a un campo `nota_interna`, nunca a los campos del lead.
+
+**Campos opcionales para ventas.** Además de los campos de siempre (dolor, objeciones, próximo paso), sumá los que miden lo que de verdad falla en ese equipo. Uno que suele hacer falta: **`manejo_del_precio`**: en qué minuto se dijo el precio, si fue **después** de construir el valor (dolor, objetivo y cómo lo resuelve el programa) o antes, si las cuotas se ofrecieron como respuesta a "es caro" en vez de presentarse como forma de pago, y si se ofreció algo que no existe (descuento, beca, otra financiación). Formato: `Valor antes que precio: Sí / No` + minuto + cita textual.
+
+### Grabadora compartida entre varios closers
+
+Cuando varios closers usan la misma cuenta de videollamadas o la misma grabadora, la grabación llega sin dueño claro y el paso de IA puede terminar escribiendo el informe en el registro equivocado. Dos caminos:
+
+- **Vincular por la agenda.** Cada llamada ya está agendada en el CRM con fecha, hora y closer. La automatización busca el registro de la llamada cuya fecha y hora coinciden con el inicio de la grabación (con un margen de 15 minutos) y **solo sigue si encuentra exactamente uno**. Si encuentra cero o dos, no escribe nada y avisa para que alguien lo vincule a mano. Ayuda que el título de la reunión lleve el ID de la llamada ("LL-088 · Pablo").
+- **Pegar la transcripción en el registro.** El closer pega la transcripción en el campo de su llamada en el CRM y eso dispara el paso de IA. Es más manual, pero el vínculo es seguro: por eso conviene mientras la cuenta sea compartida, o hasta que cada closer tenga la suya.
+
+En los dos casos, el prompt recibe como datos de entrada el ID de la llamada y el closer **del CRM**, no los adivina de la transcripción (en una cuenta compartida, el nombre que figura en la grabación puede ser el de otro).
 
 ### Paso 3 · Mapeo de salidas
 
@@ -46,11 +57,12 @@ Tabla de campo de salida → marcador del documento → campo de la base → ¿v
 
 ### Paso 4 · El aviso corto
 
-Lo que va a Discord o Slack: **máximo 4 líneas + el link** al documento completo. Los avisos tienen límite de caracteres (en Discord, si se pasa, el paso falla entero). Si hay casos que requieren otro mensaje (renovación, cliente en riesgo), se separan con rutas.
+Va por **el canal que ya usa el equipo**: mail, Slack, Discord, un grupo de WhatsApp o un comentario en el registro del CRM. **Máximo 4 líneas + el link** al documento completo. Los avisos tienen límite de caracteres (en Discord, si se pasa, el paso falla entero; en un mail, el asunto tiene que decir de qué llamada es). Si hay casos que requieren otro mensaje (renovación, cliente en riesgo), se separan con rutas.
 
 ### Paso 5 · Prueba
 
 - **Tres transcripciones distintas** (una buena, una floja, una incompleta). Se compara si la estructura se mantiene igual en las tres.
+- **Una con texto después de que el lead se va** (pasa seguido: el closer sigue conectado y habla con un compañero). Se revisa que nada de esa parte aparezca en los campos del lead.
 - Revisar a mano: ¿algún campo tiene algo que no está en la transcripción? Si sí, se endurece la regla y se vuelve a probar.
 - Si es para clientes (reporte de sesión), quien da la sesión lo tiene que poder mandar **sin editar**.
 
@@ -81,8 +93,8 @@ En `ejemplo-de-output.md` tenés uno completo.
 ## El prompt (5 bloques, listo para pegar)
 ## Campos de entrada (tabla: campo · de dónde sale)
 ## Mapeo de salidas (tabla: salida · marcador · campo de la base · ¿va al aviso?)
-## Aviso corto (Discord o Slack)
-## Plan de prueba (3 transcripciones y qué revisar)
+## Aviso corto (por el canal que ya usa el equipo)
+## Plan de prueba (3 transcripciones + 1 con texto después de que se va el lead, y qué revisar)
 ```
 
 ## Al final, siempre

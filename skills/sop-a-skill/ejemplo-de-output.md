@@ -10,7 +10,13 @@
 
 ## Veredicto
 
-Es material de skill: se repite (unas 25 ventas por mes), el criterio está escrito en el SOP y termina en un documento concreto. **No lleva regla de oro**: no escribe en ninguna base, devuelve un texto que el closer pega en el canal de servicio. Sí lleva una validación nueva por el error que ya pasó (reserva no es venta).
+Es material de skill: se repite (unas 25 ventas por mes), el criterio está escrito en el SOP y termina en un documento concreto.
+
+- **¿El proceso está bien definido?** Sí en lo que importa: entradas claras (notas de la llamada y forma de pago), responsable (el closer), resultado bien hecho (los 6 datos). 
+- **¿Reglas que se contradicen?** Una: el SOP dice que el handoff va por mail a la coordinadora y en la práctica los closers lo pegan en el canal de servicio. No cambia el contenido, así que la skill entrega un texto que sirve para los dos y queda `[FALTA: decisión de la coordinadora de servicio sobre el canal]`.
+- **¿Regla de oro?** No: no escribe en ninguna base ni calcula plata, devuelve un texto. Sí lleva una validación nueva por el error que ya pasó (reserva no es venta).
+
+**Decisión: se empaqueta** (con el `[FALTA]` del canal anotado).
 
 ## Árbol de la carpeta
 
@@ -122,6 +128,16 @@ Estado: VENTA
 | 2 | Notas sin la forma de pago | Arriba de todo: "FALTA: forma de pago y estado" |
 | 3 | Notas de alguien que pagó solo la reserva | Título RESERVA y aviso de no dar accesos |
 | 4 | "Escribile un mail de bienvenida al alumno nuevo" | No se activa: es otro proceso |
+
+**Contraste con un caso real conocido.** Corré la skill con las notas de las tres ventas de la semana pasada y compará con los handoffs que se mandaron de verdad:
+
+| Venta | Lo que dio la skill | Lo que se mandó | Diferencia | Causa probable |
+|---|---|---|---|---|
+| Venta 1 | VENTA · 6 datos | VENTA · 6 datos | — | — |
+| Venta 2 | VENTA · FALTA: objetivo a 6 meses | VENTA · sin objetivo | El handoff real no avisaba que faltaba | Hallazgo del proceso: el closer no lo preguntó en la llamada |
+| Venta 3 | **RESERVA** · no dar accesos | VENTA | El real la mandó como venta | **Hallazgo para el negocio:** es el mismo error que ya pasó dos veces. Revisar si esa persona tiene accesos hoy |
+
+Ninguna diferencia quedó sin explicar, así que la skill se da por buena. Si alguna no se hubiera podido explicar, se resolvía antes de compartirla.
 
 ## Cómo empaquetarla y compartirla
 

@@ -20,7 +20,10 @@ Preguntá si el proyecto fue para un cliente externo, para el negocio donde trab
 El informe se arma **completo**, no como plantilla con medio informe vacío. Sirve de pieza de portafolio, rotulada como práctica. Tres reglas:
 
 1. **El "después" se mide en el sandbox.** Si el alumno construyó algo en su copia de la base del caso, el número sale de ahí y se rotula **"medido en práctica"**. Si un entregable es una regla o un cálculo (la base de la comisión, el tablero, la vista de vencidas), se aplica la regla nueva a los mismos datos de muestra y se rotula **"calculado sobre la base de muestra"**. Lo que depende de que pase el tiempo (horas por semana, días hasta el acceso) queda como **meta**, con "Supuesto a validar con <rol>".
+   - **Lo calculado tiene que mostrar un efecto, no que la regla existe.** "30 de 30 vencidas con responsable, por regla" no prueba nada: es la regla repetida. Aplicá la regla a las fechas, montos y registros reales y mostrá qué habría cambiado: cuántos avisos habrían salido contra cuántos salieron, cuántos alumnos cambiarían de estado, cuánta plata se mueve de un lado al otro, qué registro concreto se habría tratado distinto. Si una regla no produce ningún efecto visible en los datos de muestra, no va en la tabla del antes y el después: va en "Lo que se entregó".
+   - **Antes de dejar algo como meta, buscá la medición mínima en el sandbox**: ¿se puede construir la vista o la regla en la copia de la base y contar? Si se puede, pasa a "medido en práctica".
 2. **La encuesta se puede simular con el copiloto**, que responde como cada rol del caso. Cada frase va con **(simulada)** y la sección lleva el rótulo "Encuesta simulada: no es evidencia, no se cita ni se publica". Con un cliente real no se simula nunca.
+   - **Qué busca la simulación: fricciones de adopción**, no puntajes. Por cada rol que usa lo entregado: qué le cuesta usarlo, qué hábito viejo compite (la planilla, el chat, preguntarle a alguien), qué pierde o siente que pierde con el cambio, y qué haría que vuelva a la forma vieja. **No se simulan NPS ni puntajes de 1 a 5**: un número inventado no dice nada. Cada fricción termina en qué la baja (una capacitación, un ajuste, un próximo paso).
 3. **No hay testimonio.** No se inventa ni se simula. El pedido de testimonio pasa a un **apéndice de una línea** que remite a la Parte 3 de esta skill. No se repite entero.
 
 ## Lo que te voy a preguntar
@@ -45,10 +48,10 @@ Si te pasa el diagnóstico, llevá al "antes" **todos** los números que toca el
 | Pregunta | Preguntas guía (2 o 3, de a una) | Respuestas típicas en infonegocio | Si igual no sabe |
 |---|---|---|---|
 | **2 · El antes** | ¿Hiciste un diagnóstico al empezar? ¿Qué números tenía? · ¿De qué se quejaba el founder en la primera llamada? · ¿Hay una base, una planilla o un registro de fricción de esa época? | Cuotas vencidas: 10 a 25 % de las que debían estar pagas. Días entre el pago y el acceso: 1 a 5. Carga manual: 3 a 10 h por semana. Asistencia a llamadas de venta: 50 a 75 % | Reconstruí con lo que haya y rotulá **"estimación"**. Si no hay nada, el antes es la queja textual del founder, y el número va como "Supuesto a validar con el founder" |
-| **3 · El después** | ¿Construiste algo en tu copia de la base o en la cuenta del cliente? · ¿Alguno de los entregables es una regla o un cálculo que se pueda aplicar a los mismos datos? · ¿Cuánto tiempo pasó desde que se usa? | Vencidas sin aviso: de 4 a 9 por mes → 0 a 1. Acceso: de 3 a 5 días → menos de 1. Carga manual: de 6 a 8 h → 1 h. Un solo número de "cuánto vendimos" en lugar de tres | **Modo práctica:** medilo en el sandbox ("medido en práctica") o aplicá la regla a los datos de muestra ("calculado sobre la base de muestra"). Lo que depende del tiempo va como **meta**, con "Supuesto a validar con <rol que lo va a usar>" y la consulta para medirlo. **Cliente real:** "sin dato" y fecha para medirlo; nunca un número inventado |
+| **3 · El después** | ¿Construiste algo en tu copia de la base o en la cuenta del cliente? · ¿Alguno de los entregables es una regla o un cálculo que se pueda aplicar a los mismos datos? · ¿Cuánto tiempo pasó desde que se usa? | Vencidas sin aviso: de 4 a 9 por mes → 0 a 1. Acceso: de 3 a 5 días → menos de 1. Carga manual: de 6 a 8 h → 1 h. Un solo número de "cuánto vendimos" en lugar de tres | **Modo práctica:** medilo en el sandbox ("medido en práctica") o aplicá la regla a los datos de muestra y mostrá qué habría cambiado ("calculado sobre la base de muestra"; si solo repite la regla, no es un después). Lo que depende del tiempo va como **meta**, con "Supuesto a validar con <rol que lo va a usar>" y la consulta para medirlo. **Cliente real:** "sin dato" y fecha para medirlo; nunca un número inventado |
 | **4 · Qué entregaste y dónde vive** | ¿Qué existe hoy que antes no existía (una vista, una regla escrita, una automatización)? · ¿En qué cuenta quedó? · ¿Quién lo abre cada semana? | Vistas en Airtable, SOPs en Notion o Drive, automatizaciones en Zapier o n8n, un tablero. Dueño: el founder. Mantiene: coordinación u operaciones | Tomá la lista de la propuesta. Cada fila dice dónde vive (la herramienta que el negocio ya usa para eso) y quién la mantiene (el rol que la propuesta nombra). Lo no confirmado: "Supuesto a validar con el founder" |
 | **5 · Qué hiciste de más** | ¿Arreglaste algo que encontraste y no estaba pedido? · ¿Diste de baja algún acceso, limpiaste duplicados o escribiste una plantilla? · ¿Alguien te pidió algo fuera del acuerdo y lo hiciste? | Reasignar leads huérfanos, sacar accesos de alguien que se fue, plantillas de mensajes, limpiar duplicados | Si no recuerda nada: "Sin adicionales registrados", más el registro de adicionales en blanco (fecha · qué · tiempo · quién lo pidió) para el próximo proyecto. No se inventan |
-| **7 · La encuesta** | ¿Alguien del equipo te dijo algo del proyecto por chat? · ¿Tenés un mensaje del founder después de una entrega? · ¿Podés mandar las 4 preguntas ahora? | NPS del equipo de 7 a 9. "Ahora lo veo yo sin preguntar". "Faltó una capacitación más" | **Cliente real:** mandala ahora; el informe dice "encuesta enviada el <fecha>". **Modo práctica:** encuesta simulada con el copiloto, con el rótulo de arriba |
+| **7 · La encuesta** | ¿Alguien del equipo te dijo algo del proyecto por chat? · ¿Tenés un mensaje del founder después de una entrega? · ¿Podés mandar la encuesta ahora? | NPS del equipo de 7 a 9. "Ahora lo veo yo sin preguntar". "Faltó una capacitación más" | **Cliente real:** mandala ahora; el informe dice "encuesta enviada el <fecha>". **Modo práctica:** fricciones de adopción por rol simuladas con el copiloto, sin puntajes, con el rótulo de arriba |
 | **8 · ¿Quedó contento?** | ¿Te agradeció por escrito? · ¿Te pidió algo más o te recomendó a alguien? · ¿Usa lo que entregaste? | Sí, si te recomendó o pidió más. No sé, si no hubo contacto después de la entrega | Dejá el mensaje listo y pedilo cuando haya un resultado visible, con los tres niveles de permiso. En modo práctica no aplica |
 
 ## Cómo se rotula cada número
@@ -67,20 +70,24 @@ Una o dos páginas. Para el founder, no para alguien de operaciones.
 
 1. **En una frase.** Qué cambió.
 2. **El antes y el después.** Tabla con los mismos números de ambos lados y una columna **"Cómo se midió"** con el rótulo. Si un número empeoró o no se movió, va igual, con la explicación.
+   - **Primero lo que ya se ve en los datos** (medido, medido en práctica, calculado), después las **metas** en una tabla aparte: "Lo que se va a medir", con la consulta y la fecha. Contá cuántas filas de cada tipo hay y decilo debajo de la tabla ("5 medidas o calculadas, 5 metas").
+   - **"En una frase" usa solo lo medido o calculado.** Una meta nunca es el titular.
+   - **Si la mitad o más del después son metas**, el informe lo dice sin vueltas y propone la medición más corta posible antes de presentarlo (una semana de registro, la vista construida en el sandbox, el próximo alumno que entra). Como pieza de portafolio, ese informe se apoya en el diagnóstico (el antes) y en lo calculado; las metas se muestran como "lo que se mide a los 30 días", no como resultado.
 3. **Lo que se entregó.** Cada entregable como objeto, dónde vive (link o herramienta), quién es el dueño y quién lo mantiene.
 4. **Lo que se hizo de más.** La lista de adicionales que no estaban en el alcance. No es para cobrarlo ahora: es para que se vea. En los primeros proyectos, dar más de lo vendido es lo que construye el caso de éxito.
 5. **Lo que dijo el equipo.** Dos o tres frases de la encuesta, con permiso.
 6. **Accesos.** Todo quedó en un documento del cliente, y la lista de tus accesos dados de baja con fecha.
-7. **Próximos pasos recomendados.** Tres como máximo, priorizados. Es el puente a la continuidad (skill Propuesta de Continuidad).
+7. **Próximos pasos recomendados.** Tres como máximo, priorizados. Es el puente a la continuidad (skill Retención, Upsells y LTV).
 
 ## Parte 2 · La encuesta (si no la hubo)
 
-Corta, al equipo que usa los sistemas y al founder:
+Corta, al equipo que usa los sistemas y al founder (con un cliente real; en modo práctica se simula solo la búsqueda de fricciones de adopción, sin puntajes):
 
 - Del 0 al 10, ¿cuánto recomendarías este trabajo a alguien con un negocio parecido? (NPS)
 - Para cada entregable: del 1 al 5, ¿cuánto lo usás? ¿Qué le cambiarías?
 - ¿Qué te ahorró más tiempo o dolores de cabeza?
 - ¿Qué faltó?
+- ¿Hay algo que todavía hacés como antes (en la planilla, por chat, preguntando)? ¿Por qué?
 
 Si el proyecto todavía no terminó, recomendá hacerla **a mitad de camino** también: detecta problemas cuando todavía se pueden arreglar.
 
@@ -122,10 +129,11 @@ En `ejemplo-de-output.md` tenés un cierre completo.
 ```
 # Informe final · [proyecto] · [cliente] · [fecha]
 ## En una frase
-## El antes y el después (tabla: qué medimos · antes · después · cómo se midió)
+## El antes y el después (tabla: qué medimos · antes · después · cómo se midió; primero lo medido o calculado)
+### Lo que se va a medir (metas: qué · consulta · cuándo)
 ## Lo que se entregó (tabla: entregable · dónde vive · dueño · quién lo mantiene)
 ## Lo que se hizo de más
-## Lo que dijo el equipo
+## Lo que dijo el equipo (en modo práctica: fricciones de adopción por rol, simuladas)
 ## Accesos
 ## Próximos pasos recomendados
 ## Supuestos a validar (tabla: supuesto · con quién se valida · cómo)
@@ -144,8 +152,8 @@ En `ejemplo-de-output.md` tenés un cierre completo.
 
 Ofrecé:
 
-1. "¿Armamos la propuesta para seguir trabajando juntos?" (skill Propuesta de Continuidad).
-2. "¿Lo convertimos en una pieza de portafolio?" (skill Portafolio: de caso interno a pieza externa).
+1. "¿Armamos la propuesta para seguir trabajando juntos?" (skill Retención, Upsells y LTV).
+2. "¿Lo convertimos en una pieza de portafolio?" (skill Revisor de Piezas de Portafolio). La pieza muestra como resultado solo lo medido o calculado; las metas van como "lo que se mide después".
 3. Si ya tiene la grabación o la transcripción de la entrevista: "Pasámela y armo la versión para publicar, respetando el nivel de permiso."
 
 ## Cómo escribís
@@ -156,7 +164,8 @@ Ofrecé:
 
 ## Lo que no hacés
 
-- No inventás testimonios, frases del cliente ni resultados. Si no hay número, se dice "sin dato", "estimación" o "meta", con su rótulo. Las frases de una encuesta simulada llevan "(simulada)" siempre.
+- No inventás testimonios, frases del cliente ni resultados. Si no hay número, se dice "sin dato", "estimación" o "meta", con su rótulo. Las frases de una encuesta simulada llevan "(simulada)" siempre, y no se simulan NPS ni puntajes.
+- No ponés como "calculado" una fila que solo repite la regla: si no muestra un efecto en los datos, va en lo entregado.
 - No dejás el informe lleno de `[A MEDIR]` o `[completar]`: usás el plan B y rotulás.
 - No editás las palabras del cliente para que digan algo que no dijo.
 - No publicás ni sugerís publicar nada sin permiso por escrito.

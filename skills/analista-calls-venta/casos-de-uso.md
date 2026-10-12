@@ -1,6 +1,6 @@
 # Casos de uso · Analista de Calls de Venta
 
-Tres situaciones de infonegocio donde esta skill convierte grabaciones en decisiones. Negocios y nombres ficticios.
+Cuatro situaciones de infonegocio donde esta skill convierte grabaciones en decisiones. Negocios y nombres ficticios.
 
 ---
 
@@ -10,25 +10,37 @@ Tres situaciones de infonegocio donde esta skill convierte grabaciones en decisi
 
 **Qué le pasás.** Cinco transcripciones del último mes (de Fathom, Zoom o el grabador que usen): dos ventas y tres que no cerraron.
 
-**Qué te devuelve.** Cada llamada con su puntaje por etapa y, al final, el top 3 de objeciones. El patrón típico: la etapa "dolor y costo" puntúa 2 de 5 en las que no cerraron. Nunca se habló de cuánto cuesta seguir igual.
+**Qué te devuelve.** Cada llamada en versión compacta con su nota sobre 50 y, en conjunto, la tabla de la rúbrica, el top 3 de objeciones y las señales para el equipo. El patrón típico: el criterio "costo de no actuar" puntúa 1 o 2 en las que no cerraron y el precio se respondió con cuotas.
 
-**Por qué sirve.** Cuando el embudo está sano arriba, el problema está en la llamada, no en marketing. Esto lo demuestra con citas. Son las Actividades 21 y 22.
+**Por qué sirve.** Cuando el embudo está sano arriba, el problema está en la llamada, no en marketing. Esto lo demuestra con citas y le dice a cada closer qué frase cambiar. Son las Actividades 21 y 22.
 
 ---
 
-## 2. Marketing pide "material del avatar" y no hay nada
+## 2. "¿Este closer sirve o le tocan leads malos?"
+
+**La situación.** El founder tiene tres closers. Uno cierra mucho menos y dice que le tocan los peores leads. Nadie tiene tiempo de escuchar llamadas.
+
+**Qué le pasás.** Dos o tres llamadas de cada closer y el criterio de calificación del negocio.
+
+**Qué te devuelve.** La comparación por closer basada en conductas: nota promedio, qué hace bien, qué repite mal y cuánto del resultado es del lead (no calificaba, vino de un anuncio que promete otra cosa) y cuánto de la llamada. Si hubo descuentos no aprobados o presión a un lead que no calificaba, aparece como bandera roja.
+
+**Por qué sirve.** Cambia "me parece" por evidencia, sin juzgar a nadie. Y le da al closer un feedback que puede usar mañana: la frase reescrita y qué practicar esta semana.
+
+---
+
+## 3. Marketing pide "las palabras del cliente" y no hay nada
 
 **La situación.** El equipo de contenido de una mentoría no sabe qué dicen los clientes con sus propias palabras. Escriben los anuncios "a ojo".
 
-**Qué le pasás.** Transcripciones de llamadas de venta, con el modo "insights de avatar" activado.
+**Qué le pasás.** Las transcripciones de venta del mes.
 
-**Qué te devuelve.** Además del análisis comercial: dolores con cita literal, deseos, nivel de consciencia y hasta 3 frases textuales por llamada que sirven para copy (sin datos que identifiquen a nadie).
+**Qué te devuelve.** El banco de frases del mercado: dolores, deseos y objeciones textuales, con cuántas llamadas los repiten, el nivel de consciencia de cada lead, qué mensaje lo movió y qué anuncio trajo a los que calificaban y a los que no. Todo anonimizado y listo para copy.
 
-**Por qué sirve.** Es el loop de marketing y ventas con fundamento: lo que dicen los leads calificados, en sus palabras, cruzado con de dónde vinieron.
+**Por qué sirve.** Es el loop de marketing y ventas con fundamento: si los leads calificados dicen "cubrir el invierno" y el anuncio promete "facturá 10K", el anuncio está atrayendo a otra gente.
 
 ---
 
-## 3. Informe de sesión 1 a 1 para una consultora o coach
+## 4. Informe de sesión 1 a 1 para una consultora o coach
 
 **La situación.** Una coach da 15 sesiones 1 a 1 por semana y tarda 20 minutos en escribir cada resumen para el cliente. Se atrasa y los clientes se olvidan de las tareas.
 

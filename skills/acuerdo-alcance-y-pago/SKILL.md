@@ -15,7 +15,10 @@ El acuerdo existe por dos razones que se repiten en todos los primeros proyectos
 
 ## Sobre qué negocio trabajamos
 
-Preguntá para quién es: un cliente externo, el negocio donde trabaja (un proyecto aparte de su rol) o un caso práctico del programa (en ese caso queda como plantilla para su primer cliente real).
+En el primer mensaje, dos cosas juntas:
+
+- **Para quién es:** un cliente externo, el negocio donde trabaja (un proyecto aparte de su rol) o un caso práctico del programa (en ese caso queda como plantilla para su primer cliente real).
+- **Cómo querés figurar en el acuerdo:** tu nombre y apellido, y cómo te presentás (por ejemplo, "operaciones" u "operativo estratégico"). Va en el encabezado, en la sección 13 y en el mensaje. Si no lo quiere dar todavía (por ejemplo, porque es una plantilla), queda `[tu nombre]` y se anota en "Qué cambiás cuando tengas cliente real".
 
 ## Lo que te voy a preguntar
 
@@ -34,7 +37,7 @@ Si en cualquiera de estas contesta "no sé", no lo dejes en blanco: pasá al pla
 
 Pasa seguido: no hay propuesta, es un caso práctico o la persona nunca cobró un proyecto. La regla: **el acuerdo sale entero igual.** Primero, preguntas más chicas. Si igual no sabe, un supuesto razonable, rotulado, y seguís.
 
-**Cómo se rotula.** En el texto del acuerdo, justo después del dato, en cursiva: *(Supuesto a validar con el founder)*. Siempre con ese formato: "Supuesto a validar con <rol>" (el founder, vos al cotizar, tu contador). Al final, la lista **"Supuestos a validar"** con cada uno, en qué sección está, por qué se eligió y con quién se valida. Nada de [completar] en montos, fechas ni cuotas. Lo único que queda en blanco es lo que solo la persona puede poner: su nombre (si no lo dio), la firma y la fecha de firma.
+**Cómo se rotula.** En el texto del acuerdo, justo después del dato, en cursiva: *(Supuesto a validar con el founder)*. Siempre con ese formato: "Supuesto a validar con <rol>" (el founder, vos al cotizar, tu contador). Al final, la lista **"Supuestos a validar"** con cada uno, en qué sección está, por qué se eligió y con quién se valida. Nada de [completar] en montos, fechas ni cuotas. Lo único que queda en blanco es lo que solo la persona puede poner: la firma y la fecha de firma (y su nombre, solo si no lo quiso dar en la primera pregunta). **Toda fecha que no te dieron lleva rótulo, también la del encabezado**: si no la sabe, es la fecha en que piensa mandarlo, *(Supuesto a validar con vos: el día que lo mandás)*, y va a la lista.
 
 **Antes de los supuestos, ofrecé el camino corto:** "Si tenés 30 minutos, armá primero la propuesta con **Escritor de Propuestas** y volvemos: el acuerdo sale con tus números. Si preferís seguir, lo armo con supuestos y los marcás después". Si elige seguir, seguí.
 
@@ -43,10 +46,17 @@ Pasa seguido: no hay propuesta, es un caso práctico o la persona nunca cobró u
 Preguntas guía, de a una:
 
 1. ¿Cuántas semanas dura y cuántas horas por semana le vas a dedicar? *(Típico de un primer proyecto de ordenar ventas y cobros en un infonegocio: 8 a 12 semanas, 6 a 10 horas por semana, o sea 60 a 110 horas.)*
-2. ¿Cuánto querés ganar por hora? Si tenés empleo: sueldo del mes ÷ 160. Si no, el valor hora que querés ganar. *(Quien arranca en operaciones suele moverse entre US$12 y US$25 la hora: es un supuesto para la cuenta, no un precio de mercado. Ajustalo a tu país.)*
+2. ¿Cuánto querés ganar por hora? Si tenés empleo: sueldo del mes ÷ 160. Si no, el valor hora que querés ganar. *(Quien arranca en operaciones suele moverse entre US$12 y US$25 la hora: es un rango orientativo para destrabar la cuenta, sin fuente de mercado detrás. Ajustalo a tu país. Si querés hacer la cuenta completa de tu valor hora y tus precios, usá la skill **Tabla de Precios de tu Servicio** y traé el número.)*
 3. ¿Cuánto le cuesta al cliente el problema por mes? Horas del equipo que se pierden × lo que cuesta esa hora, plata sin cobrar, ventas que se caen. *(Si el caso trae un registro de fricción o cuotas vencidas, sale de ahí.)*
 
-Con eso, la cuenta, en una tabla corta **fuera del acuerdo** (es para la persona, no para el cliente): horas × 1,3 (coordinación) × valor hora = **piso**. El precio va entre el piso y una fracción chica del valor de un año para el cliente. Redondeá. Si alguno de los tres datos falta, usá el número típico de arriba y rotulalo. Si tampoco quiere hacer la cuenta: usá el piso con 80 horas y US$15 la hora (US$1.560 → US$1.500), rotulado *(Supuesto a validar con vos al cotizar: 80 h × 1,3 × US$15, no es precio de mercado)*. Si el cliente factura mucho más que eso por mes, decilo en la lista: el número de partida probablemente queda bajo.
+Con eso, la cuenta, en una tabla corta **fuera del acuerdo** (es para la persona, no para el cliente): horas × 1,3 (coordinación) × valor hora = **piso**.
+
+**El valor para el cliente, siempre en dos líneas:**
+
+- **Conservador:** solo lo que hoy ya se pierde y se puede medir (por ejemplo, horas del equipo × costo hora). Sin recuperos ni mejoras.
+- **Con mejoras:** el conservador más lo que depende de un supuesto optimista (recuperar cuotas vencidas, ventas que dejan de caerse). Cada supuesto de esos, rotulado.
+
+**El precio se elige contra el conservador**: entre el piso y la mitad del valor conservador de un año (o sea, que ese valor sea al menos el doble del precio). Redondeá. La línea "con mejoras" es un argumento extra para la conversación, nunca la base del número. Si el piso queda por encima de la mitad del conservador, decilo en la lista: o el proyecto se achica, o falta un dato del costo del problema. El costo hora del equipo, si no está en el caso, también es un supuesto y va rotulado. Si alguno de los tres datos falta, usá el número típico de arriba y rotulalo. Si tampoco quiere hacer la cuenta: usá el piso con 80 horas y US$15 la hora (US$1.560 → US$1.500), rotulado *(Supuesto a validar con vos al cotizar: 80 h × 1,3 × US$15, no es precio de mercado)*. Si el cliente factura mucho más que eso por mes, decilo en la lista: el número de partida probablemente queda bajo.
 
 ### "No sé cómo se paga"
 
@@ -111,7 +121,7 @@ En `ejemplo-de-output.md` tenés un acuerdo completo.
 
 ```
 # Acuerdo de trabajo · [proyecto] · [cliente]
-Entre [persona] y [cliente] · [fecha]
+Entre [tu nombre, de la primera pregunta] y [cliente] · [fecha] *(rotulada si es supuesto)*
 > Este acuerdo no reemplaza asesoramiento legal.
 
 ## 1. Para qué
@@ -133,7 +143,7 @@ Las **dos páginas son las 13 secciones**. Aparte, después del acuerdo, van los
 
 - El **registro de adicionales** (tabla: fecha · pedido · quién lo pidió · se cotiza o reemplaza · estado) para que la persona lleve aparte todo lo que aparece en el camino.
 - **Supuestos a validar**: cada supuesto, en qué sección está, por qué y con quién se valida. Si no hubo supuestos, no va.
-- **La cuenta del precio**, si el precio salió del plan B (tabla corta: horas · ×1,3 · valor hora · piso · precio).
+- **La cuenta del precio**, si el precio salió del plan B (tabla corta: horas · ×1,3 · valor hora · piso · valor conservador · valor con mejoras · precio), con la remisión a **Tabla de Precios de tu Servicio** para hacer la cuenta completa.
 - El mensaje para mandarlo (si lo pide).
 
 ## Al final, siempre

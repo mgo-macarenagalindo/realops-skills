@@ -1,117 +1,145 @@
-# Ejemplo de output · De Clase a Contenido
+# Ejemplo de output · De Clase a Contenido (caso real)
 
-> Datos ficticios. Caso práctico: **Academia Rinde Más**, comunidad paga de nutrición deportiva para personas que entrenan por su cuenta. El founder da una clase grupal en vivo los martes. La persona que usa la skill es la asistente de marketing. Semana de contenido; el CTA de la semana es la newsletter (palabra clave PLAN por DM).
+> **Caso real, no inventado.** La materia prima es una clase en vivo de RealOps™ de Macarena Galindo: **19/03/2026 · "Diagnóstico en la práctica: priorizar con los 6 dolores y poner límites"** · 61 minutos · transcripción de Fathom con marca de tiempo por turno. Quien firma el contenido es Macarena (Instagram de MG Operations). Los alumnos que hablan en la clase no aparecen en ninguna pieza: el filtro de privacidad los saca, y acá se dice qué se descartó sin repetir el dato.
 
-**Lo que pegó la persona:** la transcripción de la clase del martes 06/10 (52 minutos, "Por qué comés bien de lunes a jueves y el finde se te desarma todo"), tres reels del founder para tomar su voz (voseo, directo, con humor seco) que el precio de la comunidad no se menciona en contenido y que publican en Instagram y en una newsletter quincenal (lista de 1.800 suscriptos).
+**Lo que pidió la persona:** "Te paso la transcripción de la clase del 19/03. Sacame un carrusel y tres reels para mi Instagram. Te paso también mi calendario de contenidos para que no repitas."
+
+**Lo que contestó a las preguntas:** el avatar es el operativo estratégico (coordina o lidera un área en un infonegocio, ya hace el trabajo de operaciones sin método ni autoridad formal) · semana de contenido · el precio no se dice en redes · voz: tres captions de reels ya publicados (líneas cortas, voseo, una flecha 👇 al final, hashtags en minúscula) · canal: Instagram · no hay palabra clave de ManyChat confirmada.
 
 ---
 
-# De clase a contenido · Academia Rinde Más · semana del 12/10
+# De clase a contenido · MG Operations · semana del 19/10
+
+## Supuestos a validar
+
+| Supuesto | Con quién |
+|---|---|
+| Es semana de contenido (no de puerta abierta): ningún CTA lleva a aplicar | Macarena |
+| CTA sin DM: guardar, compartir y seguir. Si quiere volver al "escribime 👇" de sus reels, confirmar quién responde los DMs esa semana | Macarena |
 
 ## Filtro de privacidad
 
-Descarté **4 momentos**:
+Descarté **7 tramos**:
 
-- 2 donde el founder nombra a personas del grupo y comenta su caso.
-- 1 donde comparte la pantalla con la planilla de seguimiento de un miembro.
-- 1 donde habla de lo que factura la academia por mes.
-
-Lo que sigue no tiene nombres, montos ni pantallas de terceros.
+| Tramo | Momento (sin el dato) | Por qué |
+|---|---|---|
+| 01:09 → 08:12 | Dos alumnos cuentan el negocio donde trabajan, su equipo y su horario | Nombres y situación laboral de terceros |
+| 11:49 → 13:31 | Un alumno cuenta el plan para su cliente | Negocio de un tercero |
+| 30:52 → 35:13 | Una alumna describe el equipo y el rol que tiene en dos negocios | Nombres de terceros y negociación personal |
+| 35:44 → 36:51 | Facturación de los lanzamientos de un negocio ajeno | Montos de terceros |
+| 36:51 → 41:38 | La respuesta de Macarena sobre dónde hacer su caso de estudio | Nombra a un cliente de su consultora |
+| 47:20 → 48:36 | Un founder que no recuerda la contraseña de Facebook | Situación de un tercero identificable |
+| 51:34 → 56:45 | Consultas sobre el CRM del negocio de un alumno | Datos de un cliente de Macarena |
 
 ## Los momentos elegidos
 
-| Minuto | Idea | Frase textual | ¿Le habla al avatar? |
-|---|---|---|---|
-| 08:40 | El problema no es el finde: es que de lunes a jueves comés de menos | "No te desarmás el sábado. Llegás al sábado con hambre de cuatro días." | Sí |
-| 21:15 | La regla del plato del viernes (armar la comida del viernes el jueves) | "El viernes a las 21 no tomás decisiones. Tomás lo que hay." | Sí |
-| 33:50 | Demo: cómo arma su compra del domingo en 15 minutos | "Si la compra depende de tu fuerza de voluntad, ya perdiste." | Sí |
-| 44:10 | Por qué el registro de comidas no sirve si no mirás el patrón | "Anotar todo y no mirar nada es un diario íntimo, no un sistema." | Sí |
+| Inicio → fin | Frase para buscar | Idea | ¿Le habla al avatar? | ¿Ya salió? |
+|---|---|---|---|---|
+| 08:12 → 11:31 | "jamás puede estar atacando todos los dolores" | No se atacan los 6 dolores a la vez: este es el orden en que entro a un negocio | Sí: es quien recibe el "tenés 15 días para ordenar todo" | No |
+| 45:23 → 46:42 (y lo repite en 1:01:03) | "nunca seas excelente en un trabajo que no querés" | Si sos perfecta apagando incendios, nunca te van a sacar de ese rol | Sí: es su dolor central (hace el trabajo de Ops sin el rol) | No |
+| Tramo final del turno que arranca en 18:35 · aprox. 23:45 → 26:28 | "todo mi entorno de trabajo sabe" | Reglas de urgencia: WhatsApp si es urgente, llamada si es el doble; notificaciones apagadas | Sí | Parcial (ver abajo) |
+| 48:49 → 49:27 y 50:16 → 50:45 | "por más que sea Gmail" · "siempre todo tiene que ser de propiedad del dueño" | Las herramientas y las cuentas, a nombre del negocio y del dueño, nunca del empleado | Sí: es quien abre las cuentas | No |
 
-## Reel 1 · "Llegás al sábado con hambre de cuatro días"
+Fathom marca el comienzo de cada turno, no de cada frase: el segundo exacto del tercer momento se confirma en la grabación con la frase para buscar.
 
-- **Hook (0-3 s):** "No te desarmás el sábado." · Texto en pantalla: *El problema no es el finde*
-- **Escena 1 (3-15 s):** primer plano. "Te desarmás porque de lunes a jueves comiste de menos para 'portarte bien'."
-- **Escena 2 (15-35 s):** con un plato vacío en la mesa. "Llegás al sábado con hambre de cuatro días. Ahí no hay fuerza de voluntad que alcance."
-- **Escena 3 (35-50 s):** "La solución no es aguantar más el finde. Es comer suficiente el miércoles."
-- **CTA (50-55 s):** "Si querés el plan de la semana que uso con el grupo, escribime PLAN por DM." *(crecimiento → DM)*
+## Descartados por repetidos
 
-## Reel 2 · Clip de la clase (21:15 → 22:05)
+- **13:31 → 16:23 · Notion y Discord gratis + Zapier por 30 dólares.** Ya salió el **17/06** como reel ("Con menos de 30 dólares al mes podés tener un sistema…").
+- **18:35 → aprox. 23:45 · Notion para lo personal, Asana para el trabajo, la tarea con estrellita.** Ya salió el **30/06** como reel ("La productividad no empieza con una herramienta…"). Del mismo turno uso solo el final, las reglas de urgencia, que no salieron.
 
-- **Hook en pantalla:** *El viernes a las 21 no decidís*
-- Clip textual del founder explicando la regla del plato del viernes. Subtítulos.
-- **CTA en el caption:** "Guardalo para el jueves." *(valor → guardar)*
+---
 
-## Reel 3 · "Si la compra depende de tu fuerza de voluntad, ya perdiste"
+## Reel 1 · "Nunca seas excelente en un trabajo que no querés"
 
-- **Hook (0-3 s):** el founder vacía una bolsa de supermercado sobre la mesada. "Si la compra depende de tu fuerza de voluntad, ya perdiste."
-- **Escena 1:** la lista en el celular, tres categorías.
-- **Escena 2:** la compra ordenada en la heladera en 15 segundos (acelerado).
-- **Escena 3:** "15 minutos el domingo. Cero decisiones el resto de la semana."
-- **CTA:** "Seguime: el domingo subo la lista completa." *(autoridad → seguir)*
+- **De dónde sale:** 45:23 → 46:42. **Clip textual** (las frases de abajo son la transcripción limpia de lo que se escucha). Cortar desde "Te voy a decir una frase…" (se saca la primera oración, que le habla a una alumna) hasta "…¿entendés?" (antes de que hable la alumna). Revisar que en el tramo esté la vista de quien habla y no la grilla con caras.
+- **Hook (0-3 s):** abrir con el audio de la frase, adelantada en edición: *"Nunca seas excelente en un trabajo que no querés."* · Texto en pantalla: **Nunca seas excelente en un trabajo que no querés**
+- **Escena 1 (3-20 s):** clip: "Es una frase que escuché hace poco en una serie… nunca seas excelente en un trabajo que no querés. O sea, que no querés a la larga."
+- **Escena 2 (20-50 s):** clip: "De tipo, te respondo al toque, soy súper resolutiva, te resuelvo todo… eso también hay que empezar a cortarlo."
+- **Escena 3 (50-75 s):** clip: "En la medida en la que vos seas esa mano derecha que resuelve cualquier temita chiquito, operativo, y sos perfecta haciendo eso, jamás te van a sacar ese rol, porque necesitan a alguien así." · Texto en pantalla: **Si estás ahí, no podés ser la estratégica**
+- **CTA (en pantalla y caption):** "Mandáselo a la mano derecha de tu equipo." *(compartir)*
+- **Caption:**
+  > Ser la que resuelve todo al toque parece una virtud.
+  > Hasta que te das cuenta de que por eso nadie te saca de ese lugar.
+  > Mandáselo a la mano derecha de tu equipo 👇
+  > #operaciones #negociosdigitales #directoradeoperaciones #liderazgo #consultora
 
-## Carrusel · "Por qué se te desarma el finde (y no es el finde)"
+## Reel 2 · "La urgencia del otro no es tu urgencia"
 
-1. **Tapa:** Comés perfecto de lunes a jueves. El finde se te desarma todo. No es falta de voluntad.
-2. Lo que pasa: de lunes a jueves comés de menos para "compensar".
-3. El cuerpo no lleva la cuenta por día. Lleva la cuenta por semana.
-4. El sábado llegás con hambre acumulada. Ahí ninguna regla aguanta.
-5. Lo que cambia todo: comer suficiente el miércoles.
-6. Y armar la comida del viernes el jueves (el viernes a las 21 no decidís).
-7. La compra del domingo, en 15 minutos, para no depender de las ganas.
-8. **Cierre:** No necesitás más voluntad. Necesitás un sistema. Guardalo y probalo esta semana.
+- **De dónde sale:** tramo final del turno que arranca en 18:35 (aprox. 23:45 → 26:28; buscá "todo mi entorno de trabajo sabe"). **Para regrabar:** el turno es largo y mezcla temas (rutina, Notion, Asana). Lo textual va entre comillas.
+- **Hook (0-3 s):** a cámara: *"Tengo las notificaciones apagadas. Y yo elijo cuándo entro a responder."* · Texto en pantalla: **Mis 2 reglas de urgencia**
+- **Escena 1 (3-15 s):** "Todo mi entorno de trabajo sabe esto: **si es urgente, me hablan por WhatsApp. Si es el doble de urgente, me llaman.**" · En pantalla: *Urgente → WhatsApp · Doble de urgente → llamada*
+- **Escena 2 (15-30 s):** "¿Y sabés qué pasa? **Nadie te termina llamando.** A la gente le parece invasivo llamar." *(textual: "el entorno no te llama por teléfono porque cree que es invasivo")*
+- **Escena 3 (30-45 s):** "Y si alguien te llama por algo que no era tan urgente, **ahí tenés la oportunidad de educarlo**."
+- **Escena 4 (45-60 s):** "Si de tu rol esperan foco y creatividad, **no pueden esperar al mismo tiempo que respondas cada mensaje al instante.** Que la urgencia del otro no te meta en urgencia a vos."
+- **CTA:** "Guardalo y escribí tus reglas hoy." *(guardar)*
+- **Caption:**
+  > No es que no me importe.
+  > Es que si respondo todo al instante, no hago nada de lo que de verdad mueve el negocio.
+  > Guardalo para cuando armes tus reglas 👇
+  > #operaciones #productividad #negociosdigitales #trabajoremoto #limites
 
-**Caption:** El finde no te arruina la semana: la semana te arruina el finde. Guardalo y contame el lunes cómo te fue.
+## Reel 3 · "Si la cuenta está a tu nombre, es un problema"
 
-## Newsletter
+- **De dónde sale:** 48:49 → 49:27 (buscá "por más que sea Gmail") y 50:16 → 50:45 (buscá "propiedad del dueño"). **Para regrabar:** el segundo tramo nombra a un colaborador y a un cliente, no se puede recortar.
+- **Hook (0-3 s):** *"Si el Notion del negocio está a tu nombre, tenés un problema. Aunque te vayas en la buena."* · Texto en pantalla: **¿A nombre de quién están las cuentas?**
+- **Escena 1 (3-20 s):** "Zapier, Notion, Airtable, el CRM, la carpeta de Drive con todos los archivos: **todo centralizado en un correo de la empresa. Por más que sea Gmail y no tenga dominio.**"
+- **Escena 2 (20-35 s):** "El calendario o el Instagram pueden seguir en el mail personal del dueño, no pasa nada. Las herramientas que se contratan y guardan datos, no."
+- **Escena 3 (35-50 s):** "El chip, la línea nueva, las cuentas: a nombre del dueño. **Siempre. Todo tiene que ser propiedad del dueño del negocio.**"
+- **Escena 4 (50-60 s):** "Porque capaz te vas re en la buena, pero igual terminan siendo temas operativos."
+- **CTA:** "Seguime si trabajás en operaciones de un negocio digital." *(seguir)*
+- **Caption:**
+  > La herramienta la abriste vos. El mail es tuyo. La clave la sabés vos.
+  > Eso no es confianza: es un problema operativo esperando.
+  > #operaciones #negociosdigitales #notion #zapier #airtable #founders
 
-**Asunto:** Llegás al sábado con hambre de cuatro días
-**Vista previa:** Y no, no es falta de voluntad.
+## Carrusel · "Te piden ordenar todo en 15 días. Este es el orden."
 
-**Lo que vi esta semana.** En la clase del martes, alguien del grupo contó que de lunes a jueves "come perfecto" y el sábado "se le va todo". La mitad del grupo levantó la mano: les pasa lo mismo.
+1. **Tapa:** "Tenés 15 días para ordenar todo." Si te lo dijeron, este es el orden en que yo entro a un negocio.
+2. En operaciones **no podés atacar todos los dolores del negocio al mismo tiempo.** Ni vos ni nadie.
+3. **1 · Comunicación.** Primero, dónde y cómo se habla del trabajo. Si todo pasa por el mismo WhatsApp donde te escribe tu mamá, nada de lo demás se sostiene.
+4. **2 · El equipo.** Qué está haciendo cada persona. Reportes y trazabilidad de tareas.
+5. **3 · CRM, marketing y ventas.** Recién ahí ordeno los datos y a los closers.
+6. **4 · Servicio.** Y el cliente no tiene drama con ese orden, si sabés explicarlo.
+7. **Mientras tanto, los incendios siguen.** Por eso: bloqueá una hora por día para la tarea que mueve la aguja. Más allá de las urgencias y de responder mensajes.
+8. **¿Por dónde empezar en tu negocio?** Pensá en el impacto más directo: ¿qué alivia más rápido la carga del equipo? Eso va primero.
+9. **Cierre:** No podés atacar todo al mismo tiempo: hay que priorizar. Hacé una planificación realista y presentala. Guardalo para la próxima vez que te pidan todo para ayer.
 
-**El criterio.** El problema no es el sábado. Es que de lunes a jueves comés de menos para portarte bien, y llegás al finde con hambre acumulada. El cuerpo no lleva la cuenta por día: lleva la cuenta por semana. Ninguna regla aguanta cuatro días de hambre.
+**De dónde sale cada slide:** 2 a 6 de 08:12 → 11:31 ("jamás puede estar atacando todos los dolores… primero ataco la parte de la comunicación, después… reportes de la gente, qué está haciendo la gente, que tengamos trazabilidad. Después me meto a la parte de CRM, marketing, ventas… Después me meto en servicio. Y no tiene drama el cliente"). El WhatsApp con mamá, de 28:26. Slide 7, del mismo turno (10:50 aprox., "bloquear por lo menos una hora del día"). Slides 8 y 9, del cierre (56:45 → 1:00:57, "piensen en el impacto directo… alivianar carga operativa" y "hagan una planificación realista… no podemos atacar todo al mismo tiempo, hay que priorizar"). La tapa usa una escena que contó alguien del grupo, sin su nombre ni su negocio.
 
-**Para aplicar el lunes.** Esta semana, el miércoles comé una porción más en el almuerzo. Y el jueves a la noche dejá armada la comida del viernes. Solo eso.
+**Caption:**
+> No se ordena todo junto.
+> Se ordena en el orden correcto.
+> Guardalo para la próxima vez que te pidan todo para ayer 👇
+> #operaciones #negociosdigitales #diagnostico #consultora #directordeoperaciones
 
-**Atajo con IA.** Pedile a Claude: "Te paso lo que comí de lunes a jueves. Decime qué días comí de menos según mi entrenamiento y armame la comida del viernes con lo que tengo en la heladera: [lista]".
-
-**Una pregunta.** ¿Qué día de la semana se te desarma más? Respondé este mail y te contesto.
-
-## Secuencia de historias
-
-1. **Encuesta:** "¿Cuándo se te desarma la alimentación?" · Lunes a jueves / El finde.
-2. **Resultado + dato:** "El 80 % de ustedes dijo el finde. Spoiler: el problema empieza el martes." *(el porcentaje es el de la encuesta real del día)*
-3. **La idea:** el founder a cámara, 15 segundos, la frase del hambre de cuatro días.
-4. **La acción:** "Miércoles: una porción más. Jueves: dejá armado el viernes."
-5. **Caja de preguntas:** "¿Qué comés el viernes a la noche cuando no tenés nada armado?"
+---
 
 ## Control de calidad
 
-| Pregunta | Reel 1 | Reel 2 | Reel 3 | Carrusel | Newsletter | Historias |
-|---|---|---|---|---|---|---|
-| Hook sin "hoy te voy a contar" | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Arranca en la escena | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Detalle específico | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Cambia una creencia | ✅ | ⚠️ es más tip | ✅ | ✅ | ✅ | ✅ |
-| Un solo CTA | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Voz del founder | ✅ | ✅ (es él) | ✅ | ✅ | ✅ | ✅ |
-| Privacidad | ✅ | ✅ revisar que no se vea la grilla del Meet | ✅ | ✅ | ✅ "alguien del grupo" | ✅ |
-| Se entiende sin la clase | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-
-El Reel 2 queda como pieza de valor (guardar): está bien que sea más tip.
+| Pregunta | Reel 1 | Reel 2 | Reel 3 | Carrusel |
+|---|---|---|---|---|
+| Hook sin "hoy te voy a contar" | ✅ | ✅ | ✅ | ✅ |
+| Arranca en la escena | ✅ | ✅ | ✅ | ✅ ("Tenés 15 días…") |
+| Detalle específico de la clase | ✅ la frase de la serie | ✅ WhatsApp / llamada / notificaciones | ✅ "por más que sea Gmail", el chip | ✅ el orden real de 4 pasos |
+| Cambia una creencia | ✅ ser excelente no siempre suma | ✅ responder al instante no es profesional | ✅ la cuenta a tu nombre no es confianza | ✅ el orden importa más que la velocidad |
+| Un solo CTA | ✅ compartir | ✅ guardar | ✅ seguir | ✅ guardar |
+| Voz de quien firma | ✅ es ella (clip) | ✅ oral, sin muletillas | ✅ oral | ✅ escrita, como sus captions |
+| Privacidad / nada atribuido que no dijo | ⚠️ cortar la primera oración y chequear la vista | ✅ | ✅ sin el caso del segundo tramo | ✅ la escena de los 15 días, anónima |
+| Se entiende sin la clase | ✅ | ✅ | ✅ | ✅ |
+| ¿Ya salió? | No | No (sí el resto del turno) | No | No |
 
 ## Para cargar en el calendario
 
-| Pieza | Canal | Fecha sugerida | CTA |
-|---|---|---|---|
-| Reel 1 | Instagram | lun 12/10 | DM con PLAN |
-| Carrusel | Instagram | mar 13/10 | Guardar |
-| Newsletter | Mail | jue 15/10 | Responder |
-| Reel 2 (clip) | Instagram | jue 15/10 | Guardar |
-| Reel 3 | Instagram | sáb 17/10 | Seguir |
-| Historias | Instagram | mié 14/10 | Caja de preguntas |
+| Contenido | Formato | Plataforma | Fecha sugerida | Objetivo | Pilar | CTA | Inspiración |
+|---|---|---|---|---|---|---|---|
+| Reel: nunca seas excelente en un trabajo que no querés | Video (clip) | Instagram | lun 19/10 | Atraer | Personal estratégico | Compartir | Clase 19/03 · 45:23 → 46:42 |
+| Carrusel: el orden para ordenar un negocio | Carrusel | Instagram | mié 21/10 | Nutrir | Autoridad técnica | Guardar | Clase 19/03 · 08:12 → 11:31 |
+| Reel: mis 2 reglas de urgencia | Video | Instagram | jue 22/10 | Nutrir | Dolor/Problema | Guardar | Clase 19/03 · aprox. 23:45 → 26:28 |
+| Reel: las cuentas a nombre del dueño | Video | Instagram | sáb 24/10 | Atraer | Autoridad técnica | Seguir | Clase 19/03 · 48:49 → 50:45 |
 
-Medición: a los 7 días de cada pieza, retención y guardados en reels; respuestas en la newsletter.
+Estado al cargar: el Reel 1 entra **En edición** (es un clip, no hay que grabar); los otros, **En grabación**; el carrusel, **En edición** (el texto ya está).
+
+Medición: a los 7 días, retención y compartidos en el Reel 1, guardados en el Reel 2 y el carrusel, seguidores nuevos en el Reel 3.
 
 ---
 

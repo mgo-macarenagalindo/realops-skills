@@ -24,7 +24,7 @@
 
 | Día | Etapa | Qué hace | Material | Acompaña | Cómo se sabe que está |
 |---|---|---|---|---|---|
-| Antes | Preparación | Completa el formulario de ingreso | Formulario | Coordinación | Ficha cargada en el CRM del equipo y aviso en #equipo |
+| Antes | Preparación | Completa el formulario de ingreso | Formulario | Coordinación | Ficha cargada en el CRM del equipo y aviso en el canal del equipo |
 | 1 | Estudiar | Lee el descriptor, la oferta y el documento de para qué existe el negocio | Wiki → Empezá acá | — | Escribe en 5 líneas a quién le vende el negocio y qué promete |
 | 2 | Estudiar | Estudia el guion y mira el webinar completo | Guion · webinar | — | Marca 3 dudas sobre el guion |
 | 3 | Escuchar | Escucha 3 llamadas cerradas | Carpeta de llamadas | — | Por cada una: en qué momento se decidió la venta |
@@ -56,7 +56,7 @@
 | Herramienta | Cuenta | Nivel de acceso | Vista | Cuándo se da |
 |---|---|---|---|---|
 | Mail del negocio | Usuario propio con dominio del negocio | — | — | Antes del día 1 |
-| Canal del equipo (Slack) | Usuario propio | Miembro | #ventas, #equipo, #anuncios | Antes del día 1 |
+| Canal del equipo (el que ya usa el equipo; en este caso, Slack) | Usuario propio | Miembro | #ventas, #equipo, #anuncios | Antes del día 1 |
 | Wiki | Usuario propio | Lectura | Completa | Antes del día 1 |
 | Carpeta de llamadas grabadas | Compartida | Lectura | Solo la selección de 6 | Día 3 |
 | CRM (Airtable) | Usuario propio | Edición solo en su interface | Interface "Closer": sus agendas y sus deals | Día 5 |
@@ -78,6 +78,8 @@ Para cuando se vaya (se completa el día de salida y se guarda en su ficha):
 ## Revisión a los 30 días
 
 Con los KPIs del descriptor: tasa de cierre sobre llamadas asistidas, notas de traspaso completas (objetivo: 100 %) y cash collected de sus ventas del mes. Revisión de 30 minutos con el closer actual y el founder.
+
+**Antes de comparar, chequeo de que se mide igual:** "llamada asistida" la marca cada closer en el CRM. El closer actual marca "asistió" también cuando el lead se conecta 2 minutos y corta, así que la tasa de cierre de los dos no es comparable hasta que se unifique el criterio (asistió = la llamada duró más de 10 minutos). Se unifica antes del día 1 y se escribe en la wiki.
 
 ---
 

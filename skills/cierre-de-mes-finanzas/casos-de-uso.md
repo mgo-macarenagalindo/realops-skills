@@ -10,7 +10,7 @@ Tres situaciones de infonegocio donde el cierre de mes pasa de "lo sabe una pers
 
 **Qué le pasás.** Dónde están los datos, qué se pide a mano y a quién, las reglas de comisión y qué falló en cierres anteriores.
 
-**Qué te devuelve.** El checklist de 7 pasos aplicado al negocio, la prueba en seco del mes, las 10 validaciones con los registros que fallan y el informe de una página. Con la regla de oro escrita: nada se escribe sin OK.
+**Qué te devuelve.** El checklist de 7 pasos aplicado al negocio, la prueba en seco del mes, las 11 validaciones con los registros que fallan y el informe de una página. Con la regla de oro escrita: nada se escribe sin OK.
 
 **Por qué sirve.** El cierre deja de depender de alguien. Es el caso del Tutorial 1 de la biblioteca, hecho skill.
 

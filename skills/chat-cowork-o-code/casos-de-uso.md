@@ -37,3 +37,15 @@ Tres situaciones de infonegocio donde elegir bien la superficie te ahorra horas 
 **Qué te devuelve.** El pedido reescrito con contexto (qué negocio, para quién es el análisis), objetivo (qué decisión querés tomar), fuente (la exportación de Airtable que pegás abajo, con qué columnas) y formato (tabla por canal + 3 decisiones), con `[completar]` donde falta algo.
 
 **Por qué sirve.** Un pedido con los 4 elementos sale bien a la primera y no gasta en idas y vueltas.
+
+---
+
+## 4. "No sé qué tengo instalado"
+
+**La situación.** Te preguntan si tenés Cowork o Claude Code y no tenés idea; solo usás Claude en el navegador.
+
+**Qué le pasás.** Las tareas de la semana y "no sé qué tengo".
+
+**Qué te devuelve.** La mini guía de 3 pasos para revisarlo en 5 minutos y, mientras tanto, la tabla "si no tenés X, hacé Y": cada tarea con la superficie ideal y la alternativa con lo que seguro tenés. Si vas a pegar datos de un cliente real, te dice qué columnas pegar y cuáles borrar.
+
+**Por qué sirve.** No te frena no saber qué plan tenés: arrancás igual y cambiás de superficie cuando lo confirmás.

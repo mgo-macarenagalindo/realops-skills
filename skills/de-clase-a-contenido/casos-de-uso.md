@@ -1,6 +1,18 @@
 # Casos de uso · De Clase a Contenido
 
-Cuatro situaciones de infonegocio donde una hora grabada se vuelve una semana de contenido. Negocios y nombres ficticios.
+Cinco situaciones donde una hora grabada se vuelve una semana de contenido. La primera es un caso real; en las demás, negocios y nombres ficticios.
+
+---
+
+## 0. Caso real: una clase de Macarena convertida en carrusel y reels
+
+**La situación.** Macarena da clases en vivo de RealOps™ todas las semanas y las graba con Fathom. Las clases tienen ideas fuertes, pero también a los alumnos contando sus negocios.
+
+**Qué le pasás.** La transcripción de la clase del 19/03/2026 (61 minutos, con marca de tiempo por turno), su calendario de contenidos para no repetir y tres captions publicados para tomar la voz. Pide un carrusel y tres reels.
+
+**Qué te devuelve.** 7 tramos descartados por privacidad (con el minuto, sin el dato), 2 temas descartados porque **ya los había publicado** (17/06 y 30/06), un reel que es **clip textual** (45:23 → 46:42, con qué cortar), dos reels **para regrabar** con sus frases textuales, un carrusel de 9 slides donde cada slide dice de qué minuto sale, y la carga para el calendario. Es el `ejemplo-de-output.md`.
+
+**Por qué sirve.** Muestra la skill trabajando sobre material de verdad: con otras voces en la grabación, turnos largos y temas que ya salieron.
 
 ---
 
@@ -46,7 +58,7 @@ Cuatro situaciones de infonegocio donde una hora grabada se vuelve una semana de
 
 **Qué le pasás.** El audio transcripto y la ficha del caso.
 
-**Qué te devuelve.** El plan B pregunta por pregunta: el avatar sale de la ficha, la semana es de contenido porque se vende todo el año, el CTA usa solo lo que existe (DM con palabra clave) y la voz sale de cómo habla en el audio, marcada "a validar". Como el audio le habla al equipo, pocos momentos le hablan al avatar: la skill usa la **salida corta** (una pieza por momento útil, no 6 forzadas) y te deja el mensaje para pedir la grabación de una clase real.
+**Qué te devuelve.** El plan B pregunta por pregunta: el avatar sale de la ficha, la semana es de contenido porque se vende todo el año, el CTA usa solo lo que no depende de nada (guardar, compartir o seguir) hasta que alguien confirme el flujo de DM y la voz sale de cómo habla en el audio, marcada "a validar". Como el audio le habla al equipo, pocos momentos le hablan al avatar: la skill usa la **salida corta** (una pieza por momento útil, no 6 forzadas) y te deja el mensaje para pedir la grabación de una clase real.
 
 **Por qué sirve.** Aprendés a decir "con esto no alcanza" con una entrega usable en la mano, en vez de rellenar una semana de contenido flojo.
 

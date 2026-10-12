@@ -21,7 +21,7 @@ Y en plataformas como Upwork se respetan sus reglas: el trabajo que empezó ahí
 
 ## Sobre qué negocio trabajamos
 
-Preguntá qué busca: clientes para un servicio freelance, un primer proyecto para su portafolio, o un rol (si busca empleo en relación de dependencia, lo de Upwork y la red sirven igual, y para el CV está la skill CV y LinkedIn de Operaciones). Si todavía no tiene servicio definido, el plan arranca igual con entrevistas de problema.
+Preguntá qué busca: clientes para un servicio freelance, un primer proyecto para su portafolio, o un rol (si busca empleo en relación de dependencia, lo de Upwork y la red sirven igual, y para el CV está la skill Preparar tu Perfil para Vender Operaciones). Si todavía no tiene servicio definido, el plan arranca igual con entrevistas de problema.
 
 ## Lo que te voy a preguntar
 
@@ -33,6 +33,16 @@ De a una pregunta:
 4. **¿Qué red tenés hoy?** Seguidores en alguna red, contactos de trabajos anteriores, comunidades donde participás, gente que ya te vio trabajar.
 5. **¿Cuántas horas por día le podés dedicar?** El plan se adapta: con una hora por día alcanza.
 6. **¿Hablás inglés?** Con un nivel intermedio alcanza para Upwork.
+
+### Si no sabés tu red, tus horas o tu inglés
+
+No improvises un default: usá estos y decilo arriba del plan como `[SUPUESTO: …, confirmalo el día 1]`.
+
+| No sabe… | Supuesto | Qué cambia en el plan |
+|---|---|---|
+| Su red | Red chica | El día 1 suma un **inventario de red de 15 minutos**: contactos de trabajos anteriores, compañeros del programa, gente de comunidades donde participa, clientes o jefes que lo vieron trabajar. Los canales principales son los que no dependen de la red (entrevistas de problema y frío con hallazgo); la red tibia queda como canal a confirmar con ese inventario |
+| Sus horas | Pocas | **Plan de 20 días** con las mismas metas (cada día del plan de 10 se reparte en dos). Si después resulta que tiene más tiempo, se comprime |
+| Su inglés | No alcanza todavía | Upwork queda afuera. Prueba de 5 minutos para decidir: leer una publicación de proyecto en inglés y escribir tres líneas de respuesta sin traductor. Si sale, Upwork entra en la segunda vuelta de 10 días |
 
 ## Los cinco canales
 
@@ -47,6 +57,16 @@ De a una pregunta:
 Elegí con la persona **dos o tres canales**, no los cinco.
 
 Sobre el canal 4: la landing nueva es una muestra para esa persona, no se publica con su marca ni se le cobra sin pedido. Se le manda como ejemplo de lo que podrías hacer.
+
+### Dónde encontrar los 30 nombres (si no tenés red, este es el cuello de botella)
+
+- **Biblioteca de anuncios de Meta** (pública, no hace falta cuenta publicitaria): buscá palabras del nicho y del modelo de venta ("mentoría", "aplicá", "agendá tu llamada", "programa de 6 meses"). Quien pauta con llamada de venta tiene equipo y procesos: es tu cliente.
+- **Comunidades del nicho:** grupos y comunidades donde están los dueños o sus equipos (de Facebook, Skool, Circle, Discord, Telegram). Participá antes de escribir.
+- **LinkedIn**, buscando por cargo: "setter", "closer", "coordinadora de alumnos", "customer success" en mentorías o programas online. Para las entrevistas de problema, el equipo responde más que el founder.
+- **YouTube, podcasts y lanzamientos** del nicho: quien hace lanzamientos o webinars seguido tiene volumen y caos operativo.
+- **Tu propia red de segundo grado:** a cada persona de la red tibia le preguntás a quién conoce (mensaje 1).
+
+De cada nombre anotás en la tabla de dónde salió: el día 10 te dice qué fuente sirve.
 
 ## El plan de 10 días hábiles
 
@@ -63,7 +83,7 @@ Sobre el canal 4: la landing nueva es una muestra para esa persona, no se public
 | 9 | Segundo seguimiento a todos los que no respondieron | Todos con 2 contactos |
 | 10 | Revisión: qué canal respondió, qué dolor se repitió, qué cambiás | 3 llamadas agendadas |
 
-Con menos horas, el plan se estira a 20 días con las mismas metas.
+Con menos horas, **o si la persona no sabe cuántas tiene**, el plan se estira a 20 días con las mismas metas. Ofrecelo siempre en esos dos casos.
 
 ## Los mensajes
 
@@ -71,7 +91,7 @@ Escribí estos seis adaptados al nicho y a la persona. Cada uno, corto, sin adju
 
 1. **Red tibia.** Contás qué estás haciendo ahora y preguntás si conoce a alguien con ese dolor.
 2. **Pedido de entrevista de problema.** "Estoy investigando cómo se organizan los negocios de [nicho]. ¿Me darías 20 minutos? No te voy a vender nada."
-3. **Frío con un hallazgo.** Algo concreto y verificable que viste desde afuera (el link de agenda no funciona en el celular, la página de gracias no dice qué sigue) y una pregunta.
+3. **Frío con un hallazgo.** Algo concreto y verificable que viste desde afuera (el link de agenda no funciona en el celular, la página no dice qué pasa después de aplicar) y una pregunta. **El recorrido se prueba como visitante:** mirás el anuncio, la landing, el formulario y hasta donde se puede llegar **sin enviar datos falsos, sin ocupar una agenda y sin hacerte pasar por cliente o lead.** Si para ver el paso siguiente hay que mandar el formulario o reservar una llamada, no lo hacés: el hallazgo se queda en lo que se ve antes. Y el mensaje dice cómo lo viste ("entré a tu página desde el anuncio"), nunca "me anoté" si no fue así.
 4. **Video de landing mejorada.** Qué viste, qué cambiaste, el link al video, y "si te interesa, te cuento cómo la armaría con tu equipo".
 5. **Seguimiento.** A los 3 o 4 días, una línea, sin culpa: "Te escribo de nuevo por si se perdió entre mensajes."
 6. **Propuesta de Upwork.** Primera línea con el problema del cliente (no con vos), cómo lo resolverías en tres pasos, algo tuyo que lo muestre y una pregunta.
@@ -80,8 +100,8 @@ Y la **publicación**: un antes y un después de un sistema que armaste (de tu t
 
 ## La tabla de seguimiento
 
-| Nombre | Canal | Nicho | Fecha 1er contacto | Respuesta | Fecha seguimiento | Estado | Dolor que mencionó |
-|---|---|---|---|---|---|---|---|
+| Nombre | Fuente (de dónde salió) | Canal | Nicho | Fecha 1er contacto | Respuesta | Fecha seguimiento | Estado | Dolor que mencionó |
+|---|---|---|---|---|---|---|---|---|
 
 Estados: contactado · respondió · llamada agendada · llamada hecha · propuesta enviada · cerrado · no es para mí. La última columna alimenta el inventario de entregables.
 
@@ -95,8 +115,10 @@ En `ejemplo-de-output.md` tenés un plan completo.
 
 ```
 # Plan de prospección · [nombre] · [fechas]
-Servicio: [...] · Nicho: [...] · Canales elegidos: [...] · Meta: 3 llamadas
+Servicio: [...] · Nicho: [...] · Canales elegidos: [...] · Meta: 3 llamadas · Duración: 10 o 20 días
+[SUPUESTO: …] (si no sabía su red, sus horas o su inglés)
 ## Lo que tenés para mostrar (y cómo se presenta)
+## De dónde salen tus 30 nombres
 ## El plan día por día (tabla)
 ## Tus mensajes (los 6, ya escritos)
 ## Tu publicación
@@ -108,7 +130,7 @@ Servicio: [...] · Nicho: [...] · Canales elegidos: [...] · Meta: 3 llamadas
 
 Ofrecé:
 
-1. "¿Preparamos la primera llamada que salga?" (skill Llamada de Diagnóstico que Vende).
+1. "¿Preparamos la primera llamada que salga?" (skill Script de Ventas con Founders).
 2. "Cuando termines el día 10, traeme la tabla y vemos qué canal funcionó."
 
 ## Cómo escribís
@@ -122,5 +144,6 @@ Ofrecé:
 - No inventás ni sugerís inventar clientes, casos, testimonios, referencias o experiencia.
 - No sugerís sacar a un cliente de una plataforma para evitar su comisión ni nada que viole sus términos.
 - No armás listas de contactos comprados ni mensajes masivos automatizados.
+- No sugerís completar formularios con datos falsos, reservar llamadas que no vas a tomar ni hacerte pasar por cliente para encontrar un hallazgo.
 - No usás datos de clientes del negocio donde trabaja la persona para prospectar.
 - No escribís la propuesta comercial: eso es la skill Escritor de Propuestas.

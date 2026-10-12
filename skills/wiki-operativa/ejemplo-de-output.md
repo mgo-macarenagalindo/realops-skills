@@ -6,6 +6,18 @@
 
 # Wiki operativa · Programa de marketing para psicólogos
 
+## Lo primero que se hace hoy
+
+En el inventario apareció un riesgo: **uno de los mensajes fijados en Slack tiene usuario y clave de la plataforma de cursos**, y en el canal hay dos excolaboradores que siguen como miembros.
+
+| Qué | Quién | Cuándo |
+|---|---|---|
+| Borrar el mensaje fijado con la clave | Operaciones | Hoy |
+| Cambiar la clave de la plataforma de cursos y guardarla en el gestor de contraseñas | Founder (es la cuenta dueña) | Hoy |
+| Sacar a los dos excolaboradores de Slack y de la plataforma | Operaciones | Hoy |
+
+La wiki no espera a esto, pero esto no espera a la wiki.
+
 ## Mapa de la wiki
 
 | Sección | Qué va | Dueño |
@@ -32,18 +44,20 @@ Esta es la wiki del equipo. Si algo de trabajo no está acá, preguntalo en #ope
 
 **Las 10 preguntas que más se repiten**
 
-| Pregunta | Dónde se responde |
-|---|---|
-| ¿Dónde está el link de la clase en vivo de esta semana? | Alumnos y servicio → Calendario de clases |
-| ¿Cómo doy de alta a un alumno nuevo? | Procesos → Onboarding de alumno nuevo |
-| ¿Qué le respondo a un alumno que pide pausar el programa? | Alumnos y servicio → Respuestas frecuentes |
-| ¿A quién le aviso si un alumno no pagó la cuota? | Procesos → Cuota vencida |
-| ¿Cómo pido acceso a una herramienta? | Herramientas y accesos → Cómo pido un acceso |
-| ¿Dónde está el guion de llamada actualizado? | Procesos → Guion de llamada de venta |
-| ¿Qué tiene que tener la nota de traspaso del closer? | Procesos → Traspaso de venta a servicio |
-| ¿Dónde están los logos y la paleta? | Marca y contenido → Manual de marca |
-| ¿Quién aprueba un posteo antes de publicar? | Marca y contenido → Flujo de aprobación |
-| ¿Qué hago si un alumno se queja en la comunidad? | Alumnos y servicio → Alumno molesto |
+| Pregunta | Tipo | Dónde se responde |
+|---|---|---|
+| ¿Dónde está el link de la clase en vivo de esta semana? | Proceso | Alumnos y servicio → Calendario de clases |
+| ¿Cómo doy de alta a un alumno nuevo? | Proceso | Procesos → Onboarding de alumno nuevo |
+| ¿Qué le respondo a un alumno que pide pausar el programa? | Proceso | Alumnos y servicio → Respuestas frecuentes |
+| ¿A quién le aviso si un alumno no pagó la cuota? | Proceso | Procesos → Cuota vencida |
+| ¿Este alumno pagó la cuota de este mes? | Datos | No está en la wiki: vista "Cuotas del mes" del CRM (Airtable) → [link]. La mantiene la asistente |
+| ¿Cómo pido acceso a una herramienta? | Proceso | Herramientas y accesos → Cómo pido un acceso |
+| ¿Dónde está el guion de llamada actualizado? | Proceso | Procesos → Guion de llamada de venta |
+| ¿Qué tiene que tener la nota de traspaso del closer? | Proceso | Procesos → Traspaso de venta a servicio |
+| ¿Dónde están los logos y la paleta? | Proceso | Marca y contenido → Manual de marca |
+| ¿Qué hago si un alumno se queja en la comunidad? | Proceso | Alumnos y servicio → Alumno molesto |
+
+*Las preguntas de datos no se responden copiando el dato en la wiki (al día siguiente está viejo): la wiki linkea la vista del CRM donde se consulta.*
 
 ## Librería de SOPs
 
@@ -86,10 +100,11 @@ Esta es la wiki del equipo. Si algo de trabajo no está acá, preguntalo en #ope
 
 | Fuente | Qué hay | Decisión |
 |---|---|---|
-| Notion 2024 | 22 páginas, 6 vigentes | Las 6 vigentes se mueven a la wiki nueva; el resto a Archivo |
+| Notion 2024 | 22 páginas, 6 vigentes | Las 6 vigentes se mueven a la wiki nueva; el resto a Archivo. Desde el 26/10 queda en solo lectura, con un aviso arriba que apunta a la wiki |
 | Drive "Equipo" | Guiones, plantillas, contratos | Se linkea desde la wiki (los archivos quedan en Drive) |
+| Drive "Equipo" → Acuerdos | Acuerdos firmados con los coaches (2024) | **Vigentes aunque tengan más de un año: no van a Archivo.** Se linkean desde Quién es quién, marcados "vigente, firmado el [fecha]" |
 | Drive "Marca" | Logos, manual | Se linkea desde Marca y contenido |
-| Mensajes fijados en Slack | Links de clases, reglas de la comunidad | Pasan a la wiki y se desfijan |
+| Mensajes fijados en Slack | Links de clases, reglas de la comunidad (y una clave: ver "Lo primero que se hace hoy") | Pasan a la wiki y se desfijan |
 | La cabeza de la asistente | Altas, bajas, cuotas | Se documenta (ver tabla de arriba) |
 
 ## Regla de mantenimiento

@@ -36,6 +36,6 @@ Tres situaciones de infonegocio donde alguien hace demasiado y nadie lo ve en n�
 
 **Qué le pasás.** El registro de fricción y lo que sepas del equipo. Si no sabés si alguien tiene horas libres o cuánto tarda una tarea, la skill te hace preguntas guía y, si seguís sin saber, usa un supuesto rotulado.
 
-**Qué te devuelve.** Una matriz **parcial**, declarada como tal: las tareas del registro normalizadas a h/sem (lo mensual ÷ 4,3, lo "por venta" × ventas por semana), el resto de la semana con bloques típicos rotulados como supuesto, las tareas bloqueadas por una decisión del founder juntas en un pedido, y las horas del registro separadas de las supuestas.
+**Qué te devuelve.** Una matriz **parcial**, declarada como tal: las tareas del registro normalizadas a h/sem (lo mensual ÷ 4,3, lo "por venta" × ventas por semana), el resto de la semana con bloques típicos rotulados como supuesto (las frecuencias que no están, como rango y no como un número), las filas del registro que mezclaban dos tareas separadas, las tareas bloqueadas por una decisión del founder juntas en un pedido, y las horas del registro separadas de las supuestas. Si el registro cubre menos de la mitad del rol, te ofrece simular el resto de la semana con el copiloto para practicar la matriz entera, rotulado y fuera del pedido.
 
 **Por qué sirve.** Es la Actividad 27. Y te entrena para hacerla sobre tu propio trabajo, que es la más difícil.

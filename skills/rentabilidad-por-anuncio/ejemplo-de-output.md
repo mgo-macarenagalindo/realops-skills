@@ -12,11 +12,19 @@
 
 El anuncio del testimonio trae el 35 % de las agendas y una sola venta; el del mito trae el 10 % de las agendas y 4 ventas. Duplicar el testimonio sería escalar el que peor vende.
 
-## Inversión separada por tipo de campaña
+## Qué cuenta Meta como agenda
+
+La campaña de conversión optimiza por el evento Schedule, que se dispara cuando el lead reserva en el calendario de la landing. En este embudo (anuncio → landing con video → agenda directa con el closer) **esa agenda es la llamada que vende**: no hay setter en el medio. Las agendas de Meta y las del CRM coinciden (120 y 120), así que el costo por agenda de Meta se puede usar, aunque no alcanza para decidir.
+
+## Período alineado
+
+Export de Meta: 01/09 al 30/09. CRM con `utm_content` desde julio. El período común es septiembre completo: no queda gasto afuera.
+
+## Inversión separada por tipo de campaña y de embudo
 
 | Tipo | Gasto USD | Cómo se mide |
 |---|---|---|
-| Conversión · landing con video | 5.000 | Agendas, ventas y cash (tabla de abajo) |
+| Conversión · landing con video → agenda directa con closer | 5.000 | Agendas, ventas y cash (tabla de abajo) |
 | Seguidores | 1.000 | 820 seguidores nuevos → **USD 1,22 por seguidor**. Su retorno se lee en las agendas con `medium=bio`: 18 en septiembre contra 11 en agosto |
 | **Total** | **6.000** | El retorno global no se calcula sumando las dos |
 
@@ -34,6 +42,24 @@ Cash = cash nuevo a la fecha (pagos únicos y primeras cuotas). Las cuotas 2 y 3
 | **Total atribuido** | **5.000** | **580** | **120** | **62** | **10** | **13.400** | **41,7** | **500** | **111,7** | **2,68** |
 
 Detalle del cash: errores = 1 en un pago + 1 en cuotas (1.800 + 650) · mito = 3 en un pago + 1 en cuotas (5.400 + 650) · retargeting = 1 en un pago + 2 en cuotas (1.800 + 1.300).
+
+### Tiempo de closer por anuncio
+
+El CRM no guarda la duración de cada llamada: se estima con 45 minutos por llamada asistida (lo que dura la llamada según el guion).
+
+| Anuncio | Llamadas asistidas | Minutos de closer (estimado) | % del total | Minutos de closer por venta |
+|---|---|---|---|---|
+| ad-testimonio-01 | 18 | 810 | 29 % | 810 |
+| ad-errores-02 | 14 | 630 | 23 % | 315 |
+| ad-mito-03 | 10 | 450 | 16 % | 113 |
+| ad-carrusel-04 | 8 | 360 | 13 % | sin ventas |
+| ad-retarg-01 | 12 | 540 | 19 % | 180 |
+
+El testimonio se lleva casi un tercio del tiempo de los closers (unas 13 horas en el mes) para una venta.
+
+### CAC sin el peor anuncio
+
+Sin el carrusel (peor retorno: 0): (5.000 − 1.000) ÷ 10 ventas = **USD 400 por cliente**, contra USD 500 con él. Cortar un solo anuncio baja el CAC un 20 % sin perder ninguna venta.
 
 ## Lo que no se puede atribuir
 

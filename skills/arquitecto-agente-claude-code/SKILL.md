@@ -41,7 +41,7 @@ Si la persona quiere las dos cosas, son **dos agentes, dos carpetas.** Mezclarlo
 
 ## Si la tarea ya es una skill de la biblioteca
 
-Antes de escribir el criterio, fijate si ya hay una skill que lo tiene (por ejemplo, **Analista de Calls de Venta** para llamadas, **Reporte Semanal de Ops** para el reporte). Si la hay, **el agente la invoca**: en el bloque 4 va "para cada análisis, usá la skill X" y en `memory.md` va solo lo propio del negocio (oferta, precio, reglas, quién es quién). No copies el criterio de la skill en el `CLAUDE.md`: si la skill mejora, el agente mejora solo.
+Antes de escribir el criterio, fijate si ya hay una skill que lo tiene (por ejemplo, **Analista de Calls de Venta** para llamadas, **Reporte de Ops (semanal y mensual)** para el reporte). Si la hay, **el agente la invoca**: en el bloque 4 va "para cada análisis, usá la skill X" y en `memory.md` va solo lo propio del negocio (oferta, precio, reglas, quién es quién). No copies el criterio de la skill en el `CLAUDE.md`: si la skill mejora, el agente mejora solo.
 
 ## Lo que te voy a preguntar
 
@@ -61,7 +61,7 @@ Si contesta "no sé", no lo dejes en `[FALTA]` y sigas: pasá al plan B.
 
 La regla: **la carpeta sale completa y usable.** Primero, 2 o 3 preguntas más chicas. Con un caso práctico, buscá antes la respuesta en el material del caso (ficha, evidencia, accesos, base). Si igual no sabe, un supuesto razonable, rotulado, y seguís.
 
-**Cómo se rotula.** En el `memory.md`, en una sección **"Supuestos a validar"**: `Supuesto a validar con <rol>: <qué se supuso> · por qué`. En el `CLAUDE.md` no van supuestos: va la regla que el agente cumple mientras tanto. Y en la salida, un cuadro con los supuestos y con quién se confirma cada uno. `[FALTA]` queda solo para un dato del negocio que no se puede suponer sin riesgo (un precio, una política escrita): en ese caso el agente tiene la regla de no afirmarlo, y no se inventa.
+**Cómo se rotula.** En el `memory.md`, en una sección **"Supuestos a validar"**: `Supuesto a validar con <rol>: <qué se supuso> · por qué · cómo se valida: <qué mirar o qué preguntar>`. En el `CLAUDE.md` no van supuestos: va la regla que el agente cumple mientras tanto. Y en la salida, un cuadro con los supuestos, con quién se confirma cada uno y **cómo se valida**: una acción concreta que se hace en cinco minutos (una pantalla de configuración, un filtro en la base, una pregunta cerrada), no "charlarlo con el equipo". `[FALTA]` queda solo para un dato del negocio que no se puede suponer sin riesgo (un precio, una política escrita): en ese caso el agente tiene la regla de no afirmarlo, y no se inventa.
 
 **"No sé quién revisa antes de que salga"** (pregunta 5 del test y regla fija)
 - ¿Quién lee el resultado primero? ¿Quién respondería si el agente dice algo mal de una persona del equipo o de un cliente?
@@ -80,6 +80,7 @@ La regla: **la carpeta sale completa y usable.** Primero, 2 o 3 preguntas más c
 - ¿La herramienta (Zoom, Meet, Fathom) tiene la transcripción automática activada? ¿En qué cuenta?
 - *Típico: se graba la mitad porque depende de que cada persona se acuerde.*
 - Si igual no sabe: el test queda "sí, con condición" y la condición va primera en "Cómo crearla": grabar y transcribir todas las llamadas desde la semana que viene. El agente trabaja con lo que haya y dice cuántas analizó de cuántas.
+- El supuesto sobre quién graba siempre sale con su validación concreta: **entrar a la cuenta de la herramienta y mirar si la grabación automática está activada** (en Zoom: Configuración → Grabación → "Grabación automática"; en Meet o Fathom, el equivalente en la cuenta que se usa) y **filtrar en la base las llamadas realizadas sin grabación por persona y por herramienta**: si se concentran en una persona, es un hábito; si están repartidas, es la configuración; si hay llamadas hechas desde una cuenta personal, no quedan en la cuenta del negocio.
 
 **"No sé cuál es el criterio"** (no hay guion, no hay manual)
 - ¿Qué tiene que pasar para que digas "esta llamada (o esta entrega) estuvo bien"?
@@ -156,12 +157,16 @@ El `CLAUDE.md` apunta al `memory.md` y el `memory.md` dice que lo actualiza el a
 
 Regla del funcional **con varios clientes**: **el agente nunca lee la carpeta de un cliente mientras trabaja para otro.** Escribilo en las reglas fijas. **No aplica** cuando es un solo negocio y el trabajo es comparar personas o piezas del mismo equipo (closers, mentoras, editores): ahí la regla es otra, "no lees carpetas de otro negocio ni mezclás este agente con trabajo operativo".
 
+### Si el agente compara (personas, anuncios, períodos)
+
+La plantilla de comparación dice **de dónde sale cada columna**. Si un dato vive en otra tabla (la fuente o el anuncio de una llamada suelen estar en la tabla de leads, no en la de llamadas), la plantilla trae **una línea de cómo se cruza**: qué dos exportes van a `entrada/`, qué columna de uno coincide con el ID del otro, y qué hace el agente con los registros que no cruzan (los cuenta y lo dice, no los adivina). Si la persona no sabe cómo se relacionan las tablas, preguntale qué columna de la tabla de llamadas tiene el ID del lead; si no lo sabe, mirá el esquema o los encabezados del exporte.
+
 ## Formato de salida
 
 ```
 # Agente: [nombre] · [funcional varios clientes / funcional un negocio / operativo]
 ## El test de las cinco preguntas (resultado y veredicto)
-## Supuestos a validar (si hubo plan B: supuesto · con quién)
+## Supuestos a validar (si hubo plan B: supuesto · con quién · cómo se valida)
 ## Árbol de la carpeta
 ## CLAUDE.md (completo, listo para pegar)
 ## memory.md (completo, listo para pegar)
@@ -179,6 +184,8 @@ En `ejemplo-de-output.md` tenés uno completo.
 1. **Que se presente:** "Leé el CLAUDE.md y el memory.md y contame en tres líneas qué entendiste. No cambies ningún archivo." Si lo resume bien, el contexto está bien cargado.
 2. **Un pedido normal** de su trabajo, sin explicarle nada. Tiene que salir con el formato del bloque 3.
 3. **Un pedido que tiene que frenar** (borrar algo, escribir en la base, mezclar dos clientes). Tiene que pedir confirmación o negarse.
+
+**Son tres, nunca una "prueba extra".** Si el agente compara (closers, mentoras, anuncios, meses), **la tercera prueba es la comparación con un freno adentro**: "Armá la comparación de [mes] y mandásela al equipo" o "…y cargá el ranking en la base". Tiene que armar la comparación como borrador (con cuántos registros analizó de cuántos y cuántos no cruzaron) y negarse a mandar o escribir. Así se prueba en un solo pedido lo que más valor da y lo que nunca puede hacer solo.
 
 Si falla, se corrige el `CLAUDE.md`, no la respuesta: si le decís "no inventes" en el chat, lo corrige esa vez; si lo escribís en el archivo, lo corrige siempre.
 

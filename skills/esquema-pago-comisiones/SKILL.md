@@ -1,6 +1,6 @@
 ---
 name: esquema-pago-comisiones
-description: Esquema de Pago y Comisiones del Equipo (RealOps™). Diseña cómo se le paga a setters, closers, coaches y CSM de un infonegocio - fijo, variable atado al cash collected, pago por alumno activo, bono fijo por caso de éxito, qué pasa con reservas, cuotas, reembolsos y pagos sin acreditar, y por qué no conviene un porcentaje por sesión - y escribe cada regla en formato si pasa esto entonces esto, para pasarla a una fórmula de Airtable o a un agente sin errores, con casos de prueba validados a mano. Usala cuando tengas que proponer o revisar la compensación de un rol, cuando las comisiones se calculan a mano y nunca dan igual, cuando cambia una regla o antes de pedirle a la IA la fórmula de comisiones. No da asesoramiento laboral ni impositivo.
+description: Esquema de Pago y Comisiones del Equipo (RealOps™). Diseña cómo se le paga a setters, closers, coaches y CSM de un infonegocio - fijo, variable atado al cash collected, pago por alumno activo, bono fijo por caso de éxito, qué pasa con reservas, cuotas, reembolsos, pagos sin acreditar y la transición entre esquemas, y por qué no conviene un porcentaje por sesión - y escribe cada regla en formato si pasa esto entonces esto, para pasarla a una fórmula de Airtable o a un agente sin errores, con casos de prueba validados a mano. Usala cuando tengas que proponer o revisar la compensación de un rol, cuando las comisiones se calculan a mano y nunca dan igual, cuando cambia una regla o antes de pedirle a la IA la fórmula de comisiones. No da asesoramiento laboral ni impositivo.
 ---
 
 # Esquema de Pago y Comisiones del Equipo
@@ -56,6 +56,7 @@ Preguntá si es su negocio, el negocio donde trabaja o un caso práctico del pro
 - **Alumno activo:** qué cuenta como activo (no pausado, no en mora de más de X días) y a qué fecha de corte.
 - **Caso de éxito validado:** quién lo valida y con qué evidencia.
 - **Persona que se va:** ¿cobra las cuotas que entren después de su salida?
+- **Transición entre esquemas:** cuando cambia la regla (por ejemplo, de "sobre lo vendido" a "sobre lo cobrado"), ¿qué pasa con las ventas cerradas antes del corte cuyas cuotas entran después? Sin una fecha de corte y una regla escrita, la misma venta paga dos veces (una por la regla vieja y otra por la nueva) o ninguna. Se escribe como cualquier otra regla: "Si la venta se cerró antes del [fecha de corte] y ya pagó comisión por lo vendido, entonces sus cuotas posteriores pagan 0" (o la alternativa que decida el founder). Es tan obligatoria como reserva, cuota y reembolso.
 
 ## Modo 2 · De reglas a fórmula
 
@@ -63,8 +64,14 @@ Preguntá si es su negocio, el negocio donde trabaja o un caso práctico del pro
 2. **Dónde vive cada dato** que usa la regla (tabla, campo, quién lo carga). La regla tiene que leer el **estado real del pago** de cada deal, no la etiqueta de carga ni el nombre de la etapa (clase 30/04).
 3. **Los porcentajes y montos en un solo lugar** (un campo o una tabla de reglas), no escritos adentro de diez fórmulas: así un cambio se hace una vez.
 4. **La fórmula**, por tabla.
-5. **Casos de prueba**: 5 a 8 registros, incluidos los raros (reserva, cuota, sin acreditar, reembolso), con el resultado calculado **a mano** al lado del de la fórmula. Si no coinciden, se corrige la regla o la fórmula, nunca el resultado.
-6. **Para que lo corra un agente** (clase 01/09): con las reglas y el esquema de la base documentados, el cálculo mensual lo puede correr un agente. Lo que cambia cada mes (altas, bajas, gastos puntuales) se carga antes de correrlo. Para el cierre completo, skill **Cierre de Mes Financiero**.
+5. **Casos de prueba**: 5 a 8 registros, incluidos los raros (reserva, cuota, sin acreditar, reembolso y **transición entre esquemas**), con el resultado calculado **a mano** al lado del de la fórmula. Si no coinciden, se corrige la regla o la fórmula, nunca el resultado.
+   - **La columna "fórmula" se completa al pegar la fórmula en la base** (o en una copia). Si no corriste la base, no la llenes ni la "deduzcas": dejala como `[completar al pegar]` y decí, antes de la tabla, que el alumno la completa cuando pegue las fórmulas. Lo que sí entregás lleno es el cálculo a mano.
+6. **Si lo pagado no cierra con ninguna regla, buscá duplicados antes de suponer otra regla.** Cuando recalculás un mes ya pagado y a alguien le sobra (o le falta) un monto que no sale de ninguna de las reglas posibles:
+   - Mirá si la diferencia es exactamente la comisión de una venta (por ejemplo, US$330 = 10 % de una venta de US$3.300). Si lo es, listá las ventas de esa persona con ese monto: una de ellas probablemente se contó dos veces.
+   - Buscá la misma venta cargada dos veces: mismo alumno, mismo monto o misma fecha en la base, o la misma venta en dos fuentes que se cruzan a mano (planilla vieja + base + chat). Las ventas cercanas a la fecha en que se migró de una fuente a otra son las primeras candidatas.
+   - Si la encontrás, mirá también el estado de cobro de esa venta: una venta duplicada con cuotas vencidas pagó comisión dos veces sobre plata que no entró.
+   - Si no podés confirmarlo sin la planilla, nombrá el candidato y qué hay que mirar para confirmarlo (`[A CONFIRMAR con quien arma la liquidación]`), sin darlo por hecho.
+7. **Para que lo corra un agente** (clase 01/09): con las reglas y el esquema de la base documentados, el cálculo mensual lo puede correr un agente. Lo que cambia cada mes (altas, bajas, gastos puntuales) se carga antes de correrlo. Para el cierre completo, skill **Cierre de Mes Financiero**.
 
 ## Límites
 
@@ -80,10 +87,10 @@ En `ejemplo-de-output.md` tenés un esquema completo.
 # Esquema de pago · [negocio o caso]
 ## Qué premiamos en cada rol (y qué no, y por qué)
 ## Esquema por rol (tabla: rol · fijo · variable · sobre qué · cuándo se paga · cómo se verifica)
-## Reglas si-entonces (numeradas)
+## Reglas si-entonces (numeradas; si el esquema cambia, incluye la regla de transición)
 ## Dónde vive cada dato
 ## Fórmulas (por tabla)
-## Casos de prueba (registro · cálculo a mano · fórmula · ¿coincide?)
+## Casos de prueba (registro · cálculo a mano · fórmula [completar al pegar] · ¿coincide?)
 ## Simulación de un mes (con valores de prueba)
 ## Lo que queda [A DECIDIR] y quién lo decide
 ```
@@ -103,3 +110,5 @@ Castellano rioplatense, con voseo. Reglas cortas, una condición por línea. Sin
 - No calculás comisiones sobre facturación ni sobre comprobantes sin acreditar.
 - No das asesoramiento laboral ni impositivo.
 - No pedís sueldos reales de personas identificables para un ejemplo: usás valores de prueba.
+- No llenás la columna "fórmula" de los casos de prueba sin haber corrido la base.
+- No explicás una diferencia que no cierra con una regla nueva sin antes buscar duplicados.

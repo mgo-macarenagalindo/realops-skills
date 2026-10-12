@@ -10,7 +10,7 @@
 
 ## Estado
 
-Pasos 0 a 4 hechos. **No escribí nada todavía.** Espero tu OK para el paso 5.
+**Cierre definitivo** (están los tres extractos). Pasos 0 a 4 hechos. **No escribí nada todavía.** Espero tu OK para el paso 5.
 
 ## Datos manuales
 
@@ -49,8 +49,9 @@ Pasos 0 a 4 hechos. **No escribí nada todavía.** Espero tu OK para el paso 5.
 | 6 | Todo en USD con tipo de cambio fijo | ✅ Los 7 pagos en pesos convertidos a 1.350; el monto en pesos está en su campo |
 | 7 | Reembolsos como costo | ✅ 1 reembolso parcial de USD 900 cargado como egreso; la venta original sigue en la facturación de julio |
 | 8 | Planes de cuotas modificados | ⚠️ 1 alumno pasó su cuota 3 de septiembre a octubre por chat; **el deal no está actualizado** (la proyección de octubre queda corta en USD 650) |
-| 9 | Comisiones con responsable y regla | ✅ Closers 8 % del cash de nuevos cierres (regla vigente desde junio); setters USD 20 por agenda asistida calificada |
+| 9 | Comisiones con responsable y regla | ✅ Closers 8 % del cash de nuevos cierres (regla vigente desde junio); setters USD 20 por agenda asistida calificada. La planilla de liquidación calcula sobre la misma base que el acuerdo (cash de nuevos cierres) y, cruzada registro por registro con la base, no tiene ventas duplicadas ni que falten |
 | 10 | Gastos proyectados | ⚠️ 1 proyectado: estudio contable USD 400 |
+| 11 | Consistencia entre tablas | ✅ Las 18 ventas del mes tienen el mismo medio de pago en deals y en cuotas, y la suma de cuotas de cada venta coincide con el monto contratado |
 
 ## Egresos del mes
 

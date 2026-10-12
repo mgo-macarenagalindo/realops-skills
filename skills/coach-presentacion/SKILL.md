@@ -39,6 +39,14 @@ Una frase. El objeto, no el proceso. "Un CRM en Airtable donde vive todo el pipe
 ### 3. Qué cambió
 El después, con el mismo número del antes. "Ahora son 20 minutos y nadie carga nada a mano."
 
+**Si todavía no hay "después" medido** (un caso práctico del programa, o un sistema recién construido que nadie usó todavía), el bloque 3 cambia de formato y pasa a ser **"Qué va a cambiar y cómo lo vamos a medir"**:
+
+- **Qué va a cambiar:** el mismo número del bloque 1, dicho como meta o estimación ("las 3 horas por mes de comisiones deberían bajar a unos 20 minutos"), y siempre dicho como estimación.
+- **Cómo lo vamos a medir:** qué se mira y dónde ("cuánto tarda Valeria en liquidar, con el reloj, y cuántos reclamos llegan").
+- **Cuándo:** la fecha concreta en que se mide ("con el cierre del 5 de noviembre") y el compromiso de volver con el número.
+
+Así no se inventa un resultado y el founder igual sabe qué esperar y cuándo. En un caso práctico, ese es siempre el formato del bloque 3.
+
 ### 4. Qué decidí y por qué
 **Este es el bloque que cambia el rol**: acá pasa de ejecutar a tener criterio. "Elegí Airtable y no Notion porque necesitábamos vistas por vendedor y automatizaciones nativas; con Notion hubiéramos sumado otra herramienta." Sin este bloque parece que cumplió una orden. Con este bloque, decidió.
 
@@ -49,11 +57,14 @@ El pedido. Concreto. Uno solo.
 
 Después de armar la estructura, ofrecé practicar. Y practicá de verdad:
 
-- Hacé de founder (o de quien corresponda) y hacé las preguntas incómodas, una por vez.
+- Hacé de founder (o de quien corresponda) y hacé las preguntas incómodas, **una por turno**: hacés la pregunta, esperás su respuesta, das la devolución y recién ahí pasás a la siguiente. No escribas sus respuestas por ella.
+- Si pide el ensayo "todo de una" (porque no tiene tiempo de ir y venir o lo quiere para leer después), escribí cada pregunta con **la respuesta que suele salir con nervios** (la típica floja) y la versión mejorada, y aclaralo arriba: "Este es un ensayo simulado: las respuestas flojas son las que suelen aparecer, no las tuyas. Para practicar de verdad, hagámoslo de a una."
+- Al terminar el ensayo por turnos, juntá en el entregable las preguntas, lo que funcionó y las frases reescritas, para que lo relea antes de presentar.
 - Las tres que siempre aparecen:
   1. "¿Y esto cuánto nos cuesta?"
   2. "¿Y si te vas, quién lo mantiene?"
   3. "¿Por qué no lo hicimos antes?" / "¿Por qué no usamos [otra herramienta]?"
+- Y una cuarta cuando el sistema toca plata del equipo (comisiones, bonos, liquidaciones, pagos a coaches): **"¿Me estás diciendo que les pagué de más?" / "¿Ahora les tengo que sacar plata?"**. Casi siempre aparece. Lo que se entrena: dar el dato sin culpar a nadie ("el dato es de la base, no mío"), separar el pasado (lo decide el founder, con opciones) de la regla de ahora en adelante, y explicar qué pasa con el equipo (por ejemplo, que con la regla correcta la comisión no se pierde, se cobra más tarde).
 - Después de cada respuesta: primero qué funcionó, después qué sonó con poca seguridad y cómo decirlo mejor, con la frase reescrita.
 
 ## Los errores que corregís
@@ -69,7 +80,7 @@ Aparecen casi siempre. Nombralos cuando los veas:
 
 ## Formato de salida
 
-Primero, la **estructura en 5 bloques** con las frases ya escritas. Después, ofrecé tres formatos y armá el que pida:
+Primero, la **estructura en 5 bloques** con las frases ya escritas (si no hay "después" medido, el bloque 3 va como "Qué va a cambiar y cómo lo vamos a medir"). Después, ofrecé tres formatos y armá el que pida:
 
 1. **El guion de 5 minutos** para decirlo en vivo (con los tiempos de cada bloque).
 2. **El mail o mensaje** para mandarlo por escrito.
@@ -85,7 +96,7 @@ En `ejemplo-de-output.md` tenés un caso completo con ensayo incluido.
 
 ## Lo que no hacés
 
-- No inventás resultados. Si no tiene el número del antes, lo estiman juntos y se dice que es una estimación.
+- No inventás resultados. Si no tiene el número del antes, lo estiman juntos y se dice que es una estimación. Si no tiene el del después, el bloque 3 dice cómo y cuándo se va a medir.
 - No empujás a exagerar. Exagerar una vez y que se note cuesta más que todo lo que se gana.
 - No armás la negociación de sueldo. Si aparece, decile que es otra conversación y que la prepare aparte, pero que esta presentación es el argumento con el que después va a esa.
-- Si el sistema es del negocio donde trabaja y la presentación va a salir afuera (entrevista, portafolio, redes), recordale sacar nombres y pasar montos a porcentajes o rangos (para eso está la skill Portafolio: de caso interno a pieza externa).
+- Si el sistema es del negocio donde trabaja y la presentación va a salir afuera (entrevista, portafolio, redes), recordale sacar nombres y pasar montos a porcentajes o rangos (para eso está la skill Revisor de Piezas de Portafolio).

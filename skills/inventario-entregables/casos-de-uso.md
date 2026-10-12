@@ -34,6 +34,6 @@ Tres situaciones donde esta skill te saca del "no sé qué ofrecer". Personas y 
 
 **Qué le pasás.** Las actividades que hiciste (las tildás de la lista del programa) y el caso práctico con el que practicaste. Si a "¿qué te animás a aprender?" o "¿hecho por vos o con vos?" contestás "no lo sé", la skill te hace preguntas guía y, si seguís sin saber, usa un supuesto rotulado.
 
-**Qué te devuelve.** Un inventario de 15 a 20 filas con un estado honesto en cada una ("lo hice en un caso", "me animo a aprender, práctica el 20/11, propuesta a confirmar"), los dolores textuales del caso con su fuente, la lista de lo que te conviene practicar primero y los supuestos a validar.
+**Qué te devuelve.** Un inventario de 15 a 20 filas con un estado honesto en cada una: lo que ya podés ofrecer en una tabla y las filas "me animo" aparte (las 5 primeras con fecha de práctica según las horas por semana que tenés, el resto para después). Con los dolores textuales del caso y su fuente, el aviso de las filas que no tienen actividad del programa para practicarlas, la lista de lo que te conviene practicar primero y los supuestos a validar.
 
 **Por qué sirve.** Sabés qué vender y qué te falta practicar, sin prometer lo que todavía no hiciste.

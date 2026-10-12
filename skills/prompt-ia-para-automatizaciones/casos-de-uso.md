@@ -10,7 +10,7 @@ Tres situaciones de infonegocio donde un paso de IA tiene que correr solo y sali
 
 **Qué le pasás.** El prompt actual, un informe bueno y uno malo, y qué datos del CRM existen (closer, programa, estado del lead).
 
-**Qué te devuelve.** La plantilla de Google Doc con marcadores, el prompt en 5 bloques con un campo de salida por dato y la regla de `Sin dato`, el mapeo de cada salida a su marcador y el aviso de 4 líneas para Discord. Más la prueba con tres llamadas.
+**Qué te devuelve.** La plantilla de Google Doc con marcadores, el prompt en 5 bloques con un campo de salida por dato y la regla de `Sin dato`, el mapeo de cada salida a su marcador y el aviso de 4 líneas por el canal que ya usa el equipo (en este caso, Discord). Más la prueba con tres llamadas y una con texto después de que el lead se fue.
 
 **Por qué sirve.** Pasás de "a veces sale bien" a un informe que el closer y su líder pueden comparar semana a semana. Clase 06/07.
 

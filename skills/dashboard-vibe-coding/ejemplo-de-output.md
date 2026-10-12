@@ -19,10 +19,10 @@ El founder lo abre en el celular a las 8 de la mañana.
 
 | KPI | Fórmula y fuente | Se compara con | Rojo cuando | Decisión si está en rojo |
 |---|---|---|---|---|
-| Cash cobrado | Suma de pagos cobrados del mes (ventas.csv, `estado_cobro` = Cobrado) | Mes anterior | Cae más de 15 % | Revisar si cayeron ventas nuevas o cuotas, antes de tocar la pauta |
+| Cash cobrado | Suma de `monto_usd` con `fecha_pago` dentro del mes (ventas.csv). Se calcula desde la fecha de pago, no desde un campo de estado | Mes anterior | Cae más de 15 % | Revisar si cayeron ventas nuevas o cuotas, antes de tocar la pauta |
 | Ventas nuevas | Ventas con fecha en el mes | Mes anterior | Menos de 15 | Mirar agendas y cierre por canal |
 | Cierre sobre agendas | Llamadas con resultado Cerrada ÷ todas las llamadas agendadas del mes (llamadas.csv) | Rango 15-20 % | Debajo de 10 % | El funnel deja pasar leads no calificados: revisar el formulario de agenda |
-| Cuotas vencidas | Cuotas con `estado_cobro` = Vencido: cantidad y monto | Semana anterior | Más de 5 | Activar el protocolo de cuota vencida esa semana |
+| Cuotas vencidas | Cuotas con `fecha_vencimiento` anterior a hoy y `fecha_pago` vacía: cantidad y monto | Semana anterior | Más de 5 | Activar el protocolo de cuota vencida esa semana |
 | Bajas del mes | Alumnos que pasaron a baja ÷ activos al inicio del mes | Mes anterior | Más de 5 % | Revisar con servicio en qué semana se caen |
 
 Elegidos con la ficha de la skill Analista de KPIs (modo 2). Las referencias de cierre son las que se usan en el programa, como orientación.
@@ -34,8 +34,9 @@ Generá dos archivos CSV con datos inventados de una academia online que vende u
 programa de USD 1.500 (o 3 cuotas de USD 500), entre julio y octubre de 2026:
 
 ventas.csv (120 filas): fecha, cliente (nombres inventados), canal (Orgánico /
-Pauta / Referido), monto_usd, cuotas (1 o 3), estado_cobro (Cobrado / Pendiente /
-Vencido), fecha_vencimiento, closer (Closer 1 / Closer 2).
+Pauta / Referido), monto_usd, cuotas (1 o 3), fecha_vencimiento, fecha_pago
+(vacía si no pagó), closer (Closer 1 / Closer 2). Sin columna de "estado": el
+estado se calcula de las fechas.
 
 llamadas.csv (500 filas): fecha, canal, closer, resultado (Cerrada / No cerrada /
 No asistió).
@@ -140,7 +141,9 @@ Quiero que el dashboard lea los datos de Airtable en vez de los CSV. Reglas:
   servidor en Vercel que lea las variables de entorno (token e ID de la base), pida
   los registros de las tablas [Ventas, Llamadas, Alumnos] con paginación, calcule
   los 5 KPIs del mes pedido y devuelva SOLO los números agregados, sin nombres.
-- Protegé todo el sitio con la contraseña de la variable de entorno.
+- Protegé todo el sitio (incluida la función) con un middleware de autenticación
+  básica que compare contra la variable de entorno SITE_PASSWORD. La contraseña
+  nunca escrita en el código.
 - Que la respuesta quede en caché 30 minutos.
 - Si falla, la página muestra "No se pudieron cargar los datos".
 - Si la URL tiene ?demo=1, que use los CSV y no pida contraseña (para el portafolio).

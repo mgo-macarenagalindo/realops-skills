@@ -39,6 +39,7 @@ Acuerdo de etapa: el closer pasa a un fijo mayor y menor variable cuando el nego
 9. Si un caso de éxito es **validado** por coordinación (con la evidencia del formulario de logro), entonces el coach cobra USD 100 ese mes.
 10. Si un alumno **renueva**, entonces su coach cobra 5 % del cash de la renovación cuando se verifica.
 11. Si una persona **deja el equipo**, entonces cobra las comisiones de los pagos verificados hasta su último día; las cuotas posteriores no `[A DECIDIR: confirmar con el founder]`.
+12. **Transición.** Si un cierre en cuotas se hizo **antes del 01/11** (fecha de corte) y ya pagó comisión con la regla vieja ("porcentaje de lo vendido", sobre el total), entonces sus cuotas que se verifiquen después del corte pagan 0. Si se hizo desde el 01/11, aplica la regla 4. `[A DECIDIR: fecha de corte y si se usa esta opción o la de "reconocer solo la diferencia"; lo decide el founder]`
 
 ## Dónde vive cada dato
 
@@ -93,6 +94,8 @@ IF(
 
 ## Casos de prueba
 
+La columna "Fórmula" está llena porque estas fórmulas se pegaron en una copia de la base de prueba. Si no corriste la base, queda `[completar al pegar]`: la completa el alumno cuando pega las fórmulas.
+
 | # | Registro de prueba | Cálculo a mano | Fórmula | ¿Coincide? |
 |---|---|---|---|---|
 | 1 | Reserva de 250, verificada | Closer 0 · Setter 0 | 0 · 0 | ✅ |
@@ -101,6 +104,7 @@ IF(
 | 4 | Cuota 2 de ese cierre, 650, verificada | Closer 52 · Setter 0 | 52 · — | ✅ |
 | 5 | Cierre de 1.800 con comprobante sin verificar | Closer 0 · Setter 0 | 0 · 0 | ✅ |
 | 6 | Reembolso del caso 2 a los 12 días | −(144 + 36) = −180 | −180 | ✅ |
+| 7 | Transición: cuota 2 (650) de un cierre del 20/10 que ya cobró 8 % sobre 1.950 con la regla vieja, verificada el 18/11 | Closer 0 (regla 12) | 0 | ✅ |
 
 La **primera versión** de la fórmula falló el caso 2: daba 124 (no sumaba la reserva previa). Se corrigió la fórmula, no el resultado.
 
@@ -116,6 +120,7 @@ La **primera versión** de la fórmula falló el caso 2: daba 124 (no sumaba la 
 
 1. Objetivo de cash para pasar al closer a más fijo · Founder.
 2. Cuotas posteriores a la salida de una persona · Founder.
-3. Si la calificación del closer (Alta · Media · Baja) entra en el pago del setter cuando exista el campo · Founder con ventas.
+3. Fecha de corte de la transición y qué opción se usa para los cierres en cuotas anteriores al corte · Founder.
+4. Si la calificación del closer (Alta · Media · Baja) entra en el pago del setter cuando exista el campo · Founder con ventas.
 
 > Este esquema es de gestión. La modalidad de contratación, lo impositivo y lo que dice cada contrato los valida un contador o un abogado del país del negocio.

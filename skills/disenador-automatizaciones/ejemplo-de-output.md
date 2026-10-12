@@ -1,83 +1,113 @@
 # Ejemplo de output · Diseñador de Automatizaciones
 
-> Datos ficticios. Programa de 4 meses de coaching para abogados independientes, vendido por llamada. Agenda en Google Calendar, CRM en Airtable, equipo en Slack. Unas 22 agendas por semana.
+> Datos ficticios. Programa de 4 meses de coaching para abogados independientes, vendido por llamada, en contado o en 3 cuotas. CRM y cuotas en Airtable (plan Team, base en la cuenta del negocio). El equipo se comunica por un grupo de WhatsApp; no usan Slack. Zapier no tienen. Unas 45 cuotas vencen por mes; hoy hay 18 vencidas y nadie sabe a quién le toca cobrar.
+
+**Lo que contó la persona:** "Quiero que nadie se olvide de las cuotas. Que se avise antes de que venzan y que, si vencen, alguien se haga cargo. ¿Tengo que pagar Zapier?"
+
+**Filtro:** el proceso tiene criterio (quién cobra, cuándo se escala), y ya está escrito: la coordinadora tiene el SOP de cobros de la semana pasada. Se sigue.
 
 ---
 
-# Automatización · Agenda nueva al CRM
+# Automatización · Cuotas: aviso previo, responsable y escalado
 
-**En una frase:** Cuando alguien agenda una llamada de venta en el calendario del equipo, se crea o actualiza el contacto y la oportunidad en Airtable y se avisa al closer en Slack, para que nadie copie datos a mano y el closer llegue a la llamada sabiendo de dónde vino el lead.
+**En una frase:** Cuando una cuota está a 3 días de vencer, o vence sin pagar, Airtable avisa al alumno y a la responsable de cobros, asigna el seguimiento y escala a los 7 y 15 días, para que ninguna cuota quede sin dueño y se cobre antes.
 
-**Herramienta:** n8n (alternativa: Zapier, con la misma lógica) · **Dueño:** Operaciones · **Ahorro estimado:** 22 agendas × 4 min × 4 semanas ≈ **6 h por mes**, y cero oportunidades sin cargar.
+**Plataforma:** automatizaciones nativas de Airtable · **Por qué:** los datos nacen y terminan en la base, el plan Team permite mandar mails a personas de afuera y no hay que pagar otra herramienta. · **Alternativa:** un flujo diario en n8n (30 ejecuciones por mes) si más adelante el aviso al alumno tiene que salir por WhatsApp de forma automática.
 
-## 1. Disparador
+**Dueño:** Coordinación de servicio · **Ahorro estimado:** hoy la coordinadora revisa vencidas 45 min por semana y escribe a mano: unas **3 h por mes**, más las cuotas que se cobran antes. · **Costo:** unas 45 corridas (aviso previo) + 15 (vencidas) + 10 (escalados) ≈ **70 corridas por mes** de las 25.000 del plan Team.
 
-Evento nuevo en el calendario "Llamadas de venta" (Google Calendar). Sólo eventos cuyo título empiece con "Llamada ·" (así se excluyen reuniones internas).
+## 0. Cuentas
+
+La base está en la cuenta del negocio y la coordinadora es Creator. No hay que transferir nada. Los avisos de falla le llegan a quien activa la automatización: que la active la coordinadora, no el founder.
+
+## 1. Disparadores (tres automatizaciones, una vista cada una)
+
+| Automatización | Vista que la dispara | Filtro de la vista |
+|---|---|---|
+| 🤖 Cuota · aviso 3 días | "🤖 Vence en 3 días" | Estado = Pendiente · Días para vencer = 3 · Aviso previo enviado vacío |
+| 🤖 Cuota · vencida | "🤖 Vencidas sin responsable" | Estado = Vencida · Responsable vacío |
+| 🤖 Cuota · escalado | "🤖 Vencidas 7 y 15 días" | Estado = Vencida · Días de atraso = 7 o 15 · Último escalado ≠ hoy |
+
+Campos nuevos en Cuotas: `Días para vencer` y `Días de atraso` (fórmulas con la fecha de hoy), `Aviso previo enviado` (fecha), `Responsable` (vínculo a la tabla Roles), `Último escalado` (fecha), `Link de pago` (texto) y `Mensaje WhatsApp` (fórmula, ver la sección 4).
 
 ## 2. Pasos
 
-1. **Calendario** · Detectar evento nuevo en "Llamadas de venta".
-2. **Filtro** · Seguir sólo si el título empieza con "Llamada ·" y tiene un invitado externo.
-3. **Extraer datos** · Nombre, mail y respuestas del formulario de la agenda (vienen en la descripción del evento), fecha y hora, closer asignado (dueño del calendario o campo del formulario), canal de origen (el link de agenda usado: ver mapeo).
-4. **Airtable · Buscar** en Contactos por mail.
-   - Si existe → **actualizar** teléfono si cambió.
-   - Si no existe → **crear** el contacto.
-5. **Airtable · Crear** oportunidad vinculada al contacto, etapa = Agenda.
-6. **Slack** · Mensaje al closer en #agendas: nombre, fecha y hora, canal de origen, respuesta a "¿qué te gustaría resolver?" y link a la oportunidad.
+**Aviso 3 días**
+1. Disparador: la cuota entra en "🤖 Vence en 3 días".
+2. Enviar un mail al alumno: nombre, número de cuota, monto, fecha y link de pago.
+3. Actualizar la cuota: `Aviso previo enviado` = hoy.
+
+**Vencida**
+1. Disparador: la cuota entra en "🤖 Vencidas sin responsable".
+2. Actualizar la cuota: `Responsable` = el rol "Cobros" (desde la tabla Roles, no un nombre tipeado).
+3. Enviar un mail a la responsable con la lista de la cuota y el botón de WhatsApp (sección 4).
+
+**Escalado**
+1. Disparador: la cuota entra en "🤖 Vencidas 7 y 15 días".
+2. Grupo con condición **si Días de atraso = 7** → mail a la responsable: "segundo contacto, mensaje 2".
+3. Grupo con condición **si Días de atraso = 15** → mail a la responsable y al founder: "decidir si se pausa el acceso".
+4. Actualizar `Último escalado` = hoy.
 
 ## 3. Mapeo de campos
 
-| Origen (evento del calendario) | Destino (Airtable) | Transformación |
+| Origen (Cuotas) | Destino (mail o mensaje) | Transformación |
 |---|---|---|
-| Invitado · mail | Contactos · Mail | minúsculas, sin espacios |
-| Invitado · nombre | Contactos · Nombre | |
-| Descripción · "Teléfono" | Contactos · Teléfono | sólo números, con código de país |
-| Inicio del evento | Oportunidades · Fecha de llamada | zona horaria del negocio |
-| Descripción · "¿Qué te gustaría resolver?" | Oportunidades · Motivo de consulta | texto |
-| Link de agenda usado (tipo de evento) | Oportunidades · Canal de origen | "Llamada · IG" → Instagram · "Llamada · Ads" → Pauta · "Llamada · Ref" → Referido · otro → Sin dato |
-| Dueño del calendario | Oportunidades · Closer | buscar colaborador por mail |
+| Alumno (vínculo) | Nombre del alumno | **Lookup** `Nombre del alumno` (el vínculo mandaría `rec…`) |
+| Alumno → Mail | Destinatario | Lookup de texto |
+| Cuota | "Cuota 2 de 3" | tal cual |
+| Monto (USD) | "US$ 1.100" | formato moneda |
+| Vencimiento | "15/10" | formato D/M |
+| Link de pago | Botón "Pagar" | tal cual |
 
-## 4. Prompt de IA
+## 4. Canal de aviso
 
-No hace falta. (Si más adelante se quiere un resumen del formulario para el closer, se agrega un paso de IA con salida de máximo 3 líneas y la regla de no agregar nada que no esté en las respuestas.)
+El equipo vive en WhatsApp y Airtable no manda WhatsApp solo. Por eso:
+- **Al alumno:** mail (plan Team, hasta 100 por día a personas de afuera: alcanza).
+- **A la responsable:** mail con un link `wa.me` que abre WhatsApp con el mensaje ya escrito. El link sale del campo fórmula `Mensaje WhatsApp`: `"https://wa.me/" & {WhatsApp} & "?text=" & ENCODE_URL_COMPONENT("Hola " & {Nombre del alumno} & ", te escribo por la cuota " & {Cuota} & "…")`.
+- Un toque y el mensaje sale desde el número del negocio. Si más adelante quieren que salga solo, es la alternativa en n8n con un proveedor de la API de WhatsApp.
 
-## 5. Si algo falla
+## 5. Prompt de IA
 
-| Falla | Qué hace el flujo | Quién se entera |
+No hace falta.
+
+## 6. Si algo falla
+
+| Falla | Qué hace | Quién se entera |
 |---|---|---|
-| El evento no tiene mail de invitado | No crea nada; manda aviso a #operaciones con el link del evento | Operaciones |
-| Airtable no responde | Reintenta 3 veces cada 5 minutos; si sigue fallando, aviso a #operaciones | Operaciones |
-| El contacto existe dos veces con el mismo mail | Usa el más reciente y avisa para limpiar el duplicado | Operaciones |
-| El evento se reprograma | Este flujo no lo toma (es sólo para eventos nuevos). Se agrega un segundo flujo en una etapa 2 | — |
+| La cuota no tiene link de pago | La vista "🤖 Vence en 3 días" excluye las que no tienen link; una vista aparte "⚠️ Cuotas sin link" | Coordinación, en la revisión de los lunes |
+| El alumno no tiene mail | El mail no sale; Airtable marca la corrida con error | La coordinadora (activó la automatización) |
+| Se pagó el mismo día del aviso | Llega el aviso igual. El texto dice "si ya pagaste, ignorá este mensaje" | — |
+| Alguien cambia el filtro de una vista 🤖 | Se corta el aviso. La descripción de cada vista dice "No tocar: la usa la automatización X" | — |
 
-## 6. Plan de prueba
+## 7. Plan de prueba
 
-1. Crear una agenda de prueba con tu propio mail desde cada link (IG, Ads, Ref) y verificar el canal de origen en Airtable.
-2. Agendar dos veces con el mismo mail: tiene que actualizar el contacto y crear **dos** oportunidades.
-3. Crear un evento interno ("Reunión de equipo"): no tiene que pasar nada.
-4. Agendar sin teléfono: el contacto se crea igual, con el teléfono vacío.
-5. Verificar que el mensaje de Slack llegue al closer correcto.
+1. Crear un alumno de prueba con tu propio mail y una cuota que venza en 3 días → tiene que llegar el mail y completarse `Aviso previo enviado`.
+2. Cambiar la cuota a Vencida → se asigna "Cobros" y llega el mail con el botón de WhatsApp (abrilo: el texto tiene que estar completo).
+3. Poner `Días de atraso` = 7 (cambiando el vencimiento) → llega el segundo contacto. Con 15 → llega también al founder (usá tu mail como founder en la prueba).
+4. Casos raros: cuota sin link, alumno sin mail, cuota ya pagada.
+5. Borrar los registros de prueba.
 
-## 7. Guía de armado (n8n, nodo por nodo)
+## 8. Guía de armado (Airtable)
 
-1. **Disparador de Google Calendar** · evento creado · calendario "Llamadas de venta".
-2. **IF** · título empieza con "Llamada ·" **y** hay invitado externo.
-3. **Set / Edit fields** · arma los campos limpios (mail en minúsculas, canal de origen según el tipo de evento).
-4. **Airtable · Search** · tabla Contactos · fórmula de búsqueda por mail.
-5. **IF** · ¿encontró registro?
-   - Sí → **Airtable · Update** (Contactos).
-   - No → **Airtable · Create** (Contactos).
-6. **Merge** · junta las dos ramas para seguir con el ID del contacto.
-7. **Airtable · Create** · tabla Oportunidades, vinculada al contacto, etapa = Agenda.
-8. **Slack · Send message** · canal #agendas, con mención al closer.
-9. **Error workflow** · un flujo aparte que avisa a #operaciones si cualquier nodo falla.
+1. En Cuotas, crear los campos de la sección 1 y la fórmula de WhatsApp.
+2. Crear las tres vistas con el emoji 🤖 y la descripción "No tocar el filtro".
+3. Automatizaciones → Crear → disparador "Cuando un registro entra en una vista" → tabla Cuotas → vista "🤖 Vence en 3 días".
+4. Acción "Enviar un mail" → destinatario: el lookup del mail → asunto y cuerpo con los campos.
+5. Acción "Actualizar registro" → el ID del registro del disparador → `Aviso previo enviado` = fecha de hoy.
+6. Probar con el registro de prueba (botón de probar en cada paso) → activar.
+7. Repetir para "vencida" y "escalado" (en escalado, usar "Agregar grupo con condición").
+8. En la descripción de cada automatización: qué hace, dueño (Coordinación de servicio) y qué campos y vistas no se renombran.
 
-Los nombres de los nodos pueden variar según la versión de n8n: si alguno no aparece así, buscá la función equivalente. Las credenciales de Google, Airtable y Slack se cargan en el gestor de credenciales de n8n, con el permiso mínimo (en Airtable, un token sólo para esta base).
+Los nombres de los menús pueden cambiar: si alguno no aparece así, buscá la función equivalente.
 
-## 8. Cómo apagarla
+## 9. Cómo apagarla
 
-En n8n, abrir el flujo "Agenda nueva al CRM" y desactivarlo (interruptor de activo). Mientras esté apagada, los setters vuelven a cargar a mano con la plantilla de siempre.
+En Automatizaciones, apagar el interruptor de cada una. Mientras están apagadas, la coordinadora revisa la vista "Vencidas" los lunes y miércoles, como hoy.
+
+## 10. La siguiente, por impacto
+
+**Recordatorios de llamada de venta.** La asistencia a las llamadas está en 64 % (36 no-shows de 100 en el último mes). Con 4 recordatorios (al agendar, 24 h antes, a primera hora y 1 h antes) los negocios del programa suelen recuperar una parte de esas llamadas; con que vuelvan 5 por mes y se cierre 1 de cada 3, son casi 2 ventas más. Plataforma: primero los recordatorios nativos de la agenda (gratis); si no alcanzan, Zapier o n8n.
 
 ---
 
-¿La armamos juntos nodo por nodo? Cuando funcione, documentala con la skill Constructor de SOP de Infonegocio (modo automatización).
+¿La armamos juntos paso a paso? Cuando funcione, documentala con la skill Constructor de SOP de Infonegocio (modo automatización).

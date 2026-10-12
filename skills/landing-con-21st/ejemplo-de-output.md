@@ -1,136 +1,127 @@
 # Ejemplo de output · Constructor de Landing con 21st.dev
 
-> Datos ficticios. Caso práctico: **Programa Libertad Freelance** (finanzas y precios para freelancers, vendido por llamada). El copy final y el brief de marca salieron de la skill Arquitecto de Landing de Alto Ticket. El negocio usa GoHighLevel para el calendario y los mails, y quiere pegar la página ahí. La persona tiene VS Code con Claude Code y nunca usó Node.js.
+> Datos ficticios. Caso práctico: **Programa Libertad Freelance** (finanzas y precios para freelancers, vendido por llamada). El copy final, la oferta, el avatar y el brief de marca salieron de la skill Arquitecto de Landing de Alto Ticket. El negocio usa GoHighLevel para el calendario y los mails, y quiere pegar la página ahí. La persona usa Claude en la app y nunca usó Node.js.
 
 ---
 
 # Construcción · Página de agenda · Programa Libertad Freelance · Camino B
 
+## Los inputs
+
+| Input | Qué se usó |
+|---|---|
+| Copy final | El entregable del Arquitecto, 7 secciones + gracias |
+| Oferta y avatar | Del mismo entregable: freelancers de diseño y desarrollo con clientes recurrentes; punto A "cobro lo mismo hace dos años" |
+| Referencias visuales | Captura de una landing de un estudio contable (fondo crema, serif grande, un solo acento) + el Instagram del programa |
+| Referencias de estructura | Tablero del Investigador: hero en dos columnas con video y calendario, mecanismo en 3 pasos, grilla de 4 testimonios |
+| Links reales | Calendario de GoHighLevel y WhatsApp sí; logo `[PENDIENTE]` |
+
 ## Por qué camino B
 
-La página va **adentro del constructor que ya paga el negocio** (bloque de HTML personalizado), y la persona no maneja un proyecto React. 21st.dev se usa **como inspiración**: mirás dos componentes y Claude escribe versiones propias en HTML y CSS. No se copia código de 21st.
-
-## Qué necesitás instalar
-
-| Qué | ¿Lo tenés? |
-|---|---|
-| VS Code con la extensión Claude Code | Sí |
-| Node.js, cuenta y key de 21st.dev | No hacen falta en este camino |
-| El copy final y el brief de marca | Sí |
-| Link del calendario de GoHighLevel, número de WhatsApp, URL del logo | Calendario y WhatsApp sí; logo `[PENDIENTE]` |
+La página va **adentro del constructor que ya paga el negocio** (elemento Custom Code de GoHighLevel) y la persona no maneja un proyecto React. 21st.dev se usa **como referencia visual**: Claude escribe sus versiones en HTML y CSS.
 
 ## El plan
 
-```
-libertad-freelance-landing/
-├── CLAUDE.md          (reglas del proyecto: un CTA, sin menú, mobile-first, nada inventado)
-├── copy.md            (el copy final, pegado tal cual)
-├── index.html         (la página de agenda, autocontenida)
-├── gracias.html       (la página de gracias, autocontenida)
-└── CREDITOS.md        (componentes de 21st que se miraron como inspiración, con su link)
-```
+| Sección | Referencia de 21st.dev | Qué tomamos |
+|---|---|---|
+| Hero (video + calendario) | [Heroes](https://21st.dev/community/components/s/hero) · [Backgrounds](https://21st.dev/community/components/s/background), por ejemplo `@kokonutd/background-paths` | Líneas suaves en movimiento detrás del título, en el verde de la marca, muy tenues |
+| Problema | `@jahed/spotlight-card` | Las 3 frases en tarjetas que se iluminan donde pasa el mouse (en el celular, quietas) |
+| Mecanismo | `@ibrandify/scroll-timeline` | Línea vertical que se llena al hacer scroll y enciende cada paso |
+| Prueba | [Testimonials](https://21st.dev/community/components/s/testimonials) | Grilla de 2 × 2 con video y frase corta, sin carrusel |
+| Para quién es / no | [Comparisons](https://21st.dev/community/components/s/comparison) | Dos columnas lado a lado, mismo peso visual |
+| FAQ | `@ln-dev7/faqs-01` | Acordeón centrado, un "+" que gira |
+| CTA final | [Calls to Action](https://21st.dev/community/components/s/cta) | Botón con un brillo que lo recorre cada pocos segundos |
 
-Secciones de `index.html`, en orden: hero (video + calendario) · problema · mecanismo · prueba (grilla de 4 videos) · para quién es / no es · FAQ (acordeón) · CTA final (calendario).
+**Momentos de movimiento (3):** la línea del mecanismo, las tarjetas del problema y el brillo del botón. Todo lo demás aparece con un fade corto al hacer scroll. Con "reducir movimiento" activado en el celular, la página queda quieta y se ve entera.
 
-Inspiración en 21st.dev (se miran, no se instalan): un hero en dos columnas con video y un acordeón de FAQ simple. En `CREDITOS.md` va el link de cada uno: `[link del componente que elegiste]`.
-
-## El prompt inicial para Claude Code
-
-Activá el modo Plan y pegá:
+## Paso 1 · El prompt inicial
 
 ```
 Vamos a construir la landing de agenda del Programa Libertad Freelance.
-Leé copy.md (el texto final, no lo cambies) y CLAUDE.md (las reglas).
+Te paso: el copy final (no lo cambies), la oferta y el avatar, la captura de referencia
+visual, el tablero de estructura y estas referencias de 21st.dev por sección: [la tabla].
 
-Camino: HTML autocontenido para pegar en un bloque de HTML personalizado de GoHighLevel.
-- Un solo archivo index.html con estilos y script adentro.
-- Todos los estilos scopeados bajo la clase .lf para no chocar con el constructor.
-- Tipografías: Fraunces (títulos) e Inter (texto) desde Google Fonts.
-- Colores: #1F3D2B, #F6F1E7, #141414 y #D9A441 solo en botones.
-- Un solo CTA (el calendario). Sin menú, sin footer con redes.
-- Mobile-first: probalo pensando en 390 px de ancho.
-- Todo lo editable en un objeto CONFIG al final del script, con los campos que te paso.
-- Lo que no existe todavía (testimonios, logo) va como [PENDIENTE] visible.
-- Hero en dos columnas inspirado en un componente de 21st.dev que te describo; escribí
-  tu propia versión, no copies código.
+Camino: HTML autocontenido para pegar en un Custom Code de GoHighLevel.
+- Un solo archivo con estilos y script. Estilos bajo la clase .lf.
+- Fraunces (títulos) e Inter (texto). Colores #1F3D2B, #F6F1E7, #141414 y #D9A441 solo en botones.
+- Un solo CTA (el calendario). Sin menú ni redes. Mobile-first (390 px).
+- Los efectos de 21st, en tu propia versión con CSS y JS sin librerías. Respetá prefers-reduced-motion.
+- Todo lo editable en un objeto CONFIG al final. Lo que no existe va como [PENDIENTE] visible.
 
-Primero mostrame el plan: secciones, qué va en el CONFIG y cómo se ve en el celular.
-No crees archivos hasta mi OK.
+Primero el plan. Después armala como artefacto para verla.
 ```
+
+## Paso 2 · El artefacto
+
+Claude muestra la página en un artefacto al costado del chat. Ahí se ve y se ajusta, sin tocar GoHighLevel.
+
+| Ronda | Qué mirás | Ejemplo de pedido |
+|---|---|---|
+| 1 · Celular | ¿En el primer pantallazo se entiende qué es, para quién y qué hacer? ¿El fondo distrae del título? | "Las líneas del fondo, la mitad de intensas" |
+| 2 · Compu | ¿El calendario se ve entero al lado del video? ¿La línea del mecanismo se llena a buen ritmo? | "La línea que termine de llenarse en el paso 3, no antes" |
+| 3 · Detalle | Pendientes visibles, acordeón, botón de WhatsApp en gracias, la página con "reducir movimiento" | "En gracias, el botón tiene que abrir WhatsApp con el mensaje del CONFIG" |
+
+El calendario no carga dentro del artefacto (la vista previa no deja traer páginas de afuera): se prueba en el paso 4.
 
 ## El CONFIG
 
 ```js
 const CONFIG = {
-  marca: {
-    nombre: "Libertad Freelance",
-    colorPrincipal: "#1F3D2B",
-    colorAcento: "#D9A441",
-    logoUrl: ""                      // [PENDIENTE] URL pública del logo
-  },
+  marca: { nombre: "Libertad Freelance", colorPrincipal: "#1F3D2B", colorAcento: "#D9A441", logoUrl: "" }, // [PENDIENTE] logo
   ctaTexto: "Agendá tu llamada de diagnóstico",
-  calendario: "https://[tu-calendario-de-ghl]",   // el embed del calendario
+  calendario: "https://[tu-calendario-de-ghl]",
   webhookUrl: "",                    // no hay formulario propio: el calendario ya registra
-  whatsapp: {
-    numero: "5490000000000",         // número ficticio
-    mensaje: "Hola, agendé la llamada de diagnóstico. Me dedico a ___ y lo que más me preocupa de mis precios es ___."
-  },
+  whatsapp: { numero: "5490000000000", mensaje: "Hola, agendé la llamada de diagnóstico. Me dedico a ___ y lo que más me preocupa de mis precios es ___." },
   videoUrl: "",                      // [PENDIENTE] link directo del video del founder
-  testimonios: [                     // [PENDIENTE] 4 videos con permiso
-    { videoUrl: "", frase: "", rol: "" }
-  ],
-  utm: ["utm_source", "utm_medium", "utm_campaign", "utm_content"], // se pasan al embed del calendario
+  movimiento: true,
+  utm: ["utm_source", "utm_medium", "utm_campaign", "utm_content"], // se pasan al calendario
   noCalifica: { campo: "", valores: [], destinoUrl: "" }             // no aplica: el negocio no tiene criterio escrito
 };
 ```
 
 ## El archivo completo
 
-En camino B la skill entrega el `index.html` **entero**: en Claude Code lo crea como archivo después del OK al plan; en el chat lo da completo en un bloque. Acá se muestra solo el esqueleto, por largo:
+En camino B la skill entrega el `index.html` **entero** (en el artefacto y en un bloque para copiar). Acá, por largo, el esqueleto:
 
 ```html
 <style>
 .lf{ /* variables de color desde el CONFIG */ }
-.lf [hidden]{display:none!important}  /* para que los botones no pisen hidden */
-/* ... estilos de cada sección, todos bajo .lf ... */
+.lf [hidden]{display:none!important}
+@media (prefers-reduced-motion: reduce){ .lf *{animation:none!important;transition:none!important} }
+/* hero con líneas · tarjetas con luz · línea de tiempo · grilla · acordeón · botón con brillo */
 </style>
-<div class="lf">
-  <!-- hero: video + calendario · problema · mecanismo · prueba · para quién · FAQ · CTA final -->
-</div>
+<div class="lf"> <!-- las 7 secciones --> </div>
 <script>
 const CONFIG = { /* el de arriba */ };
-/* lee los utm de la URL y los suma al link del calendario; muestra [PENDIENTE] si falta un dato */
+/* un IntersectionObserver para el fade y la línea; la luz de las tarjetas solo con mouse */
 </script>
 ```
 
-Para pegarlo en GoHighLevel: copiá desde `<style>` hasta el último `</script>` en un bloque de HTML personalizado.
+## Paso 3 · Cómo migrarlo a GoHighLevel
 
-## Rondas de revisión
+1. En el funnel, una sección de ancho completo y sin padding, una fila, una columna, un elemento **Custom Code**.
+2. Pegá desde `<style>` hasta el último `</script>`.
+3. En la configuración de la página: título, descripción y *noindex* mientras sea borrador.
+4. Videos: subí cada MP4 a la biblioteca de medios de GoHighLevel y pegá su link directo en el CONFIG.
 
-| Ronda | Qué mirás en la captura | Ejemplo de pedido |
-|---|---|---|
-| 1 · Celular | ¿En el primer pantallazo se entiende qué es, para quién y qué hacer? | "En el celular el título ocupa 5 líneas: bajalo a 3 con un tamaño menor" |
-| 2 · Escritorio | ¿El calendario se ve entero al lado del video? ¿Hay un solo botón? | "El calendario queda cortado: dale más alto a la columna derecha" |
-| 3 · Detalle | Pendientes visibles, acordeón del FAQ, botón de WhatsApp en gracias | "El botón de gracias tiene que abrir WhatsApp con el mensaje del CONFIG" |
-
-Después de la tercera ronda, lo que siga va como pedido nuevo o al `CLAUDE.md`.
+**Si GoHighLevel limpia el script** y la línea o el acordeón no funcionan: subí la carpeta a **Netlify Drop** (app.netlify.com/drop) en una cuenta del negocio, conectá un subdominio y que el botón del funnel lleve ahí.
 
 ## Créditos
 
-`CREDITOS.md`: los dos componentes de 21st.dev que se usaron como inspiración, con el link de cada uno y su autor. No se copió código.
+`CREDITOS.md`: los componentes de 21st.dev mirados como referencia (`@kokonutd/background-paths`, `@jahed/spotlight-card`, `@ibrandify/scroll-timeline`, `@ln-dev7/faqs-01`), con su link. No se copió código.
 
 ## Lo que queda pendiente antes de publicar
 
 - URL pública del logo.
 - Video del founder y los 4 testimonios con permiso.
-- Probar el embed del calendario con una reserva de prueba, con `?utm_source=instagram` en la URL.
+- Probar en la página publicada el calendario con una reserva de prueba y `?utm_source=instagram` en la URL.
 
 ## Supuestos a validar
 
 | Supuesto | Con quién | Cómo |
 |---|---|---|
-| El bloque de HTML personalizado de GoHighLevel acepta `<script>` en el plan que paga el negocio | Quien administra GoHighLevel | Pegar el archivo en una página de prueba sin publicar |
+| El Custom Code de GoHighLevel corre `<script>` en el plan del negocio | Quien administra GoHighLevel | Pegar el archivo en una página de prueba sin publicar |
 
 ---
 
-¿La pasamos por **Revisor de Landing y Publicación** antes de pegarla en GoHighLevel?
+¿La pasamos por **Revisor de Landing y Publicación** antes de publicarla?

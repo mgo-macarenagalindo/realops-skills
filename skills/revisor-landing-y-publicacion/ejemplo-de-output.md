@@ -1,78 +1,104 @@
 # Ejemplo de output · Revisor de Landing y Publicación
 
-> Datos ficticios. Caso práctico: **Programa Libertad Freelance**, página de agenda construida como HTML autocontenido para pegar en GoHighLevel (camino B de la skill Constructor de Landing). El negocio es cliente de la persona que revisa. La pauta arranca el lunes 19/10.
+> Datos ficticios. Caso práctico: **Programa Libertad Freelance**, página de agenda construida con Constructor de Landing con 21st.dev (camino B) y pegada en un Custom Code de GoHighLevel. Está publicada hace 14 días con pauta en Meta. El negocio es cliente de la persona que revisa.
 
-**Lo que pasó la persona:** el `index.html` y el `gracias.html`, capturas del celular (claro y oscuro), el link del calendario y que las reservas tienen que aparecer en el CRM de GoHighLevel con la fuente del lead.
+**Lo que pasó la persona:** el link publicado, el entregable del Arquitecto (oferta, avatar y copy), el texto de los 2 anuncios activos y la captura de las estadísticas del funnel de GoHighLevel. Conectó el MCP de HighLevel a la subcuenta del cliente con permisos de lectura.
 
 ---
 
 # Revisión · Página de agenda · Programa Libertad Freelance · 14/10
 
-## Veredicto: NO SALE (todavía)
+## Cómo la revisé
 
-Dos críticos sin resolver. Los dos se arreglan en menos de una hora.
+- **Link publicado**, abierto en el navegador en 390 px y en 1440 px.
+- **MCP de HighLevel** (lectura): contactos, oportunidades y calendario de los últimos 14 días.
+- **Captura** de las estadísticas del funnel (el conector no trae vistas por página).
+- **No pude ver:** scroll ni clics (no hay Clarity ni Google Analytics instalados).
+
+## Veredicto: SALE CON AJUSTES
+
+Funciona de punta a punta y no hay nada inventado. Pero en 14 días convirtió 2,1 % y las métricas muestran dónde se cae: la gente que llega del anuncio de video no pasa del primer pantallazo. Ajustes de abajo antes de subir presupuesto.
+
+## Métricas (30/09 al 13/10)
+
+| | Anuncio A · video "Subí tus precios" | Anuncio B · carrusel "3 errores al cobrar" | Total |
+|---|---|---|---|
+| Visitas (estadísticas del funnel, por UTM) | 610 | 340 | 950 |
+| Reservas (calendario, MCP) | 6 | 14 | 20 |
+| Conversión de la página | 1,0 % | 4,1 % | 2,1 % |
+| Celular | 91 % | 84 % | 88 % |
+
+**Dónde se cae la gente:** el anuncio A trae casi el doble de visitas y convierte 4 veces menos. Su texto promete "subí tus precios esta semana con un mensaje"; la página habla de un programa de 6 meses. Es el punto 10 (anuncio = página). Sin datos de scroll no puedo confirmar en qué sección se van: instalar Clarity (punto 22).
 
 ## Crítico
 
 | # | Punto | Estado | Qué pasa | Cómo se arregla |
 |---|---|---|---|---|
-| 1 | Un solo CTA | ✅ | Todo lleva al calendario. Sin menú | — |
-| 2 | Primer pantallazo en el celular | ✅ | Título, subtítulo y botón visibles sin scroll | — |
-| 3 | El CTA funciona | ✅ | El botón del hero baja al calendario | — |
-| 4 | Formulario probado | — | No aplica: el calendario es el formulario | — |
-| 5 | Agenda probada | ❌ no verificado | Nadie hizo una reserva de prueba | Reservar con un mail de prueba, confirmar que entra al calendario y al CRM con la fuente, que sale el mail de confirmación, y cancelar |
-| 6 | Celular real | ✅ | Probado en un teléfono: sin scroll horizontal | — |
-| 7 | Nada inventado | ❌ | El testimonio 3 tiene una frase pero no hay registro del permiso de esa persona | Conseguir el permiso por escrito o sacar ese testimonio (la grilla queda de 3) |
-| 8 | Cero `[PENDIENTE]` | ✅ | — | — |
+| 1 | Un solo CTA | ✅ | Todo lleva al calendario | — |
+| 2 | Primer pantallazo en el celular | ✅ | Título, bajada y botón sin scroll | — |
+| 3 | El CTA funciona | ✅ | — | — |
+| 4 | Formulario probado | ✅ | Reserva de prueba del 13/10: contacto creado con nombre, mail, teléfono y `utm_content` (MCP) | — |
+| 5 | Lo que pasa después (agenda directa) | ✅ | La reserva entró al calendario del closer y salió la confirmación | — |
+| 6 | Automatización detrás | ✅ | Workflow de GoHighLevel en la subcuenta del negocio; asigna en rueda a los 2 closers actuales | — |
+| 7 | Celular real | ✅ | — | — |
+| 8 | Nada inventado | ✅ | Los 4 testimonios tienen permiso registrado | — |
+| 9 | Cero `[PENDIENTE]` | ✅ | — | — |
 
 ## Mayor
 
 | # | Punto | Estado | Qué pasa | Cómo se arregla |
 |---|---|---|---|---|
-| 9 | Prueba cerca de la decisión | ✅ | Testimonios justo antes del segundo calendario | — |
-| 10 | Velocidad | ⚠️ | La foto del fondo del hero pesa 3,8 MB | Comprimirla a menos de 300 KB o sacarla |
-| 11 | Videos | ❌ | El video del hero abre en otra pestaña | Usar el link directo del archivo desde la biblioteca de medios del constructor |
-| 12 | Gracias con un paso | ✅ | Un solo botón de WhatsApp con mensaje precargado | — |
-| 13 | UTMs | ❌ no verificado | No se probó si la fuente llega al CRM | Abrir la página con `?utm_source=prueba&utm_medium=test` y reservar: el contacto tiene que quedar con esa fuente |
-| 14 | Modo oscuro | ✅ | — | — |
-| 15 | Datos personales | ⚠️ | El calendario pide teléfono y mail, pero no hay aviso de privacidad | Agregar debajo del calendario el texto de privacidad que usa el negocio |
-| 16 | Dominio y candado | — | Se verifica al publicar | — |
+| 10 | Anuncio = página | ❌ | El anuncio A promete un resultado "esta semana" que el programa no sostiene | Cambiar el anuncio, no la página: que prometa lo mismo que el hero (6 meses, tabla de precios) |
+| 11 | Le habla al avatar | ✅ | El problema usa frases de las llamadas; "para quién no es" antes del calendario | — |
+| 12 | Estructura que vende | ✅ | Promesa, dolor, mecanismo en 3 pasos, FAQ con objeciones reales | — |
+| 13 | Prueba cerca de la decisión | ✅ | — | — |
+| 14 | Urgencia real | ✅ | No usa urgencia (no hay fecha de cierre) | — |
+| 15 | Marca coherente | ⚠️ | El botón usa el verde de la marca, igual que los títulos: no se distingue | El mostaza `#D9A441` del brief, solo en botones |
+| 16 | Diseño con dirección | ✅ | Se reconoce la referencia: fondo crema, serif grande | — |
+| 17 | Dinamismo | ⚠️ | La página es quieta de punta a punta | Dos momentos: la línea del mecanismo que se llena al hacer scroll y la luz en las tarjetas del problema (referencias de 21st en el Constructor) |
+| 18 | Fotos y videos | ❌ | No hay foto de la founder y el anuncio A es un video de ella: quien llega no la reconoce | Foto real en "Quién te guía" y el mismo video arriba |
+| 19 | Velocidad | ⚠️ | PageSpeed en celular: la imagen del hero pesa 2,4 MB | Comprimirla a menos de 300 KB |
+| 20 | Videos | ✅ | Link directo de la biblioteca de medios | — |
+| 21 | Gracias con un paso | ✅ | Botón de WhatsApp con mensaje precargado | — |
+| 22 | UTMs y medición | ⚠️ | Los UTMs llegan; no hay medición de scroll ni de clics | Instalar Microsoft Clarity (gratis) en el código de seguimiento del funnel |
+| 23 | Modo oscuro | ✅ | — | — |
+| 24 | Datos personales | ✅ | Aviso de privacidad debajo del calendario | — |
+| 25 | Dominio y candado | ✅ | `agenda.<dominio-del-cliente>` con https; el dominio está en la cuenta del cliente | — |
 
 ## Menor
 
 | # | Punto | Estado | Qué pasa |
 |---|---|---|---|
-| 17 | Ortografía y tratamiento | ⚠️ | En el FAQ aparece "puedes" (tuteo) en una página con voseo |
-| 18 | Título y imagen al compartir | ❌ | La pestaña dice "Document" y no hay imagen para compartir |
-| 19 | Contraste | ✅ | — |
-| 20 | Favicon y logo | ⚠️ | Sin favicon |
+| 26 | Ortografía y tratamiento | ⚠️ | "puedes" en la FAQ 4, en una página con voseo |
+| 27 | Pestaña, imagen al compartir, favicon | ❌ | Sin imagen al compartir el link |
+| 28 | Contraste y logo | ✅ | — |
+
+## Fotos y videos que faltan
+
+| Qué | Dónde va | Quién lo consigue |
+|---|---|---|
+| Foto de la founder (real, buena luz) | Quién te guía | La founder |
+| El video del anuncio A, en versión de 60 segundos | Hero | Editor |
+| Imagen para compartir (1200 × 630) | Configuración de la página | Diseño |
 
 ## Pruebas que faltan hacer
 
-1. Reserva de prueba de punta a punta (punto 5).
-2. Link con UTMs + reserva, y ver la fuente en el CRM (punto 13).
-3. Después de pegarla en GoHighLevel, repetir las dos pruebas en la página publicada.
+Ninguna de funcionamiento. Después de los cambios, repetir la reserva de prueba con UTMs en la página publicada.
 
 ## Dónde publicarla
 
-**Recomendado: el constructor del negocio (GoHighLevel), en una página nueva con un bloque de HTML personalizado.**
-
-- Por qué: el calendario, el CRM y los mails ya viven ahí; no se suma hosting ni costo, y queda en la cuenta del cliente.
-- Paso a paso:
-  1. En el constructor, crear una página nueva en el funnel de agenda, sin cabecera ni menú.
-  2. Agregar un bloque de HTML personalizado y pegar `index.html` entero. Repetir con `gracias.html` en la página siguiente del funnel.
-  3. En el CONFIG, completar el embed del calendario y verificar el número de WhatsApp.
-  4. Conectar el dominio del negocio a esa página (o usar el subdominio que ya usa para funnels).
-  5. Publicar y hacer las 3 pruebas de abajo.
-
-No conviene Vercel con el plan gratuito: es para uso personal, no comercial.
+Ya está bien publicada: GoHighLevel del cliente, dominio del cliente.
 
 ## Después de publicar
 
-1. Botón y reserva de prueba **en la página publicada**.
-2. Abrirla en el celular con datos móviles (no wifi).
-3. Link con UTMs → reserva → la fuente aparece en el CRM.
+1. Cambios de arriba → reserva de prueba en la página publicada, con datos móviles y un link con UTMs.
+2. Clarity instalado desde hoy.
+3. **Volver a revisar con 7 días más o 100 visitas por anuncio**, comparando la conversión del anuncio A antes y después del cambio.
+
+## Para confirmar
+
+- [SUPUESTO: el anuncio A se puede cambiar sin pausar la campaña, confirmalo con quien maneja la pauta].
 
 ---
 
-¿Te armo el mensaje para el founder con lo que hay que conseguir antes del lunes (el permiso del testimonio 3 y el texto de privacidad)?
+¿Te armo el mensaje para la founder con la foto, el video y el cambio del anuncio A?

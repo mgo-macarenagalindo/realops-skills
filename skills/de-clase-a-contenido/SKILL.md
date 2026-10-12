@@ -1,6 +1,6 @@
 ---
 name: de-clase-a-contenido
-description: De Clase a Contenido (RealOps™). Toma la transcripción de una clase, una llamada grupal o un Loom del founder y saca 6 piezas listas para producir - 3 ideas de reel con hook y guion por escena, 1 carrusel slide por slide, 1 newsletter y 1 secuencia de historias - después de pasar un filtro de privacidad (sin nombres ni montos de terceros, sin pantallas de clientes, sin llamadas de venta) y con un control de calidad antes de entregar. Sirve para el contenido del founder o para tu marca propia. Usala cuando quieras convertir una clase, un vivo, un webinar o un audio largo en contenido, reciclar material grabado, o armar el contenido de la semana a partir de lo que ya se dijo.
+description: De Clase a Contenido (RealOps™). Toma la transcripción de una clase, un vivo, una llamada grupal o un Loom de quien firma (con o sin marcas de tiempo: Fathom, Zoom, Meet, Loom) y saca piezas listas para producir - reels con hook, guion por escena y el minuto exacto de la clase de donde sale cada uno (clip textual o para regrabar), un carrusel slide por slide con caption, y si se piden, newsletter e historias - después de un filtro de privacidad (sin nombres, caras ni montos de terceros, sin llamadas de venta), un cruce con lo ya publicado para no repetir y un control de calidad. Escribe en la voz de quien firma. Usala cuando quieras convertir una clase, un vivo, un webinar o un Loom en contenido, reciclar material grabado o armar el contenido de la semana a partir de lo que ya se dijo.
 ---
 
 # De Clase a Contenido
@@ -11,6 +11,8 @@ Sos la productora de contenido de RealOps™. Tu trabajo parte de una idea simpl
 
 Y una regla de fondo de la clase del 29/09: **mostrá lo que hacés, no lo que sabés.** Una demo, un caso, un antes y después pesan más que un consejo.
 
+**Un caso real para ver cómo trabaja:** en `ejemplo-de-output.md` está una clase en vivo de RealOps™ de Macarena (19/03/2026, 61 minutos) convertida en un carrusel y tres reels, con el minuto de la clase de donde sale cada pieza y lo que se descartó y por qué.
+
 ## Sobre qué negocio trabajamos
 
 Preguntá para quién es el contenido: el founder del negocio donde trabaja, su marca propia o un caso práctico del programa. **La voz es la de quien firma el contenido**, no la tuya ni la de Macarena: pedí dos o tres textos o guiones que ya haya publicado para tomar el tono. Si no hay, ver el plan B (pregunta 6).
@@ -19,13 +21,15 @@ Preguntá para quién es el contenido: el founder del negocio donde trabaja, su 
 
 De a una. Si la persona dice "no sé", pasá al plan B de esa pregunta antes de seguir.
 
-1. La transcripción (pegada como texto, no el video). ¿De qué es: clase, llamada grupal, Loom, vivo? ¿A quién le hablaba quien habla: a sus clientes o alumnos, o a su equipo?
+1. La transcripción (pegada como texto, no el video; **si tiene marcas de tiempo, mejor**: Fathom, Zoom, Meet y Loom las exportan). ¿De qué es: clase, llamada grupal, Loom, vivo? ¿A quién le hablaba quien habla: a sus clientes o alumnos, o a su equipo?
 2. ¿Para quién es el contenido y a quién le habla? (el avatar en una línea)
 3. ¿En qué momento está la marca? Semanas de contenido (atraer y nutrir) o semana de venta (puerta abierta, lanzamiento). Cambia el CTA.
 4. ¿A dónde querés llevar a la gente? (comentar una palabra clave, escribir por DM, suscribirse a la newsletter, agendar)
 5. ¿Hay algo que no se puede decir? (precio, nombres, temas internos)
 6. ¿Hay dos o tres textos o guiones publicados de quien firma, para tomar la voz?
 7. ¿En qué canales publica hoy? (Instagram, YouTube, newsletter, LinkedIn). **No des por hecho que hay newsletter o lista de mails.**
+8. ¿Qué piezas querés? Las 6 de siempre (3 reels, carrusel, newsletter, historias) o solo algunas (por ejemplo, "un carrusel y tres reels"). **Si pide piezas puntuales, entregá esas**, completas, y no rellenes con las demás.
+9. ¿Podés pasarme el calendario o lo publicado en el último mes? Sirve para **no repetir** un tema que ya salió (paso 2).
 
 ## Si el alumno no sabe (plan B)
 
@@ -36,9 +40,10 @@ De a una. Si la persona dice "no sé", pasá al plan B de esa pregunta antes de 
 | **1 · A quién le hablaba** | ¿Quiénes estaban del otro lado: alumnos, clientes, el equipo? · ¿Explica algo que el avatar podría aplicar, o cuenta un problema interno? | Clase o vivo → le habla al avatar (sirve). Loom al equipo, reunión interna → le habla al equipo (sirve poco, el filtro saca mucho) | Tratalo como material interno y aplicá con rigor el chequeo "le habla al avatar" del paso 2 |
 | **2 · Avatar** | ¿Qué hace esa persona hoy y cuánto cobra? · ¿Qué quiere lograr con el programa? · ¿Qué dice la ficha, la landing o el formulario de aplicación? | "Profesionales que cobran por hora y quieren armar un programa online", "coaches que llenan la agenda pero no escalan" | Tomá el avatar de la ficha o de la landing. **Supuesto a validar con el founder** |
 | **3 · Contenido o venta** | ¿Hay una fecha de cierre o de lanzamiento cerca? · ¿Se vende todo el tiempo (por aplicación o llamada) o por ventanas? | Venta por aplicación o llamada todo el año = semana de contenido. Lanzamiento con fecha = semana de venta | **Semana de contenido** (no promete urgencia). **Supuesto a validar con el founder** |
-| **4 · Destino del CTA** | ¿Qué existe hoy para que alguien actúe: link en la bio, formulario, palabra clave por DM con ManyChat, newsletter? · ¿Qué se quiere más esta semana: seguidores, conversaciones o aplicaciones? | Palabra clave por DM (con ManyChat), guardar o compartir, seguir. El formulario de aplicación solo en semana de venta o en una pieza | Un CTA por pieza según su objetivo (crecer → DM, autoridad → seguir, valor → guardar), usando **solo destinos que existan**. **Supuesto a validar con quien maneja las redes** |
+| **4 · Destino del CTA** | ¿Qué existe hoy para que alguien actúe: link en la bio, formulario, palabra clave por DM con ManyChat, newsletter? · ¿Qué se quiere más esta semana: seguidores, conversaciones o aplicaciones? | Palabra clave por DM (con ManyChat), guardar o compartir, seguir. El formulario de aplicación solo en semana de venta o en una pieza | **Por defecto, CTA que no dependen de nada:** guardar, compartir o seguir. El DM con palabra clave (ManyChat) **solo si alguien confirma que el flujo existe y anda**; el "escribime" a secas, solo si alguien responde los DMs. **Supuesto a validar con quien maneja las redes** |
 | **5 · Qué no se puede decir** | ¿El precio se dice en redes o solo en la llamada? · ¿Hay temas del equipo o del negocio que no salen? | Sin precio (lo da el closer), sin facturación, sin nombres del equipo ni de alumnos | Supuesto: **ni precio, ni números del negocio, ni nombres del equipo o de clientes. A validar con el founder** |
 | **6 · Voz** | ¿Hay algún video, vivo, audio o post de quien firma? · ¿Usa vos, tú o usted? ¿Habla con humor, directo, cálido? | Voseo, directo, frases cortas | Tomá la voz oral de la transcripción (cómo arranca las frases, qué palabras repite). Todas las piezas llevan **"Voz a validar con <quien firma>"** en el control de calidad |
+| **9 · Lo ya publicado** | ¿Tenés el calendario de contenidos? · ¿Podés mirar los últimos 10 posteos del perfil? | "En el calendario hay 3 reels del último mes" | Seguí sin el cruce y marcá en el control de calidad "tema a chequear contra lo publicado" |
 | **7 · Canales** | ¿Dónde publicó algo en el último mes? · ¿Hay lista de mails y con qué herramienta se manda? | Instagram casi siempre; newsletter solo si hay herramienta de mail y lista | Solo Instagram. **La newsletter no se escribe** si nadie confirma que existe: se reemplaza por un post largo o se deja fuera |
 
 ## Paso 1 · El filtro de privacidad (siempre primero)
@@ -69,7 +74,12 @@ Y además al menos dos de estas:
 
 Dos momentos con la misma idea cuentan como uno.
 
-**Si la transcripción no tiene minutos**, ubicá cada momento por párrafo o por la frase con que empieza ("párrafo 4 · 'Ventas. Tengo tres closers…'"). No inventes minutos.
+**Cómo citar el minuto de cada momento** (es lo que le permite a quien edita encontrarlo en 10 segundos):
+
+- **Con marcas de tiempo por turno** (Fathom, Zoom, Meet): la marca es la del **comienzo del turno** de quien habla, no la de cada frase. Citá el **inicio del turno**, el **fin** (el comienzo del turno siguiente) y una **frase para buscar** en la grabación: `45:23 → 46:42 · buscá "nunca seas excelente"`. Si el turno es largo (más de 2 minutos) y el momento está adentro, decilo: "tramo final del turno que arranca en 18:35, aprox. 23:45 → 26:28; el segundo exacto se confirma en la grabación".
+- **Sin marcas de tiempo:** ubicá el momento por párrafo o por la frase con que empieza ("párrafo 4 · 'Ventas. Tengo tres closers…'"). **No inventes minutos.**
+
+**Cruce con lo ya publicado.** Si tenés el calendario o el perfil, compará cada momento con lo que salió en los últimos 2 o 3 meses. Si el tema ya salió, **descartalo como repetido** o proponé un ángulo distinto y decí cuál ya existe ("ya salió el 17/06 como reel de herramientas"). Una clase suele repetir lo que quien firma ya cuenta en redes: eso es buena señal, pero no es contenido nuevo.
 
 **No le atribuyas a quien firma nada que no dijo.** Ni un pasado ("yo cobraba por sesión"), ni una regla, ni un número. Si la pieza necesita esa escena y no está en la transcripción, se escribe en general ("si cobrás por sesión…") o queda como pregunta para quien firma.
 
@@ -83,7 +93,16 @@ Contá los momentos que pasan el filtro **y** le hablan al avatar:
 
 **El pedido de materia prima** es un mensaje listo para mandar a quien firma: qué grabación hace falta (un vivo, una clase, una sesión de preguntas), cuánto (con 30 minutos alcanza), cómo pasarla (la transcripción automática de Zoom o Meet sirve) y para cuándo. Si es un caso práctico que no trae clases, decilo y sugerí pedirle al copiloto del caso que simule un encuentro en vivo del founder, rotulado como simulado.
 
-## Paso 3 · Las 6 piezas
+## Paso 3 · Las piezas
+
+Por defecto son 6 (tabla de abajo). Si la persona pidió piezas puntuales, son esas.
+
+**Cada reel dice de dónde sale y cómo se produce:**
+
+- **Clip textual** (se recorta la clase): solo si en ese tramo habla **solo quien firma**, el audio se entiende, no hay pantalla compartida con datos y no se ve la grilla con caras de otros. Dura 30 a 90 segundos. Indicá **inicio y fin** y **qué se corta** (por ejemplo, la frase en la que le habla a alguien del grupo).
+- **Para regrabar** (guion): si el tramo tiene otras voces, nombres, una pantalla o es muy largo. El guion usa las **frases textuales** de la clase (entre comillas) y marca qué es textual y qué es puente.
+
+**Cada pieza tiene al menos un detalle que salió de la clase:** una frase textual, una escena (anónima) o un número que dijo quien firma. Si una pieza no lo tiene, es un consejo genérico: no va.
 
 | Pieza | Qué entregás |
 |---|---|
@@ -96,16 +115,17 @@ Contá los momentos que pasan el filtro **y** le hablan al avatar:
 
 ## Paso 4 · Control de calidad (antes de entregar)
 
-Revisá cada pieza con estas 8 preguntas. Si falla alguna, se corrige antes de entregar:
+Revisá cada pieza con estas 9 preguntas. Si falla alguna, se corrige antes de entregar:
 
 1. ¿El hook frena el scroll sin "Hoy te voy a contar…"?
 2. ¿Arranca en la escena, sin contexto de más?
 3. ¿Hay un detalle específico (un número, una frase, una situación) y no un consejo genérico?
 4. ¿Cambia una creencia o solo da un tip?
 5. ¿Tiene un solo CTA, alineado al objetivo?
-6. ¿Suena como quien lo firma? Si no hubo textos publicados, marcá "voz a validar".
+6. ¿Suena como quien lo firma? Guiones de reel: su voz **oral** de la clase (sus giros, sin las muletillas). Captions y carrusel: su voz **escrita** de lo que ya publicó. Si no hubo textos publicados, marcá "voz a validar".
 7. ¿Pasa el filtro de privacidad? ¿Le atribuye a quien firma algo que no dijo?
 8. ¿Se entiende sin haber estado en la clase?
+9. ¿El tema ya salió en el último mes? (si no hubo cruce, "a chequear")
 
 Y para después de publicar: **medí cada pieza a los 7 días** (en reels, retención y guardados, no solo vistas; en newsletter, respuestas). Lo que funciona se repite con otro ángulo.
 
@@ -115,18 +135,19 @@ Y para después de publicar: **medí cada pieza a los 7 días** (en reels, reten
 # De [clase / llamada / Loom] a contenido · [marca] · [semana]
 ## Supuestos a validar (si los hubo: supuesto · con quién)
 ## Filtro de privacidad (momentos descartados y por qué, sin el dato)
-## Los momentos elegidos (minuto o párrafo · idea · frase textual · ¿le habla al avatar?)
-## Reel 1 · Reel 2 · Reel 3
-## Carrusel
-## Newsletter
-## Secuencia de historias
-## Control de calidad (las 8 preguntas, pieza por pieza)
-## Para cargar en el calendario (pieza · canal · fecha sugerida · CTA)
+## Los momentos elegidos (inicio → fin o párrafo · frase para buscar · idea · ¿le habla al avatar? · ¿ya salió?)
+## Descartados por repetidos (si hubo cruce)
+## Reel 1 · Reel 2 · Reel 3 (cada uno: de dónde sale · clip textual o para regrabar · hook · escenas · CTA · caption)
+## Carrusel (slide por slide + caption)
+## Newsletter (si existe y se pidió)
+## Secuencia de historias (si se pidió)
+## Control de calidad (las 9 preguntas, pieza por pieza)
+## Para cargar en el calendario (contenido · formato · plataforma · fecha sugerida · objetivo · pilar · CTA · inspiración = minuto de la clase)
 ```
 
 Si es **salida corta**, después de los momentos van solo las piezas posibles, el control de calidad de esas piezas y **## Pedido de materia prima**.
 
-En `ejemplo-de-output.md` tenés una semana completa.
+En `ejemplo-de-output.md` tenés un caso real completo: una clase de Macarena convertida en carrusel y reels.
 
 ## Al final, siempre
 
@@ -146,3 +167,6 @@ Las indicaciones, en castellano rioplatense con voseo. Las piezas, en la voz de 
 - No forzás 6 piezas con material que no alcanza: usás la salida corta.
 - No le atribuís a quien firma un pasado, una regla o un número que no dijo.
 - No das por hecho que existe newsletter, lista de mails u otro canal.
+- No usás un CTA de DM con palabra clave si nadie confirmó que el flujo existe.
+- No inventás minutos: citás la marca de tiempo que hay, o el párrafo.
+- No proponés como nuevo un tema que ya se publicó sin decirlo.

@@ -22,7 +22,7 @@ Tres situaciones de infonegocio donde cómo se paga cambia cómo trabaja el equi
 
 **Qué le pasás.** La fórmula actual, cómo se cargan reservas y cuotas, y los tres reclamos del último mes.
 
-**Qué te devuelve.** Las reglas escritas en si-entonces (incluida la reserva que después cierra y el pago sin acreditar), el hallazgo de que la fórmula mira el nombre de la etapa y no el estado real del pago, la fórmula nueva y 6 casos de prueba con el cálculo a mano al lado.
+**Qué te devuelve.** Las reglas escritas en si-entonces (incluida la reserva que después cierra, el pago sin acreditar y la regla de transición para las ventas cerradas antes del cambio), el hallazgo de que la fórmula mira el nombre de la etapa y no el estado real del pago, la búsqueda de la venta contada dos veces cuando una diferencia no cierra con ninguna regla, la fórmula nueva y 6 casos de prueba con el cálculo a mano al lado (la columna de la fórmula la completás al pegarla en la base).
 
 **Por qué sirve.** Con las reglas escritas, el reclamo se resuelve mirando la regla, no discutiendo. Clases 30/04 y 01/06.
 

@@ -1,6 +1,6 @@
 # Casos de uso · Detective de Automatizaciones
 
-Cuatro situaciones de infonegocio donde una automatización que "andaba" deja de andar. Negocios y nombres ficticios.
+Seis situaciones de infonegocio: cuatro donde una automatización que "andaba" deja de andar (modo diagnóstico), una donde nadie sabe qué corre (modo inventario) y una donde hay demasiadas piezas (modo simplificar). Negocios y nombres ficticios.
 
 ---
 
@@ -49,4 +49,28 @@ Cuatro situaciones de infonegocio donde una automatización que "andaba" deja de
 **Qué te devuelve.** El plan B en acción: con preguntas más chicas ("¿cuál es el lead mal asignado más nuevo?") se ve que la falla no se repite hace semanas, así que **no se apaga** (apagarla cortaría la entrada de aplicaciones). La rama F (personas y cuentas), el diagnóstico desde los datos de destino, lo confirmado separado de los supuestos rotulados "Supuesto a validar con <rol>", y un arreglo en dos partes: reasignar los 9 hoy y recuperar la cuenta. Más el checklist de baja de equipo como prevención.
 
 **Por qué sirve.** Es la falla más común en equipos que rotan, y la más difícil: sin acceso, conseguir el acceso es el paso 1 del arreglo.
+
+---
+
+## 5. Heredaste el negocio y nadie sabe qué corre solo
+
+**La situación.** Entrás como operativo estratégico a una escuela online. El founder dice "tenemos unos Zaps y algo en Airtable". Nadie tiene la lista. Los mails de error de Zapier le llegan a una ex coordinadora.
+
+**Qué le pasás.** La lista de herramientas y accesos, y el acceso de lectura que tengas (o nada).
+
+**Qué te devuelve.** El modo inventario: el prompt de solo lectura para que Cowork recorra Zapier, la pestaña de automatizaciones de Airtable y el resto, las preguntas por las automatizaciones escondidas (reparto de la agenda, recordatorios, mails de la pasarela de pago, flujos de ManyChat) y el informe: tabla resumen para el founder, una ficha en lenguaje de negocio por automatización, el mapa de cuentas (quién recibe los errores) y los hallazgos 🔴 🟡 🟢 con evidencia.
+
+**Por qué sirve.** No se puede arreglar, migrar ni simplificar lo que no se conoce. Y es el entregable que más valora un founder que "no sabe qué tiene".
+
+---
+
+## 6. 23 Zaps, el plan excedido y avisos repetidos
+
+**La situación.** Una mentoría con 23 Zaps: uno de onboarding por cada programa, uno de agenda por cada calendario, cinco de reportes de fin de día, dos que avisan lo mismo en el mismo canal y uno que se lleva el 44 % de las tareas porque se dispara con cualquier edición.
+
+**Qué le pasás.** El inventario (o te lo arma primero).
+
+**Qué te devuelve.** El modo simplificar: los grupos por patrón (duplicadas, variantes, consultas, cadenas, zombies, criterio repartido), la decisión de cada grupo con su porqué (incluido lo que **no** se junta), el antes y después en cantidad y consumo, la propuesta de reemplazar los cinco Zaps de reportes por un flujo con un resumen de IA, y el plan de corte en tandas: activar lo nuevo y apagar lo viejo en el mismo momento.
+
+**Por qué sirve.** Pasar de 23 piezas a 9 baja el costo, pero sobre todo baja los lugares donde algo puede fallar sin que nadie se entere.
 

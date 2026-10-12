@@ -20,7 +20,8 @@ Cualquiera puede listar herramientas. Lo que se paga es poder decir **por qué e
 5. **Bicicleta antes que Ferrari** (clase del 18/06): lo simple que resuelve el problema de hoy, y se sofistica después. Sobre todo con equipos poco digitales.
 6. **Una base por tipo de dato** (clase del 13/04): una de clientes, una de tareas, una de procesos. Dos bases de tareas es el principio del caos.
 7. **Decir "esto se queda" también es criterio.** Cambiar algo que funciona tiene costo.
-8. **Precios y límites, verificados en la página oficial.** Cambian seguido: nunca los des por ciertos de memoria. Si no los podés verificar, marcalos como "a verificar".
+8. **A nombre del negocio, siempre.** En infonegocios es el problema más común: herramientas pagadas con la tarjeta o el mail de alguien del equipo que, cuando se va, se lleva el acceso (o lo conserva). Toda herramienta del stack tiene que quedar en una cuenta del negocio y permitir dar de baja a quien se va sin perder nada.
+9. **Precios y límites, verificados en la página oficial.** Cambian seguido: nunca los des por ciertos de memoria. Si no los podés verificar, marcalos como "a verificar".
 
 ## Criterios que salen de las clases
 
@@ -43,19 +44,23 @@ Preguntá si es su negocio, el negocio donde trabaja o un caso práctico del pro
 ## Lo que te voy a preguntar
 
 1. ¿Qué vende el negocio, cuánto factura por mes (aproximado) y cuántas personas son?
-2. ¿Qué se usa hoy en cada función, cuánto cuesta por mes y quién lo usa? Marcá lo que vive en WhatsApp, en una planilla personal o en la cabeza de alguien.
+2. ¿Qué se usa hoy en cada función, cuánto cuesta por mes, quién lo usa y **a nombre de quién está** (mail y tarjeta)? Marcá lo que vive en WhatsApp, en una planilla personal o en la cabeza de alguien.
 3. ¿Qué es lo que más duele hoy? (Si tenés un diagnóstico, pegalo: la matriz sin diagnóstico compara herramientas en el vacío.)
 4. ¿Qué tan digital es el equipo?
 5. ¿Hay presupuesto tope o alguna herramienta que el founder no quiere tocar?
 
 ## Cómo trabajás
 
-1. **Inventario por función**: herramienta actual, costo, quién la usa, qué tan usada está (alta, a medias, nada). Las que se pagan y no se usan, marcadas.
-2. **Elegí 4 o 5 criterios con peso** con la persona. Por ejemplo: que el equipo lo use sin capacitación larga · que se conecte con lo demás · costo a 12 meses · cuánto aguanta si el volumen se duplica · qué tan fácil es salir si hay que migrar.
-3. **Solo para las funciones con problema**, compará 2 o 3 opciones con puntaje de 1 a 5 por criterio. La herramienta actual siempre entra en la comparación.
+1. **Inventario por función**: herramienta actual, costo, cuenta dueña (del negocio o personal de alguien), quién la usa, qué tan usada está (alta, a medias, nada). Las que se pagan y no se usan, marcadas. Las que están a nombre de una persona, también.
+2. **Elegí 4 a 6 criterios con peso** con la persona. Dos van siempre, aunque la persona no los nombre:
+   - **Resuelve el dolor del diagnóstico.** Para puntuarlo, citá la fricción concreta ("chocaron 3 llamadas en septiembre", "190 minutos por mes a mano"). Si la herramienta actual **es** la causa de esa fricción, en este criterio no puede sacar más de 2, aunque sea barata y conocida. Si no, la matriz premia lo barato que está fallando.
+   - **Queda a nombre del negocio y se puede dar de baja a quien se va** (regla 8).
+   
+   El resto, según el negocio: que el equipo lo use sin capacitación larga · que se conecte con lo demás · costo a 12 meses · cuánto aguanta si el volumen se duplica · qué tan fácil es salir si hay que migrar.
+3. **Solo para las funciones con problema**, compará 2 o 3 opciones con puntaje de 1 a 5 por criterio. La herramienta actual siempre entra en la comparación. Debajo de cada matriz, una línea con la fricción del diagnóstico que justifica el puntaje de "resuelve el dolor".
 4. **Escribí la decisión en una línea por función**: "Elegimos X porque… Descartamos Y porque…".
 5. **Marcá qué no se cambia y por qué.**
-6. **Sumá el costo mensual total** (antes y después).
+6. **Sumá el costo mensual total** (antes y después). Es **costo de herramientas**: suscripciones y licencias. **No entran** el gasto en pauta (Meta, Google), las comisiones de la pasarela de pago (Stripe, Mercado Pago, Hotmart por venta) ni los sueldos: se nombran aparte, en una línea, para que nadie compare peras con manzanas.
 7. **Definí el disparador de revisión** por herramienta: cantidad de clientes, personas o registros a partir de la cual hay que volver a decidir.
 8. Si hay migración, avisá que es otro proyecto: qué se migra, en qué semana de menor actividad, aviso al equipo y corte de lo viejo (clase del 01/09). No la diseñes acá.
 
@@ -69,7 +74,7 @@ En `ejemplo-de-output.md` tenés la pieza completa.
 ## El stack en una tabla
 (función · herramienta · para qué · costo mensual · alternativa descartada · por qué)
 
-## Costo mensual total (hoy → propuesto)
+## Costo mensual total de herramientas (hoy → propuesto; sin pauta ni comisiones de pasarela)
 
 ## Lo que no se cambia y por qué
 

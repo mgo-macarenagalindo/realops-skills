@@ -1,39 +1,51 @@
-# Casos de uso · Portafolio: de caso interno a pieza externa
+# Casos de uso · Revisor de Piezas de Portafolio
 
-Tres situaciones donde esta skill te deja mostrar tu trabajo sin meterte en problemas. Personas y negocios ficticios.
-
----
-
-## 1. El CRM que armaste en el programa high ticket donde trabajás
-
-**La situación.** Armaste el CRM de ventas y cobros del programa donde sos coordinadora. Bajaron las cuotas vencidas a la mitad. Querés usarlo en una entrevista, pero la base tiene nombres, mails y montos de alumnos reales.
-
-**Qué le pasás.** La descripción de lo que armaste, los números de antes y después y si firmaste algo de confidencialidad.
-
-**Qué te devuelve.** La checklist de qué cambiar (montos a porcentajes, capturas de una copia con datos de prueba, el negocio descrito en genérico), el caso en media página y el semáforo: 🟡 mostrar en entrevistas, no en público, porque el nicho es chico.
-
-**Por qué sirve.** Tu mejor trabajo deja de quedar escondido por miedo a mostrarlo mal. Es el paso 2 de la Actividad 30.
+Cuatro situaciones donde esta skill te dice si una pieza está lista y qué cambiar. Personas y negocios ficticios.
 
 ---
 
-## 2. Un caso práctico del programa (no tenés negocio propio)
+## 1. Terminaste el diagnóstico sobre el caso práctico
 
-**La situación.** Hiciste el diagnóstico y el customer journey sobre un caso práctico de RealOps™. Te preocupa que "no cuente" porque no es un cliente real.
+**La situación.** Hiciste el Mapa de Diagnóstico Operativo sobre el caso práctico del programa y no sabés si está bien antes de llevarlo a la consultoría de los jueves.
 
-**Qué le pasás.** Las piezas que hiciste sobre el caso.
+**Qué le pasás.** El mapa completo y para qué lo querés.
 
-**Qué te devuelve.** El caso rotulado con honestidad ("caso práctico") y con el foco donde importa: qué decisiones tomaste y por qué. Sin disfrazarlo de cliente.
+**Qué te devuelve.** La rúbrica del mapa criterio por criterio (✅ / 🟡 / ❌, con la cita de tu documento y cómo arreglar lo que falta), el veredicto, los 3 cambios que más lo mejoran y la ficha corta rotulada como caso práctico. Como trajiste una sola pieza, te sugiere cuál hacer después para que la historia cierre.
 
-**Por qué sirve.** Mostrar criterio sobre un caso de práctica, dicho como tal, genera más confianza que un "cliente" inventado. Y el paso de anonimizar es más corto: los datos ya son de ejemplo.
+**Por qué sirve.** Llegás a la consultoría con la pieza mejorada y con preguntas más finas.
 
 ---
 
-## 3. Una automatización de un cliente freelance
+## 2. El CRM que armaste donde trabajás
 
-**La situación.** Le armaste a un cliente un flujo en n8n que da accesos y manda la bienvenida cuando se confirma una venta. Querés publicarlo en tu página.
+**La situación.** Armaste el CRM de ventas y cobros del programa donde sos coordinadora. Lo querés mostrar en una entrevista, pero la base tiene nombres y montos de alumnos.
 
-**Qué le pasás.** El flujo, qué resolvió y el tiempo del pago al primer acceso antes y después.
+**Qué le pasás.** Capturas o una descripción de tablas y vistas, y si firmaste algo de confidencialidad.
 
-**Qué te devuelve.** La pieza con capturas sugeridas del flujo sin credenciales ni datos de clientes, el caso escrito y el semáforo. Si el cliente es reconocible, 🔴 hasta tener su permiso, con un mensaje sugerido para pedírselo.
+**Qué te devuelve.** La rúbrica del CRM (tres tablas vinculadas, facturado separado de cobrado, vistas por rol…), el chequeo de lo mostrable (montos a %, capturas de una copia con datos de prueba) con su semáforo, y la ficha corta lista para tu CV.
 
-**Por qué sirve.** Publicar sin permiso un trabajo de un cliente rompe la confianza que te trajo ese cliente. Esto te da el camino corto para hacerlo bien.
+**Por qué sirve.** Mostrás tu mejor trabajo sin romper la confianza de quien te contrató.
+
+---
+
+## 3. "Lo hice para un cliente" (pero es el caso práctico)
+
+**La situación.** Querés mostrar el SOP de cuota vencida como trabajo para un cliente. El documento dice "Método Alto Impacto", el negocio del caso práctico.
+
+**Qué le pasás.** El SOP.
+
+**Qué te devuelve.** Antes de revisar la calidad, el freno: es un caso práctico y se presenta como tal. Cuando aceptás el rótulo, la revisión completa.
+
+**Por qué sirve.** Un caso práctico bien contado suma; uno disfrazado de cliente, en la primera pregunta de una entrevista, resta todo.
+
+---
+
+## 4. No sabés cuáles son las piezas ni qué te falta
+
+**La situación.** Estás en el mes 5 y perdiste la cuenta de qué actividades eran piezas de portafolio.
+
+**Qué le pasás.** "No sé cuáles son mis piezas."
+
+**Qué te devuelve.** La tabla de las 8 piezas (y la 30, que las junta) con qué demuestra cada una y qué skill la construye, tu inventario (terminada · a medias · falta) y por cuál conviene seguir.
+
+**Por qué sirve.** Te ubica en dos minutos y te dice el próximo paso.

@@ -1,132 +1,135 @@
 # Ejemplo de output · Calendario de Contenidos del Equipo
 
-> Datos ficticios. Caso práctico: **Academia Habla Ya**, programa online de inglés conversacional para adultos. Equipo de contenido: founder (aparece en cámara y aprueba), una community manager (publica y carga métricas), un editor de video freelance y una diseñadora freelance. Trabajan en Notion. 10 piezas por semana en Instagram, YouTube y mail.
+> Datos ficticios. Caso: **Mesa Clara**, mentoría grupal de alimentación para mujeres que entrenan. Equipo de contenido: la founder (tiene las ideas, escribe, graba y aprueba) y una community manager (diseña, edita, escribe captions y publica). Publican en Instagram y en YouTube. **Trabajan en Google Sheets**: es lo único que las dos usan todos los días y la founder no quiere sumar herramientas.
 
-**Lo que contó la persona:** las piezas se coordinan por un grupo de WhatsApp; el founder aprueba "en lote" los domingos cuando puede; las métricas de Instagram y de YouTube se cargan en dos planillas distintas.
+**Lo que contó la persona:** las ideas están en las notas del celular de la founder y en los guardados de Instagram; los guiones se mandan por WhatsApp; la CM nunca sabe qué se publica la semana que viene; un carrusel esperó 8 días a que la founder lo mirara. Nadie carga métricas.
 
 ---
 
-# Sistema de contenidos · Academia Habla Ya
+# Sistema de contenidos · Mesa Clara
 
 ## Lo que encontramos en el relevamiento
 
-| Pieza | Idea → producción | Producción → revisión | En revisión | Revisión → publicación |
+| Pieza | Idea → guion | Guion → edición | En revisión | Revisión → publicación |
 |---|---|---|---|---|
-| Reel "3 errores al presentarte" | 1 día | 3 días | **7 días** | 1 día |
-| Carrusel "frases para reuniones" | 2 días | 2 días | **9 días** | 0 días |
-| Video largo "cómo pensar en inglés" | 3 días | 5 días | **6 días** | 2 días |
+| Carrusel "Qué comer antes de entrenar" | 2 días (guion por WhatsApp) | 3 días | **8 días** | 1 día |
+| Reel "El error del domingo" | 1 día | 2 días (crudo por WhatsApp, comprimido) | **4 días** | 0 días |
+| Video de YouTube "Mi semana de comidas" | 5 días | 6 días | **6 días** | 2 días |
 
-El cuello está en la **aprobación en lote**: las piezas esperan entre 6 y 9 días a que el founder las mire. Además, la versión final está en el chat y nadie sabe cuál es.
+**Dónde se traba:** en la revisión (4 a 8 días) y en el pasaje de materiales por chat. La founder revisa "cuando puede", en lote, y la CM no sabe qué versión es la final.
 
 ## Herramienta
 
-**Notion**, porque el equipo ya lo usa y el copy y el diseño se pueden trabajar dentro de la página de cada pieza.
+**Google Sheets**, en una planilla del Drive del negocio "Contenidos Mesa Clara". Las dos la saben usar y no suma costo. Como Sheets no avisa sola, **cada vez que una pieza cambia de mano, quien la pasa deja un comentario con @mención** al nuevo Owner.
 
-## La base
+## La base (pestaña "Piezas")
 
-| Campo | Tipo | Opciones o nota |
+| Columna | Tipo | Opciones o nota |
 |---|---|---|
-| Pieza | Título | "Reel · 3 errores al presentarte" |
-| Canal | Selección | Instagram · YouTube · Mail |
-| Formato | Selección | Reel · Carrusel · Video largo · Newsletter · Historias |
-| Estado | Estado | Idea · En producción · En revisión · Listo · Publicado · Medido |
-| Responsable | Persona | Quien la mueve hoy |
-| Aprueba | Persona | Founder (una sola persona) |
+| Contenido | Texto | "Reel: el error del domingo" |
+| Estado | Desplegable | Idea · En pausa · En redacción · En grabación · En edición · En revisión · Para publicar · Publicado |
+| Formato | Desplegable | Reel · Carrusel · Video largo · Clip · Post estático |
+| Plataforma | Texto (una o varias) | Instagram · YouTube · YouTube Shorts |
 | Fecha de publicación | Fecha | |
-| Objetivo | Selección | Atraer · Nutrir · Vender |
-| Brief | Texto | Plantilla de abajo, dentro de la página |
-| Materiales | URL | Carpeta del video crudo o del diseño |
-| Link publicado | URL | Al pasar a Publicado |
-| Métrica a 7 días | Relación | Con la respuesta del formulario de métricas |
+| Objetivo | Desplegable | Atraer · Nutrir · Convertir · Prueba social |
+| Pilar | Desplegable | Cómo comer (técnico) · Lo que te pasa (dolor) · Mi historia (personal) |
+| CTA | Texto | Una sola acción |
+| Owner | Desplegable | Founder · CM. Quien la tiene que mover **ahora** |
+| Aprueba | Fijo | Founder |
+| Inspiración | Link | Reel guardado, idea de las notas |
+| Guion o copy | Link | Doc de la pieza (en la carpeta del negocio) |
+| Materiales | Link | Carpeta de la pieza en el Drive del negocio |
+| Entró a revisión | Fecha | La escribe quien pasa la pieza a "En revisión" |
+| Link publicado | Link | Al publicar |
+| Métrica a 7 días | Texto | Retención y guardados (reel) · guardados y compartidos (carrusel) |
 
-## Estados y reglas (para pegar arriba de la base)
+**Pestaña "Plantillas"** (se copia en el doc de cada pieza): *Reel:* HOOK · GUION · CAPTION · TAGS. *Carrusel:* texto slide por slide · CAPTION · link al Canva. *YouTube:* guion · título (pensado para la búsqueda) · grabar · editar · descripción con links · miniatura · subir con subtítulos.
+
+**Pestaña "Ideas":** nombre de la idea · tipo (fórmula u opinión polémica) · link. Los guardados de Instagram en la carpeta "Hacer" se pasan acá en la reunión semanal.
+
+## Estados y reglas (para pegar en la fila 1 de la planilla)
 
 ```
 CÓMO SE MUEVE UNA PIEZA
-1. Cualquiera carga ideas en "Idea".
-2. Los lunes se eligen las ideas de la semana siguiente y pasan a
-   "En producción", con responsable, fecha y brief completo.
-3. Copy y diseño se trabajan DENTRO de la página de la pieza.
-   Nada de versiones por WhatsApp.
-4. Completa, pasa a "En revisión". Lo que entra antes del martes
-   a las 18 lo revisa el founder el jueves de 10 a 12.
-5. Aprobada → "Listo". Con cambios → vuelve a "En producción"
-   con el comentario en la página.
-6. La community programa lo que está en "Listo" y lo pasa a
-   "Publicado" con el link.
-7. A los 7 días, la community carga el formulario de métricas
-   y la pieza pasa a "Medido".
-Una pieza pasa a "Listo" si tiene: copy final, diseño o edición
-final, canal, fecha y link a materiales.
+1. Toda idea va a la pestaña Ideas. Nada de notas del celular.
+2. En la reunión del jueves se eligen las piezas de la semana siguiente.
+3. Cada vez que cambia el Estado, cambia el Owner, y quien la pasa
+   deja un comentario con @mención al nuevo Owner.
+4. Crudos y diseños, en la carpeta de la pieza del Drive del negocio.
+   Nada por WhatsApp.
+5. Lo que entra a "En revisión" hasta el martes, la founder lo revisa
+   el miércoles de 15 a 17. Feedback en el doc o el Canva (en video,
+   con minuto y segundo).
+6. Una pieza pasa a "Para publicar" con: copy final, diseño o edición
+   final, plataforma, fecha, CTA y link a materiales.
 ```
+
+## La grilla de la semana
+
+| | Lun | Mar | Mié | Jue | Vie | Sáb | Dom |
+|---|---|---|---|---|---|---|---|
+| Instagram | Reel · Dolor · CTA seguir | | Carrusel · Técnico · CTA guardar | Reel · Personal · CTA DM | | Clip de YouTube · CTA ver el video | (opcional) post humano |
+| YouTube | | | | | Video largo (cada 15 días) | | |
+
+4 piezas por semana en Instagram y un video largo cada dos semanas. Hoy publican 2 o 3: la grilla se cumple desde la tercera semana. *Supuesto a validar con la founder: el video largo cada 15 días.*
+
+## El proceso por formato
+
+| Formato | Recorrido |
+|---|---|
+| Carrusel | Founder elige la idea → **En redacción** (texto slide por slide en el doc) → **En edición**, Owner CM (diseña en la plantilla de Canva, deja caption y link con permiso para comentar) → **En revisión**, Owner founder (comenta en Canva) → **Para publicar**, Owner CM → **Publicado** |
+| Reel | Founder → **En redacción** (guion) → **En grabación** (sube el crudo a *Videos crudos* y deja el link) → **En edición**, Owner CM (edita, caption, **borrador en Instagram**) → **En revisión**, Owner founder (lo mira en el borrador) → **Publicado** |
+| Video largo | Founder guion y título → grabación a *Videos crudos – YouTube* → CM edita, miniatura, sube a *Videos editados – YouTube* → founder deja feedback con minuto y segundo → **Para publicar** → CM sube con título, descripción, miniatura y subtítulos → **Publicado** |
+| Clips | Primer viernes del mes, la CM mira la retención de los videos de YouTube y crea **una fila por clip** ("Clip: …") con link al video, minuto de inicio y fin y caption → edición en vertical (30 a 90 s) → revisión → **Publicado** (en qué red) |
 
 ## Las vistas
 
-- **Calendario mensual** por fecha de publicación, color por canal.
-- **Tablero por estado** (para la reunión de los lunes: qué está trabado).
-- **Lo mío** para editor, diseñadora y community (Responsable = yo · Estado ≠ Publicado, Medido).
-- **Para aprobar** para el founder (Estado = En revisión), ordenada por fecha de publicación.
+Vistas de filtro guardadas: **"Lo mío · Founder"** y **"Lo mío · CM"** (Owner = esa persona, Estado ≠ Publicado) · **"Para aprobar"** (Estado = En revisión) · **"Esta semana"** (fecha entre lunes y domingo).
+
+## Las reuniones
+
+- **Jueves · 20 minutos · planificación.** Ideas → elegir las de la semana siguiente → definir Owner de cada paso → confirmar fechas.
+- **Primer viernes del mes · 30 minutos · revisión.** Rendimiento por formato, temas que más funcionaron, si se cumplió la grilla, qué trajo consultas o ventas. Ajustar la grilla, repetir lo que funcionó con otro ángulo, sacar lo que no aporta.
 
 ## El flujo de revisión
 
-- **Aprueba:** solo el founder.
-- **Día fijo:** jueves de 10 a 12, en su **bloque protegido** (sin Slack ni WhatsApp). El mismo bloque se usa para grabar: martes de 9 a 11. Total: 4 horas por semana en su calendario.
-- **De a una pieza:** cada pieza es su propia página. Nada de "te mando las del mes".
-- **Si no llega a revisar algo el jueves,** esa pieza se corre una semana. No se aprueba por WhatsApp.
+Aprueba solo la founder, **de a una pieza**, los miércoles de 15 a 17 (su bloque protegido; graba los lunes de 15 a 17). *Supuesto a validar con la founder: días y horas.* Si no llega, la pieza se corre una semana: no se aprueba por WhatsApp a la noche.
 
 ## Plantilla de brief
 
 ```
 BRIEF · [pieza] · entrega: [fecha]
-Objetivo: atraer / nutrir / vender · CTA: [la acción]
-A quién le habla: adultos que estudiaron inglés años y no se animan a hablar
+Objetivo · CTA:
+Pilar:
+A quién le habla: mujeres que entrenan 3 o más veces por semana y comen "bien" pero no ven cambios
 La idea en una frase:
-Estructura: [escena por escena o slide por slide]
-Especificaciones: reel 9:16, 30-60 s, subtítulos quemados, logo abajo a la derecha
-Marca: [link al manual] · tono cercano, voseo · no se habla de precio
-Referencias: [1 o 2 links]
+Estructura (escena por escena o slide por slide):
+Especificaciones: [formato, medidas, duración, subtítulos]
+Marca: plantilla de Canva · tono cercano y directo · sin dietas ni "prohibidos"
+Inspiración:
+Carpeta de materiales:
 ```
 
 ## Formulario de métricas
 
-Uno solo, para Instagram, YouTube y mail. Lo carga la community, por pieza, a los 7 días de publicada.
-
-| Campo | Para qué formato |
-|---|---|
-| Pieza (vinculada a la base) | Todos |
-| Alcance o vistas | Todos |
-| Retención promedio o % que vio hasta el final | Reel, video largo |
-| Guardados · compartidos | Reel, carrusel |
-| Comentarios + DMs con la palabra clave | Reel, carrusel, historias |
-| Aperturas · clics · **respuestas** | Newsletter |
-| Leads atribuidos (palabra clave o UTM) | Todos |
-| Qué aprendimos (una línea) | Todos |
-
-Primeras 4 semanas: solo se carga. Recién en la reunión del lunes 09/11 se comparan tendencias y se fijan metas.
-
-## El ritmo de la semana
-
-| Día | Qué pasa |
-|---|---|
-| Lunes | Reunión de 30 min: tablero por estado + elegir las piezas de la semana siguiente |
-| Martes 9-11 | Bloque protegido del founder: grabación |
-| Martes 18 | Cierre de "En revisión" para el jueves |
-| Jueves 10-12 | Bloque protegido del founder: aprobación |
-| Viernes | La community programa lo que está en "Listo" |
-| Todos los días | La community carga métricas de las piezas que cumplen 7 días |
+Google Forms → pestaña "Métricas". Lo carga la CM a los 7 días de cada pieza: pieza · plataforma · vistas o alcance · retención (video) · guardados · compartidos · comentarios y DMs · consultas atribuidas · qué aprendimos. **Las primeras 4 semanas solo se carga:** no se fijan metas hasta tener historia.
 
 ## Cómo arrancar
 
-1. Crear la base con los campos y pegar las reglas arriba.
-2. Cargar las piezas de las próximas 2 semanas.
-3. Bloquear en el calendario del founder los dos bloques protegidos.
-4. Avisar en el grupo que desde el lunes las versiones van en la página de la pieza.
-5. Crear el formulario de métricas y probarlo con una pieza ya publicada.
+1. **Validar con la founder que publica la CM y que aprueba solo ella** (5 minutos). Recién ahí se crean las vistas "Lo mío".
+2. Crear la carpeta "Contenidos Mesa Clara" en el Drive del negocio con *Videos crudos*, *Videos editados – YouTube*, *Clips editados* y *Diseños*.
+3. Armar la planilla (Piezas, Grilla, Plantillas, Ideas, Métricas) y pegar las reglas.
+4. Cargar las piezas de las próximas dos semanas y agendar la reunión del jueves y la revisión mensual.
+5. Primera semana con la planilla andando; en la reunión del jueves, ajustar.
 
 ## Supuestos a validar
 
-Nada para validar: todos los datos los dio la persona (equipo, 10 piezas por semana, tiempos de las 3 piezas relevadas). Si alguno hubiera faltado, iría acá como supuesto, con quién lo confirma.
+| Supuesto | Cómo se valida | Con quién |
+|---|---|---|
+| Publica la CM; aprueba solo la founder | Preguntarle | Founder |
+| Video largo cada 15 días | Ver cuántos videos grabó en los últimos 2 meses | Founder |
+| Revisión miércoles 15-17, grabación lunes 15-17 | Mirar su agenda | Founder |
 
 ---
 
-¿Te armo el mensaje para presentarle el sistema al equipo y al founder?
+¿Te armo el mensaje para presentarle el sistema a la founder y a la CM, con el día de revisión y la reunión del jueves? Para llenar el calendario con piezas que salgan de una clase o un vivo, usá **De Clase a Contenido**.

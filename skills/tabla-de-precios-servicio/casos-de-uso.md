@@ -1,6 +1,6 @@
 # Casos de uso · Tabla de Precios de tu Servicio
 
-Tres situaciones donde esta skill te saca del "no sé cuánto cobrar". Personas y negocios ficticios.
+Cuatro situaciones donde esta skill te saca del "no sé cuánto cobrar". Personas y negocios ficticios.
 
 ---
 
@@ -20,9 +20,9 @@ Tres situaciones donde esta skill te saca del "no sé cuánto cobrar". Personas 
 
 **La situación.** Terminaste tu inventario de entregables y la semana que viene arrancás a mandar mensajes. Si alguien te pregunta "¿y cuánto sale?", no sabés qué decir.
 
-**Qué le pasás.** Tres servicios de tu inventario (uno chico, un proyecto y una continuidad), tus horas estimadas y a qué tipo de negocio apuntás.
+**Qué le pasás.** Qué modalidades querés ofrecer (un sprint de 1 o 2 semanas, un proyecto de 1, 2 o 3 meses, un fee mensual), tus horas estimadas y a qué tipo de negocio apuntás. Si no sabés cuánto querés ganar o no tenés un número, te propone un supuesto a la vista y te lo pregunta de otra forma.
 
-**Qué te devuelve.** La tabla de tres servicios con alcance, duración, precio, forma de pago y piso, más una frase por servicio para decirlo sin pedir perdón.
+**Qué te devuelve.** La tabla por modalidad con alcance, duración, precio, forma de pago y piso, contrastada con los pisos que se dieron en clase, lo mínimo que va por escrito en cada contrato y una frase por modalidad para decirlo sin pedir perdón.
 
 **Por qué sirve.** El precio se decide antes de la llamada, con calma. No en vivo, con nervios.
 
@@ -36,4 +36,16 @@ Tres situaciones donde esta skill te saca del "no sé cuánto cobrar". Personas 
 
 **Qué te devuelve.** La cuenta del proyecto, un precio cerrado con forma de pago, y la versión de fijo + variable + proyectos aparte por si la conversación pasa a ser sobre tu rol.
 
-**Por qué sirve.** Lo que hacés de más deja de ser un favor y pasa a tener precio. Y si querés pedir un ajuste de rol, la skill Pedido con Datos te ayuda a armarlo.
+**Por qué sirve.** Lo que hacés de más deja de ser un favor y pasa a tener precio. Y si querés pedir un ajuste de rol, la skill Coach de Conversaciones Difíciles (modo "pedir") te ayuda a armarlo.
+
+---
+
+## 4. Te ofrecieron un rol de Director/a de Operaciones
+
+**La situación.** Un founder con el que hiciste un proyecto te propone "llevarle las operaciones" medio tiempo por un monto mensual que, dividido por las horas, da menos de lo que ganás hoy.
+
+**Qué le pasás.** Las horas por semana, lo que te ofrecieron, cuánto factura y cobra el negocio y 2 o 3 dolores que el rol resuelve, con número.
+
+**Qué te devuelve.** La cuenta del piso del fijo y del valor del rol, una contrapropuesta de fijo + variable atado al cash collected (con base y tope) + proyectos aparte, la revisión a los 90 días con 3 KPIs, el total como porcentaje de la facturación y lo que tiene que quedar por escrito. Con la frase para decirlo.
+
+**Por qué sirve.** El rol es lo que más se regala: se acepta como si fuera un sueldo de asistente. Clase 29/06.
